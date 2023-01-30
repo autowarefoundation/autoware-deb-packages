@@ -15,6 +15,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ROS_DISTRO: humble
           DEB_DISTRO: jammy
-          SBUILD_CONF: |
-            use Dpkg::Build::Info;
-            $environment_filter = [Dpkg::Build::Info::get_build_env_allowed(), 'ROS_DISTRO'];
