@@ -8,7 +8,7 @@ on:
 
 jobs:
   generate-deb-packages:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - uses: jspricke/ros-deb-builder-action@main
         with:
