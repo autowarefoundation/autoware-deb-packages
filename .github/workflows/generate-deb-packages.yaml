@@ -1,0 +1,21 @@
+name: generate-deb-packages
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - feat/autoware-common
+
+jobs:
+  generate-deb-packages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: jspricke/ros-deb-builder-action@main
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ROS_DISTRO: humble
+          DEB_DISTRO: jammy
+          SBUILD_CONF: |
+            use Dpkg::Build::Info;
+            $environment_filter = [Dpkg::Build::Info::get_build_env_allowed(), 'ROS_DISTRO'];
