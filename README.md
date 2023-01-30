@@ -2,4 +2,4 @@
 
 See the readme in the release branch.
 
-- [jammy-humble](https://github.com/autowarefoundation/autoware-deb-packages/blob/jammy-humble/README.md)
+- [jammy-humble-release/2023.06](https://github.com/autowarefoundation/autoware-deb-packages/blob/jammy-humble-release/2023.06/README.md)
