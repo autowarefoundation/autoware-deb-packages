@@ -22,10 +22,10 @@ jobs:
         with:
           mode: start
           github-token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN_MFC }}
-          ec2-image-id: ami-0291cd890d07e3b8a
+          ec2-image-id: ami-044ac2f64df582e8f
           ec2-instance-type: t3.xlarge
-          subnet-id: subnet-aa30b5a4
-          security-group-id: sg-077f3dc71c060b826
+          subnet-id: subnet-4e5eb225
+          security-group-id: sg-02780d120ee4d06e1
           run-runner-as-service: true
           run-runner-as-user: ubuntu
   build-humble:
