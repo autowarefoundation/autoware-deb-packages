@@ -1,0 +1,74 @@
+name: generate-debs-aws
+
+on: push
+
+jobs:
+  start-runner:
+    name: Start self-hosted EC2 runner
+    runs-on: ubuntu-latest
+    outputs:
+      label: ${{ steps.start-ec2-runner.outputs.label }}
+      ec2-instance-id: ${{ steps.start-ec2-runner.outputs.ec2-instance-id }}
+    steps:
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+      - name: Start EC2 runner
+        id: start-ec2-runner
+        uses: esteve/ec2-github-runner@Optionally-execute-runner-as-a-service
+        with:
+          mode: start
+          github-token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
+          ec2-image-id: ami-0291cd890d07e3b8a
+          ec2-instance-type: t3.xlarge
+          subnet-id: subnet-aa30b5a4
+          security-group-id: sg-077f3dc71c060b826
+          run-runner-as-service: true
+          run-runner-as-user: ubuntu
+  build-humble:
+    name: Build Debian packages for Autoware (Humble)
+    needs: start-runner
+    runs-on: ${{ needs.start-runner.outputs.label }}
+    timeout-minutes: 1440
+    permissions:
+      deployments: write
+      contents: write
+      statuses: write
+      actions: write
+      checks: read
+    steps:
+      - uses: jspricke/ros-deb-builder-action@main
+        with:
+          ROSDEP_SOURCE: yaml https://s3.amazonaws.com/autonomoustuff-repo/autonomoustuff-public-humble.yaml
+          SBUILD_CONF: $extra_repositories = ["deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ jammy main"];
+          DEB_DISTRO: jammy
+          ROS_DISTRO: humble
+          REPOS_FILE: https://raw.githubusercontent.com/autowarefoundation/autoware/0d5c0c61f709d12e6ad19bed35234207c3a5f1a6/autoware.repos
+          # REPOS_FILE: https://raw.githubusercontent.com/autowarefoundation/autoware/release/2023.04/autoware.repos
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SQUASH_HISTORY: true
+          SKIP_PACKAGES: velodyne_pointcloud velodyne_msgs velodyne_driver traffic_light_classifier traffic_light_ssd_fine_detector tensorrt_yolo tier4_perception_launch autoware_launch
+  stop-runner:
+    name: Stop self-hosted EC2 runner
+    needs:
+      - start-runner
+      - build-humble
+    runs-on: ubuntu-latest
+    if: ${{ always() }}
+    steps:
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+      - name: Stop EC2 runner
+        uses: machulav/ec2-github-runner@v2
+        with:
+          mode: stop
+          github-token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
+          label: ${{ needs.start-runner.outputs.label }}
+          ec2-instance-id: ${{ needs.start-runner.outputs.ec2-instance-id }}
