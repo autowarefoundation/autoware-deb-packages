@@ -5,13 +5,15 @@ on:
   push:
     branches:
       - main
+  pull_request:
 
 jobs:
   generate-deb-packages:
     runs-on: ubuntu-22.04
     steps:
-      - uses: jspricke/ros-deb-builder-action@main
+      - uses: esteve/ros-deb-builder-action@custom-branch
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ROS_DISTRO: humble
           DEB_DISTRO: jammy
+          PACKAGES_BRANCH: some-random-test-branch
