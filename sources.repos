@@ -1,0 +1,13 @@
+repositories:
+  autoware_auto_msgs:
+    type: git
+    url: https://github.com/tier4/autoware_auto_msgs.git
+    version: e1795354161ed54d66659366262578863bd2b862
+  autoware_common:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_common.git
+    version: 05d31f4655fd0901b7b1b694a1178b65b8fb611f
+  autoware_msgs:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_msgs.git
+    version: cdacab8c35bdeee112a0ba4922bf2c346ed285c2

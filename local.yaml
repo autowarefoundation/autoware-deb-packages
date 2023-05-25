@@ -1,0 +1,57 @@
+autoware_auto_control_msgs:
+  ubuntu:
+  - ros-humble-autoware-auto-control-msgs
+autoware_auto_geometry_msgs:
+  ubuntu:
+  - ros-humble-autoware-auto-geometry-msgs
+autoware_auto_mapping_msgs:
+  ubuntu:
+  - ros-humble-autoware-auto-mapping-msgs
+autoware_auto_msgs:
+  ubuntu:
+  - ros-humble-autoware-auto-msgs
+autoware_auto_perception_msgs:
+  ubuntu:
+  - ros-humble-autoware-auto-perception-msgs
+autoware_auto_planning_msgs:
+  ubuntu:
+  - ros-humble-autoware-auto-planning-msgs
+autoware_auto_system_msgs:
+  ubuntu:
+  - ros-humble-autoware-auto-system-msgs
+autoware_auto_vehicle_msgs:
+  ubuntu:
+  - ros-humble-autoware-auto-vehicle-msgs
+autoware_common_msgs:
+  ubuntu:
+  - ros-humble-autoware-common-msgs
+autoware_control_msgs:
+  ubuntu:
+  - ros-humble-autoware-control-msgs
+autoware_lint_common:
+  ubuntu:
+  - ros-humble-autoware-lint-common
+autoware_cmake:
+  ubuntu:
+  - ros-humble-autoware-cmake
+autoware_localization_msgs:
+  ubuntu:
+  - ros-humble-autoware-localization-msgs
+autoware_map_msgs:
+  ubuntu:
+  - ros-humble-autoware-map-msgs
+autoware_perception_msgs:
+  ubuntu:
+  - ros-humble-autoware-perception-msgs
+autoware_planning_msgs:
+  ubuntu:
+  - ros-humble-autoware-planning-msgs
+autoware_sensing_msgs:
+  ubuntu:
+  - ros-humble-autoware-sensing-msgs
+autoware_utils:
+  ubuntu:
+  - ros-humble-autoware-utils
+lanelet2_extension:
+  ubuntu:
+  - ros-humble-lanelet2-extension
