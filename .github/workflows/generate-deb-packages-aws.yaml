@@ -1,4 +1,4 @@
-name: generate-debs-aws
+name: generate-deb-packages-aws
 
 on: push
 
@@ -28,7 +28,7 @@ jobs:
           security-group-id: sg-02780d120ee4d06e1
           run-runner-as-service: true
           run-runner-as-user: ubuntu
-  build-humble:
+  generate-deb-packages-aws:
     name: Build Debian packages for Autoware (Humble)
     needs: start-runner
     runs-on: ${{ needs.start-runner.outputs.label }}
@@ -56,7 +56,7 @@ jobs:
     name: Stop self-hosted EC2 runner
     needs:
       - start-runner
-      - build-humble
+      - generate-deb-packages-aws
     runs-on: ubuntu-latest
     if: ${{ always() }}
     steps:
