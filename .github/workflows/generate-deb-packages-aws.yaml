@@ -40,7 +40,10 @@ jobs:
       actions: write
       checks: read
     steps:
-      - uses: jspricke/ros-deb-builder-action@main
+      - name: Remove unattended-upgrades
+        run: sudo apt-get remove -y --purge unattended-upgrades
+      - name: Build Debian packages
+        uses: jspricke/ros-deb-builder-action@main
         with:
           ROSDEP_SOURCE: yaml https://s3.amazonaws.com/autonomoustuff-repo/autonomoustuff-public-humble.yaml
           SBUILD_CONF: $extra_repositories = ["deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ jammy main"];
