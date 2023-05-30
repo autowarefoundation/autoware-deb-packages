@@ -3,8 +3,7 @@ name: generate-deb-packages-aws
 on:
   push:
     branches:
-      - 'main'
-      - 'releases/**'
+      - 'release/2023.05'
 
 jobs:
   start-runner:
