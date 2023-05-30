@@ -1,6 +1,10 @@
 name: generate-deb-packages-aws
 
-on: push
+on:
+  push:
+    branches:
+      - 'main'
+      - 'releases/**'
 
 jobs:
   start-runner:
