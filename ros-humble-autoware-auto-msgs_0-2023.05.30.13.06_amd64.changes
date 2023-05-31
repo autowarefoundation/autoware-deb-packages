@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Tue, 05 Jan 2021 00:00:00 -0000
+Source: ros-humble-autoware-auto-msgs
+Binary: ros-humble-autoware-auto-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2023.05.30.13.06
+Distribution: jammy
+Urgency: high
+Maintainer: Apex.AI, Inc. <opensource@apex.ai>
+Changed-By: Apex.AI, Inc. <opensource@apex.ai>
+Description:
+ ros-humble-autoware-auto-msgs - Interfaces between core Autoware.Auto components
+Changes:
+ ros-humble-autoware-auto-msgs (0-2023.05.30.13.06) jammy; urgency=high
+ .
+   * Merge branch 'BoundingBoxArray-design' into 'master'
+     Add design doc for bounding-box message
+     See merge request autowarefoundation/autoware.auto/autoware_auto_msgs!12 <https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs/-/merge_requests/12>
+   * Working around https://github.com/ros-tooling/libstatistics_collector/issues/51.
+   * Fixing constants in AutonomyModeChange.
+   * Making AutonomyModeChange return empty.
+   * Merge branch '657-autonomy-service' into 'master'
+     Adding AutonomyModeChange service definition.
+     See merge request autowarefoundation/autoware.auto/autoware_auto_msgs!11 <https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs/-/merge_requests/11>
+   * Adding velocity_mps to VehicleControlCommand.
+   * Merge branch '474-add-modify-trajectory-service' into 'master'
+     Adding ModifyTrajectory service definition.
+     See merge request autowarefoundation/autoware.auto/autoware_auto_msgs!10 <https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs/-/merge_requests/10>
+   * Merge branch 'modify-plan-trajectory-action' into 'master'
+     modify PlanTrajectory Action to return trajectory in Result
+     See merge request autowarefoundation/autoware.auto/autoware_auto_msgs!9 <https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs/-/merge_requests/9>
+   * Merge branch 'fix/plan_trajectory_action' into 'master'
+     fix include file and namespace of constants
+     See merge request autowarefoundation/autoware.auto/autoware_auto_msgs!8 <https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs/-/merge_requests/8>
+   * Merge branch 'add-actions-dependency' into 'master'
+     Cleaning up package.xml and adding action_msgs dependency.
+     See merge request autowarefoundation/autoware.auto/autoware_auto_msgs!7 <https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs/-/merge_requests/7>
+   * Merge branch 'add-plan-trajectory-action' into 'master'
+     add PlanTrajectory action
+     See merge request autowarefoundation/autoware.auto/autoware_auto_msgs!6 <https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs/-/merge_requests/6>
+   * Contributors: Frederik Beaujean, Joshua Whitley, mitsudome-r
+Checksums-Sha1:
+ 866831d31e0ca6e33b05d77b1fd00630fb526a93 11122 ros-humble-autoware-auto-msgs_0-2023.05.30.13.06_amd64.buildinfo
+ 09099a1404423f35be883cfefccb3a1b6b28beb3 5730 ros-humble-autoware-auto-msgs_0-2023.05.30.13.06_amd64.deb
+Checksums-Sha256:
+ a10e185be2d0b71ab45c550b0f5cc1b944b1a2ddbf28304812618971952671ef 11122 ros-humble-autoware-auto-msgs_0-2023.05.30.13.06_amd64.buildinfo
+ b51be4d5d2dae2c48457696453659a91f0f5151db2f560cb360b8a3402aef258 5730 ros-humble-autoware-auto-msgs_0-2023.05.30.13.06_amd64.deb
+Files:
+ e661a41accb58a62e7837dbeda519028 11122 misc optional ros-humble-autoware-auto-msgs_0-2023.05.30.13.06_amd64.buildinfo
+ 5599fe62bcded51558ddf13a21fc9b9f 5730 misc optional ros-humble-autoware-auto-msgs_0-2023.05.30.13.06_amd64.deb
