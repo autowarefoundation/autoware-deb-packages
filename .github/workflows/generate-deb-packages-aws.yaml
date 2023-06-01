@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - 'release/2023.05'
+  pull_request:
+    branches:
+      - 'release/2023.05'
 
 jobs:
   start-runner:
