@@ -53,8 +53,8 @@ repositories:
     version: c0a86a3ed77bc968407912c154975d7cd63bcbf6
   universe/external/rtklib_ros_bridge:
     type: git
-    url: https://github.com/MapIV/rtklib_ros_bridge.git
-    version: d499bc1efb051924be23c0f4a381f99ab4dcdeac
+    url: https://github.com/esteve/rtklib_ros_bridge.git
+    version: 1c2a67c0634a6ddceb1a075d21dfe82fd8f982a2
   universe/external/llh_converter:
     type: git
     url: https://github.com/MapIV/llh_converter.git
