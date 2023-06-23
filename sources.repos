@@ -49,8 +49,8 @@ repositories:
     version: b70e5d0b86820ee0ee8880ada9853b7a1b3ea8d3
   universe/autoware.universe:
     type: git
-    url: https://github.com/esteve/autoware.universe.git
-    version: f62a185775e91b51ce74bfc055a62a2712dc9064
+    url: https://github.com/autowarefoundation/autoware.universe.git
+    version: 715c6e4cd7bb4b2ae6565dcc9c2f775e4f2c0061
   universe/external/eagleye:
     type: git
     url: https://github.com/MapIV/eagleye.git
