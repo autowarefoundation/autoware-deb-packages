@@ -10,11 +10,11 @@ repositories:
   core/autoware_common:
     type: git
     url: https://github.com/autowarefoundation/autoware_common.git
-    version: d65a73812d63f0ddf6134e07b58d351c626dfa19
+    version: 536b628d6cc87ddf877efb351ff9d38f12fec620
   core/autoware_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_msgs.git
-    version: c2a82f3126b97fc911ba8cdd44682790b6265319
+    version: 52a856d29601860413e4261079e0bf9205c737d1
   core/external/autoware_auto_msgs:
     type: git
     url: https://github.com/tier4/autoware_auto_msgs.git
@@ -22,7 +22,7 @@ repositories:
   launcher/autoware_launch:
     type: git
     url: https://github.com/autowarefoundation/autoware_launch.git
-    version: e100e566ddae26173e4bc0d1e8aea40022bad658
+    version: 905b81e9b6cde4cd7a854b7304b95431e775b8ae
   middleware/external/heaphook:
     type: git
     url: https://github.com/tier4/heaphook.git
@@ -54,7 +54,7 @@ repositories:
   universe/autoware.universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
-    version: 3b162aa79115389e1c9ba2d526c7cc98f63bb3ff
+    version: 0e733cdc429525ca46b6846066cdd20b5fa3ef22
   universe/external/eagleye:
     type: git
     url: https://github.com/MapIV/eagleye.git
