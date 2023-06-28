@@ -54,7 +54,7 @@ repositories:
   universe/autoware.universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
-    version: 0e733cdc429525ca46b6846066cdd20b5fa3ef22
+    version: 2fa6d6da35bd05b489b28a4c2fbccce17534e0bd # fix for yabloc_pose_initializer PR #4110
   universe/external/eagleye:
     type: git
     url: https://github.com/MapIV/eagleye.git
