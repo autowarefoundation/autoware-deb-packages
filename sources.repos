@@ -10,11 +10,11 @@ repositories:
   core/autoware_common:
     type: git
     url: https://github.com/autowarefoundation/autoware_common.git
-    version: 536b628d6cc87ddf877efb351ff9d38f12fec620
+    version: 5e607ce1eeddbd7e6ce0071bc316b317d19e52da
   core/autoware_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_msgs.git
-    version: 52a856d29601860413e4261079e0bf9205c737d1
+    version: 9de9a00b7034be2519c8b3257a4c4ee9e8eba087
   core/external/autoware_auto_msgs:
     type: git
     url: https://github.com/tier4/autoware_auto_msgs.git
@@ -22,7 +22,7 @@ repositories:
   launcher/autoware_launch:
     type: git
     url: https://github.com/autowarefoundation/autoware_launch.git
-    version: 905b81e9b6cde4cd7a854b7304b95431e775b8ae
+    version: f3171b7257765d60cca8548b01daec8a3488d10e
   middleware/external/heaphook:
     type: git
     url: https://github.com/tier4/heaphook.git
@@ -30,7 +30,7 @@ repositories:
   param/autoware_individual_params:
     type: git
     url: https://github.com/autowarefoundation/autoware_individual_params.git
-    version: 09082b6cbb99a840c53878a190616d35a40b569f
+    version: 9b8b4064bf856dbd3f781a5ebd1f96135496878c
   sensor_component/external/sensor_component_description:
     type: git
     url: https://github.com/tier4/sensor_component_description.git
@@ -50,15 +50,15 @@ repositories:
   sensor_kit/sample_sensor_kit_launch:
     type: git
     url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
-    version: 5900214b7344a275c8a321bf78f27f8a197e1312
+    version: 5a66ef0e14e21d5ce13eff16ca63cfcf0cfb7798
   universe/autoware.universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
-    version: da9c9c58a73cef13295f1744282f5ca32ec5b906
+    version: f8e74c5ee4abb5591ea6e6135010dc84fc18e627
   universe/external/eagleye:
     type: git
     url: https://github.com/MapIV/eagleye.git
-    version: 46bc19406613fabdc8de8cb4741b88c018e107df
+    version: d8e9b33f7cdaa897953f267abc404ccda272d4c5
   universe/external/llh_converter:
     type: git
     url: https://github.com/MapIV/llh_converter.git
@@ -90,7 +90,7 @@ repositories:
   universe/external/tier4_autoware_msgs:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
-    version: feb834a37c372d0e83e901ae4f05a7f28a985af2
+    version: fbc4871a7756bab7a99ba5ee0bd009861f2c67f3
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
@@ -98,4 +98,4 @@ repositories:
   vehicle/sample_vehicle_launch:
     type: git
     url: https://github.com/autowarefoundation/sample_vehicle_launch.git
-    version: 157238ca77de7b0a59f71a0b28f456741fab3ca2
+    version: 627068935b12ec6d6121e6a1b885e31d564b04c5
