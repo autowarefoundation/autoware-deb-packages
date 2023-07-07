@@ -58,7 +58,7 @@ jobs:
           REPOS_FILE: sources.repos
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SQUASH_HISTORY: true
-          SKIP_PACKAGES: velodyne_pointcloud velodyne_msgs velodyne_driver traffic_light_classifier traffic_light_ssd_fine_detector tensorrt_yolo tier4_perception_launch autoware_launch
+          SKIP_PACKAGES: velodyne_pointcloud velodyne_msgs velodyne_driver traffic_light_classifier traffic_light_ssd_fine_detector tensorrt_yolo tier4_perception_launch autoware_launch traffic_light_fine_detector
           PACKAGES_BRANCH: jammy-humble-main
           GIT_LFS: true
   stop-runner:
