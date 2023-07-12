@@ -56,7 +56,7 @@ jobs:
           DEB_DISTRO: jammy
           ROS_DISTRO: humble
           REPOS_FILE: sources.repos
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN_MFC }}
           SQUASH_HISTORY: true
           SKIP_PACKAGES: velodyne_pointcloud velodyne_msgs velodyne_driver traffic_light_classifier traffic_light_ssd_fine_detector tensorrt_yolo tier4_perception_launch autoware_launch traffic_light_fine_detector
           PACKAGES_BRANCH: jammy-humble-main
