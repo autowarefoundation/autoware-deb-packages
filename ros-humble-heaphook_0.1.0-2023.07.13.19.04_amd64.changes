@@ -1,0 +1,76 @@
+Format: 1.8
+Date: Tue, 23 May 2023 00:00:00 -0000
+Source: ros-humble-heaphook
+Binary: ros-humble-heaphook
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.1.0-2023.07.13.19.04
+Distribution: jammy
+Urgency: high
+Maintainer: sykwer <sykwer@gmail.com>
+Changed-By: sykwer <sykwer@gmail.com>
+Description:
+ ros-humble-heaphook - Replace all the dynamic heap allocation functions by LD_PRELOAD
+Changes:
+ ros-humble-heaphook (0.1.0-2023.07.13.19.04) jammy; urgency=high
+ .
+   * ci: add build-and-test workflow (#2 <https://github.com/tier4/heaphook/issues/2>)
+     * add build-and-test workflow
+     * Update .github/workflows/build-and-test.yaml
+     Co-authored-by: Kenji Miyake <mailto:31987104+kenji-miyake@users.noreply.github.com>
+     * Update build-and-test.yaml
+     * fix linter error
+     * fix
+     * fix
+     * fix
+     ---------
+     Co-authored-by: Kenji Miyake <mailto:31987104+kenji-miyake@users.noreply.github.com>
+   * style: apply lint (#1 <https://github.com/tier4/heaphook/issues/1>)
+     * apply lint
+     * refactor package.xml
+     ---------
+   * Update CMakeLists.txt
+   * Update package.xml
+   * Update package.xml metadata
+   * Create LICENSE
+   * Update README.md
+   * Create README.md
+   * Prevent infinit loop when additional mempool is not enough
+   * Enable to configure mempool size
+   * Delete unnecessary code
+   * Hanble exhaustion of memory pool
+   * Aquire lock for tlsf library
+   * Fix bug
+   * Add hooks for specialized malloc functions
+   * Deal with alignment related functions
+   * Fix
+   * Introduce tlsf allocator
+   * Create ament_cmake package
+   * Add malloc_usable_size hook
+   * Add aligned allocation hooks
+   * Add realloc hook
+   * Add calloc hook
+   * Safe figure as pdf in heaplog parser
+   * Add progress bar to heaplog parser
+   * Add python heaplog parser
+   * Change log format
+   * Complete heaplog parser
+   * Add mmaped log parser base
+   * Fix bug (prevent logging in logging thread)
+   * Make logging incremental and async
+   * Log malloc/free history
+   * Hook free
+   * First malloc hook
+   * Contributors: Daisuke Nishimatsu, Takahiro Ishikawa
+Checksums-Sha1:
+ e521951e994e00a08ec24ea6246f3b51bb949388 151450 ros-humble-heaphook-dbgsym_0.1.0-2023.07.13.19.04_amd64.ddeb
+ c0a6206170ad90e16e9b3be231893a1594dd5f4f 11298 ros-humble-heaphook_0.1.0-2023.07.13.19.04_amd64.buildinfo
+ 31a2de95c2369fc44ed70c921f78e210542ed4f7 24028 ros-humble-heaphook_0.1.0-2023.07.13.19.04_amd64.deb
+Checksums-Sha256:
+ 2e61a13ff8bb949101f06c0dd38e10cdd6b03e0ba3298e1f88648c988170b99a 151450 ros-humble-heaphook-dbgsym_0.1.0-2023.07.13.19.04_amd64.ddeb
+ 591b0324baa5506c46bdf27da496ac3de18999185ccff4423258921a512b7ace 11298 ros-humble-heaphook_0.1.0-2023.07.13.19.04_amd64.buildinfo
+ b422d4f4d117f5b77c3e72bf9cd8e4c5db0f6234562991815028a14fb4a44f72 24028 ros-humble-heaphook_0.1.0-2023.07.13.19.04_amd64.deb
+Files:
+ 3f65c2387684bb70c25e30246f56f729 151450 debug optional ros-humble-heaphook-dbgsym_0.1.0-2023.07.13.19.04_amd64.ddeb
+ a5ceca623a5d98738597cbeec356075d 11298 misc optional ros-humble-heaphook_0.1.0-2023.07.13.19.04_amd64.buildinfo
+ baf1c5620ba0d7fa9000f946915eaec0 24028 misc optional ros-humble-heaphook_0.1.0-2023.07.13.19.04_amd64.deb
