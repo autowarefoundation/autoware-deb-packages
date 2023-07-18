@@ -50,11 +50,11 @@ jobs:
         run: sudo apt-get remove -y --purge unattended-upgrades
       - name: "Check if packages should be pushed to the repo"
         run: |
-          if [[ "${{ startsWith(github.ref, 'refs/heads/') && !startsWith(github.ref, 'refs/pull/')}}" ]]; then
-            echo "push_packages=hello" >> $GITHUB_ENV
+          if [[ "${{ startsWith(github.ref, 'refs/heads/') && !startsWith(github.ref, 'refs/pull/')}}" == "true" ]]; then
+            echo "push_packages=true" >> $GITHUB_ENV
             echo "gh_personal_access_token_mfc=${{ secrets.GH_PERSONAL_ACCESS_TOKEN_MFC }}" >> $GITHUB_ENV
           else
-            echo "push_packages=nohello" >> $GITHUB_ENV
+            echo "push_packages=false" >> $GITHUB_ENV
             echo "gh_personal_access_token_mfc=''" >> $GITHUB_ENV
           fi
       - name: "Build Debian packages (pushing packages to repository: ${{ env.push_packages }})"
