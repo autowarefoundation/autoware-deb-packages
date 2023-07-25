@@ -48,24 +48,29 @@ jobs:
     steps:
       - name: "Remove unattended-upgrades"
         run: sudo apt-get remove -y --purge unattended-upgrades
-      - name: "Check if packages should be pushed to the repo"
-        run: |
-          if [[ "${{ startsWith(github.ref, 'refs/heads/') && !startsWith(github.ref, 'refs/pull/')}}" == "true" ]]; then
-            echo "push_packages=true" >> $GITHUB_ENV
-            echo "gh_personal_access_token_mfc=${{ secrets.GH_PERSONAL_ACCESS_TOKEN_MFC }}" >> $GITHUB_ENV
-          else
-            echo "push_packages=false" >> $GITHUB_ENV
-            echo "gh_personal_access_token_mfc=''" >> $GITHUB_ENV
-          fi
-      - name: "Build Debian packages (pushing packages to repository: ${{ env.push_packages }})"
+      - name: "Build Debian packages (pushing packages to repository: false)"
         uses: jspricke/ros-deb-builder-action@main
+        if: startsWith(github.ref, 'refs/pull/')
         with:
           ROSDEP_SOURCE: yaml https://s3.amazonaws.com/autonomoustuff-repo/autonomoustuff-public-humble.yaml
           SBUILD_CONF: $extra_repositories = ["deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ jammy main"];
           DEB_DISTRO: jammy
           ROS_DISTRO: humble
           REPOS_FILE: https://raw.githubusercontent.com/autowarefoundation/autoware/release/2023.07/autoware.repos
-          GITHUB_TOKEN: ${{ env.gh_personal_access_token_mfc }}
+          SQUASH_HISTORY: true
+          SKIP_PACKAGES: velodyne_pointcloud velodyne_msgs velodyne_driver traffic_light_classifier traffic_light_ssd_fine_detector tensorrt_yolo tier4_perception_launch autoware_launch
+          PACKAGES_BRANCH: jammy-humble-release/2023.07
+          GIT_LFS: true
+      - name: "Build Debian packages (pushing packages to repository: true)"
+        uses: jspricke/ros-deb-builder-action@main
+        if: startsWith(github.ref, 'refs/heads/')
+        with:
+          ROSDEP_SOURCE: yaml https://s3.amazonaws.com/autonomoustuff-repo/autonomoustuff-public-humble.yaml
+          SBUILD_CONF: $extra_repositories = ["deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ jammy main"];
+          DEB_DISTRO: jammy
+          ROS_DISTRO: humble
+          REPOS_FILE: https://raw.githubusercontent.com/autowarefoundation/autoware/release/2023.07/autoware.repos
+          GITHUB_TOKEN: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN_MFC }}
           SQUASH_HISTORY: true
           SKIP_PACKAGES: velodyne_pointcloud velodyne_msgs velodyne_driver tensorrt_yolo tier4_perception_launch autoware_launch traffic_light_classifier traffic_light_ssd_fine_detector traffic_light_fine_detector
           PACKAGES_BRANCH: jammy-humble-release/2023.07
