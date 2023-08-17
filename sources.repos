@@ -6,15 +6,15 @@ repositories:
   core/autoware_adapi_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
-    version: 7cd80335ad1a4edc1955de5062dd5a4bd9d4de7b
+    version: fcdd3d07814b91090cd60079bd378396da6924de
   core/autoware_common:
     type: git
     url: https://github.com/autowarefoundation/autoware_common.git
-    version: 5e607ce1eeddbd7e6ce0071bc316b317d19e52da
+    version: 58039c8b598d7e247994015d9c10c5b39e36b545
   core/autoware_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_msgs.git
-    version: 9de9a00b7034be2519c8b3257a4c4ee9e8eba087
+    version: 62f341d97515c81236a9a6700f02ca4e8df02304
   core/external/autoware_auto_msgs:
     type: git
     url: https://github.com/tier4/autoware_auto_msgs.git
@@ -22,15 +22,19 @@ repositories:
   launcher/autoware_launch:
     type: git
     url: https://github.com/autowarefoundation/autoware_launch.git
-    version: f3171b7257765d60cca8548b01daec8a3488d10e
+    version: 857a19e9f3ef2211bdcd5cd35367c2b23be544c1
   middleware/external/heaphook:
     type: git
     url: https://github.com/tier4/heaphook.git
-    version: ec260d7a7f06f29c04de2c846fa6d2158e770877
+    version: 0c4836c3d1398ca898e5300cbf2270184148ae99
   param/autoware_individual_params:
     type: git
     url: https://github.com/autowarefoundation/autoware_individual_params.git
     version: 9b8b4064bf856dbd3f781a5ebd1f96135496878c
+  sensor_component/external/nebula:
+    type: git
+    url: https://github.com/tier4/nebula.git
+    version: f82a6f86748a3c86a703bcc229ca2f5eddb933c2
   sensor_component/external/sensor_component_description:
     type: git
     url: https://github.com/tier4/sensor_component_description.git
@@ -39,10 +43,10 @@ repositories:
     type: git
     url: https://github.com/tier4/tamagawa_imu_driver.git
     version: de4bf6be79aa2968cf2f62e0ebe1ff8a5797e6ad
-  sensor_component/external/velodyne_vls:
+  sensor_component/external/transport_drivers:
     type: git
-    url: https://github.com/tier4/velodyne_vls.git
-    version: 55dffdf3b3ef889e149977dc6ab1da124b5176c9
+    url: https://github.com/MapIV/transport_drivers.git
+    version: fbe491cdbecb6edccb745422f945e168d9dec178
   sensor_kit/external/awsim_sensor_kit_launch:
     type: git
     url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
@@ -50,15 +54,15 @@ repositories:
   sensor_kit/sample_sensor_kit_launch:
     type: git
     url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
-    version: 5a66ef0e14e21d5ce13eff16ca63cfcf0cfb7798
+    version: 3cef1e4888a41001e4ebb3afbf63ae823e42e27d
   universe/autoware.universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
-    version: f8e74c5ee4abb5591ea6e6135010dc84fc18e627
+    version: 81a1e5397c82efeee35e94bdd95224d46efaed87
   universe/external/eagleye:
     type: git
     url: https://github.com/MapIV/eagleye.git
-    version: d8e9b33f7cdaa897953f267abc404ccda272d4c5
+    version: 82a4d060d622a426700f1bc83a3f265be5fa895a
   universe/external/llh_converter:
     type: git
     url: https://github.com/MapIV/llh_converter.git
@@ -90,11 +94,11 @@ repositories:
   universe/external/tier4_autoware_msgs:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
-    version: fbc4871a7756bab7a99ba5ee0bd009861f2c67f3
+    version: d85cc4f66511ce31b1c6cfccf683b2f4d7fe8caa
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
-    version: 689f93cbe9218e127d06d0b937ac62c442b9ce91
+    version: 664a58db456e092659e5b25954fbf525593bf10d
   vehicle/sample_vehicle_launch:
     type: git
     url: https://github.com/autowarefoundation/sample_vehicle_launch.git
