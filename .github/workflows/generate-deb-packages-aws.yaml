@@ -1,25 +1,29 @@
+
 name: generate-deb-packages-aws
 
 on:
+  push:
+    branches:
+      - 'main'
   pull_request:
     branches:
       - 'main'
 
 jobs:
   start-runner:
-    name: Start self-hosted EC2 runner
+    name: "Start self-hosted EC2 runner"
     runs-on: ubuntu-latest
     outputs:
       label: ${{ steps.start-ec2-runner.outputs.label }}
       ec2-instance-id: ${{ steps.start-ec2-runner.outputs.ec2-instance-id }}
     steps:
-      - name: Configure AWS credentials
+      - name: "Configure AWS credentials"
         uses: aws-actions/configure-aws-credentials@v2
         with:
           aws-access-key-id: ${{ secrets.EC2_ON_DEMAND_AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.EC2_ON_DEMAND_AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ secrets.EC2_ON_DEMAND_AWS_REGION }}
-      - name: Start EC2 runner
+      - name: "Start EC2 runner"
         id: start-ec2-runner
         uses: esteve/ec2-github-runner@Optionally-execute-runner-as-a-service
         with:
@@ -32,7 +36,7 @@ jobs:
           run-runner-as-service: true
           run-runner-as-user: ubuntu
   generate-deb-packages-aws:
-    name: Build Debian packages for Autoware (Humble)
+    name: "Build Debian packages for Autoware (Humble)"
     needs: start-runner
     runs-on: ${{ needs.start-runner.outputs.label }}
     timeout-minutes: 2880
@@ -43,9 +47,18 @@ jobs:
       actions: write
       checks: read
     steps:
-      - name: Remove unattended-upgrades
+      - name: "Remove unattended-upgrades"
         run: sudo apt-get remove -y --purge unattended-upgrades
-      - name: Build Debian packages
+      - name: "Check if packages should be pushed to the repo"
+        run: |
+          if [[ "${{ startsWith(github.ref, 'refs/heads/') && !startsWith(github.ref, 'refs/pull/')}}" == "true" ]]; then
+            echo "push_packages=true" >> $GITHUB_ENV
+            echo "gh_personal_access_token_mfc=${{ secrets.GH_PERSONAL_ACCESS_TOKEN_MFC }}" >> $GITHUB_ENV
+          else
+            echo "push_packages=false" >> $GITHUB_ENV
+            echo "gh_personal_access_token_mfc=" >> $GITHUB_ENV
+          fi
+      - name: "Build Debian packages (pushing packages to repository: ${{ env.push_packages }})"
         uses: esteve/ros-deb-builder-action@tier4/main
         with:
           ROSDEP_SOURCE: yaml https://s3.amazonaws.com/autonomoustuff-repo/autonomoustuff-public-humble.yaml
@@ -53,26 +66,26 @@ jobs:
           DEB_DISTRO: jammy
           ROS_DISTRO: humble
           REPOS_FILE: sources.repos
-          GITHUB_TOKEN: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN_MFC }}
+          GITHUB_TOKEN: ${{ env.gh_personal_access_token_mfc }}
           SQUASH_HISTORY: true
           SKIP_PACKAGES: velodyne_pointcloud velodyne_msgs velodyne_driver traffic_light_classifier traffic_light_ssd_fine_detector tensorrt_yolo tier4_perception_launch autoware_launch traffic_light_fine_detector
           PACKAGES_BRANCH: jammy-humble-main
           GIT_LFS: true
   stop-runner:
-    name: Stop self-hosted EC2 runner
+    name: "Stop self-hosted EC2 runner"
     needs:
       - start-runner
       - generate-deb-packages-aws
     runs-on: ubuntu-latest
     if: ${{ always() }}
     steps:
-      - name: Configure AWS credentials
+      - name: "Configure AWS credentials"
         uses: aws-actions/configure-aws-credentials@v2
         with:
           aws-access-key-id: ${{ secrets.EC2_ON_DEMAND_AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.EC2_ON_DEMAND_AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ secrets.EC2_ON_DEMAND_AWS_REGION }}
-      - name: Stop EC2 runner
+      - name: "Stop EC2 runner"
         uses: machulav/ec2-github-runner@v2
         with:
           mode: stop
