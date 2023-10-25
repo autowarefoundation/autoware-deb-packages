@@ -10,7 +10,7 @@ repositories:
   core/autoware_common:
     type: git
     url: https://github.com/autowarefoundation/autoware_common.git
-    version: 44dc3880361f8e5b8eb4daf05119bc9446ff8303
+    version: 6054e6bf566430141ebaf1f1966819ea0c5fc62b
   core/autoware_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_msgs.git
@@ -22,7 +22,7 @@ repositories:
   launcher/autoware_launch:
     type: git
     url: https://github.com/autowarefoundation/autoware_launch.git
-    version: 5cba1dabfad5dbd6bdbbe446f90cd96db61f9da9
+    version: 262a77491e187f4aa678d846bc2c2d53b6961687
   middleware/external/heaphook:
     type: git
     url: https://github.com/tier4/heaphook.git
@@ -34,7 +34,7 @@ repositories:
   sensor_component/external/nebula:
     type: git
     url: https://github.com/tier4/nebula.git
-    version: 74cdda4d516fe2af1d4239e1779e1b8ff5c23aec
+    version: 476224d5844c24721030da176d9def615fa9c43a
   sensor_component/external/sensor_component_description:
     type: git
     url: https://github.com/tier4/sensor_component_description.git
@@ -50,15 +50,15 @@ repositories:
   sensor_kit/external/awsim_sensor_kit_launch:
     type: git
     url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
-    version: a1f5993407ffeb4abcf97a49cd1b4034768d97b4
+    version: 39891af1a260e43cab22374b71e11dbd2e52aeb4
   sensor_kit/sample_sensor_kit_launch:
     type: git
     url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
-    version: 0ecfd223f0a731cbe3f0db7c28c120549779f86c
+    version: 9bef2cf913aa3d832176f7aa4ba78e2f3d634f44
   universe/autoware.universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
-    version: 98004cedb5059b863f6c964cbacf6812736bd52b
+    version: 82a6c0c5d0e3a7a3803f92c9a1334047b80344c5
   universe/external/eagleye:
     type: git
     url: https://github.com/MapIV/eagleye.git
@@ -78,7 +78,7 @@ repositories:
   universe/external/ndt_omp:
     type: git
     url: https://github.com/tier4/ndt_omp.git
-    version: 9a0877ac99cf873d9e984e4f1c485e537503fb7f
+    version: 772e316e8214e3a49515df04f8e92bdff0afe43e
   universe/external/pointcloud_to_laserscan:
     type: git
     url: https://github.com/tier4/pointcloud_to_laserscan.git
