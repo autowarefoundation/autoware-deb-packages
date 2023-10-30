@@ -22,7 +22,7 @@ repositories:
   launcher/autoware_launch:
     type: git
     url: https://github.com/autowarefoundation/autoware_launch.git
-    version: 546924401a4aa3d29119dab77a077796d5ea3bb9
+    version: 4574c9b2738bb5b77348e5ed4d2ffd3daa54f073
   middleware/external/heaphook:
     type: git
     url: https://github.com/tier4/heaphook.git
@@ -58,7 +58,7 @@ repositories:
   universe/autoware.universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
-    version: 25e8b3f5617de201db4f197be48615ff574b12f1
+    version: 6632d79aa04841de805b442999882906b3f659b6
   universe/external/eagleye:
     type: git
     url: https://github.com/MapIV/eagleye.git
