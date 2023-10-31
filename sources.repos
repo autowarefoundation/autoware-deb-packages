@@ -53,8 +53,8 @@ repositories:
     version: 9bef2cf913aa3d832176f7aa4ba78e2f3d634f44
   universe/autoware.universe:
     type: git
-    url: https://github.com/autowarefoundation/autoware.universe.git
-    version: 9a5e5c49e11303320e0a6a9b709e65855acbb9cd
+    url: https://github.com/esteve/autoware.universe.git
+    version: add-cuda-deps
   universe/external/eagleye:
     type: git
     url: https://github.com/MapIV/eagleye.git
