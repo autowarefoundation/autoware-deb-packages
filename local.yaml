@@ -49,9 +49,6 @@ autoware_ad_api_specs:
 autoware_auto_common:
   ubuntu:
   - ros-humble-autoware-auto-common
-autoware_auto_msgs_adapter:
-  ubuntu:
-  - ros-humble-autoware-auto-msgs-adapter
 autoware_auto_perception_rviz_plugin:
   ubuntu:
   - ros-humble-autoware-auto-perception-rviz-plugin
@@ -73,6 +70,9 @@ autoware_map_msgs:
 autoware_perception_msgs:
   ubuntu:
   - ros-humble-autoware-perception-msgs
+autoware_auto_msgs_adapter:
+  ubuntu:
+  - ros-humble-autoware-auto-msgs-adapter
 autoware_planning_msgs:
   ubuntu:
   - ros-humble-autoware-planning-msgs
@@ -97,6 +97,18 @@ bag_time_manager_rviz_plugin:
 bluetooth_monitor:
   ubuntu:
   - ros-humble-bluetooth-monitor
+boost_io_context:
+  ubuntu:
+  - ros-humble-boost-io-context
+boost_serial_driver:
+  ubuntu:
+  - ros-humble-boost-serial-driver
+boost_tcp_driver:
+  ubuntu:
+  - ros-humble-boost-tcp-driver
+boost_udp_driver:
+  ubuntu:
+  - ros-humble-boost-udp-driver
 camera_description:
   ubuntu:
   - ros-humble-camera-description
@@ -109,6 +121,9 @@ common_sensor_launch:
 cuda_utils:
   ubuntu:
   - ros-humble-cuda-utils
+duplicated_node_checker:
+  ubuntu:
+  - ros-humble-duplicated-node-checker
 eagleye_can_velocity_converter:
   ubuntu:
   - ros-humble-eagleye-can-velocity-converter
@@ -121,12 +136,12 @@ eagleye_tf:
 fake_test_node:
   ubuntu:
   - ros-humble-fake-test-node
-geo_pos_conv:
-  ubuntu:
-  - ros-humble-geo-pos-conv
 global_parameter_loader:
   ubuntu:
   - ros-humble-global-parameter-loader
+glog_component:
+  ubuntu:
+  - ros-humble-glog-component
 heaphook:
   ubuntu:
   - ros-humble-heaphook
@@ -145,6 +160,12 @@ kalman_filter:
 lanelet2_extension:
   ubuntu:
   - ros-humble-lanelet2-extension
+landmark_parser:
+  ubuntu:
+  - ros-humble-landmark-parser
+ar_tag_based_localizer:
+  ubuntu:
+  - ros-humble-ar-tag-based-localizer
 lanelet2_map_preprocessor:
   ubuntu:
   - ros-humble-lanelet2-map-preprocessor
@@ -160,9 +181,6 @@ llh_converter:
 localization_error_monitor:
   ubuntu:
   - ros-humble-localization-error-monitor
-map4_localization_launch:
-  ubuntu:
-  - ros-humble-map4-localization-launch
 map_tf_generator:
   ubuntu:
   - ros-humble-map-tf-generator
@@ -175,6 +193,12 @@ mussp:
 ndt_omp:
   ubuntu:
   - ros-humble-ndt-omp
+nebula_common:
+  ubuntu:
+  - ros-humble-nebula-common
+nebula_sensor_driver:
+  ubuntu:
+  - ros-humble-nebula-sensor-driver
 object_range_splitter:
   ubuntu:
   - ros-humble-object-range-splitter
@@ -184,6 +208,12 @@ osqp_interface:
 pandar_description:
   ubuntu:
   - ros-humble-pandar-description
+pandar_msgs:
+  ubuntu:
+  - ros-humble-pandar-msgs
+perception_utils:
+  ubuntu:
+  - ros-humble-perception-utils
 pointcloud_to_laserscan:
   ubuntu:
   - ros-humble-pointcloud-to-laserscan
@@ -250,6 +280,9 @@ tamagawa_imu_driver:
 tensorrt_common:
   ubuntu:
   - ros-humble-tensorrt-common
+tensorrt_classifier:
+  ubuntu:
+  - ros-humble-tensorrt-classifier
 tier4_automatic_goal_rviz_plugin:
   ubuntu:
   - ros-humble-tier4-automatic-goal-rviz-plugin
@@ -268,9 +301,6 @@ tier4_datetime_rviz_plugin:
 tier4_debug_msgs:
   ubuntu:
   - ros-humble-tier4-debug-msgs
-gnss_poser:
-  ubuntu:
-  - ros-humble-gnss-poser
 pose2twist:
   ubuntu:
   - ros-humble-pose2twist
@@ -319,30 +349,36 @@ motion_utils:
 map_based_prediction:
   ubuntu:
   - ros-humble-map-based-prediction
-object_velocity_splitter:
+object_recognition_utils:
   ubuntu:
-  - ros-humble-object-velocity-splitter
-path_distance_calculator:
-  ubuntu:
-  - ros-humble-path-distance-calculator
-perception_utils:
-  ubuntu:
-  - ros-humble-perception-utils
+  - ros-humble-object-recognition-utils
 heatmap_visualizer:
   ubuntu:
   - ros-humble-heatmap-visualizer
 lidar_centerpoint:
   ubuntu:
   - ros-humble-lidar-centerpoint
+object_velocity_splitter:
+  ubuntu:
+  - ros-humble-object-velocity-splitter
+path_distance_calculator:
+  ubuntu:
+  - ros-humble-path-distance-calculator
 planning_evaluator:
   ubuntu:
   - ros-humble-planning-evaluator
 probabilistic_occupancy_grid_map:
   ubuntu:
   - ros-humble-probabilistic-occupancy-grid-map
+radar_crossing_objects_noise_filter:
+  ubuntu:
+  - ros-humble-radar-crossing-objects-noise-filter
 radar_fusion_to_detected_object:
   ubuntu:
   - ros-humble-radar-fusion-to-detected-object
+radar_object_clustering:
+  ubuntu:
+  - ros-humble-radar-object-clustering
 radar_static_pointcloud_filter:
   ubuntu:
   - ros-humble-radar-static-pointcloud-filter
@@ -361,6 +397,9 @@ bezier_sampler:
 frenet_planner:
   ubuntu:
   - ros-humble-frenet-planner
+simple_object_merger:
+  ubuntu:
+  - ros-humble-simple-object-merger
 system_error_monitor:
   ubuntu:
   - ros-humble-system-error-monitor
@@ -400,30 +439,33 @@ tier4_localization_launch:
 tier4_localization_msgs:
   ubuntu:
   - ros-humble-tier4-localization-msgs
-initial_pose_button_panel:
+localization_util:
   ubuntu:
-  - ros-humble-initial-pose-button-panel
+  - ros-humble-localization-util
 map_height_fitter:
   ubuntu:
   - ros-humble-map-height-fitter
-ndt_scan_matcher:
+tier4_logging_level_configure_rviz_plugin:
   ubuntu:
-  - ros-humble-ndt-scan-matcher
+  - ros-humble-tier4-logging-level-configure-rviz-plugin
 tier4_map_launch:
   ubuntu:
   - ros-humble-tier4-map-launch
 tier4_map_msgs:
   ubuntu:
   - ros-humble-tier4-map-msgs
-map_loader:
+geography_utils:
   ubuntu:
-  - ros-humble-map-loader
+  - ros-humble-geography-utils
 tier4_pcl_extensions:
   ubuntu:
   - ros-humble-tier4-pcl-extensions
 pointcloud_preprocessor:
   ubuntu:
   - ros-humble-pointcloud-preprocessor
+compare_map_segmentation:
+  ubuntu:
+  - ros-humble-compare-map-segmentation
 occupancy_grid_map_outlier_filter:
   ubuntu:
   - ros-humble-occupancy-grid-map-outlier-filter
@@ -436,6 +478,9 @@ tier4_perception_msgs:
 bytetrack:
   ubuntu:
   - ros-humble-bytetrack
+cluster_merger:
+  ubuntu:
+  - ros-humble-cluster-merger
 crosswalk_traffic_light_estimator:
   ubuntu:
   - ros-humble-crosswalk-traffic-light-estimator
@@ -448,6 +493,9 @@ detected_object_validation:
 dummy_perception_publisher:
   ubuntu:
   - ros-humble-dummy-perception-publisher
+euclidean_cluster:
+  ubuntu:
+  - ros-humble-euclidean-cluster
 image_projection_based_fusion:
   ubuntu:
   - ros-humble-image-projection-based-fusion
@@ -460,9 +508,15 @@ multi_object_tracker:
 object_merger:
   ubuntu:
   - ros-humble-object-merger
+radar_object_tracker:
+  ubuntu:
+  - ros-humble-radar-object-tracker
 shape_estimation:
   ubuntu:
   - ros-humble-shape-estimation
+detection_by_tracker:
+  ubuntu:
+  - ros-humble-detection-by-tracker
 tensorrt_yolo:
   ubuntu:
   - ros-humble-tensorrt-yolo
@@ -490,9 +544,6 @@ planning_debug_tools:
 tier4_rtc_msgs:
   ubuntu:
   - ros-humble-tier4-rtc-msgs
-rtc_auto_mode_manager:
-  ubuntu:
-  - ros-humble-rtc-auto-mode-manager
 rtc_interface:
   ubuntu:
   - ros-humble-rtc-interface
@@ -556,12 +607,21 @@ mrm_comfortable_stop_operator:
 mrm_emergency_stop_operator:
   ubuntu:
   - ros-humble-mrm-emergency-stop-operator
+system_diagnostic_graph:
+  ubuntu:
+  - ros-humble-system-diagnostic-graph
 tier4_adapi_rviz_plugin:
   ubuntu:
   - ros-humble-tier4-adapi-rviz-plugin
 tier4_api_msgs:
   ubuntu:
   - ros-humble-tier4-api-msgs
+tier4_system_rviz_plugin:
+  ubuntu:
+  - ros-humble-tier4-system-rviz-plugin
+tier4_target_object_type_rviz_plugin:
+  ubuntu:
+  - ros-humble-tier4-target-object-type-rviz-plugin
 tier4_traffic_light_rviz_plugin:
   ubuntu:
   - ros-humble-tier4-traffic-light-rviz-plugin
@@ -580,18 +640,21 @@ tier4_vehicle_msgs:
 component_interface_specs:
   ubuntu:
   - ros-humble-component-interface-specs
-compare_map_segmentation:
+gnss_poser:
   ubuntu:
-  - ros-humble-compare-map-segmentation
-euclidean_cluster:
+  - ros-humble-gnss-poser
+map_loader:
   ubuntu:
-  - ros-humble-euclidean-cluster
-detection_by_tracker:
+  - ros-humble-map-loader
+map_projection_loader:
   ubuntu:
-  - ros-humble-detection-by-tracker
+  - ros-humble-map-projection-loader
 planning_test_utils:
   ubuntu:
   - ros-humble-planning-test-utils
+path_smoother:
+  ubuntu:
+  - ros-humble-path-smoother
 pose_initializer:
   ubuntu:
   - ros-humble-pose-initializer
@@ -634,6 +697,9 @@ time_utils:
 topic_state_monitor:
   ubuntu:
   - ros-humble-topic-state-monitor
+tracking_object_merger:
+  ubuntu:
+  - ros-humble-tracking-object-merger
 traffic_light_arbiter:
   ubuntu:
   - ros-humble-traffic-light-arbiter
@@ -655,9 +721,21 @@ traffic_light_recognition_marker_publisher:
 traffic_light_ssd_fine_detector:
   ubuntu:
   - ros-humble-traffic-light-ssd-fine-detector
+traffic_light_utils:
+  ubuntu:
+  - ros-humble-traffic-light-utils
+traffic_light_occlusion_predictor:
+  ubuntu:
+  - ros-humble-traffic-light-occlusion-predictor
 traffic_light_visualization:
   ubuntu:
   - ros-humble-traffic-light-visualization
+tree_structured_parzen_estimator:
+  ubuntu:
+  - ros-humble-tree-structured-parzen-estimator
+ndt_scan_matcher:
+  ubuntu:
+  - ros-humble-ndt-scan-matcher
 trtexec_vendor:
   ubuntu:
   - ros-humble-trtexec-vendor
@@ -685,6 +763,9 @@ autonomous_emergency_braking:
 control_performance_analysis:
   ubuntu:
   - ros-humble-control-performance-analysis
+control_validator:
+  ubuntu:
+  - ros-humble-control-validator
 default_ad_api:
   ubuntu:
   - ros-humble-default-ad-api
@@ -745,12 +826,18 @@ behavior_velocity_speed_bump_module:
 behavior_velocity_stop_line_module:
   ubuntu:
   - ros-humble-behavior-velocity-stop-line-module
+behavior_velocity_template_module:
+  ubuntu:
+  - ros-humble-behavior-velocity-template-module
 behavior_velocity_traffic_light_module:
   ubuntu:
   - ros-humble-behavior-velocity-traffic-light-module
 behavior_velocity_virtual_traffic_light_module:
   ubuntu:
   - ros-humble-behavior-velocity-virtual-traffic-light-module
+behavior_velocity_walkway_module:
+  ubuntu:
+  - ros-humble-behavior-velocity-walkway-module
 behavior_velocity_planner:
   ubuntu:
   - ros-humble-behavior-velocity-planner
@@ -781,6 +868,9 @@ path_sampler:
 planning_validator:
   ubuntu:
   - ros-humble-planning-validator
+predicted_path_checker:
+  ubuntu:
+  - ros-humble-predicted-path-checker
 simple_planning_simulator:
   ubuntu:
   - ros-humble-simple-planning-simulator
@@ -835,12 +925,21 @@ velodyne_monitor:
 velodyne_msgs:
   ubuntu:
   - ros-humble-velodyne-msgs
-velodyne_driver:
+nebula_decoders:
   ubuntu:
-  - ros-humble-velodyne-driver
-velodyne_pointcloud:
+  - ros-humble-nebula-decoders
+nebula_hw_interfaces:
   ubuntu:
-  - ros-humble-velodyne-pointcloud
+  - ros-humble-nebula-hw-interfaces
+nebula_ros:
+  ubuntu:
+  - ros-humble-nebula-ros
+nebula_examples:
+  ubuntu:
+  - ros-humble-nebula-examples
+nebula_tests:
+  ubuntu:
+  - ros-humble-nebula-tests
 vls_description:
   ubuntu:
   - ros-humble-vls-description
@@ -850,6 +949,9 @@ yabloc_common:
 yabloc_image_processing:
   ubuntu:
   - ros-humble-yabloc-image-processing
+yabloc_monitor:
+  ubuntu:
+  - ros-humble-yabloc-monitor
 yabloc_particle_filter:
   ubuntu:
   - ros-humble-yabloc-particle-filter

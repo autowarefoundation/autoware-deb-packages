@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 10 Feb 2020 00:00:00 -0000
+Source: ros-humble-pointcloud-to-laserscan
+Binary: ros-humble-pointcloud-to-laserscan
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.0.0-9-g948a4fc-2023.10.29.19.12
+Distribution: jammy
+Urgency: high
+Maintainer: Paul Bovbel <paul@bovbel.com>
+Changed-By: Paul Bovbel <paul@bovbel.com>
+Description:
+ ros-humble-pointcloud-to-laserscan - Converts a 3D Point Cloud into a 2D laser scan.
+Changes:
+ ros-humble-pointcloud-to-laserscan (2.0.0-9-g948a4fc-2023.10.29.19.12) jammy; urgency=high
+ .
+   * ROS 2 Migration (#33 <https://github.com/ros-perception/pointcloud_to_laserscan/issues/33>)
+     * ROS 2 Migration
+     Signed-off-by: Michel Hidalgo <mailto:michel@ekumenlabs.com>
+   * Contributors: Michel Hidalgo
+Checksums-Sha1:
+ b6137cd781a84e62e861a60aaf6431e9041c7bca 7756758 ros-humble-pointcloud-to-laserscan-dbgsym_2.0.0-9-g948a4fc-2023.10.29.19.12_amd64.ddeb
+ a4f9b0d03f939df5bb24f2d09f2db7ae87ff7226 39806 ros-humble-pointcloud-to-laserscan_2.0.0-9-g948a4fc-2023.10.29.19.12_amd64.buildinfo
+ 316b07e4ac534f9ff8c3a96b3f184a7f1a88add9 289978 ros-humble-pointcloud-to-laserscan_2.0.0-9-g948a4fc-2023.10.29.19.12_amd64.deb
+Checksums-Sha256:
+ 516e743b6b29667fa08a1d606479be1a1e1cf8c6e067c769bb2ab11e0871daee 7756758 ros-humble-pointcloud-to-laserscan-dbgsym_2.0.0-9-g948a4fc-2023.10.29.19.12_amd64.ddeb
+ 1290222e6f8d6f81a471c5c7498c75ef48514b93f3d28fee02057058d8aee299 39806 ros-humble-pointcloud-to-laserscan_2.0.0-9-g948a4fc-2023.10.29.19.12_amd64.buildinfo
+ 1624f59ef78e5cbe424bf1e4ccadeb5d4a56f4a3314c7767c84c6f690b8e80ef 289978 ros-humble-pointcloud-to-laserscan_2.0.0-9-g948a4fc-2023.10.29.19.12_amd64.deb
+Files:
+ cc7c56b60355f8d6797a1d9bc4bab845 7756758 debug optional ros-humble-pointcloud-to-laserscan-dbgsym_2.0.0-9-g948a4fc-2023.10.29.19.12_amd64.ddeb
+ 5d8dfc07cc6534cffc67d55eda0356aa 39806 misc optional ros-humble-pointcloud-to-laserscan_2.0.0-9-g948a4fc-2023.10.29.19.12_amd64.buildinfo
+ bd1b5ea6691751e3feefce29476b3c46 289978 misc optional ros-humble-pointcloud-to-laserscan_2.0.0-9-g948a4fc-2023.10.29.19.12_amd64.deb
