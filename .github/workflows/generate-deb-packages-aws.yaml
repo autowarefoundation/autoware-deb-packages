@@ -61,7 +61,7 @@ jobs:
       - name: "Build Debian packages (pushing packages to repository: ${{ env.push_packages }})"
         uses: esteve/ros-deb-builder-action@tier4/main
         with:
-          ROSDEP_SOURCE: yaml https://s3.amazonaws.com/autonomoustuff-repo/autonomoustuff-public-humble.yaml
+          ROSDEP_SOURCE: yaml https://raw.githubusercontent.com/autowarefoundation/autoware-deb-packages/cuda/autoware-rosdep.yaml
           SBUILD_CONF: $extra_repositories = ["deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ jammy main", "deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/ /"]; $extra_repository_keys = ["${{ github.workspace }}/nvidia-cuda-apt-repo-3bf863cc.pub"];
           DEB_DISTRO: jammy
           ROS_DISTRO: humble
