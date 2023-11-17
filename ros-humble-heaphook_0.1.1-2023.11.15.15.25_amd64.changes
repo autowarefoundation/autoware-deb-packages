@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Sat, 12 Aug 2023 00:00:00 -0000
+Source: ros-humble-heaphook
+Binary: ros-humble-heaphook
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.1.1-2023.11.15.15.25
+Distribution: jammy
+Urgency: high
+Maintainer: sykwer <sykwer@gmail.com>
+Changed-By: sykwer <sykwer@gmail.com>
+Description:
+ ros-humble-heaphook - Replace all the dynamic heap allocation functions by LD_PRELOAD
+Changes:
+ ros-humble-heaphook (0.1.1-2023.11.15.15.25) jammy; urgency=high
+ .
+   * fix: add workaround to build on ubuntu 20.04 (#5 <https://github.com/tier4/heaphook/issues/5>)
+   * Contributors: Daisuke Nishimatsu
+Checksums-Sha1:
+ 90885c429fe4be4ccd2ba2b41318363030b3767b 151200 ros-humble-heaphook-dbgsym_0.1.1-2023.11.15.15.25_amd64.ddeb
+ 369edde01af63437b024b2688b2899ffe9891931 11283 ros-humble-heaphook_0.1.1-2023.11.15.15.25_amd64.buildinfo
+ a10965f5d0531c50f22e00c38a725b7bbfae4556 24230 ros-humble-heaphook_0.1.1-2023.11.15.15.25_amd64.deb
+Checksums-Sha256:
+ 033897fc02f1aa4e2990e3fc339560a43e4dff7748eade2f5434b3b67719253b 151200 ros-humble-heaphook-dbgsym_0.1.1-2023.11.15.15.25_amd64.ddeb
+ cbc3090950f6516df498b203de5a4ca31d55361f5b22e813dd062314d9e11d4a 11283 ros-humble-heaphook_0.1.1-2023.11.15.15.25_amd64.buildinfo
+ 23f53ce942dc1a2cb998ff18db760d37deee0707f120de9ca82c47d95b984300 24230 ros-humble-heaphook_0.1.1-2023.11.15.15.25_amd64.deb
+Files:
+ c4cd7b5e6c39276a4b60e47a76544d8b 151200 debug optional ros-humble-heaphook-dbgsym_0.1.1-2023.11.15.15.25_amd64.ddeb
+ 09cece2de38ac1a545574eec7046c9b0 11283 misc optional ros-humble-heaphook_0.1.1-2023.11.15.15.25_amd64.buildinfo
+ 2a93eb56956b58d9ab46967c7bfc9cf9 24230 misc optional ros-humble-heaphook_0.1.1-2023.11.15.15.25_amd64.deb
