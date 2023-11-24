@@ -3,7 +3,7 @@ name: generate-deb-packages-aws
 on:
   push:
     branches:
-      - 'release/2023.07'
+      - 'release/2023.10'
   pull_request:
     branches:
-      - 'release/2023.07'
+      - 'release/2023.10'
