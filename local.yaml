@@ -142,9 +142,6 @@ global_parameter_loader:
 glog_component:
   ubuntu:
   - ros-humble-glog-component
-heaphook:
-  ubuntu:
-  - ros-humble-heaphook
 image_transport_decompressor:
   ubuntu:
   - ros-humble-image-transport-decompressor
@@ -160,12 +157,9 @@ kalman_filter:
 lanelet2_extension:
   ubuntu:
   - ros-humble-lanelet2-extension
-landmark_parser:
+landmark_manager:
   ubuntu:
-  - ros-humble-landmark-parser
-ar_tag_based_localizer:
-  ubuntu:
-  - ros-humble-ar-tag-based-localizer
+  - ros-humble-landmark-manager
 lanelet2_map_preprocessor:
   ubuntu:
   - ros-humble-lanelet2-map-preprocessor
@@ -178,9 +172,6 @@ livox_tag_filter:
 llh_converter:
   ubuntu:
   - ros-humble-llh-converter
-localization_error_monitor:
-  ubuntu:
-  - ros-humble-localization-error-monitor
 map_tf_generator:
   ubuntu:
   - ros-humble-map-tf-generator
@@ -211,6 +202,21 @@ pandar_description:
 pandar_msgs:
   ubuntu:
   - ros-humble-pandar-msgs
+nebula_decoders:
+  ubuntu:
+  - ros-humble-nebula-decoders
+nebula_hw_interfaces:
+  ubuntu:
+  - ros-humble-nebula-hw-interfaces
+nebula_ros:
+  ubuntu:
+  - ros-humble-nebula-ros
+nebula_examples:
+  ubuntu:
+  - ros-humble-nebula-examples
+nebula_tests:
+  ubuntu:
+  - ros-humble-nebula-tests
 perception_utils:
   ubuntu:
   - ros-humble-perception-utils
@@ -241,12 +247,15 @@ eagleye_msgs:
 eagleye_fix2kml:
   ubuntu:
   - ros-humble-eagleye-fix2kml
+eagleye_geo_pose_fusion:
+  ubuntu:
+  - ros-humble-eagleye-geo-pose-fusion
 eagleye_navigation:
   ubuntu:
   - ros-humble-eagleye-navigation
-eagleye_fix2pose:
+eagleye_geo_pose_converter:
   ubuntu:
-  - ros-humble-eagleye-fix2pose
+  - ros-humble-eagleye-geo-pose-converter
 eagleye_gnss_converter:
   ubuntu:
   - ros-humble-eagleye-gnss-converter
@@ -340,6 +349,9 @@ interpolation:
 kinematic_evaluator:
   ubuntu:
   - ros-humble-kinematic-evaluator
+localization_error_monitor:
+  ubuntu:
+  - ros-humble-localization-error-monitor
 localization_evaluator:
   ubuntu:
   - ros-humble-localization-evaluator
@@ -367,6 +379,12 @@ path_distance_calculator:
 planning_evaluator:
   ubuntu:
   - ros-humble-planning-evaluator
+planning_topic_converter:
+  ubuntu:
+  - ros-humble-planning-topic-converter
+pose_instability_detector:
+  ubuntu:
+  - ros-humble-pose-instability-detector
 probabilistic_occupancy_grid_map:
   ubuntu:
   - ros-humble-probabilistic-occupancy-grid-map
@@ -442,6 +460,9 @@ tier4_localization_msgs:
 localization_util:
   ubuntu:
   - ros-humble-localization-util
+ar_tag_based_localizer:
+  ubuntu:
+  - ros-humble-ar-tag-based-localizer
 map_height_fitter:
   ubuntu:
   - ros-humble-map-height-fitter
@@ -616,6 +637,9 @@ tier4_adapi_rviz_plugin:
 tier4_api_msgs:
   ubuntu:
   - ros-humble-tier4-api-msgs
+tier4_camera_view_rviz_plugin:
+  ubuntu:
+  - ros-humble-tier4-camera-view-rviz-plugin
 tier4_system_rviz_plugin:
   ubuntu:
   - ros-humble-tier4-system-rviz-plugin
@@ -640,6 +664,9 @@ tier4_vehicle_msgs:
 component_interface_specs:
   ubuntu:
   - ros-humble-component-interface-specs
+geo_pose_projector:
+  ubuntu:
+  - ros-humble-geo-pose-projector
 gnss_poser:
   ubuntu:
   - ros-humble-gnss-poser
@@ -922,24 +949,6 @@ sample_sensor_kit_description:
 velodyne_monitor:
   ubuntu:
   - ros-humble-velodyne-monitor
-velodyne_msgs:
-  ubuntu:
-  - ros-humble-velodyne-msgs
-nebula_decoders:
-  ubuntu:
-  - ros-humble-nebula-decoders
-nebula_hw_interfaces:
-  ubuntu:
-  - ros-humble-nebula-hw-interfaces
-nebula_ros:
-  ubuntu:
-  - ros-humble-nebula-ros
-nebula_examples:
-  ubuntu:
-  - ros-humble-nebula-examples
-nebula_tests:
-  ubuntu:
-  - ros-humble-nebula-tests
 vls_description:
   ubuntu:
   - ros-humble-vls-description
