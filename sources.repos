@@ -22,7 +22,7 @@ repositories:
   launcher/autoware_launch:
     type: git
     url: https://github.com/autowarefoundation/autoware_launch.git
-    version: d46616183681682d2b5747e39a7bee71a7786e6c
+    version: 5a4fbf425d3f4c5e253c21abc012d13fb65d3fc7
   param/autoware_individual_params:
     type: git
     url: https://github.com/autowarefoundation/autoware_individual_params.git
@@ -54,7 +54,7 @@ repositories:
   universe/autoware.universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
-    version: 8f9f000a26a57dba4b06ff2a1ba153c3925e6de5
+    version: 9a5e5c49e11303320e0a6a9b709e65855acbb9cd
   universe/external/eagleye:
     type: git
     url: https://github.com/MapIV/eagleye.git
