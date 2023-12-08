@@ -157,9 +157,6 @@ kalman_filter:
 lanelet2_extension:
   ubuntu:
   - ros-humble-lanelet2-extension
-landmark_manager:
-  ubuntu:
-  - ros-humble-landmark-manager
 lanelet2_map_preprocessor:
   ubuntu:
   - ros-humble-lanelet2-map-preprocessor
@@ -373,6 +370,9 @@ lidar_centerpoint:
 object_velocity_splitter:
   ubuntu:
   - ros-humble-object-velocity-splitter
+objects_of_interest_marker_interface:
+  ubuntu:
+  - ros-humble-objects-of-interest-marker-interface
 path_distance_calculator:
   ubuntu:
   - ros-humble-path-distance-calculator
@@ -460,6 +460,9 @@ tier4_localization_msgs:
 localization_util:
   ubuntu:
   - ros-humble-localization-util
+landmark_manager:
+  ubuntu:
+  - ros-humble-landmark-manager
 ar_tag_based_localizer:
   ubuntu:
   - ros-humble-ar-tag-based-localizer
@@ -763,9 +766,6 @@ tree_structured_parzen_estimator:
 ndt_scan_matcher:
   ubuntu:
   - ros-humble-ndt-scan-matcher
-trtexec_vendor:
-  ubuntu:
-  - ros-humble-trtexec-vendor
 tvm_utility:
   ubuntu:
   - ros-humble-tvm-utility
@@ -799,6 +799,9 @@ default_ad_api:
 freespace_planning_algorithms:
   ubuntu:
   - ros-humble-freespace-planning-algorithms
+behavior_path_planner_common:
+  ubuntu:
+  - ros-humble-behavior-path-planner-common
 freespace_planner:
   ubuntu:
   - ros-humble-freespace-planner
