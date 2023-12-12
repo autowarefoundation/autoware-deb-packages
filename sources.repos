@@ -22,7 +22,7 @@ repositories:
   launcher/autoware_launch:
     type: git
     url: https://github.com/autowarefoundation/autoware_launch.git
-    version: c991d2af6fd95776157b52b88939b92a0517eb6e
+    version: 36804c87f61a0a13a4e6221c4effc1fa183b71aa
   param/autoware_individual_params:
     type: git
     url: https://github.com/autowarefoundation/autoware_individual_params.git
@@ -30,7 +30,7 @@ repositories:
   sensor_component/external/nebula:
     type: git
     url: https://github.com/tier4/nebula.git
-    version: a89c0a91999a2b08942752dd9986b5c3ea0ba067
+    version: 810849e1b8bf9b39d7090a7b04faf876915550fd
   sensor_component/external/sensor_component_description:
     type: git
     url: https://github.com/tier4/sensor_component_description.git
@@ -54,7 +54,7 @@ repositories:
   universe/autoware.universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
-    version: 5dc7878d11ca9b85d860a897e5d4ea70c2ef5bd5
+    version: 3ec620148cc8dc77a035652dd7412f6cc902e206
   universe/external/eagleye:
     type: git
     url: https://github.com/MapIV/eagleye.git

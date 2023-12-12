@@ -199,21 +199,6 @@ pandar_description:
 pandar_msgs:
   ubuntu:
   - ros-humble-pandar-msgs
-nebula_decoders:
-  ubuntu:
-  - ros-humble-nebula-decoders
-nebula_hw_interfaces:
-  ubuntu:
-  - ros-humble-nebula-hw-interfaces
-nebula_ros:
-  ubuntu:
-  - ros-humble-nebula-ros
-nebula_examples:
-  ubuntu:
-  - ros-humble-nebula-examples
-nebula_tests:
-  ubuntu:
-  - ros-humble-nebula-tests
 perception_utils:
   ubuntu:
   - ros-humble-perception-utils
@@ -235,6 +220,24 @@ radar_threshold_filter:
 radar_tracks_noise_filter:
   ubuntu:
   - ros-humble-radar-tracks-noise-filter
+robosense_msgs:
+  ubuntu:
+  - ros-humble-robosense-msgs
+nebula_decoders:
+  ubuntu:
+  - ros-humble-nebula-decoders
+nebula_hw_interfaces:
+  ubuntu:
+  - ros-humble-nebula-hw-interfaces
+nebula_ros:
+  ubuntu:
+  - ros-humble-nebula-ros
+nebula_examples:
+  ubuntu:
+  - ros-humble-nebula-examples
+nebula_tests:
+  ubuntu:
+  - ros-humble-nebula-tests
 rtklib_msgs:
   ubuntu:
   - ros-humble-rtklib-msgs
@@ -814,6 +817,18 @@ lane_departure_checker:
 behavior_path_planner:
   ubuntu:
   - ros-humble-behavior-path-planner
+behavior_path_avoidance_module:
+  ubuntu:
+  - ros-humble-behavior-path-avoidance-module
+behavior_path_avoidance_by_lane_change_module:
+  ubuntu:
+  - ros-humble-behavior-path-avoidance-by-lane-change-module
+behavior_path_goal_planner_module:
+  ubuntu:
+  - ros-humble-behavior-path-goal-planner-module
+behavior_path_start_planner_module:
+  ubuntu:
+  - ros-humble-behavior-path-start-planner-module
 mission_planner:
   ubuntu:
   - ros-humble-mission-planner
