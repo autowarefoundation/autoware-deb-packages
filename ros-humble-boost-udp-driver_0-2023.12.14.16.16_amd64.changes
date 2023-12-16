@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Sun, 20 Mar 2022 00:00:00 -0000
+Source: ros-humble-boost-udp-driver
+Binary: ros-humble-boost-udp-driver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2023.12.14.16.16
+Distribution: jammy
+Urgency: high
+Maintainer: Joshua Whitley <whitleysoftwareservices@gmail.com>
+Changed-By: Joshua Whitley <whitleysoftwareservices@gmail.com>
+Description:
+ ros-humble-boost-udp-driver - A library to write Synchronous and Asynchronous networking applic
+Changes:
+ ros-humble-boost-udp-driver (0-2023.12.14.16.16) jammy; urgency=high
+ .
+   * Fix linter errors.
+   * Contributors: WhitleySoftwareServices
+Checksums-Sha1:
+ 5a66fb6b443aff65f93277ee03268d2ad8b23559 4044794 ros-humble-boost-udp-driver-dbgsym_0-2023.12.14.16.16_amd64.ddeb
+ 56aefce4102e2dacb715dcb8ab04a59ecb70c2d4 23026 ros-humble-boost-udp-driver_0-2023.12.14.16.16_amd64.buildinfo
+ 177b3f051dd04ba9ff35791bf0aa2a1a793ee245 185540 ros-humble-boost-udp-driver_0-2023.12.14.16.16_amd64.deb
+Checksums-Sha256:
+ f7a37f4ed21b4f0665deca21a7ef45d12462089a1bcaa2cd7a30c7ef448916e5 4044794 ros-humble-boost-udp-driver-dbgsym_0-2023.12.14.16.16_amd64.ddeb
+ fc608299f4569b57c849628aab52b87cd3fe7f7514be6e7c9b46730b85c75b33 23026 ros-humble-boost-udp-driver_0-2023.12.14.16.16_amd64.buildinfo
+ 37db73a25cf10da50e9fbea9d955f8c4326b469450693d9953470d77dc1eab2e 185540 ros-humble-boost-udp-driver_0-2023.12.14.16.16_amd64.deb
+Files:
+ 24087808e511980b5ee61055c0c90350 4044794 debug optional ros-humble-boost-udp-driver-dbgsym_0-2023.12.14.16.16_amd64.ddeb
+ df24ddfe375002c8613315452f13501d 23026 misc optional ros-humble-boost-udp-driver_0-2023.12.14.16.16_amd64.buildinfo
+ 417db3494904c0e069294e7744433bb9 185540 misc optional ros-humble-boost-udp-driver_0-2023.12.14.16.16_amd64.deb

@@ -14,7 +14,7 @@ repositories:
   core/autoware_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_msgs.git
-    version: 2096152a7811c76bca5ebb76120025e3bdd665bb
+    version: 11aa88355ce439d8a90564e5dccc07f994db2963
   core/external/autoware_auto_msgs:
     type: git
     url: https://github.com/tier4/autoware_auto_msgs.git
@@ -54,7 +54,7 @@ repositories:
   universe/autoware.universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
-    version: 3ec620148cc8dc77a035652dd7412f6cc902e206
+    version: 41e59039a002c7a7d0bb0e1d9c93b2f2fc207f54
   universe/external/eagleye:
     type: git
     url: https://github.com/MapIV/eagleye.git
