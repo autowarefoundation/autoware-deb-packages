@@ -70,24 +70,30 @@ autoware_map_msgs:
 autoware_perception_msgs:
   ubuntu:
   - ros-humble-autoware-perception-msgs
-autoware_auto_msgs_adapter:
-  ubuntu:
-  - ros-humble-autoware-auto-msgs-adapter
 autoware_planning_msgs:
   ubuntu:
   - ros-humble-autoware-planning-msgs
+autoware_auto_msgs_adapter:
+  ubuntu:
+  - ros-humble-autoware-auto-msgs-adapter
 autoware_point_types:
   ubuntu:
   - ros-humble-autoware-point-types
 autoware_sensing_msgs:
   ubuntu:
   - ros-humble-autoware-sensing-msgs
+autoware_system_msgs:
+  ubuntu:
+  - ros-humble-autoware-system-msgs
 autoware_testing:
   ubuntu:
   - ros-humble-autoware-testing
 autoware_utils:
   ubuntu:
   - ros-humble-autoware-utils
+autoware_vehicle_msgs:
+  ubuntu:
+  - ros-humble-autoware-vehicle-msgs
 awsim_sensor_kit_launch:
   ubuntu:
   - ros-humble-awsim-sensor-kit-launch
@@ -625,6 +631,9 @@ automatic_pose_initializer:
 component_state_monitor:
   ubuntu:
   - ros-humble-component-state-monitor
+diagnostic_graph_aggregator:
+  ubuntu:
+  - ros-humble-diagnostic-graph-aggregator
 emergency_handler:
   ubuntu:
   - ros-humble-emergency-handler
@@ -634,9 +643,6 @@ mrm_comfortable_stop_operator:
 mrm_emergency_stop_operator:
   ubuntu:
   - ros-humble-mrm-emergency-stop-operator
-system_diagnostic_graph:
-  ubuntu:
-  - ros-humble-system-diagnostic-graph
 tier4_adapi_rviz_plugin:
   ubuntu:
   - ros-humble-tier4-adapi-rviz-plugin
@@ -820,12 +826,21 @@ behavior_path_planner:
 behavior_path_avoidance_module:
   ubuntu:
   - ros-humble-behavior-path-avoidance-module
-behavior_path_avoidance_by_lane_change_module:
+behavior_path_dynamic_avoidance_module:
   ubuntu:
-  - ros-humble-behavior-path-avoidance-by-lane-change-module
+  - ros-humble-behavior-path-dynamic-avoidance-module
 behavior_path_goal_planner_module:
   ubuntu:
   - ros-humble-behavior-path-goal-planner-module
+behavior_path_lane_change_module:
+  ubuntu:
+  - ros-humble-behavior-path-lane-change-module
+behavior_path_avoidance_by_lane_change_module:
+  ubuntu:
+  - ros-humble-behavior-path-avoidance-by-lane-change-module
+behavior_path_external_request_lane_change_module:
+  ubuntu:
+  - ros-humble-behavior-path-external-request-lane-change-module
 behavior_path_side_shift_module:
   ubuntu:
   - ros-humble-behavior-path-side-shift-module
