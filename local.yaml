@@ -865,6 +865,9 @@ behavior_velocity_crosswalk_module:
 behavior_velocity_detection_area_module:
   ubuntu:
   - ros-humble-behavior-velocity-detection-area-module
+behavior_velocity_dynamic_obstacle_stop_module:
+  ubuntu:
+  - ros-humble-behavior-velocity-dynamic-obstacle-stop-module
 behavior_velocity_intersection_module:
   ubuntu:
   - ros-humble-behavior-velocity-intersection-module
