@@ -10,7 +10,7 @@ repositories:
   core/autoware_common:
     type: git
     url: https://github.com/autowarefoundation/autoware_common.git
-    version: c55b1c8f8bd4136bdf65ed5ce928c8681c96b268
+    version: 9d21c45e6ff654720de4569c98c764d74e0fe527
   core/autoware_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_msgs.git
@@ -22,7 +22,7 @@ repositories:
   launcher/autoware_launch:
     type: git
     url: https://github.com/autowarefoundation/autoware_launch.git
-    version: 8b818d4ddbe2e5ad16d3f2f4b20bdd08e3694963
+    version: b7880fea1a03e86874a348ea6511024b08e3168c
   param/autoware_individual_params:
     type: git
     url: https://github.com/autowarefoundation/autoware_individual_params.git
@@ -50,11 +50,11 @@ repositories:
   sensor_kit/sample_sensor_kit_launch:
     type: git
     url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
-    version: ec28886a1d8a4d13adb2a20ce9a229e7d390d5c1
+    version: af0d32baab05887cdd6672f5c1714c31b05749ee
   universe/autoware.universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
-    version: b5896a3c9ee751aede8eb04b903d469c14e8408c
+    version: 17a3070919d5f1330d861426249cb889b71888e1
   universe/external/eagleye:
     type: git
     url: https://github.com/MapIV/eagleye.git
