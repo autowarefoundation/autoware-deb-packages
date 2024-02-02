@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Sun, 20 Mar 2022 00:00:00 -0000
+Source: ros-humble-boost-io-context
+Binary: ros-humble-boost-io-context
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2024.01.31.12.40
+Distribution: jammy
+Urgency: high
+Maintainer: Joshua Whitley <whitleysoftwareservices@gmail.com>
+Changed-By: Joshua Whitley <whitleysoftwareservices@gmail.com>
+Description:
+ ros-humble-boost-io-context - A library to write Synchronous and Asynchronous networking applic
+Changes:
+ ros-humble-boost-io-context (0-2024.01.31.12.40) jammy; urgency=high
+ .
+   * Fix linter errors.
+   * Contributors: WhitleySoftwareServices
+Checksums-Sha1:
+ 3b189fb03b891a743caaefd8665fe504d7845a1d 249436 ros-humble-boost-io-context-dbgsym_0-2024.01.31.12.40_amd64.ddeb
+ 9c0c1d40769c8adef0de3c258dfacaed894e4b9a 16128 ros-humble-boost-io-context_0-2024.01.31.12.40_amd64.buildinfo
+ dc7c73327c3626c649d0f9a1a03706bb8a51e8e7 45426 ros-humble-boost-io-context_0-2024.01.31.12.40_amd64.deb
+Checksums-Sha256:
+ 950f50c50c47de4b7fdd0dac94584da07894099a890c4f088c3b7dff80f4ab10 249436 ros-humble-boost-io-context-dbgsym_0-2024.01.31.12.40_amd64.ddeb
+ f0d0005929165ffb2baed506d7e152a828045213635f8921116df87fd62cf5aa 16128 ros-humble-boost-io-context_0-2024.01.31.12.40_amd64.buildinfo
+ c33b28db5a6dcf11e37057eda7447ffb6f09f58f7b25515663a2eb757c206c7b 45426 ros-humble-boost-io-context_0-2024.01.31.12.40_amd64.deb
+Files:
+ d6ef40e6f97c2acc5a029e80c4f98a90 249436 debug optional ros-humble-boost-io-context-dbgsym_0-2024.01.31.12.40_amd64.ddeb
+ 8d9e8448bbf9609a734d3f98632e109b 16128 misc optional ros-humble-boost-io-context_0-2024.01.31.12.40_amd64.buildinfo
+ b4021d1e433fc0f1dd2453b406db6b90 45426 misc optional ros-humble-boost-io-context_0-2024.01.31.12.40_amd64.deb
