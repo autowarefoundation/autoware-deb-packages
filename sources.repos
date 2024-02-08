@@ -10,7 +10,7 @@ repositories:
   core/autoware_common:
     type: git
     url: https://github.com/autowarefoundation/autoware_common.git
-    version: c55b1c8f8bd4136bdf65ed5ce928c8681c96b268
+    version: d3ff59ad734ebadae0b520ce23300a03c90190a4
   core/autoware_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_msgs.git
@@ -22,7 +22,7 @@ repositories:
   launcher/autoware_launch:
     type: git
     url: https://github.com/autowarefoundation/autoware_launch.git
-    version: 8b818d4ddbe2e5ad16d3f2f4b20bdd08e3694963
+    version: a027fa9a30487684d68b83d7a52835b5e645a610
   param/autoware_individual_params:
     type: git
     url: https://github.com/autowarefoundation/autoware_individual_params.git
@@ -30,11 +30,11 @@ repositories:
   sensor_component/external/nebula:
     type: git
     url: https://github.com/tier4/nebula.git
-    version: 965b4d552eb503e2d7d24496bfa1a96314a882ee
+    version: 76526caf873028c90f64179f4aea0d756a9572f4
   sensor_component/external/sensor_component_description:
     type: git
     url: https://github.com/tier4/sensor_component_description.git
-    version: a6a628186b124bc1af73c4f48a6dcd4b441391d3
+    version: 4bfdbbf51f7136bb78499fd77400d3242342245e
   sensor_component/external/tamagawa_imu_driver:
     type: git
     url: https://github.com/tier4/tamagawa_imu_driver.git
@@ -50,11 +50,11 @@ repositories:
   sensor_kit/sample_sensor_kit_launch:
     type: git
     url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
-    version: ec28886a1d8a4d13adb2a20ce9a229e7d390d5c1
+    version: f8c08777721e04c7f06826755ea30134f22a4a2b
   universe/autoware.universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
-    version: b5896a3c9ee751aede8eb04b903d469c14e8408c
+    version: af2bc533086a5a6c25ac678682323b09ec689579
   universe/external/eagleye:
     type: git
     url: https://github.com/MapIV/eagleye.git
@@ -98,4 +98,4 @@ repositories:
   vehicle/sample_vehicle_launch:
     type: git
     url: https://github.com/autowarefoundation/sample_vehicle_launch.git
-    version: 7917a38e4d0b9f2b1172213db2dd797a3136f7ac
+    version: 5469d845d068624c8e1d3a9d7874cbd004076ac7
