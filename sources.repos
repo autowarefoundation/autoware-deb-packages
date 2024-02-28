@@ -10,7 +10,7 @@ repositories:
   core/autoware_common:
     type: git
     url: https://github.com/autowarefoundation/autoware_common.git
-    version: 7c55915cb435c17f24f78dd9b9f28fa269609671
+    version: 1b2b6bf7f9839bf2dea4035655e0e33501d114a0 # use fork to fix UUID dependency
   core/autoware_internal_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_internal_msgs.git
