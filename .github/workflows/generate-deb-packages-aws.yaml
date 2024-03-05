@@ -62,7 +62,7 @@ jobs:
         uses: esteve/ros-deb-builder-action@tier4/main
         with:
           ROSDEP_SOURCE: yaml https://s3.amazonaws.com/autonomoustuff-repo/autonomoustuff-public-humble.yaml
-          SBUILD_CONF: $extra_repositories = ["deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ jammy main"]; $build_environment = { "PYTHONPATH" => "/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages" };
+          SBUILD_CONF: $extra_repositories = ["deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ jammy main"];
           DEB_DISTRO: jammy
           ROS_DISTRO: humble
           REPOS_FILE: sources.repos
