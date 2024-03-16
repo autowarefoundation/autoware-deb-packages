@@ -37,6 +37,9 @@ autoware_common_msgs:
 autoware_control_msgs:
   ubuntu:
   - ros-humble-autoware-control-msgs
+autoware_internal_msgs:
+  ubuntu:
+  - ros-humble-autoware-internal-msgs
 autoware_lint_common:
   ubuntu:
   - ros-humble-autoware-lint-common
@@ -70,6 +73,9 @@ autoware_map_msgs:
 autoware_perception_msgs:
   ubuntu:
   - ros-humble-autoware-perception-msgs
+autoware_overlay_msgs:
+  ubuntu:
+  - ros-humble-autoware-overlay-msgs
 autoware_planning_msgs:
   ubuntu:
   - ros-humble-autoware-planning-msgs
@@ -220,6 +226,9 @@ polar_grid:
 qp_interface:
   ubuntu:
   - ros-humble-qp-interface
+radar_description:
+  ubuntu:
+  - ros-humble-radar-description
 radar_scan_to_pointcloud2:
   ubuntu:
   - ros-humble-radar-scan-to-pointcloud2
@@ -289,9 +298,6 @@ shift_decider:
 signal_processing:
   ubuntu:
   - ros-humble-signal-processing
-simulator_compatibility_test:
-  ubuntu:
-  - ros-humble-simulator-compatibility-test
 tamagawa_imu_driver:
   ubuntu:
   - ros-humble-tamagawa-imu-driver
@@ -301,9 +307,6 @@ tensorrt_common:
 tensorrt_classifier:
   ubuntu:
   - ros-humble-tensorrt-classifier
-tier4_automatic_goal_rviz_plugin:
-  ubuntu:
-  - ros-humble-tier4-automatic-goal-rviz-plugin
 tier4_autoware_api_launch:
   ubuntu:
   - ros-humble-tier4-autoware-api-launch
@@ -334,9 +337,6 @@ dummy_diag_publisher:
 ekf_localizer:
   ubuntu:
   - ros-humble-ekf-localizer
-front_vehicle_velocity_estimator:
-  ubuntu:
-  - ros-humble-front-vehicle-velocity-estimator
 goal_distance_calculator:
   ubuntu:
   - ros-humble-goal-distance-calculator
@@ -373,9 +373,6 @@ map_based_prediction:
 object_recognition_utils:
   ubuntu:
   - ros-humble-object-recognition-utils
-heatmap_visualizer:
-  ubuntu:
-  - ros-humble-heatmap-visualizer
 lidar_centerpoint:
   ubuntu:
   - ros-humble-lidar-centerpoint
@@ -433,12 +430,12 @@ simple_object_merger:
 system_error_monitor:
   ubuntu:
   - ros-humble-system-error-monitor
+tier4_automatic_goal_rviz_plugin:
+  ubuntu:
+  - ros-humble-tier4-automatic-goal-rviz-plugin
 tier4_debug_rviz_plugin:
   ubuntu:
   - ros-humble-tier4-debug-rviz-plugin
-tier4_debug_tools:
-  ubuntu:
-  - ros-humble-tier4-debug-tools
 tier4_external_api_msgs:
   ubuntu:
   - ros-humble-tier4-external-api-msgs
@@ -493,6 +490,9 @@ tier4_map_msgs:
 geography_utils:
   ubuntu:
   - ros-humble-geography-utils
+tier4_metrics_rviz_plugin:
+  ubuntu:
+  - ros-humble-tier4-metrics-rviz-plugin
 tier4_pcl_extensions:
   ubuntu:
   - ros-humble-tier4-pcl-extensions
@@ -553,9 +553,6 @@ shape_estimation:
 detection_by_tracker:
   ubuntu:
   - ros-humble-detection-by-tracker
-tensorrt_yolo:
-  ubuntu:
-  - ros-humble-tensorrt-yolo
 tensorrt_yolox:
   ubuntu:
   - ros-humble-tensorrt-yolox
@@ -568,15 +565,18 @@ tier4_planning_launch:
 tier4_planning_msgs:
   ubuntu:
   - ros-humble-tier4-planning-msgs
+autoware_overlay_rviz_plugin:
+  ubuntu:
+  - ros-humble-autoware-overlay-rviz-plugin
 costmap_generator:
   ubuntu:
   - ros-humble-costmap-generator
 external_velocity_limit_selector:
   ubuntu:
   - ros-humble-external-velocity-limit-selector
-planning_debug_tools:
+mission_planner_rviz_plugin:
   ubuntu:
-  - ros-humble-planning-debug-tools
+  - ros-humble-mission-planner-rviz-plugin
 tier4_rtc_msgs:
   ubuntu:
   - ros-humble-tier4-rtc-msgs
@@ -640,12 +640,18 @@ diagnostic_graph_aggregator:
 emergency_handler:
   ubuntu:
   - ros-humble-emergency-handler
+hazard_status_converter:
+  ubuntu:
+  - ros-humble-hazard-status-converter
 mrm_comfortable_stop_operator:
   ubuntu:
   - ros-humble-mrm-comfortable-stop-operator
 mrm_emergency_stop_operator:
   ubuntu:
   - ros-humble-mrm-emergency-stop-operator
+mrm_handler:
+  ubuntu:
+  - ros-humble-mrm-handler
 tier4_adapi_rviz_plugin:
   ubuntu:
   - ros-humble-tier4-adapi-rviz-plugin
@@ -760,9 +766,6 @@ traffic_light_multi_camera_fusion:
 traffic_light_recognition_marker_publisher:
   ubuntu:
   - ros-humble-traffic-light-recognition-marker-publisher
-traffic_light_ssd_fine_detector:
-  ubuntu:
-  - ros-humble-traffic-light-ssd-fine-detector
 traffic_light_utils:
   ubuntu:
   - ros-humble-traffic-light-utils
@@ -811,9 +814,6 @@ default_ad_api:
 freespace_planning_algorithms:
   ubuntu:
   - ros-humble-freespace-planning-algorithms
-behavior_path_planner_common:
-  ubuntu:
-  - ros-humble-behavior-path-planner-common
 freespace_planner:
   ubuntu:
   - ros-humble-freespace-planner
@@ -823,33 +823,9 @@ ground_segmentation:
 lane_departure_checker:
   ubuntu:
   - ros-humble-lane-departure-checker
-behavior_path_planner:
+behavior_path_planner_common:
   ubuntu:
-  - ros-humble-behavior-path-planner
-behavior_path_avoidance_module:
-  ubuntu:
-  - ros-humble-behavior-path-avoidance-module
-behavior_path_dynamic_avoidance_module:
-  ubuntu:
-  - ros-humble-behavior-path-dynamic-avoidance-module
-behavior_path_goal_planner_module:
-  ubuntu:
-  - ros-humble-behavior-path-goal-planner-module
-behavior_path_lane_change_module:
-  ubuntu:
-  - ros-humble-behavior-path-lane-change-module
-behavior_path_avoidance_by_lane_change_module:
-  ubuntu:
-  - ros-humble-behavior-path-avoidance-by-lane-change-module
-behavior_path_external_request_lane_change_module:
-  ubuntu:
-  - ros-humble-behavior-path-external-request-lane-change-module
-behavior_path_side_shift_module:
-  ubuntu:
-  - ros-humble-behavior-path-side-shift-module
-behavior_path_start_planner_module:
-  ubuntu:
-  - ros-humble-behavior-path-start-planner-module
+  - ros-humble-behavior-path-planner-common
 mission_planner:
   ubuntu:
   - ros-humble-mission-planner
@@ -934,6 +910,39 @@ pacmod_interface:
 path_sampler:
   ubuntu:
   - ros-humble-path-sampler
+behavior_path_planner:
+  ubuntu:
+  - ros-humble-behavior-path-planner
+behavior_path_avoidance_module:
+  ubuntu:
+  - ros-humble-behavior-path-avoidance-module
+behavior_path_dynamic_avoidance_module:
+  ubuntu:
+  - ros-humble-behavior-path-dynamic-avoidance-module
+behavior_path_goal_planner_module:
+  ubuntu:
+  - ros-humble-behavior-path-goal-planner-module
+behavior_path_lane_change_module:
+  ubuntu:
+  - ros-humble-behavior-path-lane-change-module
+behavior_path_avoidance_by_lane_change_module:
+  ubuntu:
+  - ros-humble-behavior-path-avoidance-by-lane-change-module
+behavior_path_external_request_lane_change_module:
+  ubuntu:
+  - ros-humble-behavior-path-external-request-lane-change-module
+behavior_path_sampling_planner_module:
+  ubuntu:
+  - ros-humble-behavior-path-sampling-planner-module
+behavior_path_side_shift_module:
+  ubuntu:
+  - ros-humble-behavior-path-side-shift-module
+behavior_path_start_planner_module:
+  ubuntu:
+  - ros-humble-behavior-path-start-planner-module
+perception_online_evaluator:
+  ubuntu:
+  - ros-humble-perception-online-evaluator
 planning_validator:
   ubuntu:
   - ros-humble-planning-validator
@@ -1006,6 +1015,9 @@ yabloc_monitor:
 yabloc_particle_filter:
   ubuntu:
   - ros-humble-yabloc-particle-filter
+pose_estimator_arbiter:
+  ubuntu:
+  - ros-humble-pose-estimator-arbiter
 yabloc_pose_initializer:
   ubuntu:
   - ros-humble-yabloc-pose-initializer

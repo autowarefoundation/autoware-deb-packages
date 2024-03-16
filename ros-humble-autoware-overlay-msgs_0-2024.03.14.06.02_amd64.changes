@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-humble-autoware-overlay-msgs
+Binary: ros-humble-autoware-overlay-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2024.03.14.06.02
+Distribution: jammy
+Urgency: high
+Maintainer: Team Spatzenhirn <team-spatzenhirn@uni-ulm.de>
+Changed-By: Team Spatzenhirn <team-spatzenhirn@uni-ulm.de>
+Description:
+ ros-humble-autoware-overlay-msgs - Messages describing 2D overlays for RVIZ, extracted/derived from
+Changes:
+ ros-humble-autoware-overlay-msgs (0-2024.03.14.06.02) jammy; urgency=high
+ .
+   * Removed old position message fields
+   * Contributors: Dominik, Jonas Otto
+Checksums-Sha1:
+ 75240625445ee8747a0dd9c796edabfd638d3871 161080 ros-humble-autoware-overlay-msgs-dbgsym_0-2024.03.14.06.02_amd64.ddeb
+ 2354b4d0acaf39a0fd7cb2c028722f34000562f6 13369 ros-humble-autoware-overlay-msgs_0-2024.03.14.06.02_amd64.buildinfo
+ 4b27c96daa04a49722be80ada68487490cb7a267 44216 ros-humble-autoware-overlay-msgs_0-2024.03.14.06.02_amd64.deb
+Checksums-Sha256:
+ a0547487f5c796e0cafeef22d66617f57b33b202912a7dbaff8692b6481559d9 161080 ros-humble-autoware-overlay-msgs-dbgsym_0-2024.03.14.06.02_amd64.ddeb
+ fe2f6db3cecb870a27da92727a0778ef1a8d2df3ab1c1156366a59cced796952 13369 ros-humble-autoware-overlay-msgs_0-2024.03.14.06.02_amd64.buildinfo
+ 08d96f2ebc6c16885543a339f7a78070ccfc103207530ccaa5bc4e66bc6955f3 44216 ros-humble-autoware-overlay-msgs_0-2024.03.14.06.02_amd64.deb
+Files:
+ bc6ce9526a282eff77db0758d902a9b9 161080 debug optional ros-humble-autoware-overlay-msgs-dbgsym_0-2024.03.14.06.02_amd64.ddeb
+ d3b6702a130dc3e2d5ec438d52d22fbf 13369 misc optional ros-humble-autoware-overlay-msgs_0-2024.03.14.06.02_amd64.buildinfo
+ 8b060a49091ae52304259989c344702b 44216 misc optional ros-humble-autoware-overlay-msgs_0-2024.03.14.06.02_amd64.deb
