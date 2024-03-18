@@ -26,7 +26,7 @@ repositories:
   launcher/autoware_launch:
     type: git
     url: https://github.com/autowarefoundation/autoware_launch.git
-    version: df4d43596c9e3e3eca468f29468446d39110f22b
+    version: f4778f96f820d0fd2ee7b90f107dfb9aff048a09
   param/autoware_individual_params:
     type: git
     url: https://github.com/autowarefoundation/autoware_individual_params.git
@@ -34,7 +34,7 @@ repositories:
   sensor_component/external/nebula:
     type: git
     url: https://github.com/tier4/nebula.git
-    version: 45c01cf48cbdba3696f1e40a68726af50b67ba19
+    version: 99cb03530b5072006301d2125e572432aa5bccfc
   sensor_component/external/sensor_component_description:
     type: git
     url: https://github.com/tier4/sensor_component_description.git
@@ -58,7 +58,7 @@ repositories:
   universe/autoware.universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
-    version: 5adc394e04b1a74d0ed40651400412f728baf094
+    version: 6ee9627bdb009c92139689a960a865dc5ceea28d
   universe/external/eagleye:
     type: git
     url: https://github.com/MapIV/eagleye.git
@@ -78,7 +78,7 @@ repositories:
   universe/external/ndt_omp:
     type: git
     url: https://github.com/tier4/ndt_omp.git
-    version: cb5878390625fa9351451ea0c0ea480d8121c346
+    version: 19b30f0b6c8d69e5f57b7af87c90c0fb0a6db929
   universe/external/pointcloud_to_laserscan:
     type: git
     url: https://github.com/tier4/pointcloud_to_laserscan.git
@@ -94,7 +94,7 @@ repositories:
   universe/external/tier4_autoware_msgs:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
-    version: a1664b39899717bb7c38ee07c5bbb30d436f4ea9
+    version: dd006f206298b49d6f57c9ae698da588f3a23893
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
