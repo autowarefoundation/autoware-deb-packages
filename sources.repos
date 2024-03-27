@@ -26,7 +26,7 @@ repositories:
   launcher/autoware_launch:
     type: git
     url: https://github.com/autowarefoundation/autoware_launch.git
-    version: f4778f96f820d0fd2ee7b90f107dfb9aff048a09
+    version: 6b32fd682f610051b2f1b02cd81baca658cf1f0f
   param/autoware_individual_params:
     type: git
     url: https://github.com/autowarefoundation/autoware_individual_params.git
@@ -58,7 +58,7 @@ repositories:
   universe/autoware.universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
-    version: 6ee9627bdb009c92139689a960a865dc5ceea28d
+    version: 413514b49eb86c2ecdf3aad7f20e18b34b91515e
   universe/external/eagleye:
     type: git
     url: https://github.com/MapIV/eagleye.git
@@ -78,7 +78,7 @@ repositories:
   universe/external/ndt_omp:
     type: git
     url: https://github.com/tier4/ndt_omp.git
-    version: 19b30f0b6c8d69e5f57b7af87c90c0fb0a6db929
+    version: 110d4e5779b839481d97b9b01b85e44617d8587d
   universe/external/pointcloud_to_laserscan:
     type: git
     url: https://github.com/tier4/pointcloud_to_laserscan.git
