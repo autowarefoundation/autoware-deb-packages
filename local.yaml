@@ -796,6 +796,9 @@ lidar_centerpoint_tvm:
 twist2accel:
   ubuntu:
   - ros-humble-twist2accel
+vehicle_door_simulator:
+  ubuntu:
+  - ros-humble-vehicle-door-simulator
 vehicle_info_util:
   ubuntu:
   - ros-humble-vehicle-info-util
