@@ -39,7 +39,7 @@ jobs:
     name: "Build Debian packages for Autoware (Humble)"
     needs: start-runner
     runs-on: ${{ needs.start-runner.outputs.label }}
-    timeout-minutes: 2880
+    timeout-minutes: 5760
     permissions:
       deployments: write
       contents: write
