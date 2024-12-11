@@ -66,11 +66,11 @@ repositories:
   sensor_kit/external/awsim_sensor_kit_launch:
     type: git
     url: https://github.com/tier4/awsim_sensor_kit_launch.git
-    version: 28d67e1d90bdbd89b1ff2bbd1abc63549e12a951
+    version: 495b3506d2462f15efe828f7bd43320889e88176
   sensor_kit/sample_sensor_kit_launch:
     type: git
     url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
-    version: 3e652bf8d267386b5a3abf833b5e13590894c82d
+    version: 286e5d35e9d42b7ad765481a0d25c94e0a070afb
   sensor_kit/single_lidar_sensor_kit_launch:
     type: git
     url: https://github.com/autowarefoundation/single_lidar_sensor_kit_launch.git
