@@ -54,7 +54,7 @@ repositories:
   sensor_component/ros2_socketcan:
     type: git
     url: https://github.com/autowarefoundation/ros2_socketcan
-    version: 85da8c31286cad69de65dc50219e7d901ae9e94b
+    version: 06937e7344bde3a15e0bb14cea2d873a82574750
   sensor_component/transport_drivers:
     type: git
     url: https://github.com/autowarefoundation/transport_drivers
@@ -62,19 +62,19 @@ repositories:
   sensor_kit/awsim_labs_sensor_kit_launch:
     type: git
     url: https://github.com/autowarefoundation/awsim_labs_sensor_kit_launch.git
-    version: d531d0b5b32672534536b1f49ec0bf4283ad2388
+    version: 8421ef181094f67ef3a6d6604a4a0421a19f41de
   sensor_kit/external/awsim_sensor_kit_launch:
     type: git
     url: https://github.com/tier4/awsim_sensor_kit_launch.git
-    version: 63213e91194d492b0f63ac5e51d60f51d346fdc9
+    version: 28d67e1d90bdbd89b1ff2bbd1abc63549e12a951
   sensor_kit/sample_sensor_kit_launch:
     type: git
     url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
-    version: c6b1ee5a26320e53a12455c83b98c63e0e9e1ab7
+    version: 3e652bf8d267386b5a3abf833b5e13590894c82d
   sensor_kit/single_lidar_sensor_kit_launch:
     type: git
     url: https://github.com/autowarefoundation/single_lidar_sensor_kit_launch.git
-    version: f649db1fa0df1dbb77f553305acdcc01662057d9
+    version: 52219a5a730708e2c22b2a8164a68f999bd35127
   universe/autoware.universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
@@ -122,7 +122,7 @@ repositories:
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
-    version: 6efb5d13e1843d11e4eed5f00fbda4ba71f20481
+    version: 1c033a21ce0c41cd4fb878b95d3e1620de79e95a
   vehicle/sample_vehicle_launch:
     type: git
     url: https://github.com/autowarefoundation/sample_vehicle_launch.git
