@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-radar-threshold-filter
+Binary: ros-humble-autoware-radar-threshold-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.12.26
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Tanaka <satoshi.tanaka@tier4.jp>
+Changed-By: Satoshi Tanaka <satoshi.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-radar-threshold-filter - autoware_radar_threshold_filter
+Changes:
+ ros-humble-autoware-radar-threshold-filter (0.39.0-2024.12.16.12.26) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 57a939129593bcb4af3b36ed8665c2a89e340035 2362080 ros-humble-autoware-radar-threshold-filter-dbgsym_0.39.0-2024.12.16.12.26_amd64.ddeb
+ 1ff82b992da59f2bcdf1b8b6812dc24ab8f2e526 17315 ros-humble-autoware-radar-threshold-filter_0.39.0-2024.12.16.12.26_amd64.buildinfo
+ 20c1492bd07b77ad5f42df4809ad412e6ee5df2b 122228 ros-humble-autoware-radar-threshold-filter_0.39.0-2024.12.16.12.26_amd64.deb
+Checksums-Sha256:
+ 7ccbd233abf08ecd31f41e4b3f92bea72493bfa8356ed95aa73cb092bf8fae0e 2362080 ros-humble-autoware-radar-threshold-filter-dbgsym_0.39.0-2024.12.16.12.26_amd64.ddeb
+ 7ba8c3fb7e4ca56b36b6f398b694f60ef7b1cf7c9c289f88319c3740acb66b60 17315 ros-humble-autoware-radar-threshold-filter_0.39.0-2024.12.16.12.26_amd64.buildinfo
+ 98399a77e19e2f622a33b648adb7fbf5e9c537c01c38ba0bac6cee4529980e41 122228 ros-humble-autoware-radar-threshold-filter_0.39.0-2024.12.16.12.26_amd64.deb
+Files:
+ 7a08b51785a8f1b7199fa6decbd63f3b 2362080 debug optional ros-humble-autoware-radar-threshold-filter-dbgsym_0.39.0-2024.12.16.12.26_amd64.ddeb
+ e1a39a747796f908c944291aa8bc3c41 17315 misc optional ros-humble-autoware-radar-threshold-filter_0.39.0-2024.12.16.12.26_amd64.buildinfo
+ af2228f708bada77253a3787008bb861 122228 misc optional ros-humble-autoware-radar-threshold-filter_0.39.0-2024.12.16.12.26_amd64.deb

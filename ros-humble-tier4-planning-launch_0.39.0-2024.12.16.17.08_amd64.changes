@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-tier4-planning-launch
+Binary: ros-humble-tier4-planning-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.17.08
+Distribution: jammy
+Urgency: high
+Maintainer: Zulfaqar Azmi <zulfaqar.azmi@tier4.jp>
+Changed-By: Zulfaqar Azmi <zulfaqar.azmi@tier4.jp>
+Description:
+ ros-humble-tier4-planning-launch - The tier4_planning_launch package
+Changes:
+ ros-humble-tier4-planning-launch (0.39.0-2024.12.16.17.08) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 1cc66468030386f6e08c54f60607d41b84cb6f02 10691 ros-humble-tier4-planning-launch_0.39.0-2024.12.16.17.08_amd64.buildinfo
+ 635462a13d04ab6cf24f9b91630a970a17c75e5a 33414 ros-humble-tier4-planning-launch_0.39.0-2024.12.16.17.08_amd64.deb
+Checksums-Sha256:
+ db5788a93aead6a296c88ebb4c209098b44ec496cf24353f9a985dcbc3274f26 10691 ros-humble-tier4-planning-launch_0.39.0-2024.12.16.17.08_amd64.buildinfo
+ 4d109eae405d24bb75b406445e5d12a03e969c164079faee08a2c79caf9d4b74 33414 ros-humble-tier4-planning-launch_0.39.0-2024.12.16.17.08_amd64.deb
+Files:
+ 3d73c6dbd8bdb0a0667427136af48a69 10691 misc optional ros-humble-tier4-planning-launch_0.39.0-2024.12.16.17.08_amd64.buildinfo
+ b95f80be7d0c5c6f40aa9c3d11ae6ed3 33414 misc optional ros-humble-tier4-planning-launch_0.39.0-2024.12.16.17.08_amd64.deb

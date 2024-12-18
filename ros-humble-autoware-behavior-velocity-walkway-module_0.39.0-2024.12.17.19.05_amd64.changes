@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-walkway-module
+Binary: ros-humble-autoware-behavior-velocity-walkway-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.19.05
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-walkway-module - The autoware_behavior_velocity_walkway_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-walkway-module (0.39.0-2024.12.17.19.05) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ ef6671082b6eaaa8356b99ca69502130feae0330 3030176 ros-humble-autoware-behavior-velocity-walkway-module-dbgsym_0.39.0-2024.12.17.19.05_amd64.ddeb
+ 01ed4ec3de8cb247e4cdb9ad2d7e82edf568416d 48557 ros-humble-autoware-behavior-velocity-walkway-module_0.39.0-2024.12.17.19.05_amd64.buildinfo
+ fdf66e7672b31d2a431dc6895e800caa12da1bdf 106710 ros-humble-autoware-behavior-velocity-walkway-module_0.39.0-2024.12.17.19.05_amd64.deb
+Checksums-Sha256:
+ cb55cab4b484196182c39fd229bba7f825352fa575bf9fbcfb5aa3e5019f0297 3030176 ros-humble-autoware-behavior-velocity-walkway-module-dbgsym_0.39.0-2024.12.17.19.05_amd64.ddeb
+ 848f86f0fe8ad390dc115d498c8a54fbc9e6d75dee5ee63e3308bea67549910c 48557 ros-humble-autoware-behavior-velocity-walkway-module_0.39.0-2024.12.17.19.05_amd64.buildinfo
+ 78a05b34c97aed212cf859e41b10f99baa014cd8e34d0011715ed9406d51c243 106710 ros-humble-autoware-behavior-velocity-walkway-module_0.39.0-2024.12.17.19.05_amd64.deb
+Files:
+ 2012c3cd1f42a56261ac68c24c302233 3030176 debug optional ros-humble-autoware-behavior-velocity-walkway-module-dbgsym_0.39.0-2024.12.17.19.05_amd64.ddeb
+ 48b17fe41fc61b7bec5164ea9074c76b 48557 misc optional ros-humble-autoware-behavior-velocity-walkway-module_0.39.0-2024.12.17.19.05_amd64.buildinfo
+ d74c1667fa5d4738383e3e1b311c312e 106710 misc optional ros-humble-autoware-behavior-velocity-walkway-module_0.39.0-2024.12.17.19.05_amd64.deb

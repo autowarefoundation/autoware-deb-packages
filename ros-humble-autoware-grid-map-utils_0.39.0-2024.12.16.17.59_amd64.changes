@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-grid-map-utils
+Binary: ros-humble-autoware-grid-map-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.17.59
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime CLEMENT <maxime.clement@tier4.jp>
+Changed-By: Maxime CLEMENT <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-grid-map-utils - Utilities for the grid_map library
+Changes:
+ ros-humble-autoware-grid-map-utils (0.39.0-2024.12.16.17.59) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 866e2dad1fa8aa817ab5e31eebe14ea1287eb7f0 220076 ros-humble-autoware-grid-map-utils-dbgsym_0.39.0-2024.12.16.17.59_amd64.ddeb
+ 212e29fe7b32089578c7a03e824e4938efcf2045 44424 ros-humble-autoware-grid-map-utils_0.39.0-2024.12.16.17.59_amd64.buildinfo
+ 48a7c22d3208bbe6fa158a1c8eaa8d0f889a7a5b 47528 ros-humble-autoware-grid-map-utils_0.39.0-2024.12.16.17.59_amd64.deb
+Checksums-Sha256:
+ 867d6c0e73453cd0391f9097c79fe9b54d200543201f17686e200d7583105719 220076 ros-humble-autoware-grid-map-utils-dbgsym_0.39.0-2024.12.16.17.59_amd64.ddeb
+ e13a9c6bdc24f4ee82d6f8a6d920106e560e13c552614ea95d0db1e27b0979d6 44424 ros-humble-autoware-grid-map-utils_0.39.0-2024.12.16.17.59_amd64.buildinfo
+ 8feb839a172226d05539600e726cd6a5b64a7ddbf3c8902f9bc49b65885a4f60 47528 ros-humble-autoware-grid-map-utils_0.39.0-2024.12.16.17.59_amd64.deb
+Files:
+ 1c7684fc88f440267d5e8ca8d29da2cd 220076 debug optional ros-humble-autoware-grid-map-utils-dbgsym_0.39.0-2024.12.16.17.59_amd64.ddeb
+ 4178a17a17f551be891d55888d2b0008 44424 misc optional ros-humble-autoware-grid-map-utils_0.39.0-2024.12.16.17.59_amd64.buildinfo
+ 1ab276739a83330b28ab2635b5ab8814 47528 misc optional ros-humble-autoware-grid-map-utils_0.39.0-2024.12.16.17.59_amd64.deb

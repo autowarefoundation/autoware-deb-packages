@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-shape-estimation
+Binary: ros-humble-autoware-shape-estimation
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.16.36
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-shape-estimation - This package implements a shape estimation algorithm as a ROS 2 n
+Changes:
+ ros-humble-autoware-shape-estimation (0.39.0-2024.12.17.16.36) jammy; urgency=high
+ .
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * refactor(cuda_utils): prefix package and namespace with autoware (#9171 <https://github.com/youtalk/autoware.universe/issues/9171>)
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 825b901b5205a91448716877c0c9924680b94adf 5627766 ros-humble-autoware-shape-estimation-dbgsym_0.39.0-2024.12.17.16.36_amd64.ddeb
+ d8cb2f518f34168e2b4407a7eddaeb479f9f2e79 46546 ros-humble-autoware-shape-estimation_0.39.0-2024.12.17.16.36_amd64.buildinfo
+ 2b1321e5b04d18ccd5ee4cbf1846a8c03ea5ef9c 171380 ros-humble-autoware-shape-estimation_0.39.0-2024.12.17.16.36_amd64.deb
+Checksums-Sha256:
+ ce91cfd5cda7477943fbc4488fecbd8e225c4247dfd457a2055781766f2745e8 5627766 ros-humble-autoware-shape-estimation-dbgsym_0.39.0-2024.12.17.16.36_amd64.ddeb
+ f48ffb017a447d0ebecf6281d6973795bda114549949d15187d868f8fe09e87a 46546 ros-humble-autoware-shape-estimation_0.39.0-2024.12.17.16.36_amd64.buildinfo
+ 0112e572e2feb153a8b41975d6f7b058ca3c7b59c320bf60720d0f8c96974b3c 171380 ros-humble-autoware-shape-estimation_0.39.0-2024.12.17.16.36_amd64.deb
+Files:
+ 443f590b4679438ee1b4029c1a092033 5627766 debug optional ros-humble-autoware-shape-estimation-dbgsym_0.39.0-2024.12.17.16.36_amd64.ddeb
+ 5b70dce89c34819113c1885e85033c4e 46546 misc optional ros-humble-autoware-shape-estimation_0.39.0-2024.12.17.16.36_amd64.buildinfo
+ 18c5d69a8e2d2f7302e895bfaeffe3d2 171380 misc optional ros-humble-autoware-shape-estimation_0.39.0-2024.12.17.16.36_amd64.deb

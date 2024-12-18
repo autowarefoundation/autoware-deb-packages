@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-learning-based-vehicle-model
+Binary: ros-humble-learning-based-vehicle-model
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.13.56
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime Clement <maxime.clement@tier4.jp>
+Changed-By: Maxime Clement <maxime.clement@tier4.jp>
+Description:
+ ros-humble-learning-based-vehicle-model - learning_based_vehicle_model for simple_planning_simulator
+Changes:
+ ros-humble-learning-based-vehicle-model (0.39.0-2024.12.16.13.56) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 0b9fecf558fa3f082b80c55f836187296de45bd5 717514 ros-humble-learning-based-vehicle-model-dbgsym_0.39.0-2024.12.16.13.56_amd64.ddeb
+ 46c69477910ebad683c34451d9be88a39a6b970b 12057 ros-humble-learning-based-vehicle-model_0.39.0-2024.12.16.13.56_amd64.buildinfo
+ b364342c8cf9296b1c141c7c30a2f27307930a1d 58102 ros-humble-learning-based-vehicle-model_0.39.0-2024.12.16.13.56_amd64.deb
+Checksums-Sha256:
+ 1cd80e8f4ae0bd4432e070ab9cc983a2b20dbde027a6f3526ad2a12f1ead748e 717514 ros-humble-learning-based-vehicle-model-dbgsym_0.39.0-2024.12.16.13.56_amd64.ddeb
+ 3dc54c02be76cb109cf1d8d0038f623637b98039db2bcaf53d28372f5ff9676e 12057 ros-humble-learning-based-vehicle-model_0.39.0-2024.12.16.13.56_amd64.buildinfo
+ fc95b1ed737b0a72116266092e0640399d72fbce45e1e6c8c1254aa76810dab7 58102 ros-humble-learning-based-vehicle-model_0.39.0-2024.12.16.13.56_amd64.deb
+Files:
+ 92ce40f217e9a110466377597ccbb5e4 717514 debug optional ros-humble-learning-based-vehicle-model-dbgsym_0.39.0-2024.12.16.13.56_amd64.ddeb
+ 292ad95375cd74d775c49b416d954f9d 12057 misc optional ros-humble-learning-based-vehicle-model_0.39.0-2024.12.16.13.56_amd64.buildinfo
+ 2694376912710b90f661199b3db07e90 58102 misc optional ros-humble-learning-based-vehicle-model_0.39.0-2024.12.16.13.56_amd64.deb

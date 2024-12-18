@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-remaining-distance-time-calculator
+Binary: ros-humble-autoware-remaining-distance-time-calculator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.16.15
+Distribution: jammy
+Urgency: high
+Maintainer: Ahmed Ebrahim <ahmed.ebrahim@leodrive.ai>
+Changed-By: Ahmed Ebrahim <ahmed.ebrahim@leodrive.ai>
+Description:
+ ros-humble-autoware-remaining-distance-time-calculator - Calculates and publishes remaining distance and time of the missi
+Changes:
+ ros-humble-autoware-remaining-distance-time-calculator (0.39.0-2024.12.17.16.15) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ df1d6b93d468e5ce66db0ebeda57078baba466b2 5672222 ros-humble-autoware-remaining-distance-time-calculator-dbgsym_0.39.0-2024.12.17.16.15_amd64.ddeb
+ e30248b095ded902f8cfd53ad7e56e1a712872fb 42791 ros-humble-autoware-remaining-distance-time-calculator_0.39.0-2024.12.17.16.15_amd64.buildinfo
+ b2b8910f472b8c478ae27bb6ab578e738e8934d4 189662 ros-humble-autoware-remaining-distance-time-calculator_0.39.0-2024.12.17.16.15_amd64.deb
+Checksums-Sha256:
+ 1147eb1597fcd89708394fc121c7ec8cab143d944338c698de8f459dce2746a0 5672222 ros-humble-autoware-remaining-distance-time-calculator-dbgsym_0.39.0-2024.12.17.16.15_amd64.ddeb
+ b5518ed2725e448b32aee6b229f94fd782901b02d505d3304fa2c1dbe8b23a6b 42791 ros-humble-autoware-remaining-distance-time-calculator_0.39.0-2024.12.17.16.15_amd64.buildinfo
+ 532c6f1fd55f312d8d1bd2a1c05bc1db772dc6a70f65fa5c1fe2b95e18890ee9 189662 ros-humble-autoware-remaining-distance-time-calculator_0.39.0-2024.12.17.16.15_amd64.deb
+Files:
+ 76471b4cf305b370956c8c0b552f8ad2 5672222 debug optional ros-humble-autoware-remaining-distance-time-calculator-dbgsym_0.39.0-2024.12.17.16.15_amd64.ddeb
+ 8775262e9df83fca78ff0718e0dc113f 42791 misc optional ros-humble-autoware-remaining-distance-time-calculator_0.39.0-2024.12.17.16.15_amd64.buildinfo
+ 9b9427e310d4dccb55aa6be99a36b1e3 189662 misc optional ros-humble-autoware-remaining-distance-time-calculator_0.39.0-2024.12.17.16.15_amd64.deb

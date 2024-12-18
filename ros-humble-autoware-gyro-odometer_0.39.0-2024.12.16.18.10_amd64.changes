@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-gyro-odometer
+Binary: ros-humble-autoware-gyro-odometer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.18.10
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-gyro-odometer - The autoware_gyro_odometer package as a ROS 2 node
+Changes:
+ ros-humble-autoware-gyro-odometer (0.39.0-2024.12.16.18.10) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ b034b1b9cee8ee2e83f4f6cf9bf9a342866e9bad 3451776 ros-humble-autoware-gyro-odometer-dbgsym_0.39.0-2024.12.16.18.10_amd64.ddeb
+ 28bfde366bea1b424d31c9d66ff9d6a3dfd517d8 40312 ros-humble-autoware-gyro-odometer_0.39.0-2024.12.16.18.10_amd64.buildinfo
+ a4c45f0347c72258c09fd64b982110c1c047ba92 159480 ros-humble-autoware-gyro-odometer_0.39.0-2024.12.16.18.10_amd64.deb
+Checksums-Sha256:
+ 68ecb5c03ab44bc587c5a6b6322a012c5098f9d811fefa4d93d03c1dd0770424 3451776 ros-humble-autoware-gyro-odometer-dbgsym_0.39.0-2024.12.16.18.10_amd64.ddeb
+ 5d42e7bf3a21c412463acd3e6738b980313c7491c80097ec281d0f9d56c61256 40312 ros-humble-autoware-gyro-odometer_0.39.0-2024.12.16.18.10_amd64.buildinfo
+ f3ea464f71942a4cbb50c197867d029c0b13a1e9195f9d46c226a7f5e6d55605 159480 ros-humble-autoware-gyro-odometer_0.39.0-2024.12.16.18.10_amd64.deb
+Files:
+ 6df74c91570dbb7a114ba01e0949a8d8 3451776 debug optional ros-humble-autoware-gyro-odometer-dbgsym_0.39.0-2024.12.16.18.10_amd64.ddeb
+ 8616514cf77db50d1f8d4942191db9c3 40312 misc optional ros-humble-autoware-gyro-odometer_0.39.0-2024.12.16.18.10_amd64.buildinfo
+ f0e058fa0355116c813c4a055891bf5b 159480 misc optional ros-humble-autoware-gyro-odometer_0.39.0-2024.12.16.18.10_amd64.deb

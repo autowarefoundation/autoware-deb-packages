@@ -1,0 +1,42 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-traffic-light-visualization
+Binary: ros-humble-autoware-traffic-light-visualization
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.17.03
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-traffic-light-visualization - The autoware_traffic_light_visualization package
+Changes:
+ ros-humble-autoware-traffic-light-visualization (0.39.0-2024.12.16.17.03) jammy; urgency=high
+ .
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(autoware_traffic_light*): add maintainer (#9280 <https://github.com/youtalk/autoware.universe/issues/9280>)
+     * add fundamental commit
+     * add forgot package
+     ---------
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Masato Saeki, Yutaka Kondo
+Checksums-Sha1:
+ 533719cda4ca2e7aa45d545dcab7ecc5774e9643 8915398 ros-humble-autoware-traffic-light-visualization-dbgsym_0.39.0-2024.12.16.17.03_amd64.ddeb
+ 071f906459723cee21c4e929f506ad5e6af296a8 35717 ros-humble-autoware-traffic-light-visualization_0.39.0-2024.12.16.17.03_amd64.buildinfo
+ 0f1c9e935959493c3eff03b4f366d191c1801e18 2425758 ros-humble-autoware-traffic-light-visualization_0.39.0-2024.12.16.17.03_amd64.deb
+Checksums-Sha256:
+ 0380d9a046342c4516260546d42b61c673f8db25249540e0a281e9128eb07661 8915398 ros-humble-autoware-traffic-light-visualization-dbgsym_0.39.0-2024.12.16.17.03_amd64.ddeb
+ 59165321f7a32faf04b23bdf7208e6f75447271179d038a1850afc0e7bff64f2 35717 ros-humble-autoware-traffic-light-visualization_0.39.0-2024.12.16.17.03_amd64.buildinfo
+ 7116ff8bcbd96b97bb851e4388f8ccb71d5c4c969bc3496b66a06441e3448466 2425758 ros-humble-autoware-traffic-light-visualization_0.39.0-2024.12.16.17.03_amd64.deb
+Files:
+ 6e3004f56065b876f07fe5261eac162a 8915398 debug optional ros-humble-autoware-traffic-light-visualization-dbgsym_0.39.0-2024.12.16.17.03_amd64.ddeb
+ 24b27f220ce32c6b8c487c15a4691871 35717 misc optional ros-humble-autoware-traffic-light-visualization_0.39.0-2024.12.16.17.03_amd64.buildinfo
+ 53def5c68b6e6e7acefb368e8c4da7b5 2425758 misc optional ros-humble-autoware-traffic-light-visualization_0.39.0-2024.12.16.17.03_amd64.deb

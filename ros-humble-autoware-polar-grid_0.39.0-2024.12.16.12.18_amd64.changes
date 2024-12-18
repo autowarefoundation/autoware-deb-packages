@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-polar-grid
+Binary: ros-humble-autoware-polar-grid
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.12.18
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-polar-grid - The autoware_polar_grid package
+Changes:
+ ros-humble-autoware-polar-grid (0.39.0-2024.12.16.12.18) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 29bf2ded3d6161fcdaf17cce4444332ff4bfa463 508796 ros-humble-autoware-polar-grid-dbgsym_0.39.0-2024.12.16.12.18_amd64.ddeb
+ f88682977293d8715f80cad164de43f7229fceac 24039 ros-humble-autoware-polar-grid_0.39.0-2024.12.16.12.18_amd64.buildinfo
+ 226b2910696f010760f2859952dd0d1a617f8353 40608 ros-humble-autoware-polar-grid_0.39.0-2024.12.16.12.18_amd64.deb
+Checksums-Sha256:
+ 55cd55d92e30b348d9b186dd2373dc271213feda64b9164e834835bf82fcb5cd 508796 ros-humble-autoware-polar-grid-dbgsym_0.39.0-2024.12.16.12.18_amd64.ddeb
+ b7ac04be64280f45707984ca693799a1712dc403f12a62189a1cd5f9ed7a8ddd 24039 ros-humble-autoware-polar-grid_0.39.0-2024.12.16.12.18_amd64.buildinfo
+ 150d39d20884c1529ad26b3278b94ac757570dd0e11c8ae99e176185997fe7b2 40608 ros-humble-autoware-polar-grid_0.39.0-2024.12.16.12.18_amd64.deb
+Files:
+ 59f0c75248e8b9a8d945291e5f705170 508796 debug optional ros-humble-autoware-polar-grid-dbgsym_0.39.0-2024.12.16.12.18_amd64.ddeb
+ 4f11f6db51c2fa25de710bedd8af10c0 24039 misc optional ros-humble-autoware-polar-grid_0.39.0-2024.12.16.12.18_amd64.buildinfo
+ 627d5b92ab25548310708b220fd5334c 40608 misc optional ros-humble-autoware-polar-grid_0.39.0-2024.12.16.12.18_amd64.deb

@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-twist2accel
+Binary: ros-humble-autoware-twist2accel
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.16.09
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-twist2accel - The acceleration estimation package
+Changes:
+ ros-humble-autoware-twist2accel (0.39.0-2024.12.16.16.09) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 24d88b60f0bee03be0d355f127d75b3e831cc665 3132778 ros-humble-autoware-twist2accel-dbgsym_0.39.0-2024.12.16.16.09_amd64.ddeb
+ 34e4b2c97594eb25c87c5f192ef080b26664f108 16132 ros-humble-autoware-twist2accel_0.39.0-2024.12.16.16.09_amd64.buildinfo
+ ec972ea17857a1aa0b3b511e1828143d16424248 141394 ros-humble-autoware-twist2accel_0.39.0-2024.12.16.16.09_amd64.deb
+Checksums-Sha256:
+ 203d29fb10663c90967a83da692490af756ed39e9b648dab35c365936c0b93b6 3132778 ros-humble-autoware-twist2accel-dbgsym_0.39.0-2024.12.16.16.09_amd64.ddeb
+ da866d3053134f09e5ef123a6791103823e36a9ab2d6d067a3034d89fedc0c4d 16132 ros-humble-autoware-twist2accel_0.39.0-2024.12.16.16.09_amd64.buildinfo
+ f01a201b650e67fd6630c354fa7e80723f5c5a9f777836a769f5fd6b9f9e907c 141394 ros-humble-autoware-twist2accel_0.39.0-2024.12.16.16.09_amd64.deb
+Files:
+ 72586e6b7be0e8cf70acd6511be6aa5b 3132778 debug optional ros-humble-autoware-twist2accel-dbgsym_0.39.0-2024.12.16.16.09_amd64.ddeb
+ 8da0a278f1cbf108a93af9d3e5a2821f 16132 misc optional ros-humble-autoware-twist2accel_0.39.0-2024.12.16.16.09_amd64.buildinfo
+ 9e7923fa6d70d8689ce5a184a24c5e75 141394 misc optional ros-humble-autoware-twist2accel_0.39.0-2024.12.16.16.09_amd64.deb

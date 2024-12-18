@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-radar-fusion-to-detected-object
+Binary: ros-humble-autoware-radar-fusion-to-detected-object
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.21.45
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Tanaka <satoshi.tanaka@tier4.jp>
+Changed-By: Satoshi Tanaka <satoshi.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-radar-fusion-to-detected-object - autoware_radar_fusion_to_detected_object
+Changes:
+ ros-humble-autoware-radar-fusion-to-detected-object (0.39.0-2024.12.16.21.45) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ e5458a7fc74fa047bc6afc81fdcb29e855d11a93 3516818 ros-humble-autoware-radar-fusion-to-detected-object-dbgsym_0.39.0-2024.12.16.21.45_amd64.ddeb
+ a491e96b09463578c0b2f44c09b6be39faf37ebb 41315 ros-humble-autoware-radar-fusion-to-detected-object_0.39.0-2024.12.16.21.45_amd64.buildinfo
+ 98f04b7a7e7557ee338028e69c601911b6f0cb21 174836 ros-humble-autoware-radar-fusion-to-detected-object_0.39.0-2024.12.16.21.45_amd64.deb
+Checksums-Sha256:
+ 6ed413b8677e13de9b58d8b48ecdd4ef297953fe689ca753b94d0ca9a0329b85 3516818 ros-humble-autoware-radar-fusion-to-detected-object-dbgsym_0.39.0-2024.12.16.21.45_amd64.ddeb
+ 3e71d5b032962ba88b4a7350105941dd134a1e97594e0a26d9a64efd5ece1aa2 41315 ros-humble-autoware-radar-fusion-to-detected-object_0.39.0-2024.12.16.21.45_amd64.buildinfo
+ 0244028219866e88491c7453547c8eeab2c3bbbf36e42f853f9b2670ace38c0a 174836 ros-humble-autoware-radar-fusion-to-detected-object_0.39.0-2024.12.16.21.45_amd64.deb
+Files:
+ 1627f683876accbf01b85a2ad91aa7d6 3516818 debug optional ros-humble-autoware-radar-fusion-to-detected-object-dbgsym_0.39.0-2024.12.16.21.45_amd64.ddeb
+ 9c462ad0690067e7848210cee27b8fa5 41315 misc optional ros-humble-autoware-radar-fusion-to-detected-object_0.39.0-2024.12.16.21.45_amd64.buildinfo
+ 6a5c37e5f5ad9e7a1e4b7e6594002396 174836 misc optional ros-humble-autoware-radar-fusion-to-detected-object_0.39.0-2024.12.16.21.45_amd64.deb

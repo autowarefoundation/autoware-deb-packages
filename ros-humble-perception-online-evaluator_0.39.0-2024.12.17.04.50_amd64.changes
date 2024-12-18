@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-perception-online-evaluator
+Binary: ros-humble-perception-online-evaluator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.04.50
+Distribution: jammy
+Urgency: high
+Maintainer: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Changed-By: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Description:
+ ros-humble-perception-online-evaluator - ROS 2 node for evaluating perception
+Changes:
+ ros-humble-perception-online-evaluator (0.39.0-2024.12.17.04.50) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ ff0d4fd88b57721eb06c41642c8e0db4cf4d9263 4842032 ros-humble-perception-online-evaluator-dbgsym_0.39.0-2024.12.17.04.50_amd64.ddeb
+ fb0b548bb00304beaaadd60758fe54bd87b502b6 42051 ros-humble-perception-online-evaluator_0.39.0-2024.12.17.04.50_amd64.buildinfo
+ 30356f9a7303d94bb33816d89725b45b46482efb 208500 ros-humble-perception-online-evaluator_0.39.0-2024.12.17.04.50_amd64.deb
+Checksums-Sha256:
+ 435ac08e5654277170d00092c3e3bc933d997de48483e53c71910fd2cdb36e9c 4842032 ros-humble-perception-online-evaluator-dbgsym_0.39.0-2024.12.17.04.50_amd64.ddeb
+ 297ef29e95a5ae60d5c1874d1d4b5e655c3086c7d83c36f404bf4f387ea187bc 42051 ros-humble-perception-online-evaluator_0.39.0-2024.12.17.04.50_amd64.buildinfo
+ cdce231cb96a74cd8e2c5dec990a49703f63957768bec368b9bdf0a38be334cd 208500 ros-humble-perception-online-evaluator_0.39.0-2024.12.17.04.50_amd64.deb
+Files:
+ 6eef11bc1ffe5965be4b30e77ab73126 4842032 debug optional ros-humble-perception-online-evaluator-dbgsym_0.39.0-2024.12.17.04.50_amd64.ddeb
+ 03e3b3f4387b58ca5672f3db8910ab72 42051 misc optional ros-humble-perception-online-evaluator_0.39.0-2024.12.17.04.50_amd64.buildinfo
+ 0eb731a14836cc19c53a5ff36360aa9a 208500 misc optional ros-humble-perception-online-evaluator_0.39.0-2024.12.17.04.50_amd64.deb

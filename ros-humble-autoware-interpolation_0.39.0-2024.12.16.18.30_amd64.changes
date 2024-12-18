@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-interpolation
+Binary: ros-humble-autoware-interpolation
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.18.30
+Distribution: jammy
+Urgency: high
+Maintainer: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Changed-By: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Description:
+ ros-humble-autoware-interpolation - The spline interpolation package
+Changes:
+ ros-humble-autoware-interpolation (0.39.0-2024.12.16.18.30) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 8a6020f6b6fbab942f58c79032181700b95b1276 736614 ros-humble-autoware-interpolation-dbgsym_0.39.0-2024.12.16.18.30_amd64.ddeb
+ 3db04553c8ffc7a06d3f159c297ba4593431e94b 40238 ros-humble-autoware-interpolation_0.39.0-2024.12.16.18.30_amd64.buildinfo
+ 32c205c9259ad08c32b670861db07d2b1b2c0463 30012 ros-humble-autoware-interpolation_0.39.0-2024.12.16.18.30_amd64.deb
+Checksums-Sha256:
+ e8a9a376df5ad11f528602a9b7cf05362c71e018033791d10b72b443d398cd10 736614 ros-humble-autoware-interpolation-dbgsym_0.39.0-2024.12.16.18.30_amd64.ddeb
+ cf5fe323e7a4bd79b502e862945285c7c790f595e99cda3bfe7a76a673b8a529 40238 ros-humble-autoware-interpolation_0.39.0-2024.12.16.18.30_amd64.buildinfo
+ a7b9248a42c678eac1a9cb9076e64b23ac62a25d995b668ae2881d2f7d1b701f 30012 ros-humble-autoware-interpolation_0.39.0-2024.12.16.18.30_amd64.deb
+Files:
+ 958b43b89fed691a71fa17149de819e9 736614 debug optional ros-humble-autoware-interpolation-dbgsym_0.39.0-2024.12.16.18.30_amd64.ddeb
+ 93dc60606681a4e2bf460ab00e6164ec 40238 misc optional ros-humble-autoware-interpolation_0.39.0-2024.12.16.18.30_amd64.buildinfo
+ cbe0ca21ef732ebace2a0e59c7bb0e19 30012 misc optional ros-humble-autoware-interpolation_0.39.0-2024.12.16.18.30_amd64.deb

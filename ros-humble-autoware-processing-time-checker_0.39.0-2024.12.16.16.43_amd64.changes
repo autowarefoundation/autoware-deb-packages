@@ -1,0 +1,61 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-processing-time-checker
+Binary: ros-humble-autoware-processing-time-checker
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.16.43
+Distribution: jammy
+Urgency: high
+Maintainer: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Changed-By: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Description:
+ ros-humble-autoware-processing-time-checker - A package to find out nodes with common names
+Changes:
+ ros-humble-autoware-processing-time-checker (0.39.0-2024.12.16.16.43) jammy; urgency=high
+ .
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * feat(tier4_metric_msgs): apply tier4_metric_msgs for scenario_simulator_v2_adapter, control_evaluator, planning_evaluator, autonomous_emergency_braking, obstacle_cruise_planner, motion_velocity_planner, processing_time_checker (#9180 <https://github.com/youtalk/autoware.universe/issues/9180>)
+     * first commit
+     * fix building errs.
+     * change diagnostic messages to metric messages for publishing decision.
+     * fix bug about motion_velocity_planner
+     * change the diagnostic msg to metric msg in autoware_obstacle_cruise_planner.
+     * tmp save for planning_evaluator
+     * change the topic to which metrics published to.
+     * fix typo.
+     * remove unnesessary publishing of metrics.
+     * mke planning_evaluator publish msg of MetricArray instead of Diags.
+     * update aeb with metric type for decision.
+     * fix some bug
+     * remove autoware_evaluator_utils package.
+     * remove diagnostic_msgs dependency of planning_evaluator
+     * use metric_msgs for autoware_processing_time_checker.
+     * rewrite diagnostic_convertor to scenario_simulator_v2_adapter, supporting metric_msgs.
+     * pre-commit and fix typo
+     * publish metrics even if there is no metric in the MetricArray.
+     * modify the metric name of processing_time.
+     * update unit test for test_planning/control_evaluator
+     * manual pre-commit
+     ---------
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Kem (TiankuiXian), Yutaka Kondo
+Checksums-Sha1:
+ 713c92ab0f44b02e85329d8d913f94e37a8f163f 2444566 ros-humble-autoware-processing-time-checker-dbgsym_0.39.0-2024.12.16.16.43_amd64.ddeb
+ c9136192905f1cc23918aaacd3d25f6b58106add 16833 ros-humble-autoware-processing-time-checker_0.39.0-2024.12.16.16.43_amd64.buildinfo
+ 6589004e6d504c69cb357000293d0b8c3d1045b2 122858 ros-humble-autoware-processing-time-checker_0.39.0-2024.12.16.16.43_amd64.deb
+Checksums-Sha256:
+ 5c98a9eaaf79760522524491de8e0b473a3109c9403640dea988481259fd27de 2444566 ros-humble-autoware-processing-time-checker-dbgsym_0.39.0-2024.12.16.16.43_amd64.ddeb
+ c88c9493915a0504cce1696cdac71f2f5a7f707c4da61d4d9a0d7e84efab1859 16833 ros-humble-autoware-processing-time-checker_0.39.0-2024.12.16.16.43_amd64.buildinfo
+ 9e3d602bca4a2b9aebec65d58a6ce73fc55508967aada1047a4be7d947500306 122858 ros-humble-autoware-processing-time-checker_0.39.0-2024.12.16.16.43_amd64.deb
+Files:
+ b5044a7e530b692f02687e0b88db2e96 2444566 debug optional ros-humble-autoware-processing-time-checker-dbgsym_0.39.0-2024.12.16.16.43_amd64.ddeb
+ d702194578d8920f13a1be5d22b467a8 16833 misc optional ros-humble-autoware-processing-time-checker_0.39.0-2024.12.16.16.43_amd64.buildinfo
+ 5c5928fd28041883754c65dc961a4456 122858 misc optional ros-humble-autoware-processing-time-checker_0.39.0-2024.12.16.16.43_amd64.deb

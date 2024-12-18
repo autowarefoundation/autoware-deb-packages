@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 09 Dec 2024 00:00:00 -0000
+Source: ros-humble-awsim-sensor-kit-description
+Binary: ros-humble-awsim-sensor-kit-description
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.23.52
+Distribution: jammy
+Urgency: high
+Maintainer: Piotr Jaroszek <piotr.jaroszek@robotec.ai>
+Changed-By: Piotr Jaroszek <piotr.jaroszek@robotec.ai>
+Description:
+ ros-humble-awsim-sensor-kit-description - The awsim_sensor_kit_description package
+Changes:
+ ros-humble-awsim-sensor-kit-description (0.39.0-2024.12.17.23.52) jammy; urgency=high
+ .
+   * fixed to use xacro.load_yaml (#6 <https://github.com/tier4/awsim_sensor_kit_launch/issues/6>)
+   * AWSIM sensor kit
+   * Contributors: Mamoru Sobue, Piotr Jaroszek
+Checksums-Sha1:
+ 33762736bd95fdc944942720b211429bd6ea7542 10926 ros-humble-awsim-sensor-kit-description_0.39.0-2024.12.17.23.52_amd64.buildinfo
+ 0c323584f6d3286075d3f6a31c6da17b7c2bf1c7 7510 ros-humble-awsim-sensor-kit-description_0.39.0-2024.12.17.23.52_amd64.deb
+Checksums-Sha256:
+ 9ff317834effb2729ff9948ca546aedc6d22a4ce88bf616b306008c9af3248fe 10926 ros-humble-awsim-sensor-kit-description_0.39.0-2024.12.17.23.52_amd64.buildinfo
+ 727556743370b9e926c9d9c7748d41fa2433522663c1e62d1f8e13baafc66396 7510 ros-humble-awsim-sensor-kit-description_0.39.0-2024.12.17.23.52_amd64.deb
+Files:
+ 4474a32c0189ee944d8262dd2ce2d1f9 10926 misc optional ros-humble-awsim-sensor-kit-description_0.39.0-2024.12.17.23.52_amd64.buildinfo
+ 1cc55872d7ebd6fcd02a1d4d210a3bd4 7510 misc optional ros-humble-awsim-sensor-kit-description_0.39.0-2024.12.17.23.52_amd64.deb

@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-object-range-splitter
+Binary: ros-humble-autoware-object-range-splitter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.12.09
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-object-range-splitter - The autoware_object_range_splitter package
+Changes:
+ ros-humble-autoware-object-range-splitter (0.39.0-2024.12.16.12.09) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 56cc17d62cbeb3f8c035dd5db923790e2fe0ac47 2374132 ros-humble-autoware-object-range-splitter-dbgsym_0.39.0-2024.12.16.12.09_amd64.ddeb
+ 8f30b5a8310442a2baa64003d2db4d145472a05d 16054 ros-humble-autoware-object-range-splitter_0.39.0-2024.12.16.12.09_amd64.buildinfo
+ b86c7e9b4b0429d602095967606ffcde3aeb57ed 119806 ros-humble-autoware-object-range-splitter_0.39.0-2024.12.16.12.09_amd64.deb
+Checksums-Sha256:
+ 2b7c11ad4fcc5d8f7973104cd9f13da97aadc5bd20fedaff381c877f7417fcf8 2374132 ros-humble-autoware-object-range-splitter-dbgsym_0.39.0-2024.12.16.12.09_amd64.ddeb
+ 0f4687b8da81ddd7c2fa6d79e80e9a647ceec970c570475b5c84a5453163f25c 16054 ros-humble-autoware-object-range-splitter_0.39.0-2024.12.16.12.09_amd64.buildinfo
+ 997a75fcb618c236e4293f3e185c5042a07731031b201079ecfaea91063bf7d4 119806 ros-humble-autoware-object-range-splitter_0.39.0-2024.12.16.12.09_amd64.deb
+Files:
+ 1724e849c33c081fcc87781159a435f8 2374132 debug optional ros-humble-autoware-object-range-splitter-dbgsym_0.39.0-2024.12.16.12.09_amd64.ddeb
+ 4844ee0204135e2611bff5fd29be80bd 16054 misc optional ros-humble-autoware-object-range-splitter_0.39.0-2024.12.16.12.09_amd64.buildinfo
+ 7e58eeea05d7ab591800b14798990dc6 119806 misc optional ros-humble-autoware-object-range-splitter_0.39.0-2024.12.16.12.09_amd64.deb

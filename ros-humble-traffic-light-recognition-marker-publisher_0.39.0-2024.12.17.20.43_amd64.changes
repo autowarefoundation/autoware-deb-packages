@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-traffic-light-recognition-marker-publisher
+Binary: ros-humble-traffic-light-recognition-marker-publisher
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.20.43
+Distribution: jammy
+Urgency: high
+Maintainer: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Changed-By: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Description:
+ ros-humble-traffic-light-recognition-marker-publisher - The traffic_light_recognition_marker_publisher package
+Changes:
+ ros-humble-traffic-light-recognition-marker-publisher (0.39.0-2024.12.17.20.43) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ a155a2d70fe6c39b7639305f221081606b3e3814 4110936 ros-humble-traffic-light-recognition-marker-publisher-dbgsym_0.39.0-2024.12.17.20.43_amd64.ddeb
+ 87ee413cd00fb2a3ae91c54adc16dafc8c84f294 41610 ros-humble-traffic-light-recognition-marker-publisher_0.39.0-2024.12.17.20.43_amd64.buildinfo
+ bf328b1d6f56153beff6c8aa39356b63f00ee4fc 148236 ros-humble-traffic-light-recognition-marker-publisher_0.39.0-2024.12.17.20.43_amd64.deb
+Checksums-Sha256:
+ b3ef182fece7235823994f86eb1741bab30cb1976d360a73d9bf8a8f38196146 4110936 ros-humble-traffic-light-recognition-marker-publisher-dbgsym_0.39.0-2024.12.17.20.43_amd64.ddeb
+ c28f508f57d561dff80a0d77c030a8d4ecf6b6fef8d139a12598c3bff8424d09 41610 ros-humble-traffic-light-recognition-marker-publisher_0.39.0-2024.12.17.20.43_amd64.buildinfo
+ 158afbccab11d6f7a5356c4330e3671ef1876c0a6b0337badf28679a0f46439d 148236 ros-humble-traffic-light-recognition-marker-publisher_0.39.0-2024.12.17.20.43_amd64.deb
+Files:
+ c3a023b8c51107d9ae8c1ba93412617a 4110936 debug optional ros-humble-traffic-light-recognition-marker-publisher-dbgsym_0.39.0-2024.12.17.20.43_amd64.ddeb
+ b46f1f2e90f4911996ad989e90c5739e 41610 misc optional ros-humble-traffic-light-recognition-marker-publisher_0.39.0-2024.12.17.20.43_amd64.buildinfo
+ e0ce1795cd8656958d2d22aa7163af23 148236 misc optional ros-humble-traffic-light-recognition-marker-publisher_0.39.0-2024.12.17.20.43_amd64.deb

@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-pose2twist
+Binary: ros-humble-autoware-pose2twist
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.16.04
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-pose2twist - The autoware_pose2twist package
+Changes:
+ ros-humble-autoware-pose2twist (0.39.0-2024.12.16.16.04) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ cc703e5282f7ddbd88e6509625cda56da69ed1da 2464660 ros-humble-autoware-pose2twist-dbgsym_0.39.0-2024.12.16.16.04_amd64.ddeb
+ 9b8888f138ebc5a7020d72cb65995ec4c69bba72 17063 ros-humble-autoware-pose2twist_0.39.0-2024.12.16.16.04_amd64.buildinfo
+ 9a3f91de6206f5409134695398909a701b64fdee 124358 ros-humble-autoware-pose2twist_0.39.0-2024.12.16.16.04_amd64.deb
+Checksums-Sha256:
+ 80dd44b1a1e5c45fba87677597996d1510bc0fff3a52b3de8b61aeaa95810661 2464660 ros-humble-autoware-pose2twist-dbgsym_0.39.0-2024.12.16.16.04_amd64.ddeb
+ fd30067c910680aefc0b3d4cc05466f5e73d4b78081cc80141a1fb23d34a2280 17063 ros-humble-autoware-pose2twist_0.39.0-2024.12.16.16.04_amd64.buildinfo
+ 59cd524bffc440c718c002dc77893f5bad9058f6cbecf08855f91b260f2766c8 124358 ros-humble-autoware-pose2twist_0.39.0-2024.12.16.16.04_amd64.deb
+Files:
+ a30bd1837025ea718cfda690990325d4 2464660 debug optional ros-humble-autoware-pose2twist-dbgsym_0.39.0-2024.12.16.16.04_amd64.ddeb
+ 7ba3f3b37c0b502f738349655c6ab1c2 17063 misc optional ros-humble-autoware-pose2twist_0.39.0-2024.12.16.16.04_amd64.buildinfo
+ 7bd1bafa2e6d26cd65ed9e3fbdd9dcee 124358 misc optional ros-humble-autoware-pose2twist_0.39.0-2024.12.16.16.04_amd64.deb

@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-object-merger
+Binary: ros-humble-autoware-object-merger
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.20.19
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-object-merger - The autoware_object_merger package
+Changes:
+ ros-humble-autoware-object-merger (0.39.0-2024.12.16.20.19) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 5334ace936ed71571dc75f6a5c75c8d4e030da65 6828822 ros-humble-autoware-object-merger-dbgsym_0.39.0-2024.12.16.20.19_amd64.ddeb
+ 440a3d82621e8e47d67c7024fb3e7193f50dc3c5 40425 ros-humble-autoware-object-merger_0.39.0-2024.12.16.20.19_amd64.buildinfo
+ 502899efd94e28c2588bd6df3b75a5268f53bee5 290248 ros-humble-autoware-object-merger_0.39.0-2024.12.16.20.19_amd64.deb
+Checksums-Sha256:
+ defefc37be1638a3da738b4c99e0bf9e235b8952e375345755f7c99ce6285ec4 6828822 ros-humble-autoware-object-merger-dbgsym_0.39.0-2024.12.16.20.19_amd64.ddeb
+ 972dd87ec69a33f16dd528845426f6eba7acb267f5f27860bd829dd0d9d4ec49 40425 ros-humble-autoware-object-merger_0.39.0-2024.12.16.20.19_amd64.buildinfo
+ 6b9d4e986ba49354c49a2746d4b66d7235d82861c41fa48a6413980b5fe7073d 290248 ros-humble-autoware-object-merger_0.39.0-2024.12.16.20.19_amd64.deb
+Files:
+ 6636768fe1262eaa63e2f7f3fdb23d8f 6828822 debug optional ros-humble-autoware-object-merger-dbgsym_0.39.0-2024.12.16.20.19_amd64.ddeb
+ 089a36f3c53cad9e032352a77ffc0f21 40425 misc optional ros-humble-autoware-object-merger_0.39.0-2024.12.16.20.19_amd64.buildinfo
+ c93b4c922cddca6f6d50d657d3fd47cb 290248 misc optional ros-humble-autoware-object-merger_0.39.0-2024.12.16.20.19_amd64.deb

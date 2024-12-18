@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-component-interface-specs
+Binary: ros-humble-autoware-component-interface-specs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.10.09
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-component-interface-specs - The autoware_component_interface_specs package
+Changes:
+ ros-humble-autoware-component-interface-specs (0.39.0-2024.12.17.10.09) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 4b402dff5edcc1403e3f7506a2ae92b12bae6aa0 16083 ros-humble-autoware-component-interface-specs_0.39.0-2024.12.17.10.09_amd64.buildinfo
+ 439ed8411c1d021439605ee67415a067fa61963a 8862 ros-humble-autoware-component-interface-specs_0.39.0-2024.12.17.10.09_amd64.deb
+Checksums-Sha256:
+ d80d38ce4961a04052f3daec1875baf2cab1b9d97a9699b0cca9eff1bbb98dbb 16083 ros-humble-autoware-component-interface-specs_0.39.0-2024.12.17.10.09_amd64.buildinfo
+ ad89fa9f237583b66cd15514315692a9446880ff747343547bc9a30fbbd7fa05 8862 ros-humble-autoware-component-interface-specs_0.39.0-2024.12.17.10.09_amd64.deb
+Files:
+ 8135b8f7b5912a40fb5440aa50283396 16083 misc optional ros-humble-autoware-component-interface-specs_0.39.0-2024.12.17.10.09_amd64.buildinfo
+ 392355b1c1c992ca90de1d242f04d72e 8862 misc optional ros-humble-autoware-component-interface-specs_0.39.0-2024.12.17.10.09_amd64.deb

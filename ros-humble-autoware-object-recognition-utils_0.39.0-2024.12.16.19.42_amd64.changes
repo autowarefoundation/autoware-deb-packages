@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-object-recognition-utils
+Binary: ros-humble-autoware-object-recognition-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.19.42
+Distribution: jammy
+Urgency: high
+Maintainer: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Changed-By: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Description:
+ ros-humble-autoware-object-recognition-utils - The autoware_object_recognition_utils package
+Changes:
+ ros-humble-autoware-object-recognition-utils (0.39.0-2024.12.16.19.42) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 8341f8358d73f197a82fc7d11e40f3233f57391e 178484 ros-humble-autoware-object-recognition-utils-dbgsym_0.39.0-2024.12.16.19.42_amd64.ddeb
+ 3a2f17fe8c77532a3e440f6a7297c0c7b8bb234a 40401 ros-humble-autoware-object-recognition-utils_0.39.0-2024.12.16.19.42_amd64.buildinfo
+ f86b0983f3e6a7e998fcd81ead3c2cf02c3540b3 21944 ros-humble-autoware-object-recognition-utils_0.39.0-2024.12.16.19.42_amd64.deb
+Checksums-Sha256:
+ 503b23efa0445bf311a20bae0165fce74b676f45a597575dfc7a1d2fc6cefe4e 178484 ros-humble-autoware-object-recognition-utils-dbgsym_0.39.0-2024.12.16.19.42_amd64.ddeb
+ 4e3954adba2eeea80a8bb2ec658305b21020639c21f1f77bc0fd49d11eb6e3fe 40401 ros-humble-autoware-object-recognition-utils_0.39.0-2024.12.16.19.42_amd64.buildinfo
+ 78de839b09a72650313577887a0e71612d1ddeb01637bb7a60a1389d18f78ff5 21944 ros-humble-autoware-object-recognition-utils_0.39.0-2024.12.16.19.42_amd64.deb
+Files:
+ 7a0465fc9a3ca315df492b4107bab058 178484 debug optional ros-humble-autoware-object-recognition-utils-dbgsym_0.39.0-2024.12.16.19.42_amd64.ddeb
+ 0ba7dfe06db21e27d6fe301ac54ac679 40401 misc optional ros-humble-autoware-object-recognition-utils_0.39.0-2024.12.16.19.42_amd64.buildinfo
+ d512ec956117051a846ac40c9c0b382c 21944 misc optional ros-humble-autoware-object-recognition-utils_0.39.0-2024.12.16.19.42_amd64.deb

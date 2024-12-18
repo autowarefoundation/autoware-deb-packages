@@ -1,0 +1,66 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-autonomous-emergency-braking
+Binary: ros-humble-autoware-autonomous-emergency-braking
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.12.47
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-autonomous-emergency-braking - Autonomous Emergency Braking package as a ROS 2 node
+Changes:
+ ros-humble-autoware-autonomous-emergency-braking (0.39.0-2024.12.17.12.47) jammy; urgency=high
+ .
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix(control): missing dependency in control components (#9073 <https://github.com/youtalk/autoware.universe/issues/9073>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * feat(tier4_metric_msgs): apply tier4_metric_msgs for scenario_simulator_v2_adapter, control_evaluator, planning_evaluator, autonomous_emergency_braking, obstacle_cruise_planner, motion_velocity_planner, processing_time_checker (#9180 <https://github.com/youtalk/autoware.universe/issues/9180>)
+     * first commit
+     * fix building errs.
+     * change diagnostic messages to metric messages for publishing decision.
+     * fix bug about motion_velocity_planner
+     * change the diagnostic msg to metric msg in autoware_obstacle_cruise_planner.
+     * tmp save for planning_evaluator
+     * change the topic to which metrics published to.
+     * fix typo.
+     * remove unnesessary publishing of metrics.
+     * mke planning_evaluator publish msg of MetricArray instead of Diags.
+     * update aeb with metric type for decision.
+     * fix some bug
+     * remove autoware_evaluator_utils package.
+     * remove diagnostic_msgs dependency of planning_evaluator
+     * use metric_msgs for autoware_processing_time_checker.
+     * rewrite diagnostic_convertor to scenario_simulator_v2_adapter, supporting metric_msgs.
+     * pre-commit and fix typo
+     * publish metrics even if there is no metric in the MetricArray.
+     * modify the metric name of processing_time.
+     * update unit test for test_planning/control_evaluator
+     * manual pre-commit
+     ---------
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * fix(autonomous_emergency_braking): solve issue with arc length (#9247 <https://github.com/youtalk/autoware.universe/issues/9247>)
+     * solve issue with arc length
+     * fix problem with points one vehicle apart from path
+     ---------
+   * Contributors: Esteve Fernandez, Kem (TiankuiXian), Yutaka Kondo, danielsanchezaran, ぐるぐる
+Checksums-Sha1:
+ 335bf3ef928cc3847cb8edc63b7e7cae548412a4 10450830 ros-humble-autoware-autonomous-emergency-braking-dbgsym_0.39.0-2024.12.17.12.47_amd64.ddeb
+ fb2d720e0d701cd2e64a0df9e778c5bb6e5707f5 48368 ros-humble-autoware-autonomous-emergency-braking_0.39.0-2024.12.17.12.47_amd64.buildinfo
+ b5774ed837cdd5532e306547c29dadf4fba7aa74 396584 ros-humble-autoware-autonomous-emergency-braking_0.39.0-2024.12.17.12.47_amd64.deb
+Checksums-Sha256:
+ 3ad689cb343bda2f74ac1e07c40a85a6a68076cd964b0a7a28f4e2e8cf634a13 10450830 ros-humble-autoware-autonomous-emergency-braking-dbgsym_0.39.0-2024.12.17.12.47_amd64.ddeb
+ 38c6fe87ec90622884ac41d6c6df8bf5667ee5b2c54ddde59e871aaf79c38651 48368 ros-humble-autoware-autonomous-emergency-braking_0.39.0-2024.12.17.12.47_amd64.buildinfo
+ a37f2252cc5466dc2ab41da0b1e975586b47140cc74e1f8b6a2cbefc53418ca0 396584 ros-humble-autoware-autonomous-emergency-braking_0.39.0-2024.12.17.12.47_amd64.deb
+Files:
+ 949c585fa7197c16b60d7cc3d48ed6e5 10450830 debug optional ros-humble-autoware-autonomous-emergency-braking-dbgsym_0.39.0-2024.12.17.12.47_amd64.ddeb
+ 753e9e4e77f06d349dab43e3bf624605 48368 misc optional ros-humble-autoware-autonomous-emergency-braking_0.39.0-2024.12.17.12.47_amd64.buildinfo
+ d8334f59f7c2f11f6befe8141027ed14 396584 misc optional ros-humble-autoware-autonomous-emergency-braking_0.39.0-2024.12.17.12.47_amd64.deb

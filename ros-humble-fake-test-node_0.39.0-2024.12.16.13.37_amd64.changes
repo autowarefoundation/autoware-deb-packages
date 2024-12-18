@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-fake-test-node
+Binary: ros-humble-fake-test-node
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.13.37
+Distribution: jammy
+Urgency: high
+Maintainer: Apex.AI, Inc. <opensource@apex.ai>
+Changed-By: Apex.AI, Inc. <opensource@apex.ai>
+Description:
+ ros-humble-fake-test-node - A fake node that we can use in the integration-like cpp tests.
+Changes:
+ ros-humble-fake-test-node (0.39.0-2024.12.16.13.37) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 8e3b1dfa7d92168e1690acb11cdc3663c6ab7cab 1988432 ros-humble-fake-test-node-dbgsym_0.39.0-2024.12.16.13.37_amd64.ddeb
+ 956b2dbc391100a7eaa61e6799d6a25f89b2ae62 16587 ros-humble-fake-test-node_0.39.0-2024.12.16.13.37_amd64.buildinfo
+ 38335ae497a58af8572fcc766a356a80368d834c 106868 ros-humble-fake-test-node_0.39.0-2024.12.16.13.37_amd64.deb
+Checksums-Sha256:
+ 0e60ee49bb1ef2745cc5ecb021c51f815e396ae286aec74aaff793ab2f578593 1988432 ros-humble-fake-test-node-dbgsym_0.39.0-2024.12.16.13.37_amd64.ddeb
+ d4a6c2f90edeab13c1f2494ceb9d9d36334d49a615e913237ade704c741f41e4 16587 ros-humble-fake-test-node_0.39.0-2024.12.16.13.37_amd64.buildinfo
+ 20af76f73f08d5ad767e1133198b84f646f476cdbe696b3e78b2d57588d5a4b9 106868 ros-humble-fake-test-node_0.39.0-2024.12.16.13.37_amd64.deb
+Files:
+ 42cdf379c4e255ca182d95e8765ee212 1988432 debug optional ros-humble-fake-test-node-dbgsym_0.39.0-2024.12.16.13.37_amd64.ddeb
+ 6659e46c9a7ed8f2fc11a90bfe3d9d08 16587 misc optional ros-humble-fake-test-node_0.39.0-2024.12.16.13.37_amd64.buildinfo
+ 5b250d27e35ac7ebd012780be35936ed 106868 misc optional ros-humble-fake-test-node_0.39.0-2024.12.16.13.37_amd64.deb

@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-vehicle-door-simulator
+Binary: ros-humble-vehicle-door-simulator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.23.38
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-vehicle-door-simulator - The vehicle_door_simulator package
+Changes:
+ ros-humble-vehicle-door-simulator (0.39.0-2024.12.17.23.38) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ caf24c089d492998fb5458ccb8c84cfe494415f9 1113654 ros-humble-vehicle-door-simulator-dbgsym_0.39.0-2024.12.17.23.38_amd64.ddeb
+ 7a7b1ccc9cb58cc58ed495a6fb6e3bdff48645a9 15762 ros-humble-vehicle-door-simulator_0.39.0-2024.12.17.23.38_amd64.buildinfo
+ 059350a12dd6e219fe5d6a5364095406db425600 60400 ros-humble-vehicle-door-simulator_0.39.0-2024.12.17.23.38_amd64.deb
+Checksums-Sha256:
+ 925dc8a8c697bd37f5f751b41a875a444dc3a8188b8feb6951d626ccfa10b7f2 1113654 ros-humble-vehicle-door-simulator-dbgsym_0.39.0-2024.12.17.23.38_amd64.ddeb
+ 88b595cc1af7c98c3c9da2229634af3f8a22dd56dc8db14cb4f4eada2723a092 15762 ros-humble-vehicle-door-simulator_0.39.0-2024.12.17.23.38_amd64.buildinfo
+ beff2faa58096f46696c81ead4fba2118c02d2fb6098246d5609ac673febb29d 60400 ros-humble-vehicle-door-simulator_0.39.0-2024.12.17.23.38_amd64.deb
+Files:
+ 2b6df06ec1c6bfef6125cf615bce659a 1113654 debug optional ros-humble-vehicle-door-simulator-dbgsym_0.39.0-2024.12.17.23.38_amd64.ddeb
+ 887ee8cb1b5184242d9f82c3cb70a118 15762 misc optional ros-humble-vehicle-door-simulator_0.39.0-2024.12.17.23.38_amd64.buildinfo
+ 6808790971214321652c99be26d110dd 60400 misc optional ros-humble-vehicle-door-simulator_0.39.0-2024.12.17.23.38_amd64.deb

@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-tier4-system-launch
+Binary: ros-humble-tier4-system-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.07.23
+Distribution: jammy
+Urgency: high
+Maintainer: Fumihito Ito <fumihito.ito@tier4.jp>
+Changed-By: Fumihito Ito <fumihito.ito@tier4.jp>
+Description:
+ ros-humble-tier4-system-launch - The tier4_system_launch package
+Changes:
+ ros-humble-tier4-system-launch (0.39.0-2024.12.17.07.23) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 2550108dbcbc4ae99f6c514b63f40bc0590e67e1 10681 ros-humble-tier4-system-launch_0.39.0-2024.12.17.07.23_amd64.buildinfo
+ f0e03dec07a226606529bb5e8c0697811a85134f 13602 ros-humble-tier4-system-launch_0.39.0-2024.12.17.07.23_amd64.deb
+Checksums-Sha256:
+ dccc9298823a5f270ab383b92f1fa355dc28ee50bfd5bcd15161ec94baaa9412 10681 ros-humble-tier4-system-launch_0.39.0-2024.12.17.07.23_amd64.buildinfo
+ 72ce5bb23593b956068d98398d1fc348fb6e29053589bafb5e1ccffca66c0c1f 13602 ros-humble-tier4-system-launch_0.39.0-2024.12.17.07.23_amd64.deb
+Files:
+ d5dbc306896fc54643562f3255217136 10681 misc optional ros-humble-tier4-system-launch_0.39.0-2024.12.17.07.23_amd64.buildinfo
+ ad123842025eb7c12164752110044a3f 13602 misc optional ros-humble-tier4-system-launch_0.39.0-2024.12.17.07.23_amd64.deb

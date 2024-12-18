@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-osqp-interface
+Binary: ros-humble-autoware-osqp-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.12.01
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime CLEMENT <maxime.clement@tier4.jp>
+Changed-By: Maxime CLEMENT <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-osqp-interface - Interface for the OSQP solver
+Changes:
+ ros-humble-autoware-osqp-interface (0.39.0-2024.12.16.12.01) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ bef6823dc5f96465ff032f3fb7edb14c41f4ad57 338198 ros-humble-autoware-osqp-interface-dbgsym_0.39.0-2024.12.16.12.01_amd64.ddeb
+ 6b651be6fd03674208a4740ed83f7b84fb5bb9f0 15954 ros-humble-autoware-osqp-interface_0.39.0-2024.12.16.12.01_amd64.buildinfo
+ 74fcda38e2544381e023e9aa604deaa783f91da3 26196 ros-humble-autoware-osqp-interface_0.39.0-2024.12.16.12.01_amd64.deb
+Checksums-Sha256:
+ 06917e083ab19e64c30e196c7e5bf93a477cf57175e1bcad388fda77dcdc4e9c 338198 ros-humble-autoware-osqp-interface-dbgsym_0.39.0-2024.12.16.12.01_amd64.ddeb
+ 29f17df5fc3c1ba0e02dfc7ab10249792298d28c7ed380b5ec2984b3bc01a6d4 15954 ros-humble-autoware-osqp-interface_0.39.0-2024.12.16.12.01_amd64.buildinfo
+ 968b9cdd3b70112378fbaba55e44906bc44822d94fe0d19bd2ca26591e94cb2a 26196 ros-humble-autoware-osqp-interface_0.39.0-2024.12.16.12.01_amd64.deb
+Files:
+ 9cfc9bbf358de50da4972c0bcbb6e4a8 338198 debug optional ros-humble-autoware-osqp-interface-dbgsym_0.39.0-2024.12.16.12.01_amd64.ddeb
+ fadefa7cdd4341145384b9ee92c85310 15954 misc optional ros-humble-autoware-osqp-interface_0.39.0-2024.12.16.12.01_amd64.buildinfo
+ ddd91d0ad7ec7524a970656ce59b7950 26196 misc optional ros-humble-autoware-osqp-interface_0.39.0-2024.12.16.12.01_amd64.deb

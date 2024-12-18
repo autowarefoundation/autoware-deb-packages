@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-carla-interface
+Binary: ros-humble-autoware-carla-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.10.04
+Distribution: jammy
+Urgency: high
+Maintainer: Muhammad Raditya GIOVANNI <mradityagio@gmail.com>
+Changed-By: Muhammad Raditya GIOVANNI <mradityagio@gmail.com>
+Description:
+ ros-humble-autoware-carla-interface - The carla autoware bridge package
+Changes:
+ ros-humble-autoware-carla-interface (0.39.0-2024.12.17.10.04) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ e241f24bdce1b08a6815681b8f690b9a752c812a 17328 ros-humble-autoware-carla-interface_0.39.0-2024.12.17.10.04_amd64.buildinfo
+ bff028cf1ae464c80cd445b8dde0a0f3df7fd7fe 19680 ros-humble-autoware-carla-interface_0.39.0-2024.12.17.10.04_amd64.deb
+Checksums-Sha256:
+ 6d218e0a6ce24086f989fd2e7d1bc3fe744765b00a9b015eb84a49698b041b91 17328 ros-humble-autoware-carla-interface_0.39.0-2024.12.17.10.04_amd64.buildinfo
+ 68726bb2e2ffa1e0b37018907da22647a681bcd5ed7c74e753855575301d9a2d 19680 ros-humble-autoware-carla-interface_0.39.0-2024.12.17.10.04_amd64.deb
+Files:
+ e191606abcd67cbbb88fc035d51e63f1 17328 misc optional ros-humble-autoware-carla-interface_0.39.0-2024.12.17.10.04_amd64.buildinfo
+ 734dc9fae227ab06feeb1b542a65326e 19680 misc optional ros-humble-autoware-carla-interface_0.39.0-2024.12.17.10.04_amd64.deb

@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-ground-segmentation
+Binary: ros-humble-autoware-ground-segmentation
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.01.22
+Distribution: jammy
+Urgency: high
+Maintainer: amc-nu <abrahammonrroy@yahoo.com>
+Changed-By: amc-nu <abrahammonrroy@yahoo.com>
+Description:
+ ros-humble-autoware-ground-segmentation - The ROS 2 autoware_ground_segmentation package
+Changes:
+ ros-humble-autoware-ground-segmentation (0.39.0-2024.12.17.01.22) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 97c3392a2abbee3c4a00a85938da6e6fbf49b0b5 10984894 ros-humble-autoware-ground-segmentation-dbgsym_0.39.0-2024.12.17.01.22_amd64.ddeb
+ bb6949a4481dfef931121e48f6ae158932bc3a42 47208 ros-humble-autoware-ground-segmentation_0.39.0-2024.12.17.01.22_amd64.buildinfo
+ ca2951d4cffd3f961f08711947412f61aa875560 804740 ros-humble-autoware-ground-segmentation_0.39.0-2024.12.17.01.22_amd64.deb
+Checksums-Sha256:
+ 018db9ff877a7817af3678056d8179e9e2e3e91b2f25982b0cac805d0c28fac6 10984894 ros-humble-autoware-ground-segmentation-dbgsym_0.39.0-2024.12.17.01.22_amd64.ddeb
+ 394607f25661b7d3e50d5b169bf4692b1502951defde25eaf1c83eda5db0a771 47208 ros-humble-autoware-ground-segmentation_0.39.0-2024.12.17.01.22_amd64.buildinfo
+ bc5a91ad7daf575998665c63c858490bb0997887f7c14348f3d09d51f4075909 804740 ros-humble-autoware-ground-segmentation_0.39.0-2024.12.17.01.22_amd64.deb
+Files:
+ 9a9607b7112445e9b326f4eb0b1e7a63 10984894 debug optional ros-humble-autoware-ground-segmentation-dbgsym_0.39.0-2024.12.17.01.22_amd64.ddeb
+ 80f87e1b64bd985236ed38d88016158a 47208 misc optional ros-humble-autoware-ground-segmentation_0.39.0-2024.12.17.01.22_amd64.buildinfo
+ 60e95aee7b82446322310d8bd2a42f46 804740 misc optional ros-humble-autoware-ground-segmentation_0.39.0-2024.12.17.01.22_amd64.deb

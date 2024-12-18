@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-topic-state-monitor
+Binary: ros-humble-topic-state-monitor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.20.39
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-topic-state-monitor - The topic_state_monitor package
+Changes:
+ ros-humble-topic-state-monitor (0.39.0-2024.12.17.20.39) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 5ad2a6cb650b823c40742bd55f10812f623fc2c8 2701430 ros-humble-topic-state-monitor-dbgsym_0.39.0-2024.12.17.20.39_amd64.ddeb
+ 2f18adbca85a299d368d8d97f7412b1e20652a4d 16362 ros-humble-topic-state-monitor_0.39.0-2024.12.17.20.39_amd64.buildinfo
+ 6588b146193027d2fcfd554d8959d2b43578ec59 147384 ros-humble-topic-state-monitor_0.39.0-2024.12.17.20.39_amd64.deb
+Checksums-Sha256:
+ a703c91fe9edce0c5a3ab233c190e899e36b787ea0280469c3e0161ea897a63e 2701430 ros-humble-topic-state-monitor-dbgsym_0.39.0-2024.12.17.20.39_amd64.ddeb
+ f26877f67a5fdaa52bdd35814a3a12298004e047362a4dd098cdae2b7098c9f9 16362 ros-humble-topic-state-monitor_0.39.0-2024.12.17.20.39_amd64.buildinfo
+ aa19a0b8eb5745261ba8ab773404a94bd580533b608a21d81127fec78ca12ad9 147384 ros-humble-topic-state-monitor_0.39.0-2024.12.17.20.39_amd64.deb
+Files:
+ 52a074ad9e7df9ce18f261f467434412 2701430 debug optional ros-humble-topic-state-monitor-dbgsym_0.39.0-2024.12.17.20.39_amd64.ddeb
+ 36b281fe00874066df16041a134ede71 16362 misc optional ros-humble-topic-state-monitor_0.39.0-2024.12.17.20.39_amd64.buildinfo
+ 4706dc0aae72010fc5331e403829de67 147384 misc optional ros-humble-topic-state-monitor_0.39.0-2024.12.17.20.39_amd64.deb

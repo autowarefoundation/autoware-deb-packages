@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-predicted-path-checker
+Binary: ros-humble-predicted-path-checker
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.19.46
+Distribution: jammy
+Urgency: high
+Maintainer: Berkay Karaman <berkay@leodrive.ai>
+Changed-By: Berkay Karaman <berkay@leodrive.ai>
+Description:
+ ros-humble-predicted-path-checker - The predicted_path_checker package
+Changes:
+ ros-humble-predicted-path-checker (0.39.0-2024.12.17.19.46) jammy; urgency=high
+ .
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * refactor(component_interface_utils): prefix package and namespace with autoware (#9092 <https://github.com/youtalk/autoware.universe/issues/9092>)
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ a4133da2c6cc77a8050698a529635b48e952e68f 9178634 ros-humble-predicted-path-checker-dbgsym_0.39.0-2024.12.17.19.46_amd64.ddeb
+ b1b8053a477dfcda73317f1a1b0522706e4c96d6 41185 ros-humble-predicted-path-checker_0.39.0-2024.12.17.19.46_amd64.buildinfo
+ 469d203b230275e371162f604e8cb32321714863 336020 ros-humble-predicted-path-checker_0.39.0-2024.12.17.19.46_amd64.deb
+Checksums-Sha256:
+ 27e2489a47a9023113dc9db01639991c7de01d02be9481ab86d59d0fc11df354 9178634 ros-humble-predicted-path-checker-dbgsym_0.39.0-2024.12.17.19.46_amd64.ddeb
+ 5897d371c5f00b2562b1636c7b2013976d1891ff75ad296278177aa7085d54ee 41185 ros-humble-predicted-path-checker_0.39.0-2024.12.17.19.46_amd64.buildinfo
+ 3641a4e66e5372ce5a71efd034b80e09fda6b6922f3153c6b14bc59fed0628fa 336020 ros-humble-predicted-path-checker_0.39.0-2024.12.17.19.46_amd64.deb
+Files:
+ 1d2101ce0915a2437dde24386761f886 9178634 debug optional ros-humble-predicted-path-checker-dbgsym_0.39.0-2024.12.17.19.46_amd64.ddeb
+ a79e225eb01294cd660656df9f6cfb0c 41185 misc optional ros-humble-predicted-path-checker_0.39.0-2024.12.17.19.46_amd64.buildinfo
+ e1171b30f423233f0b02358f98e49645 336020 misc optional ros-humble-predicted-path-checker_0.39.0-2024.12.17.19.46_amd64.deb

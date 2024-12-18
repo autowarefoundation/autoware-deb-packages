@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-behavior-path-planner
+Binary: ros-humble-autoware-behavior-path-planner
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.21.07
+Distribution: jammy
+Urgency: high
+Maintainer: Zulfaqar Azmi <zulfaqar.azmi@tier4.jp>
+Changed-By: Zulfaqar Azmi <zulfaqar.azmi@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-path-planner - The behavior_path_planner package
+Changes:
+ ros-humble-autoware-behavior-path-planner (0.39.0-2024.12.17.21.07) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ c2833ba1a9e71bf5fc47c09c38d68b2d7154de60 15595310 ros-humble-autoware-behavior-path-planner-dbgsym_0.39.0-2024.12.17.21.07_amd64.ddeb
+ 843e2c66564928cf141c86761353861c2201aefb 48919 ros-humble-autoware-behavior-path-planner_0.39.0-2024.12.17.21.07_amd64.buildinfo
+ d51f3c060e1e183c3848af565f18b065037602e7 533798 ros-humble-autoware-behavior-path-planner_0.39.0-2024.12.17.21.07_amd64.deb
+Checksums-Sha256:
+ e9ebfa3961912910ceadc300eb1ae0651fac8280283819c4185b336e9c64bddf 15595310 ros-humble-autoware-behavior-path-planner-dbgsym_0.39.0-2024.12.17.21.07_amd64.ddeb
+ e640ecb7eafda89397ddec7f3583bd99ffb9827eb1224ab887cda1ef9512e31d 48919 ros-humble-autoware-behavior-path-planner_0.39.0-2024.12.17.21.07_amd64.buildinfo
+ cf82df0d5fd1cc8beea75a1ccee0e5913adc95c0ed05eaaee613c3a71c6fa610 533798 ros-humble-autoware-behavior-path-planner_0.39.0-2024.12.17.21.07_amd64.deb
+Files:
+ 4cef85803f6a6d550371176614d2abf5 15595310 debug optional ros-humble-autoware-behavior-path-planner-dbgsym_0.39.0-2024.12.17.21.07_amd64.ddeb
+ 456e8b944ab275f76c0e31e9a3da57af 48919 misc optional ros-humble-autoware-behavior-path-planner_0.39.0-2024.12.17.21.07_amd64.buildinfo
+ 80fc705b76fbb314bb6c30672a76d1d6 533798 misc optional ros-humble-autoware-behavior-path-planner_0.39.0-2024.12.17.21.07_amd64.deb

@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-map-height-fitter
+Binary: ros-humble-autoware-map-height-fitter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.16.26
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-map-height-fitter - The autoware_map_height_fitter package
+Changes:
+ ros-humble-autoware-map-height-fitter (0.39.0-2024.12.16.16.26) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 2cb3ddf46b130635df1838cff23e9405d91520b7 4799008 ros-humble-autoware-map-height-fitter-dbgsym_0.39.0-2024.12.16.16.26_amd64.ddeb
+ cfed96728ab9008c2e4e1a4e11df85d0465fe6d7 40929 ros-humble-autoware-map-height-fitter_0.39.0-2024.12.16.16.26_amd64.buildinfo
+ 8fc00ae6ecbd1425707684945ba63c36222c3531 170136 ros-humble-autoware-map-height-fitter_0.39.0-2024.12.16.16.26_amd64.deb
+Checksums-Sha256:
+ 23b5ae05bfb4714e41d93d3287631549054fcbd5d3ebb5179e830dd17db10852 4799008 ros-humble-autoware-map-height-fitter-dbgsym_0.39.0-2024.12.16.16.26_amd64.ddeb
+ 8b2583fe8a332220b3fcfbb46bdef000a46dcb2e70bffc98a28978c617eefbd4 40929 ros-humble-autoware-map-height-fitter_0.39.0-2024.12.16.16.26_amd64.buildinfo
+ 520b0788b6f24d2d93478530500f4e9ec7527ac7c001eb83f054b1efc9be8f0d 170136 ros-humble-autoware-map-height-fitter_0.39.0-2024.12.16.16.26_amd64.deb
+Files:
+ de0774eddbd67975c4bf66ad9ba82bdc 4799008 debug optional ros-humble-autoware-map-height-fitter-dbgsym_0.39.0-2024.12.16.16.26_amd64.ddeb
+ a5bbe6cb4a3c15f7a67daa7676b9dde9 40929 misc optional ros-humble-autoware-map-height-fitter_0.39.0-2024.12.16.16.26_amd64.buildinfo
+ 50e4a82a722e5a483e123a3130057e7f 170136 misc optional ros-humble-autoware-map-height-fitter_0.39.0-2024.12.16.16.26_amd64.deb

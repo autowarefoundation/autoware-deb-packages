@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module
+Binary: ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.19.26
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime CLEMENT <maxime.clement@tier4.jp>
+Changed-By: Maxime CLEMENT <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module - Package to adjust velocities of a trajectory in order for the rid
+Changes:
+ ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module (0.39.0-2024.12.17.19.26) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 5eddff17f9b4207e1811112bc7abea254ad66371 8345378 ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module-dbgsym_0.39.0-2024.12.17.19.26_amd64.ddeb
+ fd6de621f1fa04930cb5609daf71b03b27ddc346 48697 ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module_0.39.0-2024.12.17.19.26_amd64.buildinfo
+ 252a4878fa3d3e84e130d09e4086c10009ddb7f2 286536 ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module_0.39.0-2024.12.17.19.26_amd64.deb
+Checksums-Sha256:
+ 808dea2352dae204d1af4dd6a9faf443fcee88a19718db3fc6ff9f6202932dbc 8345378 ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module-dbgsym_0.39.0-2024.12.17.19.26_amd64.ddeb
+ 02930c9d70468cdb6bf400f714c23d5a910e78ca29ef46d5a4e34805d8dc9f26 48697 ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module_0.39.0-2024.12.17.19.26_amd64.buildinfo
+ a6cfa3d3772a05ba951d74e3f61841a90065396db4256c35d2d175219d4c6bab 286536 ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module_0.39.0-2024.12.17.19.26_amd64.deb
+Files:
+ 58094fc05f34c126759cbc12626e0dd3 8345378 debug optional ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module-dbgsym_0.39.0-2024.12.17.19.26_amd64.ddeb
+ 3685f633a3088987e9a507049fe1e36f 48697 misc optional ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module_0.39.0-2024.12.17.19.26_amd64.buildinfo
+ 7adf88bbbf47a0bbf4b5264ee09abea7 286536 misc optional ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module_0.39.0-2024.12.17.19.26_amd64.deb

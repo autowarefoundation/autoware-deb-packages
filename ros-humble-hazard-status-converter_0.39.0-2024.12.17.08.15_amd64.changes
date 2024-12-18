@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-hazard-status-converter
+Binary: ros-humble-hazard-status-converter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.08.15
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-hazard-status-converter - The hazard_status_converter package
+Changes:
+ ros-humble-hazard-status-converter (0.39.0-2024.12.17.08.15) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ c2fbea1b676f15c7b77ecebd90f84ace954a0312 1220026 ros-humble-hazard-status-converter-dbgsym_0.39.0-2024.12.17.08.15_amd64.ddeb
+ 36bc0a14d8e1bd1c83b2abeaef87464fd99f9148 16473 ros-humble-hazard-status-converter_0.39.0-2024.12.17.08.15_amd64.buildinfo
+ 05e6d2f204d16da91df9b321f307b11c5928e23f 66926 ros-humble-hazard-status-converter_0.39.0-2024.12.17.08.15_amd64.deb
+Checksums-Sha256:
+ 6f7afae05ff5c7eb337cadff99397fafac4ee3b24124dfe199433e5e0361a463 1220026 ros-humble-hazard-status-converter-dbgsym_0.39.0-2024.12.17.08.15_amd64.ddeb
+ 97ff6598adce91bad202f1ada0c2e83a4975c150bb2e697b5ca571f259f65025 16473 ros-humble-hazard-status-converter_0.39.0-2024.12.17.08.15_amd64.buildinfo
+ 0110b6e173d8f2b66bc7685e852db0932dfbdad92c942b2d5b4cc1f878075873 66926 ros-humble-hazard-status-converter_0.39.0-2024.12.17.08.15_amd64.deb
+Files:
+ 692de1775fa565591cf29fa46c1cd37a 1220026 debug optional ros-humble-hazard-status-converter-dbgsym_0.39.0-2024.12.17.08.15_amd64.ddeb
+ 9e1f2828d5a218780e4f19ed807fc7c8 16473 misc optional ros-humble-hazard-status-converter_0.39.0-2024.12.17.08.15_amd64.buildinfo
+ 25b487189d11b9988016e935e6c974c9 66926 misc optional ros-humble-hazard-status-converter_0.39.0-2024.12.17.08.15_amd64.deb

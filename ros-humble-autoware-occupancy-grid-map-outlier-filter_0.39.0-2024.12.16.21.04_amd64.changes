@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-occupancy-grid-map-outlier-filter
+Binary: ros-humble-autoware-occupancy-grid-map-outlier-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.21.04
+Distribution: jammy
+Urgency: high
+Maintainer: amc-nu <abrahammonrroy@yahoo.com>
+Changed-By: amc-nu <abrahammonrroy@yahoo.com>
+Description:
+ ros-humble-autoware-occupancy-grid-map-outlier-filter - The ROS 2 occupancy_grid_map_outlier_filter package
+Changes:
+ ros-humble-autoware-occupancy-grid-map-outlier-filter (0.39.0-2024.12.16.21.04) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ b4e69ac1ffb566850383c99a59b7b8e557f8bca5 5611086 ros-humble-autoware-occupancy-grid-map-outlier-filter-dbgsym_0.39.0-2024.12.16.21.04_amd64.ddeb
+ f3e98fad63058e54393e06d7e408feedba41ad6b 47118 ros-humble-autoware-occupancy-grid-map-outlier-filter_0.39.0-2024.12.16.21.04_amd64.buildinfo
+ fed7b713f3b9e7d3096dee25a0dd81b2b01c5d92 192760 ros-humble-autoware-occupancy-grid-map-outlier-filter_0.39.0-2024.12.16.21.04_amd64.deb
+Checksums-Sha256:
+ 9b9e85b83b013c46192a246d3d5f4ee4ae7a21a3708b57fe695263d4e9f1c69b 5611086 ros-humble-autoware-occupancy-grid-map-outlier-filter-dbgsym_0.39.0-2024.12.16.21.04_amd64.ddeb
+ 0ec6a6551f0a7729db86f398a4a3cd373c921e3a71b5657adcf92d832aa71f03 47118 ros-humble-autoware-occupancy-grid-map-outlier-filter_0.39.0-2024.12.16.21.04_amd64.buildinfo
+ 7a69279366d6d336c56ae1adb228080a8281a0d2a304ac4f33e9634218215b1f 192760 ros-humble-autoware-occupancy-grid-map-outlier-filter_0.39.0-2024.12.16.21.04_amd64.deb
+Files:
+ a6c0015b1df73888124bb2ac7fb32adc 5611086 debug optional ros-humble-autoware-occupancy-grid-map-outlier-filter-dbgsym_0.39.0-2024.12.16.21.04_amd64.ddeb
+ 48e2a96d9381f6e7393e06a1b6c4d5bc 47118 misc optional ros-humble-autoware-occupancy-grid-map-outlier-filter_0.39.0-2024.12.16.21.04_amd64.buildinfo
+ f63a8056cbcda569e085e40e378f78d7 192760 misc optional ros-humble-autoware-occupancy-grid-map-outlier-filter_0.39.0-2024.12.16.21.04_amd64.deb

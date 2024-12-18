@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-path-optimizer
+Binary: ros-humble-autoware-path-optimizer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.15.52
+Distribution: jammy
+Urgency: high
+Maintainer: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Changed-By: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Description:
+ ros-humble-autoware-path-optimizer - The autoware_path_optimizer package
+Changes:
+ ros-humble-autoware-path-optimizer (0.39.0-2024.12.17.15.52) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 7e4680968ce156fb7f89c5458fa4c7338205ba43 7133214 ros-humble-autoware-path-optimizer-dbgsym_0.39.0-2024.12.17.15.52_amd64.ddeb
+ 06b6f5dee21db2fc4ecfe4e136ec2d67fa5fbd05 43745 ros-humble-autoware-path-optimizer_0.39.0-2024.12.17.15.52_amd64.buildinfo
+ 8b26ce79eb366c7a6db621134db3e6bbfbd6c3a1 311246 ros-humble-autoware-path-optimizer_0.39.0-2024.12.17.15.52_amd64.deb
+Checksums-Sha256:
+ c1057cc4e11ab3ce3cedd56d593678bf4bc1692efa030f0d4ed9ce20d0da2b67 7133214 ros-humble-autoware-path-optimizer-dbgsym_0.39.0-2024.12.17.15.52_amd64.ddeb
+ dbdba2df6fe737d0e0460e85c847d1510703562f42e8d071687a64de081a220e 43745 ros-humble-autoware-path-optimizer_0.39.0-2024.12.17.15.52_amd64.buildinfo
+ 5d3e01ca6feb8b8fb8f90578d702dfb3797f7be13d1ab46abfda0632b5f3b1a5 311246 ros-humble-autoware-path-optimizer_0.39.0-2024.12.17.15.52_amd64.deb
+Files:
+ 63179af16fb9ef4e2b9e940345fb2a5f 7133214 debug optional ros-humble-autoware-path-optimizer-dbgsym_0.39.0-2024.12.17.15.52_amd64.ddeb
+ 794597c2a919b366264ae3cc5d9de670 43745 misc optional ros-humble-autoware-path-optimizer_0.39.0-2024.12.17.15.52_amd64.buildinfo
+ d63a9892dd30fae141e528665c7579c8 311246 misc optional ros-humble-autoware-path-optimizer_0.39.0-2024.12.17.15.52_amd64.deb

@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-testing
+Binary: ros-humble-autoware-testing
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.12.39
+Distribution: jammy
+Urgency: high
+Maintainer: Adam Dabrowski <adam.dabrowski@robotec.ai>
+Changed-By: Adam Dabrowski <adam.dabrowski@robotec.ai>
+Description:
+ ros-humble-autoware-testing - Tools for handling standard tests based on ros_testing
+Changes:
+ ros-humble-autoware-testing (0.39.0-2024.12.16.12.39) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ ddcf7b92fdc94b87bf74f5ff32a439a47ce30b1e 15709 ros-humble-autoware-testing_0.39.0-2024.12.16.12.39_amd64.buildinfo
+ 9a6b7b478da2cef40a4d257f1ce7d27ce62f9a83 12720 ros-humble-autoware-testing_0.39.0-2024.12.16.12.39_amd64.deb
+Checksums-Sha256:
+ 6d297b37d42066f63b2d37be531c08d79309c79df0b71fb7677349baac1e7ac8 15709 ros-humble-autoware-testing_0.39.0-2024.12.16.12.39_amd64.buildinfo
+ d0cf1c3a238be986ff1c7cd1ed295b0a53a27994075cc595d1b556bbda6f3d76 12720 ros-humble-autoware-testing_0.39.0-2024.12.16.12.39_amd64.deb
+Files:
+ ea10a4bc36f1441d9de27a06379e2ab2 15709 misc optional ros-humble-autoware-testing_0.39.0-2024.12.16.12.39_amd64.buildinfo
+ b48f870e9280f3975c621b154dd0d857 12720 misc optional ros-humble-autoware-testing_0.39.0-2024.12.16.12.39_amd64.deb

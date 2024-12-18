@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-objects-of-interest-marker-interface
+Binary: ros-humble-autoware-objects-of-interest-marker-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.20.32
+Distribution: jammy
+Urgency: high
+Maintainer: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Changed-By: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Description:
+ ros-humble-autoware-objects-of-interest-marker-interface - The autoware_objects_of_interest_marker_interface package
+Changes:
+ ros-humble-autoware-objects-of-interest-marker-interface (0.39.0-2024.12.16.20.32) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 0426f456246285d65dd5905c19ae5c84ac206d9b 927726 ros-humble-autoware-objects-of-interest-marker-interface-dbgsym_0.39.0-2024.12.16.20.32_amd64.ddeb
+ f793317d200eff13ce289a868cd03c8db7245ba3 40328 ros-humble-autoware-objects-of-interest-marker-interface_0.39.0-2024.12.16.20.32_amd64.buildinfo
+ 149bff953a32accaddf2db060249709e53c8311d 56574 ros-humble-autoware-objects-of-interest-marker-interface_0.39.0-2024.12.16.20.32_amd64.deb
+Checksums-Sha256:
+ 82cd17cfbc517fd59bb43c5c2968007f30594e7a9f0959ae86abd0345da96549 927726 ros-humble-autoware-objects-of-interest-marker-interface-dbgsym_0.39.0-2024.12.16.20.32_amd64.ddeb
+ 8d35036d5b782883c7ffb9fbf5bf9c8f9bdd7e6b110e752b43fcb795b3ba1826 40328 ros-humble-autoware-objects-of-interest-marker-interface_0.39.0-2024.12.16.20.32_amd64.buildinfo
+ eebb6b386bfd0f94279a9c3ccbed57c70b7c94c60057dd56d2cf4b08a448bc5b 56574 ros-humble-autoware-objects-of-interest-marker-interface_0.39.0-2024.12.16.20.32_amd64.deb
+Files:
+ 77f637963c468075864f4a9690f21bd7 927726 debug optional ros-humble-autoware-objects-of-interest-marker-interface-dbgsym_0.39.0-2024.12.16.20.32_amd64.ddeb
+ 0692218eee85c44b20c6f24c220480a6 40328 misc optional ros-humble-autoware-objects-of-interest-marker-interface_0.39.0-2024.12.16.20.32_amd64.buildinfo
+ b73d1a6e7bf3fea798edd22b42ecd78f 56574 misc optional ros-humble-autoware-objects-of-interest-marker-interface_0.39.0-2024.12.16.20.32_amd64.deb

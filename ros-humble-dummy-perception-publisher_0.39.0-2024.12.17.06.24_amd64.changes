@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-dummy-perception-publisher
+Binary: ros-humble-dummy-perception-publisher
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.06.24
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-dummy-perception-publisher - The dummy_perception_publisher package
+Changes:
+ ros-humble-dummy-perception-publisher (0.39.0-2024.12.17.06.24) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 98c826e82d23e16117f0b4059a85fdc744081699 4600152 ros-humble-dummy-perception-publisher-dbgsym_0.39.0-2024.12.17.06.24_amd64.ddeb
+ 76fbf7ffa03037b6e233178076b84a77c22de6a8 40468 ros-humble-dummy-perception-publisher_0.39.0-2024.12.17.06.24_amd64.buildinfo
+ bcb557e138be7d73e0a000d8482b3705a6d67d05 191142 ros-humble-dummy-perception-publisher_0.39.0-2024.12.17.06.24_amd64.deb
+Checksums-Sha256:
+ 8246099e41c46be9c13d4b9123ba44ed361cc166514d0bfc977c39ef818295c9 4600152 ros-humble-dummy-perception-publisher-dbgsym_0.39.0-2024.12.17.06.24_amd64.ddeb
+ 5d6397cbf61780a1d205d83676a4f6213800ddbe6b28172536166f125faada9b 40468 ros-humble-dummy-perception-publisher_0.39.0-2024.12.17.06.24_amd64.buildinfo
+ 9d4f3220b3a75d60c3756a999cf547e139ebc846503fab4ac67572e4a064bc8f 191142 ros-humble-dummy-perception-publisher_0.39.0-2024.12.17.06.24_amd64.deb
+Files:
+ a9acfd3af73658957d6c2ee51d83a0b5 4600152 debug optional ros-humble-dummy-perception-publisher-dbgsym_0.39.0-2024.12.17.06.24_amd64.ddeb
+ ac90b532d579410db3fc49e868a86f85 40468 misc optional ros-humble-dummy-perception-publisher_0.39.0-2024.12.17.06.24_amd64.buildinfo
+ 75e017afedff956c765b16be8a26952c 191142 misc optional ros-humble-dummy-perception-publisher_0.39.0-2024.12.17.06.24_amd64.deb

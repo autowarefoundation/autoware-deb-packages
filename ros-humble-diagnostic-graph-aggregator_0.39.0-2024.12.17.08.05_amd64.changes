@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-diagnostic-graph-aggregator
+Binary: ros-humble-diagnostic-graph-aggregator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.08.05
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-diagnostic-graph-aggregator - The diagnostic_graph_aggregator package
+Changes:
+ ros-humble-diagnostic-graph-aggregator (0.39.0-2024.12.17.08.05) jammy; urgency=high
+ .
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * feat(diagnostic_graph_aggregator): implement diagnostic graph dump functionality (#9261 <https://github.com/youtalk/autoware.universe/issues/9261>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 5ff13ad2d41e5feda1dff941e41d5a2f9100b783 5350796 ros-humble-diagnostic-graph-aggregator-dbgsym_0.39.0-2024.12.17.08.05_amd64.ddeb
+ 27bdc9d1c7cb6c95150567890263e77055ff6394 16213 ros-humble-diagnostic-graph-aggregator_0.39.0-2024.12.17.08.05_amd64.buildinfo
+ 2e069748c87272873c8d5fbf274031e7417dcc6c 240040 ros-humble-diagnostic-graph-aggregator_0.39.0-2024.12.17.08.05_amd64.deb
+Checksums-Sha256:
+ a7c254027cdf067f0ae59d10e535513e880dd96de5d984ef105f0046c3e14f96 5350796 ros-humble-diagnostic-graph-aggregator-dbgsym_0.39.0-2024.12.17.08.05_amd64.ddeb
+ 209dd8cc21565f9300ca7771091d18eb9a2153a63e1a965bda7e690e90596780 16213 ros-humble-diagnostic-graph-aggregator_0.39.0-2024.12.17.08.05_amd64.buildinfo
+ 9d503081d3d8e78751b839d4e62b918af24612be02c170acca22d7f1fb2c46e9 240040 ros-humble-diagnostic-graph-aggregator_0.39.0-2024.12.17.08.05_amd64.deb
+Files:
+ aa1c4fe74c5063e6a866a3a123d958e0 5350796 debug optional ros-humble-diagnostic-graph-aggregator-dbgsym_0.39.0-2024.12.17.08.05_amd64.ddeb
+ 10a6d0634cb7d126126dcb4d330fdccf 16213 misc optional ros-humble-diagnostic-graph-aggregator_0.39.0-2024.12.17.08.05_amd64.buildinfo
+ 56cbec7404a16292b44682904f33cc8b 240040 misc optional ros-humble-diagnostic-graph-aggregator_0.39.0-2024.12.17.08.05_amd64.deb

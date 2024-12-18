@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-planning-validator
+Binary: ros-humble-autoware-planning-validator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.16.06
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-planning-validator - ros node for autoware_planning_validator
+Changes:
+ ros-humble-autoware-planning-validator (0.39.0-2024.12.17.16.06) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ aaa5d57e34f88d4a3ff74d7adce4134ccce0ddaf 7405218 ros-humble-autoware-planning-validator-dbgsym_0.39.0-2024.12.17.16.06_amd64.ddeb
+ ce5adbd99a81d0d5e75f3137265bf0ed083cb29e 42925 ros-humble-autoware-planning-validator_0.39.0-2024.12.17.16.06_amd64.buildinfo
+ b609784be332b0a793430f8e74288a8508524bbf 343442 ros-humble-autoware-planning-validator_0.39.0-2024.12.17.16.06_amd64.deb
+Checksums-Sha256:
+ 8ed7ec06aaf5159bdb78f7f51e5193bc0313c5389bacbbbe5f2033857df0df56 7405218 ros-humble-autoware-planning-validator-dbgsym_0.39.0-2024.12.17.16.06_amd64.ddeb
+ d309929a7217330f954c23c85741f8dcd73b4341f75efabce53046231b351527 42925 ros-humble-autoware-planning-validator_0.39.0-2024.12.17.16.06_amd64.buildinfo
+ 3b194208e9726a2f1c7236f62f842e8ab0a140dbe01207e66fc73b8bbe53e8a6 343442 ros-humble-autoware-planning-validator_0.39.0-2024.12.17.16.06_amd64.deb
+Files:
+ 865b06dece04451f8272cc9530a58970 7405218 debug optional ros-humble-autoware-planning-validator-dbgsym_0.39.0-2024.12.17.16.06_amd64.ddeb
+ ed0da2af9b1cce4a9bd96c0f474e90b3 42925 misc optional ros-humble-autoware-planning-validator_0.39.0-2024.12.17.16.06_amd64.buildinfo
+ d2b9c9674fda0ff9d156abf45fc933b0 343442 misc optional ros-humble-autoware-planning-validator_0.39.0-2024.12.17.16.06_amd64.deb

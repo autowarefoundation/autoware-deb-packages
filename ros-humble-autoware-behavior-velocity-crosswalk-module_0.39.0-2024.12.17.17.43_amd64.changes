@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-crosswalk-module
+Binary: ros-humble-autoware-behavior-velocity-crosswalk-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.17.43
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-crosswalk-module - The autoware_behavior_velocity_crosswalk_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-crosswalk-module (0.39.0-2024.12.17.17.43) jammy; urgency=high
+ .
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * fix(crosswalk): don't use vehicle stop checker to remove unnecessary callback (#9234 <https://github.com/youtalk/autoware.universe/issues/9234>)
+   * test(crosswalk): add unit test (#9228 <https://github.com/youtalk/autoware.universe/issues/9228>)
+   * Contributors: Esteve Fernandez, Satoshi OTA, Yuki TAKAGI, Yutaka Kondo
+Checksums-Sha1:
+ 61f22a223848d9f7f67b3c73fb102d430da278e3 8274828 ros-humble-autoware-behavior-velocity-crosswalk-module-dbgsym_0.39.0-2024.12.17.17.43_amd64.ddeb
+ f75116ca5ba6b0163141967326ca831575940f8d 48490 ros-humble-autoware-behavior-velocity-crosswalk-module_0.39.0-2024.12.17.17.43_amd64.buildinfo
+ 7f31e0afb78065ec8d6a9e530e5e63a827b2f3f1 291784 ros-humble-autoware-behavior-velocity-crosswalk-module_0.39.0-2024.12.17.17.43_amd64.deb
+Checksums-Sha256:
+ 5569a90317a97855a236dc4b2277a03c800d1f1fca1c69121c7e9a5fdcc818b4 8274828 ros-humble-autoware-behavior-velocity-crosswalk-module-dbgsym_0.39.0-2024.12.17.17.43_amd64.ddeb
+ 35bf6e5f8404e7c958bc60b248086d6f140b55985dd8e4587b7d283169b0f11e 48490 ros-humble-autoware-behavior-velocity-crosswalk-module_0.39.0-2024.12.17.17.43_amd64.buildinfo
+ 7dd5b2add3bae56b2efd2068f94f6cf9e2dd2caeda5aeb21e279972388c11b2e 291784 ros-humble-autoware-behavior-velocity-crosswalk-module_0.39.0-2024.12.17.17.43_amd64.deb
+Files:
+ f5b9a16ae204c7644b1d5ba8f6fca1ce 8274828 debug optional ros-humble-autoware-behavior-velocity-crosswalk-module-dbgsym_0.39.0-2024.12.17.17.43_amd64.ddeb
+ 8d9ba95cc54362854416917fca1acd1e 48490 misc optional ros-humble-autoware-behavior-velocity-crosswalk-module_0.39.0-2024.12.17.17.43_amd64.buildinfo
+ 2d409f1f2e77913d61c919a5af618697 291784 misc optional ros-humble-autoware-behavior-velocity-crosswalk-module_0.39.0-2024.12.17.17.43_amd64.deb

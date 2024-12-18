@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-kalman-filter
+Binary: ros-humble-autoware-kalman-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.11.45
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-kalman-filter - The kalman filter package
+Changes:
+ ros-humble-autoware-kalman-filter (0.39.0-2024.12.16.11.45) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ a0c31c81f44c67302d53e3e7ff94675bfe680842 2365152 ros-humble-autoware-kalman-filter-dbgsym_0.39.0-2024.12.16.11.45_amd64.ddeb
+ 0498eafcdf8601bd4712ea360b2740b5b02e7f46 11710 ros-humble-autoware-kalman-filter_0.39.0-2024.12.16.11.45_amd64.buildinfo
+ 674f03a7a9cf81fa9f2851d156747a21cdbac319 51776 ros-humble-autoware-kalman-filter_0.39.0-2024.12.16.11.45_amd64.deb
+Checksums-Sha256:
+ 2f5a483c402441b7b9280ed1e6dab3b660b9e67fc7498237ae5ba24007269b1b 2365152 ros-humble-autoware-kalman-filter-dbgsym_0.39.0-2024.12.16.11.45_amd64.ddeb
+ ae258fb57e0523ff895304cd153b6e10be0b1475e524b8f2e515886a561aef15 11710 ros-humble-autoware-kalman-filter_0.39.0-2024.12.16.11.45_amd64.buildinfo
+ 3125da5d91e583f5dec80311da3f814e03ff3220f78ea3fcb2e4a8e29722b36b 51776 ros-humble-autoware-kalman-filter_0.39.0-2024.12.16.11.45_amd64.deb
+Files:
+ 43ad9c105be81f4ad3f1535818b7d552 2365152 debug optional ros-humble-autoware-kalman-filter-dbgsym_0.39.0-2024.12.16.11.45_amd64.ddeb
+ 998be7a98ead05160d97c25c379f6ed9 11710 misc optional ros-humble-autoware-kalman-filter_0.39.0-2024.12.16.11.45_amd64.buildinfo
+ f6c661d70e9ce85314ec6a9b2b16cfb4 51776 misc optional ros-humble-autoware-kalman-filter_0.39.0-2024.12.16.11.45_amd64.deb

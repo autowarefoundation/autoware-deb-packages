@@ -1,0 +1,43 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-traffic-light-classifier
+Binary: ros-humble-autoware-traffic-light-classifier
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.16.55
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-traffic-light-classifier - The autoware_traffic_light_classifier package
+Changes:
+ ros-humble-autoware-traffic-light-classifier (0.39.0-2024.12.16.16.55) jammy; urgency=high
+ .
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(autoware_traffic_light*): add maintainer (#9280 <https://github.com/youtalk/autoware.universe/issues/9280>)
+     * add fundamental commit
+     * add forgot package
+     ---------
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * refactor(cuda_utils): prefix package and namespace with autoware (#9171 <https://github.com/youtalk/autoware.universe/issues/9171>)
+   * Contributors: Esteve Fernandez, Masato Saeki, Yutaka Kondo
+Checksums-Sha1:
+ adebc0292a8cc8b7a9056d0325bf19da53267cc2 3556606 ros-humble-autoware-traffic-light-classifier-dbgsym_0.39.0-2024.12.16.16.55_amd64.ddeb
+ edb6d82314dc28d5b54579cb18c128dd77970ecd 28305 ros-humble-autoware-traffic-light-classifier_0.39.0-2024.12.16.16.55_amd64.buildinfo
+ f8bac7db9ae1f51110fe742da7703f7535ce74d4 185474 ros-humble-autoware-traffic-light-classifier_0.39.0-2024.12.16.16.55_amd64.deb
+Checksums-Sha256:
+ f41cad738398a1a12d9f35c3f8de8515d245f36a13bad6cd7c33287bb5bf4374 3556606 ros-humble-autoware-traffic-light-classifier-dbgsym_0.39.0-2024.12.16.16.55_amd64.ddeb
+ 247e570f499c29dc4701014342dc44914c41ff055393a7d56072344fff12981e 28305 ros-humble-autoware-traffic-light-classifier_0.39.0-2024.12.16.16.55_amd64.buildinfo
+ aebe1b78597b6b974d599ea31d00f2446057093f596b629abf77d100860df1a7 185474 ros-humble-autoware-traffic-light-classifier_0.39.0-2024.12.16.16.55_amd64.deb
+Files:
+ 7743c481501e68bef6f4a95ad25d48ea 3556606 debug optional ros-humble-autoware-traffic-light-classifier-dbgsym_0.39.0-2024.12.16.16.55_amd64.ddeb
+ 650235b30470210ce3bfc7adacdb7110 28305 misc optional ros-humble-autoware-traffic-light-classifier_0.39.0-2024.12.16.16.55_amd64.buildinfo
+ c29b1f73d6ac55a4eeb289798b92e27f 185474 misc optional ros-humble-autoware-traffic-light-classifier_0.39.0-2024.12.16.16.55_amd64.deb

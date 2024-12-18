@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-tier4-camera-view-rviz-plugin
+Binary: ros-humble-tier4-camera-view-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.09.11
+Distribution: jammy
+Urgency: high
+Maintainer: Yuxuan Liu <uken.ryu@tier4.jp>
+Changed-By: Yuxuan Liu <uken.ryu@tier4.jp>
+Description:
+ ros-humble-tier4-camera-view-rviz-plugin - The autoware camera view rviz plugin package
+Changes:
+ ros-humble-tier4-camera-view-rviz-plugin (0.39.0-2024.12.17.09.11) jammy; urgency=high
+ .
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * refactor(autoware_ad_api_specs): prefix package and namespace with autoware (#9250 <https://github.com/youtalk/autoware.universe/issues/9250>)
+     * refactor(autoware_ad_api_specs): prefix package and namespace with autoware
+     * style(pre-commit): autofix
+     * chore(autoware_adapi_specs): rename ad_api to adapi
+     * style(pre-commit): autofix
+     * chore(autoware_adapi_specs): rename ad_api to adapi
+     * chore(autoware_adapi_specs): rename ad_api to adapi
+     * chore(autoware_adapi_specs): rename ad_api_specs to adapi_specs
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * refactor(component_interface_utils): prefix package and namespace with autoware (#9092 <https://github.com/youtalk/autoware.universe/issues/9092>)
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ c23495496dbd69f280664c79663a2edb242418ce 874078 ros-humble-tier4-camera-view-rviz-plugin-dbgsym_0.39.0-2024.12.17.09.11_amd64.ddeb
+ 424cdf859d332877b49f773e57085caf48794945 24637 ros-humble-tier4-camera-view-rviz-plugin_0.39.0-2024.12.17.09.11_amd64.buildinfo
+ 86a0c526023c4750233df45b21a7fea5b4c562a0 35004 ros-humble-tier4-camera-view-rviz-plugin_0.39.0-2024.12.17.09.11_amd64.deb
+Checksums-Sha256:
+ c784aabefa87ac3178615462844e5e5a6a4fc2551677bad202845c6e47672b6e 874078 ros-humble-tier4-camera-view-rviz-plugin-dbgsym_0.39.0-2024.12.17.09.11_amd64.ddeb
+ 6ac9e5a173b5a8b567816b251d04f3b054c26ce706f2bad9e93484b6d26561ad 24637 ros-humble-tier4-camera-view-rviz-plugin_0.39.0-2024.12.17.09.11_amd64.buildinfo
+ ef371dd974a67167da9c2e45033f4b2d41c01e88292e9d38bc5197ab66dec1fd 35004 ros-humble-tier4-camera-view-rviz-plugin_0.39.0-2024.12.17.09.11_amd64.deb
+Files:
+ b2ccb8ed8949512a6876686fcb116384 874078 debug optional ros-humble-tier4-camera-view-rviz-plugin-dbgsym_0.39.0-2024.12.17.09.11_amd64.ddeb
+ 0882c4c8702db3e17d9d1fa2b40a79e8 24637 misc optional ros-humble-tier4-camera-view-rviz-plugin_0.39.0-2024.12.17.09.11_amd64.buildinfo
+ 348169c1a74f320012959a82b5af4deb 35004 misc optional ros-humble-tier4-camera-view-rviz-plugin_0.39.0-2024.12.17.09.11_amd64.deb

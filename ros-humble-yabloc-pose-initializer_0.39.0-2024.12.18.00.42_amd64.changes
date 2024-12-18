@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-yabloc-pose-initializer
+Binary: ros-humble-yabloc-pose-initializer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.18.00.42
+Distribution: jammy
+Urgency: high
+Maintainer: Kento Yabuuchi <kento.yabuuchi.2@tier4.jp>
+Changed-By: Kento Yabuuchi <kento.yabuuchi.2@tier4.jp>
+Description:
+ ros-humble-yabloc-pose-initializer - The pose initializer
+Changes:
+ ros-humble-yabloc-pose-initializer (0.39.0-2024.12.18.00.42) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 91747594b2449c251acbcf5cbffcdb2c685ddfe3 5999454 ros-humble-yabloc-pose-initializer-dbgsym_0.39.0-2024.12.18.00.42_amd64.ddeb
+ 81c701fe78fae272c64d1844f558f7f1f57ef3ff 46548 ros-humble-yabloc-pose-initializer_0.39.0-2024.12.18.00.42_amd64.buildinfo
+ c3e73b1a294b925a615536652481746aed1dbe15 193056 ros-humble-yabloc-pose-initializer_0.39.0-2024.12.18.00.42_amd64.deb
+Checksums-Sha256:
+ 7d03a6607ffaa85d790813616dda363c637f13723d6396ffacf9e8fd5b84c621 5999454 ros-humble-yabloc-pose-initializer-dbgsym_0.39.0-2024.12.18.00.42_amd64.ddeb
+ e63b28b7d794ffbfa9219f323d87ec87b79d9640dc624aba3333ffa2075577aa 46548 ros-humble-yabloc-pose-initializer_0.39.0-2024.12.18.00.42_amd64.buildinfo
+ 53b9546c817d14ab0f7a782606e2f058713e2f40848ba8dccbbaa6d7a17bd3a6 193056 ros-humble-yabloc-pose-initializer_0.39.0-2024.12.18.00.42_amd64.deb
+Files:
+ b3f0ff5b4e8e6f2e058739a32aafcbc3 5999454 debug optional ros-humble-yabloc-pose-initializer-dbgsym_0.39.0-2024.12.18.00.42_amd64.ddeb
+ 89354059a1c17c297e45bc19ff60662f 46548 misc optional ros-humble-yabloc-pose-initializer_0.39.0-2024.12.18.00.42_amd64.buildinfo
+ d58afa94472511da70bdd9eea3b16c40 193056 misc optional ros-humble-yabloc-pose-initializer_0.39.0-2024.12.18.00.42_amd64.deb

@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-traffic-light-utils
+Binary: ros-humble-traffic-light-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.20.50
+Distribution: jammy
+Urgency: high
+Maintainer: Kotaro Uetake <kotaro.uetake@tier4.jp>
+Changed-By: Kotaro Uetake <kotaro.uetake@tier4.jp>
+Description:
+ ros-humble-traffic-light-utils - The traffic_light_utils package
+Changes:
+ ros-humble-traffic-light-utils (0.39.0-2024.12.17.20.50) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 4c264a0efb7dbfc3d63dc0496d5c45c2093929b3 218638 ros-humble-traffic-light-utils-dbgsym_0.39.0-2024.12.17.20.50_amd64.ddeb
+ 1038bd68e499ec35a2ff33cdf3ceb5002b26b754 24899 ros-humble-traffic-light-utils_0.39.0-2024.12.17.20.50_amd64.buildinfo
+ ee20a834de0bb39e5be2ee14c6d1ce8b5b3c90d0 14948 ros-humble-traffic-light-utils_0.39.0-2024.12.17.20.50_amd64.deb
+Checksums-Sha256:
+ 02f9935a8a973a89cf1f6624c909b5fcac57c351c2679c57bcfc045e97ff3979 218638 ros-humble-traffic-light-utils-dbgsym_0.39.0-2024.12.17.20.50_amd64.ddeb
+ 4e7e40f7bf6b5994345196e52ac4bee5178f21cbbfae468ee7342c6ff284400a 24899 ros-humble-traffic-light-utils_0.39.0-2024.12.17.20.50_amd64.buildinfo
+ ac4b8f408fc7b4e32e07abd3d7828ccf2764544f4a377a2652cfcda9bf8bfa29 14948 ros-humble-traffic-light-utils_0.39.0-2024.12.17.20.50_amd64.deb
+Files:
+ a517ea9200d70adcf224fa99479b1ead 218638 debug optional ros-humble-traffic-light-utils-dbgsym_0.39.0-2024.12.17.20.50_amd64.ddeb
+ 76baed9d056b733b48cde8a56f3d776a 24899 misc optional ros-humble-traffic-light-utils_0.39.0-2024.12.17.20.50_amd64.buildinfo
+ d9e7ab3584112688898853030f539b6f 14948 misc optional ros-humble-traffic-light-utils_0.39.0-2024.12.17.20.50_amd64.deb

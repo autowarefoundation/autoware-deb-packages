@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-tier4-traffic-light-rviz-plugin
+Binary: ros-humble-tier4-traffic-light-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.09.35
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi OTA <satoshi.ota@tier4.jp>
+Changed-By: Satoshi OTA <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-tier4-traffic-light-rviz-plugin - The autoware state rviz plugin package
+Changes:
+ ros-humble-tier4-traffic-light-rviz-plugin (0.39.0-2024.12.17.09.35) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 92124f74e4ff6d7061abb5cba5f142afd2038ac0 3282194 ros-humble-tier4-traffic-light-rviz-plugin-dbgsym_0.39.0-2024.12.17.09.35_amd64.ddeb
+ ddd9b62b6cffb7d63cdfb1d9c5805d36053c8396 30926 ros-humble-tier4-traffic-light-rviz-plugin_0.39.0-2024.12.17.09.35_amd64.buildinfo
+ 09cf162ce14644524c4a9b7c849eefe31cef636f 139844 ros-humble-tier4-traffic-light-rviz-plugin_0.39.0-2024.12.17.09.35_amd64.deb
+Checksums-Sha256:
+ cbb662510cc797937b5bb9c16c2af91a449d2696c729e6287101fa1d85de56c5 3282194 ros-humble-tier4-traffic-light-rviz-plugin-dbgsym_0.39.0-2024.12.17.09.35_amd64.ddeb
+ f50bd8a79d08898d163b28cd004c5a143e1fc645158c7697597adfb7b144171d 30926 ros-humble-tier4-traffic-light-rviz-plugin_0.39.0-2024.12.17.09.35_amd64.buildinfo
+ 80b3052ab24c37bf6cb25e1727324b396f212dfdc19dcd3c022d0f20ee3cb885 139844 ros-humble-tier4-traffic-light-rviz-plugin_0.39.0-2024.12.17.09.35_amd64.deb
+Files:
+ 6b153e53d161a9be776ac84738fea181 3282194 debug optional ros-humble-tier4-traffic-light-rviz-plugin-dbgsym_0.39.0-2024.12.17.09.35_amd64.ddeb
+ f086a55b1013fcdbfc7c4a1384db9144 30926 misc optional ros-humble-tier4-traffic-light-rviz-plugin_0.39.0-2024.12.17.09.35_amd64.buildinfo
+ 5b7e3e5a1b0b70981c3489e1d2629fbe 139844 misc optional ros-humble-tier4-traffic-light-rviz-plugin_0.39.0-2024.12.17.09.35_amd64.deb

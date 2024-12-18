@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-surround-obstacle-checker
+Binary: ros-humble-autoware-surround-obstacle-checker
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.16.51
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-surround-obstacle-checker - The autoware_surround_obstacle_checker package
+Changes:
+ ros-humble-autoware-surround-obstacle-checker (0.39.0-2024.12.17.16.51) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 6cda70be15ebdf93a7bd84904086916512bb11d7 8426268 ros-humble-autoware-surround-obstacle-checker-dbgsym_0.39.0-2024.12.17.16.51_amd64.ddeb
+ 5bdc5b676cb1a5d8a2c710c18fe7965ea1e1aa39 43523 ros-humble-autoware-surround-obstacle-checker_0.39.0-2024.12.17.16.51_amd64.buildinfo
+ 0bedadb211ecd2579c516c9687b31740cb4b4b83 325654 ros-humble-autoware-surround-obstacle-checker_0.39.0-2024.12.17.16.51_amd64.deb
+Checksums-Sha256:
+ 1270f8a57553c24aad49304cc650a8c8da1ab410e6f13bdab88f0a6b2ebe4fb5 8426268 ros-humble-autoware-surround-obstacle-checker-dbgsym_0.39.0-2024.12.17.16.51_amd64.ddeb
+ c5ee1e29a10e05cb3373a34fde85650c49afce3ad8512a11675eb2efe2393726 43523 ros-humble-autoware-surround-obstacle-checker_0.39.0-2024.12.17.16.51_amd64.buildinfo
+ ed68f2bf9e98e5fe874566c861d63d9da17b3b06df296c9903973ba3274483ca 325654 ros-humble-autoware-surround-obstacle-checker_0.39.0-2024.12.17.16.51_amd64.deb
+Files:
+ ac31becb6ac3877e3670cc5614b719c9 8426268 debug optional ros-humble-autoware-surround-obstacle-checker-dbgsym_0.39.0-2024.12.17.16.51_amd64.ddeb
+ 9600b396031fd73c37ab18c068896a8b 43523 misc optional ros-humble-autoware-surround-obstacle-checker_0.39.0-2024.12.17.16.51_amd64.buildinfo
+ 23f708bd5a3a81d6ac9f5d6873439070 325654 misc optional ros-humble-autoware-surround-obstacle-checker_0.39.0-2024.12.17.16.51_amd64.deb

@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-ar-tag-based-localizer
+Binary: ros-humble-autoware-ar-tag-based-localizer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.18.48
+Distribution: jammy
+Urgency: high
+Maintainer: Shintaro Sakoda <shintaro.sakoda@tier4.jp>
+Changed-By: Shintaro Sakoda <shintaro.sakoda@tier4.jp>
+Description:
+ ros-humble-autoware-ar-tag-based-localizer - The autoware_ar_tag_based_localizer package
+Changes:
+ ros-humble-autoware-ar-tag-based-localizer (0.39.0-2024.12.16.18.48) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 702ca3d2730db2405baf811ee95c7c2fb46cb91d 6508846 ros-humble-autoware-ar-tag-based-localizer-dbgsym_0.39.0-2024.12.16.18.48_amd64.ddeb
+ ab48de8ccc48a57e73a0d2b2114974eab47e6119 44800 ros-humble-autoware-ar-tag-based-localizer_0.39.0-2024.12.16.18.48_amd64.buildinfo
+ 656a90f3977747419a37d21d2669791ba572d222 218828 ros-humble-autoware-ar-tag-based-localizer_0.39.0-2024.12.16.18.48_amd64.deb
+Checksums-Sha256:
+ 3c909ca2b5c05e269a4715b1e3ac136533b569265a49e6a19048a0fea8de2794 6508846 ros-humble-autoware-ar-tag-based-localizer-dbgsym_0.39.0-2024.12.16.18.48_amd64.ddeb
+ 0814e374edec08df18bb5038b95c5043d00aaa1cccdd2911a4a9154c379683ce 44800 ros-humble-autoware-ar-tag-based-localizer_0.39.0-2024.12.16.18.48_amd64.buildinfo
+ 6d8ac99c11142c65d1f59636b08146d1a9c304f923aeb61e02298b2d92271778 218828 ros-humble-autoware-ar-tag-based-localizer_0.39.0-2024.12.16.18.48_amd64.deb
+Files:
+ 08a72fc3286951ca99fa307c5bdae2db 6508846 debug optional ros-humble-autoware-ar-tag-based-localizer-dbgsym_0.39.0-2024.12.16.18.48_amd64.ddeb
+ 9829abfdf8406634e592f811ef46ac41 44800 misc optional ros-humble-autoware-ar-tag-based-localizer_0.39.0-2024.12.16.18.48_amd64.buildinfo
+ 979b1a3858caa2e7931a59498a3386f9 218828 misc optional ros-humble-autoware-ar-tag-based-localizer_0.39.0-2024.12.16.18.48_amd64.deb

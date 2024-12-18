@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-pose-instability-detector
+Binary: ros-humble-autoware-pose-instability-detector
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.21.24
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-pose-instability-detector - The autoware_pose_instability_detector package
+Changes:
+ ros-humble-autoware-pose-instability-detector (0.39.0-2024.12.16.21.24) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 5453179badf17510344c44d2f30f53b958030461 3449564 ros-humble-autoware-pose-instability-detector-dbgsym_0.39.0-2024.12.16.21.24_amd64.ddeb
+ 36c019b5e2acc1b518b9f082c227b66c0c5abc97 39789 ros-humble-autoware-pose-instability-detector_0.39.0-2024.12.16.21.24_amd64.buildinfo
+ 6ed7b8c0f6caf5019cd397b61610d3972f7267dc 162332 ros-humble-autoware-pose-instability-detector_0.39.0-2024.12.16.21.24_amd64.deb
+Checksums-Sha256:
+ d5dfae6288e206e9acd8b0869dd9dc23e112fe56d916dab96ffd45b4bf69f640 3449564 ros-humble-autoware-pose-instability-detector-dbgsym_0.39.0-2024.12.16.21.24_amd64.ddeb
+ 731d6c40a62b8b64621dfbe46a7042400822a62eb59d2e560b8724ed54a131bf 39789 ros-humble-autoware-pose-instability-detector_0.39.0-2024.12.16.21.24_amd64.buildinfo
+ c990cbdd292562308c061e93ddeb1b8da0596b5e2baa82c4c15fce9b2e0c7d83 162332 ros-humble-autoware-pose-instability-detector_0.39.0-2024.12.16.21.24_amd64.deb
+Files:
+ c55486e58256de49c14376747fbe3c15 3449564 debug optional ros-humble-autoware-pose-instability-detector-dbgsym_0.39.0-2024.12.16.21.24_amd64.ddeb
+ 05af588c087258d866222d9327b36e47 39789 misc optional ros-humble-autoware-pose-instability-detector_0.39.0-2024.12.16.21.24_amd64.buildinfo
+ 7c63b826b5e3e2e1ce852d3a34071ddc 162332 misc optional ros-humble-autoware-pose-instability-detector_0.39.0-2024.12.16.21.24_amd64.deb

@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-elevation-map-loader
+Binary: ros-humble-autoware-elevation-map-loader
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.18.03
+Distribution: jammy
+Urgency: high
+Maintainer: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Changed-By: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Description:
+ ros-humble-autoware-elevation-map-loader - The autoware_elevation_map_loader package
+Changes:
+ ros-humble-autoware-elevation-map-loader (0.39.0-2024.12.16.18.03) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 40580ee0f186184fe8d0aad9b0781575f52206a9 9760382 ros-humble-autoware-elevation-map-loader-dbgsym_0.39.0-2024.12.16.18.03_amd64.ddeb
+ b8352544188b722f32594c218eee43864447d92e 46581 ros-humble-autoware-elevation-map-loader_0.39.0-2024.12.16.18.03_amd64.buildinfo
+ b1ca594d800bcaa8e66adc75981613cac994dd7d 321190 ros-humble-autoware-elevation-map-loader_0.39.0-2024.12.16.18.03_amd64.deb
+Checksums-Sha256:
+ 176dad8a4b15a9466d15a833d5e6c711c62d1f3af0a8cb2c0b2fe7ea32b91ff2 9760382 ros-humble-autoware-elevation-map-loader-dbgsym_0.39.0-2024.12.16.18.03_amd64.ddeb
+ 73e394267fe9aaeb69169ce6e42d1677f6a406c145cc6679ac091f1457c63dc1 46581 ros-humble-autoware-elevation-map-loader_0.39.0-2024.12.16.18.03_amd64.buildinfo
+ 23fd79d495b4ac1a8fcfbe66984af7f4f880f50e1a4aeda224eab3b6a6723ee7 321190 ros-humble-autoware-elevation-map-loader_0.39.0-2024.12.16.18.03_amd64.deb
+Files:
+ 2f40e4b3f72b4c8a283ec13747ef931b 9760382 debug optional ros-humble-autoware-elevation-map-loader-dbgsym_0.39.0-2024.12.16.18.03_amd64.ddeb
+ a9c96ce2d46268b1e2741f4c3c111507 46581 misc optional ros-humble-autoware-elevation-map-loader_0.39.0-2024.12.16.18.03_amd64.buildinfo
+ ab9464f7a3195e9cc0db64e03007ae8f 321190 misc optional ros-humble-autoware-elevation-map-loader_0.39.0-2024.12.16.18.03_amd64.deb

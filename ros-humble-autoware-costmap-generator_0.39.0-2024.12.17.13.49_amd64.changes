@@ -1,0 +1,54 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-costmap-generator
+Binary: ros-humble-autoware-costmap-generator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.13.49
+Distribution: jammy
+Urgency: high
+Maintainer: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Changed-By: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Description:
+ ros-humble-autoware-costmap-generator - The autoware_costmap_generator package
+Changes:
+ ros-humble-autoware-costmap-generator (0.39.0-2024.12.17.13.49) jammy; urgency=high
+ .
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix(costmap_generator): use vehicle frame for lidar height thresholds (#9311 <https://github.com/youtalk/autoware.universe/issues/9311>)
+   * test(costmap_generator): unit test implementation for costmap generator (#9149 <https://github.com/youtalk/autoware.universe/issues/9149>)
+     * modify costmap generator directory structure
+     * rename class CostmapGenerator to CostmapGeneratorNode
+     * unit test for object_map_utils
+     * catch error from lookupTransform
+     * use polling subscriber in costmap generator node
+     * add test for costmap generator node
+     * add test for isActive()
+     * revert unnecessary changes
+     * remove commented out line
+     * minor fix
+     * Update planning/autoware_costmap_generator/src/costmap_generator.cpp
+     Co-authored-by: Kosuke Takeuchi <mailto:kosuke.tnp@gmail.com>
+     ---------
+     Co-authored-by: Kosuke Takeuchi <mailto:kosuke.tnp@gmail.com>
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Maxime CLEMENT, Yutaka Kondo, mkquda
+Checksums-Sha1:
+ 8e0b0e40e11557135fe25a293fe14908bce4165e 8885374 ros-humble-autoware-costmap-generator-dbgsym_0.39.0-2024.12.17.13.49_amd64.ddeb
+ 799ec48ed5015f1dccb8eeb2509bf346b2574955 47802 ros-humble-autoware-costmap-generator_0.39.0-2024.12.17.13.49_amd64.buildinfo
+ 8da0cf7e8d2a139b8179015d4189b84d0388e3f5 308570 ros-humble-autoware-costmap-generator_0.39.0-2024.12.17.13.49_amd64.deb
+Checksums-Sha256:
+ e0f5e6fe066189251f544d6efb873493207f43abb7a5236f61032af6de01d2f8 8885374 ros-humble-autoware-costmap-generator-dbgsym_0.39.0-2024.12.17.13.49_amd64.ddeb
+ 7f07ee24be5b2e1bc9c90d5fe37d50a79b2fef99739afb46bf20c7a118ab5bef 47802 ros-humble-autoware-costmap-generator_0.39.0-2024.12.17.13.49_amd64.buildinfo
+ 45410054b85c463e31ba09df8e5de7836b275d322a78a3458ca4f6e0a1cfdc7b 308570 ros-humble-autoware-costmap-generator_0.39.0-2024.12.17.13.49_amd64.deb
+Files:
+ a918ebf89e5962eb3b505219a0999d58 8885374 debug optional ros-humble-autoware-costmap-generator-dbgsym_0.39.0-2024.12.17.13.49_amd64.ddeb
+ d110cc5d3f321ac29c6277d6e70563f4 47802 misc optional ros-humble-autoware-costmap-generator_0.39.0-2024.12.17.13.49_amd64.buildinfo
+ c7e91faf5f4ffae941e410185a2467f9 308570 misc optional ros-humble-autoware-costmap-generator_0.39.0-2024.12.17.13.49_amd64.deb

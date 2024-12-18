@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-path-sampler
+Binary: ros-humble-autoware-path-sampler
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.01.56
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime CLEMENT <maxime.clement@tier4.jp>
+Changed-By: Maxime CLEMENT <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-path-sampler - Package for the sampling-based path planner
+Changes:
+ ros-humble-autoware-path-sampler (0.39.0-2024.12.17.01.56) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 034c8898be5c91bd991ab940d7c4c863a15b0279 6264246 ros-humble-autoware-path-sampler-dbgsym_0.39.0-2024.12.17.01.56_amd64.ddeb
+ ae77d16a72ecec3f7e903d4698cb33d3a8f6d4ce 41723 ros-humble-autoware-path-sampler_0.39.0-2024.12.17.01.56_amd64.buildinfo
+ 96ca1ecc835d80d91fe434738d16359af08bfe0e 227236 ros-humble-autoware-path-sampler_0.39.0-2024.12.17.01.56_amd64.deb
+Checksums-Sha256:
+ 1613287e3c63f4e081a0f918ba6a61142add2c32e149301025496c0d27efe73d 6264246 ros-humble-autoware-path-sampler-dbgsym_0.39.0-2024.12.17.01.56_amd64.ddeb
+ dc48de57982f5d32c458e0747a7666c1afd9599e4ddbe62a30ec42ba9d38041c 41723 ros-humble-autoware-path-sampler_0.39.0-2024.12.17.01.56_amd64.buildinfo
+ cf0c7fc0334c2d1875e6888906075c63b81f15370caef66fafdc772b6d6a2b0a 227236 ros-humble-autoware-path-sampler_0.39.0-2024.12.17.01.56_amd64.deb
+Files:
+ 078d48120bfab8c91942fbf7dab6518f 6264246 debug optional ros-humble-autoware-path-sampler-dbgsym_0.39.0-2024.12.17.01.56_amd64.ddeb
+ 65320122be544f7f342cfa018255baa6 41723 misc optional ros-humble-autoware-path-sampler_0.39.0-2024.12.17.01.56_amd64.buildinfo
+ 390587e2bb673b46d96aedb4b5932344 227236 misc optional ros-humble-autoware-path-sampler_0.39.0-2024.12.17.01.56_amd64.deb

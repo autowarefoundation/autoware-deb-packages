@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-radar-static-pointcloud-filter
+Binary: ros-humble-autoware-radar-static-pointcloud-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.22.03
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Tanaka <satoshi.tanaka@tier4.jp>
+Changed-By: Satoshi Tanaka <satoshi.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-radar-static-pointcloud-filter - autoware_radar_static_pointcloud_filter
+Changes:
+ ros-humble-autoware-radar-static-pointcloud-filter (0.39.0-2024.12.16.22.03) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ f96b282f6696020aca6c84b4569f9d8155506e15 3975094 ros-humble-autoware-radar-static-pointcloud-filter-dbgsym_0.39.0-2024.12.16.22.03_amd64.ddeb
+ ccbf2dc25ed4ec6be06f34f1f0a24d690c399197 41592 ros-humble-autoware-radar-static-pointcloud-filter_0.39.0-2024.12.16.22.03_amd64.buildinfo
+ d08708ae24a8f66e07d5c02f8dc433fe6311725b 187796 ros-humble-autoware-radar-static-pointcloud-filter_0.39.0-2024.12.16.22.03_amd64.deb
+Checksums-Sha256:
+ 72ab8de099f767d68d5be08d299d8728f722004a0d0a2b9e2f14fcd6bb66b3a4 3975094 ros-humble-autoware-radar-static-pointcloud-filter-dbgsym_0.39.0-2024.12.16.22.03_amd64.ddeb
+ 1ddf2fbd6cf2e286a345f51b999b87d898f58dd9b9568d844843937a05d311fc 41592 ros-humble-autoware-radar-static-pointcloud-filter_0.39.0-2024.12.16.22.03_amd64.buildinfo
+ 3e3a36fefe456bec02660ed482526e29154e0023ae0e3f0af4a64ed551263aae 187796 ros-humble-autoware-radar-static-pointcloud-filter_0.39.0-2024.12.16.22.03_amd64.deb
+Files:
+ 6df1a9a3ab4103c475de1a96c8d9012e 3975094 debug optional ros-humble-autoware-radar-static-pointcloud-filter-dbgsym_0.39.0-2024.12.16.22.03_amd64.ddeb
+ 4c539b2dd8004af2f6c7cea02441d91b 41592 misc optional ros-humble-autoware-radar-static-pointcloud-filter_0.39.0-2024.12.16.22.03_amd64.buildinfo
+ 1a984814ef0886ac2b0da8bbf82b20b7 187796 misc optional ros-humble-autoware-radar-static-pointcloud-filter_0.39.0-2024.12.16.22.03_amd64.deb

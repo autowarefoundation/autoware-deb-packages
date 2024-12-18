@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-simple-planning-simulator
+Binary: ros-humble-simple-planning-simulator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.19.52
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-simple-planning-simulator - simple_planning_simulator as a ROS 2 node
+Changes:
+ ros-humble-simple-planning-simulator (0.39.0-2024.12.17.19.52) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 41982e9e853af37d02e9110370b43c9066a4e8c2 14312742 ros-humble-simple-planning-simulator-dbgsym_0.39.0-2024.12.17.19.52_amd64.ddeb
+ fa766480e73b9f41f29f3e503d647dc0f1850467 42235 ros-humble-simple-planning-simulator_0.39.0-2024.12.17.19.52_amd64.buildinfo
+ b447180b6c02ac7f81620380c08df0c64cb318fc 473754 ros-humble-simple-planning-simulator_0.39.0-2024.12.17.19.52_amd64.deb
+Checksums-Sha256:
+ c8ac25abff2d4954e37758d14923dd89b2a4665aafb24791636474f929b4e90a 14312742 ros-humble-simple-planning-simulator-dbgsym_0.39.0-2024.12.17.19.52_amd64.ddeb
+ 45ea481aca42bbd813c3fa6446e56ee586e3e1c1bbcdf48546f1bdaf7900386d 42235 ros-humble-simple-planning-simulator_0.39.0-2024.12.17.19.52_amd64.buildinfo
+ 8bd52d30eb7733e72b9d093b3ec0f6733f3f6ce9326bd4b328031f4bbd436539 473754 ros-humble-simple-planning-simulator_0.39.0-2024.12.17.19.52_amd64.deb
+Files:
+ e4a2c258171f87f051391234c9a8821a 14312742 debug optional ros-humble-simple-planning-simulator-dbgsym_0.39.0-2024.12.17.19.52_amd64.ddeb
+ b61d03184c5e2071cf6a2a7ce7825cfc 42235 misc optional ros-humble-simple-planning-simulator_0.39.0-2024.12.17.19.52_amd64.buildinfo
+ 205f6bf883d20a90a771aa69437efed5 473754 misc optional ros-humble-simple-planning-simulator_0.39.0-2024.12.17.19.52_amd64.deb

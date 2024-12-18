@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-tier4-system-rviz-plugin
+Binary: ros-humble-tier4-system-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.09.19
+Distribution: jammy
+Urgency: high
+Maintainer: Koji Minoda <koji.minoda@tier4.jp>
+Changed-By: Koji Minoda <koji.minoda@tier4.jp>
+Description:
+ ros-humble-tier4-system-rviz-plugin - The tier4_vehicle_rviz_plugin package
+Changes:
+ ros-humble-tier4-system-rviz-plugin (0.39.0-2024.12.17.09.19) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 7afe53cc782c09edbb06b56436c93c8bb7bc0530 3314610 ros-humble-tier4-system-rviz-plugin-dbgsym_0.39.0-2024.12.17.09.19_amd64.ddeb
+ d349b12358638c271dba9273153186d89a86b9af 42406 ros-humble-tier4-system-rviz-plugin_0.39.0-2024.12.17.09.19_amd64.buildinfo
+ b5c6ba2256c0116be9a85793b5b18ffa8086d12a 117332 ros-humble-tier4-system-rviz-plugin_0.39.0-2024.12.17.09.19_amd64.deb
+Checksums-Sha256:
+ 5c9ba996e6256b31b2d2b2e9c0caae58dc12617ae21e18855981bb47785207da 3314610 ros-humble-tier4-system-rviz-plugin-dbgsym_0.39.0-2024.12.17.09.19_amd64.ddeb
+ b9e3f64395ab5bb851518b7b61242829fbf8691d7fd6d3411e5a30d0945bd1e1 42406 ros-humble-tier4-system-rviz-plugin_0.39.0-2024.12.17.09.19_amd64.buildinfo
+ a772ba5fc302721aa0d365ddbf175787ee08ceea19f261ac1afe33b845bcd7a2 117332 ros-humble-tier4-system-rviz-plugin_0.39.0-2024.12.17.09.19_amd64.deb
+Files:
+ f9b20947a996894ae0fe6748690c666a 3314610 debug optional ros-humble-tier4-system-rviz-plugin-dbgsym_0.39.0-2024.12.17.09.19_amd64.ddeb
+ 8519a77468286820fa98c3a36ac517b9 42406 misc optional ros-humble-tier4-system-rviz-plugin_0.39.0-2024.12.17.09.19_amd64.buildinfo
+ bbcd86797d89c1df0a9bc0e25f979673 117332 misc optional ros-humble-tier4-system-rviz-plugin_0.39.0-2024.12.17.09.19_amd64.deb

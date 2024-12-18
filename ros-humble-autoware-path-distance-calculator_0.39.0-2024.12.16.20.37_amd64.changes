@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-path-distance-calculator
+Binary: ros-humble-autoware-path-distance-calculator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.20.37
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-path-distance-calculator - The autoware_path_distance_calculator package
+Changes:
+ ros-humble-autoware-path-distance-calculator (0.39.0-2024.12.16.20.37) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 662b6eaddf757e9f45d157a14a9fb0c13548ad70 2520620 ros-humble-autoware-path-distance-calculator-dbgsym_0.39.0-2024.12.16.20.37_amd64.ddeb
+ db821a9692b0016287a1844af71ce09a8b468d4c 40663 ros-humble-autoware-path-distance-calculator_0.39.0-2024.12.16.20.37_amd64.buildinfo
+ f7dd402b09a3469388178f317a4e38e787d2444e 123080 ros-humble-autoware-path-distance-calculator_0.39.0-2024.12.16.20.37_amd64.deb
+Checksums-Sha256:
+ 149d8a78c51a1fd2167612938f3c38d8c3296c669a361d52bed240309859fbe4 2520620 ros-humble-autoware-path-distance-calculator-dbgsym_0.39.0-2024.12.16.20.37_amd64.ddeb
+ 9e1e161d51d121dc6dd0dbf387b8aeebfc622778516705458342e2b17efd5dd2 40663 ros-humble-autoware-path-distance-calculator_0.39.0-2024.12.16.20.37_amd64.buildinfo
+ 7fe5694df8aa5f28e0479c30cf3a5a81a445916981fcfe31954b65f6550ca53e 123080 ros-humble-autoware-path-distance-calculator_0.39.0-2024.12.16.20.37_amd64.deb
+Files:
+ ed9fca248785964f72e75ee9a2403032 2520620 debug optional ros-humble-autoware-path-distance-calculator-dbgsym_0.39.0-2024.12.16.20.37_amd64.ddeb
+ 8165d6ae0252740d5bc52630f8e1ed4d 40663 misc optional ros-humble-autoware-path-distance-calculator_0.39.0-2024.12.16.20.37_amd64.buildinfo
+ 0150e4b4151b964bec4f7b3b818a788b 123080 misc optional ros-humble-autoware-path-distance-calculator_0.39.0-2024.12.16.20.37_amd64.deb

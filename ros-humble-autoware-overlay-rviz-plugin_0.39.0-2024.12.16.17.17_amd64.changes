@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-overlay-rviz-plugin
+Binary: ros-humble-autoware-overlay-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.17.17
+Distribution: jammy
+Urgency: high
+Maintainer: Khalil Selyan <khalil@leodrive.ai>
+Changed-By: Khalil Selyan <khalil@leodrive.ai>
+Description:
+ ros-humble-autoware-overlay-rviz-plugin - RViz2 plugin for 2D overlays in the 3D view.
+Changes:
+ ros-humble-autoware-overlay-rviz-plugin (0.39.0-2024.12.16.17.17) jammy; urgency=high
+ .
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * fix: missing dependency in common components (#9072 <https://github.com/youtalk/autoware.universe/issues/9072>)
+   * Contributors: Esteve Fernandez, Yutaka Kondo, ぐるぐる
+Checksums-Sha1:
+ ec5748a346b5398e260dd74f729acd297e59ce16 8284328 ros-humble-autoware-overlay-rviz-plugin-dbgsym_0.39.0-2024.12.16.17.17_amd64.ddeb
+ 55daa78c559b5434f42d5db517aeadc99ce47e9b 29710 ros-humble-autoware-overlay-rviz-plugin_0.39.0-2024.12.16.17.17_amd64.buildinfo
+ 69cdf853fd81ecf617f1679884f93b2952516b80 574316 ros-humble-autoware-overlay-rviz-plugin_0.39.0-2024.12.16.17.17_amd64.deb
+Checksums-Sha256:
+ 525854825205811f17f53599db278d05ac2321d4494267f5855a698681406251 8284328 ros-humble-autoware-overlay-rviz-plugin-dbgsym_0.39.0-2024.12.16.17.17_amd64.ddeb
+ 2f3b177f5f31c8da0c56e1497709c71d700adbdf7904a9aa2f88c169c03c020c 29710 ros-humble-autoware-overlay-rviz-plugin_0.39.0-2024.12.16.17.17_amd64.buildinfo
+ 6a64003fb70635f35688c73a426e7473106768654da9e9c1d8842d48bd53900b 574316 ros-humble-autoware-overlay-rviz-plugin_0.39.0-2024.12.16.17.17_amd64.deb
+Files:
+ 7b0ae9b08951661d7427988a2b95008d 8284328 debug optional ros-humble-autoware-overlay-rviz-plugin-dbgsym_0.39.0-2024.12.16.17.17_amd64.ddeb
+ baee0cab71a8b04c6ba0f8c9a200401f 29710 misc optional ros-humble-autoware-overlay-rviz-plugin_0.39.0-2024.12.16.17.17_amd64.buildinfo
+ b283f223993e64462fad21c21d0d02b1 574316 misc optional ros-humble-autoware-overlay-rviz-plugin_0.39.0-2024.12.16.17.17_amd64.deb

@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-pcl-extensions
+Binary: ros-humble-autoware-pcl-extensions
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.12.02
+Distribution: jammy
+Urgency: high
+Maintainer: Ryu Yamamoto <ryu.yamamoto@tier4.jp>
+Changed-By: Ryu Yamamoto <ryu.yamamoto@tier4.jp>
+Description:
+ ros-humble-autoware-pcl-extensions - The autoware_pcl_extensions package
+Changes:
+ ros-humble-autoware-pcl-extensions (0.39.0-2024.12.16.12.02) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 14d6ab407205a310c682a52bbe43c8764c699181 5339852 ros-humble-autoware-pcl-extensions-dbgsym_0.39.0-2024.12.16.12.02_amd64.ddeb
+ ce80eeed8f578720ab3ca2430cc4d5e3cdb20f49 34112 ros-humble-autoware-pcl-extensions_0.39.0-2024.12.16.12.02_amd64.buildinfo
+ 68fd7caef180d0e2d86be42c4feecdeeedd36637 120730 ros-humble-autoware-pcl-extensions_0.39.0-2024.12.16.12.02_amd64.deb
+Checksums-Sha256:
+ 10e9d1468f6eac6f27507ff129c64e830cb69ec9f57cc97b8cf522f4d06deaff 5339852 ros-humble-autoware-pcl-extensions-dbgsym_0.39.0-2024.12.16.12.02_amd64.ddeb
+ ff67b1110192bd2afc462cfe0aeb20ec904d719d1e6bdb6c43ab20cdb56efcbf 34112 ros-humble-autoware-pcl-extensions_0.39.0-2024.12.16.12.02_amd64.buildinfo
+ d4c17d24c2fc31f900343feff0139c70aea2a92afc95220f887e2d10f87fbc3a 120730 ros-humble-autoware-pcl-extensions_0.39.0-2024.12.16.12.02_amd64.deb
+Files:
+ 65551de1759a6f5f31f270105c286373 5339852 debug optional ros-humble-autoware-pcl-extensions-dbgsym_0.39.0-2024.12.16.12.02_amd64.ddeb
+ 79945bceb618ed5dc6635a0f6f503697 34112 misc optional ros-humble-autoware-pcl-extensions_0.39.0-2024.12.16.12.02_amd64.buildinfo
+ 9f36da9fd75db11b19d4a66705ee175a 120730 misc optional ros-humble-autoware-pcl-extensions_0.39.0-2024.12.16.12.02_amd64.deb

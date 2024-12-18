@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-localization-util
+Binary: ros-humble-autoware-localization-util
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.11.53
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-localization-util - The autoware_localization_util package
+Changes:
+ ros-humble-autoware-localization-util (0.39.0-2024.12.16.11.53) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 06a36c3b4b399c09879781154983ea71442cf6ca 3809290 ros-humble-autoware-localization-util-dbgsym_0.39.0-2024.12.16.11.53_amd64.ddeb
+ c8f60c7c1c2e2518f21ee0da8f426d45283f704a 16691 ros-humble-autoware-localization-util_0.39.0-2024.12.16.11.53_amd64.buildinfo
+ 0c4485dd896e4f3a38aa22428be29d0913551a9d 86262 ros-humble-autoware-localization-util_0.39.0-2024.12.16.11.53_amd64.deb
+Checksums-Sha256:
+ 39eba0c018dbd35b57596f35f980186ba160886f544d849d44a5f4ca546220b6 3809290 ros-humble-autoware-localization-util-dbgsym_0.39.0-2024.12.16.11.53_amd64.ddeb
+ 918569e40a2b10f4da179b93798c52c3dd6997e2dc6313a81864812a8dace30c 16691 ros-humble-autoware-localization-util_0.39.0-2024.12.16.11.53_amd64.buildinfo
+ 81e88fbe1a810ff8d44507e962de8930691b4844b73cf1a9d820dbc099ecf000 86262 ros-humble-autoware-localization-util_0.39.0-2024.12.16.11.53_amd64.deb
+Files:
+ a0620bd57ca25b5719a3e64e80b3b70f 3809290 debug optional ros-humble-autoware-localization-util-dbgsym_0.39.0-2024.12.16.11.53_amd64.ddeb
+ 29420b09267558f13b1c5237078f5cec 16691 misc optional ros-humble-autoware-localization-util_0.39.0-2024.12.16.11.53_amd64.buildinfo
+ b6ad0419e41e8ec509198a8008ed40e9 86262 misc optional ros-humble-autoware-localization-util_0.39.0-2024.12.16.11.53_amd64.deb

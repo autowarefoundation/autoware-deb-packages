@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-external-cmd-selector
+Binary: ros-humble-autoware-external-cmd-selector
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.20.05
+Distribution: jammy
+Urgency: high
+Maintainer: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Changed-By: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-external-cmd-selector - The autoware_external_cmd_selector package
+Changes:
+ ros-humble-autoware-external-cmd-selector (0.39.0-2024.12.17.20.05) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 84444cc1f674321ca283706f56083867e3917f3d 5593786 ros-humble-autoware-external-cmd-selector-dbgsym_0.39.0-2024.12.17.20.05_amd64.ddeb
+ dbec14982a7ab900298ae919db3bcdbda99ca985 17230 ros-humble-autoware-external-cmd-selector_0.39.0-2024.12.17.20.05_amd64.buildinfo
+ 195dbc2785dac8080c5f2f3dc296cab6ffed034d 222150 ros-humble-autoware-external-cmd-selector_0.39.0-2024.12.17.20.05_amd64.deb
+Checksums-Sha256:
+ c11e70092825ee2092b27b65d023df06089b0c36915419c8784d38585e4dd179 5593786 ros-humble-autoware-external-cmd-selector-dbgsym_0.39.0-2024.12.17.20.05_amd64.ddeb
+ 09d1670de4f44c65db904c2692b915943791568aedaa0a5aeacf179f3baf6f56 17230 ros-humble-autoware-external-cmd-selector_0.39.0-2024.12.17.20.05_amd64.buildinfo
+ eeac1f4eb32b03533680d76b1e37a00eb7110a71a5f845ee9f4aebbc434246ac 222150 ros-humble-autoware-external-cmd-selector_0.39.0-2024.12.17.20.05_amd64.deb
+Files:
+ 640157ddf6d34f48e102b304ecd90002 5593786 debug optional ros-humble-autoware-external-cmd-selector-dbgsym_0.39.0-2024.12.17.20.05_amd64.ddeb
+ 6c3acee88a9cfe8136d2f2415861e90f 17230 misc optional ros-humble-autoware-external-cmd-selector_0.39.0-2024.12.17.20.05_amd64.buildinfo
+ 880e26f6ff4470e2f68d3106ad75c576 222150 misc optional ros-humble-autoware-external-cmd-selector_0.39.0-2024.12.17.20.05_amd64.deb

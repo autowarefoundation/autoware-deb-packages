@@ -1,0 +1,50 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-behavior-path-static-obstacle-avoidance-module
+Binary: ros-humble-autoware-behavior-path-static-obstacle-avoidance-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.22.22
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-path-static-obstacle-avoidance-module - The autoware_behavior_path_static_obstacle_avoidance_module packa
+Changes:
+ ros-humble-autoware-behavior-path-static-obstacle-avoidance-module (0.39.0-2024.12.17.22.22) jammy; urgency=high
+ .
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * test(bpp_common): add unit test for safety check (#9223 <https://github.com/youtalk/autoware.universe/issues/9223>)
+     * add test for object collision
+     * add test for more functions
+     * add docstring
+     * fix lane change
+     ---------
+   * feat(static_obstacle_avoidance): operator request for ambiguous vehicle (#9205 <https://github.com/youtalk/autoware.universe/issues/9205>)
+     * add operator request feature
+     * Update planning/behavior_path_planner/autoware_behavior_path_static_obstacle_avoidance_module/src/scene.cpp
+     Co-authored-by: Satoshi OTA <mailto:44889564+satoshi-ota@users.noreply.github.com>
+     ---------
+     Co-authored-by: Satoshi OTA <mailto:44889564+satoshi-ota@users.noreply.github.com>
+   * Contributors: Esteve Fernandez, Go Sakayori, Yutaka Kondo
+Checksums-Sha1:
+ 6a854693551a567d0d961aa9309566d4f491c755 11029282 ros-humble-autoware-behavior-path-static-obstacle-avoidance-module-dbgsym_0.39.0-2024.12.17.22.22_amd64.ddeb
+ 06a43edefc40e975e036aa544383cb008ff37d7d 49216 ros-humble-autoware-behavior-path-static-obstacle-avoidance-module_0.39.0-2024.12.17.22.22_amd64.buildinfo
+ 337b80230997275f3438b620418858506f1f091e 434070 ros-humble-autoware-behavior-path-static-obstacle-avoidance-module_0.39.0-2024.12.17.22.22_amd64.deb
+Checksums-Sha256:
+ 554c3dd7c7545d7ba2cdd38c692df21e691bcd83900cb365f659e962e1be0540 11029282 ros-humble-autoware-behavior-path-static-obstacle-avoidance-module-dbgsym_0.39.0-2024.12.17.22.22_amd64.ddeb
+ 1208d96a1aa630c15f81552da31fa41a90968b00b35d09db5f0a48df6cabc10c 49216 ros-humble-autoware-behavior-path-static-obstacle-avoidance-module_0.39.0-2024.12.17.22.22_amd64.buildinfo
+ e1a460943d7f7de695a115965c8fcf1af766fb09a4c86b943553a12de3615a7b 434070 ros-humble-autoware-behavior-path-static-obstacle-avoidance-module_0.39.0-2024.12.17.22.22_amd64.deb
+Files:
+ 13bc928646f415bf81f8647b6ab8a165 11029282 debug optional ros-humble-autoware-behavior-path-static-obstacle-avoidance-module-dbgsym_0.39.0-2024.12.17.22.22_amd64.ddeb
+ 1b8ba745e2c39216061889253951bb6e 49216 misc optional ros-humble-autoware-behavior-path-static-obstacle-avoidance-module_0.39.0-2024.12.17.22.22_amd64.buildinfo
+ b80ee68610ce11ea14fce86bddfa5a73 434070 misc optional ros-humble-autoware-behavior-path-static-obstacle-avoidance-module_0.39.0-2024.12.17.22.22_amd64.deb

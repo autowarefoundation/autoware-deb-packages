@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-route-handler
+Binary: ros-humble-autoware-route-handler
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.14.41
+Distribution: jammy
+Urgency: high
+Maintainer: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Changed-By: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Description:
+ ros-humble-autoware-route-handler - The route_handling package
+Changes:
+ ros-humble-autoware-route-handler (0.39.0-2024.12.17.14.41) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ c4412689566115391316f2a9603d2b1bc234ccaf 2058988 ros-humble-autoware-route-handler-dbgsym_0.39.0-2024.12.17.14.41_amd64.ddeb
+ 20ae65b5aed3f793cd2df3d5be5aaed6f57cfd56 42408 ros-humble-autoware-route-handler_0.39.0-2024.12.17.14.41_amd64.buildinfo
+ 753c3778f58c693cb444304102daa98c7e3c2161 91926 ros-humble-autoware-route-handler_0.39.0-2024.12.17.14.41_amd64.deb
+Checksums-Sha256:
+ 7a5e35f0a2122e250614ae182308c0a8a6527980241c6ec457ac15f161058ce4 2058988 ros-humble-autoware-route-handler-dbgsym_0.39.0-2024.12.17.14.41_amd64.ddeb
+ 16c6ad8644a32c52efe7c01ef4c9f3ed5de9871008fd34d445764ec678f63121 42408 ros-humble-autoware-route-handler_0.39.0-2024.12.17.14.41_amd64.buildinfo
+ dfdd7b594d1216f12bf689d3f8958b7af37a4e1b3bca8d1efa0a9d4d7d35e730 91926 ros-humble-autoware-route-handler_0.39.0-2024.12.17.14.41_amd64.deb
+Files:
+ d32165c27ebe943291771998d66ca959 2058988 debug optional ros-humble-autoware-route-handler-dbgsym_0.39.0-2024.12.17.14.41_amd64.ddeb
+ 9df63171a650422a14c1686e12c1a4ab 42408 misc optional ros-humble-autoware-route-handler_0.39.0-2024.12.17.14.41_amd64.buildinfo
+ 8a08d87943942187c63867acc1077a8c 91926 misc optional ros-humble-autoware-route-handler_0.39.0-2024.12.17.14.41_amd64.deb

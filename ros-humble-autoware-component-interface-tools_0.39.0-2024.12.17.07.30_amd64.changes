@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-component-interface-tools
+Binary: ros-humble-autoware-component-interface-tools
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.07.30
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-component-interface-tools - The autoware_component_interface_tools package
+Changes:
+ ros-humble-autoware-component-interface-tools (0.39.0-2024.12.17.07.30) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 92f2e9f469bea5c87d2c1e41bf3bd37c1dfb65bd 3024396 ros-humble-autoware-component-interface-tools-dbgsym_0.39.0-2024.12.17.07.30_amd64.ddeb
+ 2f0696a8eb91d31d189496733f4fb9caa441729f 16699 ros-humble-autoware-component-interface-tools_0.39.0-2024.12.17.07.30_amd64.buildinfo
+ 29c871b89b1a3391ac891d1c776d66ccfcce4aa6 179040 ros-humble-autoware-component-interface-tools_0.39.0-2024.12.17.07.30_amd64.deb
+Checksums-Sha256:
+ fe340709f95abab2abace4e93fa7ab8229fffed1a9b6cacbce9f89ecfd459852 3024396 ros-humble-autoware-component-interface-tools-dbgsym_0.39.0-2024.12.17.07.30_amd64.ddeb
+ 701bc440f8e43e6a0638147126d99ebc3d1fe9504993250ea1ab251bd3ae6260 16699 ros-humble-autoware-component-interface-tools_0.39.0-2024.12.17.07.30_amd64.buildinfo
+ 2fa520ab3c6904bbf2c6e282bf9c4c85e5acaef13eb530cee932883d26d2a21e 179040 ros-humble-autoware-component-interface-tools_0.39.0-2024.12.17.07.30_amd64.deb
+Files:
+ 2fa596a4b78fdecee94aa0d14c392832 3024396 debug optional ros-humble-autoware-component-interface-tools-dbgsym_0.39.0-2024.12.17.07.30_amd64.ddeb
+ 05ce200f0b2c24c4a8f7324f9f233f0a 16699 misc optional ros-humble-autoware-component-interface-tools_0.39.0-2024.12.17.07.30_amd64.buildinfo
+ d662a2f3abc0dd117d0cd4a31dcacf04 179040 misc optional ros-humble-autoware-component-interface-tools_0.39.0-2024.12.17.07.30_amd64.deb

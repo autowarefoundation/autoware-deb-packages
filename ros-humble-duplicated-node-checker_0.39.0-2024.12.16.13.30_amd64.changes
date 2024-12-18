@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-duplicated-node-checker
+Binary: ros-humble-duplicated-node-checker
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.13.30
+Distribution: jammy
+Urgency: high
+Maintainer: Shumpei Wakabayashi <shumpei.wakabayashi@tier4.jp>
+Changed-By: Shumpei Wakabayashi <shumpei.wakabayashi@tier4.jp>
+Description:
+ ros-humble-duplicated-node-checker - A package to find out nodes with common names
+Changes:
+ ros-humble-duplicated-node-checker (0.39.0-2024.12.16.13.30) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ da2253ae8d0af08dd2e2f753c17ae70994531d44 1268710 ros-humble-duplicated-node-checker-dbgsym_0.39.0-2024.12.16.13.30_amd64.ddeb
+ abc8fe11af798c6a21a0591ed044d096cda15f7f 17187 ros-humble-duplicated-node-checker_0.39.0-2024.12.16.13.30_amd64.buildinfo
+ 0d79c2550420d9e56cd08b4997df785ced606b79 74474 ros-humble-duplicated-node-checker_0.39.0-2024.12.16.13.30_amd64.deb
+Checksums-Sha256:
+ 7cf7f2467bc0209440fc9e83cd8379c8bbfb6deb3aa2b9b5539c09fac34b6020 1268710 ros-humble-duplicated-node-checker-dbgsym_0.39.0-2024.12.16.13.30_amd64.ddeb
+ bf63526e51a3755c3fb071dae5c65889001adf031de3e3e3c6f9e5cc611a49cc 17187 ros-humble-duplicated-node-checker_0.39.0-2024.12.16.13.30_amd64.buildinfo
+ 776793f6b8774984a44723f10bcfa1aa539d6a9677e3b018671e0a0e32f79e9d 74474 ros-humble-duplicated-node-checker_0.39.0-2024.12.16.13.30_amd64.deb
+Files:
+ 26d5b6548dc960089217704a27001eb1 1268710 debug optional ros-humble-duplicated-node-checker-dbgsym_0.39.0-2024.12.16.13.30_amd64.ddeb
+ 1bee5b9956efc898b042635797b919d5 17187 misc optional ros-humble-duplicated-node-checker_0.39.0-2024.12.16.13.30_amd64.buildinfo
+ 4b235e26d3e3754f2d4ae674a3a92cd6 74474 misc optional ros-humble-duplicated-node-checker_0.39.0-2024.12.16.13.30_amd64.deb

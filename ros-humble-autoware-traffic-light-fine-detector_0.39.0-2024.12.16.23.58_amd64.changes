@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-traffic-light-fine-detector
+Binary: ros-humble-autoware-traffic-light-fine-detector
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.23.58
+Distribution: jammy
+Urgency: high
+Maintainer: Tao Zhong <tao.zhong@tier4.jp>
+Changed-By: Tao Zhong <tao.zhong@tier4.jp>
+Description:
+ ros-humble-autoware-traffic-light-fine-detector - The autoware_traffic_light_fine_detector package
+Changes:
+ ros-humble-autoware-traffic-light-fine-detector (0.39.0-2024.12.16.23.58) jammy; urgency=high
+ .
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(autoware_traffic_light*): add maintainer (#9280 <https://github.com/youtalk/autoware.universe/issues/9280>)
+     * add fundamental commit
+     * add forgot package
+     ---------
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Masato Saeki, Yutaka Kondo
+Checksums-Sha1:
+ 27c4acfd475aa5a2a657e3ba595dad48a4024950 44600 ros-humble-autoware-traffic-light-fine-detector_0.39.0-2024.12.16.23.58_amd64.buildinfo
+ 71fca338d04a63a1261840cd794f463d7331beff 7738 ros-humble-autoware-traffic-light-fine-detector_0.39.0-2024.12.16.23.58_amd64.deb
+Checksums-Sha256:
+ 4c1ee8be9cbe6de4390c4b55b78497a7de0f1bf4c8e1c8fbf135fea64ddabcc4 44600 ros-humble-autoware-traffic-light-fine-detector_0.39.0-2024.12.16.23.58_amd64.buildinfo
+ f1e25c7d358001086901aa62b43c92edea06bb6f08ac7f06ad5784fd8008f6bb 7738 ros-humble-autoware-traffic-light-fine-detector_0.39.0-2024.12.16.23.58_amd64.deb
+Files:
+ 08a1d278cfac9d0a141b96b7f79a20c6 44600 misc optional ros-humble-autoware-traffic-light-fine-detector_0.39.0-2024.12.16.23.58_amd64.buildinfo
+ 0070e39b1711ce8b7f335c8c949444df 7738 misc optional ros-humble-autoware-traffic-light-fine-detector_0.39.0-2024.12.16.23.58_amd64.deb

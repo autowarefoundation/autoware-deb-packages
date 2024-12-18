@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-tracking-object-merger
+Binary: ros-humble-autoware-tracking-object-merger
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.23.42
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-tracking-object-merger - merge tracking object
+Changes:
+ ros-humble-autoware-tracking-object-merger (0.39.0-2024.12.16.23.42) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 7f929adf1a32fed7243605fadb8966afa9d3f6c6 6453686 ros-humble-autoware-tracking-object-merger-dbgsym_0.39.0-2024.12.16.23.42_amd64.ddeb
+ 962618e84d65d2883c0f29a44ac56ddc4715d2a1 40562 ros-humble-autoware-tracking-object-merger_0.39.0-2024.12.16.23.42_amd64.buildinfo
+ 4b9778ef36c725c5a10cbdfe6465b1a9cd95c80a 278542 ros-humble-autoware-tracking-object-merger_0.39.0-2024.12.16.23.42_amd64.deb
+Checksums-Sha256:
+ e3f3e6058d9ee628c41847b4d8ea9dc2d78791430075496499ee467254ba8650 6453686 ros-humble-autoware-tracking-object-merger-dbgsym_0.39.0-2024.12.16.23.42_amd64.ddeb
+ 6422900a6ee33bdf569d27f9beb9a42c557bbf9ee166c0b05d311e8de390e9c0 40562 ros-humble-autoware-tracking-object-merger_0.39.0-2024.12.16.23.42_amd64.buildinfo
+ 02585ae48b9d07a4116553827a4ac6585cca50e31cbdd9122bc7da18897c436c 278542 ros-humble-autoware-tracking-object-merger_0.39.0-2024.12.16.23.42_amd64.deb
+Files:
+ 52afe8c4efedf531e48d411babf6269c 6453686 debug optional ros-humble-autoware-tracking-object-merger-dbgsym_0.39.0-2024.12.16.23.42_amd64.ddeb
+ 8a065bede4d7853caae7bbb7ffe9de00 40562 misc optional ros-humble-autoware-tracking-object-merger_0.39.0-2024.12.16.23.42_amd64.buildinfo
+ 31b46bdddf1db920206458b70529c69b 278542 misc optional ros-humble-autoware-tracking-object-merger_0.39.0-2024.12.16.23.42_amd64.deb

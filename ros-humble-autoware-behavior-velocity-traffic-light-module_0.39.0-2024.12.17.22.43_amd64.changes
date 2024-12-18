@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-traffic-light-module
+Binary: ros-humble-autoware-behavior-velocity-traffic-light-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.22.43
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-traffic-light-module - The autoware_behavior_velocity_traffic_light_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-traffic-light-module (0.39.0-2024.12.17.22.43) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 2328653681497fedebfd9fa7c6d8250dde554f87 4219882 ros-humble-autoware-behavior-velocity-traffic-light-module-dbgsym_0.39.0-2024.12.17.22.43_amd64.ddeb
+ 87f31de1ab7ea9403152b7450c94d2c8dfe8dff6 44080 ros-humble-autoware-behavior-velocity-traffic-light-module_0.39.0-2024.12.17.22.43_amd64.buildinfo
+ 45c80c2f69087166d19484ce7498660c8b4ec3ee 108724 ros-humble-autoware-behavior-velocity-traffic-light-module_0.39.0-2024.12.17.22.43_amd64.deb
+Checksums-Sha256:
+ ddaadc6b82a2975c8eefc59168ea680dbee4af0d451619b4eb297a6124e40119 4219882 ros-humble-autoware-behavior-velocity-traffic-light-module-dbgsym_0.39.0-2024.12.17.22.43_amd64.ddeb
+ 2d065204a420fe0bf7cdaf581edd13438309e40c29405f8bb001b9664ed4a694 44080 ros-humble-autoware-behavior-velocity-traffic-light-module_0.39.0-2024.12.17.22.43_amd64.buildinfo
+ c7605e78afd5ad36433c3d02bd36a6f206d1627f5b5620d086a3ecfbb37a31cb 108724 ros-humble-autoware-behavior-velocity-traffic-light-module_0.39.0-2024.12.17.22.43_amd64.deb
+Files:
+ 20abcf1337f4e8622ff149c8614c415e 4219882 debug optional ros-humble-autoware-behavior-velocity-traffic-light-module-dbgsym_0.39.0-2024.12.17.22.43_amd64.ddeb
+ cad643a83004088a583af6470cdc0d4a 44080 misc optional ros-humble-autoware-behavior-velocity-traffic-light-module_0.39.0-2024.12.17.22.43_amd64.buildinfo
+ 3e5f7a2ac0fddf5468a2e6f795d8831c 108724 misc optional ros-humble-autoware-behavior-velocity-traffic-light-module_0.39.0-2024.12.17.22.43_amd64.deb

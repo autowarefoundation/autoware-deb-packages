@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-planning-test-manager
+Binary: ros-humble-autoware-planning-test-manager
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.15.16
+Distribution: jammy
+Urgency: high
+Maintainer: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Changed-By: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Description:
+ ros-humble-autoware-planning-test-manager - ROS 2 node for testing interface of the nodes in planning module
+Changes:
+ ros-humble-autoware-planning-test-manager (0.39.0-2024.12.17.15.16) jammy; urgency=high
+ .
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * refactor(component_interface_utils): prefix package and namespace with autoware (#9092 <https://github.com/youtalk/autoware.universe/issues/9092>)
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 25e8bef719bce2787b02ba62a656db7d49b666f2 8449366 ros-humble-autoware-planning-test-manager-dbgsym_0.39.0-2024.12.17.15.16_amd64.ddeb
+ dbc4bc4d985be849bbf329977ccbb09634902bd5 42674 ros-humble-autoware-planning-test-manager_0.39.0-2024.12.17.15.16_amd64.buildinfo
+ cafce46e2d6d0f9954500de0f0f60b857f5f0cbc 304418 ros-humble-autoware-planning-test-manager_0.39.0-2024.12.17.15.16_amd64.deb
+Checksums-Sha256:
+ dcf85693a1f5a11cf30c6c55f1e484b3d4c5fa5f1eea406814afe6dbce01b22a 8449366 ros-humble-autoware-planning-test-manager-dbgsym_0.39.0-2024.12.17.15.16_amd64.ddeb
+ c2c94dbb87338437f3baf0ccb9aa1598b7a7022b192be13fa220d8fb5e54f126 42674 ros-humble-autoware-planning-test-manager_0.39.0-2024.12.17.15.16_amd64.buildinfo
+ 5bd0eeafc837528df0dd1f2679f9ad79b7c7a6978049397d172e9fea856593b4 304418 ros-humble-autoware-planning-test-manager_0.39.0-2024.12.17.15.16_amd64.deb
+Files:
+ 9eacb8ab0ed73f8446b7008ddd0e0b47 8449366 debug optional ros-humble-autoware-planning-test-manager-dbgsym_0.39.0-2024.12.17.15.16_amd64.ddeb
+ 03c8673f4eb03d8e14618ea2079a25a0 42674 misc optional ros-humble-autoware-planning-test-manager_0.39.0-2024.12.17.15.16_amd64.buildinfo
+ 66f2c9b0306c471b00a0b5b442968a05 304418 misc optional ros-humble-autoware-planning-test-manager_0.39.0-2024.12.17.15.16_amd64.deb

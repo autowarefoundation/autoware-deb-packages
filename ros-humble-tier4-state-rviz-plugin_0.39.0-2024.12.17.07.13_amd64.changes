@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-tier4-state-rviz-plugin
+Binary: ros-humble-tier4-state-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.07.13
+Distribution: jammy
+Urgency: high
+Maintainer: Hiroki OTA <hiroki.ota@tier4.jp>
+Changed-By: Hiroki OTA <hiroki.ota@tier4.jp>
+Description:
+ ros-humble-tier4-state-rviz-plugin - The autoware state rviz plugin package
+Changes:
+ ros-humble-tier4-state-rviz-plugin (0.39.0-2024.12.17.07.13) jammy; urgency=high
+ .
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * fix: missing dependency in common components (#9072 <https://github.com/youtalk/autoware.universe/issues/9072>)
+   * Contributors: Esteve Fernandez, Yutaka Kondo, ぐるぐる
+Checksums-Sha1:
+ f54c0ac69428693db09b567be429c14d4348b309 10778100 ros-humble-tier4-state-rviz-plugin-dbgsym_0.39.0-2024.12.17.07.13_amd64.ddeb
+ 5b717235d089e0f631a340b66ca140ba8a28b1e2 23993 ros-humble-tier4-state-rviz-plugin_0.39.0-2024.12.17.07.13_amd64.buildinfo
+ e28a976d7532788de53ffe088d14d05011a007fb 329974 ros-humble-tier4-state-rviz-plugin_0.39.0-2024.12.17.07.13_amd64.deb
+Checksums-Sha256:
+ 9872c190a466b7aba0027ecbb92995a19078c9c93bc8bc591dabe5c12a6ed6cf 10778100 ros-humble-tier4-state-rviz-plugin-dbgsym_0.39.0-2024.12.17.07.13_amd64.ddeb
+ 3d80ec0d3da139ae2ad62a1cc2cbcc98c77af75b6b964242531d31c3609e8849 23993 ros-humble-tier4-state-rviz-plugin_0.39.0-2024.12.17.07.13_amd64.buildinfo
+ b971ff28f002b863135f8f548c2fc474b6cda80a553b661868578e9ddae33b92 329974 ros-humble-tier4-state-rviz-plugin_0.39.0-2024.12.17.07.13_amd64.deb
+Files:
+ ccf93eea80a82bb1521e6813e3546a76 10778100 debug optional ros-humble-tier4-state-rviz-plugin-dbgsym_0.39.0-2024.12.17.07.13_amd64.ddeb
+ 7e8ba0f8bfd03fe90dfb94cde94345d4 23993 misc optional ros-humble-tier4-state-rviz-plugin_0.39.0-2024.12.17.07.13_amd64.buildinfo
+ bd49954888a1351381d798b370229bbe 329974 misc optional ros-humble-tier4-state-rviz-plugin_0.39.0-2024.12.17.07.13_amd64.deb

@@ -1,0 +1,65 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-launch
+Binary: ros-humble-autoware-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.11.47
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-launch - The autoware_launch package
+Changes:
+ ros-humble-autoware-launch (0.39.0-2024.12.16.11.47) jammy; urgency=high
+ .
+   * autowarefoundation username
+   * Merge commit '9d0e7055a' into release-0.39.0
+   * feat: change the old diagnostic_convertor to scenario_simulator_v2_adapter (#1227 <https://github.com/autowarefoundation/autoware_launch/issues/1227>)
+     Co-authored-by: xtk8532704 <mailto:1041084556@qq.com>
+   * feat(costmap_generator): change lidar height thresholds to vehicle frame (#1225 <https://github.com/autowarefoundation/autoware_launch/issues/1225>)
+   * revert(obstacle_cruise): disable ouside stop feature (#1222 <https://github.com/autowarefoundation/autoware_launch/issues/1222>)
+   * feat(aeb): set global param to override autoware state check (#1218 <https://github.com/autowarefoundation/autoware_launch/issues/1218>)
+     * set global param to override autoware state check
+     * change variable for a more generic name
+     * set var to false by default
+     * move param to control component launch
+     * change param name to be more straightforward
+     ---------
+   * fix(pid_longitudinal_controller): revive hysteresis of state transition (#1219 <https://github.com/autowarefoundation/autoware_launch/issues/1219>)
+   * feat(detection_area)!: add retruction feature (#1216 <https://github.com/autowarefoundation/autoware_launch/issues/1216>)
+   * feat(system_monitor): add on/off config for network traffic monitor (#1186 <https://github.com/autowarefoundation/autoware_launch/issues/1186>)
+     feat(system_monitor): add config for network traffic monitor
+     Co-authored-by: ito-san <mailto:57388357+ito-san@users.noreply.github.com>
+   * feat(goal_planner): set lane departure check margin 0.20 (#1214 <https://github.com/autowarefoundation/autoware_launch/issues/1214>)
+   * fix(autoware_ekf_localizer): removed publish_tf (#1212 <https://github.com/autowarefoundation/autoware_launch/issues/1212>)
+     Removed publish_tf
+   * feat(rviz): add rviz config for debugging (#1213 <https://github.com/autowarefoundation/autoware_launch/issues/1213>)
+     * feat(rviz): add rviz config for debugging
+     * feat(launch): select rviz config name
+     ---------
+   * feat(lane_change): enable cancel when ego in turn direction lane main (RT0-33893) (#1209 <https://github.com/autowarefoundation/autoware_launch/issues/1209>)
+     RT0-33893 add dist from prev intersection
+   * fix: changed loc_config_path declaration from let to arg (#1204 <https://github.com/autowarefoundation/autoware_launch/issues/1204>)
+     Changed loc_config_path declaration from let to arg
+   * chore: update fusion_common.param.yaml with new image projection sett… (#1207 <https://github.com/autowarefoundation/autoware_launch/issues/1207>)
+     chore: update fusion_common.param.yaml with new image projection settings
+   * feat(goal_planner): set lane departure check margin 0.3 (#1199 <https://github.com/autowarefoundation/autoware_launch/issues/1199>)
+   * feat(collision detector): add collision detector to launch/config (#1205 <https://github.com/autowarefoundation/autoware_launch/issues/1205>)
+     * add collision_detector
+     * change collision detector default to false
+     ---------
+   * chore(diagnostic_graph_aggregator, system_diagnostic_monitor)!: change the config file directories from universe to autoware_launch (#1201 <https://github.com/autowarefoundation/autoware_launch/issues/1201>)
+     * prepare dir
+     * copy files from universe
+   * Contributors: Go Sakayori, Kosuke Takeuchi, Maxime CLEMENT, Ryohsuke Mitsudome, SakodaShintaro, Satoshi OTA, Taekjin LEE, Takayuki Murooka, Yuki TAKAGI, Yutaka Kondo, Zulfaqar Azmi, danielsanchezaran, iwatake
+Checksums-Sha1:
+ 8ab62fdef1463cfcc095356cf01e2236c4134953 10547 ros-humble-autoware-launch_0.39.0-2024.12.16.11.47_amd64.buildinfo
+ 8bb941c77aafebea77b89354770f030f35ad0c96 154114 ros-humble-autoware-launch_0.39.0-2024.12.16.11.47_amd64.deb
+Checksums-Sha256:
+ fc421fc2be6d8cddfef0f42ae8333a88ae13904ab9300f2651d590d5fe941bfc 10547 ros-humble-autoware-launch_0.39.0-2024.12.16.11.47_amd64.buildinfo
+ ce2d841f595aa126fc67c3ccbedac14238332a97e439523fc69d945618e76f4d 154114 ros-humble-autoware-launch_0.39.0-2024.12.16.11.47_amd64.deb
+Files:
+ f7c3ce55c013d23f21d2d2f801827526 10547 misc optional ros-humble-autoware-launch_0.39.0-2024.12.16.11.47_amd64.buildinfo
+ e4015b02b368d8bd73b0cda2a6313d02 154114 misc optional ros-humble-autoware-launch_0.39.0-2024.12.16.11.47_amd64.deb

@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-diagnostic-graph-utils
+Binary: ros-humble-diagnostic-graph-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.08.10
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-diagnostic-graph-utils - The diagnostic_graph_utils package
+Changes:
+ ros-humble-diagnostic-graph-utils (0.39.0-2024.12.17.08.10) jammy; urgency=high
+ .
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * fix(diagnostic_graph_utils): reset graph when new one is received (#9208 <https://github.com/youtalk/autoware.universe/issues/9208>)
+     fix(diagnostic_graph_utils): reset graph when new one is reveived
+   * Contributors: Esteve Fernandez, Takagi, Isamu, Yutaka Kondo
+Checksums-Sha1:
+ fe89362a455c21bb6f78b4743b898b8125dcb682 4815074 ros-humble-diagnostic-graph-utils-dbgsym_0.39.0-2024.12.17.08.10_amd64.ddeb
+ 343001fc85bf8099e4336db4c73c9cccf7b0a5ae 16025 ros-humble-diagnostic-graph-utils_0.39.0-2024.12.17.08.10_amd64.buildinfo
+ 6589078ae92c036758e79253e998af722b7cdc96 181948 ros-humble-diagnostic-graph-utils_0.39.0-2024.12.17.08.10_amd64.deb
+Checksums-Sha256:
+ b0153fd072d9832f2151cd7df221dea85f17e1f6562bfb7e3f46606f6a6a8780 4815074 ros-humble-diagnostic-graph-utils-dbgsym_0.39.0-2024.12.17.08.10_amd64.ddeb
+ f5dce123426bf307c2ce97c8bdf3b6fdc63ae13a7f5b636cdaf0287e844e80b0 16025 ros-humble-diagnostic-graph-utils_0.39.0-2024.12.17.08.10_amd64.buildinfo
+ 7111b0578b63b27510960302648c78de2f209ff1e6d6635cf7d39a547cb63537 181948 ros-humble-diagnostic-graph-utils_0.39.0-2024.12.17.08.10_amd64.deb
+Files:
+ 5c7509cb23888840d3d47e51676f7221 4815074 debug optional ros-humble-diagnostic-graph-utils-dbgsym_0.39.0-2024.12.17.08.10_amd64.ddeb
+ 6c5ecabb84562761063bbac3a3fc0613 16025 misc optional ros-humble-diagnostic-graph-utils_0.39.0-2024.12.17.08.10_amd64.buildinfo
+ 9ea3981b51335ac2cf0fecb093ce3903 181948 misc optional ros-humble-diagnostic-graph-utils_0.39.0-2024.12.17.08.10_amd64.deb

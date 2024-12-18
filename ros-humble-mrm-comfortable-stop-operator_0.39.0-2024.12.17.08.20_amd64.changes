@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-mrm-comfortable-stop-operator
+Binary: ros-humble-mrm-comfortable-stop-operator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.08.20
+Distribution: jammy
+Urgency: high
+Maintainer: Makoto Kurihara <makoto.kurihara@tier4.jp>
+Changed-By: Makoto Kurihara <makoto.kurihara@tier4.jp>
+Description:
+ ros-humble-mrm-comfortable-stop-operator - The MRM comfortable stop operator package
+Changes:
+ ros-humble-mrm-comfortable-stop-operator (0.39.0-2024.12.17.08.20) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 58bbf458c2fd6c77e709a279b0dcfa1eb05f1325 1504470 ros-humble-mrm-comfortable-stop-operator-dbgsym_0.39.0-2024.12.17.08.20_amd64.ddeb
+ aa38761fc9945d5c88f43360aed0497d0d4d27f2 16576 ros-humble-mrm-comfortable-stop-operator_0.39.0-2024.12.17.08.20_amd64.buildinfo
+ 972549e88b2e1a382f10b4d02af3d6964e1788e6 88418 ros-humble-mrm-comfortable-stop-operator_0.39.0-2024.12.17.08.20_amd64.deb
+Checksums-Sha256:
+ bddc94e9ff4fc419172fea1ec10c8415e06ccb3a17df54b2e38abb8b1e6b05c5 1504470 ros-humble-mrm-comfortable-stop-operator-dbgsym_0.39.0-2024.12.17.08.20_amd64.ddeb
+ 818282cc7750f39f1f145c0968903658bcafcb2a3fa31dd9fc6039a8eb547d42 16576 ros-humble-mrm-comfortable-stop-operator_0.39.0-2024.12.17.08.20_amd64.buildinfo
+ 0d099fc027fe4ff44f928982e91c3a62cd08d8a7a06ebe81db2fd8873b902943 88418 ros-humble-mrm-comfortable-stop-operator_0.39.0-2024.12.17.08.20_amd64.deb
+Files:
+ 2b83bef28080f14f99c1c86c8b78d21e 1504470 debug optional ros-humble-mrm-comfortable-stop-operator-dbgsym_0.39.0-2024.12.17.08.20_amd64.ddeb
+ 87e66f85ba8b152ab7bc2f5e2fee18b0 16576 misc optional ros-humble-mrm-comfortable-stop-operator_0.39.0-2024.12.17.08.20_amd64.buildinfo
+ ac1f9a46a8bcbc29a8548cc2a5711416 88418 misc optional ros-humble-mrm-comfortable-stop-operator_0.39.0-2024.12.17.08.20_amd64.deb

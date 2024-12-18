@@ -1,0 +1,46 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-pointcloud-preprocessor
+Binary: ros-humble-autoware-pointcloud-preprocessor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.20.47
+Distribution: jammy
+Urgency: high
+Maintainer: amc-nu <abrahammonrroy@yahoo.com>
+Changed-By: amc-nu <abrahammonrroy@yahoo.com>
+Description:
+ ros-humble-autoware-pointcloud-preprocessor - The ROS 2 autoware_pointcloud_preprocessor package
+Changes:
+ ros-humble-autoware-pointcloud-preprocessor (0.39.0-2024.12.16.20.47) jammy; urgency=high
+ .
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * fix(autoware_pointcloud_preprocessor): fix the wrong naming of crop box parameter file  (#9258 <https://github.com/youtalk/autoware.universe/issues/9258>)
+     fix: fix the wrong file name
+   * fix(autoware_pointcloud_preprocessor): launch file load parameter from yaml (#8129 <https://github.com/youtalk/autoware.universe/issues/8129>)
+     * feat: fix launch file
+     * chore: fix spell error
+     * chore: fix parameters file name
+     * chore: remove filter base
+     ---------
+   * Contributors: Esteve Fernandez, Yi-Hsiang Fang (Vivid), Yutaka Kondo
+Checksums-Sha1:
+ 4447f415c06e0ccc4fb043a7c56e2b1ecbc4593b 48739994 ros-humble-autoware-pointcloud-preprocessor-dbgsym_0.39.0-2024.12.16.20.47_amd64.ddeb
+ 2dfb293c3f4730b9f1c24d26bd9edc4796ea3f94 47651 ros-humble-autoware-pointcloud-preprocessor_0.39.0-2024.12.16.20.47_amd64.buildinfo
+ 14ffccdde85bc5bfdee68cfb1756e882fbb26f41 846132 ros-humble-autoware-pointcloud-preprocessor_0.39.0-2024.12.16.20.47_amd64.deb
+Checksums-Sha256:
+ 3df3631c79259f724760e5e95604c0ecb63ef1d29068f4fb5f05d7628f8763c3 48739994 ros-humble-autoware-pointcloud-preprocessor-dbgsym_0.39.0-2024.12.16.20.47_amd64.ddeb
+ 248e7f5ae9c2bcc5f7b28c7e7593de6d43ca5d17819d252f876f51a7ffe59ead 47651 ros-humble-autoware-pointcloud-preprocessor_0.39.0-2024.12.16.20.47_amd64.buildinfo
+ dbebdca9b81fa4486ba5c59f1e819db4d0c29e3bbe9c39cad4726148968bb8dc 846132 ros-humble-autoware-pointcloud-preprocessor_0.39.0-2024.12.16.20.47_amd64.deb
+Files:
+ 0f9ff00a3aadf95d82cbd0acb08e22ec 48739994 debug optional ros-humble-autoware-pointcloud-preprocessor-dbgsym_0.39.0-2024.12.16.20.47_amd64.ddeb
+ 7e0021b6faf22dea20c0d88e2e9accde 47651 misc optional ros-humble-autoware-pointcloud-preprocessor_0.39.0-2024.12.16.20.47_amd64.buildinfo
+ ab0c8f4601824315bc43d29c3d0d749b 846132 misc optional ros-humble-autoware-pointcloud-preprocessor_0.39.0-2024.12.16.20.47_amd64.deb

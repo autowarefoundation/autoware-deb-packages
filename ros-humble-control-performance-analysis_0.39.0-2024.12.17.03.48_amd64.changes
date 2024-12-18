@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-control-performance-analysis
+Binary: ros-humble-control-performance-analysis
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.03.48
+Distribution: jammy
+Urgency: high
+Maintainer: Berkay Karaman <berkay@leodrive.ai>
+Changed-By: Berkay Karaman <berkay@leodrive.ai>
+Description:
+ ros-humble-control-performance-analysis - Controller Performance Evaluation
+Changes:
+ ros-humble-control-performance-analysis (0.39.0-2024.12.17.03.48) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 5a668212497afd6fc6b16d1a78926f3c8d338396 5845070 ros-humble-control-performance-analysis-dbgsym_0.39.0-2024.12.17.03.48_amd64.ddeb
+ 37e6580d205cf74905fb9014e98b0c57e6e8fb49 40889 ros-humble-control-performance-analysis_0.39.0-2024.12.17.03.48_amd64.buildinfo
+ 59ce444e31e8b0f7f9d6f938f4545b51a887c7ff 277082 ros-humble-control-performance-analysis_0.39.0-2024.12.17.03.48_amd64.deb
+Checksums-Sha256:
+ 689075983c0113ded52481fa441595b1af837fc5515c46ef7754aa2e309991b0 5845070 ros-humble-control-performance-analysis-dbgsym_0.39.0-2024.12.17.03.48_amd64.ddeb
+ 65b6df9473359fd7398a8d31ceb5ed265fa3772699eaa1d9c2416b1513661d1a 40889 ros-humble-control-performance-analysis_0.39.0-2024.12.17.03.48_amd64.buildinfo
+ 753a95f78126123328d4241b426cea301d03a7efd7edb89fcee511caf439606f 277082 ros-humble-control-performance-analysis_0.39.0-2024.12.17.03.48_amd64.deb
+Files:
+ 8ad16577ca931b672065ed5aa16859e7 5845070 debug optional ros-humble-control-performance-analysis-dbgsym_0.39.0-2024.12.17.03.48_amd64.ddeb
+ 3ea7ac61b5bcef19d02f2af285b82b6c 40889 misc optional ros-humble-control-performance-analysis_0.39.0-2024.12.17.03.48_amd64.buildinfo
+ f27df8f4e31be2e9e01f8207b9a4fef5 277082 misc optional ros-humble-control-performance-analysis_0.39.0-2024.12.17.03.48_amd64.deb

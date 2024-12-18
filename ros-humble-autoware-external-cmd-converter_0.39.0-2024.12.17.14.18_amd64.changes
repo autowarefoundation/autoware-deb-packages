@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-external-cmd-converter
+Binary: ros-humble-autoware-external-cmd-converter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.14.18
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-external-cmd-converter - The autoware_external_cmd_converter package
+Changes:
+ ros-humble-autoware-external-cmd-converter (0.39.0-2024.12.17.14.18) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ c666edb0a80c359022b403c2f75b2e6d43330764 5778462 ros-humble-autoware-external-cmd-converter-dbgsym_0.39.0-2024.12.17.14.18_amd64.ddeb
+ ec5a1971e1734f6a61c54b4a3dd9cd79e44288dc 42757 ros-humble-autoware-external-cmd-converter_0.39.0-2024.12.17.14.18_amd64.buildinfo
+ ec2454b02f31975078c6eb2e1ab96f714c5fe5ee 230646 ros-humble-autoware-external-cmd-converter_0.39.0-2024.12.17.14.18_amd64.deb
+Checksums-Sha256:
+ e9cb9a9641d1e367b0f4ab50d947ed869684d214dcfb1fcbe468bd432418872b 5778462 ros-humble-autoware-external-cmd-converter-dbgsym_0.39.0-2024.12.17.14.18_amd64.ddeb
+ fef8c21472b5b7892954602274f87e0b6b826fb7b68fadedf07c5f47ab172dd3 42757 ros-humble-autoware-external-cmd-converter_0.39.0-2024.12.17.14.18_amd64.buildinfo
+ 4f465b7a9babe30dd5a5082a443781d63800b0c3305f04995cc7d0e97b9ca843 230646 ros-humble-autoware-external-cmd-converter_0.39.0-2024.12.17.14.18_amd64.deb
+Files:
+ 2bb92df4f6614ed4f14c1ce71822b83b 5778462 debug optional ros-humble-autoware-external-cmd-converter-dbgsym_0.39.0-2024.12.17.14.18_amd64.ddeb
+ 418e335021d96bf844e89498aced0465 42757 misc optional ros-humble-autoware-external-cmd-converter_0.39.0-2024.12.17.14.18_amd64.buildinfo
+ 27d34b644a920b1833af51709fc58e94 230646 misc optional ros-humble-autoware-external-cmd-converter_0.39.0-2024.12.17.14.18_amd64.deb

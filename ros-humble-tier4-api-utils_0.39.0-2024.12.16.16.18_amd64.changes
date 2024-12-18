@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-tier4-api-utils
+Binary: ros-humble-tier4-api-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.16.18
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-tier4-api-utils - The tier4_api_utils package
+Changes:
+ ros-humble-tier4-api-utils (0.39.0-2024.12.16.16.18) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ a0617d6c2162293627eb14567417cd1f9cb3163c 15149 ros-humble-tier4-api-utils_0.39.0-2024.12.16.16.18_amd64.buildinfo
+ e325b0150424e3a256f2c6a376b6b349c9c63bdd 9180 ros-humble-tier4-api-utils_0.39.0-2024.12.16.16.18_amd64.deb
+Checksums-Sha256:
+ 28ee548c818e6ab7f5180bd6cbd99a13026b1b6cc47e7b9396ab5b3e95c1d700 15149 ros-humble-tier4-api-utils_0.39.0-2024.12.16.16.18_amd64.buildinfo
+ 8f9eebe34ec3552a9568b537ba1a3beac8ff38b4fd0d8b32a459e8b9692de7de 9180 ros-humble-tier4-api-utils_0.39.0-2024.12.16.16.18_amd64.deb
+Files:
+ 5146d999186d3e5eb2b5bd291f093d69 15149 misc optional ros-humble-tier4-api-utils_0.39.0-2024.12.16.16.18_amd64.buildinfo
+ 1fabe91067f295c0a76782d14fba679d 9180 misc optional ros-humble-tier4-api-utils_0.39.0-2024.12.16.16.18_amd64.deb

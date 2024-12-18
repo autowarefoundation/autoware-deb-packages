@@ -1,0 +1,61 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-planning-evaluator
+Binary: ros-humble-autoware-planning-evaluator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.15.06
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime CLEMENT <maxime.clement@tier4.jp>
+Changed-By: Maxime CLEMENT <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-planning-evaluator - ROS 2 node for evaluating planners
+Changes:
+ ros-humble-autoware-planning-evaluator (0.39.0-2024.12.17.15.06) jammy; urgency=high
+ .
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * feat(tier4_metric_msgs): apply tier4_metric_msgs for scenario_simulator_v2_adapter, control_evaluator, planning_evaluator, autonomous_emergency_braking, obstacle_cruise_planner, motion_velocity_planner, processing_time_checker (#9180 <https://github.com/youtalk/autoware.universe/issues/9180>)
+     * first commit
+     * fix building errs.
+     * change diagnostic messages to metric messages for publishing decision.
+     * fix bug about motion_velocity_planner
+     * change the diagnostic msg to metric msg in autoware_obstacle_cruise_planner.
+     * tmp save for planning_evaluator
+     * change the topic to which metrics published to.
+     * fix typo.
+     * remove unnesessary publishing of metrics.
+     * mke planning_evaluator publish msg of MetricArray instead of Diags.
+     * update aeb with metric type for decision.
+     * fix some bug
+     * remove autoware_evaluator_utils package.
+     * remove diagnostic_msgs dependency of planning_evaluator
+     * use metric_msgs for autoware_processing_time_checker.
+     * rewrite diagnostic_convertor to scenario_simulator_v2_adapter, supporting metric_msgs.
+     * pre-commit and fix typo
+     * publish metrics even if there is no metric in the MetricArray.
+     * modify the metric name of processing_time.
+     * update unit test for test_planning/control_evaluator
+     * manual pre-commit
+     ---------
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Kem (TiankuiXian), Yutaka Kondo
+Checksums-Sha1:
+ 43fa38d8d92c1b456be0b98443372a4865a2fe6d 9545774 ros-humble-autoware-planning-evaluator-dbgsym_0.39.0-2024.12.17.15.06_amd64.ddeb
+ 0d5767af2f7335088ff698bb4ade8fdb0391e9af 42819 ros-humble-autoware-planning-evaluator_0.39.0-2024.12.17.15.06_amd64.buildinfo
+ 444d770e5ca318ce50bc2cc26a8a7348f3edc417 296248 ros-humble-autoware-planning-evaluator_0.39.0-2024.12.17.15.06_amd64.deb
+Checksums-Sha256:
+ 6beb3b83d3f2f6496abdc362d64e520d3a0837fa35bf2e6ee8923cb27111efb6 9545774 ros-humble-autoware-planning-evaluator-dbgsym_0.39.0-2024.12.17.15.06_amd64.ddeb
+ 0347da12ef773e591e49caff8436fe9456357639cc5c27ad7fc241ae4e718135 42819 ros-humble-autoware-planning-evaluator_0.39.0-2024.12.17.15.06_amd64.buildinfo
+ b8956173fd04601a08889abcf4733a31d49fd51a5b03917fe071f41d20f5c1d4 296248 ros-humble-autoware-planning-evaluator_0.39.0-2024.12.17.15.06_amd64.deb
+Files:
+ aeec77e68973c485d429521d01052291 9545774 debug optional ros-humble-autoware-planning-evaluator-dbgsym_0.39.0-2024.12.17.15.06_amd64.ddeb
+ 7deee8d582ccab5edff29f6a0574cb65 42819 misc optional ros-humble-autoware-planning-evaluator_0.39.0-2024.12.17.15.06_amd64.buildinfo
+ c07bc02264ae795e414eaf6c76b2da39 296248 misc optional ros-humble-autoware-planning-evaluator_0.39.0-2024.12.17.15.06_amd64.deb

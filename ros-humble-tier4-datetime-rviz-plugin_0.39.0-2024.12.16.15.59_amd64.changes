@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-tier4-datetime-rviz-plugin
+Binary: ros-humble-tier4-datetime-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.15.59
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-tier4-datetime-rviz-plugin - The tier4_datetime_rviz_plugin package
+Changes:
+ ros-humble-tier4-datetime-rviz-plugin (0.39.0-2024.12.16.15.59) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 4d5d1fb791038aab7230e5fa75c1e76dd1e41b72 537032 ros-humble-tier4-datetime-rviz-plugin-dbgsym_0.39.0-2024.12.16.15.59_amd64.ddeb
+ 97c886718b491e57b3e6b75cd8a42c475d4daf63 23344 ros-humble-tier4-datetime-rviz-plugin_0.39.0-2024.12.16.15.59_amd64.buildinfo
+ c2d9d7867218b7b2d4416616dea00ba31b68a118 20474 ros-humble-tier4-datetime-rviz-plugin_0.39.0-2024.12.16.15.59_amd64.deb
+Checksums-Sha256:
+ eb3b5ba7d928d001e5464448a33907aaa64968d36cb31f0b40cdd37bf0bf62e3 537032 ros-humble-tier4-datetime-rviz-plugin-dbgsym_0.39.0-2024.12.16.15.59_amd64.ddeb
+ 50b6118d5e29dcfe347c2730501652c670cc9a2dd8c771485c44d17fae5dd1db 23344 ros-humble-tier4-datetime-rviz-plugin_0.39.0-2024.12.16.15.59_amd64.buildinfo
+ a6170f6b16fded38cecdc3f973b5eb72cb89f9cae3525b6907c0410ade7cb9b5 20474 ros-humble-tier4-datetime-rviz-plugin_0.39.0-2024.12.16.15.59_amd64.deb
+Files:
+ 7bb525b3f8bb81d15b201d819cdd1fb0 537032 debug optional ros-humble-tier4-datetime-rviz-plugin-dbgsym_0.39.0-2024.12.16.15.59_amd64.ddeb
+ df460afa58c24234a22a4b36928d8564 23344 misc optional ros-humble-tier4-datetime-rviz-plugin_0.39.0-2024.12.16.15.59_amd64.buildinfo
+ 8f537d25636238c335c76712717c3b10 20474 misc optional ros-humble-tier4-datetime-rviz-plugin_0.39.0-2024.12.16.15.59_amd64.deb

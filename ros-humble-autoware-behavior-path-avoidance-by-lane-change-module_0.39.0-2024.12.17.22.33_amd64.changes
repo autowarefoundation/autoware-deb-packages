@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-behavior-path-avoidance-by-lane-change-module
+Binary: ros-humble-autoware-behavior-path-avoidance-by-lane-change-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.22.33
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-path-avoidance-by-lane-change-module - The behavior_path_avoidance_by_lane_change_module package
+Changes:
+ ros-humble-autoware-behavior-path-avoidance-by-lane-change-module (0.39.0-2024.12.17.22.33) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 918b34a46ef4812eef7a742ef189eb54d6e5a685 3524310 ros-humble-autoware-behavior-path-avoidance-by-lane-change-module-dbgsym_0.39.0-2024.12.17.22.33_amd64.ddeb
+ 8001b6eefd23123d8a81389284c83f550821204f 49381 ros-humble-autoware-behavior-path-avoidance-by-lane-change-module_0.39.0-2024.12.17.22.33_amd64.buildinfo
+ e5fb56ada8985cb9b6b3e02b3b8f3f6299bf23f1 78546 ros-humble-autoware-behavior-path-avoidance-by-lane-change-module_0.39.0-2024.12.17.22.33_amd64.deb
+Checksums-Sha256:
+ 4ea0708afe6eccc5429da535c094dc6e0921c393a16aaaa0f4d344c278bca3d7 3524310 ros-humble-autoware-behavior-path-avoidance-by-lane-change-module-dbgsym_0.39.0-2024.12.17.22.33_amd64.ddeb
+ d2880b56c1679cd94993a9d5773be070b84f18b97c4322facd4478ad28794324 49381 ros-humble-autoware-behavior-path-avoidance-by-lane-change-module_0.39.0-2024.12.17.22.33_amd64.buildinfo
+ be6e1558ecee25b1f689ff4298d77e8450304c32587d0e3e19aac9964196e795 78546 ros-humble-autoware-behavior-path-avoidance-by-lane-change-module_0.39.0-2024.12.17.22.33_amd64.deb
+Files:
+ 03c846dd481b5f813eef8c356a827e07 3524310 debug optional ros-humble-autoware-behavior-path-avoidance-by-lane-change-module-dbgsym_0.39.0-2024.12.17.22.33_amd64.ddeb
+ 70822dbf6d43af94807788be25fcec2a 49381 misc optional ros-humble-autoware-behavior-path-avoidance-by-lane-change-module_0.39.0-2024.12.17.22.33_amd64.buildinfo
+ 0e6595ee8b5b5904321ba33cd0670a89 78546 misc optional ros-humble-autoware-behavior-path-avoidance-by-lane-change-module_0.39.0-2024.12.17.22.33_amd64.deb

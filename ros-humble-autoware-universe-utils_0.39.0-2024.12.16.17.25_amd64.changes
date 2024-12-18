@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-universe-utils
+Binary: ros-humble-autoware-universe-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.17.25
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-universe-utils - The autoware_universe_utils package
+Changes:
+ ros-humble-autoware-universe-utils (0.39.0-2024.12.16.17.25) jammy; urgency=high
+ .
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix(autoware_utils): address self-intersecting polygons in random_concave_generator and handle empty inners() during triangulation (#8995 <https://github.com/youtalk/autoware.universe/issues/8995>)
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Maxime CLEMENT <mailto:78338830+maxime-clem@users.noreply.github.com>
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Giovanni Muhammad Raditya, Yutaka Kondo
+Checksums-Sha1:
+ 00bce4eaf50774345bc50fbfb40b13c080bc1bb4 3543392 ros-humble-autoware-universe-utils-dbgsym_0.39.0-2024.12.16.17.25_amd64.ddeb
+ c675e7356f452de0f2eb6b5b54d3b3f3f2c97d20 40188 ros-humble-autoware-universe-utils_0.39.0-2024.12.16.17.25_amd64.buildinfo
+ b6a183a7b5ece9756f0a7bdab5365f01e2cc1a66 279854 ros-humble-autoware-universe-utils_0.39.0-2024.12.16.17.25_amd64.deb
+Checksums-Sha256:
+ 4dc0d7b0457ddb8e206d640b3a8384229ec1d36f7a1638a0ea8c476c089ab721 3543392 ros-humble-autoware-universe-utils-dbgsym_0.39.0-2024.12.16.17.25_amd64.ddeb
+ 5c0bef44ddeb4ecadaef2baefaacfc5d69f6ae284fc7fbc3a4532ad5d1f295b4 40188 ros-humble-autoware-universe-utils_0.39.0-2024.12.16.17.25_amd64.buildinfo
+ 63bea16e25d84f58b7399d9846c30fcc86a4a9fc0ecde859208753f8249e3107 279854 ros-humble-autoware-universe-utils_0.39.0-2024.12.16.17.25_amd64.deb
+Files:
+ 26155e935b22b032e136996c42c53e10 3543392 debug optional ros-humble-autoware-universe-utils-dbgsym_0.39.0-2024.12.16.17.25_amd64.ddeb
+ 07a9b4fcb249f8ca6cc4a977862acd6b 40188 misc optional ros-humble-autoware-universe-utils_0.39.0-2024.12.16.17.25_amd64.buildinfo
+ fc38c33724bb9a5b5d6d3c55617323bf 279854 misc optional ros-humble-autoware-universe-utils_0.39.0-2024.12.16.17.25_amd64.deb

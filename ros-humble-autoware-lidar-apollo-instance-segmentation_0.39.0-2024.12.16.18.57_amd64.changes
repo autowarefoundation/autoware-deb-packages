@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-lidar-apollo-instance-segmentation
+Binary: ros-humble-autoware-lidar-apollo-instance-segmentation
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.18.57
+Distribution: jammy
+Urgency: high
+Maintainer: Yoshi Ri <yoshi.ri@tier4.jp>
+Changed-By: Yoshi Ri <yoshi.ri@tier4.jp>
+Description:
+ ros-humble-autoware-lidar-apollo-instance-segmentation - autoware_lidar_apollo_instance_segmentation
+Changes:
+ ros-humble-autoware-lidar-apollo-instance-segmentation (0.39.0-2024.12.16.18.57) jammy; urgency=high
+ .
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * fix(autoware_lidar_apollo_instance_segmentation): fix cppcheck suspiciousFloatingPointCast (#9195 <https://github.com/youtalk/autoware.universe/issues/9195>)
+   * refactor(cuda_utils): prefix package and namespace with autoware (#9171 <https://github.com/youtalk/autoware.universe/issues/9171>)
+   * Contributors: Esteve Fernandez, Ryuta Kambe, Yutaka Kondo
+Checksums-Sha1:
+ 37a40b2f4c8964b4ff17eb3b003f5f9394dcc050 40760 ros-humble-autoware-lidar-apollo-instance-segmentation_0.39.0-2024.12.16.18.57_amd64.buildinfo
+ 7463235a2c4416cbded7e63c54180aac9c5bdcd5 6612 ros-humble-autoware-lidar-apollo-instance-segmentation_0.39.0-2024.12.16.18.57_amd64.deb
+Checksums-Sha256:
+ d8e0b7571b13ec4408a3ab73973e3e61446c59745862485773279d0aaeb933e8 40760 ros-humble-autoware-lidar-apollo-instance-segmentation_0.39.0-2024.12.16.18.57_amd64.buildinfo
+ f975e07323067dd7547367015cfc4cddcd84d731164255bc90a62200d1de4ef6 6612 ros-humble-autoware-lidar-apollo-instance-segmentation_0.39.0-2024.12.16.18.57_amd64.deb
+Files:
+ d391a1e4d4cb258500c2bb51776d0f67 40760 misc optional ros-humble-autoware-lidar-apollo-instance-segmentation_0.39.0-2024.12.16.18.57_amd64.buildinfo
+ 2350dee967a5ce987031122d5b7493fe 6612 misc optional ros-humble-autoware-lidar-apollo-instance-segmentation_0.39.0-2024.12.16.18.57_amd64.deb

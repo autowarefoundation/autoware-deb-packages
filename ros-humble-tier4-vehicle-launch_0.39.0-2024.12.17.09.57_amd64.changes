@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-tier4-vehicle-launch
+Binary: ros-humble-tier4-vehicle-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.17.09.57
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-tier4-vehicle-launch - The tier4_vehicle_launch package
+Changes:
+ ros-humble-tier4-vehicle-launch (0.39.0-2024.12.17.09.57) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ c0813f5caa46476274e9cdde3ff2c2f2301ae2e3 10683 ros-humble-tier4-vehicle-launch_0.39.0-2024.12.17.09.57_amd64.buildinfo
+ d6d592773e01718d10a61ce2395f5e227fab4ec3 7126 ros-humble-tier4-vehicle-launch_0.39.0-2024.12.17.09.57_amd64.deb
+Checksums-Sha256:
+ bcbdbe1ed96a2fb3415b4717fd111b1e7c7b80ed7b47d217b5dc0627fa87345e 10683 ros-humble-tier4-vehicle-launch_0.39.0-2024.12.17.09.57_amd64.buildinfo
+ 2fb2b10b83ca649cfade4968817d1ed17b1b4254dff64e1e6c72f3f7723f674e 7126 ros-humble-tier4-vehicle-launch_0.39.0-2024.12.17.09.57_amd64.deb
+Files:
+ 4e8891a544a88553e4efcf3d445843b2 10683 misc optional ros-humble-tier4-vehicle-launch_0.39.0-2024.12.17.09.57_amd64.buildinfo
+ 5a0763f299e3ed82dac7987d0a4baec2 7126 misc optional ros-humble-tier4-vehicle-launch_0.39.0-2024.12.17.09.57_amd64.deb

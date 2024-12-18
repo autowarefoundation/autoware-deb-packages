@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-radar-object-tracker
+Binary: ros-humble-autoware-radar-object-tracker
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.21.56
+Distribution: jammy
+Urgency: high
+Maintainer: Yoshi Ri <yoshi.ri@tier4.jp>
+Changed-By: Yoshi Ri <yoshi.ri@tier4.jp>
+Description:
+ ros-humble-autoware-radar-object-tracker - Do tracking radar object
+Changes:
+ ros-humble-autoware-radar-object-tracker (0.39.0-2024.12.16.21.56) jammy; urgency=high
+ .
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Yutaka Kondo
+Checksums-Sha1:
+ 54df6b96c3f937dca2da0871d4be7cc2d5f7a364 12043494 ros-humble-autoware-radar-object-tracker-dbgsym_0.39.0-2024.12.16.21.56_amd64.ddeb
+ 17545b3afe437526f0911929e08c847705870615 41912 ros-humble-autoware-radar-object-tracker_0.39.0-2024.12.16.21.56_amd64.buildinfo
+ 5531e2accda892cd6c8329e99e0d0b9a711b0621 346974 ros-humble-autoware-radar-object-tracker_0.39.0-2024.12.16.21.56_amd64.deb
+Checksums-Sha256:
+ ecbc81b407341644c71c13454b2a051835739b23b0ee262e7e99afd9a4af7c4a 12043494 ros-humble-autoware-radar-object-tracker-dbgsym_0.39.0-2024.12.16.21.56_amd64.ddeb
+ 6275112ef396e43caa83b650560a1786279fe538f3c6aa0ba911abae5ac38ddc 41912 ros-humble-autoware-radar-object-tracker_0.39.0-2024.12.16.21.56_amd64.buildinfo
+ fd2a3f59bf5391699ade98a54224067e888cb6a18fdfeb7430fe488b8f153edc 346974 ros-humble-autoware-radar-object-tracker_0.39.0-2024.12.16.21.56_amd64.deb
+Files:
+ b4e84e43020a2a6edd4b94fc35d30b99 12043494 debug optional ros-humble-autoware-radar-object-tracker-dbgsym_0.39.0-2024.12.16.21.56_amd64.ddeb
+ 52892e0096e2a589cde88e2ab1c47424 41912 misc optional ros-humble-autoware-radar-object-tracker_0.39.0-2024.12.16.21.56_amd64.buildinfo
+ 264b54d00e6d2295be45f904ddda69c0 346974 misc optional ros-humble-autoware-radar-object-tracker_0.39.0-2024.12.16.21.56_amd64.deb

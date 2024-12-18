@@ -1,0 +1,55 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-map-based-prediction
+Binary: ros-humble-autoware-map-based-prediction
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-2024.12.16.19.25
+Distribution: jammy
+Urgency: high
+Maintainer: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Changed-By: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Description:
+ ros-humble-autoware-map-based-prediction - This package implements a map_based_prediction
+Changes:
+ ros-humble-autoware-map-based-prediction (0.39.0-2024.12.16.19.25) jammy; urgency=high
+ .
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/youtalk/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/youtalk/autoware.universe/issues/9266>) (#9284 <https://github.com/youtalk/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * refactor(map_based_prediction): move member functions to utils (#9225 <https://github.com/youtalk/autoware.universe/issues/9225>)
+   * refactor(map_based_prediction): divide objectsCallback (#9219 <https://github.com/youtalk/autoware.universe/issues/9219>)
+   * refactor(autoware_map_based_prediction): split pedestrian and bicycle predictor (#9201 <https://github.com/youtalk/autoware.universe/issues/9201>)
+     * refactor: grouping functions
+     * refactor: grouping parameters
+     * refactor: rename member road_users_history to road_users_history_
+     * refactor: separate util functions
+     * refactor: Add predictor_vru.cpp and utils.cpp to map_based_prediction_node
+     * refactor: Add explicit template instantiation for removeOldObjectsHistory function
+     * refactor: Add tf2_geometry_msgs to data_structure
+     * refactor: Remove unused variables and functions in map_based_prediction_node.cpp
+     * Update perception/autoware_map_based_prediction/include/map_based_prediction/predictor_vru.hpp
+     * Apply suggestions from code review
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: Mamoru Sobue <mailto:hilo.soblin@gmail.com>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Esteve Fernandez, Mamoru Sobue, Taekjin LEE, Yutaka Kondo
+Checksums-Sha1:
+ 2b1d913dada6e985b9fb0760adf5e1d6aad6b2bb 9723248 ros-humble-autoware-map-based-prediction-dbgsym_0.39.0-2024.12.16.19.25_amd64.ddeb
+ 74582e9c4ddce0528d6788526019d6f4466785d0 41807 ros-humble-autoware-map-based-prediction_0.39.0-2024.12.16.19.25_amd64.buildinfo
+ 965eead3e54129c82b4d3faeebdc2f68ce880c89 338124 ros-humble-autoware-map-based-prediction_0.39.0-2024.12.16.19.25_amd64.deb
+Checksums-Sha256:
+ ae4da1cc6452a7efcf418ae89659c32c07a9239eb9eebabab9cf5bcbe6159b1b 9723248 ros-humble-autoware-map-based-prediction-dbgsym_0.39.0-2024.12.16.19.25_amd64.ddeb
+ 3513dda9e1b4fd4ab08c1bc7aad49166a587c40be77559ebd248a263c41ddadd 41807 ros-humble-autoware-map-based-prediction_0.39.0-2024.12.16.19.25_amd64.buildinfo
+ 6e20e547c13ce93a4b5c785de01ccc3c44f471e6c153a967ff4ae36ea4e902b9 338124 ros-humble-autoware-map-based-prediction_0.39.0-2024.12.16.19.25_amd64.deb
+Files:
+ da0ac594b6eb0762d2e7df65f5c45cbe 9723248 debug optional ros-humble-autoware-map-based-prediction-dbgsym_0.39.0-2024.12.16.19.25_amd64.ddeb
+ 58f6bb07e443ea65e002052d57813994 41807 misc optional ros-humble-autoware-map-based-prediction_0.39.0-2024.12.16.19.25_amd64.buildinfo
+ 47604a6cefdc42fe3f639fa2b0343c9b 338124 misc optional ros-humble-autoware-map-based-prediction_0.39.0-2024.12.16.19.25_amd64.deb
