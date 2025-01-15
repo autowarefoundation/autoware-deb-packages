@@ -1,0 +1,13 @@
+delphi_esr: {ubuntu: ros-humble-delphi-esr}
+kvaser_interface: {ubuntu: ros-humble-kvaser-interface}
+libas-common: {ubuntu: libas-common}
+network_interface: {ubuntu: ros-humble-network-interface}
+pacmod2: {ubuntu: ros-humble-pacmod2}
+pacmod3: {ubuntu: ros-humble-pacmod3}
+pacmod2_msgs: {ubuntu: ros-humble-pacmod2-msgs}
+pacmod3_msgs: {ubuntu: ros-humble-pacmod3-msgs}
+pacmod_game_control: {ubuntu: ros-humble-pacmod-game-control}
+ssc_pm_gem_e4: {ubuntu: ros-humble-ssc-pm-gem-e4}
+cuda: {ubuntu: cuda}
+tensorrt-dev: {ubuntu: tensorrt-dev}
+libcudnn8-dev: {ubuntu: libcudnn8-dev}
