@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-grid-map-utils
+Binary: ros-humble-autoware-grid-map-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.14.21.32
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime CLEMENT <maxime.clement@tier4.jp>
+Changed-By: Maxime CLEMENT <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-grid-map-utils - Utilities for the grid_map library
+Changes:
+ ros-humble-autoware-grid-map-utils (0-2025.01.14.21.32) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - common (#9564 <https://github.com/autowarefoundation/autoware.universe/issues/9564>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 7a4c14ef41d05dca689f14ad4ab59ee7f5616c3e 220082 ros-humble-autoware-grid-map-utils-dbgsym_0-2025.01.14.21.32_amd64.ddeb
+ e50d08266a7a126cb510371343bf974c0bb0ae93 44418 ros-humble-autoware-grid-map-utils_0-2025.01.14.21.32_amd64.buildinfo
+ e0f74288e61f7c2f501f24a922d77e2b2655d6eb 47822 ros-humble-autoware-grid-map-utils_0-2025.01.14.21.32_amd64.deb
+Checksums-Sha256:
+ 92a06c263e6565da7575215245cf12f4045aa04bdeb8f2aadef3306510b7fea8 220082 ros-humble-autoware-grid-map-utils-dbgsym_0-2025.01.14.21.32_amd64.ddeb
+ 687c07067e0656f096ac7bce321df5b57f26c0dc64f100194396600a9281bd64 44418 ros-humble-autoware-grid-map-utils_0-2025.01.14.21.32_amd64.buildinfo
+ 2834b8a083a5eff97b59611a58e29ef0b120c6c7a8f28d61b6443d5895049035 47822 ros-humble-autoware-grid-map-utils_0-2025.01.14.21.32_amd64.deb
+Files:
+ 5effda8e7b7864077a6971efa83c3b05 220082 debug optional ros-humble-autoware-grid-map-utils-dbgsym_0-2025.01.14.21.32_amd64.ddeb
+ b611ddd0fe96dcd90f4c3aa6b2eaef24 44418 misc optional ros-humble-autoware-grid-map-utils_0-2025.01.14.21.32_amd64.buildinfo
+ 9bdaa610fd3c4e643fced93a921c0681 47822 misc optional ros-humble-autoware-grid-map-utils_0-2025.01.14.21.32_amd64.deb

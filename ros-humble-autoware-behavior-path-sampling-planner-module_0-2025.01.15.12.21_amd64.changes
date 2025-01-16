@@ -1,0 +1,68 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-behavior-path-sampling-planner-module
+Binary: ros-humble-autoware-behavior-path-sampling-planner-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.15.12.21
+Distribution: jammy
+Urgency: high
+Maintainer: Daniel Sanchez <daniel.sanchez@tier4.jp>
+Changed-By: Daniel Sanchez <daniel.sanchez@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-path-sampling-planner-module - The autoware_behavior_path_sampling_planner_module package
+Changes:
+ ros-humble-autoware-behavior-path-sampling-planner-module (0-2025.01.15.12.21) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - planning (#9570 <https://github.com/autowarefoundation/autoware.universe/issues/9570>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix(autoware_behavior_path_sampling_planner_module): fix clang-diagnostic-unused-variable (#9404 <https://github.com/autowarefoundation/autoware.universe/issues/9404>)
+     fix: clang-diagnostic-unused-variable
+   * fix(autoware_behavior_path_sampling_planner_module): fix invalid parameter file (#9231 <https://github.com/autowarefoundation/autoware.universe/issues/9231>)
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * refactor(bpp): rework steering factor interface (#9325 <https://github.com/autowarefoundation/autoware.universe/issues/9325>)
+     * refactor(bpp): rework steering factor interface
+     * refactor(soa): rework steering factor interface
+     * refactor(AbLC): rework steering factor interface
+     * refactor(doa): rework steering factor interface
+     * refactor(lc): rework steering factor interface
+     * refactor(gp): rework steering factor interface
+     * refactor(sp): rework steering factor interface
+     * refactor(sbp): rework steering factor interface
+     * refactor(ss): rework steering factor interface
+     ---------
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * fix(autoware_behavior_path_sampling_planner_module): fix cppcheck unusedVariable (#9190 <https://github.com/autowarefoundation/autoware.universe/issues/9190>)
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Ryuta Kambe, Satoshi OTA, Yutaka Kondo, kobayu858
+Checksums-Sha1:
+ 9a0866fdc0fa694cbb449cdede5eca61e2165270 4353348 ros-humble-autoware-behavior-path-sampling-planner-module-dbgsym_0-2025.01.15.12.21_amd64.ddeb
+ c225b56d1886e56a89926fcf494e20fd3104ead1 44695 ros-humble-autoware-behavior-path-sampling-planner-module_0-2025.01.15.12.21_amd64.buildinfo
+ 879861dbfbcaae097686eef09a38e9f935df4bef 131108 ros-humble-autoware-behavior-path-sampling-planner-module_0-2025.01.15.12.21_amd64.deb
+Checksums-Sha256:
+ 42b822e9f7bd5d65d4202776a244bc27fa281a49c790bf8f92dac78011b83dd2 4353348 ros-humble-autoware-behavior-path-sampling-planner-module-dbgsym_0-2025.01.15.12.21_amd64.ddeb
+ 4bd10b3dbf4c30d145b8bfc16b49927baed2a2bfc6ba23eba5b88c6e465fb747 44695 ros-humble-autoware-behavior-path-sampling-planner-module_0-2025.01.15.12.21_amd64.buildinfo
+ fb49d88fe1564f408a87739d7535beca0c650012a1367c3800e02b6cb6be9018 131108 ros-humble-autoware-behavior-path-sampling-planner-module_0-2025.01.15.12.21_amd64.deb
+Files:
+ 809fd8e9db39acb0c2b46b14b3cc2061 4353348 debug optional ros-humble-autoware-behavior-path-sampling-planner-module-dbgsym_0-2025.01.15.12.21_amd64.ddeb
+ 1319489cf895e2c833da513232b24bf5 44695 misc optional ros-humble-autoware-behavior-path-sampling-planner-module_0-2025.01.15.12.21_amd64.buildinfo
+ 9b17f843ffa93554f73271270a9c3160 131108 misc optional ros-humble-autoware-behavior-path-sampling-planner-module_0-2025.01.15.12.21_amd64.deb

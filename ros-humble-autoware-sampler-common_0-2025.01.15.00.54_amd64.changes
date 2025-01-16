@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-sampler-common
+Binary: ros-humble-autoware-sampler-common
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.15.00.54
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime CLEMENT <maxime.clement@tier4.jp>
+Changed-By: Maxime CLEMENT <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-sampler-common - Common classes and functions for sampling based planners
+Changes:
+ ros-humble-autoware-sampler-common (0-2025.01.15.00.54) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - planning (#9570 <https://github.com/autowarefoundation/autoware.universe/issues/9570>)
+   * refactor: correct spelling (#9528 <https://github.com/autowarefoundation/autoware.universe/issues/9528>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 114e07f45271505d1108bbe9e918058b253bc806 971150 ros-humble-autoware-sampler-common-dbgsym_0-2025.01.15.00.54_amd64.ddeb
+ 9007a38293b8a8160026bb28ec79ca61c9c881e1 40300 ros-humble-autoware-sampler-common_0-2025.01.15.00.54_amd64.buildinfo
+ eefd174b7b3df5b9b79d84fa15f291a68a235e95 45806 ros-humble-autoware-sampler-common_0-2025.01.15.00.54_amd64.deb
+Checksums-Sha256:
+ 739a435a3080b48266ae13809ec7c059486904758ca787d3cdc60ff0f2227011 971150 ros-humble-autoware-sampler-common-dbgsym_0-2025.01.15.00.54_amd64.ddeb
+ 092926fcbbf5d11d78d02ed06132fe39802e1dd71e185bcd3b8e0251bdcee331 40300 ros-humble-autoware-sampler-common_0-2025.01.15.00.54_amd64.buildinfo
+ fbdbf8f40f17163efce060173480f6a001e36d953c79fd0bafcfba35b2f35ff3 45806 ros-humble-autoware-sampler-common_0-2025.01.15.00.54_amd64.deb
+Files:
+ 693f3d3a957aae2379d3721c52ea4f07 971150 debug optional ros-humble-autoware-sampler-common-dbgsym_0-2025.01.15.00.54_amd64.ddeb
+ 857aa2fa4077d8ebae213b4803a9033d 40300 misc optional ros-humble-autoware-sampler-common_0-2025.01.15.00.54_amd64.buildinfo
+ c6490ebd79f5ab64f8d5b053b25a8c4b 45806 misc optional ros-humble-autoware-sampler-common_0-2025.01.15.00.54_amd64.deb

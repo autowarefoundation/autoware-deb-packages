@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-image-transport-decompressor
+Binary: ros-humble-autoware-image-transport-decompressor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.14.15.07
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-image-transport-decompressor - The image_transport_decompressor package
+Changes:
+ ros-humble-autoware-image-transport-decompressor (0-2025.01.14.15.07) jammy; urgency=high
+ .
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ a546a578a95c86670bb679091595e8bcd3266ff8 2426288 ros-humble-autoware-image-transport-decompressor-dbgsym_0-2025.01.14.15.07_amd64.ddeb
+ f6e6720ac5f9b3137f8708b43d0bdd2fba6f42d4 27732 ros-humble-autoware-image-transport-decompressor_0-2025.01.14.15.07_amd64.buildinfo
+ 8d6d92bc6e6fb3f56fe10267e79dab1bcc589424 122254 ros-humble-autoware-image-transport-decompressor_0-2025.01.14.15.07_amd64.deb
+Checksums-Sha256:
+ 98a8bc6c85eed2457009edd7e703e8aa1fc72b7d41ce69a4b2a01d8b612989f2 2426288 ros-humble-autoware-image-transport-decompressor-dbgsym_0-2025.01.14.15.07_amd64.ddeb
+ d5b4f486436dc3fa304f53207128c6a7904d6e1159c0f806c92ffdabae1a6dbd 27732 ros-humble-autoware-image-transport-decompressor_0-2025.01.14.15.07_amd64.buildinfo
+ fa72f8b55ec25e8cd802c590f5ca8325727e684496f8e184ecdc96a3752f818b 122254 ros-humble-autoware-image-transport-decompressor_0-2025.01.14.15.07_amd64.deb
+Files:
+ 8e4058b4a8c60e1263b6d1e025708de0 2426288 debug optional ros-humble-autoware-image-transport-decompressor-dbgsym_0-2025.01.14.15.07_amd64.ddeb
+ 8019410569977cece24691359d8297c8 27732 misc optional ros-humble-autoware-image-transport-decompressor_0-2025.01.14.15.07_amd64.buildinfo
+ d08326f342bdcbc789ccff7057d54390 122254 misc optional ros-humble-autoware-image-transport-decompressor_0-2025.01.14.15.07_amd64.deb

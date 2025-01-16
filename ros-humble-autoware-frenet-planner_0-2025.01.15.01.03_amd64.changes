@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-frenet-planner
+Binary: ros-humble-autoware-frenet-planner
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.15.01.03
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime CLEMENT <maxime.clement@tier4.jp>
+Changed-By: Maxime CLEMENT <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-frenet-planner - The autoware_frenet_planner package for trajectory generation in
+Changes:
+ ros-humble-autoware-frenet-planner (0-2025.01.15.01.03) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - planning (#9570 <https://github.com/autowarefoundation/autoware.universe/issues/9570>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ ff65ad82f0a6ef81e0f6f78a7482229adfc65047 1992624 ros-humble-autoware-frenet-planner-dbgsym_0-2025.01.15.01.03_amd64.ddeb
+ 9da4c99abb897d2d8f6c679bb779008a420fadd3 40420 ros-humble-autoware-frenet-planner_0-2025.01.15.01.03_amd64.buildinfo
+ e14ae22b50bdf13b2190b2e13bfa753053a0140a 33816 ros-humble-autoware-frenet-planner_0-2025.01.15.01.03_amd64.deb
+Checksums-Sha256:
+ 8c139c755af0c5568c0443e17e62395684cb6a7f02b19e9934df5edfa33e6884 1992624 ros-humble-autoware-frenet-planner-dbgsym_0-2025.01.15.01.03_amd64.ddeb
+ d7aa4bd46308db0fae8e8516b73a6543122eeb3ec7be40769195d0b8cce4de3e 40420 ros-humble-autoware-frenet-planner_0-2025.01.15.01.03_amd64.buildinfo
+ 61fe3b3a5aa7d8ea9c8630588c0db263700d8b9c47e4a320aefad2277098e107 33816 ros-humble-autoware-frenet-planner_0-2025.01.15.01.03_amd64.deb
+Files:
+ 317ffbbd67ed82c72bc94263a785c314 1992624 debug optional ros-humble-autoware-frenet-planner-dbgsym_0-2025.01.15.01.03_amd64.ddeb
+ bb9c313d2b04826db5bcea75374e5dd9 40420 misc optional ros-humble-autoware-frenet-planner_0-2025.01.15.01.03_amd64.buildinfo
+ 9b18cdbc13fb409ed1ff6cd894596f56 33816 misc optional ros-humble-autoware-frenet-planner_0-2025.01.15.01.03_amd64.deb

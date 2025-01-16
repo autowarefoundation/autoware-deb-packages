@@ -1,0 +1,46 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-tier4-sensing-launch
+Binary: ros-humble-tier4-sensing-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.15.03.43
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-tier4-sensing-launch - The tier4_sensing_launch package
+Changes:
+ ros-humble-tier4-sensing-launch (0-2025.01.15.03.43) jammy; urgency=high
+ .
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ ba6f45dfe0f64d806685ecdd2a047d02264f286e 10663 ros-humble-tier4-sensing-launch_0-2025.01.15.03.43_amd64.buildinfo
+ 4c33bcdbd0817a0288f252865ea131c39d578d6b 7022 ros-humble-tier4-sensing-launch_0-2025.01.15.03.43_amd64.deb
+Checksums-Sha256:
+ e817ebffb14caf47a4287d963332991f33f90160286800fc5f9929c6fccf7330 10663 ros-humble-tier4-sensing-launch_0-2025.01.15.03.43_amd64.buildinfo
+ 27271d005f90a12c1a9c3a0d1ade8ca3873439f452fc4cab2f87b170e6955aa2 7022 ros-humble-tier4-sensing-launch_0-2025.01.15.03.43_amd64.deb
+Files:
+ 7f0a935ac291941f7e316787b7d27df8 10663 misc optional ros-humble-tier4-sensing-launch_0-2025.01.15.03.43_amd64.buildinfo
+ bf807a04cb83bcc355810304b84801b0 7022 misc optional ros-humble-tier4-sensing-launch_0-2025.01.15.03.43_amd64.deb

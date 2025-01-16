@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-remaining-distance-time-calculator
+Binary: ros-humble-autoware-remaining-distance-time-calculator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.15.09.48
+Distribution: jammy
+Urgency: high
+Maintainer: Ahmed Ebrahim <ahmed.ebrahim@leodrive.ai>
+Changed-By: Ahmed Ebrahim <ahmed.ebrahim@leodrive.ai>
+Description:
+ ros-humble-autoware-remaining-distance-time-calculator - Calculates and publishes remaining distance and time of the missi
+Changes:
+ ros-humble-autoware-remaining-distance-time-calculator (0-2025.01.15.09.48) jammy; urgency=high
+ .
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 32c449631e2651a8a821783fc3862f004b8618c8 5672228 ros-humble-autoware-remaining-distance-time-calculator-dbgsym_0-2025.01.15.09.48_amd64.ddeb
+ 3518f983e6f1289622239ff39ae8e824c4915bc7 42800 ros-humble-autoware-remaining-distance-time-calculator_0-2025.01.15.09.48_amd64.buildinfo
+ 71b280730bd7eaf11d4a1a445563eb101bc0cc56 189852 ros-humble-autoware-remaining-distance-time-calculator_0-2025.01.15.09.48_amd64.deb
+Checksums-Sha256:
+ 0a2a6ff58d1cb9a6f638269068d9bcf1cd7bc8be68993a2a6fd1af2dabf022da 5672228 ros-humble-autoware-remaining-distance-time-calculator-dbgsym_0-2025.01.15.09.48_amd64.ddeb
+ 80d31d07a610d1ba039b18b17e9aa74e70f898b4a34edb0f9ed5463edaef000c 42800 ros-humble-autoware-remaining-distance-time-calculator_0-2025.01.15.09.48_amd64.buildinfo
+ 52a1325f14946ac4bebe56e4123f921c0eab69f77a1339489669ccaa3b403692 189852 ros-humble-autoware-remaining-distance-time-calculator_0-2025.01.15.09.48_amd64.deb
+Files:
+ 5bb6d8e2207222c6daebe0357376e304 5672228 debug optional ros-humble-autoware-remaining-distance-time-calculator-dbgsym_0-2025.01.15.09.48_amd64.ddeb
+ 1b56160c62b1c3894c86b4ff12d25005 42800 misc optional ros-humble-autoware-remaining-distance-time-calculator_0-2025.01.15.09.48_amd64.buildinfo
+ 1d0d3bbcdc8e7d56300f719f644a0ce7 189852 misc optional ros-humble-autoware-remaining-distance-time-calculator_0-2025.01.15.09.48_amd64.deb

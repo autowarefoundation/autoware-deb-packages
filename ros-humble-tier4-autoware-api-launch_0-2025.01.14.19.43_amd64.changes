@@ -1,0 +1,46 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-tier4-autoware-api-launch
+Binary: ros-humble-tier4-autoware-api-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.14.19.43
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-tier4-autoware-api-launch - The tier4_autoware_api_launch package
+Changes:
+ ros-humble-tier4-autoware-api-launch (0-2025.01.14.19.43) jammy; urgency=high
+ .
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ d573b61c026ac46ee32393481f0e38c8b31f0e35 10688 ros-humble-tier4-autoware-api-launch_0-2025.01.14.19.43_amd64.buildinfo
+ 05cab6664d570dc0bdeeb8307b8143d8d4ed42e6 8156 ros-humble-tier4-autoware-api-launch_0-2025.01.14.19.43_amd64.deb
+Checksums-Sha256:
+ 03ef31ebad7a978dcfd01f1321aef67bf52cbd2ac3a545ff564d9a6ae782c871 10688 ros-humble-tier4-autoware-api-launch_0-2025.01.14.19.43_amd64.buildinfo
+ 2d62a56af765fd80be9a510b6a7a358e47b00b7526838f9551dc19949fe0d4a5 8156 ros-humble-tier4-autoware-api-launch_0-2025.01.14.19.43_amd64.deb
+Files:
+ c1d19984c6a92bfe35d848f77ea800aa 10688 misc optional ros-humble-tier4-autoware-api-launch_0-2025.01.14.19.43_amd64.buildinfo
+ bc44c63561064985516fa47384e3e0ff 8156 misc optional ros-humble-tier4-autoware-api-launch_0-2025.01.14.19.43_amd64.deb

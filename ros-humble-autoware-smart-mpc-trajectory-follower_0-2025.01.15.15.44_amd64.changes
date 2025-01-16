@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-smart-mpc-trajectory-follower
+Binary: ros-humble-autoware-smart-mpc-trajectory-follower
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.15.15.44
+Distribution: jammy
+Urgency: high
+Maintainer: Masayuki Aino <masayuki.aino@proxima-ai-tech.com>
+Changed-By: Masayuki Aino <masayuki.aino@proxima-ai-tech.com>
+Description:
+ ros-humble-autoware-smart-mpc-trajectory-follower - Nodes to follow a trajectory by generating control commands using
+Changes:
+ ros-humble-autoware-smart-mpc-trajectory-follower (0-2025.01.15.15.44) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - control (#9565 <https://github.com/autowarefoundation/autoware.universe/issues/9565>)
+   * fix(autoware_smart_mpc_trajectory_follower): fix clang-diagnostic-ignored-optimization-argument (#9437 <https://github.com/autowarefoundation/autoware.universe/issues/9437>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Ryuta Kambe, Yutaka Kondo
+Checksums-Sha1:
+ 311416228a4429f8be8c357eba3637356d592458 45594 ros-humble-autoware-smart-mpc-trajectory-follower_0-2025.01.15.15.44_amd64.buildinfo
+ 20d9cdbebb4d59e77f7946659519e64b3c630056 2436530 ros-humble-autoware-smart-mpc-trajectory-follower_0-2025.01.15.15.44_amd64.deb
+Checksums-Sha256:
+ 2a4fb4ceb14aef67da380d84c24b500b8938604bdb5e46c2780a0aa3bd20cbce 45594 ros-humble-autoware-smart-mpc-trajectory-follower_0-2025.01.15.15.44_amd64.buildinfo
+ 215ea9fe07dde25b6f8b5142189af56e809e684a3cd7e4e840675a2815d5c93c 2436530 ros-humble-autoware-smart-mpc-trajectory-follower_0-2025.01.15.15.44_amd64.deb
+Files:
+ 56d42e35649384b8b3c50cb3fdfb6cb2 45594 misc optional ros-humble-autoware-smart-mpc-trajectory-follower_0-2025.01.15.15.44_amd64.buildinfo
+ 06fe38eb766356495e2f6b9e222f6e9f 2436530 misc optional ros-humble-autoware-smart-mpc-trajectory-follower_0-2025.01.15.15.44_amd64.deb

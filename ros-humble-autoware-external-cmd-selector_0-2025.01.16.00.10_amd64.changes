@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-external-cmd-selector
+Binary: ros-humble-autoware-external-cmd-selector
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.16.00.10
+Distribution: jammy
+Urgency: high
+Maintainer: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Changed-By: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-external-cmd-selector - The autoware_external_cmd_selector package
+Changes:
+ ros-humble-autoware-external-cmd-selector (0-2025.01.16.00.10) jammy; urgency=high
+ .
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 54610361f21f90855927db7129631e3ae76fcfd5 5593930 ros-humble-autoware-external-cmd-selector-dbgsym_0-2025.01.16.00.10_amd64.ddeb
+ 153a31abf46d73222c8e261242e9bee0778e5ff8 17307 ros-humble-autoware-external-cmd-selector_0-2025.01.16.00.10_amd64.buildinfo
+ fe8bf11d90b9b88ed8b0a4d79e3b3e7d7cdbd4c0 222364 ros-humble-autoware-external-cmd-selector_0-2025.01.16.00.10_amd64.deb
+Checksums-Sha256:
+ a3b73dc6ea51b9302d68aebcf72cf54eb3da1ab56e581a8c1534b2cf0c721ca2 5593930 ros-humble-autoware-external-cmd-selector-dbgsym_0-2025.01.16.00.10_amd64.ddeb
+ 99d19f7ff3c370e09e32253fa41a8b00c454b210201a90147c3aa7c1455beb89 17307 ros-humble-autoware-external-cmd-selector_0-2025.01.16.00.10_amd64.buildinfo
+ f0a9df5763a546d6751ce44770d61b81df82c5a97ccc31c845d35a3188338ed7 222364 ros-humble-autoware-external-cmd-selector_0-2025.01.16.00.10_amd64.deb
+Files:
+ 1457b26117bf4db52a7f6c088cc384ff 5593930 debug optional ros-humble-autoware-external-cmd-selector-dbgsym_0-2025.01.16.00.10_amd64.ddeb
+ 8d9470418ec7c513c08b3667db745577 17307 misc optional ros-humble-autoware-external-cmd-selector_0-2025.01.16.00.10_amd64.buildinfo
+ df04bfabca19c865e09617f2456b7b81 222364 misc optional ros-humble-autoware-external-cmd-selector_0-2025.01.16.00.10_amd64.deb

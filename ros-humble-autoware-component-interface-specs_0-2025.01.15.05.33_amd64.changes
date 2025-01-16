@@ -1,0 +1,48 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-component-interface-specs
+Binary: ros-humble-autoware-component-interface-specs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.15.05.33
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-component-interface-specs - The autoware_component_interface_specs package
+Changes:
+ ros-humble-autoware-component-interface-specs (0-2025.01.15.05.33) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * feat!: replace tier4_map_msgs with autoware_map_msgs for MapProjectorInfo (#9392 <https://github.com/autowarefoundation/autoware.universe/issues/9392>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 31885b66df19a00f4b8e33a3f31e3131e7134a09 16208 ros-humble-autoware-component-interface-specs_0-2025.01.15.05.33_amd64.buildinfo
+ 8295970ccc0e2874e570c0433a14e239d52e0a1b 9202 ros-humble-autoware-component-interface-specs_0-2025.01.15.05.33_amd64.deb
+Checksums-Sha256:
+ d0902bcb25ca886012e13c206ed9ad69f1882feb89204732a37c6bf3304ac497 16208 ros-humble-autoware-component-interface-specs_0-2025.01.15.05.33_amd64.buildinfo
+ 1bc03d7c0487d1f1931f92ea5c2a3b17fdfe30fe1b29713aea0157cc4f67ffed 9202 ros-humble-autoware-component-interface-specs_0-2025.01.15.05.33_amd64.deb
+Files:
+ 9ea9bbb6d5dc94252431aaf1c13cc1f5 16208 misc optional ros-humble-autoware-component-interface-specs_0-2025.01.15.05.33_amd64.buildinfo
+ dbd486bbafa006342d0bca326ea0620f 9202 misc optional ros-humble-autoware-component-interface-specs_0-2025.01.15.05.33_amd64.deb

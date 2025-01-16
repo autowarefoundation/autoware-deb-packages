@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-motion-velocity-planner-common
+Binary: ros-humble-autoware-motion-velocity-planner-common
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.15.21.19
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime Clement <maxime.clement@tier4.jp>
+Changed-By: Maxime Clement <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-motion-velocity-planner-common - Common functions and interfaces for motion_velocity_planner modul
+Changes:
+ ros-humble-autoware-motion-velocity-planner-common (0-2025.01.15.21.19) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - planning (#9570 <https://github.com/autowarefoundation/autoware.universe/issues/9570>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ bf432941d21975c9eceb7b9bff57019d8e5ef46d 1361386 ros-humble-autoware-motion-velocity-planner-common-dbgsym_0-2025.01.15.21.19_amd64.ddeb
+ d7d7d29bf76ae000ff9867ea0ee43c9fe73a9d25 43753 ros-humble-autoware-motion-velocity-planner-common_0-2025.01.15.21.19_amd64.buildinfo
+ 9226a346975f0efd7d0c644fe4c54b0c656ed6c1 82366 ros-humble-autoware-motion-velocity-planner-common_0-2025.01.15.21.19_amd64.deb
+Checksums-Sha256:
+ 99591a4479bf8a75f536169ed619894e55105da0b860e527adfaff85bc73fcdc 1361386 ros-humble-autoware-motion-velocity-planner-common-dbgsym_0-2025.01.15.21.19_amd64.ddeb
+ 1aafd5358048e221ad5b8394462291f65eda375b49ae71382d6e8c7867bf968a 43753 ros-humble-autoware-motion-velocity-planner-common_0-2025.01.15.21.19_amd64.buildinfo
+ 493fdd83b5962a3e7fdee021d81fdf8fc316924158ebef4a27d13979b8e8ef66 82366 ros-humble-autoware-motion-velocity-planner-common_0-2025.01.15.21.19_amd64.deb
+Files:
+ 87d7fe641ae1a525b86fd67571dee79b 1361386 debug optional ros-humble-autoware-motion-velocity-planner-common-dbgsym_0-2025.01.15.21.19_amd64.ddeb
+ 3542901833046dd35e215941d8c90e0c 43753 misc optional ros-humble-autoware-motion-velocity-planner-common_0-2025.01.15.21.19_amd64.buildinfo
+ a5b2dfb52220c9794e4f5403084aa3bb 82366 misc optional ros-humble-autoware-motion-velocity-planner-common_0-2025.01.15.21.19_amd64.deb

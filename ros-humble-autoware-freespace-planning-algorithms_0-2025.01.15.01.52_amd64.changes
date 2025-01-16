@@ -1,0 +1,73 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-freespace-planning-algorithms
+Binary: ros-humble-autoware-freespace-planning-algorithms
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.15.01.52
+Distribution: jammy
+Urgency: high
+Maintainer: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Changed-By: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Description:
+ ros-humble-autoware-freespace-planning-algorithms - The autoware_freespace_planning_algorithms package
+Changes:
+ ros-humble-autoware-freespace-planning-algorithms (0-2025.01.15.01.52) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - planning (#9570 <https://github.com/autowarefoundation/autoware.universe/issues/9570>)
+   * refactor: correct spelling (#9528 <https://github.com/autowarefoundation/autoware.universe/issues/9528>)
+   * fix(autoware_freespace_planner, autoware_freespace_planning_algorithms): modify freespace planner to use node clock instead of system clock (#9152 <https://github.com/autowarefoundation/autoware.universe/issues/9152>)
+     * Modified the autoware_freespace_planner and autoware_freespace_planning_algorithms packages to use the node clock instead of rclcpp detached clock. This allows the module to make use of sim time. Previously during simulation the parking trajectory would have system time in trajectory header messages causing downstream issues like non-clearance of trajectory buffers in motion planning based on elapsed time.
+     * style(pre-commit): autofix
+     * Updated the freespace planner instantiation call in the path planning modules
+     * style(pre-commit): autofix
+     * Updated tests for the utility functions
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: Steven Brills <mailto:sbrills@oshkoshcorp.com>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * fix(autoware_freespace_planning_algorithms): fix clang-diagnostic-unused-const-variable (#9433 <https://github.com/autowarefoundation/autoware.universe/issues/9433>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix(autoware_freespace_planning_algorithms): fix clang-diagnostic-ignored-optimization-argument (#9418 <https://github.com/autowarefoundation/autoware.universe/issues/9418>)
+     fix: clang-diagnostic-ignored-optimization-argument
+   * fix(autoware_freespace_planning_algorithms): fix clang-diagnostic-unused-private-field (#9396 <https://github.com/autowarefoundation/autoware.universe/issues/9396>)
+     * fix: clang-diagnostic-unused-private-field
+     * fix: build error
+     ---------
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * fix(/autoware_freespace_planning_algorithms): fix cppcheck unusedFunction (#9274 <https://github.com/autowarefoundation/autoware.universe/issues/9274>)
+   * fix(autoware_freespace_planning_algorithms): fix bugprone-unused-raii (#9230 <https://github.com/autowarefoundation/autoware.universe/issues/9230>)
+     fix: bugprone-unused-raii
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Ryuta Kambe, Yutaka Kondo, kobayu858, stevenbrills
+Checksums-Sha1:
+ f15b95d793a763c7b18a1f9353e2a20dc88d01f3 1299362 ros-humble-autoware-freespace-planning-algorithms-dbgsym_0-2025.01.15.01.52_amd64.ddeb
+ 1c36ddd6e80ff74280f369a27aeed552026fdef0 41023 ros-humble-autoware-freespace-planning-algorithms_0-2025.01.15.01.52_amd64.buildinfo
+ e7a5321dca2cb7aaa22bb49df52eefce7ae1a4f2 166736 ros-humble-autoware-freespace-planning-algorithms_0-2025.01.15.01.52_amd64.deb
+Checksums-Sha256:
+ 1ea37231f1a94c1f707acab63aa36eee0826dd4775cc877a852af7cfda4cabac 1299362 ros-humble-autoware-freespace-planning-algorithms-dbgsym_0-2025.01.15.01.52_amd64.ddeb
+ f9092e922d002945cd7162c36889e9166fec0a76c527e16f86affdc26600ec30 41023 ros-humble-autoware-freespace-planning-algorithms_0-2025.01.15.01.52_amd64.buildinfo
+ 3f50580f4026392fc8a504576a37d7de5f31197a34667b2b0bfa6847fd8ee022 166736 ros-humble-autoware-freespace-planning-algorithms_0-2025.01.15.01.52_amd64.deb
+Files:
+ 4886df21e87be2db780d5c9bc5e2d57d 1299362 debug optional ros-humble-autoware-freespace-planning-algorithms-dbgsym_0-2025.01.15.01.52_amd64.ddeb
+ 649515099af4be5efa9bbf01fd28bea3 41023 misc optional ros-humble-autoware-freespace-planning-algorithms_0-2025.01.15.01.52_amd64.buildinfo
+ 66bc97e8f626dbb071cc9712d30d6074 166736 misc optional ros-humble-autoware-freespace-planning-algorithms_0-2025.01.15.01.52_amd64.deb

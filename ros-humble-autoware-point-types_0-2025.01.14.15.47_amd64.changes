@@ -1,0 +1,46 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-point-types
+Binary: ros-humble-autoware-point-types
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.14.15.47
+Distribution: jammy
+Urgency: high
+Maintainer: David Wong <david.wong@tier4.jp>
+Changed-By: David Wong <david.wong@tier4.jp>
+Description:
+ ros-humble-autoware-point-types - The point types definition to use point_cloud_msg_wrapper
+Changes:
+ ros-humble-autoware-point-types (0-2025.01.14.15.47) jammy; urgency=high
+ .
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ c862cc5f92e7f534a82e837c6b77b83b20fe7c72 39058 ros-humble-autoware-point-types_0-2025.01.14.15.47_amd64.buildinfo
+ 7f0ca5ed41ae49714dc30f121171017b37db30ac 9798 ros-humble-autoware-point-types_0-2025.01.14.15.47_amd64.deb
+Checksums-Sha256:
+ 32aebd91dbf5ab25d70ef3730d256d151b576fbaf1ed7916eef52f61318915db 39058 ros-humble-autoware-point-types_0-2025.01.14.15.47_amd64.buildinfo
+ a96011f680a7ad574c0d1627f49f839e3706b8e0d2c87fddc49cdeb9491fae48 9798 ros-humble-autoware-point-types_0-2025.01.14.15.47_amd64.deb
+Files:
+ 9f8afffca5e6b3d1e3b8f6a11795e33e 39058 misc optional ros-humble-autoware-point-types_0-2025.01.14.15.47_amd64.buildinfo
+ ef3d2a0a13c6c1ed6e866bdab5fb93ca 9798 misc optional ros-humble-autoware-point-types_0-2025.01.14.15.47_amd64.deb

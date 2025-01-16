@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-object-recognition-utils
+Binary: ros-humble-autoware-object-recognition-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.14.22.51
+Distribution: jammy
+Urgency: high
+Maintainer: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Changed-By: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Description:
+ ros-humble-autoware-object-recognition-utils - The autoware_object_recognition_utils package
+Changes:
+ ros-humble-autoware-object-recognition-utils (0-2025.01.14.22.51) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - common (#9564 <https://github.com/autowarefoundation/autoware.universe/issues/9564>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ ad616d556846230f3026edeac3f96a175cabdd7b 178502 ros-humble-autoware-object-recognition-utils-dbgsym_0-2025.01.14.22.51_amd64.ddeb
+ e883677c3729fc22bb3511708a4951b2157f7c1b 40390 ros-humble-autoware-object-recognition-utils_0-2025.01.14.22.51_amd64.buildinfo
+ 050eabf3de10e352bb404a5b2b22957ffb15af82 22264 ros-humble-autoware-object-recognition-utils_0-2025.01.14.22.51_amd64.deb
+Checksums-Sha256:
+ 9602df1423c95cbd6befa12c773053ad74e5cfa2cb212af52672e252e5ebade8 178502 ros-humble-autoware-object-recognition-utils-dbgsym_0-2025.01.14.22.51_amd64.ddeb
+ 0ab7694cb4c797deea2f547e6aa24c6c4b330cfca73c36381664e78bf351f745 40390 ros-humble-autoware-object-recognition-utils_0-2025.01.14.22.51_amd64.buildinfo
+ b5de2a54691bddeb0c2e80f83f012e0bdba88999d704bca091ee56c8bf63b7f8 22264 ros-humble-autoware-object-recognition-utils_0-2025.01.14.22.51_amd64.deb
+Files:
+ a7d5415fede2ead501f3f81b7bc86c5a 178502 debug optional ros-humble-autoware-object-recognition-utils-dbgsym_0-2025.01.14.22.51_amd64.ddeb
+ 78123549964ccb8e2cb8f539910615b3 40390 misc optional ros-humble-autoware-object-recognition-utils_0-2025.01.14.22.51_amd64.buildinfo
+ 1118068d1eca5c401c49421b9a9ed9a2 22264 misc optional ros-humble-autoware-object-recognition-utils_0-2025.01.14.22.51_amd64.deb

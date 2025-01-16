@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-perception-msgs
+Binary: ros-humble-autoware-perception-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.3.0-2025.01.14.15.35
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-perception-msgs - Autoware perception messages package.
+Changes:
+ ros-humble-autoware-perception-msgs (1.3.0-2025.01.14.15.35) jammy; urgency=high
+Checksums-Sha1:
+ cd7bd483e01744d224ada9ef6a1520dca3b2b15c 1636662 ros-humble-autoware-perception-msgs-dbgsym_1.3.0-2025.01.14.15.35_amd64.ddeb
+ 6eae6da08c25aeb2648607880c4f616b16b4edde 14854 ros-humble-autoware-perception-msgs_1.3.0-2025.01.14.15.35_amd64.buildinfo
+ 81b0265c6075baa5f154db46d620b9db7505f8bc 172360 ros-humble-autoware-perception-msgs_1.3.0-2025.01.14.15.35_amd64.deb
+Checksums-Sha256:
+ 9c63f87d94722c71049ab6211851dd377a8ac29f62dc78915fd37b63787f5740 1636662 ros-humble-autoware-perception-msgs-dbgsym_1.3.0-2025.01.14.15.35_amd64.ddeb
+ 9c91a19a8a48485d61b80a268d12c8ca5809b6674a339e3bbe487350a23fe756 14854 ros-humble-autoware-perception-msgs_1.3.0-2025.01.14.15.35_amd64.buildinfo
+ 81f8616ef3c68746969a1ca75c4a65615dc5226a00188f4ff38fd348a68f0ebd 172360 ros-humble-autoware-perception-msgs_1.3.0-2025.01.14.15.35_amd64.deb
+Files:
+ 201898a2d89d36d07cb5204d36a2e2c2 1636662 debug optional ros-humble-autoware-perception-msgs-dbgsym_1.3.0-2025.01.14.15.35_amd64.ddeb
+ bb2d32a18aabe8916ebbe24785d5c7ef 14854 misc optional ros-humble-autoware-perception-msgs_1.3.0-2025.01.14.15.35_amd64.buildinfo
+ b5ef479ce9cecb700ddf62b532a587f1 172360 misc optional ros-humble-autoware-perception-msgs_1.3.0-2025.01.14.15.35_amd64.deb

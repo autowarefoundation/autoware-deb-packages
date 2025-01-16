@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-path-distance-calculator
+Binary: ros-humble-autoware-path-distance-calculator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.14.23.29
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-path-distance-calculator - The autoware_path_distance_calculator package
+Changes:
+ ros-humble-autoware-path-distance-calculator (0-2025.01.14.23.29) jammy; urgency=high
+ .
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 3fd3d77116c9e5adeb1b7689787aef251b5177ae 2520618 ros-humble-autoware-path-distance-calculator-dbgsym_0-2025.01.14.23.29_amd64.ddeb
+ 51a05eed0173ebdd2d3bfd7ddf7856a9fb8cf41e 40647 ros-humble-autoware-path-distance-calculator_0-2025.01.14.23.29_amd64.buildinfo
+ 1302d0f81096f20008b7bb68aca50cc6196a5b8a 123302 ros-humble-autoware-path-distance-calculator_0-2025.01.14.23.29_amd64.deb
+Checksums-Sha256:
+ a764940efe8a85103e0d9bd7771dde77ba0875dcc1b4de9698d406bca04834b2 2520618 ros-humble-autoware-path-distance-calculator-dbgsym_0-2025.01.14.23.29_amd64.ddeb
+ c6daf152c8e472989bb062d29067ee2d0a52b07ec2ca544235af0248035f3d19 40647 ros-humble-autoware-path-distance-calculator_0-2025.01.14.23.29_amd64.buildinfo
+ fa562276172cf395e3fcc1392059977286878514f983a79d4137daac9add31b7 123302 ros-humble-autoware-path-distance-calculator_0-2025.01.14.23.29_amd64.deb
+Files:
+ 3f944a11d1a2b5a58e82d8bd250d300a 2520618 debug optional ros-humble-autoware-path-distance-calculator-dbgsym_0-2025.01.14.23.29_amd64.ddeb
+ a49e3e2751790d254648d9e7d6ef950a 40647 misc optional ros-humble-autoware-path-distance-calculator_0-2025.01.14.23.29_amd64.buildinfo
+ f70088be27f893d18e13b8e4fcb9d425 123302 misc optional ros-humble-autoware-path-distance-calculator_0-2025.01.14.23.29_amd64.deb

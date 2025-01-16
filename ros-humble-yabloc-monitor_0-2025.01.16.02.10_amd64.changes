@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-yabloc-monitor
+Binary: ros-humble-yabloc-monitor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.16.02.10
+Distribution: jammy
+Urgency: high
+Maintainer: Kento Yabuuchi <kento.yabuuchi.2@tier4.jp>
+Changed-By: Kento Yabuuchi <kento.yabuuchi.2@tier4.jp>
+Description:
+ ros-humble-yabloc-monitor - YabLoc monitor package
+Changes:
+ ros-humble-yabloc-monitor (0-2025.01.16.02.10) jammy; urgency=high
+ .
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ ab6a8a2dfbc5ac71cc64f51a9c2eafc9fd070e85 2668066 ros-humble-yabloc-monitor-dbgsym_0-2025.01.16.02.10_amd64.ddeb
+ 4d9a4e288e4e43a7c0039bcf468e6c7e4d2b272a 16226 ros-humble-yabloc-monitor_0-2025.01.16.02.10_amd64.buildinfo
+ 541847402dcd2661d8dff96434f5db253e2a3224 133016 ros-humble-yabloc-monitor_0-2025.01.16.02.10_amd64.deb
+Checksums-Sha256:
+ e9a6da5981c3c2b651ad2f396f8d88dba66ded804dc013c780a8aafcd846e998 2668066 ros-humble-yabloc-monitor-dbgsym_0-2025.01.16.02.10_amd64.ddeb
+ 0c4ce20a0073e1166e3c5a20e39fd6b432730090ffa3c732ac5d2c6588752dd6 16226 ros-humble-yabloc-monitor_0-2025.01.16.02.10_amd64.buildinfo
+ a8fba473abd0da4858c580f01fd348195d7c8bc5bba7dbe67558121d8567b507 133016 ros-humble-yabloc-monitor_0-2025.01.16.02.10_amd64.deb
+Files:
+ cb617e1cc419fa45c139ba41706c2709 2668066 debug optional ros-humble-yabloc-monitor-dbgsym_0-2025.01.16.02.10_amd64.ddeb
+ 8beff5bd44ae120c3e798a32bfda4367 16226 misc optional ros-humble-yabloc-monitor_0-2025.01.16.02.10_amd64.buildinfo
+ 055388ab6c04f1ce7b246d23d72b82e6 133016 misc optional ros-humble-yabloc-monitor_0-2025.01.16.02.10_amd64.deb

@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-signal-processing
+Binary: ros-humble-autoware-signal-processing
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.14.16.08
+Distribution: jammy
+Urgency: high
+Maintainer: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Changed-By: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Description:
+ ros-humble-autoware-signal-processing - The signal processing package
+Changes:
+ ros-humble-autoware-signal-processing (0-2025.01.14.16.08) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - common (#9564 <https://github.com/autowarefoundation/autoware.universe/issues/9564>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ aca71cc4795de21b2473a70f1797f4c1de262620 147386 ros-humble-autoware-signal-processing-dbgsym_0-2025.01.14.16.08_amd64.ddeb
+ ff014d83dcfe8ac9190b8a38b877a88894e3c9d1 15573 ros-humble-autoware-signal-processing_0-2025.01.14.16.08_amd64.buildinfo
+ 5eee6ebb3ae26b45aec7f31399cc1051a8195b37 23954 ros-humble-autoware-signal-processing_0-2025.01.14.16.08_amd64.deb
+Checksums-Sha256:
+ 7c9e45e7db1dec0310f337f9e7873f7f68d5340c4ff005e4d7e672870d9d6423 147386 ros-humble-autoware-signal-processing-dbgsym_0-2025.01.14.16.08_amd64.ddeb
+ 738ba0ebe61fb3056ceac6b8ee9c87aea0c5153a8b6744f1b11418ab7be81e33 15573 ros-humble-autoware-signal-processing_0-2025.01.14.16.08_amd64.buildinfo
+ 77b8af2a1cdd6a9f305a59624f974de1dbd59432f493c81f05625305cc8c634d 23954 ros-humble-autoware-signal-processing_0-2025.01.14.16.08_amd64.deb
+Files:
+ 98af63b93ec3c8c767cdfe5e2db651f4 147386 debug optional ros-humble-autoware-signal-processing-dbgsym_0-2025.01.14.16.08_amd64.ddeb
+ 7027aaa7b477c51e0b65af0467908bfc 15573 misc optional ros-humble-autoware-signal-processing_0-2025.01.14.16.08_amd64.buildinfo
+ 93cf6acb8e5b26b26e6b175c2b04c4ea 23954 misc optional ros-humble-autoware-signal-processing_0-2025.01.14.16.08_amd64.deb

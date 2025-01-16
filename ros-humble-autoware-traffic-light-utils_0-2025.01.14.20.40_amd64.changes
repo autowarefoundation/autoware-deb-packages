@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-traffic-light-utils
+Binary: ros-humble-autoware-traffic-light-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.14.20.40
+Distribution: jammy
+Urgency: high
+Maintainer: Kotaro Uetake <kotaro.uetake@tier4.jp>
+Changed-By: Kotaro Uetake <kotaro.uetake@tier4.jp>
+Description:
+ ros-humble-autoware-traffic-light-utils - The autoware_traffic_light_utils package
+Changes:
+ ros-humble-autoware-traffic-light-utils (0-2025.01.14.20.40) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix(cpplint): include what you use - common (#9564 <https://github.com/autowarefoundation/autoware.universe/issues/9564>)
+   * fix: fix package names in changelog files (#9500 <https://github.com/autowarefoundation/autoware.universe/issues/9500>)
+   * refactor(traffic_light_utils): prefix package and namespace with autoware (#9251 <https://github.com/autowarefoundation/autoware.universe/issues/9251>)
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome
+Checksums-Sha1:
+ 654505c2a95f2a19ec8512aed7bd1016d9e03ff6 218606 ros-humble-autoware-traffic-light-utils-dbgsym_0-2025.01.14.20.40_amd64.ddeb
+ 851c97e8cc8fd08bcf103cb983d77a65c16dcf7d 24961 ros-humble-autoware-traffic-light-utils_0-2025.01.14.20.40_amd64.buildinfo
+ 74fbf2a32ff87ce0a5fab70cbeb859f66e9ba87a 15384 ros-humble-autoware-traffic-light-utils_0-2025.01.14.20.40_amd64.deb
+Checksums-Sha256:
+ 274c3cac310dce1eb8a8ecfba198a2ca9298aa57845052f1e78c30dacb120719 218606 ros-humble-autoware-traffic-light-utils-dbgsym_0-2025.01.14.20.40_amd64.ddeb
+ 0d82b2754bbd2e622e61deee42c92de7b1643d1441d754c800afe066f53ddb61 24961 ros-humble-autoware-traffic-light-utils_0-2025.01.14.20.40_amd64.buildinfo
+ 15f2a0ca84e5a602d5f223ff51d66aa42b551676df1912d29f91766a20112b19 15384 ros-humble-autoware-traffic-light-utils_0-2025.01.14.20.40_amd64.deb
+Files:
+ da1d2d38561ff059b3692d9b32d9c8c2 218606 debug optional ros-humble-autoware-traffic-light-utils-dbgsym_0-2025.01.14.20.40_amd64.ddeb
+ e341c8c125184617318bba2ba5a11792 24961 misc optional ros-humble-autoware-traffic-light-utils_0-2025.01.14.20.40_amd64.buildinfo
+ 005d780337f876ab502f17e0f87590f7 15384 misc optional ros-humble-autoware-traffic-light-utils_0-2025.01.14.20.40_amd64.deb

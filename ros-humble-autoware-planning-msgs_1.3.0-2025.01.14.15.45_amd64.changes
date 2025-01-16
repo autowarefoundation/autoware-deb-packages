@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-planning-msgs
+Binary: ros-humble-autoware-planning-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.3.0-2025.01.14.15.45
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-planning-msgs - Autoware planning messages package.
+Changes:
+ ros-humble-autoware-planning-msgs (1.3.0-2025.01.14.15.45) jammy; urgency=high
+Checksums-Sha1:
+ bf06f868a2130b2481fd965e87db83564f04597e 774400 ros-humble-autoware-planning-msgs-dbgsym_1.3.0-2025.01.14.15.45_amd64.ddeb
+ a9edc618d171220b9e17a5a0e068eda88b14d2a3 14888 ros-humble-autoware-planning-msgs_1.3.0-2025.01.14.15.45_amd64.buildinfo
+ 03c90a15ca76f31e97c767ced4958f74b1bba539 105452 ros-humble-autoware-planning-msgs_1.3.0-2025.01.14.15.45_amd64.deb
+Checksums-Sha256:
+ b3772f7ddb3725f279addaa712d79b1149140f353ea28c60c7b719aecb4ba356 774400 ros-humble-autoware-planning-msgs-dbgsym_1.3.0-2025.01.14.15.45_amd64.ddeb
+ e8afd57ce3740c325d3e7a60f332c39c68e4492ce71344edf98001900cb83dbb 14888 ros-humble-autoware-planning-msgs_1.3.0-2025.01.14.15.45_amd64.buildinfo
+ e3ede8bab9d99df0d51bcbaf33067ce0be75b92a6bffff2b4ad42e2356061e27 105452 ros-humble-autoware-planning-msgs_1.3.0-2025.01.14.15.45_amd64.deb
+Files:
+ b1cd1cdfde561d200a34738b4b0520dd 774400 debug optional ros-humble-autoware-planning-msgs-dbgsym_1.3.0-2025.01.14.15.45_amd64.ddeb
+ a2a2dfd1b19fc7b2f0de7f6a4cc334d4 14888 misc optional ros-humble-autoware-planning-msgs_1.3.0-2025.01.14.15.45_amd64.buildinfo
+ 22ad82ddbc3281866258e68cd2a52602 105452 misc optional ros-humble-autoware-planning-msgs_1.3.0-2025.01.14.15.45_amd64.deb

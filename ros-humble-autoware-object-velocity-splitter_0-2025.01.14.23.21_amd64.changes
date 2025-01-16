@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-object-velocity-splitter
+Binary: ros-humble-autoware-object-velocity-splitter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.14.23.21
+Distribution: jammy
+Urgency: high
+Maintainer: Sathshi Tanaka <satoshi.tanaka@tier4.jp>
+Changed-By: Sathshi Tanaka <satoshi.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-object-velocity-splitter - autoware_object_velocity_splitter
+Changes:
+ ros-humble-autoware-object-velocity-splitter (0-2025.01.14.23.21) jammy; urgency=high
+ .
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 730b3836f3228e982770f66dac9f9dd6686d68e9 2454592 ros-humble-autoware-object-velocity-splitter-dbgsym_0-2025.01.14.23.21_amd64.ddeb
+ e29972d1e943a5e9b6655d00b7568d23035461fb 40337 ros-humble-autoware-object-velocity-splitter_0-2025.01.14.23.21_amd64.buildinfo
+ 08810733b6e5afc60ce9abaed11236dd48a3e1ef 122398 ros-humble-autoware-object-velocity-splitter_0-2025.01.14.23.21_amd64.deb
+Checksums-Sha256:
+ b284896a9d02e8f2d5cd32bba0efd2a59dc3c04ce384a5420788a08c3453caa0 2454592 ros-humble-autoware-object-velocity-splitter-dbgsym_0-2025.01.14.23.21_amd64.ddeb
+ 3b2f6676f915352b4f18b32f2fe02464ae638b54ee1f999124ad911978a581a4 40337 ros-humble-autoware-object-velocity-splitter_0-2025.01.14.23.21_amd64.buildinfo
+ dfb1c96cbe47c22461ecd3af2171c4e46d6c6c07d6551810a6ff9ebe50c343b9 122398 ros-humble-autoware-object-velocity-splitter_0-2025.01.14.23.21_amd64.deb
+Files:
+ 7c653b5793f584e4b96c394cb05d9c71 2454592 debug optional ros-humble-autoware-object-velocity-splitter-dbgsym_0-2025.01.14.23.21_amd64.ddeb
+ 48694aa07079028be85616300aace582 40337 misc optional ros-humble-autoware-object-velocity-splitter_0-2025.01.14.23.21_amd64.buildinfo
+ 96a2f320eb19fe57742eda9aca4a7c8f 122398 misc optional ros-humble-autoware-object-velocity-splitter_0-2025.01.14.23.21_amd64.deb

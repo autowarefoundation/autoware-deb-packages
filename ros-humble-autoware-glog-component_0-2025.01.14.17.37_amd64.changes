@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-glog-component
+Binary: ros-humble-autoware-glog-component
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.14.17.37
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-glog-component - The autoware_glog_component package
+Changes:
+ ros-humble-autoware-glog-component (0-2025.01.14.17.37) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * refactor(glog_component): prefix package and namespace with autoware (#9302 <https://github.com/autowarefoundation/autoware.universe/issues/9302>)
+     Co-authored-by: Takagi, Isamu <mailto:43976882+isamu-takagi@users.noreply.github.com>
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome
+Checksums-Sha1:
+ 3d68efc8b2278ec0c40767ced21a861df4f0b5e2 521718 ros-humble-autoware-glog-component-dbgsym_0-2025.01.14.17.37_amd64.ddeb
+ c801c5e73ae334f087c7c06cdb98c1a52bed1a58 15027 ros-humble-autoware-glog-component_0-2025.01.14.17.37_amd64.buildinfo
+ b1771b689ddcdfbe5c6256dd9046071190952a20 29802 ros-humble-autoware-glog-component_0-2025.01.14.17.37_amd64.deb
+Checksums-Sha256:
+ 2fbdaf29ec6580284fdb052126ba3e4c09b3e5af45b82f27a1a725d302e2dbbc 521718 ros-humble-autoware-glog-component-dbgsym_0-2025.01.14.17.37_amd64.ddeb
+ 55811fd4936ecc8aedb0e22271a5f19cc009559fc098f308e920d23592ce4fa1 15027 ros-humble-autoware-glog-component_0-2025.01.14.17.37_amd64.buildinfo
+ e0c358754d9732330361f71e45e76c23b37be681f139f02d0ae6df1082346438 29802 ros-humble-autoware-glog-component_0-2025.01.14.17.37_amd64.deb
+Files:
+ 6d56286cd566219f45f6984de0fc1ea0 521718 debug optional ros-humble-autoware-glog-component-dbgsym_0-2025.01.14.17.37_amd64.ddeb
+ 893d008734e7538c0d9c27634f3fa527 15027 misc optional ros-humble-autoware-glog-component_0-2025.01.14.17.37_amd64.buildinfo
+ 551de644e0256ce64489a04f00c5392c 29802 misc optional ros-humble-autoware-glog-component_0-2025.01.14.17.37_amd64.deb

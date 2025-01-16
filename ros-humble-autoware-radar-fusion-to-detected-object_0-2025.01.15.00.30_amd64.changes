@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-radar-fusion-to-detected-object
+Binary: ros-humble-autoware-radar-fusion-to-detected-object
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.15.00.30
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Tanaka <satoshi.tanaka@tier4.jp>
+Changed-By: Satoshi Tanaka <satoshi.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-radar-fusion-to-detected-object - autoware_radar_fusion_to_detected_object
+Changes:
+ ros-humble-autoware-radar-fusion-to-detected-object (0-2025.01.15.00.30) jammy; urgency=high
+ .
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ a46acdc2cb9e4e12d5e6d20658f9263a376135cc 3516384 ros-humble-autoware-radar-fusion-to-detected-object-dbgsym_0-2025.01.15.00.30_amd64.ddeb
+ 668255772c3985c61c01912c7acd8f7e90bb4b6c 41309 ros-humble-autoware-radar-fusion-to-detected-object_0-2025.01.15.00.30_amd64.buildinfo
+ 9701a40c3483b1ef9bbef642820d5218d860e5de 175048 ros-humble-autoware-radar-fusion-to-detected-object_0-2025.01.15.00.30_amd64.deb
+Checksums-Sha256:
+ 00285a39dd5424228edce7d86f75631e3c84aeefcb676e8917069c591b4f8a42 3516384 ros-humble-autoware-radar-fusion-to-detected-object-dbgsym_0-2025.01.15.00.30_amd64.ddeb
+ 742000b14173710593daa74e3f67e3b69070b43711892dd2ec018fe5f322d965 41309 ros-humble-autoware-radar-fusion-to-detected-object_0-2025.01.15.00.30_amd64.buildinfo
+ 1c2c9f2e946b5cafdc3b2ad75a7d83135f66f9c005849564bf03d32abb65c7b1 175048 ros-humble-autoware-radar-fusion-to-detected-object_0-2025.01.15.00.30_amd64.deb
+Files:
+ 7e4f15eae9a4765ad8c195b0f8bb6f63 3516384 debug optional ros-humble-autoware-radar-fusion-to-detected-object-dbgsym_0-2025.01.15.00.30_amd64.ddeb
+ d9f99751cd37b7bada0ff914ab1b989d 41309 misc optional ros-humble-autoware-radar-fusion-to-detected-object_0-2025.01.15.00.30_amd64.buildinfo
+ b013f1910ccad98df2065912c8c5b13d 175048 misc optional ros-humble-autoware-radar-fusion-to-detected-object_0-2025.01.15.00.30_amd64.deb

@@ -1,0 +1,63 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-no-stopping-area-module
+Binary: ros-humble-autoware-behavior-velocity-no-stopping-area-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.15.18.09
+Distribution: jammy
+Urgency: high
+Maintainer: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Changed-By: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-no-stopping-area-module - The autoware_behavior_velocity_no_stopping_area_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-no-stopping-area-module (0-2025.01.15.18.09) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - planning (#9570 <https://github.com/autowarefoundation/autoware.universe/issues/9570>)
+   * feat(behavior_velocity_planner)!: remove stop_reason (#9452 <https://github.com/autowarefoundation/autoware.universe/issues/9452>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * feat(behavior_velocity_planner): replace first_stop_path_point_index (#9296 <https://github.com/autowarefoundation/autoware.universe/issues/9296>)
+     * feat(behavior_velocity_planner): replace first_stop_path_point_index
+     * add const
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_traffic_light_module/src/scene.cpp
+     Co-authored-by: Kosuke Takeuchi <mailto:kosuke.tnp@gmail.com>
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_planner/src/planner_manager.cpp
+     Co-authored-by: Kosuke Takeuchi <mailto:kosuke.tnp@gmail.com>
+     ---------
+     Co-authored-by: Kosuke Takeuchi <mailto:kosuke.tnp@gmail.com>
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * fix(autoware_behavior_velocity_no_stopping_area_module): fix cppcheck knownConditionTrueFalse (#9189 <https://github.com/autowarefoundation/autoware.universe/issues/9189>)
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Mamoru Sobue, Ryohsuke Mitsudome, Ryuta Kambe, Yukinari Hisaki, Yutaka Kondo
+Checksums-Sha1:
+ 394db905912106d44d35d47b9b9935a846daf1a5 4453604 ros-humble-autoware-behavior-velocity-no-stopping-area-module-dbgsym_0-2025.01.15.18.09_amd64.ddeb
+ 6545c291cf37cbf3da9294238550b8ac8a585350 43970 ros-humble-autoware-behavior-velocity-no-stopping-area-module_0-2025.01.15.18.09_amd64.buildinfo
+ 57b04a371949c1f347dbc6ba8439ba264b375658 94404 ros-humble-autoware-behavior-velocity-no-stopping-area-module_0-2025.01.15.18.09_amd64.deb
+Checksums-Sha256:
+ d0976b68023fd0509316f3891fa1ffafe81b9bb202832be987bb6dea79473859 4453604 ros-humble-autoware-behavior-velocity-no-stopping-area-module-dbgsym_0-2025.01.15.18.09_amd64.ddeb
+ b554aa626cf03013920f9c7e1eaa93bd3d0f583262cf223b675d8bccec1bd848 43970 ros-humble-autoware-behavior-velocity-no-stopping-area-module_0-2025.01.15.18.09_amd64.buildinfo
+ 9835898021c6ab2a1892f11e168f6e8a725a68ba318bf5a45e8fbaa82b8b714d 94404 ros-humble-autoware-behavior-velocity-no-stopping-area-module_0-2025.01.15.18.09_amd64.deb
+Files:
+ d3280df9c0e878c1957991f121bd9846 4453604 debug optional ros-humble-autoware-behavior-velocity-no-stopping-area-module-dbgsym_0-2025.01.15.18.09_amd64.ddeb
+ c2fdc84d759233df74fbce16f6c42a3e 43970 misc optional ros-humble-autoware-behavior-velocity-no-stopping-area-module_0-2025.01.15.18.09_amd64.buildinfo
+ 4479c3e756a79156f79d1f5c857e650e 94404 misc optional ros-humble-autoware-behavior-velocity-no-stopping-area-module_0-2025.01.15.18.09_amd64.deb

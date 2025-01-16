@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-virtual-traffic-light-module
+Binary: ros-humble-autoware-behavior-velocity-virtual-traffic-light-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.15.20.18
+Distribution: jammy
+Urgency: high
+Maintainer: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Changed-By: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-virtual-traffic-light-module - The autoware_behavior_velocity_virtual_traffic_light_module packa
+Changes:
+ ros-humble-autoware-behavior-velocity-virtual-traffic-light-module (0-2025.01.15.20.18) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - planning (#9570 <https://github.com/autowarefoundation/autoware.universe/issues/9570>)
+   * feat(behavior_velocity_planner)!: remove stop_reason (#9452 <https://github.com/autowarefoundation/autoware.universe/issues/9452>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Mamoru Sobue, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ e7ff183cfa340663610aea29d5e2267fd0d1dab2 3421862 ros-humble-autoware-behavior-velocity-virtual-traffic-light-module-dbgsym_0-2025.01.15.20.18_amd64.ddeb
+ 56320511225ca15b020d0d512b2315617afc662b 44049 ros-humble-autoware-behavior-velocity-virtual-traffic-light-module_0-2025.01.15.20.18_amd64.buildinfo
+ 72401c6b9c8e97a84abf2a5c2b8d436821058c2f 83210 ros-humble-autoware-behavior-velocity-virtual-traffic-light-module_0-2025.01.15.20.18_amd64.deb
+Checksums-Sha256:
+ 9f3ac3a865c5105574caafa04bdd89194f99704e25801bbbbed341f52ce96869 3421862 ros-humble-autoware-behavior-velocity-virtual-traffic-light-module-dbgsym_0-2025.01.15.20.18_amd64.ddeb
+ 5359f94e1f4c9c9fea646960a59ae5e1359ed545d751c5cb620030bc87a3ae31 44049 ros-humble-autoware-behavior-velocity-virtual-traffic-light-module_0-2025.01.15.20.18_amd64.buildinfo
+ badf49253b3a7561e05d75b40577d7eda826314d31120c5bd7e21e0e6ceba7f1 83210 ros-humble-autoware-behavior-velocity-virtual-traffic-light-module_0-2025.01.15.20.18_amd64.deb
+Files:
+ 06b894b4179a03832a1733423d3aabb8 3421862 debug optional ros-humble-autoware-behavior-velocity-virtual-traffic-light-module-dbgsym_0-2025.01.15.20.18_amd64.ddeb
+ 18fbe0a4e4b5e54793fbc80b453cf6d2 44049 misc optional ros-humble-autoware-behavior-velocity-virtual-traffic-light-module_0-2025.01.15.20.18_amd64.buildinfo
+ 9388a59df12b4099f9d0d8a16cb1d2bd 83210 misc optional ros-humble-autoware-behavior-velocity-virtual-traffic-light-module_0-2025.01.15.20.18_amd64.deb

@@ -34,6 +34,12 @@ autoware_component_monitor:
 autoware_cuda_utils:
   ubuntu:
   - ros-humble-autoware-cuda-utils
+autoware_fake_test_node:
+  ubuntu:
+  - ros-humble-autoware-fake-test-node
+autoware_global_parameter_loader:
+  ubuntu:
+  - ros-humble-autoware-global-parameter-loader
 autoware_image_transport_decompressor:
   ubuntu:
   - ros-humble-autoware-image-transport-decompressor
@@ -58,6 +64,9 @@ autoware_map_msgs:
 autoware_mission_details_overlay_rviz_plugin:
   ubuntu:
   - ros-humble-autoware-mission-details-overlay-rviz-plugin
+autoware_node:
+  ubuntu:
+  - ros-humble-autoware-node
 autoware_osqp_interface:
   ubuntu:
   - ros-humble-autoware-osqp-interface
@@ -82,6 +91,9 @@ autoware_point_types:
 autoware_polar_grid:
   ubuntu:
   - ros-humble-autoware-polar-grid
+autoware_pyplot:
+  ubuntu:
+  - ros-humble-autoware-pyplot
 autoware_qp_interface:
   ubuntu:
   - ros-humble-autoware-qp-interface
@@ -109,6 +121,9 @@ autoware_tensorrt_common:
 autoware_tensorrt_classifier:
   ubuntu:
   - ros-humble-autoware-tensorrt-classifier
+autoware_test_node:
+  ubuntu:
+  - ros-humble-autoware-test-node
 autoware_testing:
   ubuntu:
   - ros-humble-autoware-testing
@@ -121,9 +136,15 @@ autoware_utils:
 autoware_lanelet2_extension:
   ubuntu:
   - ros-humble-autoware-lanelet2-extension
+autoware_geography_utils:
+  ubuntu:
+  - ros-humble-autoware-geography-utils
 autoware_lanelet2_extension_python:
   ubuntu:
   - ros-humble-autoware-lanelet2-extension-python
+autoware_lanelet2_map_visualizer:
+  ubuntu:
+  - ros-humble-autoware-lanelet2-map-visualizer
 autoware_map_tf_generator:
   ubuntu:
   - ros-humble-autoware-map-tf-generator
@@ -133,6 +154,9 @@ autoware_v2x_msgs:
 autoware_vehicle_msgs:
   ubuntu:
   - ros-humble-autoware-vehicle-msgs
+autoware_vehicle_velocity_converter:
+  ubuntu:
+  - ros-humble-autoware-vehicle-velocity-converter
 awsim_labs_sensor_kit_launch:
   ubuntu:
   - ros-humble-awsim-labs-sensor-kit-launch
@@ -190,18 +214,12 @@ eagleye_coordinate:
 eagleye_tf:
   ubuntu:
   - ros-humble-eagleye-tf
-fake_test_node:
-  ubuntu:
-  - ros-humble-fake-test-node
-global_parameter_loader:
-  ubuntu:
-  - ros-humble-global-parameter-loader
 glog:
   ubuntu:
   - ros-humble-glog
-glog_component:
+autoware_glog_component:
   ubuntu:
-  - ros-humble-glog-component
+  - ros-humble-autoware-glog-component
 imu_description:
   ubuntu:
   - ros-humble-imu-description
@@ -376,18 +394,9 @@ tier4_map_launch:
 tier4_map_msgs:
   ubuntu:
   - ros-humble-tier4-map-msgs
-autoware_geography_utils:
-  ubuntu:
-  - ros-humble-autoware-geography-utils
-autoware_lanelet2_map_visualizer:
-  ubuntu:
-  - ros-humble-autoware-lanelet2-map-visualizer
 tier4_metric_msgs:
   ubuntu:
   - ros-humble-tier4-metric-msgs
-autoware_processing_time_checker:
-  ubuntu:
-  - ros-humble-autoware-processing-time-checker
 tier4_perception_launch:
   ubuntu:
   - ros-humble-tier4-perception-launch
@@ -403,6 +412,9 @@ autoware_traffic_light_classifier:
 autoware_traffic_light_multi_camera_fusion:
   ubuntu:
   - ros-humble-autoware-traffic-light-multi-camera-fusion
+autoware_traffic_light_utils:
+  ubuntu:
+  - ros-humble-autoware-traffic-light-utils
 autoware_traffic_light_visualization:
   ubuntu:
   - ros-humble-autoware-traffic-light-visualization
@@ -529,6 +541,9 @@ autoware_pose_instability_detector:
 autoware_probabilistic_occupancy_grid_map:
   ubuntu:
   - ros-humble-autoware-probabilistic-occupancy-grid-map
+autoware_processing_time_checker:
+  ubuntu:
+  - ros-humble-autoware-processing-time-checker
 autoware_radar_crossing_objects_noise_filter:
   ubuntu:
   - ros-humble-autoware-radar-crossing-objects-noise-filter
@@ -574,6 +589,12 @@ autoware_traffic_light_fine_detector:
 autoware_traffic_light_map_based_detector:
   ubuntu:
   - ros-humble-autoware-traffic-light-map-based-detector
+autoware_traffic_light_occlusion_predictor:
+  ubuntu:
+  - ros-humble-autoware-traffic-light-occlusion-predictor
+autoware_traffic_light_recognition_marker_publisher:
+  ubuntu:
+  - ros-humble-autoware-traffic-light-recognition-marker-publisher
 autoware_vehicle_info_utils:
   ubuntu:
   - ros-humble-autoware-vehicle-info-utils
@@ -835,6 +856,39 @@ autoware_remaining_distance_time_calculator:
 autoware_rtc_interface:
   ubuntu:
   - ros-humble-autoware-rtc-interface
+autoware_behavior_path_planner_common:
+  ubuntu:
+  - ros-humble-autoware-behavior-path-planner-common
+autoware_behavior_path_planner:
+  ubuntu:
+  - ros-humble-autoware-behavior-path-planner
+autoware_behavior_path_dynamic_obstacle_avoidance_module:
+  ubuntu:
+  - ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module
+autoware_behavior_path_goal_planner_module:
+  ubuntu:
+  - ros-humble-autoware-behavior-path-goal-planner-module
+autoware_behavior_path_lane_change_module:
+  ubuntu:
+  - ros-humble-autoware-behavior-path-lane-change-module
+autoware_behavior_path_external_request_lane_change_module:
+  ubuntu:
+  - ros-humble-autoware-behavior-path-external-request-lane-change-module
+autoware_behavior_path_sampling_planner_module:
+  ubuntu:
+  - ros-humble-autoware-behavior-path-sampling-planner-module
+autoware_behavior_path_side_shift_module:
+  ubuntu:
+  - ros-humble-autoware-behavior-path-side-shift-module
+autoware_behavior_path_start_planner_module:
+  ubuntu:
+  - ros-humble-autoware-behavior-path-start-planner-module
+autoware_behavior_path_static_obstacle_avoidance_module:
+  ubuntu:
+  - ros-humble-autoware-behavior-path-static-obstacle-avoidance-module
+autoware_behavior_path_avoidance_by_lane_change_module:
+  ubuntu:
+  - ros-humble-autoware-behavior-path-avoidance-by-lane-change-module
 autoware_scenario_selector:
   ubuntu:
   - ros-humble-autoware-scenario-selector
@@ -895,12 +949,18 @@ autoware_behavior_velocity_stop_line_module:
 autoware_behavior_velocity_template_module:
   ubuntu:
   - ros-humble-autoware-behavior-velocity-template-module
+autoware_behavior_velocity_traffic_light_module:
+  ubuntu:
+  - ros-humble-autoware-behavior-velocity-traffic-light-module
 autoware_behavior_velocity_virtual_traffic_light_module:
   ubuntu:
   - ros-humble-autoware-behavior-velocity-virtual-traffic-light-module
 autoware_behavior_velocity_walkway_module:
   ubuntu:
   - ros-humble-autoware-behavior-velocity-walkway-module
+autoware_behavior_velocity_planner:
+  ubuntu:
+  - ros-humble-autoware-behavior-velocity-planner
 autoware_motion_velocity_planner_common:
   ubuntu:
   - ros-humble-autoware-motion-velocity-planner-common
@@ -910,6 +970,15 @@ autoware_motion_velocity_dynamic_obstacle_stop_module:
 autoware_motion_velocity_obstacle_velocity_limiter_module:
   ubuntu:
   - ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module
+autoware_motion_velocity_out_of_lane_module:
+  ubuntu:
+  - ros-humble-autoware-motion-velocity-out-of-lane-module
+autoware_motion_velocity_planner_node:
+  ubuntu:
+  - ros-humble-autoware-motion-velocity-planner-node
+autoware_static_centerline_generator:
+  ubuntu:
+  - ros-humble-autoware-static-centerline-generator
 pacmod_interface:
   ubuntu:
   - ros-humble-pacmod-interface
@@ -940,69 +1009,9 @@ tier4_vehicle_rviz_plugin:
 topic_state_monitor:
   ubuntu:
   - ros-humble-topic-state-monitor
-traffic_light_recognition_marker_publisher:
-  ubuntu:
-  - ros-humble-traffic-light-recognition-marker-publisher
-traffic_light_utils:
-  ubuntu:
-  - ros-humble-traffic-light-utils
-autoware_behavior_path_planner_common:
-  ubuntu:
-  - ros-humble-autoware-behavior-path-planner-common
-autoware_behavior_path_planner:
-  ubuntu:
-  - ros-humble-autoware-behavior-path-planner
-autoware_behavior_path_dynamic_obstacle_avoidance_module:
-  ubuntu:
-  - ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module
-autoware_behavior_path_goal_planner_module:
-  ubuntu:
-  - ros-humble-autoware-behavior-path-goal-planner-module
-autoware_behavior_path_lane_change_module:
-  ubuntu:
-  - ros-humble-autoware-behavior-path-lane-change-module
-autoware_behavior_path_external_request_lane_change_module:
-  ubuntu:
-  - ros-humble-autoware-behavior-path-external-request-lane-change-module
-autoware_behavior_path_sampling_planner_module:
-  ubuntu:
-  - ros-humble-autoware-behavior-path-sampling-planner-module
-autoware_behavior_path_side_shift_module:
-  ubuntu:
-  - ros-humble-autoware-behavior-path-side-shift-module
-autoware_behavior_path_start_planner_module:
-  ubuntu:
-  - ros-humble-autoware-behavior-path-start-planner-module
-autoware_behavior_path_static_obstacle_avoidance_module:
-  ubuntu:
-  - ros-humble-autoware-behavior-path-static-obstacle-avoidance-module
-autoware_behavior_path_avoidance_by_lane_change_module:
-  ubuntu:
-  - ros-humble-autoware-behavior-path-avoidance-by-lane-change-module
-autoware_behavior_velocity_traffic_light_module:
-  ubuntu:
-  - ros-humble-autoware-behavior-velocity-traffic-light-module
-autoware_behavior_velocity_planner:
-  ubuntu:
-  - ros-humble-autoware-behavior-velocity-planner
-autoware_motion_velocity_out_of_lane_module:
-  ubuntu:
-  - ros-humble-autoware-motion-velocity-out-of-lane-module
-autoware_motion_velocity_planner_node:
-  ubuntu:
-  - ros-humble-autoware-motion-velocity-planner-node
-autoware_static_centerline_generator:
-  ubuntu:
-  - ros-humble-autoware-static-centerline-generator
-autoware_traffic_light_occlusion_predictor:
-  ubuntu:
-  - ros-humble-autoware-traffic-light-occlusion-predictor
 vehicle_door_simulator:
   ubuntu:
   - ros-humble-vehicle-door-simulator
-vehicle_velocity_converter:
-  ubuntu:
-  - ros-humble-vehicle-velocity-converter
 velodyne_description:
   ubuntu:
   - ros-humble-velodyne-description

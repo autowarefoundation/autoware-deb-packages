@@ -1,0 +1,97 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-image-projection-based-fusion
+Binary: ros-humble-autoware-image-projection-based-fusion
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.14.22.59
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-image-projection-based-fusion - The autoware_image_projection_based_fusion package
+Changes:
+ ros-humble-autoware-image-projection-based-fusion (0-2025.01.14.22.59) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix(lidar_centerpoint): non-maximum suppression target decision logic (#9595 <https://github.com/autowarefoundation/autoware.universe/issues/9595>)
+     * refactor(lidar_centerpoint): optimize non-maximum suppression search distance calculation
+     * feat(lidar_centerpoint): do not suppress if one side of the object is pedestrian
+     * style(pre-commit): autofix
+     * refactor(lidar_centerpoint): remove unused variables
+     * refactor: remove unused variables
+     fix: implement non-maximum suppression logic to the transfusion
+     refactor: remove unused parameter iou_nms_target_class_names
+     Revert "fix: implement non-maximum suppression logic to the transfusion"
+     This reverts commit b8017fc366ec7d67234445ef5869f8beca9b6f45.
+     fix: revert transfusion modification
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * feat: remove max rois limit in the image projection based fusion (#9596 <https://github.com/autowarefoundation/autoware.universe/issues/9596>)
+     feat: remove max rois limit
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(autoware_image_projection_based_fusion): detected object roi box projection fix (#9519 <https://github.com/autowarefoundation/autoware.universe/issues/9519>)
+     * fix: detected object roi box projection fix
+     1. eliminate misuse of std::numeric_limits<double>::min()
+     2. fix roi range up to the image edges
+     * fix: fix roi range calculation in RoiDetectedObjectFusionNode
+     Improve the calculation of the region of interest (ROI) in the RoiDetectedObjectFusionNode. The previous code had an issue where the ROI range was not correctly limited to the image edges. This fix ensures that the ROI is within the image boundaries by using the correct comparison operators for the x and y coordinates.
+     ---------
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * ci(pre-commit): update cpplint to 2.0.0 (#9557 <https://github.com/autowarefoundation/autoware.universe/issues/9557>)
+   * fix(cpplint): include what you use - perception (#9569 <https://github.com/autowarefoundation/autoware.universe/issues/9569>)
+   * chore(image_projection_based_fusion): add debug for roi_pointcloud fusion (#9481 <https://github.com/autowarefoundation/autoware.universe/issues/9481>)
+   * fix(autoware_image_projection_based_fusion): fix clang-diagnostic-inconsistent-missing-override (#9509 <https://github.com/autowarefoundation/autoware.universe/issues/9509>)
+   * fix(autoware_image_projection_based_fusion): fix clang-diagnostic-unused-private-field (#9505 <https://github.com/autowarefoundation/autoware.universe/issues/9505>)
+   * fix(autoware_image_projection_based_fusion): fix clang-diagnostic-inconsistent-missing-override (#9495 <https://github.com/autowarefoundation/autoware.universe/issues/9495>)
+   * fix(autoware_image_projection_based_fusion): fix clang-diagnostic-inconsistent-missing-override (#9516 <https://github.com/autowarefoundation/autoware.universe/issues/9516>)
+     fix: clang-diagnostic-inconsistent-missing-override
+   * fix(autoware_image_projection_based_fusion): fix clang-diagnostic-inconsistent-missing-override (#9510 <https://github.com/autowarefoundation/autoware.universe/issues/9510>)
+   * fix(autoware_image_projection_based_fusion): fix clang-diagnostic-unused-private-field (#9473 <https://github.com/autowarefoundation/autoware.universe/issues/9473>)
+     * fix: clang-diagnostic-unused-private-field
+     * fix: build error
+     ---------
+   * fix(autoware_image_projection_based_fusion): fix clang-diagnostic-inconsistent-missing-override (#9472 <https://github.com/autowarefoundation/autoware.universe/issues/9472>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * fix(autoware_image_projection_based_fusion): make optional to consider lens distortion in the point projection (#9233 <https://github.com/autowarefoundation/autoware.universe/issues/9233>)
+     chore: add point_project_to_unrectified_image parameter to fusion_common.param.yaml
+   * fix(autoware_image_projection_based_fusion): fix bugprone-misplaced-widening-cast (#9226 <https://github.com/autowarefoundation/autoware.universe/issues/9226>)
+     * fix: bugprone-misplaced-widening-cast
+     * fix: clang-format
+     ---------
+   * fix(autoware_image_projection_based_fusion): fix bugprone-misplaced-widening-cast (#9229 <https://github.com/autowarefoundation/autoware.universe/issues/9229>)
+     * fix: bugprone-misplaced-widening-cast
+     * fix: clang-format
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Taekjin LEE, Yoshi Ri, Yutaka Kondo, awf-autoware-bot[bot], badai nguyen, kobayu858
+Checksums-Sha1:
+ 954abd56a0395f4d6d53ca8cd89f9ae0f40893b5 13785966 ros-humble-autoware-image-projection-based-fusion-dbgsym_0-2025.01.14.22.59_amd64.ddeb
+ c98a55529e6c367ab49252e2d0a8f2ad6ccdc24b 45147 ros-humble-autoware-image-projection-based-fusion_0-2025.01.14.22.59_amd64.buildinfo
+ 3600637701315e6bb04a4e389d023820656f946d 339956 ros-humble-autoware-image-projection-based-fusion_0-2025.01.14.22.59_amd64.deb
+Checksums-Sha256:
+ 42d69ce60ab5cfab762a6432fee122f6332f79103b0d638d400789f480f7936d 13785966 ros-humble-autoware-image-projection-based-fusion-dbgsym_0-2025.01.14.22.59_amd64.ddeb
+ f7f3673be4aebccce164aa21e46ac9ac04b5110f1bcefb37642ac3601e608778 45147 ros-humble-autoware-image-projection-based-fusion_0-2025.01.14.22.59_amd64.buildinfo
+ 0b653f8bbd0a8bc922e8e382aaa85ffed5c2f3b5a8fa85f4671b836e726745a7 339956 ros-humble-autoware-image-projection-based-fusion_0-2025.01.14.22.59_amd64.deb
+Files:
+ 661d1d195129450f7216ef59b87d6edf 13785966 debug optional ros-humble-autoware-image-projection-based-fusion-dbgsym_0-2025.01.14.22.59_amd64.ddeb
+ 64aee186cba331ee46e8fd770b6dc1f9 45147 misc optional ros-humble-autoware-image-projection-based-fusion_0-2025.01.14.22.59_amd64.buildinfo
+ c5b92eb5fe6e3430caf2aa9e1a2d6d21 339956 misc optional ros-humble-autoware-image-projection-based-fusion_0-2025.01.14.22.59_amd64.deb

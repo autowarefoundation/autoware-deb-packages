@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-joy-controller
+Binary: ros-humble-autoware-joy-controller
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.14.22.02
+Distribution: jammy
+Urgency: high
+Maintainer: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Changed-By: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-joy-controller - The autoware_joy_controller package
+Changes:
+ ros-humble-autoware-joy-controller (0-2025.01.14.22.02) jammy; urgency=high
+ .
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 6e1e96cf724ba6ceac4067e097bdbb97cb55d928 4456648 ros-humble-autoware-joy-controller-dbgsym_0-2025.01.14.22.02_amd64.ddeb
+ 660077aa195c384452dfd8d20d621cf6dc91804c 42663 ros-humble-autoware-joy-controller_0-2025.01.14.22.02_amd64.buildinfo
+ e277e8ce69a796afd169d4571edc05755de7c4e2 201562 ros-humble-autoware-joy-controller_0-2025.01.14.22.02_amd64.deb
+Checksums-Sha256:
+ d691537a343d1e0604211a2e758a650a89d067fe3608af15fdb26b348516b1aa 4456648 ros-humble-autoware-joy-controller-dbgsym_0-2025.01.14.22.02_amd64.ddeb
+ 4d1d819adca7b0117378410a80640427a5d67bac17a4b60b211779d8942e93cc 42663 ros-humble-autoware-joy-controller_0-2025.01.14.22.02_amd64.buildinfo
+ 62fc1ad1629da709ecc4e47c4ca6bf19170937da5a62a5ef545a589fe80b20f9 201562 ros-humble-autoware-joy-controller_0-2025.01.14.22.02_amd64.deb
+Files:
+ c513518783e137a905bb834d5329ddac 4456648 debug optional ros-humble-autoware-joy-controller-dbgsym_0-2025.01.14.22.02_amd64.ddeb
+ d49653175b29b2ef1c18075a402b631c 42663 misc optional ros-humble-autoware-joy-controller_0-2025.01.14.22.02_amd64.buildinfo
+ baf9b79a146c544cf4c744f6f60016da 201562 misc optional ros-humble-autoware-joy-controller_0-2025.01.14.22.02_amd64.deb

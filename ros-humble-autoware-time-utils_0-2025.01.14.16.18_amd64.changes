@@ -1,0 +1,57 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-time-utils
+Binary: ros-humble-autoware-time-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.14.16.18
+Distribution: jammy
+Urgency: high
+Maintainer: Christopher Ho <christopherj.ho@gmail.com>
+Changed-By: Christopher Ho <christopherj.ho@gmail.com>
+Description:
+ ros-humble-autoware-time-utils - Simple conversion methods to/from std::chrono to simplify algorit
+Changes:
+ ros-humble-autoware-time-utils (0-2025.01.14.16.18) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix: fix package names in changelog files (#9500 <https://github.com/autowarefoundation/autoware.universe/issues/9500>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * refactor(time_utils): prefix package and namespace with autoware (#9173 <https://github.com/autowarefoundation/autoware.universe/issues/9173>)
+     * refactor(time_utils): prefix package and namespace with autoware
+     * refactor(time_utils): prefix package and namespace with autoware
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 19f643f6c7b2cd73bd8df5873b379c29f3b435ed 14188 ros-humble-autoware-time-utils-dbgsym_0-2025.01.14.16.18_amd64.ddeb
+ 3432a0d344a6b4dbca7e3d781bba88aad01df92c 13785 ros-humble-autoware-time-utils_0-2025.01.14.16.18_amd64.buildinfo
+ 3552c766589c1d37c8adb3d3a5a6b9d13f5ae7dd 12588 ros-humble-autoware-time-utils_0-2025.01.14.16.18_amd64.deb
+Checksums-Sha256:
+ d9a39a92a99fac6816c3d6a574dea2af9c7c5a26e9b04694820cb8ed8e281b79 14188 ros-humble-autoware-time-utils-dbgsym_0-2025.01.14.16.18_amd64.ddeb
+ bb0508a7dd7548c1dc3a97efcaf9a7dc8797a83a2a9f43aaa1de5199a441f67d 13785 ros-humble-autoware-time-utils_0-2025.01.14.16.18_amd64.buildinfo
+ b1376f500976d6b31f7a8b2bea44acdd21d2eb4ef49fbc31a1fa50caffeb5fd0 12588 ros-humble-autoware-time-utils_0-2025.01.14.16.18_amd64.deb
+Files:
+ ac77344482d93a33b919f70658f8473a 14188 debug optional ros-humble-autoware-time-utils-dbgsym_0-2025.01.14.16.18_amd64.ddeb
+ 8220a67c4db95402b7d269dd93ae99fc 13785 misc optional ros-humble-autoware-time-utils_0-2025.01.14.16.18_amd64.buildinfo
+ 08a1dcb780921b41758e0aaa310d4b65 12588 misc optional ros-humble-autoware-time-utils_0-2025.01.14.16.18_amd64.deb

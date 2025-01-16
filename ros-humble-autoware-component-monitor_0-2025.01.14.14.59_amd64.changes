@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-component-monitor
+Binary: ros-humble-autoware-component-monitor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.14.14.59
+Distribution: jammy
+Urgency: high
+Maintainer: Mehmet Emin Başoğlu <memin@leodrive.ai>
+Changed-By: Mehmet Emin Başoğlu <memin@leodrive.ai>
+Description:
+ ros-humble-autoware-component-monitor - A ROS 2 package to monitor system usage of component containers.
+Changes:
+ ros-humble-autoware-component-monitor (0-2025.01.14.14.59) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * ci(pre-commit): update cpplint to 2.0.0 (#9557 <https://github.com/autowarefoundation/autoware.universe/issues/9557>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo, awf-autoware-bot[bot]
+Checksums-Sha1:
+ be7fc1110f2800a387c4bda64cc20405e6a9b300 1802932 ros-humble-autoware-component-monitor-dbgsym_0-2025.01.14.14.59_amd64.ddeb
+ fce73039a1f4cabee25bf296bf5d151bece3638b 16130 ros-humble-autoware-component-monitor_0-2025.01.14.14.59_amd64.buildinfo
+ 487721bf0b656e231de84fc484777930af0de201 104110 ros-humble-autoware-component-monitor_0-2025.01.14.14.59_amd64.deb
+Checksums-Sha256:
+ e1c3a00b32b64fd11bc7df86ebb8487d3b3451659194c91345352ea9cb30c11c 1802932 ros-humble-autoware-component-monitor-dbgsym_0-2025.01.14.14.59_amd64.ddeb
+ 64dc92571a690c7b62a713091c8f74b7a39292e93575b9a44283498077d3c9ce 16130 ros-humble-autoware-component-monitor_0-2025.01.14.14.59_amd64.buildinfo
+ 7ce05028c9734434035d229c0a979711812876dbcab146a795c835acc6aef26e 104110 ros-humble-autoware-component-monitor_0-2025.01.14.14.59_amd64.deb
+Files:
+ aaa7a5618312bcae006edf9741382610 1802932 debug optional ros-humble-autoware-component-monitor-dbgsym_0-2025.01.14.14.59_amd64.ddeb
+ 66fbeaabe73a790d8594ea13b8d066b8 16130 misc optional ros-humble-autoware-component-monitor_0-2025.01.14.14.59_amd64.buildinfo
+ 399aeda9edcd2199f0fee47ce68e1160 104110 misc optional ros-humble-autoware-component-monitor_0-2025.01.14.14.59_amd64.deb

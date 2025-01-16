@@ -1,0 +1,46 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-tier4-api-utils
+Binary: ros-humble-tier4-api-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.14.20.06
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-tier4-api-utils - The tier4_api_utils package
+Changes:
+ ros-humble-tier4-api-utils (0-2025.01.14.20.06) jammy; urgency=high
+ .
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 67077b8b0041583da8141ee63e29f3a480e76480 15145 ros-humble-tier4-api-utils_0-2025.01.14.20.06_amd64.buildinfo
+ cdfeb246c09a10c0448dcfe3d3bedcc68a5e79d6 9386 ros-humble-tier4-api-utils_0-2025.01.14.20.06_amd64.deb
+Checksums-Sha256:
+ 6b12ff9f3891c4c0905a7e3ee779f96c989ee22b7b6fc97aaa6dd42b9c6308b6 15145 ros-humble-tier4-api-utils_0-2025.01.14.20.06_amd64.buildinfo
+ 213e4bd3db5e284426f5bc92306c620eb624b1d23f19e251d395775f3cd2f258 9386 ros-humble-tier4-api-utils_0-2025.01.14.20.06_amd64.deb
+Files:
+ 8b46a953d0208d4340855ffdd2dbd678 15145 misc optional ros-humble-tier4-api-utils_0-2025.01.14.20.06_amd64.buildinfo
+ ba7b24f828a71264ec1811e56af3bb9e 9386 misc optional ros-humble-tier4-api-utils_0-2025.01.14.20.06_amd64.deb

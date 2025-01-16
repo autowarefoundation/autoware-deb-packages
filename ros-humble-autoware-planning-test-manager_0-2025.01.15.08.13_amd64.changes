@@ -1,0 +1,56 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-planning-test-manager
+Binary: ros-humble-autoware-planning-test-manager
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.15.08.13
+Distribution: jammy
+Urgency: high
+Maintainer: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Changed-By: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Description:
+ ros-humble-autoware-planning-test-manager - ROS 2 node for testing interface of the nodes in planning module
+Changes:
+ ros-humble-autoware-planning-test-manager (0-2025.01.15.08.13) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * chore(planning_test_manager): update owner (#9620 <https://github.com/autowarefoundation/autoware.universe/issues/9620>)
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - planning (#9570 <https://github.com/autowarefoundation/autoware.universe/issues/9570>)
+   * refactor(test_utils): return parser as optional (#9391 <https://github.com/autowarefoundation/autoware.universe/issues/9391>)
+     Co-authored-by: Mamoru Sobue <mailto:hilo.soblin@gmail.com>
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * refactor(component_interface_utils): prefix package and namespace with autoware (#9092 <https://github.com/autowarefoundation/autoware.universe/issues/9092>)
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Mamoru Sobue, Ryohsuke Mitsudome, Yutaka Kondo, Zulfaqar Azmi
+Checksums-Sha1:
+ 7c5c56b35482f280b080ea3de3978c14a58d5f03 8450028 ros-humble-autoware-planning-test-manager-dbgsym_0-2025.01.15.08.13_amd64.ddeb
+ 52477e339b5627017b7bf51d6b98a7a897e2281d 42683 ros-humble-autoware-planning-test-manager_0-2025.01.15.08.13_amd64.buildinfo
+ 5f9693a6442c0dc59b2ccf040c8504022d9a4523 306932 ros-humble-autoware-planning-test-manager_0-2025.01.15.08.13_amd64.deb
+Checksums-Sha256:
+ 94f8b41ee8270b496584a0d6010d8cedb340bea215536ced97588c3a6cafab54 8450028 ros-humble-autoware-planning-test-manager-dbgsym_0-2025.01.15.08.13_amd64.ddeb
+ fd93a60201f5ec7b34868491412a1b17d6684934fce14106deb25ce457d208fa 42683 ros-humble-autoware-planning-test-manager_0-2025.01.15.08.13_amd64.buildinfo
+ 681d8d8525b1d428a84603bd4fdfb580a26baefc9b87393570e903882ac255e0 306932 ros-humble-autoware-planning-test-manager_0-2025.01.15.08.13_amd64.deb
+Files:
+ fed96383673f16e191d87fd9ccd41aa3 8450028 debug optional ros-humble-autoware-planning-test-manager-dbgsym_0-2025.01.15.08.13_amd64.ddeb
+ 589dc4b08cbcea5d1e3ebdf5b2d2cbf6 42683 misc optional ros-humble-autoware-planning-test-manager_0-2025.01.15.08.13_amd64.buildinfo
+ 5ecf7b19c2242b341a0cedddb24f3e59 306932 misc optional ros-humble-autoware-planning-test-manager_0-2025.01.15.08.13_amd64.deb

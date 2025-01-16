@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-occlusion-spot-module
+Binary: ros-humble-autoware-behavior-velocity-occlusion-spot-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.15.18.28
+Distribution: jammy
+Urgency: high
+Maintainer: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Changed-By: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-occlusion-spot-module - The autoware_behavior_velocity_occlusion_spot_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-occlusion-spot-module (0-2025.01.15.18.28) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - planning (#9570 <https://github.com/autowarefoundation/autoware.universe/issues/9570>)
+   * feat(behavior_velocity_planner)!: remove stop_reason (#9452 <https://github.com/autowarefoundation/autoware.universe/issues/9452>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Mamoru Sobue, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 24e7e63b31074181e3c3c079db6219071fda377a 5549850 ros-humble-autoware-behavior-velocity-occlusion-spot-module-dbgsym_0-2025.01.15.18.28_amd64.ddeb
+ 4bd61996ba61be2c0cf235d14c3a060f3eba4b2f 48515 ros-humble-autoware-behavior-velocity-occlusion-spot-module_0-2025.01.15.18.28_amd64.buildinfo
+ ee75e0e84af3ec1f55ca695334a81347c36030ce 139282 ros-humble-autoware-behavior-velocity-occlusion-spot-module_0-2025.01.15.18.28_amd64.deb
+Checksums-Sha256:
+ 6b557da0a61a6b03727aad9125caa0fe1e0d6f9a5abcb304a3bac2e7451c4f5c 5549850 ros-humble-autoware-behavior-velocity-occlusion-spot-module-dbgsym_0-2025.01.15.18.28_amd64.ddeb
+ 62673baf26d029c66cacb92294ce53cfe1060c4c407dc0deaebaaae63881e4fe 48515 ros-humble-autoware-behavior-velocity-occlusion-spot-module_0-2025.01.15.18.28_amd64.buildinfo
+ aced6391049d0102339802ae21d99e59a2ec7ef65a4b7f267d7b1124ede70a69 139282 ros-humble-autoware-behavior-velocity-occlusion-spot-module_0-2025.01.15.18.28_amd64.deb
+Files:
+ 827f7d3a6565bb35fc5624a342850070 5549850 debug optional ros-humble-autoware-behavior-velocity-occlusion-spot-module-dbgsym_0-2025.01.15.18.28_amd64.ddeb
+ e8c2bc48ccdcebd9b3257935fa4b0ddb 48515 misc optional ros-humble-autoware-behavior-velocity-occlusion-spot-module_0-2025.01.15.18.28_amd64.buildinfo
+ b4e6eba32f0c0b491f2c48084cf4d99c 139282 misc optional ros-humble-autoware-behavior-velocity-occlusion-spot-module_0-2025.01.15.18.28_amd64.deb

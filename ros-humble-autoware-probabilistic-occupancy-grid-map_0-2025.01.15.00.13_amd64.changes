@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-probabilistic-occupancy-grid-map
+Binary: ros-humble-autoware-probabilistic-occupancy-grid-map
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.15.00.13
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-probabilistic-occupancy-grid-map - generate probabilistic occupancy grid map
+Changes:
+ ros-humble-autoware-probabilistic-occupancy-grid-map (0-2025.01.15.00.13) jammy; urgency=high
+ .
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * fix(autoware_probabilistic_occupancy_grid_map): fix bugprone-incorrect-roundings (#9221 <https://github.com/autowarefoundation/autoware.universe/issues/9221>)
+     fix: bugprone-incorrect-roundings
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo, kobayu858
+Checksums-Sha1:
+ 91ae32e4d1681217aecde621c0e78161b7b64c1d 19520702 ros-humble-autoware-probabilistic-occupancy-grid-map-dbgsym_0-2025.01.15.00.13_amd64.ddeb
+ 1e2fd2baffe34f11bc717c1407eb7d0e11f36e8f 49213 ros-humble-autoware-probabilistic-occupancy-grid-map_0-2025.01.15.00.13_amd64.buildinfo
+ 55efc2a9230615eb7fbdccf46bde09400fac6d09 503722 ros-humble-autoware-probabilistic-occupancy-grid-map_0-2025.01.15.00.13_amd64.deb
+Checksums-Sha256:
+ bbc4b1b054463c3c5abc38873e72faeddd75ad7e48a086761520730fb4bbd1ac 19520702 ros-humble-autoware-probabilistic-occupancy-grid-map-dbgsym_0-2025.01.15.00.13_amd64.ddeb
+ 59aceeee654e30c0ca8d687b0faf67c1e71967eddc8ddeaa091078751a3cc6e6 49213 ros-humble-autoware-probabilistic-occupancy-grid-map_0-2025.01.15.00.13_amd64.buildinfo
+ d1770670488b84fab59feaea56ceb9722b1a7c55115b3a96fbe66b34de805240 503722 ros-humble-autoware-probabilistic-occupancy-grid-map_0-2025.01.15.00.13_amd64.deb
+Files:
+ 608d343f00fd9b5e267790c616b98660 19520702 debug optional ros-humble-autoware-probabilistic-occupancy-grid-map-dbgsym_0-2025.01.15.00.13_amd64.ddeb
+ 786338a5346d16d0d0fdf647786ba481 49213 misc optional ros-humble-autoware-probabilistic-occupancy-grid-map_0-2025.01.15.00.13_amd64.buildinfo
+ a307e3326655f3757d438e1923470183 503722 misc optional ros-humble-autoware-probabilistic-occupancy-grid-map_0-2025.01.15.00.13_amd64.deb

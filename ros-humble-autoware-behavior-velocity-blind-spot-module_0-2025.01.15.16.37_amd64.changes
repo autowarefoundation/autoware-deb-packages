@@ -1,0 +1,57 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-blind-spot-module
+Binary: ros-humble-autoware-behavior-velocity-blind-spot-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.15.16.37
+Distribution: jammy
+Urgency: high
+Maintainer: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Changed-By: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-blind-spot-module - The autoware_behavior_velocity_blind_spot_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-blind-spot-module (0-2025.01.15.16.37) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * ci(pre-commit): update cpplint to 2.0.0 (#9557 <https://github.com/autowarefoundation/autoware.universe/issues/9557>)
+   * fix(cpplint): include what you use - planning (#9570 <https://github.com/autowarefoundation/autoware.universe/issues/9570>)
+   * refactor(blind_spot): move util functions outside of class (#9544 <https://github.com/autowarefoundation/autoware.universe/issues/9544>)
+   * feat(behavior_velocity_planner)!: remove stop_reason (#9452 <https://github.com/autowarefoundation/autoware.universe/issues/9452>)
+   * chore(blind_spot): divide headers to include/ (#9534 <https://github.com/autowarefoundation/autoware.universe/issues/9534>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix(autoware_behavior_velocity_blind_spot_module): fix clang-diagnostic-unused-parameter (#9406 <https://github.com/autowarefoundation/autoware.universe/issues/9406>)
+     fix: clang-diagnostic-unused-parameter
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Mamoru Sobue, Ryohsuke Mitsudome, Yutaka Kondo, awf-autoware-bot[bot], kobayu858
+Checksums-Sha1:
+ 2aba56cdaafbdeb8aa36c788a735e52b1257023a 4615814 ros-humble-autoware-behavior-velocity-blind-spot-module-dbgsym_0-2025.01.15.16.37_amd64.ddeb
+ 8a082bbf3a502cbf965e560743d499a198bdd734 43916 ros-humble-autoware-behavior-velocity-blind-spot-module_0-2025.01.15.16.37_amd64.buildinfo
+ 4a5a26b702aacd2902502206198f2bb403faa267 96600 ros-humble-autoware-behavior-velocity-blind-spot-module_0-2025.01.15.16.37_amd64.deb
+Checksums-Sha256:
+ 32322dc11e12c0a54f59e723acf0f8ef9c24ea82dc5fcb6af70c0f5b2f928509 4615814 ros-humble-autoware-behavior-velocity-blind-spot-module-dbgsym_0-2025.01.15.16.37_amd64.ddeb
+ 6bde61ffc9b201a6b2091bb396586d76c4263bea18ba9d6215e7f87873887365 43916 ros-humble-autoware-behavior-velocity-blind-spot-module_0-2025.01.15.16.37_amd64.buildinfo
+ 330a8b43e3a799c581ddd3452660e8096e81e4c9a8fa899b50585b3195a059b6 96600 ros-humble-autoware-behavior-velocity-blind-spot-module_0-2025.01.15.16.37_amd64.deb
+Files:
+ c02692e79c1cdd37cf69f6f8d880edc1 4615814 debug optional ros-humble-autoware-behavior-velocity-blind-spot-module-dbgsym_0-2025.01.15.16.37_amd64.ddeb
+ cd8eb93bab2c6a6b7b64ae309f041cdb 43916 misc optional ros-humble-autoware-behavior-velocity-blind-spot-module_0-2025.01.15.16.37_amd64.buildinfo
+ f00f29a47a86f3585d0d226365817b88 96600 misc optional ros-humble-autoware-behavior-velocity-blind-spot-module_0-2025.01.15.16.37_amd64.deb

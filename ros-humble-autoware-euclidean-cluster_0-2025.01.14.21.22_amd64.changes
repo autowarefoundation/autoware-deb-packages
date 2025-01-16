@@ -1,0 +1,54 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-euclidean-cluster
+Binary: ros-humble-autoware-euclidean-cluster
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.14.21.22
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-euclidean-cluster - The autoware_euclidean_cluster package
+Changes:
+ ros-humble-autoware-euclidean-cluster (0-2025.01.14.21.22) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - perception (#9569 <https://github.com/autowarefoundation/autoware.universe/issues/9569>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * fix(autoware_euclidean_cluster): fix bugprone-misplaced-widening-cast (#9227 <https://github.com/autowarefoundation/autoware.universe/issues/9227>)
+     fix: bugprone-misplaced-widening-cast
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo, kobayu858
+Checksums-Sha1:
+ e3cb11779359d299b72819a9f826fb7e5b6c5d6a 7585968 ros-humble-autoware-euclidean-cluster-dbgsym_0-2025.01.14.21.22_amd64.ddeb
+ cedb90eab2f21b7bed1dd3b4eb53ecb1fa68ce94 40475 ros-humble-autoware-euclidean-cluster_0-2025.01.14.21.22_amd64.buildinfo
+ 7c5632af27425a383f7c88c1b83454832e5695d9 238620 ros-humble-autoware-euclidean-cluster_0-2025.01.14.21.22_amd64.deb
+Checksums-Sha256:
+ 89b25efbf3f1679ce267fbe4d46b9f4c916d2d8a0746819bc05abad111a215f0 7585968 ros-humble-autoware-euclidean-cluster-dbgsym_0-2025.01.14.21.22_amd64.ddeb
+ 0cbda139161e33e118dd80801542e43bb69548291f69c0b9263abc0b1c176d03 40475 ros-humble-autoware-euclidean-cluster_0-2025.01.14.21.22_amd64.buildinfo
+ a192e10d1b473478fa70aff0ce8f136269222499f8e9cf95e25b24b64e1896e7 238620 ros-humble-autoware-euclidean-cluster_0-2025.01.14.21.22_amd64.deb
+Files:
+ ec922b6040374d32080f825158759910 7585968 debug optional ros-humble-autoware-euclidean-cluster-dbgsym_0-2025.01.14.21.22_amd64.ddeb
+ ca99c93a89635dfdc88fe6c3ce4ffbea 40475 misc optional ros-humble-autoware-euclidean-cluster_0-2025.01.14.21.22_amd64.buildinfo
+ 699575eb59e22dcac26c70a1e8f4fb74 238620 misc optional ros-humble-autoware-euclidean-cluster_0-2025.01.14.21.22_amd64.deb

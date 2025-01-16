@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-tensorrt-common
+Binary: ros-humble-autoware-tensorrt-common
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.14.16.11
+Distribution: jammy
+Urgency: high
+Maintainer: Dan Umeda <dan.umeda@tier4.jp>
+Changed-By: Dan Umeda <dan.umeda@tier4.jp>
+Description:
+ ros-humble-autoware-tensorrt-common - tensorrt utility wrapper
+Changes:
+ ros-humble-autoware-tensorrt-common (0-2025.01.14.16.11) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - perception (#9569 <https://github.com/autowarefoundation/autoware.universe/issues/9569>)
+   * fix(autoware_tensorrt_common): fix clang-diagnostic-unused-private-field (#9493 <https://github.com/autowarefoundation/autoware.universe/issues/9493>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo, kobayu858
+Checksums-Sha1:
+ 1a923f4adcf5b3fdad7906dd511c6b94a8ee3451 15792 ros-humble-autoware-tensorrt-common_0-2025.01.14.16.11_amd64.buildinfo
+ 467232db0e129597b1a64bb7b349beae6078640d 1754 ros-humble-autoware-tensorrt-common_0-2025.01.14.16.11_amd64.deb
+Checksums-Sha256:
+ e7f0396a46bfff90e66d5c7e4426272207bc84d781b5065183b87b40bf3e7939 15792 ros-humble-autoware-tensorrt-common_0-2025.01.14.16.11_amd64.buildinfo
+ d088054b7e5a15ba909b860323c2687830c3304024fd0808a561f12f8532abca 1754 ros-humble-autoware-tensorrt-common_0-2025.01.14.16.11_amd64.deb
+Files:
+ 94360c90d22a448615dca07f76ac7326 15792 misc optional ros-humble-autoware-tensorrt-common_0-2025.01.14.16.11_amd64.buildinfo
+ ef1aa6e48d9c3e6883086975e4a1f247 1754 misc optional ros-humble-autoware-tensorrt-common_0-2025.01.14.16.11_amd64.deb

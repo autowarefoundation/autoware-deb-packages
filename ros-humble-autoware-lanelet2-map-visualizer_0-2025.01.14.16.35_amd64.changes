@@ -1,0 +1,74 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-lanelet2-map-visualizer
+Binary: ros-humble-autoware-lanelet2-map-visualizer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.14.16.35
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-lanelet2-map-visualizer - The autoware_lanelet2_map_visualizer package
+Changes:
+ ros-humble-autoware-lanelet2-map-visualizer (0-2025.01.14.16.35) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * feat!: replace tier4_map_msgs with autoware_map_msgs for MapProjectorInfo (#9392 <https://github.com/autowarefoundation/autoware.universe/issues/9392>)
+   * refactor(map_loader)!: prefix package and namespace with autoware (#8927 <https://github.com/autowarefoundation/autoware.universe/issues/8927>)
+     * make lanelet2_map_visualization independent
+     * remove unused files
+     * remove unused package
+     * fix package name
+     * add autoware_ prefix
+     * add autoware to exec name
+     * add autoware prefix
+     * removed unnecessary dependency
+     ---------
+   * refactor(map_loader)!: prefix package and namespace with autoware (#8927 <https://github.com/autowarefoundation/autoware.universe/issues/8927>)
+     * make lanelet2_map_visualization independent
+     * remove unused files
+     * remove unused package
+     * fix package name
+     * add autoware_ prefix
+     * add autoware to exec name
+     * add autoware prefix
+     * removed unnecessary dependency
+     ---------
+   * Contributors: Fumiya Watanabe, Masaki Baba, Ryohsuke Mitsudome
+   * Merge branch 'main' into release-0.40.0
+   * feat!: replace tier4_map_msgs with autoware_map_msgs for MapProjectorInfo (#9392 <https://github.com/autowarefoundation/autoware.universe/issues/9392>)
+   * refactor(map_loader)!: prefix package and namespace with autoware (#8927 <https://github.com/autowarefoundation/autoware.universe/issues/8927>)
+     * make lanelet2_map_visualization independent
+     * remove unused files
+     * remove unused package
+     * fix package name
+     * add autoware_ prefix
+     * add autoware to exec name
+     * add autoware prefix
+     * removed unnecessary dependency
+     ---------
+   * refactor(map_loader)!: prefix package and namespace with autoware (#8927 <https://github.com/autowarefoundation/autoware.universe/issues/8927>)
+     * make lanelet2_map_visualization independent
+     * remove unused files
+     * remove unused package
+     * fix package name
+     * add autoware_ prefix
+     * add autoware to exec name
+     * add autoware prefix
+     * removed unnecessary dependency
+     ---------
+   * Contributors: Fumiya Watanabe, Masaki Baba, Ryohsuke Mitsudome
+Checksums-Sha1:
+ 11356ad421e60a1b0da77831711286c9c4d5209a 3294568 ros-humble-autoware-lanelet2-map-visualizer-dbgsym_0-2025.01.14.16.35_amd64.ddeb
+ 7a72b22a49be2ab49b59a0ca56bfd332c50b447c 24864 ros-humble-autoware-lanelet2-map-visualizer_0-2025.01.14.16.35_amd64.buildinfo
+ 0d2c9975fe744bc3b3057371d1a36a6421fd53f5 134752 ros-humble-autoware-lanelet2-map-visualizer_0-2025.01.14.16.35_amd64.deb
+Checksums-Sha256:
+ 0e8143be297941000ea0698afc362ae7de5f454e135ccd32294b0713362e7d15 3294568 ros-humble-autoware-lanelet2-map-visualizer-dbgsym_0-2025.01.14.16.35_amd64.ddeb
+ e66eaa764ba06fc68b08a9bcb385a2e594cca77c60f8e486d7a4e18a63230625 24864 ros-humble-autoware-lanelet2-map-visualizer_0-2025.01.14.16.35_amd64.buildinfo
+ 27db7468caa6a5730a153078ef2f40ec3ea11274874c79ac14b9184fc712bfcf 134752 ros-humble-autoware-lanelet2-map-visualizer_0-2025.01.14.16.35_amd64.deb
+Files:
+ a9413f85d7dc10970d98a4c21ae8192f 3294568 debug optional ros-humble-autoware-lanelet2-map-visualizer-dbgsym_0-2025.01.14.16.35_amd64.ddeb
+ 81d875147c0df9230ad312312ef56dbf 24864 misc optional ros-humble-autoware-lanelet2-map-visualizer_0-2025.01.14.16.35_amd64.buildinfo
+ c37f40d53a13637588809fff3dcaf158 134752 misc optional ros-humble-autoware-lanelet2-map-visualizer_0-2025.01.14.16.35_amd64.deb
