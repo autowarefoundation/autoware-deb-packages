@@ -2,7 +2,7 @@ repositories:
   core/autoware.core:
     type: git
     url: https://github.com/autowarefoundation/autoware.core.git
-    version: e41562355e6b7b7793b6de2f5b863874cfd78888
+    version: 4ab0299f7659274ed88f4694c5a6d18adf5b3967
   core/autoware_adapi_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
@@ -14,7 +14,7 @@ repositories:
   core/autoware_internal_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_internal_msgs.git
-    version: b26950ab048356b65a889b50cb30f70ffae35fe6
+    version: df116a02806bb424658af06e2f5823a1e6707fa0
   core/autoware_lanelet2_extension:
     type: git
     url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
@@ -30,7 +30,7 @@ repositories:
   launcher/autoware_launch:
     type: git
     url: https://github.com/autowarefoundation/autoware_launch.git
-    version: e04e16f8398004f02e9cca461fe85a0fa05492f4
+    version: 4c0a0d02043be657e7039970aeba119e30fff79f
   param/autoware_individual_params:
     type: git
     url: https://github.com/autowarefoundation/autoware_individual_params.git
@@ -66,7 +66,7 @@ repositories:
   sensor_kit/sample_sensor_kit_launch:
     type: git
     url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
-    version: 626d597020066560651b53a433d6da26e59e4782
+    version: b12f176f852e8a406489b0b63dfb9622a1f4073f
   sensor_kit/single_lidar_sensor_kit_launch:
     type: git
     url: https://github.com/autowarefoundation/single_lidar_sensor_kit_launch.git
@@ -74,7 +74,7 @@ repositories:
   universe/autoware.universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
-    version: 6e0e6c09f422063d72a727229bf34daffef279a9
+    version: ae436b380914dd6c7cd60b28a35c0026a79e000f
   universe/external/eagleye:
     type: git
     url: https://github.com/MapIV/eagleye.git
