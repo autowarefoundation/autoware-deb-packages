@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-kalman-filter
+Binary: ros-humble-autoware-kalman-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.20.08.40
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-kalman-filter - The kalman filter package
+Changes:
+ ros-humble-autoware-kalman-filter (0-2025.01.20.08.40) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - common (#9564 <https://github.com/autowarefoundation/autoware.universe/issues/9564>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 60e0cf5dfda6f276fe6c82514755c11b1749175a 2365210 ros-humble-autoware-kalman-filter-dbgsym_0-2025.01.20.08.40_amd64.ddeb
+ 9e5aa01992b0f15261c2c8dc4e04413dbb642146 11675 ros-humble-autoware-kalman-filter_0-2025.01.20.08.40_amd64.buildinfo
+ c5920f01a8d1201319e2c19038e4302a806615d4 52072 ros-humble-autoware-kalman-filter_0-2025.01.20.08.40_amd64.deb
+Checksums-Sha256:
+ 17167e3ab21b0d1b40786d91f5b9c6fa20844d686ef7de1767933f6fbe51d71d 2365210 ros-humble-autoware-kalman-filter-dbgsym_0-2025.01.20.08.40_amd64.ddeb
+ fffd77b9ab685972eaeddb9a30b1324f6cb9c472c244c12b63d28154618d7eef 11675 ros-humble-autoware-kalman-filter_0-2025.01.20.08.40_amd64.buildinfo
+ 99c6d811691de80d56049e4ccbbc1d74c543831994e89d3a678d58142594b97f 52072 ros-humble-autoware-kalman-filter_0-2025.01.20.08.40_amd64.deb
+Files:
+ 716e8e5db9d8394c5a0c01eb37575a5b 2365210 debug optional ros-humble-autoware-kalman-filter-dbgsym_0-2025.01.20.08.40_amd64.ddeb
+ e36de35b18f25e086ca402ee36b6985f 11675 misc optional ros-humble-autoware-kalman-filter_0-2025.01.20.08.40_amd64.buildinfo
+ 5649519ba5853cfc13b44d0f5f5a0aea 52072 misc optional ros-humble-autoware-kalman-filter_0-2025.01.20.08.40_amd64.deb

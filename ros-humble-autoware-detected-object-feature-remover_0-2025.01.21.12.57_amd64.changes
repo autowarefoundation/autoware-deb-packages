@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-detected-object-feature-remover
+Binary: ros-humble-autoware-detected-object-feature-remover
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.21.12.57
+Distribution: jammy
+Urgency: high
+Maintainer: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Changed-By: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Description:
+ ros-humble-autoware-detected-object-feature-remover - The autoware_detected_object_feature_remover package
+Changes:
+ ros-humble-autoware-detected-object-feature-remover (0-2025.01.21.12.57) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - perception (#9569 <https://github.com/autowarefoundation/autoware.universe/issues/9569>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 44365f0697d73d7c1c1dcc9c92a15efaa14d74ad 2610408 ros-humble-autoware-detected-object-feature-remover-dbgsym_0-2025.01.21.12.57_amd64.ddeb
+ c91a27e349973d60537368a3f99d24d8535a09bf 42849 ros-humble-autoware-detected-object-feature-remover_0-2025.01.21.12.57_amd64.buildinfo
+ e8f1cbdd338a3b4c8d777becddea4ff89763de4d 128988 ros-humble-autoware-detected-object-feature-remover_0-2025.01.21.12.57_amd64.deb
+Checksums-Sha256:
+ c474f546707e5847dd9848d8cfb74b9c0b442a1c7aeff25e15baf15e0951f467 2610408 ros-humble-autoware-detected-object-feature-remover-dbgsym_0-2025.01.21.12.57_amd64.ddeb
+ a8454c031c5a1fe99091d33ac9664a40296de5233ca36d53d134f5f729dfc329 42849 ros-humble-autoware-detected-object-feature-remover_0-2025.01.21.12.57_amd64.buildinfo
+ 36fdf5eff7a10c9633398efc950740b39be6428282b72e293d832deba714abd4 128988 ros-humble-autoware-detected-object-feature-remover_0-2025.01.21.12.57_amd64.deb
+Files:
+ 3f87eaee8717b61a322ee547cc0d8c82 2610408 debug optional ros-humble-autoware-detected-object-feature-remover-dbgsym_0-2025.01.21.12.57_amd64.ddeb
+ 95c925c533bcf750b4be5a315ef3fdb4 42849 misc optional ros-humble-autoware-detected-object-feature-remover_0-2025.01.21.12.57_amd64.buildinfo
+ 788931b00fccf2743c503a2afc40cc66 128988 misc optional ros-humble-autoware-detected-object-feature-remover_0-2025.01.21.12.57_amd64.deb

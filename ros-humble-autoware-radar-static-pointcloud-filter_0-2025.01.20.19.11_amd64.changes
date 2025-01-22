@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-radar-static-pointcloud-filter
+Binary: ros-humble-autoware-radar-static-pointcloud-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.20.19.11
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Tanaka <satoshi.tanaka@tier4.jp>
+Changed-By: Satoshi Tanaka <satoshi.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-radar-static-pointcloud-filter - autoware_radar_static_pointcloud_filter
+Changes:
+ ros-humble-autoware-radar-static-pointcloud-filter (0-2025.01.20.19.11) jammy; urgency=high
+ .
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ df67627958954a90e702c7c528fa275cf2a81e76 3975608 ros-humble-autoware-radar-static-pointcloud-filter-dbgsym_0-2025.01.20.19.11_amd64.ddeb
+ 92c213acea81b639022ee333a466312f66d04bb5 41677 ros-humble-autoware-radar-static-pointcloud-filter_0-2025.01.20.19.11_amd64.buildinfo
+ 55ab176b5e64b56019ca8899abb665013231b413 187992 ros-humble-autoware-radar-static-pointcloud-filter_0-2025.01.20.19.11_amd64.deb
+Checksums-Sha256:
+ 54eae36bd99077f9d746e9a176752c91d5548ecff8157696615fe27c22213a6e 3975608 ros-humble-autoware-radar-static-pointcloud-filter-dbgsym_0-2025.01.20.19.11_amd64.ddeb
+ f6e0791fcab82b288c07761b127ea77b41dfacb943fec99be29d3189f1a27967 41677 ros-humble-autoware-radar-static-pointcloud-filter_0-2025.01.20.19.11_amd64.buildinfo
+ fafb0b6949870b550e101a01859b170611834e9f7b148b9c8a5f41ecc661ffba 187992 ros-humble-autoware-radar-static-pointcloud-filter_0-2025.01.20.19.11_amd64.deb
+Files:
+ 1179e014c89b6e8b061cad3f8cb05be1 3975608 debug optional ros-humble-autoware-radar-static-pointcloud-filter-dbgsym_0-2025.01.20.19.11_amd64.ddeb
+ 12964678973654103853ddcd0394c587 41677 misc optional ros-humble-autoware-radar-static-pointcloud-filter_0-2025.01.20.19.11_amd64.buildinfo
+ 6181e23ae340e45f9c880efae7e1b6fe 187992 misc optional ros-humble-autoware-radar-static-pointcloud-filter_0-2025.01.20.19.11_amd64.deb

@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-pose2twist
+Binary: ros-humble-autoware-pose2twist
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.20.09.17
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-pose2twist - The autoware_pose2twist package
+Changes:
+ ros-humble-autoware-pose2twist (0-2025.01.20.09.17) jammy; urgency=high
+ .
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ c95e352eefb5398c5331ee9e2ae0c79f28790eef 2464124 ros-humble-autoware-pose2twist-dbgsym_0-2025.01.20.09.17_amd64.ddeb
+ 327f940b519ac06267803f408d8bab39b0e13cb6 17055 ros-humble-autoware-pose2twist_0-2025.01.20.09.17_amd64.buildinfo
+ 4f07a8f5a6f89064082675ac30f34b92da304cde 124592 ros-humble-autoware-pose2twist_0-2025.01.20.09.17_amd64.deb
+Checksums-Sha256:
+ 128a0c470afc605219d0dccd0f27b6cc796c9f578c224ac953dd1655885f8401 2464124 ros-humble-autoware-pose2twist-dbgsym_0-2025.01.20.09.17_amd64.ddeb
+ eb861e4555775d4d6940f9c888dab4687936e4ed5cec88c6041ddbb6d788e5e4 17055 ros-humble-autoware-pose2twist_0-2025.01.20.09.17_amd64.buildinfo
+ d454e9315084c1c4a50106f67801380493b57145df249e86c446c4dc895a003e 124592 ros-humble-autoware-pose2twist_0-2025.01.20.09.17_amd64.deb
+Files:
+ 2285f9ee5e410fddb5e50727e882d1cb 2464124 debug optional ros-humble-autoware-pose2twist-dbgsym_0-2025.01.20.09.17_amd64.ddeb
+ aa0be7c0b096ef8344e234645dc38183 17055 misc optional ros-humble-autoware-pose2twist_0-2025.01.20.09.17_amd64.buildinfo
+ 2843ee4f5de735bc4fcd4a81ee450bc7 124592 misc optional ros-humble-autoware-pose2twist_0-2025.01.20.09.17_amd64.deb

@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-gyro-odometer
+Binary: ros-humble-autoware-gyro-odometer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.20.15.04
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-gyro-odometer - The autoware_gyro_odometer package as a ROS 2 node
+Changes:
+ ros-humble-autoware-gyro-odometer (0-2025.01.20.15.04) jammy; urgency=high
+ .
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ c8a3b30e8e42ddb7d316f54877c85b296dc54471 3451098 ros-humble-autoware-gyro-odometer-dbgsym_0-2025.01.20.15.04_amd64.ddeb
+ 1ffeb9ee91bcd82c8cff74abaa89b2053af27dc3 40392 ros-humble-autoware-gyro-odometer_0-2025.01.20.15.04_amd64.buildinfo
+ c5c19fecb3e4222f3ae51c9734c930b6c5bb52bf 160396 ros-humble-autoware-gyro-odometer_0-2025.01.20.15.04_amd64.deb
+Checksums-Sha256:
+ 75da791aec4016f2d7c196516da7fba0fa2f254aa25985779237b63b19acb424 3451098 ros-humble-autoware-gyro-odometer-dbgsym_0-2025.01.20.15.04_amd64.ddeb
+ 56f25c487c85b5a4312e0df90774e1418b627fdc84b7626763de5612624084cb 40392 ros-humble-autoware-gyro-odometer_0-2025.01.20.15.04_amd64.buildinfo
+ 571f7cd3f88da155d23f046a30fbea565b4d2e7e6b95500b814903f37c2174d0 160396 ros-humble-autoware-gyro-odometer_0-2025.01.20.15.04_amd64.deb
+Files:
+ 478e3d79a6010aab8fdbd8180a027eb2 3451098 debug optional ros-humble-autoware-gyro-odometer-dbgsym_0-2025.01.20.15.04_amd64.ddeb
+ 822e0efca760a7b535ece94e54f80a33 40392 misc optional ros-humble-autoware-gyro-odometer_0-2025.01.20.15.04_amd64.buildinfo
+ 36b315fb91e45c22c657e6f9487dd9e8 160396 misc optional ros-humble-autoware-gyro-odometer_0-2025.01.20.15.04_amd64.deb

@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-perception-rviz-plugin
+Binary: ros-humble-autoware-perception-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.20.09.07
+Distribution: jammy
+Urgency: high
+Maintainer: Apex.AI, Inc. <opensource@apex.ai>
+Changed-By: Apex.AI, Inc. <opensource@apex.ai>
+Description:
+ ros-humble-autoware-perception-rviz-plugin - Contains plugins to visualize object detection outputs
+Changes:
+ ros-humble-autoware-perception-rviz-plugin (0-2025.01.20.09.07) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * chore: move rviz plugins from common to visualization/ folder (#9417 <https://github.com/autowarefoundation/autoware.universe/issues/9417>)
+   * Contributors: Esteve Fernandez, Fumiya Watanabe
+Checksums-Sha1:
+ 9e5e20b0d0bd1457c459d9fd14cffe302ee0f9f0 9891360 ros-humble-autoware-perception-rviz-plugin-dbgsym_0-2025.01.20.09.07_amd64.ddeb
+ 91295256a76e26d9ff6f2321fd1dcebc65f3cfb8 24258 ros-humble-autoware-perception-rviz-plugin_0-2025.01.20.09.07_amd64.buildinfo
+ 4dc09f1c395333e2ccf74e7a8ce23553c60fc7b7 256056 ros-humble-autoware-perception-rviz-plugin_0-2025.01.20.09.07_amd64.deb
+Checksums-Sha256:
+ b4bc76e4b544ad9818a2601299a91b0fce8e30c9356869befbc9c7b3217ca238 9891360 ros-humble-autoware-perception-rviz-plugin-dbgsym_0-2025.01.20.09.07_amd64.ddeb
+ d9a4c941d2846f5440f5558978a6e968c594a06fe752636d933c72391fa589fc 24258 ros-humble-autoware-perception-rviz-plugin_0-2025.01.20.09.07_amd64.buildinfo
+ 052b0b4d5ce129625f323cc124ac1831f0dde3cdfd1f55dc86f6616a9a625d75 256056 ros-humble-autoware-perception-rviz-plugin_0-2025.01.20.09.07_amd64.deb
+Files:
+ 33d0fb8bd3913093616e095e5c149dac 9891360 debug optional ros-humble-autoware-perception-rviz-plugin-dbgsym_0-2025.01.20.09.07_amd64.ddeb
+ 76d0e6abf65c68975859e6282b4066e5 24258 misc optional ros-humble-autoware-perception-rviz-plugin_0-2025.01.20.09.07_amd64.buildinfo
+ 647e5a39f3bf33fcb27539c01b2ecaa2 256056 misc optional ros-humble-autoware-perception-rviz-plugin_0-2025.01.20.09.07_amd64.deb

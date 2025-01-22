@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-fault-injection
+Binary: ros-humble-fault-injection
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.21.04.48
+Distribution: jammy
+Urgency: high
+Maintainer: Keisuke Shima <keisuke.shima@tier4.jp>
+Changed-By: Keisuke Shima <keisuke.shima@tier4.jp>
+Description:
+ ros-humble-fault-injection - fault_injection
+Changes:
+ ros-humble-fault-injection (0-2025.01.21.04.48) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - simulator (#9572 <https://github.com/autowarefoundation/autoware.universe/issues/9572>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ d8b9739174037abbd2720e50d98728b8451f0fc9 2596734 ros-humble-fault-injection-dbgsym_0-2025.01.21.04.48_amd64.ddeb
+ 7c608c0ce0facb431bed52c7c6caeefc2dfcb959 41111 ros-humble-fault-injection_0-2025.01.21.04.48_amd64.buildinfo
+ ad04a5e9059887d4d5a2c4f4bcd2f4a8597d6912 140496 ros-humble-fault-injection_0-2025.01.21.04.48_amd64.deb
+Checksums-Sha256:
+ 6352ef08e68a34531fcb35e11cf246c1597892bb065b1b8924876a007d803c7c 2596734 ros-humble-fault-injection-dbgsym_0-2025.01.21.04.48_amd64.ddeb
+ 36ce9e049751fbce3810609422d63b778ec19e252942768fcab3324f2f43c80d 41111 ros-humble-fault-injection_0-2025.01.21.04.48_amd64.buildinfo
+ 26055f9283216a7eb56271be54360ecda68fc787356c60487c3a56c2b07bae69 140496 ros-humble-fault-injection_0-2025.01.21.04.48_amd64.deb
+Files:
+ 44fc9d1dfb98f3bcf5c2da97cffb3c88 2596734 debug optional ros-humble-fault-injection-dbgsym_0-2025.01.21.04.48_amd64.ddeb
+ 0741c0931d4d4c2f26c8e5e954063dc2 41111 misc optional ros-humble-fault-injection_0-2025.01.21.04.48_amd64.buildinfo
+ be08b31804fedc3e252d71a5cdcdc943 140496 misc optional ros-humble-fault-injection_0-2025.01.21.04.48_amd64.deb

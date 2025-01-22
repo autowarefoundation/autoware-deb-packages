@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-simple-planning-simulator
+Binary: ros-humble-simple-planning-simulator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.22.07.40
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-simple-planning-simulator - simple_planning_simulator as a ROS 2 node
+Changes:
+ ros-humble-simple-planning-simulator (0-2025.01.22.07.40) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - simulator (#9572 <https://github.com/autowarefoundation/autoware.universe/issues/9572>)
+   * fix(simple_planning_simulator): fix clang-diagnostic-delete-non-abstract-non-virtual-dtor (#9448 <https://github.com/autowarefoundation/autoware.universe/issues/9448>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * feat(simple_planning_simulator): add mechanical actuaion sim model (#9300 <https://github.com/autowarefoundation/autoware.universe/issues/9300>)
+     * feat(simple_planning_simulator): add mechanical actuaion sim model
+     update docs
+     * update from suggestions
+     * calc internal state using RK4 results
+     ---------
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Kosuke Takeuchi, M. Fatih Cırıt, Ryohsuke Mitsudome, Ryuta Kambe, Yutaka Kondo
+Checksums-Sha1:
+ e56cedf037e1185322f2046114d369e162ec1b25 14529554 ros-humble-simple-planning-simulator-dbgsym_0-2025.01.22.07.40_amd64.ddeb
+ b4ce5d2a04fbb1dfa66e651263f5665fc5539878 42351 ros-humble-simple-planning-simulator_0-2025.01.22.07.40_amd64.buildinfo
+ abec15cb52409316a03d5cd68460e24a5c23394d 486682 ros-humble-simple-planning-simulator_0-2025.01.22.07.40_amd64.deb
+Checksums-Sha256:
+ efdf43828cb8475af4064e97d7d5af15f8228ae8527f85aae3194958446925b6 14529554 ros-humble-simple-planning-simulator-dbgsym_0-2025.01.22.07.40_amd64.ddeb
+ 4cfec6d1cb317af8e0d558f3180567779f4369626f48455fe913a43feea2a965 42351 ros-humble-simple-planning-simulator_0-2025.01.22.07.40_amd64.buildinfo
+ 33398e3dfae24a6e39894fbcc2ce636b0b1f97e3f007432b2eeefc8b1233b6af 486682 ros-humble-simple-planning-simulator_0-2025.01.22.07.40_amd64.deb
+Files:
+ dca716c2cffa7ae4f5a9244c357e8e05 14529554 debug optional ros-humble-simple-planning-simulator-dbgsym_0-2025.01.22.07.40_amd64.ddeb
+ ade946a901f0209169c3aa44c4a25875 42351 misc optional ros-humble-simple-planning-simulator_0-2025.01.22.07.40_amd64.buildinfo
+ a5ffa8b614ee177979ce3bbcd96fa76e 486682 misc optional ros-humble-simple-planning-simulator_0-2025.01.22.07.40_amd64.deb

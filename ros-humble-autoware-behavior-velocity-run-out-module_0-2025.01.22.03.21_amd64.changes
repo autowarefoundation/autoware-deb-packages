@@ -1,0 +1,75 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-run-out-module
+Binary: ros-humble-autoware-behavior-velocity-run-out-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.22.03.21
+Distribution: jammy
+Urgency: high
+Maintainer: Tomohito Ando <tomohito.ando@tier4.jp>
+Changed-By: Tomohito Ando <tomohito.ando@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-run-out-module - The autoware_behavior_velocity_run_out_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-run-out-module (0-2025.01.22.03.21) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - planning (#9570 <https://github.com/autowarefoundation/autoware.universe/issues/9570>)
+   * feat(behavior_velocity_planner)!: remove stop_reason (#9452 <https://github.com/autowarefoundation/autoware.universe/issues/9452>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * feat(behavior_velocity_planner): update velocity factor initialization for run out module (#9352 <https://github.com/autowarefoundation/autoware.universe/issues/9352>)
+     feat(behavior_velocity_planner): update velocity factor initialization
+     Update the initialization of the velocity factor in the RunOutModule of the behavior_velocity_planner. The velocity factor is now initialized for the RUN_OUT behavior instead of the ROUTE_OBSTACLE behavior.
+   * fix(autoware_behavior_velocity_run_out_module): fix clang-diagnostic-unused-lambda-capture (#9416 <https://github.com/autowarefoundation/autoware.universe/issues/9416>)
+     fix: clang-diagnostic-unused-lambda-capture
+   * feat(run_out_module): add tests to run out (#9222 <https://github.com/autowarefoundation/autoware.universe/issues/9222>)
+     * WIP add tests for utils and path_utils
+     * add tests for utils and fix test path utils
+     * dynamic obstacles
+     * new tests and add function declarations
+     * add points for test of extractObstaclePointsWithinPolygon
+     * add state machine tests and other tests for dynamic obstacle
+     * remove unused test checks
+     * remove unused tests
+     * remove unwanted semicolons
+     * test
+     * add comments
+     * solve cpp-check limitation issue by removing namespaces
+     ---------
+   * fix(run_out): output velocity factor (#9319 <https://github.com/autowarefoundation/autoware.universe/issues/9319>)
+     * fix(run_out): output velocity factor
+     * fix(adapi): subscribe run out velocity factor
+     ---------
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Kyoichi Sugahara, M. Fatih Cırıt, Mamoru Sobue, Ryohsuke Mitsudome, Satoshi OTA, Yutaka Kondo, danielsanchezaran, kobayu858
+Checksums-Sha1:
+ 047bff99e063454d713c951dccd99363a38af99e 11477422 ros-humble-autoware-behavior-velocity-run-out-module-dbgsym_0-2025.01.22.03.21_amd64.ddeb
+ 607725b9b4e4a5e04a03b2e2b7489e68804a7ba2 48931 ros-humble-autoware-behavior-velocity-run-out-module_0-2025.01.22.03.21_amd64.buildinfo
+ 43df1a40bdb33ebcbf6c3da753e1b2affebea4cf 342638 ros-humble-autoware-behavior-velocity-run-out-module_0-2025.01.22.03.21_amd64.deb
+Checksums-Sha256:
+ 45ab39362e71507c90f1a74b1edd576201c269484eb563e755d4f80e243e91a6 11477422 ros-humble-autoware-behavior-velocity-run-out-module-dbgsym_0-2025.01.22.03.21_amd64.ddeb
+ ad12890309f3336ea1425fdd209586f409013e0eac9fbf60e5a7060a1c3ccad4 48931 ros-humble-autoware-behavior-velocity-run-out-module_0-2025.01.22.03.21_amd64.buildinfo
+ ff4d5151b9f70ecce4b3b7ef0fcfa9323a3912c988bba2c374f8d44ecbfa5614 342638 ros-humble-autoware-behavior-velocity-run-out-module_0-2025.01.22.03.21_amd64.deb
+Files:
+ de0dbe51fb37389b732161cba8cf3d5e 11477422 debug optional ros-humble-autoware-behavior-velocity-run-out-module-dbgsym_0-2025.01.22.03.21_amd64.ddeb
+ 9397eafe64308c74f80b839da11a966a 48931 misc optional ros-humble-autoware-behavior-velocity-run-out-module_0-2025.01.22.03.21_amd64.buildinfo
+ d37d5c2196c79712d029847ca151ce86 342638 misc optional ros-humble-autoware-behavior-velocity-run-out-module_0-2025.01.22.03.21_amd64.deb

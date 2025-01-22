@@ -1,0 +1,55 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-lidar-transfusion
+Binary: ros-humble-autoware-lidar-transfusion
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.20.16.40
+Distribution: jammy
+Urgency: high
+Maintainer: Amadeusz Szymko <amadeusz.szymko.2@tier4.jp>
+Changed-By: Amadeusz Szymko <amadeusz.szymko.2@tier4.jp>
+Description:
+ ros-humble-autoware-lidar-transfusion - The lidar_transfusion package
+Changes:
+ ros-humble-autoware-lidar-transfusion (0-2025.01.20.16.40) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix(autoware_lidar_transfusion): non-maximum suppression target decision logic (#9612 <https://github.com/autowarefoundation/autoware.universe/issues/9612>)
+     fix: non-maximum suppression target decision logic
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - perception (#9569 <https://github.com/autowarefoundation/autoware.universe/issues/9569>)
+   * chore(autoware_lidar_transfusion): added a warning if we are dropping voxels (#9486 <https://github.com/autowarefoundation/autoware.universe/issues/9486>)
+     * chore: added a warning if we are dropping voxels
+     * chore: changed the warning to a throttled one
+     ---------
+   * fix(autoware_lidar_transfusion): fix clang-diagnostic-unused-private-field (#9499 <https://github.com/autowarefoundation/autoware.universe/issues/9499>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Kenzo Lobos Tsunekawa, M. Fatih Cırıt, Ryohsuke Mitsudome, Taekjin LEE, Yutaka Kondo, kobayu858
+Checksums-Sha1:
+ 349d1b32e947775b370aea25270d537c6c4b9fdd 40527 ros-humble-autoware-lidar-transfusion_0-2025.01.20.16.40_amd64.buildinfo
+ d315c119c713e8ceff694680a6d750943db3844b 16578 ros-humble-autoware-lidar-transfusion_0-2025.01.20.16.40_amd64.deb
+Checksums-Sha256:
+ acdd80cdd5bf9615e39c0a53b9651807389a92288c013c1aa5c7418f99a4746e 40527 ros-humble-autoware-lidar-transfusion_0-2025.01.20.16.40_amd64.buildinfo
+ a601ea8e953036ff8ddc8c0086a7d1c0e9519397bda90279e2b0e0f2bcb8cf73 16578 ros-humble-autoware-lidar-transfusion_0-2025.01.20.16.40_amd64.deb
+Files:
+ 07ebab655ca6fe363b2ebb2621c46296 40527 misc optional ros-humble-autoware-lidar-transfusion_0-2025.01.20.16.40_amd64.buildinfo
+ b25277fd2e806fd9ee5c792bd3e8c7d1 16578 misc optional ros-humble-autoware-lidar-transfusion_0-2025.01.20.16.40_amd64.deb

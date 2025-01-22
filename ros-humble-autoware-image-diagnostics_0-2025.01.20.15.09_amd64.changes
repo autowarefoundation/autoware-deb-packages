@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-image-diagnostics
+Binary: ros-humble-autoware-image-diagnostics
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.20.15.09
+Distribution: jammy
+Urgency: high
+Maintainer: Dai Nguyen <dai.nguyen@tier4.jp>
+Changed-By: Dai Nguyen <dai.nguyen@tier4.jp>
+Description:
+ ros-humble-autoware-image-diagnostics - The autoware_image_diagnostics package
+Changes:
+ ros-humble-autoware-image-diagnostics (0-2025.01.20.15.09) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - sensing (#9571 <https://github.com/autowarefoundation/autoware.universe/issues/9571>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 3df18bdcf9dfbbe6ee8474e509a034e8d2b0a270 2814420 ros-humble-autoware-image-diagnostics-dbgsym_0-2025.01.20.15.09_amd64.ddeb
+ a5cdb0ba9b241ea308c8332cbeffc14d16ff9224 44381 ros-humble-autoware-image-diagnostics_0-2025.01.20.15.09_amd64.buildinfo
+ d2363365fa86cbc7dc1a91349ba7f40717b9926e 145494 ros-humble-autoware-image-diagnostics_0-2025.01.20.15.09_amd64.deb
+Checksums-Sha256:
+ 23acc2e2e3cdd0085e7f1786f9c4cae389331c06fc089ef47f8f012acd9ce9f0 2814420 ros-humble-autoware-image-diagnostics-dbgsym_0-2025.01.20.15.09_amd64.ddeb
+ 547a0754f2e10c689f9ef5e10e8421d06f7f23ed0ce753dc49fe7d97c9ea35fd 44381 ros-humble-autoware-image-diagnostics_0-2025.01.20.15.09_amd64.buildinfo
+ 5d8a391d1a80e2bfa8727cc84566e2310a7af28ef8e1fb29800bff555a0b47d2 145494 ros-humble-autoware-image-diagnostics_0-2025.01.20.15.09_amd64.deb
+Files:
+ 1247be989f4242af4e5aabbdf7fa8910 2814420 debug optional ros-humble-autoware-image-diagnostics-dbgsym_0-2025.01.20.15.09_amd64.ddeb
+ 8d885baae2b54179af25d905ae70f62f 44381 misc optional ros-humble-autoware-image-diagnostics_0-2025.01.20.15.09_amd64.buildinfo
+ 46e8dd4521cca7cdb1959f427b52b18c 145494 misc optional ros-humble-autoware-image-diagnostics_0-2025.01.20.15.09_amd64.deb

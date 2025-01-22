@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-map-tf-generator
+Binary: ros-humble-autoware-map-tf-generator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.20.10.05
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-map-tf-generator - map_tf_generator package as a ROS 2 node
+Changes:
+ ros-humble-autoware-map-tf-generator (0-2025.01.20.10.05) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - map (#9568 <https://github.com/autowarefoundation/autoware.universe/issues/9568>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 1074fae0fe59eea90468ca806572139c403e7840 5586664 ros-humble-autoware-map-tf-generator-dbgsym_0-2025.01.20.10.05_amd64.ddeb
+ 96000e1c98a5baf748565f00924049b4cfaf0399 40766 ros-humble-autoware-map-tf-generator_0-2025.01.20.10.05_amd64.buildinfo
+ e3a318fc14ec748d3fb0d7035233cec8c7c1bc6e 182286 ros-humble-autoware-map-tf-generator_0-2025.01.20.10.05_amd64.deb
+Checksums-Sha256:
+ 038ecbcfc67fe666d907c41840328dac6d77f088b11f56181956fe7e1527abd9 5586664 ros-humble-autoware-map-tf-generator-dbgsym_0-2025.01.20.10.05_amd64.ddeb
+ 1623973d761a6a754ff5e5b082623c741094800b2365d75e2848a943f5e0339f 40766 ros-humble-autoware-map-tf-generator_0-2025.01.20.10.05_amd64.buildinfo
+ cb68df5d5f484fc917d45271cfeb99402b9bd80d7390ec5f8b46f9fa40ed6ddb 182286 ros-humble-autoware-map-tf-generator_0-2025.01.20.10.05_amd64.deb
+Files:
+ 7493e20c71abc6700d26566dc9d8a7c6 5586664 debug optional ros-humble-autoware-map-tf-generator-dbgsym_0-2025.01.20.10.05_amd64.ddeb
+ cc6458804e09176b6b8090053b2b98f8 40766 misc optional ros-humble-autoware-map-tf-generator_0-2025.01.20.10.05_amd64.buildinfo
+ 555b3487af342c24141c853831ee2297 182286 misc optional ros-humble-autoware-map-tf-generator_0-2025.01.20.10.05_amd64.deb

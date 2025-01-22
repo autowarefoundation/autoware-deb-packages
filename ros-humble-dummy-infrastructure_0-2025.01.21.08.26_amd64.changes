@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-dummy-infrastructure
+Binary: ros-humble-dummy-infrastructure
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.21.08.26
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-dummy-infrastructure - dummy_infrastructure
+Changes:
+ ros-humble-dummy-infrastructure (0-2025.01.21.08.26) jammy; urgency=high
+ .
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 543d210b842af438f1400d215175e07e698d85e0 2507188 ros-humble-dummy-infrastructure-dbgsym_0-2025.01.21.08.26_amd64.ddeb
+ 061598adb5c4fa74a124c3c7fd352ed3257fc039 15877 ros-humble-dummy-infrastructure_0-2025.01.21.08.26_amd64.buildinfo
+ 96289c36ba7f20d5cc693f3eefde4ddfb92bd281 130204 ros-humble-dummy-infrastructure_0-2025.01.21.08.26_amd64.deb
+Checksums-Sha256:
+ e3a1fa0df8e53dbac281324dff2dcbe2bd23b5082a0592dc06f51fc94b98abc3 2507188 ros-humble-dummy-infrastructure-dbgsym_0-2025.01.21.08.26_amd64.ddeb
+ 988ecd008a81d977bd54edd42bcf12eebd48baca3e81c0d17a7e968a23d0e1f4 15877 ros-humble-dummy-infrastructure_0-2025.01.21.08.26_amd64.buildinfo
+ 0cf472a710fbab3582d8030c70b6f4378bad168ded01da008dd7f2bd16efbba9 130204 ros-humble-dummy-infrastructure_0-2025.01.21.08.26_amd64.deb
+Files:
+ e7e3f6c4408730766ce01f973c18027a 2507188 debug optional ros-humble-dummy-infrastructure-dbgsym_0-2025.01.21.08.26_amd64.ddeb
+ fe65557a6989501ec55e6e11b543ae53 15877 misc optional ros-humble-dummy-infrastructure_0-2025.01.21.08.26_amd64.buildinfo
+ 55a6c68d2095cdcb89b50ddbae4615ce 130204 misc optional ros-humble-dummy-infrastructure_0-2025.01.21.08.26_amd64.deb

@@ -1,0 +1,65 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-intersection-module
+Binary: ros-humble-autoware-behavior-velocity-intersection-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.22.02.42
+Distribution: jammy
+Urgency: high
+Maintainer: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Changed-By: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-intersection-module - The autoware_behavior_velocity_intersection_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-intersection-module (0-2025.01.22.02.42) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - planning (#9570 <https://github.com/autowarefoundation/autoware.universe/issues/9570>)
+   * feat(behavior_velocity_planner)!: remove stop_reason (#9452 <https://github.com/autowarefoundation/autoware.universe/issues/9452>)
+   * refactor: correct spelling (#9528 <https://github.com/autowarefoundation/autoware.universe/issues/9528>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix(autoware_behavior_velocity_intersection_module): fix clang-diagnostic-unused-parameter (#9409 <https://github.com/autowarefoundation/autoware.universe/issues/9409>)
+     fix: clang-diagnostic-unused-parameter
+   * fix(autoware_behavior_velocity_intersection_module): fix clang-diagnostic-unused-lambda-capture (#9407 <https://github.com/autowarefoundation/autoware.universe/issues/9407>)
+     fix: clang-diagnostic-unused-parameter
+   * chore(autoware_behavior_velocity_intersection_module): include opencv as system (#9330 <https://github.com/autowarefoundation/autoware.universe/issues/9330>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * fix(bvp): remove expired module safely (#9212 <https://github.com/autowarefoundation/autoware.universe/issues/9212>)
+     * fix(bvp): remove expired module safely
+     * fix: remove module id set
+     * fix: use itr to erase expired module
+     * fix: remove unused function
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Mamoru Sobue, Ryohsuke Mitsudome, Satoshi OTA, Yukinari Hisaki, Yutaka Kondo, kobayu858
+Checksums-Sha1:
+ 70ddd6c692716708b3518e03dc469e4b88400aad 14461256 ros-humble-autoware-behavior-velocity-intersection-module-dbgsym_0-2025.01.22.02.42_amd64.ddeb
+ bf517f3a9970ff3a612a61e266274ddfe3dab534 48113 ros-humble-autoware-behavior-velocity-intersection-module_0-2025.01.22.02.42_amd64.buildinfo
+ bfb92fd97560f02cb6ee7de8c9143d9bb5bb1eda 379702 ros-humble-autoware-behavior-velocity-intersection-module_0-2025.01.22.02.42_amd64.deb
+Checksums-Sha256:
+ e983ef6f9dbf8767a95418c5cb164ec8bf517ce6654386041ea62583b142ad81 14461256 ros-humble-autoware-behavior-velocity-intersection-module-dbgsym_0-2025.01.22.02.42_amd64.ddeb
+ f91a17ce4f7899243b66396608addab17bdfe44b30e45ee71f7c3a367d679c1b 48113 ros-humble-autoware-behavior-velocity-intersection-module_0-2025.01.22.02.42_amd64.buildinfo
+ 098335806b0b17906bb8f4aa6d8092382a3226f7cc43b1a1d3a15a5e4fa08ebd 379702 ros-humble-autoware-behavior-velocity-intersection-module_0-2025.01.22.02.42_amd64.deb
+Files:
+ aa4e6fae700d4c4cda80ce0737758801 14461256 debug optional ros-humble-autoware-behavior-velocity-intersection-module-dbgsym_0-2025.01.22.02.42_amd64.ddeb
+ 0b4f4ddd727e361b8cad3fe4bd4d3262 48113 misc optional ros-humble-autoware-behavior-velocity-intersection-module_0-2025.01.22.02.42_amd64.buildinfo
+ 6c55ed39147e2876220b2de6cb8e067c 379702 misc optional ros-humble-autoware-behavior-velocity-intersection-module_0-2025.01.22.02.42_amd64.deb

@@ -1,0 +1,57 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-traffic-light-occlusion-predictor
+Binary: ros-humble-autoware-traffic-light-occlusion-predictor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.20.22.05
+Distribution: jammy
+Urgency: high
+Maintainer: Tao Zhong <tao.zhong@tier4.jp>
+Changed-By: Tao Zhong <tao.zhong@tier4.jp>
+Description:
+ ros-humble-autoware-traffic-light-occlusion-predictor - The autoware_traffic_light_occlusion_predictor package
+Changes:
+ ros-humble-autoware-traffic-light-occlusion-predictor (0-2025.01.20.22.05) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - perception (#9569 <https://github.com/autowarefoundation/autoware.universe/issues/9569>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * refactor(traffic_light_utils): prefix package and namespace with autoware (#9251 <https://github.com/autowarefoundation/autoware.universe/issues/9251>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(autoware_traffic_light*): add maintainer (#9280 <https://github.com/autowarefoundation/autoware.universe/issues/9280>)
+     * add fundamental commit
+     * add forgot package
+     ---------
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Masato Saeki, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 274ed412716dc9cda95dceb3e37c740ab9bce973 8713500 ros-humble-autoware-traffic-light-occlusion-predictor-dbgsym_0-2025.01.20.22.05_amd64.ddeb
+ 264c4b384d7e622e0368c3d8c99aaaab9d0bde97 45738 ros-humble-autoware-traffic-light-occlusion-predictor_0-2025.01.20.22.05_amd64.buildinfo
+ ad5be6a2e99049d33f2e5f849d4267776c9ed9dd 232924 ros-humble-autoware-traffic-light-occlusion-predictor_0-2025.01.20.22.05_amd64.deb
+Checksums-Sha256:
+ c4ff2d933271897eb7e278ec1b9c9cab2ee1bdb5d4d49eb43916085f466378b1 8713500 ros-humble-autoware-traffic-light-occlusion-predictor-dbgsym_0-2025.01.20.22.05_amd64.ddeb
+ a3b0d1364e8b096d91d8b1af9ce0169ef0acc0702b059a15951e8a0faabf6729 45738 ros-humble-autoware-traffic-light-occlusion-predictor_0-2025.01.20.22.05_amd64.buildinfo
+ 5e3e3f7e000bedd6bbf06f51ac662c1d7502845b2275430893026e8995626461 232924 ros-humble-autoware-traffic-light-occlusion-predictor_0-2025.01.20.22.05_amd64.deb
+Files:
+ 6361bbf5ce8d5dfa6166d39cce510dac 8713500 debug optional ros-humble-autoware-traffic-light-occlusion-predictor-dbgsym_0-2025.01.20.22.05_amd64.ddeb
+ 9c854844dc6d4d9fe2d9e8651a2d4c3f 45738 misc optional ros-humble-autoware-traffic-light-occlusion-predictor_0-2025.01.20.22.05_amd64.buildinfo
+ c6692e4e51d52317cfb3568b0c2b1298 232924 misc optional ros-humble-autoware-traffic-light-occlusion-predictor_0-2025.01.20.22.05_amd64.deb

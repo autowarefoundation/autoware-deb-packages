@@ -1,0 +1,60 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-traffic-light-multi-camera-fusion
+Binary: ros-humble-autoware-traffic-light-multi-camera-fusion
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.20.13.48
+Distribution: jammy
+Urgency: high
+Maintainer: Tao Zhong <tao.zhong@tier4.jp>
+Changed-By: Tao Zhong <tao.zhong@tier4.jp>
+Description:
+ ros-humble-autoware-traffic-light-multi-camera-fusion - The autoware_traffic_light_multi_camera_fusion package
+Changes:
+ ros-humble-autoware-traffic-light-multi-camera-fusion (0-2025.01.20.13.48) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - perception (#9569 <https://github.com/autowarefoundation/autoware.universe/issues/9569>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * feat(autoware_traffic_light_multi_camera_fusion): resolve clang-tidy error (#9336 <https://github.com/autowarefoundation/autoware.universe/issues/9336>)
+     * feat(autoware_traffic_light_multi_camera_fusion): resolve clang-tidy error
+     * add const to argument
+     ---------
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(autoware_traffic_light*): add maintainer (#9280 <https://github.com/autowarefoundation/autoware.universe/issues/9280>)
+     * add fundamental commit
+     * add forgot package
+     ---------
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Masato Saeki, Ryohsuke Mitsudome, Yukinari Hisaki, Yutaka Kondo
+Checksums-Sha1:
+ 1f662fb15aa4875022b13b6dc59e66325f2d61a8 6910956 ros-humble-autoware-traffic-light-multi-camera-fusion-dbgsym_0-2025.01.20.13.48_amd64.ddeb
+ 28eba2c17dd39b4ce06230d6ba8ae15dcce50bda 25093 ros-humble-autoware-traffic-light-multi-camera-fusion_0-2025.01.20.13.48_amd64.buildinfo
+ fc115a4abf39eccfb13a22fac76dc6cf5c2cc9cf 248054 ros-humble-autoware-traffic-light-multi-camera-fusion_0-2025.01.20.13.48_amd64.deb
+Checksums-Sha256:
+ 4472ce5ae833bea5d7b7ab8add6cb908dfb449254ccf977258ed3b81280a09e8 6910956 ros-humble-autoware-traffic-light-multi-camera-fusion-dbgsym_0-2025.01.20.13.48_amd64.ddeb
+ 618a6f02c69034d1e1609115aee1b8a56fa6caf42ef9876a85b45ccc0f7b405f 25093 ros-humble-autoware-traffic-light-multi-camera-fusion_0-2025.01.20.13.48_amd64.buildinfo
+ 8d10b6f51ff1d5f4f248bf8224a8aec120032590ed1e953e0d2cb925ba48e3e6 248054 ros-humble-autoware-traffic-light-multi-camera-fusion_0-2025.01.20.13.48_amd64.deb
+Files:
+ a808d3d4df1d88612a9d501e91f3a707 6910956 debug optional ros-humble-autoware-traffic-light-multi-camera-fusion-dbgsym_0-2025.01.20.13.48_amd64.ddeb
+ 8b82718a8ad1149e2691ba4b5d2b8c09 25093 misc optional ros-humble-autoware-traffic-light-multi-camera-fusion_0-2025.01.20.13.48_amd64.buildinfo
+ 62c6c77a28ec29acc44faf757c84090c 248054 misc optional ros-humble-autoware-traffic-light-multi-camera-fusion_0-2025.01.20.13.48_amd64.deb

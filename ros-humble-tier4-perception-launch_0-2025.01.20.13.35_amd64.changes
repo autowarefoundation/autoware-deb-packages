@@ -1,0 +1,46 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-tier4-perception-launch
+Binary: ros-humble-tier4-perception-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.20.13.35
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-tier4-perception-launch - The tier4_perception_launch package
+Changes:
+ ros-humble-tier4-perception-launch (0-2025.01.20.13.35) jammy; urgency=high
+ .
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 52ba8017aaa98f157ebfaf5555827ff0f4c74c55 10681 ros-humble-tier4-perception-launch_0-2025.01.20.13.35_amd64.buildinfo
+ 4c3934de676f0093917fc4624188cf57ba2e2318 40166 ros-humble-tier4-perception-launch_0-2025.01.20.13.35_amd64.deb
+Checksums-Sha256:
+ 727822ab0759906a0e4bd1b6872a71668b7e3b16fab27391727b884261a87782 10681 ros-humble-tier4-perception-launch_0-2025.01.20.13.35_amd64.buildinfo
+ 6c3efe70efa4217afc70c9fc820a305df52f71cb7f92303a66821b9158fc091d 40166 ros-humble-tier4-perception-launch_0-2025.01.20.13.35_amd64.deb
+Files:
+ aa941364399b6652b40a46bf52d7fbb8 10681 misc optional ros-humble-tier4-perception-launch_0-2025.01.20.13.35_amd64.buildinfo
+ 92375feae1f9b98b69a7adccbe1344b8 40166 misc optional ros-humble-tier4-perception-launch_0-2025.01.20.13.35_amd64.deb

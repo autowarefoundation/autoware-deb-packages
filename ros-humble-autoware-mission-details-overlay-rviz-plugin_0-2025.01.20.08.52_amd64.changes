@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-mission-details-overlay-rviz-plugin
+Binary: ros-humble-autoware-mission-details-overlay-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.20.08.52
+Distribution: jammy
+Urgency: high
+Maintainer: Ahmed Ebrahim <ahmed.ebrahim@leodrive.ai>
+Changed-By: Ahmed Ebrahim <ahmed.ebrahim@leodrive.ai>
+Description:
+ ros-humble-autoware-mission-details-overlay-rviz-plugin - RViz2 plugin for 2D overlays for mission details in the 3D view.
+Changes:
+ ros-humble-autoware-mission-details-overlay-rviz-plugin (0-2025.01.20.08.52) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * chore: move rviz plugins from common to visualization/ folder (#9417 <https://github.com/autowarefoundation/autoware.universe/issues/9417>)
+   * Contributors: Esteve Fernandez, Fumiya Watanabe
+Checksums-Sha1:
+ 60ccd52877088a28677f82aab0ba61d201c46bfa 3136520 ros-humble-autoware-mission-details-overlay-rviz-plugin-dbgsym_0-2025.01.20.08.52_amd64.ddeb
+ cd78dda794ad107a4c557c725637660ca6a0b1eb 29531 ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.01.20.08.52_amd64.buildinfo
+ 83a616de6dc98cfc9d446638f3b0ed2bb532d1f3 186820 ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.01.20.08.52_amd64.deb
+Checksums-Sha256:
+ a35d5cf807ebd186326d3b3b4c26081222b5e80f3999cf7467e06d61c0e66b72 3136520 ros-humble-autoware-mission-details-overlay-rviz-plugin-dbgsym_0-2025.01.20.08.52_amd64.ddeb
+ d833a08c325194dd058666058ad254de238b7594d559f241bac598b9c082525d 29531 ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.01.20.08.52_amd64.buildinfo
+ 0a4a6f9ceadcf1861e012dc375ae43ee10dc40203a4560d88f3b36e45af738cd 186820 ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.01.20.08.52_amd64.deb
+Files:
+ 0e3472670b460523f3c04eb8c28687fb 3136520 debug optional ros-humble-autoware-mission-details-overlay-rviz-plugin-dbgsym_0-2025.01.20.08.52_amd64.ddeb
+ b824c4a8b03f5e1a0be3d1efcd2a58ef 29531 misc optional ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.01.20.08.52_amd64.buildinfo
+ 30303e9f4be07d0db55c9f7f50cb4f15 186820 misc optional ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.01.20.08.52_amd64.deb

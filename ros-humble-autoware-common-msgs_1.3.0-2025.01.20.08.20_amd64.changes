@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-common-msgs
+Binary: ros-humble-autoware-common-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.3.0-2025.01.20.08.20
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-common-msgs - Autoware common messages package.
+Changes:
+ ros-humble-autoware-common-msgs (1.3.0-2025.01.20.08.20) jammy; urgency=high
+Checksums-Sha1:
+ 5e87042b9b3915fec3b0b976c2194b0b0966cf8c 148226 ros-humble-autoware-common-msgs-dbgsym_1.3.0-2025.01.20.08.20_amd64.ddeb
+ b07c6dd43b8bddf3a23301ca77e4d5cad5806945 14494 ros-humble-autoware-common-msgs_1.3.0-2025.01.20.08.20_amd64.buildinfo
+ 5cd0b1e6a1dd83f7a2f5837783a6ad83ea7fdf0e 39234 ros-humble-autoware-common-msgs_1.3.0-2025.01.20.08.20_amd64.deb
+Checksums-Sha256:
+ 022430f776fa5dfb045b5f2f6007d86832435ef67873b81195fd501db5e0a12f 148226 ros-humble-autoware-common-msgs-dbgsym_1.3.0-2025.01.20.08.20_amd64.ddeb
+ 1a9678223ae43a6c7f2f2dc59062ac20dcf62dd69e71c895b8ba85efb2840547 14494 ros-humble-autoware-common-msgs_1.3.0-2025.01.20.08.20_amd64.buildinfo
+ 7ecc5bc6703b4330900dd257b489f76e038ddef0787f760adaabd168b01e4b1f 39234 ros-humble-autoware-common-msgs_1.3.0-2025.01.20.08.20_amd64.deb
+Files:
+ bf1c1595736de1f70123394c0ba6dcfc 148226 debug optional ros-humble-autoware-common-msgs-dbgsym_1.3.0-2025.01.20.08.20_amd64.ddeb
+ fd9a5e59cd9b3aa484ec307966845cfd 14494 misc optional ros-humble-autoware-common-msgs_1.3.0-2025.01.20.08.20_amd64.buildinfo
+ faf51342c751eabf7a219bfcb59ea0b2 39234 misc optional ros-humble-autoware-common-msgs_1.3.0-2025.01.20.08.20_amd64.deb

@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-radar-threshold-filter
+Binary: ros-humble-autoware-radar-threshold-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.20.09.27
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Tanaka <satoshi.tanaka@tier4.jp>
+Changed-By: Satoshi Tanaka <satoshi.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-radar-threshold-filter - autoware_radar_threshold_filter
+Changes:
+ ros-humble-autoware-radar-threshold-filter (0-2025.01.20.09.27) jammy; urgency=high
+ .
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 8acf8c0570aa82c9a02c205bc181d38a345cfad8 2362080 ros-humble-autoware-radar-threshold-filter-dbgsym_0-2025.01.20.09.27_amd64.ddeb
+ be555d5fb5e8ae5b1775b97906aec766eb0d5e45 17280 ros-humble-autoware-radar-threshold-filter_0-2025.01.20.09.27_amd64.buildinfo
+ fcf6f7f9a51c57445b3527686feb8e1249a98bd5 122456 ros-humble-autoware-radar-threshold-filter_0-2025.01.20.09.27_amd64.deb
+Checksums-Sha256:
+ 74070dabf5a56487cb0f1109efa86e843328e2a6ced9b7202c28b1a1be72f47c 2362080 ros-humble-autoware-radar-threshold-filter-dbgsym_0-2025.01.20.09.27_amd64.ddeb
+ 341484cfc45ba7bcf0bc51d0cb8c4951fbf1287140b35258606b644fd3105605 17280 ros-humble-autoware-radar-threshold-filter_0-2025.01.20.09.27_amd64.buildinfo
+ 9a75b44f6456cd446eda7984dd19d512906e1e8ef9100e12d9d80f350f9e1386 122456 ros-humble-autoware-radar-threshold-filter_0-2025.01.20.09.27_amd64.deb
+Files:
+ 9b52216f4d48ba4110df3077ccec93e6 2362080 debug optional ros-humble-autoware-radar-threshold-filter-dbgsym_0-2025.01.20.09.27_amd64.ddeb
+ 9002cdc694dd3a14614efe9c1add3379 17280 misc optional ros-humble-autoware-radar-threshold-filter_0-2025.01.20.09.27_amd64.buildinfo
+ ca4e5d49028250045dc92690714782df 122456 misc optional ros-humble-autoware-radar-threshold-filter_0-2025.01.20.09.27_amd64.deb

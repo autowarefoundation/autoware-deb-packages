@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-perception-utils
+Binary: ros-humble-perception-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.20.11.21
+Distribution: jammy
+Urgency: high
+Maintainer: Shunsuke Miura <shunsuke.miura@tier4.jp>
+Changed-By: Shunsuke Miura <shunsuke.miura@tier4.jp>
+Description:
+ ros-humble-perception-utils - The perception_utils package
+Changes:
+ ros-humble-perception-utils (0-2025.01.20.11.21) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - perception (#9569 <https://github.com/autowarefoundation/autoware.universe/issues/9569>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(perception_utils): install include directory (#9354 <https://github.com/autowarefoundation/autoware.universe/issues/9354>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 1b9028a66d35af2b60765e816b99e824cdeb820e 104888 ros-humble-perception-utils-dbgsym_0-2025.01.20.11.21_amd64.ddeb
+ 43ccd85422c7831fe20f6fb7e5bf3f0a979d5701 26147 ros-humble-perception-utils_0-2025.01.20.11.21_amd64.buildinfo
+ d8a1bb52ca66a64952e7b9480d963cc351ffaf71 14840 ros-humble-perception-utils_0-2025.01.20.11.21_amd64.deb
+Checksums-Sha256:
+ 67784c34a087c62331f0a5a42078a26ecbbe7112b581b2b30271ab986ff2c443 104888 ros-humble-perception-utils-dbgsym_0-2025.01.20.11.21_amd64.ddeb
+ a4a0aca4d79e02fc2424d77e1140fef85b2121b8ea82a82ab422d96a4eab7c62 26147 ros-humble-perception-utils_0-2025.01.20.11.21_amd64.buildinfo
+ 65827c37fd2559d91108a7b84d187d77f03d6612613b3d4f1c19cb95ad3e389e 14840 ros-humble-perception-utils_0-2025.01.20.11.21_amd64.deb
+Files:
+ 4b0511dce2990ee1bd466c76db5f9101 104888 debug optional ros-humble-perception-utils-dbgsym_0-2025.01.20.11.21_amd64.ddeb
+ 67a6a14262d17d777647584c4f75e217 26147 misc optional ros-humble-perception-utils_0-2025.01.20.11.21_amd64.buildinfo
+ 7d3170a905dd898c9b0124660439931b 14840 misc optional ros-humble-perception-utils_0-2025.01.20.11.21_amd64.deb

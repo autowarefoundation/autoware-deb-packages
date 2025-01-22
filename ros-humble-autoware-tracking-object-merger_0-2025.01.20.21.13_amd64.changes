@@ -1,0 +1,54 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-tracking-object-merger
+Binary: ros-humble-autoware-tracking-object-merger
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.20.21.13
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-tracking-object-merger - merge tracking object
+Changes:
+ ros-humble-autoware-tracking-object-merger (0-2025.01.20.21.13) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - perception (#9569 <https://github.com/autowarefoundation/autoware.universe/issues/9569>)
+   * fix(autoware_tracking_object_merger): fix clang-diagnostic-sign-conversion (#9507 <https://github.com/autowarefoundation/autoware.universe/issues/9507>)
+     fix: clang-diagnostic-sign-conversion
+   * fix(autoware_tracking_object_merger): fix clang-diagnostic-sign-conversion (#9494 <https://github.com/autowarefoundation/autoware.universe/issues/9494>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo, kobayu858
+Checksums-Sha1:
+ e15ec0ef8e6a8f483fc71aa9af8c5068de10fd57 6452878 ros-humble-autoware-tracking-object-merger-dbgsym_0-2025.01.20.21.13_amd64.ddeb
+ e57ccaf8d8fcc1b26b4fe97263515c32798bff21 40637 ros-humble-autoware-tracking-object-merger_0-2025.01.20.21.13_amd64.buildinfo
+ e30780b90346a68bb280f4245b25815ce4cf62c9 278890 ros-humble-autoware-tracking-object-merger_0-2025.01.20.21.13_amd64.deb
+Checksums-Sha256:
+ 149424e2670abaa1244df78100de4bc8a21850ed54679b49c761cbf6f757c3db 6452878 ros-humble-autoware-tracking-object-merger-dbgsym_0-2025.01.20.21.13_amd64.ddeb
+ 3b6aa298cdb82d887c9a9c3e673730759a3864facf16d24b36704fc6e815a546 40637 ros-humble-autoware-tracking-object-merger_0-2025.01.20.21.13_amd64.buildinfo
+ 79e256d6c8edeb17fb57ac912b9a20f393d59fcbf3c364c6aca8aca23eaeb2ce 278890 ros-humble-autoware-tracking-object-merger_0-2025.01.20.21.13_amd64.deb
+Files:
+ 1e4a8e1875bf67426b2d559075505e64 6452878 debug optional ros-humble-autoware-tracking-object-merger-dbgsym_0-2025.01.20.21.13_amd64.ddeb
+ 1d75a6aa290e02c06095c28698bdf9ec 40637 misc optional ros-humble-autoware-tracking-object-merger_0-2025.01.20.21.13_amd64.buildinfo
+ 9a4664a99277d30ea0996448c30eb336 278890 misc optional ros-humble-autoware-tracking-object-merger_0-2025.01.20.21.13_amd64.deb

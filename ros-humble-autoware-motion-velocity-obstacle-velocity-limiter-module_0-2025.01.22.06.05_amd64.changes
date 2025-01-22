@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module
+Binary: ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.22.06.05
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime CLEMENT <maxime.clement@tier4.jp>
+Changed-By: Maxime CLEMENT <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module - Package to adjust velocities of a trajectory in order for the rid
+Changes:
+ ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module (0-2025.01.22.06.05) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - planning (#9570 <https://github.com/autowarefoundation/autoware.universe/issues/9570>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 328990a08bae91e90c9658eaffad94cd52913e4a 9030520 ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module-dbgsym_0-2025.01.22.06.05_amd64.ddeb
+ 63f76e336d60faab2fd4f78344a0a51ffb491dc6 48724 ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module_0-2025.01.22.06.05_amd64.buildinfo
+ daf3ebb7483d42e8dc59b1c9616041a278bbda67 286768 ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module_0-2025.01.22.06.05_amd64.deb
+Checksums-Sha256:
+ 64908f667c0f56fb5b34c091335c1c38db137ab9d0da1d15e5fef77a2073074a 9030520 ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module-dbgsym_0-2025.01.22.06.05_amd64.ddeb
+ e960159b2d5e513050645ebfe8fa685776a376baeaca0f52cf05a05c0c47d57a 48724 ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module_0-2025.01.22.06.05_amd64.buildinfo
+ 453a8284177cef03108cea788eec5e970a41afbb94ba226ea7ae8f900508872f 286768 ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module_0-2025.01.22.06.05_amd64.deb
+Files:
+ ab38404f5eeb48704c7e299a2439780a 9030520 debug optional ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module-dbgsym_0-2025.01.22.06.05_amd64.ddeb
+ eaebbb4f327e640bcbb59a8fe1824fb8 48724 misc optional ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module_0-2025.01.22.06.05_amd64.buildinfo
+ 7f056cc4a11629c9f232ea2858202a6a 286768 misc optional ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module_0-2025.01.22.06.05_amd64.deb

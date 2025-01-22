@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-velodyne-monitor
+Binary: ros-humble-velodyne-monitor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.22.09.13
+Distribution: jammy
+Urgency: high
+Maintainer: Fumihito Ito <fumihito.ito@tier4.jp>
+Changed-By: Fumihito Ito <fumihito.ito@tier4.jp>
+Description:
+ ros-humble-velodyne-monitor - The velodyne_monitor package
+Changes:
+ ros-humble-velodyne-monitor (0-2025.01.22.09.13) jammy; urgency=high
+ .
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ bd9bac756793d7bb716cad86e10cee313bc50303 2387696 ros-humble-velodyne-monitor-dbgsym_0-2025.01.22.09.13_amd64.ddeb
+ 140f6f5acf85552cccf2e6dba1a051c82d020d30 17697 ros-humble-velodyne-monitor_0-2025.01.22.09.13_amd64.buildinfo
+ 476c78d2633acef021e4f8ee55194ba3f49ca237 134860 ros-humble-velodyne-monitor_0-2025.01.22.09.13_amd64.deb
+Checksums-Sha256:
+ 4911ecbcd34347494728310b7d09acec994c2717a5a64eaeaad515542d6aba33 2387696 ros-humble-velodyne-monitor-dbgsym_0-2025.01.22.09.13_amd64.ddeb
+ 9c2b2960d0a5ac1e3680112161bf6435280e8502f83173bc64256ded71604fca 17697 ros-humble-velodyne-monitor_0-2025.01.22.09.13_amd64.buildinfo
+ 28578dc167d149df182a153f96ed24ab25f0a9db2c99175c0b5155ebf10c3da8 134860 ros-humble-velodyne-monitor_0-2025.01.22.09.13_amd64.deb
+Files:
+ 2ed008aa9362a194bf783c3fe9493abb 2387696 debug optional ros-humble-velodyne-monitor-dbgsym_0-2025.01.22.09.13_amd64.ddeb
+ 537443b2024845e8b2632efd758111a6 17697 misc optional ros-humble-velodyne-monitor_0-2025.01.22.09.13_amd64.buildinfo
+ 58eeccaa2bac1d7ee05d43daccd66882 134860 misc optional ros-humble-velodyne-monitor_0-2025.01.22.09.13_amd64.deb

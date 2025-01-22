@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-radar-object-tracker
+Binary: ros-humble-autoware-radar-object-tracker
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.20.18.53
+Distribution: jammy
+Urgency: high
+Maintainer: Yoshi Ri <yoshi.ri@tier4.jp>
+Changed-By: Yoshi Ri <yoshi.ri@tier4.jp>
+Description:
+ ros-humble-autoware-radar-object-tracker - Do tracking radar object
+Changes:
+ ros-humble-autoware-radar-object-tracker (0-2025.01.20.18.53) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - perception (#9569 <https://github.com/autowarefoundation/autoware.universe/issues/9569>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 81988a99bd1f03ac70c110ab26e65566a583b491 12045096 ros-humble-autoware-radar-object-tracker-dbgsym_0-2025.01.20.18.53_amd64.ddeb
+ d87bbec5ae2a4e95716cf64c5b4b4768682fb91d 41982 ros-humble-autoware-radar-object-tracker_0-2025.01.20.18.53_amd64.buildinfo
+ ef908cc673220e58ba2042da3eb33feb2bdf2bfa 347248 ros-humble-autoware-radar-object-tracker_0-2025.01.20.18.53_amd64.deb
+Checksums-Sha256:
+ 0980d8ee895cc3e25680ae7c4e61b2b22c80ecbb31d8be5982ae73fb3483400c 12045096 ros-humble-autoware-radar-object-tracker-dbgsym_0-2025.01.20.18.53_amd64.ddeb
+ 92b6ce36f61509591d2f6d490920d206d29695d47979ad975c7a1a41bdde8edd 41982 ros-humble-autoware-radar-object-tracker_0-2025.01.20.18.53_amd64.buildinfo
+ a6df5dbdd228b73576c3debe6c2b74e93cb89b82f47acfbb625604d2730356af 347248 ros-humble-autoware-radar-object-tracker_0-2025.01.20.18.53_amd64.deb
+Files:
+ a25da1edd21a934c72ddec94f86143c4 12045096 debug optional ros-humble-autoware-radar-object-tracker-dbgsym_0-2025.01.20.18.53_amd64.ddeb
+ 408ba35175a037884862e4217102657d 41982 misc optional ros-humble-autoware-radar-object-tracker_0-2025.01.20.18.53_amd64.buildinfo
+ a01eec862676b5e8555632ea16d69fc9 347248 misc optional ros-humble-autoware-radar-object-tracker_0-2025.01.20.18.53_amd64.deb

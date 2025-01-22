@@ -13,9 +13,15 @@ autoware_common_msgs:
 autoware_control_msgs:
   ubuntu:
   - ros-humble-autoware-control-msgs
+autoware_internal_debug_msgs:
+  ubuntu:
+  - ros-humble-autoware-internal-debug-msgs
 autoware_internal_msgs:
   ubuntu:
   - ros-humble-autoware-internal-msgs
+autoware_internal_planning_msgs:
+  ubuntu:
+  - ros-humble-autoware-internal-planning-msgs
 autoware_lint_common:
   ubuntu:
   - ros-humble-autoware-lint-common
@@ -76,6 +82,9 @@ autoware_pcl_extensions:
 autoware_perception_msgs:
   ubuntu:
   - ros-humble-autoware-perception-msgs
+autoware_internal_perception_msgs:
+  ubuntu:
+  - ros-humble-autoware-internal-perception-msgs
 autoware_object_range_splitter:
   ubuntu:
   - ros-humble-autoware-object-range-splitter
@@ -91,6 +100,9 @@ autoware_point_types:
 autoware_polar_grid:
   ubuntu:
   - ros-humble-autoware-polar-grid
+autoware_pose2twist:
+  ubuntu:
+  - ros-humble-autoware-pose2twist
 autoware_pyplot:
   ubuntu:
   - ros-humble-autoware-pyplot
@@ -112,6 +124,12 @@ autoware_sensing_msgs:
 autoware_signal_processing:
   ubuntu:
   - ros-humble-autoware-signal-processing
+autoware_stop_filter:
+  ubuntu:
+  - ros-humble-autoware-stop-filter
+autoware_string_stamped_rviz_plugin:
+  ubuntu:
+  - ros-humble-autoware-string-stamped-rviz-plugin
 autoware_system_msgs:
   ubuntu:
   - ros-humble-autoware-system-msgs
@@ -130,6 +148,9 @@ autoware_testing:
 autoware_time_utils:
   ubuntu:
   - ros-humble-autoware-time-utils
+autoware_twist2accel:
+  ubuntu:
+  - ros-humble-autoware-twist2accel
 autoware_utils:
   ubuntu:
   - ros-humble-autoware-utils
@@ -226,12 +247,6 @@ imu_description:
 individual_params:
   ubuntu:
   - ros-humble-individual-params
-lanelet2_extension:
-  ubuntu:
-  - ros-humble-lanelet2-extension
-lanelet2_extension_python:
-  ubuntu:
-  - ros-humble-lanelet2-extension-python
 learning_based_vehicle_model:
   ubuntu:
   - ros-humble-learning-based-vehicle-model
@@ -358,15 +373,6 @@ tier4_datetime_rviz_plugin:
 tier4_debug_msgs:
   ubuntu:
   - ros-humble-tier4-debug-msgs
-autoware_pose2twist:
-  ubuntu:
-  - ros-humble-autoware-pose2twist
-autoware_stop_filter:
-  ubuntu:
-  - ros-humble-autoware-stop-filter
-autoware_twist2accel:
-  ubuntu:
-  - ros-humble-autoware-twist2accel
 tier4_external_api_msgs:
   ubuntu:
   - ros-humble-tier4-external-api-msgs
@@ -916,27 +922,33 @@ autoware_velocity_smoother:
 autoware_behavior_velocity_planner_common:
   ubuntu:
   - ros-humble-autoware-behavior-velocity-planner-common
+autoware_behavior_velocity_no_drivable_lane_module:
+  ubuntu:
+  - ros-humble-autoware-behavior-velocity-no-drivable-lane-module
+autoware_behavior_velocity_occlusion_spot_module:
+  ubuntu:
+  - ros-humble-autoware-behavior-velocity-occlusion-spot-module
+autoware_behavior_velocity_planner:
+  ubuntu:
+  - ros-humble-autoware-behavior-velocity-planner
+autoware_behavior_velocity_detection_area_module:
+  ubuntu:
+  - ros-humble-autoware-behavior-velocity-detection-area-module
+autoware_behavior_velocity_rtc_interface:
+  ubuntu:
+  - ros-humble-autoware-behavior-velocity-rtc-interface
 autoware_behavior_velocity_blind_spot_module:
   ubuntu:
   - ros-humble-autoware-behavior-velocity-blind-spot-module
 autoware_behavior_velocity_crosswalk_module:
   ubuntu:
   - ros-humble-autoware-behavior-velocity-crosswalk-module
-autoware_behavior_velocity_detection_area_module:
-  ubuntu:
-  - ros-humble-autoware-behavior-velocity-detection-area-module
 autoware_behavior_velocity_intersection_module:
   ubuntu:
   - ros-humble-autoware-behavior-velocity-intersection-module
-autoware_behavior_velocity_no_drivable_lane_module:
-  ubuntu:
-  - ros-humble-autoware-behavior-velocity-no-drivable-lane-module
 autoware_behavior_velocity_no_stopping_area_module:
   ubuntu:
   - ros-humble-autoware-behavior-velocity-no-stopping-area-module
-autoware_behavior_velocity_occlusion_spot_module:
-  ubuntu:
-  - ros-humble-autoware-behavior-velocity-occlusion-spot-module
 autoware_behavior_velocity_run_out_module:
   ubuntu:
   - ros-humble-autoware-behavior-velocity-run-out-module
@@ -958,9 +970,6 @@ autoware_behavior_velocity_virtual_traffic_light_module:
 autoware_behavior_velocity_walkway_module:
   ubuntu:
   - ros-humble-autoware-behavior-velocity-walkway-module
-autoware_behavior_velocity_planner:
-  ubuntu:
-  - ros-humble-autoware-behavior-velocity-planner
 autoware_motion_velocity_planner_common:
   ubuntu:
   - ros-humble-autoware-motion-velocity-planner-common
@@ -976,9 +985,6 @@ autoware_motion_velocity_out_of_lane_module:
 autoware_motion_velocity_planner_node:
   ubuntu:
   - ros-humble-autoware-motion-velocity-planner-node
-autoware_static_centerline_generator:
-  ubuntu:
-  - ros-humble-autoware-static-centerline-generator
 pacmod_interface:
   ubuntu:
   - ros-humble-pacmod-interface

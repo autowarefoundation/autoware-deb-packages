@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-tensorrt-yolox
+Binary: ros-humble-autoware-tensorrt-yolox
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.20.20.56
+Distribution: jammy
+Urgency: high
+Maintainer: Dan Umeda <dan.umeda@tier4.jp>
+Changed-By: Dan Umeda <dan.umeda@tier4.jp>
+Description:
+ ros-humble-autoware-tensorrt-yolox - tensorrt library implementation for yolox
+Changes:
+ ros-humble-autoware-tensorrt-yolox (0-2025.01.20.20.56) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - perception (#9569 <https://github.com/autowarefoundation/autoware.universe/issues/9569>)
+   * fix(autoware_tensorrt_yolox): fix clang-diagnostic-inconsistent-missing-override (#9512 <https://github.com/autowarefoundation/autoware.universe/issues/9512>)
+     fix: clang-diagnostic-inconsistent-missing-override
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * refactor(cuda_utils): prefix package and namespace with autoware (#9171 <https://github.com/autowarefoundation/autoware.universe/issues/9171>)
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo, kobayu858
+Checksums-Sha1:
+ 7e7d77c2fae87fc540773d36b3f271a93a7fa923 44482 ros-humble-autoware-tensorrt-yolox_0-2025.01.20.20.56_amd64.buildinfo
+ 1689caa992f37772489f1547cc4dc3d1a0821971 2814 ros-humble-autoware-tensorrt-yolox_0-2025.01.20.20.56_amd64.deb
+Checksums-Sha256:
+ d2676f85bde67d448222d93493e839f5ebdd02f57ec48904fdd124614edbc20e 44482 ros-humble-autoware-tensorrt-yolox_0-2025.01.20.20.56_amd64.buildinfo
+ ad5f494e444541d094b83489b25664fb42cb1b93a1b2a9757bcb6339a2bdef42 2814 ros-humble-autoware-tensorrt-yolox_0-2025.01.20.20.56_amd64.deb
+Files:
+ 5e0538cdb8048dbd01d228eaa6f10f24 44482 misc optional ros-humble-autoware-tensorrt-yolox_0-2025.01.20.20.56_amd64.buildinfo
+ 74ceb8997de9332b3838a828fca5f2bf 2814 misc optional ros-humble-autoware-tensorrt-yolox_0-2025.01.20.20.56_amd64.deb

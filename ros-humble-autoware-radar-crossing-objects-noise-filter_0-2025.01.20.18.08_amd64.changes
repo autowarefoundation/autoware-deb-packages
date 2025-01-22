@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-radar-crossing-objects-noise-filter
+Binary: ros-humble-autoware-radar-crossing-objects-noise-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.20.18.08
+Distribution: jammy
+Urgency: high
+Maintainer: Sathshi Tanaka <satoshi.tanaka@tier4.jp>
+Changed-By: Sathshi Tanaka <satoshi.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-radar-crossing-objects-noise-filter - autoware_radar_crossing_objects_noise_filter
+Changes:
+ ros-humble-autoware-radar-crossing-objects-noise-filter (0-2025.01.20.18.08) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - perception (#9569 <https://github.com/autowarefoundation/autoware.universe/issues/9569>)
+   * docs: update the list styles (#9555 <https://github.com/autowarefoundation/autoware.universe/issues/9555>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 521e504dd9bb1012cea654c9d14bf7cf835d08a5 2466204 ros-humble-autoware-radar-crossing-objects-noise-filter-dbgsym_0-2025.01.20.18.08_amd64.ddeb
+ f6051c1daa3ddb09416fffdb2e8aa30a0668466a 40527 ros-humble-autoware-radar-crossing-objects-noise-filter_0-2025.01.20.18.08_amd64.buildinfo
+ 9516cf05da5d3365ad603a52bc0349b188b64198 123578 ros-humble-autoware-radar-crossing-objects-noise-filter_0-2025.01.20.18.08_amd64.deb
+Checksums-Sha256:
+ a49ae77b806be5b6cd624ca7e919f9f614cbf1a639c40f6aeb33bf5d85a33d0c 2466204 ros-humble-autoware-radar-crossing-objects-noise-filter-dbgsym_0-2025.01.20.18.08_amd64.ddeb
+ 42c6b37cc87a992b7b52e256b79a454c47a049964e40ed20ba4f412513851373 40527 ros-humble-autoware-radar-crossing-objects-noise-filter_0-2025.01.20.18.08_amd64.buildinfo
+ eb14c062f04fa8d0cd215e1562a7ae06c712288900daa45c334a80ff96346094 123578 ros-humble-autoware-radar-crossing-objects-noise-filter_0-2025.01.20.18.08_amd64.deb
+Files:
+ e1803525ee8bfb39fc159e1465a8a9aa 2466204 debug optional ros-humble-autoware-radar-crossing-objects-noise-filter-dbgsym_0-2025.01.20.18.08_amd64.ddeb
+ 20e1b68af02bb1dde6827a9032d4ae4a 40527 misc optional ros-humble-autoware-radar-crossing-objects-noise-filter_0-2025.01.20.18.08_amd64.buildinfo
+ a59f41804d7226085d0452be8ba14adb 123578 misc optional ros-humble-autoware-radar-crossing-objects-noise-filter_0-2025.01.20.18.08_amd64.deb

@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-radar-object-clustering
+Binary: ros-humble-autoware-radar-object-clustering
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.20.18.38
+Distribution: jammy
+Urgency: high
+Maintainer: Sathshi Tanaka <satoshi.tanaka@tier4.jp>
+Changed-By: Sathshi Tanaka <satoshi.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-radar-object-clustering - autoware_radar_object_clustering
+Changes:
+ ros-humble-autoware-radar-object-clustering (0-2025.01.20.18.38) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * docs: update the list styles (#9555 <https://github.com/autowarefoundation/autoware.universe/issues/9555>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 63462338791055e3d9e2b3f87a7cf9e222459551 3549208 ros-humble-autoware-radar-object-clustering-dbgsym_0-2025.01.20.18.38_amd64.ddeb
+ 2ea8c9b3d38a38a847cc4df04b85e0d71921d316 40548 ros-humble-autoware-radar-object-clustering_0-2025.01.20.18.38_amd64.buildinfo
+ 3df20a32a7639a5b762391f392fe9b03b7913f88 130396 ros-humble-autoware-radar-object-clustering_0-2025.01.20.18.38_amd64.deb
+Checksums-Sha256:
+ 404c522771ce44ece5630d0e6a3c1a284a84f29106ccc539b053c52dec7900f6 3549208 ros-humble-autoware-radar-object-clustering-dbgsym_0-2025.01.20.18.38_amd64.ddeb
+ 9a6ff83f6157490298d4046f5f1d2d41779c0b41a70c6ae88c33b6f042031784 40548 ros-humble-autoware-radar-object-clustering_0-2025.01.20.18.38_amd64.buildinfo
+ 3c9547e7e181a5fe821880bcb3fc0decfff1a060570f42d845643abbc2f0345a 130396 ros-humble-autoware-radar-object-clustering_0-2025.01.20.18.38_amd64.deb
+Files:
+ 72e342425f2a38b8c76c547549a6a28d 3549208 debug optional ros-humble-autoware-radar-object-clustering-dbgsym_0-2025.01.20.18.38_amd64.ddeb
+ 1036d03bcdfdbea1e1eedeec72eaed97 40548 misc optional ros-humble-autoware-radar-object-clustering_0-2025.01.20.18.38_amd64.buildinfo
+ b5cd2dae5f0d362451371e280642319f 130396 misc optional ros-humble-autoware-radar-object-clustering_0-2025.01.20.18.38_amd64.deb

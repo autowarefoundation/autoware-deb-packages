@@ -1,0 +1,89 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-behavior-path-start-planner-module
+Binary: ros-humble-autoware-behavior-path-start-planner-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.21.20.49
+Distribution: jammy
+Urgency: high
+Maintainer: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Changed-By: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-path-start-planner-module - The autoware_behavior_path_start_planner_module package
+Changes:
+ ros-humble-autoware-behavior-path-start-planner-module (0-2025.01.21.20.49) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * feat(behavior_path_planner): add detail text to virutal wall (#9600 <https://github.com/autowarefoundation/autoware.universe/issues/9600>)
+     * feat(behavior_path_planner): add detail text to virutal wall
+     * goal is far
+     * pull over start pose is far
+     * fix lc build
+     * fix build
+     * Update planning/behavior_path_planner/autoware_behavior_path_goal_planner_module/src/goal_planner_module.cpp
+     ---------
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - planning (#9570 <https://github.com/autowarefoundation/autoware.universe/issues/9570>)
+   * fix(autoware_freespace_planner, autoware_freespace_planning_algorithms): modify freespace planner to use node clock instead of system clock (#9152 <https://github.com/autowarefoundation/autoware.universe/issues/9152>)
+     * Modified the autoware_freespace_planner and autoware_freespace_planning_algorithms packages to use the node clock instead of rclcpp detached clock. This allows the module to make use of sim time. Previously during simulation the parking trajectory would have system time in trajectory header messages causing downstream issues like non-clearance of trajectory buffers in motion planning based on elapsed time.
+     * style(pre-commit): autofix
+     * Updated the freespace planner instantiation call in the path planning modules
+     * style(pre-commit): autofix
+     * Updated tests for the utility functions
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: Steven Brills <mailto:sbrills@oshkoshcorp.com>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * fix(start_planner): use extended current lanes to fix turn signal issue (#9487 <https://github.com/autowarefoundation/autoware.universe/issues/9487>)
+     fix current lanes issue
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix(autoware_behavior_path_start_planner_module): fix clang-diagnostic-unused-variable (#9405 <https://github.com/autowarefoundation/autoware.universe/issues/9405>)
+     fix: clang-diagnostic-unused-variable
+   * feat(start_planner): output velocity factor (#9347 <https://github.com/autowarefoundation/autoware.universe/issues/9347>)
+   * refactor(bpp): rework steering factor interface (#9325 <https://github.com/autowarefoundation/autoware.universe/issues/9325>)
+     * refactor(bpp): rework steering factor interface
+     * refactor(soa): rework steering factor interface
+     * refactor(AbLC): rework steering factor interface
+     * refactor(doa): rework steering factor interface
+     * refactor(lc): rework steering factor interface
+     * refactor(gp): rework steering factor interface
+     * refactor(sp): rework steering factor interface
+     * refactor(sbp): rework steering factor interface
+     * refactor(ss): rework steering factor interface
+     ---------
+   * feat(start_planner, lane_departure_checker): speed up by updating polygons (#9309 <https://github.com/autowarefoundation/autoware.universe/issues/9309>)
+     speed up by updating polygons
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * fix(autoware_behavior_path_start_planner_module): fix cppcheck unreadVariable (#9277 <https://github.com/autowarefoundation/autoware.universe/issues/9277>)
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Kosuke Takeuchi, M. Fatih Cırıt, Ryohsuke Mitsudome, Ryuta Kambe, Satoshi OTA, Yutaka Kondo, danielsanchezaran, kobayu858, stevenbrills
+Checksums-Sha1:
+ 4bb508d561aca6c90cd9ec9311b701dd99d6b13e 8942352 ros-humble-autoware-behavior-path-start-planner-module-dbgsym_0-2025.01.21.20.49_amd64.ddeb
+ 7f5be5cc3b5f5ef1ee6c17848c5916b9f494ffb6 49226 ros-humble-autoware-behavior-path-start-planner-module_0-2025.01.21.20.49_amd64.buildinfo
+ 928545f80ed101c98f0b7c9523d5e1aacba25d72 197008 ros-humble-autoware-behavior-path-start-planner-module_0-2025.01.21.20.49_amd64.deb
+Checksums-Sha256:
+ 8bf5cf7c4bfd4e2fbba3b77179a71e878278d800a9ac7e8e99388d4871388c28 8942352 ros-humble-autoware-behavior-path-start-planner-module-dbgsym_0-2025.01.21.20.49_amd64.ddeb
+ 6dbf87a2ac8cf52e204038f0912c2bad7b2ebabe932fb87313b826af6f065d21 49226 ros-humble-autoware-behavior-path-start-planner-module_0-2025.01.21.20.49_amd64.buildinfo
+ ffcc4a87ca88993d0f2eed61ec24233d2b4257cd480a6cb6f530997bb0b3ffb8 197008 ros-humble-autoware-behavior-path-start-planner-module_0-2025.01.21.20.49_amd64.deb
+Files:
+ 12b131aadbe0563a5aafb9fb0a90c09a 8942352 debug optional ros-humble-autoware-behavior-path-start-planner-module-dbgsym_0-2025.01.21.20.49_amd64.ddeb
+ 53a0fbe58aa4c26f4565267754d57d83 49226 misc optional ros-humble-autoware-behavior-path-start-planner-module_0-2025.01.21.20.49_amd64.buildinfo
+ d6cacc587e4ab5fd63df1954dca42f46 197008 misc optional ros-humble-autoware-behavior-path-start-planner-module_0-2025.01.21.20.49_amd64.deb

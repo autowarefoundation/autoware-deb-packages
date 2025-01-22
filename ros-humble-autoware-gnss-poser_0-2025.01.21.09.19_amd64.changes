@@ -1,0 +1,53 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-gnss-poser
+Binary: ros-humble-autoware-gnss-poser
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.21.09.19
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-gnss-poser - The ROS 2 autoware_gnss_poser package
+Changes:
+ ros-humble-autoware-gnss-poser (0-2025.01.21.09.19) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * feat!: replace tier4_map_msgs with autoware_map_msgs for MapProjectorInfo (#9392 <https://github.com/autowarefoundation/autoware.universe/issues/9392>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * refactor(component_interface_utils): prefix package and namespace with autoware (#9092 <https://github.com/autowarefoundation/autoware.universe/issues/9092>)
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ a6e62a2860f728a132e0124e8583b344cb86f308 4380056 ros-humble-autoware-gnss-poser-dbgsym_0-2025.01.21.09.19_amd64.ddeb
+ 6338f330fdeb7f00c60cfd555c2de44403c7d420 25839 ros-humble-autoware-gnss-poser_0-2025.01.21.09.19_amd64.buildinfo
+ f922971b8980a1626fd27d5b0d06796ab60965d0 191698 ros-humble-autoware-gnss-poser_0-2025.01.21.09.19_amd64.deb
+Checksums-Sha256:
+ e9d9529ed32d28d21c11319686e8dcbeaecd7a55aedcdeef9ab53e3f5b4a43f2 4380056 ros-humble-autoware-gnss-poser-dbgsym_0-2025.01.21.09.19_amd64.ddeb
+ 68eeaf1eef49cc90c9919a40f9e873d6736e9b0333975485f7fd7240239ab00f 25839 ros-humble-autoware-gnss-poser_0-2025.01.21.09.19_amd64.buildinfo
+ 5ef9cf62f05018bc2c30d31b5dbc4a8f8d034f2feacf02ee2e3220273d1d5ec7 191698 ros-humble-autoware-gnss-poser_0-2025.01.21.09.19_amd64.deb
+Files:
+ 86934ddc32816c97b4e8d45f9d2dddc8 4380056 debug optional ros-humble-autoware-gnss-poser-dbgsym_0-2025.01.21.09.19_amd64.ddeb
+ bd459796dc2a3b7810a4a6793f74acf9 25839 misc optional ros-humble-autoware-gnss-poser_0-2025.01.21.09.19_amd64.buildinfo
+ 91c75e36d7bd29745897ab2355b068e4 191698 misc optional ros-humble-autoware-gnss-poser_0-2025.01.21.09.19_amd64.deb

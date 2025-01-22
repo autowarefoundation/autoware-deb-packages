@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-tier4-vehicle-rviz-plugin
+Binary: ros-humble-tier4-vehicle-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.22.08.34
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-tier4-vehicle-rviz-plugin - The tier4_vehicle_rviz_plugin package
+Changes:
+ ros-humble-tier4-vehicle-rviz-plugin (0-2025.01.22.08.34) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * chore: move rviz plugins from common to visualization/ folder (#9417 <https://github.com/autowarefoundation/autoware.universe/issues/9417>)
+   * Contributors: Esteve Fernandez, Fumiya Watanabe
+Checksums-Sha1:
+ 6c9fa79c825aa1ea0622c3199317758037cee380 8508396 ros-humble-tier4-vehicle-rviz-plugin-dbgsym_0-2025.01.22.08.34_amd64.ddeb
+ 94664e5e189382ee843a565a03c6aabf7d26e659 42446 ros-humble-tier4-vehicle-rviz-plugin_0-2025.01.22.08.34_amd64.buildinfo
+ 199d608f3a065f911c1770bb74ef587bc125c0f1 316216 ros-humble-tier4-vehicle-rviz-plugin_0-2025.01.22.08.34_amd64.deb
+Checksums-Sha256:
+ 803d1267b251b66a4ddd85a4a6e120a1fc63eaf3f015e9511891829041d39d75 8508396 ros-humble-tier4-vehicle-rviz-plugin-dbgsym_0-2025.01.22.08.34_amd64.ddeb
+ 86776c041a3dfa4fad06c8af837ecea57e1737c0adc2918229bc3d929a444d7d 42446 ros-humble-tier4-vehicle-rviz-plugin_0-2025.01.22.08.34_amd64.buildinfo
+ a3167051dcd9f5b04ec9227769cd73b23f003147f7f5a662c3d43ef4b4d745c3 316216 ros-humble-tier4-vehicle-rviz-plugin_0-2025.01.22.08.34_amd64.deb
+Files:
+ c53b589bd998f2ecf93a6b3e13268625 8508396 debug optional ros-humble-tier4-vehicle-rviz-plugin-dbgsym_0-2025.01.22.08.34_amd64.ddeb
+ dc0d92453b85f0bd617eb7abb6b9ef27 42446 misc optional ros-humble-tier4-vehicle-rviz-plugin_0-2025.01.22.08.34_amd64.buildinfo
+ 906474ad074814bbd17ddc6648fefecc 316216 misc optional ros-humble-tier4-vehicle-rviz-plugin_0-2025.01.22.08.34_amd64.deb

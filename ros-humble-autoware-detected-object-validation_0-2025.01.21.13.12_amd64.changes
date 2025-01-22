@@ -1,0 +1,74 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-detected-object-validation
+Binary: ros-humble-autoware-detected-object-validation
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.21.13.12
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-detected-object-validation - The ROS 2 detected_object_validation package
+Changes:
+ ros-humble-autoware-detected-object-validation (0-2025.01.21.13.12) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - perception (#9569 <https://github.com/autowarefoundation/autoware.universe/issues/9569>)
+   * feat(object_lanelet_filter): add configurable margin for object lanel… (#9240 <https://github.com/autowarefoundation/autoware.universe/issues/9240>)
+     * feat(object_lanelet_filter): add configurable margin for object lanelet filter
+     modified:   perception/autoware_detected_object_validation/src/lanelet_filter/lanelet_filter.cpp
+     * feat(object_lanelet_filter): add condition to check wheter polygon is empty in debug mode
+     * feat(object_lanelet_filter): fix cppcheck
+     * fix: brig back missing type definition
+     * feat: add stop watch for processing time in object lanelet filter
+     * feat(object_lanelet_filter): remove extra comment line
+     * feat(_object_lanelet_filter): udpate readme
+     * style(pre-commit): autofix
+     * Update perception/autoware_detected_object_validation/src/lanelet_filter/debug.cpp
+     Co-authored-by: Shintaro Tomie <mailto:58775300+Shin-kyoto@users.noreply.github.com>
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: Sebastian Zęderowski <mailto:szederowski@autonomous-systems.pl>
+     Co-authored-by: Taekjin LEE <mailto:taekjin.lee@tier4.jp>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Shintaro Tomie <mailto:58775300+Shin-kyoto@users.noreply.github.com>
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix(autoware_detected_object_validation): fix bugprone-incorrect-roundings (#9220 <https://github.com/autowarefoundation/autoware.universe/issues/9220>)
+     fix: bugprone-incorrect-roundings
+   * fix(autoware_detected_object_validation): fix clang-diagnostic-error (#9215 <https://github.com/autowarefoundation/autoware.universe/issues/9215>)
+     fix: clang-c-error
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Sebastian Zęderowski, Yutaka Kondo, kobayu858
+Checksums-Sha1:
+ 5aca61bc4288d4f49c23e69ba2f239cba8482381 22794592 ros-humble-autoware-detected-object-validation-dbgsym_0-2025.01.21.13.12_amd64.ddeb
+ 93f87e5f9121774c758da27d4e21dd70745ddd16 46652 ros-humble-autoware-detected-object-validation_0-2025.01.21.13.12_amd64.buildinfo
+ f8e13cddc463e7b219ebcd1a156839fcb9321526 676754 ros-humble-autoware-detected-object-validation_0-2025.01.21.13.12_amd64.deb
+Checksums-Sha256:
+ 40f26dd541c4cfc36d7b13cc4a8ca030160ea73deb9140bd6d6d1ad8e84de342 22794592 ros-humble-autoware-detected-object-validation-dbgsym_0-2025.01.21.13.12_amd64.ddeb
+ 549967db81e88d9542fbe40b13ee4d6a30ce4f22a71e2c27c931b90e607a8450 46652 ros-humble-autoware-detected-object-validation_0-2025.01.21.13.12_amd64.buildinfo
+ 5d6b41f53aece341f77ab453048fecaebd63f4571ae8ff84a090155b40227c29 676754 ros-humble-autoware-detected-object-validation_0-2025.01.21.13.12_amd64.deb
+Files:
+ c0b74b294ea39e2087b87037863eb6a5 22794592 debug optional ros-humble-autoware-detected-object-validation-dbgsym_0-2025.01.21.13.12_amd64.ddeb
+ 435d36293b4ad0edb59f39b71d31634f 46652 misc optional ros-humble-autoware-detected-object-validation_0-2025.01.21.13.12_amd64.buildinfo
+ 4ea7eeac5fe7b74e73e794a3346bb449 676754 misc optional ros-humble-autoware-detected-object-validation_0-2025.01.21.13.12_amd64.deb

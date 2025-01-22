@@ -1,0 +1,68 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-trajectory
+Binary: ros-humble-autoware-trajectory
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.20.14.15
+Distribution: jammy
+Urgency: high
+Maintainer: Yukinari Hisaki <yukinari.hisaki.2@tier4.jp>
+Changed-By: Yukinari Hisaki <yukinari.hisaki.2@tier4.jp>
+Description:
+ ros-humble-autoware-trajectory - The autoware_trajectory package
+Changes:
+ ros-humble-autoware-trajectory (0-2025.01.20.14.15) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - common (#9564 <https://github.com/autowarefoundation/autoware.universe/issues/9564>)
+   * refactor: correct spelling (#9528 <https://github.com/autowarefoundation/autoware.universe/issues/9528>)
+   * fix(autoware_trajectory): autoware_trajectory bug (#9475 <https://github.com/autowarefoundation/autoware.universe/issues/9475>)
+     fix autoware_trajectory bug
+   * 0.39.0
+   * fix version
+   * update changelog
+   * add changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * refactor(autoware_trajectory): refactor autoware_trajectory (#9356 <https://github.com/autowarefoundation/autoware.universe/issues/9356>)
+   * feat(behavior_velocity_stop_line): replace autoware_motion_utils to autoware_trajectory (#9299 <https://github.com/autowarefoundation/autoware.universe/issues/9299>)
+     * feat(behavior_velocity_stop_line): replace autoware_motion_utils to autoware_trajectory
+     * update
+     ---------
+   * feat(autoware_trajectory): change default value of min_points (#9315 <https://github.com/autowarefoundation/autoware.universe/issues/9315>)
+   * fix(autoware_trajectory): fix bug of autoware_trajectory (#9314 <https://github.com/autowarefoundation/autoware.universe/issues/9314>)
+   * feat(autoware_trajectory): change interface of InterpolatedArray (#9264 <https://github.com/autowarefoundation/autoware.universe/issues/9264>)
+     change interface of InterpolateArray
+   * feat(autoware_trajectory): move trajectory_container from autoware_motion_utils to a new package (#9253 <https://github.com/autowarefoundation/autoware.universe/issues/9253>)
+     * create trajectory container package
+     * update
+     * update
+     * style(pre-commit): autofix
+     * update codeowner
+     * update
+     * fix cmake
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yukinari Hisaki, Yutaka Kondo
+Checksums-Sha1:
+ 5c248e92095a9abc43d5ded09c22f16c92f7d5e4 1387294 ros-humble-autoware-trajectory-dbgsym_0-2025.01.20.14.15_amd64.ddeb
+ 91780a304560f1f6d877fbf55d2270305d6e15df 22944 ros-humble-autoware-trajectory_0-2025.01.20.14.15_amd64.buildinfo
+ 7af2b25245384f85790cb43d2b31ba02204df460 46086 ros-humble-autoware-trajectory_0-2025.01.20.14.15_amd64.deb
+Checksums-Sha256:
+ df4de29a0f676fe4f8ce1a4901f8cacbe8b978eb14ace9459823bd848c2830b5 1387294 ros-humble-autoware-trajectory-dbgsym_0-2025.01.20.14.15_amd64.ddeb
+ c63e5ebc217c8a7f14825edffee55b3e82427b06fa2044ceafcd102dbdb611fb 22944 ros-humble-autoware-trajectory_0-2025.01.20.14.15_amd64.buildinfo
+ b89c0015a09a4f4d04f0f3c6654df0ee1d494e42b37db98baf848a2c249bfe10 46086 ros-humble-autoware-trajectory_0-2025.01.20.14.15_amd64.deb
+Files:
+ 30a8ea5926234a3b2244bf2e28dddec6 1387294 debug optional ros-humble-autoware-trajectory-dbgsym_0-2025.01.20.14.15_amd64.ddeb
+ a303274dd4c2ef29fcb822dd94fbcd51 22944 misc optional ros-humble-autoware-trajectory_0-2025.01.20.14.15_amd64.buildinfo
+ 2291398d628854cbbe67c1c11310ef89 46086 misc optional ros-humble-autoware-trajectory_0-2025.01.20.14.15_amd64.deb

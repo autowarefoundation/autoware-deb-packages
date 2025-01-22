@@ -1,0 +1,53 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-predicted-path-checker
+Binary: ros-humble-predicted-path-checker
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.22.07.24
+Distribution: jammy
+Urgency: high
+Maintainer: Berkay Karaman <berkay@leodrive.ai>
+Changed-By: Berkay Karaman <berkay@leodrive.ai>
+Description:
+ ros-humble-predicted-path-checker - The predicted_path_checker package
+Changes:
+ ros-humble-predicted-path-checker (0-2025.01.22.07.24) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - control (#9565 <https://github.com/autowarefoundation/autoware.universe/issues/9565>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * refactor(component_interface_utils): prefix package and namespace with autoware (#9092 <https://github.com/autowarefoundation/autoware.universe/issues/9092>)
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ dacfaf35bffce17994d220ae857885735a34f9c8 9181642 ros-humble-predicted-path-checker-dbgsym_0-2025.01.22.07.24_amd64.ddeb
+ f383eccca22c9ee47c6a336c6d5d274a892927c8 41340 ros-humble-predicted-path-checker_0-2025.01.22.07.24_amd64.buildinfo
+ 35920e1910f206b19455b6a2759891be23235fe8 336376 ros-humble-predicted-path-checker_0-2025.01.22.07.24_amd64.deb
+Checksums-Sha256:
+ 45ff4d61cb6cbd0c316d188299fe4130779033c32a8d1868467909656ea7ae51 9181642 ros-humble-predicted-path-checker-dbgsym_0-2025.01.22.07.24_amd64.ddeb
+ d6b2605ade5d8eec08f257e73163707d601a4694f2d0f940bcfaf25c40821c5e 41340 ros-humble-predicted-path-checker_0-2025.01.22.07.24_amd64.buildinfo
+ 37787bcf3684ca291e8c6f5cd4eeacbb4502f1ad3e39e0ede5f87db8019673ef 336376 ros-humble-predicted-path-checker_0-2025.01.22.07.24_amd64.deb
+Files:
+ cd9566576f52a4cc0dae6099cb78c53b 9181642 debug optional ros-humble-predicted-path-checker-dbgsym_0-2025.01.22.07.24_amd64.ddeb
+ 9dd1ae7f363b128352e493fabad9da1d 41340 misc optional ros-humble-predicted-path-checker_0-2025.01.22.07.24_amd64.buildinfo
+ 4040d605f03adbec354fc8262e3dbef1 336376 misc optional ros-humble-predicted-path-checker_0-2025.01.22.07.24_amd64.deb

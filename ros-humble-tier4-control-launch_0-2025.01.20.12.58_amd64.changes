@@ -1,0 +1,93 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-tier4-control-launch
+Binary: ros-humble-tier4-control-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.20.12.58
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-tier4-control-launch - The tier4_control_launch package
+Changes:
+ ros-humble-tier4-control-launch (0-2025.01.20.12.58) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix: autoware_glog_compontnt (#9586 <https://github.com/autowarefoundation/autoware.universe/issues/9586>)
+     Fixed autoware_glog_compontnt
+   * refactor(glog_component): prefix package and namespace with autoware (#9302 <https://github.com/autowarefoundation/autoware.universe/issues/9302>)
+     Co-authored-by: Takagi, Isamu <mailto:43976882+isamu-takagi@users.noreply.github.com>
+   * feat(control_evaluator, tier4_control_launch): add a trigger to choice whether to output metrics to log folder (#9478 <https://github.com/autowarefoundation/autoware.universe/issues/9478>)
+     * refactor and add output_metrics. a bug existing when psim.
+     * refactored launch file.
+     * output description
+     * add parm to launch file.
+     * move output_metrics from param config to launch file.
+     * move output_metrics from config to launch.xml
+     * fix unit test bug.
+     * fix test bug again.
+     * Update evaluator/autoware_control_evaluator/include/autoware/control_evaluator/control_evaluator_node.hpp
+     ---------
+     Co-authored-by: Kosuke Takeuchi <mailto:kosuke.tnp@gmail.com>
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * feat(tier4_control_launch): use preset.yaml to control which modules to launch for control modules (#9351 <https://github.com/autowarefoundation/autoware.universe/issues/9351>)
+     * update contro.launch for preset.xml
+     * update options.
+     * fix bug.
+     * rename to enable_*
+     * check group.
+     * space.
+     * reduce num of load_composable_node.
+     * tmp save.
+     * tmp save.
+     * splite control modules' launch.
+     * final version
+     * remove on/off option for shift decider, vehicle cmd gate, and operation mode transition manager
+     * pre-commit
+     ---------
+   * fix(collision_detector): skip process when odometry is not published (#9308 <https://github.com/autowarefoundation/autoware.universe/issues/9308>)
+     * subscribe odometry
+     * fix precommit
+     * remove unnecessary log info
+     ---------
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * feat(aeb): set global param to override autoware state check (#9263 <https://github.com/autowarefoundation/autoware.universe/issues/9263>)
+     * set global param to override autoware state check
+     * change variable to be more general
+     * add comment
+     * move param to control component launch
+     * change param name to be more straightforward
+     ---------
+   * feat(control_launch): add collision detector in launch (#9214 <https://github.com/autowarefoundation/autoware.universe/issues/9214>)
+     add collision detector in launch
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Go Sakayori, Kem (TiankuiXian), Ryohsuke Mitsudome, SakodaShintaro, Yutaka Kondo, danielsanchezaran
+Checksums-Sha1:
+ 2cfed2c114737da78d6df5afed36156328e7dc29 10666 ros-humble-tier4-control-launch_0-2025.01.20.12.58_amd64.buildinfo
+ d5dbb6d6425caf2dd41a71ba53898e2a61f6a30d 16342 ros-humble-tier4-control-launch_0-2025.01.20.12.58_amd64.deb
+Checksums-Sha256:
+ 2d36f821b8bc338fef61db91cacbb486199d9ac60a2d6b7e76355c6cf17fa6c6 10666 ros-humble-tier4-control-launch_0-2025.01.20.12.58_amd64.buildinfo
+ 858aee697bfb3827c3a7ca6c68f78e0749839f023f31d70cd80c95373bfd2177 16342 ros-humble-tier4-control-launch_0-2025.01.20.12.58_amd64.deb
+Files:
+ c64856ceffb3bac9595868f1b14ed5f4 10666 misc optional ros-humble-tier4-control-launch_0-2025.01.20.12.58_amd64.buildinfo
+ 36ff0a21d42205efe7f212cfe4b9e629 16342 misc optional ros-humble-tier4-control-launch_0-2025.01.20.12.58_amd64.deb
