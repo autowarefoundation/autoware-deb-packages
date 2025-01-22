@@ -2,7 +2,7 @@ repositories:
   core/autoware.core:
     type: git
     url: https://github.com/autowarefoundation/autoware.core.git
-    version: 4ab0299f7659274ed88f4694c5a6d18adf5b3967
+    version: fdc7c2decfcd6381e2cdbe93b7e0107f314d2717
   core/autoware_adapi_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
@@ -30,7 +30,7 @@ repositories:
   launcher/autoware_launch:
     type: git
     url: https://github.com/autowarefoundation/autoware_launch.git
-    version: 4c0a0d02043be657e7039970aeba119e30fff79f
+    version: 11957fe2b1d81e8da22febe913ef339a4bec06a1
   param/autoware_individual_params:
     type: git
     url: https://github.com/autowarefoundation/autoware_individual_params.git
@@ -62,11 +62,11 @@ repositories:
   sensor_kit/external/awsim_sensor_kit_launch:
     type: git
     url: https://github.com/tier4/awsim_sensor_kit_launch.git
-    version: 28d67e1d90bdbd89b1ff2bbd1abc63549e12a951
+    version: 33ef7eec8951c6466cb2c12209275e59837f3a3e
   sensor_kit/sample_sensor_kit_launch:
     type: git
     url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
-    version: b12f176f852e8a406489b0b63dfb9622a1f4073f
+    version: e6f33566e576990d024a9b90acf54afdb3322208
   sensor_kit/single_lidar_sensor_kit_launch:
     type: git
     url: https://github.com/autowarefoundation/single_lidar_sensor_kit_launch.git
@@ -74,7 +74,7 @@ repositories:
   universe/autoware.universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
-    version: ae436b380914dd6c7cd60b28a35c0026a79e000f
+    version: 8ee41bebc1c7df6176b837db4a0059964cfb6ff8
   universe/external/eagleye:
     type: git
     url: https://github.com/MapIV/eagleye.git
@@ -110,7 +110,7 @@ repositories:
   universe/external/tier4_autoware_msgs:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
-    version: d0e52d3909fa7f65871872ea48eaf068882b9f3d
+    version: 10a235af807bba485291803499d4aec052b82292
   vehicle/awsim_labs_vehicle_launch:
     type: git
     url: https://github.com/autowarefoundation/awsim_labs_vehicle_launch.git
