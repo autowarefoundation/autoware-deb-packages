@@ -74,7 +74,7 @@ repositories:
   universe/autoware.universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
-    version: ae436b380914dd6c7cd60b28a35c0026a79e000f
+    version: move-cuda-packages
   universe/external/eagleye:
     type: git
     url: https://github.com/MapIV/eagleye.git
