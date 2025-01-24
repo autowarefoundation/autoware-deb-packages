@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 17 Jan 2025 00:00:00 -0000
+Source: ros-humble-common-sensor-launch
+Binary: ros-humble-common-sensor-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.22.15.18
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-common-sensor-launch - The common_sensor_launch package
+Changes:
+ ros-humble-common-sensor-launch (0-2025.01.22.15.18) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * fix(nebula_node_container.launch.py): autoware_glog_component (#112 <https://github.com/autowarefoundation/sample_sensor_kit_launch/issues/112>)
+     Fixed autoware_glog_component
+   * refactor(glog_component): prefix package and namespace with autoware (#110 <https://github.com/autowarefoundation/sample_sensor_kit_launch/issues/110>)
+   * Contributors: Esteve Fernandez, Ryohsuke Mitsudome, SakodaShintaro
+Checksums-Sha1:
+ b1dff2808deaf2d689cfffc907b46fb985355bab 10549 ros-humble-common-sensor-launch_0-2025.01.22.15.18_amd64.buildinfo
+ 59de408f415c695dbe7c137feaba925cba0dd277 15862 ros-humble-common-sensor-launch_0-2025.01.22.15.18_amd64.deb
+Checksums-Sha256:
+ cf40901f1d673b9513cdb2f6ee70a481006b18f945c49c0d3151d2a52747f1ee 10549 ros-humble-common-sensor-launch_0-2025.01.22.15.18_amd64.buildinfo
+ dc4bad13a3b266f165246370a7115f5d4b2379d7900edbcf27f9eb1a2aa29dcf 15862 ros-humble-common-sensor-launch_0-2025.01.22.15.18_amd64.deb
+Files:
+ f2142979b737373936208e53ce2c4fa3 10549 misc optional ros-humble-common-sensor-launch_0-2025.01.22.15.18_amd64.buildinfo
+ 1eb651c7073cfe85f600ea2674e97512 15862 misc optional ros-humble-common-sensor-launch_0-2025.01.22.15.18_amd64.deb

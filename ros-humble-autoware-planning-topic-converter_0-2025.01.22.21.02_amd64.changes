@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-planning-topic-converter
+Binary: ros-humble-autoware-planning-topic-converter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.22.21.02
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi OTA <satoshi.ota@tier4.jp>
+Changed-By: Satoshi OTA <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-planning-topic-converter - The autoware_planning_topic_converter package
+Changes:
+ ros-humble-autoware-planning-topic-converter (0-2025.01.22.21.02) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - planning (#9570 <https://github.com/autowarefoundation/autoware.universe/issues/9570>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ b9369ed81bf33c1610dcc6af9d5790bef4a7fe3c 2452524 ros-humble-autoware-planning-topic-converter-dbgsym_0-2025.01.22.21.02_amd64.ddeb
+ 9b5b0a60e2bbf99518c60cb49572b92adb10c1e8 40629 ros-humble-autoware-planning-topic-converter_0-2025.01.22.21.02_amd64.buildinfo
+ 2e888334a9e8c3e9f3cd729ecb581857c0e7d352 120606 ros-humble-autoware-planning-topic-converter_0-2025.01.22.21.02_amd64.deb
+Checksums-Sha256:
+ 482218f3767fa19f1ad444201cc6aa8481405b728163627f230e47aa2b9784f7 2452524 ros-humble-autoware-planning-topic-converter-dbgsym_0-2025.01.22.21.02_amd64.ddeb
+ cc39f949ee35e2ecec4aff4b91aa79db811a8ea6f1c60e845c049c5d5d633f0f 40629 ros-humble-autoware-planning-topic-converter_0-2025.01.22.21.02_amd64.buildinfo
+ d91080e141344eea4d8eee1e28d41ac3d384363bca6a0c776cc8fc432197e324 120606 ros-humble-autoware-planning-topic-converter_0-2025.01.22.21.02_amd64.deb
+Files:
+ 3e1e5878a7b38ff90b2237d231356e35 2452524 debug optional ros-humble-autoware-planning-topic-converter-dbgsym_0-2025.01.22.21.02_amd64.ddeb
+ bfad3fd10ac2801b3863a7c7756a4f4c 40629 misc optional ros-humble-autoware-planning-topic-converter_0-2025.01.22.21.02_amd64.buildinfo
+ 72ee842e017e99f81c34faaacac93cf8 120606 misc optional ros-humble-autoware-planning-topic-converter_0-2025.01.22.21.02_amd64.deb

@@ -1,0 +1,63 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-perception-online-evaluator
+Binary: ros-humble-perception-online-evaluator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.23.07.40
+Distribution: jammy
+Urgency: high
+Maintainer: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Changed-By: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Description:
+ ros-humble-perception-online-evaluator - ROS 2 node for evaluating perception
+Changes:
+ ros-humble-perception-online-evaluator (0-2025.01.23.07.40) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - evaluator (#9566 <https://github.com/autowarefoundation/autoware.universe/issues/9566>)
+   * refactor(perception_online_evaluator): use tier4_metric_msgs instead of diagnostic_msgs (#9485 <https://github.com/autowarefoundation/autoware.universe/issues/9485>)
+   * refactor(evaluators, autoware_universe_utils): rename Stat class to Accumulator and move it to autoware_universe_utils (#9459 <https://github.com/autowarefoundation/autoware.universe/issues/9459>)
+     * add Accumulator class to autoware_universe_utils
+     * use Accumulator on all evaluators.
+     * pre-commit
+     * found and fixed a bug. add more tests.
+     * pre-commit
+     * Update common/autoware_universe_utils/include/autoware/universe_utils/math/accumulator.hpp
+     Co-authored-by: Kosuke Takeuchi <mailto:kosuke.tnp@gmail.com>
+     ---------
+     Co-authored-by: Kosuke Takeuchi <mailto:kosuke.tnp@gmail.com>
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix(evaluator): missing dependency in evaluator components (#9074 <https://github.com/autowarefoundation/autoware.universe/issues/9074>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Kem (TiankuiXian), Kotaro Uetake, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo, ぐるぐる
+Checksums-Sha1:
+ b09a5bfb2279b3dc5079927e8da6e3704f08161d 4811318 ros-humble-perception-online-evaluator-dbgsym_0-2025.01.23.07.40_amd64.ddeb
+ b4d781b9344d58ef90bb452825356f249e59eed5 42194 ros-humble-perception-online-evaluator_0-2025.01.23.07.40_amd64.buildinfo
+ 35ce289dbddbf87e6673c65865e52cce7f0a5b9e 207078 ros-humble-perception-online-evaluator_0-2025.01.23.07.40_amd64.deb
+Checksums-Sha256:
+ 63f7db7db7cd0274856d83d589d82cd8a106911740f4b997816d5fd395a9872e 4811318 ros-humble-perception-online-evaluator-dbgsym_0-2025.01.23.07.40_amd64.ddeb
+ c2c728f0ba7c5bc2d5edff039591d189d62dd90f02606df5a7970cb77f4a7f15 42194 ros-humble-perception-online-evaluator_0-2025.01.23.07.40_amd64.buildinfo
+ cdce5bfd36c3523ccd3418b995dad26dc585a83a82647d812e981ffac453ad76 207078 ros-humble-perception-online-evaluator_0-2025.01.23.07.40_amd64.deb
+Files:
+ 12aa377d5306f70afeb1361f08446d83 4811318 debug optional ros-humble-perception-online-evaluator-dbgsym_0-2025.01.23.07.40_amd64.ddeb
+ eff5a962ee76496163d44848170a20de 42194 misc optional ros-humble-perception-online-evaluator_0-2025.01.23.07.40_amd64.buildinfo
+ a7a42c36142441c436935fc02051515f 207078 misc optional ros-humble-perception-online-evaluator_0-2025.01.23.07.40_amd64.deb

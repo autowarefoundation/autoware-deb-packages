@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-yabloc-pose-initializer
+Binary: ros-humble-yabloc-pose-initializer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.24.06.13
+Distribution: jammy
+Urgency: high
+Maintainer: Kento Yabuuchi <kento.yabuuchi.2@tier4.jp>
+Changed-By: Kento Yabuuchi <kento.yabuuchi.2@tier4.jp>
+Description:
+ ros-humble-yabloc-pose-initializer - The pose initializer
+Changes:
+ ros-humble-yabloc-pose-initializer (0-2025.01.24.06.13) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - localization (#9567 <https://github.com/autowarefoundation/autoware.universe/issues/9567>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix(yabloc_pose_initializer): include opencv as system (#9375 <https://github.com/autowarefoundation/autoware.universe/issues/9375>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Ryuta Kambe, Yutaka Kondo
+Checksums-Sha1:
+ 4d67c6a4754fb79b770b4899a9dbd8e314c4b537 5999334 ros-humble-yabloc-pose-initializer-dbgsym_0-2025.01.24.06.13_amd64.ddeb
+ a990ffa9ec8fa704fc7faa6330cf3dde7f4aba0a 46646 ros-humble-yabloc-pose-initializer_0-2025.01.24.06.13_amd64.buildinfo
+ 15f3aa1e623fad9de3ba5f17aa94333cf09ac0e1 193340 ros-humble-yabloc-pose-initializer_0-2025.01.24.06.13_amd64.deb
+Checksums-Sha256:
+ f0dcb4d3348da02b0af567c4097d23b94a36fd6f47d458891887dfafdbc18adf 5999334 ros-humble-yabloc-pose-initializer-dbgsym_0-2025.01.24.06.13_amd64.ddeb
+ 60e01270af8b903bf882a245ad06f763f5a85f6b0fd6e18d03a20307dd059df7 46646 ros-humble-yabloc-pose-initializer_0-2025.01.24.06.13_amd64.buildinfo
+ dbe0721f3245990f0022e14165e444836c583e2795b4e59f05646d9652248d57 193340 ros-humble-yabloc-pose-initializer_0-2025.01.24.06.13_amd64.deb
+Files:
+ a8189b665758a7c639768f934f2a6ff4 5999334 debug optional ros-humble-yabloc-pose-initializer-dbgsym_0-2025.01.24.06.13_amd64.ddeb
+ 6cd2ac646faf6d27ad5fdff25c06bf93 46646 misc optional ros-humble-yabloc-pose-initializer_0-2025.01.24.06.13_amd64.buildinfo
+ 25dea1a6524da56dcaa20c9daae047af 193340 misc optional ros-humble-yabloc-pose-initializer_0-2025.01.24.06.13_amd64.deb

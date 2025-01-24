@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 17 Jan 2025 00:00:00 -0000
+Source: ros-humble-sample-sensor-kit-launch
+Binary: ros-humble-sample-sensor-kit-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.22.17.11
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-sample-sensor-kit-launch - The sample_sensor_kit_launch package
+Changes:
+ ros-humble-sample-sensor-kit-launch (0-2025.01.22.17.11) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * fix(sample_sensor_kit_launch): add autoware prefix to vehicle_velocity_converter (#107 <https://github.com/autowarefoundation/sample_sensor_kit_launch/issues/107>)
+     * add autoware to vehicle_velocity_converter
+     * add dependency autoware_vehicle_velocity_converter
+     ---------
+     Co-authored-by: Yamato Ando <mailto:yamato.ando@gmail.com>
+   * Contributors: Masaki Baba, Ryohsuke Mitsudome
+Checksums-Sha1:
+ 6e866d4a07919c36e5de10793aa827cabc75e588 10569 ros-humble-sample-sensor-kit-launch_0-2025.01.22.17.11_amd64.buildinfo
+ e5cedd36df217446a922a8d0f038016117ac7cbd 16208 ros-humble-sample-sensor-kit-launch_0-2025.01.22.17.11_amd64.deb
+Checksums-Sha256:
+ 16b1e02b5d692af2246f412b5a84a6b50d5ae935079e047b057348a3c427d04a 10569 ros-humble-sample-sensor-kit-launch_0-2025.01.22.17.11_amd64.buildinfo
+ 6eb9237cba5831815e74256460495094e943300b79f927e4b1d23755bec4af82 16208 ros-humble-sample-sensor-kit-launch_0-2025.01.22.17.11_amd64.deb
+Files:
+ 59fd5179679bd32dbc625d08c0cf50d2 10569 misc optional ros-humble-sample-sensor-kit-launch_0-2025.01.22.17.11_amd64.buildinfo
+ 81cdbdaa5b9e570460cd7be645e22af3 16208 misc optional ros-humble-sample-sensor-kit-launch_0-2025.01.22.17.11_amd64.deb

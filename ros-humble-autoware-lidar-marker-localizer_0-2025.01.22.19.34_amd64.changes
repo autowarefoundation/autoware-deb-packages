@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-lidar-marker-localizer
+Binary: ros-humble-autoware-lidar-marker-localizer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.22.19.34
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-lidar-marker-localizer - The autoware_lidar_marker_localizer package
+Changes:
+ ros-humble-autoware-lidar-marker-localizer (0-2025.01.22.19.34) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - localization (#9567 <https://github.com/autowarefoundation/autoware.universe/issues/9567>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 71723924ac6cff9b7aefad2b881780c67619d38c 7611472 ros-humble-autoware-lidar-marker-localizer-dbgsym_0-2025.01.22.19.34_amd64.ddeb
+ 0ff4785da9a6487478e79c3e01f88c208feb075b 42006 ros-humble-autoware-lidar-marker-localizer_0-2025.01.22.19.34_amd64.buildinfo
+ c4bfbced9478b928ea0c5f09a6c4d44c96c46831 272332 ros-humble-autoware-lidar-marker-localizer_0-2025.01.22.19.34_amd64.deb
+Checksums-Sha256:
+ d23e465a45eb74584c9de6ec6257bd27e2fc7e5ead75cced678d2ae51e86c1a3 7611472 ros-humble-autoware-lidar-marker-localizer-dbgsym_0-2025.01.22.19.34_amd64.ddeb
+ b9334f7083ea0325b1092d8f918b9820ca0b1a27229aee666fd32b75a3e66ddb 42006 ros-humble-autoware-lidar-marker-localizer_0-2025.01.22.19.34_amd64.buildinfo
+ 7063ee953ebe7d899ae0531b8583ffa03f4946abda31979e4026a5d4a13bb471 272332 ros-humble-autoware-lidar-marker-localizer_0-2025.01.22.19.34_amd64.deb
+Files:
+ 09924a4214668e2b4975e00d6b0d2b2a 7611472 debug optional ros-humble-autoware-lidar-marker-localizer-dbgsym_0-2025.01.22.19.34_amd64.ddeb
+ f84e9672911c3744df190652487deb3b 42006 misc optional ros-humble-autoware-lidar-marker-localizer_0-2025.01.22.19.34_amd64.buildinfo
+ c961646563f181d175313b4ddf62c33e 272332 misc optional ros-humble-autoware-lidar-marker-localizer_0-2025.01.22.19.34_amd64.deb

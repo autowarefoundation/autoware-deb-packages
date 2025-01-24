@@ -1,0 +1,54 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-control-performance-analysis
+Binary: ros-humble-control-performance-analysis
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.23.07.10
+Distribution: jammy
+Urgency: high
+Maintainer: Berkay Karaman <berkay@leodrive.ai>
+Changed-By: Berkay Karaman <berkay@leodrive.ai>
+Description:
+ ros-humble-control-performance-analysis - Controller Performance Evaluation
+Changes:
+ ros-humble-control-performance-analysis (0-2025.01.23.07.10) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - control (#9565 <https://github.com/autowarefoundation/autoware.universe/issues/9565>)
+   * refactor(global_parameter_loader): prefix package and namespace with autoware (#9303 <https://github.com/autowarefoundation/autoware.universe/issues/9303>)
+   * docs(control_performance_analysis): utilize mathjax syntax in readme (#9552 <https://github.com/autowarefoundation/autoware.universe/issues/9552>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix(control_performance_analysis): clang-diagnostic-pessimizing-move (#9380 <https://github.com/autowarefoundation/autoware.universe/issues/9380>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Ryuta Kambe, Yutaka Kondo
+Checksums-Sha1:
+ bd9e6b3e9acd16ec059c84131c1e45f9a10d8b9e 5845462 ros-humble-control-performance-analysis-dbgsym_0-2025.01.23.07.10_amd64.ddeb
+ 5081276cc2150479240b9d2e1c97d66a1186fdd2 40962 ros-humble-control-performance-analysis_0-2025.01.23.07.10_amd64.buildinfo
+ 066cb3d9c0911432bf7edc42e2e79f0cd3a84280 277406 ros-humble-control-performance-analysis_0-2025.01.23.07.10_amd64.deb
+Checksums-Sha256:
+ e98152a2e30a82dce0fbb9037ade7e0d863f6a304951513004edc10e719cab4f 5845462 ros-humble-control-performance-analysis-dbgsym_0-2025.01.23.07.10_amd64.ddeb
+ d72a45348402ab5c0da0222c59bdebca01ab62b1d699cbd8a557f387f3840254 40962 ros-humble-control-performance-analysis_0-2025.01.23.07.10_amd64.buildinfo
+ 84c5418489c040343d7ca342ce0a80f830e0fd3df04babc11a44430ffc21a330 277406 ros-humble-control-performance-analysis_0-2025.01.23.07.10_amd64.deb
+Files:
+ 6aed95de664cff872520ffac48733681 5845462 debug optional ros-humble-control-performance-analysis-dbgsym_0-2025.01.23.07.10_amd64.ddeb
+ 2c3ec6876beb613bc5917f9c139cfdd9 40962 misc optional ros-humble-control-performance-analysis_0-2025.01.23.07.10_amd64.buildinfo
+ ca15584f37b7257ce29272ca6dcca196 277406 misc optional ros-humble-control-performance-analysis_0-2025.01.23.07.10_amd64.deb

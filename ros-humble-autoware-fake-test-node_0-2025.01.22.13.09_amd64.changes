@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-fake-test-node
+Binary: ros-humble-autoware-fake-test-node
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.22.13.09
+Distribution: jammy
+Urgency: high
+Maintainer: Apex.AI, Inc. <opensource@apex.ai>
+Changed-By: Apex.AI, Inc. <opensource@apex.ai>
+Description:
+ ros-humble-autoware-fake-test-node - A fake node that we can use in the integration-like cpp tests.
+Changes:
+ ros-humble-autoware-fake-test-node (0-2025.01.22.13.09) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix package names in changelog files (#9500 <https://github.com/autowarefoundation/autoware.universe/issues/9500>)
+   * refactor(fake_test_node): prefix package and namespace with autoware (#9249 <https://github.com/autowarefoundation/autoware.universe/issues/9249>)
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome
+Checksums-Sha1:
+ 6f58d50353290af0de9401b62db43563d24e5e2f 1988588 ros-humble-autoware-fake-test-node-dbgsym_0-2025.01.22.13.09_amd64.ddeb
+ 7961042041778cdee5b0a8f0d6d083146ca19527 16631 ros-humble-autoware-fake-test-node_0-2025.01.22.13.09_amd64.buildinfo
+ 11665df36b3da0ea2e258968dca461cf9c3deb4b 107278 ros-humble-autoware-fake-test-node_0-2025.01.22.13.09_amd64.deb
+Checksums-Sha256:
+ df6fb6664d538a80f99936f502689438a91bccababac614b991b2c7c0bd5d9a4 1988588 ros-humble-autoware-fake-test-node-dbgsym_0-2025.01.22.13.09_amd64.ddeb
+ b04777e5c15fc5c3da6c9a040ff0217edce17b28087e7ed8eb16b38b2dfe8f8e 16631 ros-humble-autoware-fake-test-node_0-2025.01.22.13.09_amd64.buildinfo
+ 51258b079f0a2f71ebd41905786520ba6493304fc0ac2a2551b1ae3433a729fa 107278 ros-humble-autoware-fake-test-node_0-2025.01.22.13.09_amd64.deb
+Files:
+ d63ad920674d231091d23368ef19384f 1988588 debug optional ros-humble-autoware-fake-test-node-dbgsym_0-2025.01.22.13.09_amd64.ddeb
+ a63c600391dac869edc249e69f2550de 16631 misc optional ros-humble-autoware-fake-test-node_0-2025.01.22.13.09_amd64.buildinfo
+ b8cc26a11b5ee38019b783418ef46fd8 107278 misc optional ros-humble-autoware-fake-test-node_0-2025.01.22.13.09_amd64.deb

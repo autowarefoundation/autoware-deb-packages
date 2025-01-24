@@ -1,0 +1,53 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-traffic-light-fine-detector
+Binary: ros-humble-autoware-traffic-light-fine-detector
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.23.02.45
+Distribution: jammy
+Urgency: high
+Maintainer: Tao Zhong <tao.zhong@tier4.jp>
+Changed-By: Tao Zhong <tao.zhong@tier4.jp>
+Description:
+ ros-humble-autoware-traffic-light-fine-detector - The autoware_traffic_light_fine_detector package
+Changes:
+ ros-humble-autoware-traffic-light-fine-detector (0-2025.01.23.02.45) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - perception (#9569 <https://github.com/autowarefoundation/autoware.universe/issues/9569>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(autoware_traffic_light*): add maintainer (#9280 <https://github.com/autowarefoundation/autoware.universe/issues/9280>)
+     * add fundamental commit
+     * add forgot package
+     ---------
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Masato Saeki, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ bfd87ecb29bdd29dae35e086904be0c6d3ac88de 44688 ros-humble-autoware-traffic-light-fine-detector_0-2025.01.23.02.45_amd64.buildinfo
+ 8d5769e3e2a5a87c8da4f33e5d9c635cc6442cf9 8060 ros-humble-autoware-traffic-light-fine-detector_0-2025.01.23.02.45_amd64.deb
+Checksums-Sha256:
+ d3a952a4e8f15e2fc54a16b0b0737eb3a66d5d675f07eda52475b5f77ca05391 44688 ros-humble-autoware-traffic-light-fine-detector_0-2025.01.23.02.45_amd64.buildinfo
+ b913db1e9ed3e95dc97814e6e74f02e079a75b83d5bd1f0de174d2e90325debc 8060 ros-humble-autoware-traffic-light-fine-detector_0-2025.01.23.02.45_amd64.deb
+Files:
+ 9126a0690c7be4e409dd7d63de6befcb 44688 misc optional ros-humble-autoware-traffic-light-fine-detector_0-2025.01.23.02.45_amd64.buildinfo
+ 87edad3a9e504db9bab4173561268fac 8060 misc optional ros-humble-autoware-traffic-light-fine-detector_0-2025.01.23.02.45_amd64.deb

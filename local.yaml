@@ -19,9 +19,6 @@ autoware_internal_debug_msgs:
 autoware_internal_msgs:
   ubuntu:
   - ros-humble-autoware-internal-msgs
-autoware_internal_planning_msgs:
-  ubuntu:
-  - ros-humble-autoware-internal-planning-msgs
 autoware_lint_common:
   ubuntu:
   - ros-humble-autoware-lint-common
@@ -94,6 +91,9 @@ autoware_perception_rviz_plugin:
 autoware_planning_msgs:
   ubuntu:
   - ros-humble-autoware-planning-msgs
+autoware_internal_planning_msgs:
+  ubuntu:
+  - ros-humble-autoware-internal-planning-msgs
 autoware_point_types:
   ubuntu:
   - ros-humble-autoware-point-types
@@ -223,6 +223,9 @@ continental_msgs:
 continental_srvs:
   ubuntu:
   - ros-humble-continental-srvs
+dummy_diag_publisher:
+  ubuntu:
+  - ros-humble-dummy-diag-publisher
 duplicated_node_checker:
   ubuntu:
   - ros-humble-duplicated-node-checker
@@ -490,6 +493,9 @@ autoware_lidar_marker_localizer:
 autoware_localization_error_monitor:
   ubuntu:
   - ros-humble-autoware-localization-error-monitor
+autoware_localization_evaluator:
+  ubuntu:
+  - ros-humble-autoware-localization-evaluator
 autoware_motion_utils:
   ubuntu:
   - ros-humble-autoware-motion-utils
@@ -526,6 +532,9 @@ autoware_objects_of_interest_marker_interface:
 autoware_path_distance_calculator:
   ubuntu:
   - ros-humble-autoware-path-distance-calculator
+autoware_planning_factor_interface:
+  ubuntu:
+  - ros-humble-autoware-planning-factor-interface
 autoware_planning_topic_converter:
   ubuntu:
   - ros-humble-autoware-planning-topic-converter
@@ -640,15 +649,9 @@ autoware_trajectory_follower_node:
 control_performance_analysis:
   ubuntu:
   - ros-humble-control-performance-analysis
-dummy_diag_publisher:
-  ubuntu:
-  - ros-humble-dummy-diag-publisher
 kinematic_evaluator:
   ubuntu:
   - ros-humble-kinematic-evaluator
-localization_evaluator:
-  ubuntu:
-  - ros-humble-localization-evaluator
 perception_online_evaluator:
   ubuntu:
   - ros-humble-perception-online-evaluator

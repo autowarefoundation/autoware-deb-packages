@@ -1,0 +1,56 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-traffic-light-map-based-detector
+Binary: ros-humble-autoware-traffic-light-map-based-detector
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.23.03.02
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-traffic-light-map-based-detector - The autoware_traffic_light_map_based_detector package
+Changes:
+ ros-humble-autoware-traffic-light-map-based-detector (0-2025.01.23.03.02) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - perception (#9569 <https://github.com/autowarefoundation/autoware.universe/issues/9569>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(autoware_traffic_light*): add maintainer (#9280 <https://github.com/autowarefoundation/autoware.universe/issues/9280>)
+     * add fundamental commit
+     * add forgot package
+     ---------
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Masato Saeki, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 2f652e5adeefe28e9300561851ec0bcfe2e1709f 6331700 ros-humble-autoware-traffic-light-map-based-detector-dbgsym_0-2025.01.23.03.02_amd64.ddeb
+ 056ed90f1ca1b12b44fb3885758d33ff4ddd22c5 45618 ros-humble-autoware-traffic-light-map-based-detector_0-2025.01.23.03.02_amd64.buildinfo
+ 62c3e91c44828a5a1d000d046ea5175249b9e891 239614 ros-humble-autoware-traffic-light-map-based-detector_0-2025.01.23.03.02_amd64.deb
+Checksums-Sha256:
+ 01c506bfc67fe82fcfa7582d72fdb95b8caeb63e32d07acd08d50ac33062153a 6331700 ros-humble-autoware-traffic-light-map-based-detector-dbgsym_0-2025.01.23.03.02_amd64.ddeb
+ aa358b32c2c4d806c7864438763b6e9f3f230824999d377505dffa5f1a8e1187 45618 ros-humble-autoware-traffic-light-map-based-detector_0-2025.01.23.03.02_amd64.buildinfo
+ 50f9fe5153eef9375775aab4fb69e1ab08ab12c5c61fa51bc68b075f3590d885 239614 ros-humble-autoware-traffic-light-map-based-detector_0-2025.01.23.03.02_amd64.deb
+Files:
+ d5ed7bbedf25ea90d88039fe30014563 6331700 debug optional ros-humble-autoware-traffic-light-map-based-detector-dbgsym_0-2025.01.23.03.02_amd64.ddeb
+ b365a73f0457204604a512ca8f024130 45618 misc optional ros-humble-autoware-traffic-light-map-based-detector_0-2025.01.23.03.02_amd64.buildinfo
+ 685c45c858a659266faaba4fb21a88c6 239614 misc optional ros-humble-autoware-traffic-light-map-based-detector_0-2025.01.23.03.02_amd64.deb

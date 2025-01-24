@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-cuda-utils
+Binary: ros-humble-autoware-cuda-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.22.13.08
+Distribution: jammy
+Urgency: high
+Maintainer: Manato Hirabayashi <manato.hirabayashi@tier4.jp>
+Changed-By: Manato Hirabayashi <manato.hirabayashi@tier4.jp>
+Description:
+ ros-humble-autoware-cuda-utils - cuda utility library
+Changes:
+ ros-humble-autoware-cuda-utils (0-2025.01.22.13.08) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix: fix package names in changelog files (#9500 <https://github.com/autowarefoundation/autoware.universe/issues/9500>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * Revert "refactor(sensing): move CUDA related packages to sensing/cuda directory" (#9394 <https://github.com/autowarefoundation/autoware.universe/issues/9394>)
+     Revert "refactor(sensing): move CUDA related packages to sensing/cuda direc…"
+     This reverts commit be8235d785597c41d01782ec35da862ba0906578.
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * refactor(cuda_utils): prefix package and namespace with autoware (#9171 <https://github.com/autowarefoundation/autoware.universe/issues/9171>)
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 1eba398736a0186a7de67fce7b22a33a6c4521b0 10658 ros-humble-autoware-cuda-utils_0-2025.01.22.13.08_amd64.buildinfo
+ 0572e2e3e85ac02922e134df7d9c38a933edf346 1704 ros-humble-autoware-cuda-utils_0-2025.01.22.13.08_amd64.deb
+Checksums-Sha256:
+ b93d0376945ad36c34aa1aa627455b443a19b7549abaa7f987758ba7e9f3530b 10658 ros-humble-autoware-cuda-utils_0-2025.01.22.13.08_amd64.buildinfo
+ f8186b37cd8521945354e9451c2c2b7a22f44af2614bcd8a7f89a2083a2ff489 1704 ros-humble-autoware-cuda-utils_0-2025.01.22.13.08_amd64.deb
+Files:
+ 83f3f9516f8f2531c4153287699a2eb6 10658 misc optional ros-humble-autoware-cuda-utils_0-2025.01.22.13.08_amd64.buildinfo
+ 26012ec73e0b86869b167291eabc7c1b 1704 misc optional ros-humble-autoware-cuda-utils_0-2025.01.22.13.08_amd64.deb

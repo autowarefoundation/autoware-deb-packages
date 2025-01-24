@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-radar-tracks-noise-filter
+Binary: ros-humble-autoware-radar-tracks-noise-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.22.14.07
+Distribution: jammy
+Urgency: high
+Maintainer: Sathshi Tanaka <satoshi.tanaka@tier4.jp>
+Changed-By: Sathshi Tanaka <satoshi.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-radar-tracks-noise-filter - autoware_radar_tracks_noise_filter
+Changes:
+ ros-humble-autoware-radar-tracks-noise-filter (0-2025.01.22.14.07) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - sensing (#9571 <https://github.com/autowarefoundation/autoware.universe/issues/9571>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 6d1f6b849a5341a33c517ebca8037dbf8115df0a 2361766 ros-humble-autoware-radar-tracks-noise-filter-dbgsym_0-2025.01.22.14.07_amd64.ddeb
+ dc8d8f66b1231dabebdda594f274f207570e6e55 16119 ros-humble-autoware-radar-tracks-noise-filter_0-2025.01.22.14.07_amd64.buildinfo
+ 7a433f20c549230dedb6a7d99cf18175a3a8f105 121950 ros-humble-autoware-radar-tracks-noise-filter_0-2025.01.22.14.07_amd64.deb
+Checksums-Sha256:
+ a06def249e3de971f9601abe36bcd368eb3f096d55b2fb59c77cbffe96cb2ed8 2361766 ros-humble-autoware-radar-tracks-noise-filter-dbgsym_0-2025.01.22.14.07_amd64.ddeb
+ b135735c384755436797eef65e9d61fcb43ca556e6a470cc7770bdbbcbd2ccd9 16119 ros-humble-autoware-radar-tracks-noise-filter_0-2025.01.22.14.07_amd64.buildinfo
+ dab5657797a7cf35749d91dc2758a1a264ee22a4b8764278bdc943349cf826b6 121950 ros-humble-autoware-radar-tracks-noise-filter_0-2025.01.22.14.07_amd64.deb
+Files:
+ 09c5224d1eda232ab75fe3d3082a58a1 2361766 debug optional ros-humble-autoware-radar-tracks-noise-filter-dbgsym_0-2025.01.22.14.07_amd64.ddeb
+ cf0d644a7ff124007473037428ab9ec7 16119 misc optional ros-humble-autoware-radar-tracks-noise-filter_0-2025.01.22.14.07_amd64.buildinfo
+ bab95382a1ce0bdf77a8773cdd788a03 121950 misc optional ros-humble-autoware-radar-tracks-noise-filter_0-2025.01.22.14.07_amd64.deb

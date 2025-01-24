@@ -1,0 +1,108 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-autonomous-emergency-braking
+Binary: ros-humble-autoware-autonomous-emergency-braking
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.23.16.06
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-autonomous-emergency-braking - Autonomous Emergency Braking package as a ROS 2 node
+Changes:
+ ros-humble-autoware-autonomous-emergency-braking (0-2025.01.23.16.06) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(autoware_autonomous_emergency_braking): add package maintainer (#9580 <https://github.com/autowarefoundation/autoware.universe/issues/9580>)
+     add package maintainer
+   * fix(cpplint): include what you use - control (#9565 <https://github.com/autowarefoundation/autoware.universe/issues/9565>)
+   * refactor(autoware_autonomous_emergency_braking): update longitudinal offset parameter name (#9463 <https://github.com/autowarefoundation/autoware.universe/issues/9463>)
+     Update the parameter name for the longitudinal offset distance used for collision check in the autonomous emergency braking control module. The parameter name has been changed from "longitudinal_offset" to "longitudinal_offset_margin" to better reflect its purpose.
+   * refactor(autoware_autonomous_emergency_braking): add getObjectOnPathData and getLongitudinalOffset functions (#9462 <https://github.com/autowarefoundation/autoware.universe/issues/9462>)
+     * feat(aeb): add getObjectOnPathData and getLongitudinalOffset functions
+     ---------
+   * docs(autoware_autonomous_emergency_braking): enhance IMU path generation section with constraints and algorithm details (#9458 <https://github.com/autowarefoundation/autoware.universe/issues/9458>)
+   * feat(autonomous_emergency_braking): set a lateral deviation limit for AEB IMU path (#9410 <https://github.com/autowarefoundation/autoware.universe/issues/9410>)
+     * add a steer limit option for AEB
+     * wip refactor and add max lat dev param
+     * fix issue with test
+     * delete unwanted parts
+     * delete unwanted changes
+     * set to false
+     * change back path length
+     * add suggestions
+     * update readme
+     * cpp check
+     * fix some sentences
+     * expand explanation
+     * update image
+     * update README
+     * update description
+     * fix typo
+     * fix sentences
+     * improve readme
+     ---------
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix(control): missing dependency in control components (#9073 <https://github.com/autowarefoundation/autoware.universe/issues/9073>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * feat(tier4_metric_msgs): apply tier4_metric_msgs for scenario_simulator_v2_adapter, control_evaluator, planning_evaluator, autonomous_emergency_braking, obstacle_cruise_planner, motion_velocity_planner, processing_time_checker (#9180 <https://github.com/autowarefoundation/autoware.universe/issues/9180>)
+     * first commit
+     * fix building errs.
+     * change diagnostic messages to metric messages for publishing decision.
+     * fix bug about motion_velocity_planner
+     * change the diagnostic msg to metric msg in autoware_obstacle_cruise_planner.
+     * tmp save for planning_evaluator
+     * change the topic to which metrics published to.
+     * fix typo.
+     * remove unnesessary publishing of metrics.
+     * mke planning_evaluator publish msg of MetricArray instead of Diags.
+     * update aeb with metric type for decision.
+     * fix some bug
+     * remove autoware_evaluator_utils package.
+     * remove diagnostic_msgs dependency of planning_evaluator
+     * use metric_msgs for autoware_processing_time_checker.
+     * rewrite diagnostic_convertor to scenario_simulator_v2_adapter, supporting metric_msgs.
+     * pre-commit and fix typo
+     * publish metrics even if there is no metric in the MetricArray.
+     * modify the metric name of processing_time.
+     * update unit test for test_planning/control_evaluator
+     * manual pre-commit
+     ---------
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * fix(autonomous_emergency_braking): solve issue with arc length (#9247 <https://github.com/autowarefoundation/autoware.universe/issues/9247>)
+     * solve issue with arc length
+     * fix problem with points one vehicle apart from path
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Kem (TiankuiXian), Kyoichi Sugahara, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo, danielsanchezaran, mkquda, ぐるぐる
+Checksums-Sha1:
+ 68fe4f758a3b8bff851368186fa9ab9c10f357a8 15494418 ros-humble-autoware-autonomous-emergency-braking-dbgsym_0-2025.01.23.16.06_amd64.ddeb
+ 808864781bf3fed71218f665be6f8b0485c524b3 48438 ros-humble-autoware-autonomous-emergency-braking_0-2025.01.23.16.06_amd64.buildinfo
+ 754c699fd49daa1ab1e85b1c88e5ac24e40fcec0 401018 ros-humble-autoware-autonomous-emergency-braking_0-2025.01.23.16.06_amd64.deb
+Checksums-Sha256:
+ 7e4d9c8c37363b097c27cbe9a2183f555487c4dc9a3d8bea5abc64995bc70723 15494418 ros-humble-autoware-autonomous-emergency-braking-dbgsym_0-2025.01.23.16.06_amd64.ddeb
+ 3bd33c8921c2bca1ccad0615a3e8706c928e204a3de473e8bc6ed5fc3c0c944a 48438 ros-humble-autoware-autonomous-emergency-braking_0-2025.01.23.16.06_amd64.buildinfo
+ 5a0c10b07a3f3ede5ab6158a7804574970c84f57222380d203a130e91d3225b2 401018 ros-humble-autoware-autonomous-emergency-braking_0-2025.01.23.16.06_amd64.deb
+Files:
+ fc269b678b16502cbc6fc79345ab2ded 15494418 debug optional ros-humble-autoware-autonomous-emergency-braking-dbgsym_0-2025.01.23.16.06_amd64.ddeb
+ 01e8edcf728cc15a69d0dc2542801f64 48438 misc optional ros-humble-autoware-autonomous-emergency-braking_0-2025.01.23.16.06_amd64.buildinfo
+ 2652e200e2778050847d61490329623d 401018 misc optional ros-humble-autoware-autonomous-emergency-braking_0-2025.01.23.16.06_amd64.deb

@@ -1,0 +1,70 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-map-based-prediction
+Binary: ros-humble-autoware-map-based-prediction
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.22.19.55
+Distribution: jammy
+Urgency: high
+Maintainer: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Changed-By: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Description:
+ ros-humble-autoware-map-based-prediction - This package implements a map_based_prediction
+Changes:
+ ros-humble-autoware-map-based-prediction (0-2025.01.22.19.55) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - perception (#9569 <https://github.com/autowarefoundation/autoware.universe/issues/9569>)
+   * fix(autoware_map_based_prediction): msg namespace (#9553 <https://github.com/autowarefoundation/autoware.universe/issues/9553>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * refactor(map_based_prediction): move member functions to utils (#9225 <https://github.com/autowarefoundation/autoware.universe/issues/9225>)
+   * refactor(map_based_prediction): divide objectsCallback (#9219 <https://github.com/autowarefoundation/autoware.universe/issues/9219>)
+   * refactor(autoware_map_based_prediction): split pedestrian and bicycle predictor (#9201 <https://github.com/autowarefoundation/autoware.universe/issues/9201>)
+     * refactor: grouping functions
+     * refactor: grouping parameters
+     * refactor: rename member road_users_history to road_users_history_
+     * refactor: separate util functions
+     * refactor: Add predictor_vru.cpp and utils.cpp to map_based_prediction_node
+     * refactor: Add explicit template instantiation for removeOldObjectsHistory function
+     * refactor: Add tf2_geometry_msgs to data_structure
+     * refactor: Remove unused variables and functions in map_based_prediction_node.cpp
+     * Update perception/autoware_map_based_prediction/include/map_based_prediction/predictor_vru.hpp
+     * Apply suggestions from code review
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: Mamoru Sobue <mailto:hilo.soblin@gmail.com>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Amadeusz Szymko, Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Mamoru Sobue, Ryohsuke Mitsudome, Taekjin LEE, Yutaka Kondo
+Checksums-Sha1:
+ 8d8fbcd5572bd3d56b43df5725833ec769264635 9727048 ros-humble-autoware-map-based-prediction-dbgsym_0-2025.01.22.19.55_amd64.ddeb
+ 42171a88d002132e2f7ed33596e03e29671a0b95 41890 ros-humble-autoware-map-based-prediction_0-2025.01.22.19.55_amd64.buildinfo
+ e42cc16bbcb37cf1b85c34418d1408bcc5311374 338392 ros-humble-autoware-map-based-prediction_0-2025.01.22.19.55_amd64.deb
+Checksums-Sha256:
+ 564bb30ffc74f411209231cf836b649454b9633d8ba0e410e18e75fc16e586e6 9727048 ros-humble-autoware-map-based-prediction-dbgsym_0-2025.01.22.19.55_amd64.ddeb
+ f86e10f7774014d68b89b92630c90e88e0b5d90a589dcb255571dba75220231e 41890 ros-humble-autoware-map-based-prediction_0-2025.01.22.19.55_amd64.buildinfo
+ 0db51e613362966bbeed136e332ed74da121c124f670c21da117b21894bf842f 338392 ros-humble-autoware-map-based-prediction_0-2025.01.22.19.55_amd64.deb
+Files:
+ 4d1deb7a30fa812ac1f618ea7f7353d5 9727048 debug optional ros-humble-autoware-map-based-prediction-dbgsym_0-2025.01.22.19.55_amd64.ddeb
+ a820cd9bb8cb91a62fdb4e27b5eae5d9 41890 misc optional ros-humble-autoware-map-based-prediction_0-2025.01.22.19.55_amd64.buildinfo
+ 4421a2955ea455c92d4fbb59b61cf19e 338392 misc optional ros-humble-autoware-map-based-prediction_0-2025.01.22.19.55_amd64.deb

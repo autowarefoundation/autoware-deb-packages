@@ -1,0 +1,56 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-compare-map-segmentation
+Binary: ros-humble-autoware-compare-map-segmentation
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.23.16.41
+Distribution: jammy
+Urgency: high
+Maintainer: amc-nu <abrahammonrroy@yahoo.com>
+Changed-By: amc-nu <abrahammonrroy@yahoo.com>
+Description:
+ ros-humble-autoware-compare-map-segmentation - The ROS 2 autoware_compare_map_segmentation package
+Changes:
+ ros-humble-autoware-compare-map-segmentation (0-2025.01.23.16.41) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(compare_map_segmentation): rename defined type (#9181 <https://github.com/autowarefoundation/autoware.universe/issues/9181>)
+   * fix(cpplint): include what you use - perception (#9569 <https://github.com/autowarefoundation/autoware.universe/issues/9569>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(compare_map_segmentation): add maintainer (#9371 <https://github.com/autowarefoundation/autoware.universe/issues/9371>)
+   * fix(compare_map_segmentation): timer period mismatched with parameter (#9259 <https://github.com/autowarefoundation/autoware.universe/issues/9259>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * fix(autoware_compare_map_segmentation): fix cppcheck constVariableReference (#9196 <https://github.com/autowarefoundation/autoware.universe/issues/9196>)
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Ryuta Kambe, Yutaka Kondo, badai nguyen
+Checksums-Sha1:
+ 9a1d78c028da1b0825059a35d75c4273b4146aea 14839826 ros-humble-autoware-compare-map-segmentation-dbgsym_0-2025.01.23.16.41_amd64.ddeb
+ 603b49c4d6510558201005e29fda8a06871f40e3 48762 ros-humble-autoware-compare-map-segmentation_0-2025.01.23.16.41_amd64.buildinfo
+ 3a927c1137261adb7e1f32222468f25eb19d7310 273016 ros-humble-autoware-compare-map-segmentation_0-2025.01.23.16.41_amd64.deb
+Checksums-Sha256:
+ 0cf3a066836c0202327dfcf692c55ccd0a018bcaa627b31338ffa5c05a242ddd 14839826 ros-humble-autoware-compare-map-segmentation-dbgsym_0-2025.01.23.16.41_amd64.ddeb
+ 2285c192334ec05ae78f5d2565cab91e27aab3cd7565fc117139399128e8c809 48762 ros-humble-autoware-compare-map-segmentation_0-2025.01.23.16.41_amd64.buildinfo
+ 1f10b7a8de3ebe378d73b2bbb3a9123f620b26986f87d3f92de269f5610f7566 273016 ros-humble-autoware-compare-map-segmentation_0-2025.01.23.16.41_amd64.deb
+Files:
+ 633f94e80f80ac517d47b4a2ba7e03c4 14839826 debug optional ros-humble-autoware-compare-map-segmentation-dbgsym_0-2025.01.23.16.41_amd64.ddeb
+ f10ab1df0b4ef74759cfb9c0d392b9f0 48762 misc optional ros-humble-autoware-compare-map-segmentation_0-2025.01.23.16.41_amd64.buildinfo
+ df98c6a1d75245279afe877abfe4e400 273016 misc optional ros-humble-autoware-compare-map-segmentation_0-2025.01.23.16.41_amd64.deb

@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 21 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-lanelet2-extension
+Binary: ros-humble-autoware-lanelet2-extension
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.2-2025.01.22.14.31
+Distribution: jammy
+Urgency: high
+Maintainer: mitsudome-r <ryohsuke.mitsudome@tier4.jp>
+Changed-By: mitsudome-r <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-autoware-lanelet2-extension - The autoware_lanelet2_extension package contains libraries to han
+Changes:
+ ros-humble-autoware-lanelet2-extension (0.6.2-2025.01.22.14.31) jammy; urgency=high
+ .
+   * fix: update the github link of map_loader (#31 <https://github.com/autowarefoundation/autoware_lanelet2_extension/issues/31>)
+     add autoware prefix to map_loader
+   * Contributors: Masaki Baba
+Checksums-Sha1:
+ 16738599bb090a09b8577da9d599bb48d6969728 15186022 ros-humble-autoware-lanelet2-extension-dbgsym_0.6.2-2025.01.22.14.31_amd64.ddeb
+ db2d754b25f982fe0fde1ba33d4943a41672a049 24003 ros-humble-autoware-lanelet2-extension_0.6.2-2025.01.22.14.31_amd64.buildinfo
+ a443db3c08324138250525a1422a0340c1b8f9c4 405802 ros-humble-autoware-lanelet2-extension_0.6.2-2025.01.22.14.31_amd64.deb
+Checksums-Sha256:
+ c288a3c9fc0327478ee9024ec8d1a1fa652d382fd3e33e3d009174d806121f35 15186022 ros-humble-autoware-lanelet2-extension-dbgsym_0.6.2-2025.01.22.14.31_amd64.ddeb
+ e544c0e6a9fec894669ae44c2f14d811b4244fdd1b2b981175b69d398dbaeb8b 24003 ros-humble-autoware-lanelet2-extension_0.6.2-2025.01.22.14.31_amd64.buildinfo
+ eaf76606d3a1b5e55f9a36087827957e2308a2151e215ad4717d11bfcf66b23d 405802 ros-humble-autoware-lanelet2-extension_0.6.2-2025.01.22.14.31_amd64.deb
+Files:
+ c69135f520c70da251749f090804f47b 15186022 debug optional ros-humble-autoware-lanelet2-extension-dbgsym_0.6.2-2025.01.22.14.31_amd64.ddeb
+ a89f77c5cac0f5a86368f60f14ac49ca 24003 misc optional ros-humble-autoware-lanelet2-extension_0.6.2-2025.01.22.14.31_amd64.buildinfo
+ 18a10bd6b6796df857c11a8a012d0c11 405802 misc optional ros-humble-autoware-lanelet2-extension_0.6.2-2025.01.22.14.31_amd64.deb

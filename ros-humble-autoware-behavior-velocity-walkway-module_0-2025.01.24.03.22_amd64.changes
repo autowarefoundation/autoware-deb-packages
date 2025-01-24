@@ -1,0 +1,54 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-walkway-module
+Binary: ros-humble-autoware-behavior-velocity-walkway-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.24.03.22
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-walkway-module - The autoware_behavior_velocity_walkway_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-walkway-module (0-2025.01.24.03.22) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - planning (#9570 <https://github.com/autowarefoundation/autoware.universe/issues/9570>)
+   * feat(behavior_velocity_planner)!: remove stop_reason (#9452 <https://github.com/autowarefoundation/autoware.universe/issues/9452>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix(autoware_behavior_velocity_walkway_module): fix clang-diagnostic-unused-lambda-capture (#9415 <https://github.com/autowarefoundation/autoware.universe/issues/9415>)
+     fix: clang-diagnostic-unused-lambda-capture
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Mamoru Sobue, Ryohsuke Mitsudome, Yutaka Kondo, kobayu858
+Checksums-Sha1:
+ db6d47334bc71e40881944ac26bbbb14a1e1b56a 3620624 ros-humble-autoware-behavior-velocity-walkway-module-dbgsym_0-2025.01.24.03.22_amd64.ddeb
+ effbb4a030b9458e1f489cfbe4dc3f441372c91f 48827 ros-humble-autoware-behavior-velocity-walkway-module_0-2025.01.24.03.22_amd64.buildinfo
+ b326fafa3c79e7a7e6c8bb4d4e64bce990ce3870 106736 ros-humble-autoware-behavior-velocity-walkway-module_0-2025.01.24.03.22_amd64.deb
+Checksums-Sha256:
+ 297080825e9d0f0863dbc062a22cf93bddede39a0938842cb51499de4e07b50a 3620624 ros-humble-autoware-behavior-velocity-walkway-module-dbgsym_0-2025.01.24.03.22_amd64.ddeb
+ c76b52d44cbaf8eb118b2a653e733cc119f96c60b0b6152f734a118fcd1daea5 48827 ros-humble-autoware-behavior-velocity-walkway-module_0-2025.01.24.03.22_amd64.buildinfo
+ ff64b7ddab513adbb29546d0692900ffefceaf63f41ca8da353a74fa85ead54f 106736 ros-humble-autoware-behavior-velocity-walkway-module_0-2025.01.24.03.22_amd64.deb
+Files:
+ 7cd23806e6bac205e6a73bc2ebe92162 3620624 debug optional ros-humble-autoware-behavior-velocity-walkway-module-dbgsym_0-2025.01.24.03.22_amd64.ddeb
+ 1e3908bea3e6dfdee97f890478f5f6cc 48827 misc optional ros-humble-autoware-behavior-velocity-walkway-module_0-2025.01.24.03.22_amd64.buildinfo
+ d81b4041cef10e914580f62dd3959d95 106736 misc optional ros-humble-autoware-behavior-velocity-walkway-module_0-2025.01.24.03.22_amd64.deb

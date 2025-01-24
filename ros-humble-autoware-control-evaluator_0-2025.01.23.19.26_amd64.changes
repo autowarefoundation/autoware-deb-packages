@@ -1,0 +1,93 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-control-evaluator
+Binary: ros-humble-autoware-control-evaluator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.23.19.26
+Distribution: jammy
+Urgency: high
+Maintainer: Daniel SANCHEZ <daniel.sanchez@tier4.jp>
+Changed-By: Daniel SANCHEZ <daniel.sanchez@tier4.jp>
+Description:
+ ros-humble-autoware-control-evaluator - ROS 2 node for evaluating control
+Changes:
+ ros-humble-autoware-control-evaluator (0-2025.01.23.19.26) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - evaluator (#9566 <https://github.com/autowarefoundation/autoware.universe/issues/9566>)
+   * fix(control_evaluator): correct goal_lateal_deviation (#9532 <https://github.com/autowarefoundation/autoware.universe/issues/9532>)
+   * feat(control_evaluator, tier4_control_launch): add a trigger to choice whether to output metrics to log folder (#9478 <https://github.com/autowarefoundation/autoware.universe/issues/9478>)
+     * refactor and add output_metrics. a bug existing when psim.
+     * refactored launch file.
+     * output description
+     * add parm to launch file.
+     * move output_metrics from param config to launch file.
+     * move output_metrics from config to launch.xml
+     * fix unit test bug.
+     * fix test bug again.
+     * Update evaluator/autoware_control_evaluator/include/autoware/control_evaluator/control_evaluator_node.hpp
+     ---------
+     Co-authored-by: Kosuke Takeuchi <mailto:kosuke.tnp@gmail.com>
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * feat(control_evaluator): add processing time publisher (#9339 <https://github.com/autowarefoundation/autoware.universe/issues/9339>)
+   * test(autoware_control_evaluator): add unit test for utils autoware_control_evaluator (#9307 <https://github.com/autowarefoundation/autoware.universe/issues/9307>)
+     * update unit test of control_evaluator.
+     * manual pre-commit.
+     ---------
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * feat(tier4_metric_msgs): apply tier4_metric_msgs for scenario_simulator_v2_adapter, control_evaluator, planning_evaluator, autonomous_emergency_braking, obstacle_cruise_planner, motion_velocity_planner, processing_time_checker (#9180 <https://github.com/autowarefoundation/autoware.universe/issues/9180>)
+     * first commit
+     * fix building errs.
+     * change diagnostic messages to metric messages for publishing decision.
+     * fix bug about motion_velocity_planner
+     * change the diagnostic msg to metric msg in autoware_obstacle_cruise_planner.
+     * tmp save for planning_evaluator
+     * change the topic to which metrics published to.
+     * fix typo.
+     * remove unnesessary publishing of metrics.
+     * mke planning_evaluator publish msg of MetricArray instead of Diags.
+     * update aeb with metric type for decision.
+     * fix some bug
+     * remove autoware_evaluator_utils package.
+     * remove diagnostic_msgs dependency of planning_evaluator
+     * use metric_msgs for autoware_processing_time_checker.
+     * rewrite diagnostic_convertor to scenario_simulator_v2_adapter, supporting metric_msgs.
+     * pre-commit and fix typo
+     * publish metrics even if there is no metric in the MetricArray.
+     * modify the metric name of processing_time.
+     * update unit test for test_planning/control_evaluator
+     * manual pre-commit
+     ---------
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Kazunori-Nakajima, Kem (TiankuiXian), M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ fdda940a70de4c98aa38aafef9e51ed295e97b90 7153628 ros-humble-autoware-control-evaluator-dbgsym_0-2025.01.23.19.26_amd64.ddeb
+ 1c10fd4941778442b3d6f168176615d818840fd1 42913 ros-humble-autoware-control-evaluator_0-2025.01.23.19.26_amd64.buildinfo
+ 7d3a5dce7f456b3e3a2f480890e6f69eb0d005df 239494 ros-humble-autoware-control-evaluator_0-2025.01.23.19.26_amd64.deb
+Checksums-Sha256:
+ 8e172d171a31dda19ebc125041b4aad1286f4bfffb3b731dd9e691fdc2006e96 7153628 ros-humble-autoware-control-evaluator-dbgsym_0-2025.01.23.19.26_amd64.ddeb
+ 08b74377195d8d9770b7baf5e7349c6cd75c48b7cf41a37fad1c8b589e8feffb 42913 ros-humble-autoware-control-evaluator_0-2025.01.23.19.26_amd64.buildinfo
+ f0c5f003a90cb3cfaf3b31f283d3846fc65bf84c16bee766b7609d8b22d2ebab 239494 ros-humble-autoware-control-evaluator_0-2025.01.23.19.26_amd64.deb
+Files:
+ 6d781f77f010add01c0b0375379ce1ee 7153628 debug optional ros-humble-autoware-control-evaluator-dbgsym_0-2025.01.23.19.26_amd64.ddeb
+ 4a276b8d553e706d558ce3104936fd3d 42913 misc optional ros-humble-autoware-control-evaluator_0-2025.01.23.19.26_amd64.buildinfo
+ d39a78a01c31c72485c0bf36e36d7e03 239494 misc optional ros-humble-autoware-control-evaluator_0-2025.01.23.19.26_amd64.deb

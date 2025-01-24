@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-adapi-specs
+Binary: ros-humble-autoware-adapi-specs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.22.13.04
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-adapi-specs - The autoware_adapi_specs package
+Changes:
+ ros-humble-autoware-adapi-specs (0-2025.01.22.13.04) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix: fix package names in changelog files (#9500 <https://github.com/autowarefoundation/autoware.universe/issues/9500>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * refactor(autoware_ad_api_specs): prefix package and namespace with autoware (#9250 <https://github.com/autowarefoundation/autoware.universe/issues/9250>)
+     * refactor(autoware_ad_api_specs): prefix package and namespace with autoware
+     * style(pre-commit): autofix
+     * chore(autoware_adapi_specs): rename ad_api to adapi
+     * style(pre-commit): autofix
+     * chore(autoware_adapi_specs): rename ad_api to adapi
+     * chore(autoware_adapi_specs): rename ad_api to adapi
+     * chore(autoware_adapi_specs): rename ad_api_specs to adapi_specs
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ f1f7f3dbcaa7f90d17387026ecb0cdb985acf8ee 10663 ros-humble-autoware-adapi-specs_0-2025.01.22.13.04_amd64.buildinfo
+ e5011161fe329b62c0e29ca44314f1ccad3f74d2 9302 ros-humble-autoware-adapi-specs_0-2025.01.22.13.04_amd64.deb
+Checksums-Sha256:
+ 3189be54fec8ba5d46fe47988fe497badbe734a76a15d23dbb4144bd11f009c6 10663 ros-humble-autoware-adapi-specs_0-2025.01.22.13.04_amd64.buildinfo
+ 31eda9152bc90e2956968063f228b9bc487755906d1b8a13fef836677cf7e2a9 9302 ros-humble-autoware-adapi-specs_0-2025.01.22.13.04_amd64.deb
+Files:
+ 0b655190fd1193c9050ad709929e4e59 10663 misc optional ros-humble-autoware-adapi-specs_0-2025.01.22.13.04_amd64.buildinfo
+ cf23c5d5b82c840018e6496663d3f4fb 9302 misc optional ros-humble-autoware-adapi-specs_0-2025.01.22.13.04_amd64.deb

@@ -1,0 +1,66 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-behavior-path-side-shift-module
+Binary: ros-humble-autoware-behavior-path-side-shift-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.23.23.55
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-path-side-shift-module - The autoware_behavior_path_side_shift_module package
+Changes:
+ ros-humble-autoware-behavior-path-side-shift-module (0-2025.01.23.23.55) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - planning (#9570 <https://github.com/autowarefoundation/autoware.universe/issues/9570>)
+   * test(autoware_behavior_path_side_shift_module): add unit tests for util function (#9540 <https://github.com/autowarefoundation/autoware.universe/issues/9540>)
+     test(side_shift_module): add unit tests
+   * refactor(autoware_behavior_path_side_shift_module): refactor shift length retrieval and improve path orientation handling (#9539 <https://github.com/autowarefoundation/autoware.universe/issues/9539>)
+     refactor(side_shift_module): refactor shift length retrieval and improve path orientation handling
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * refactor(bpp): rework steering factor interface (#9325 <https://github.com/autowarefoundation/autoware.universe/issues/9325>)
+     * refactor(bpp): rework steering factor interface
+     * refactor(soa): rework steering factor interface
+     * refactor(AbLC): rework steering factor interface
+     * refactor(doa): rework steering factor interface
+     * refactor(lc): rework steering factor interface
+     * refactor(gp): rework steering factor interface
+     * refactor(sp): rework steering factor interface
+     * refactor(sbp): rework steering factor interface
+     * refactor(ss): rework steering factor interface
+     ---------
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Kyoichi Sugahara, M. Fatih Cırıt, Ryohsuke Mitsudome, Satoshi OTA, Yutaka Kondo
+Checksums-Sha1:
+ 7b0a81af49dba64cf25bc2725b65984eece20459 2967614 ros-humble-autoware-behavior-path-side-shift-module-dbgsym_0-2025.01.23.23.55_amd64.ddeb
+ f1b19a5c181e98f43865d30ec4fdd59146e5ae59 49133 ros-humble-autoware-behavior-path-side-shift-module_0-2025.01.23.23.55_amd64.buildinfo
+ d970848a16b8066c6047b179e07404622cd0c9f6 61796 ros-humble-autoware-behavior-path-side-shift-module_0-2025.01.23.23.55_amd64.deb
+Checksums-Sha256:
+ e2af037513bdaa210926c5ad550aac32c82ca9da60ee072574b9aa5d42fb6d65 2967614 ros-humble-autoware-behavior-path-side-shift-module-dbgsym_0-2025.01.23.23.55_amd64.ddeb
+ 8c24bd87f1a3b25a9760f7bea3a3a3df2799ed8325918320650e23050d5e1430 49133 ros-humble-autoware-behavior-path-side-shift-module_0-2025.01.23.23.55_amd64.buildinfo
+ 375db7f761eb46cf2219ea1ca81c13996de5aafd6cd5e107de1a161d66f63c6e 61796 ros-humble-autoware-behavior-path-side-shift-module_0-2025.01.23.23.55_amd64.deb
+Files:
+ d39442286551fd25122803e633dfcba9 2967614 debug optional ros-humble-autoware-behavior-path-side-shift-module-dbgsym_0-2025.01.23.23.55_amd64.ddeb
+ b4dc83c59a48c2974a9985184eb66f48 49133 misc optional ros-humble-autoware-behavior-path-side-shift-module_0-2025.01.23.23.55_amd64.buildinfo
+ 9cf7858818e548e4588016b12208840e 61796 misc optional ros-humble-autoware-behavior-path-side-shift-module_0-2025.01.23.23.55_amd64.deb

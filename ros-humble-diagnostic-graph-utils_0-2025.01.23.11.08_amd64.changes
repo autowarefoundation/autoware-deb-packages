@@ -1,0 +1,64 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-diagnostic-graph-utils
+Binary: ros-humble-diagnostic-graph-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.23.11.08
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-diagnostic-graph-utils - The diagnostic_graph_utils package
+Changes:
+ ros-humble-diagnostic-graph-utils (0-2025.01.23.11.08) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * feat(diagnostic_graph_utils): publish error graph instead of the terminal log (#9421 <https://github.com/autowarefoundation/autoware.universe/issues/9421>)
+     * feat(diagnostic_graph_utils): publish error graph instead of the terminal log
+     * update
+     * fix
+     * Update system/diagnostic_graph_utils/src/node/logging.cpp
+     Co-authored-by: Takagi, Isamu <mailto:43976882+isamu-takagi@users.noreply.github.com>
+     * error_graph -> error_graph_text
+     ---------
+     Co-authored-by: Takagi, Isamu <mailto:43976882+isamu-takagi@users.noreply.github.com>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - system (#9573 <https://github.com/autowarefoundation/autoware.universe/issues/9573>)
+   * fix(diagnostic_graph_utils): fix clang-diagnostic-delete-abstract-non-virtual-dtor (#9431 <https://github.com/autowarefoundation/autoware.universe/issues/9431>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * fix(diagnostic_graph_utils): reset graph when new one is received (#9208 <https://github.com/autowarefoundation/autoware.universe/issues/9208>)
+     fix(diagnostic_graph_utils): reset graph when new one is reveived
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Ryuta Kambe, Takagi, Isamu, Takayuki Murooka, Yutaka Kondo
+Checksums-Sha1:
+ e60047fb5f40f06ea324cc36d9e9e824b780b138 5049472 ros-humble-diagnostic-graph-utils-dbgsym_0-2025.01.23.11.08_amd64.ddeb
+ dafde494159ebaedab0b84778027cd5236e25189 16155 ros-humble-diagnostic-graph-utils_0-2025.01.23.11.08_amd64.buildinfo
+ f9dce24b2d07431a947cd6ecb31c06b296868ca8 189808 ros-humble-diagnostic-graph-utils_0-2025.01.23.11.08_amd64.deb
+Checksums-Sha256:
+ aa039597d8034eeda4e93359048cb97c9c4e511325c54ac0a3040ec745e8f292 5049472 ros-humble-diagnostic-graph-utils-dbgsym_0-2025.01.23.11.08_amd64.ddeb
+ aa9da1e341742e430db6397eb66bf372a16641b9648478383306f59398fde9c9 16155 ros-humble-diagnostic-graph-utils_0-2025.01.23.11.08_amd64.buildinfo
+ 2bb67aa68aa22441ca6cd3a937a53b1b49a9e6692e9f90d1346f17c9cac8c4bf 189808 ros-humble-diagnostic-graph-utils_0-2025.01.23.11.08_amd64.deb
+Files:
+ d51f4bbefcdf3e9488b78171395794b4 5049472 debug optional ros-humble-diagnostic-graph-utils-dbgsym_0-2025.01.23.11.08_amd64.ddeb
+ a26ed31d5d9aedd4176009076f7aab9a 16155 misc optional ros-humble-diagnostic-graph-utils_0-2025.01.23.11.08_amd64.buildinfo
+ d8380b573e87dd4a0158740093da45e8 189808 misc optional ros-humble-diagnostic-graph-utils_0-2025.01.23.11.08_amd64.deb

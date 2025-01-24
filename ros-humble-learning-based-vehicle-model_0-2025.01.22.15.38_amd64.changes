@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-learning-based-vehicle-model
+Binary: ros-humble-learning-based-vehicle-model
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.22.15.38
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime Clement <maxime.clement@tier4.jp>
+Changed-By: Maxime Clement <maxime.clement@tier4.jp>
+Description:
+ ros-humble-learning-based-vehicle-model - learning_based_vehicle_model for simple_planning_simulator
+Changes:
+ ros-humble-learning-based-vehicle-model (0-2025.01.22.15.38) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - simulator (#9572 <https://github.com/autowarefoundation/autoware.universe/issues/9572>)
+   * fix(learning_based_vehicle_model): fix clang-diagnostic-delete-abstract-non-virtual-dtor (#9446 <https://github.com/autowarefoundation/autoware.universe/issues/9446>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Ryuta Kambe, Yutaka Kondo
+Checksums-Sha1:
+ d8347c381a536cf99d5bc2ad80a60b3d6ac21272 720180 ros-humble-learning-based-vehicle-model-dbgsym_0-2025.01.22.15.38_amd64.ddeb
+ bd7f26278a28b58515ff21aff6288b54c1634c9a 12022 ros-humble-learning-based-vehicle-model_0-2025.01.22.15.38_amd64.buildinfo
+ b9c66ccce1f9f006d25d84b68023a5314d40a58b 58660 ros-humble-learning-based-vehicle-model_0-2025.01.22.15.38_amd64.deb
+Checksums-Sha256:
+ 908775e07cf1aecbc869e81bb9df1acd2c39fee01f087c13da6a6a9399b2c992 720180 ros-humble-learning-based-vehicle-model-dbgsym_0-2025.01.22.15.38_amd64.ddeb
+ b585669ab646ddfe7ec5ee07150b59bb680a769976e8cdbc5581551ee3455fee 12022 ros-humble-learning-based-vehicle-model_0-2025.01.22.15.38_amd64.buildinfo
+ 3ffeff3fd96b48da4426563282cf59e133fad5ad33460b674e2be1fbd2f8b962 58660 ros-humble-learning-based-vehicle-model_0-2025.01.22.15.38_amd64.deb
+Files:
+ 567b79bc8fb866d1fe3408520e6417ef 720180 debug optional ros-humble-learning-based-vehicle-model-dbgsym_0-2025.01.22.15.38_amd64.ddeb
+ 180a202a57dce5723a4805b5425a9066 12022 misc optional ros-humble-learning-based-vehicle-model_0-2025.01.22.15.38_amd64.buildinfo
+ 60131e30fae480a6f441e078610e6305 58660 misc optional ros-humble-learning-based-vehicle-model_0-2025.01.22.15.38_amd64.deb

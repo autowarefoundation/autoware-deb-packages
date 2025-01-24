@@ -1,0 +1,61 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-dummy-diag-publisher
+Binary: ros-humble-dummy-diag-publisher
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.22.15.23
+Distribution: jammy
+Urgency: high
+Maintainer: Fumihito Ito <fumihito.ito@tier4.jp>
+Changed-By: Fumihito Ito <fumihito.ito@tier4.jp>
+Description:
+ ros-humble-dummy-diag-publisher - The dummy_diag_publisher ROS 2 package
+Changes:
+ ros-humble-dummy-diag-publisher (0-2025.01.22.15.23) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - system (#9573 <https://github.com/autowarefoundation/autoware.universe/issues/9573>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * fix(dummy_diag_publisher): not use diagnostic_updater and param callback (#9257 <https://github.com/autowarefoundation/autoware.universe/issues/9257>)
+     * fix(dummy_diag_publisher): not use diagnostic_updater and param callback for v0.29.0 (#1414 <https://github.com/autowarefoundation/autoware.universe/issues/1414>)
+     fix(dummy_diag_publisher): not use diagnostic_updater and param callback
+     Co-authored-by: h-ohta <mailto:hiroki.ota@tier4.jp>
+     * fix: resolve build error of dummy diag publisher (#1415 <https://github.com/autowarefoundation/autoware.universe/issues/1415>)
+     fix merge conflict
+     ---------
+     Co-authored-by: Shohei Sakai <mailto:saka1s.jp@gmail.com>
+     Co-authored-by: h-ohta <mailto:hiroki.ota@tier4.jp>
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yuki TAKAGI, Yutaka Kondo
+Checksums-Sha1:
+ a7ceddf648fed409089bc006f4fe8efe8a73ba48 1574778 ros-humble-dummy-diag-publisher-dbgsym_0-2025.01.22.15.23_amd64.ddeb
+ baad5b92ffbdca51982ae4a0cbf51e8b22252ad2 15857 ros-humble-dummy-diag-publisher_0-2025.01.22.15.23_amd64.buildinfo
+ 0d61f588bf336fc7ab3bc12242d32de3bd00bb63 119754 ros-humble-dummy-diag-publisher_0-2025.01.22.15.23_amd64.deb
+Checksums-Sha256:
+ cc04b5006e43845ef90c70fa53a214b85cee8130288bbe5956ca82e6cd57a369 1574778 ros-humble-dummy-diag-publisher-dbgsym_0-2025.01.22.15.23_amd64.ddeb
+ 93cb354c91f3ac05cb8993938ffeab865eebd780d906fe006c1ad8ca252982af 15857 ros-humble-dummy-diag-publisher_0-2025.01.22.15.23_amd64.buildinfo
+ dc0ce74f1800b9827fa993a5b22a00a16a2a43c5310417b6b2f18f674815469b 119754 ros-humble-dummy-diag-publisher_0-2025.01.22.15.23_amd64.deb
+Files:
+ a1f6934c10d7e6bc0d08c0322cc499ee 1574778 debug optional ros-humble-dummy-diag-publisher-dbgsym_0-2025.01.22.15.23_amd64.ddeb
+ 489e4ccf1c128535493f49cb21450e15 15857 misc optional ros-humble-dummy-diag-publisher_0-2025.01.22.15.23_amd64.buildinfo
+ 7d3e0c4562d2998f476636b3e8cc88a0 119754 misc optional ros-humble-dummy-diag-publisher_0-2025.01.22.15.23_amd64.deb

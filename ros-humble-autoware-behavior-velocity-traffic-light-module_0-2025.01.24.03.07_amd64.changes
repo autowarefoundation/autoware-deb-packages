@@ -1,0 +1,71 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-traffic-light-module
+Binary: ros-humble-autoware-behavior-velocity-traffic-light-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.24.03.07
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-traffic-light-module - The autoware_behavior_velocity_traffic_light_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-traffic-light-module (0-2025.01.24.03.07) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - planning (#9570 <https://github.com/autowarefoundation/autoware.universe/issues/9570>)
+   * ci(pre-commit): autoupdate (#8949 <https://github.com/autowarefoundation/autoware.universe/issues/8949>)
+     Co-authored-by: M. Fatih Cırıt <mailto:mfc@autoware.org>
+   * feat(behavior_velocity_planner)!: remove stop_reason (#9452 <https://github.com/autowarefoundation/autoware.universe/issues/9452>)
+   * refactor(autoware_behavior_velocity_planner_common,autoware_behavior_velocity_planner): separate param files (#9470 <https://github.com/autowarefoundation/autoware.universe/issues/9470>)
+     * refactor(autoware_behavior_velocity_planner_common,autoware_behavior_velocity_planner): separate param files
+     * Update planning/autoware_static_centerline_generator/test/test_static_centerline_generator.test.py
+     Co-authored-by: Kyoichi Sugahara <mailto:32741405+kyoichi-sugahara@users.noreply.github.com>
+     * fix
+     ---------
+     Co-authored-by: Kyoichi Sugahara <mailto:32741405+kyoichi-sugahara@users.noreply.github.com>
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * refactor(traffic_light_utils): prefix package and namespace with autoware (#9251 <https://github.com/autowarefoundation/autoware.universe/issues/9251>)
+   * feat(behavior_velocity_planner): replace first_stop_path_point_index (#9296 <https://github.com/autowarefoundation/autoware.universe/issues/9296>)
+     * feat(behavior_velocity_planner): replace first_stop_path_point_index
+     * add const
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_traffic_light_module/src/scene.cpp
+     Co-authored-by: Kosuke Takeuchi <mailto:kosuke.tnp@gmail.com>
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_planner/src/planner_manager.cpp
+     Co-authored-by: Kosuke Takeuchi <mailto:kosuke.tnp@gmail.com>
+     ---------
+     Co-authored-by: Kosuke Takeuchi <mailto:kosuke.tnp@gmail.com>
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Mamoru Sobue, Ryohsuke Mitsudome, Yukinari Hisaki, Yutaka Kondo, awf-autoware-bot[bot]
+Checksums-Sha1:
+ cc477c402a59c09e96dcab3b79d5b444f8693135 4333464 ros-humble-autoware-behavior-velocity-traffic-light-module-dbgsym_0-2025.01.24.03.07_amd64.ddeb
+ 0c0c926aec196034896ece9d3a5a262684d4507c 44380 ros-humble-autoware-behavior-velocity-traffic-light-module_0-2025.01.24.03.07_amd64.buildinfo
+ 71e8f61b9f62e8e0c49b3cf8a78f246555879775 102196 ros-humble-autoware-behavior-velocity-traffic-light-module_0-2025.01.24.03.07_amd64.deb
+Checksums-Sha256:
+ ad44c5517ae407db59c8cd6aaee53bf587cfaa041666a62679620cd20326e139 4333464 ros-humble-autoware-behavior-velocity-traffic-light-module-dbgsym_0-2025.01.24.03.07_amd64.ddeb
+ 52a4d1033582bf68eb90634285be6e49c179356bc8c3af2d5a010bafcb1282bc 44380 ros-humble-autoware-behavior-velocity-traffic-light-module_0-2025.01.24.03.07_amd64.buildinfo
+ 168b81a193a8d2fc768e0fc59e920ce6d1f8789778271adcb7c4f21dd9ad1074 102196 ros-humble-autoware-behavior-velocity-traffic-light-module_0-2025.01.24.03.07_amd64.deb
+Files:
+ ac02536ed71cde658a57ade56c4b9230 4333464 debug optional ros-humble-autoware-behavior-velocity-traffic-light-module-dbgsym_0-2025.01.24.03.07_amd64.ddeb
+ 0d0fac6ceabe06b4b148c290bfd151df 44380 misc optional ros-humble-autoware-behavior-velocity-traffic-light-module_0-2025.01.24.03.07_amd64.buildinfo
+ 4c57167d4370b567dadebe8f3961e6ce 102196 misc optional ros-humble-autoware-behavior-velocity-traffic-light-module_0-2025.01.24.03.07_amd64.deb

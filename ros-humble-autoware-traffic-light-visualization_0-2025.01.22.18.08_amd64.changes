@@ -1,0 +1,59 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-traffic-light-visualization
+Binary: ros-humble-autoware-traffic-light-visualization
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.22.18.08
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-traffic-light-visualization - The autoware_traffic_light_visualization package
+Changes:
+ ros-humble-autoware-traffic-light-visualization (0-2025.01.22.18.08) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - perception (#9569 <https://github.com/autowarefoundation/autoware.universe/issues/9569>)
+   * fix(traffic_light_roi_visualizer): show unknown results correctly (#9467 <https://github.com/autowarefoundation/autoware.universe/issues/9467>)
+     fix: show unknown results correctly
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(autoware_traffic_light_visualization): include opencv as system (#9331 <https://github.com/autowarefoundation/autoware.universe/issues/9331>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(autoware_traffic_light*): add maintainer (#9280 <https://github.com/autowarefoundation/autoware.universe/issues/9280>)
+     * add fundamental commit
+     * add forgot package
+     ---------
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Masato Saeki, Ryohsuke Mitsudome, Tao Zhong, Yukinari Hisaki, Yutaka Kondo
+Checksums-Sha1:
+ fb1547d175a6f9b893da29a66ed4cb450468b7a6 8689518 ros-humble-autoware-traffic-light-visualization-dbgsym_0-2025.01.22.18.08_amd64.ddeb
+ 26e81014515f52920a0f20bc44bb2fa740cfb3d3 35706 ros-humble-autoware-traffic-light-visualization_0-2025.01.22.18.08_amd64.buildinfo
+ 78f2e5841f1e350e1e2658b4dfceba3d8c226361 2426508 ros-humble-autoware-traffic-light-visualization_0-2025.01.22.18.08_amd64.deb
+Checksums-Sha256:
+ 30452a3370563aadaea40037fa1a3daf87df916c39adaedf37a8baa6466f3a3b 8689518 ros-humble-autoware-traffic-light-visualization-dbgsym_0-2025.01.22.18.08_amd64.ddeb
+ 238c9c67329c360ce2d98da960fc97f747d16253cab0b2be134b68abb77c9200 35706 ros-humble-autoware-traffic-light-visualization_0-2025.01.22.18.08_amd64.buildinfo
+ c29228552450c5a6f2bc19a0249a8786af92cc9f3fe94ca46f4fa55310336f74 2426508 ros-humble-autoware-traffic-light-visualization_0-2025.01.22.18.08_amd64.deb
+Files:
+ 126f2fbff0a867c4f4e243d41a0a5b87 8689518 debug optional ros-humble-autoware-traffic-light-visualization-dbgsym_0-2025.01.22.18.08_amd64.ddeb
+ d34ea798d8aae29f0df1fa46dd1b331d 35706 misc optional ros-humble-autoware-traffic-light-visualization_0-2025.01.22.18.08_amd64.buildinfo
+ bb05bab8534322a562b2c5718e0f2d6b 2426508 misc optional ros-humble-autoware-traffic-light-visualization_0-2025.01.22.18.08_amd64.deb

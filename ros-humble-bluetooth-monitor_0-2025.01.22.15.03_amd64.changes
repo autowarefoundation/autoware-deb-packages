@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-bluetooth-monitor
+Binary: ros-humble-bluetooth-monitor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.22.15.03
+Distribution: jammy
+Urgency: high
+Maintainer: Fumihito Ito <fumihito.ito@tier4.jp>
+Changed-By: Fumihito Ito <fumihito.ito@tier4.jp>
+Description:
+ ros-humble-bluetooth-monitor - Bluetooth alive monitoring
+Changes:
+ ros-humble-bluetooth-monitor (0-2025.01.22.15.03) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - system (#9573 <https://github.com/autowarefoundation/autoware.universe/issues/9573>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ ae9212f5ac363467d0a44b78b623afbd20771d98 3677920 ros-humble-bluetooth-monitor-dbgsym_0-2025.01.22.15.03_amd64.ddeb
+ 2edca4e4ed12880db4123fa3f359da6812084fc3 16483 ros-humble-bluetooth-monitor_0-2025.01.22.15.03_amd64.buildinfo
+ 5c198299b3192683fcd7cc1c336b68bf23bc611b 233500 ros-humble-bluetooth-monitor_0-2025.01.22.15.03_amd64.deb
+Checksums-Sha256:
+ 664caffdfbebe895d6b026e53a7b5a076d6af647ce51bb477618cfab8cdbb0a6 3677920 ros-humble-bluetooth-monitor-dbgsym_0-2025.01.22.15.03_amd64.ddeb
+ 76fd3e207f18364eb76a1ee01be63967a8c74f02ab11cf4c0bbe927a9cb02cdf 16483 ros-humble-bluetooth-monitor_0-2025.01.22.15.03_amd64.buildinfo
+ eb683ff0c26cba6262e3836368cb1cb3d2d32660fdf177cc6c728529283cb871 233500 ros-humble-bluetooth-monitor_0-2025.01.22.15.03_amd64.deb
+Files:
+ 0fd8b79f9a4bfeddb75a50f4c715ebac 3677920 debug optional ros-humble-bluetooth-monitor-dbgsym_0-2025.01.22.15.03_amd64.ddeb
+ 7bbf8738a75e8f90e9126a62f58ec1ce 16483 misc optional ros-humble-bluetooth-monitor_0-2025.01.22.15.03_amd64.buildinfo
+ 3c113d0dd009f1fbe5fa855ab1eb5224 233500 misc optional ros-humble-bluetooth-monitor_0-2025.01.22.15.03_amd64.deb

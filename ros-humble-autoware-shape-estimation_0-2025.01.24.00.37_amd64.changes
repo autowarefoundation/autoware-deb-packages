@@ -1,0 +1,54 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-shape-estimation
+Binary: ros-humble-autoware-shape-estimation
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.24.00.37
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-shape-estimation - This package implements a shape estimation algorithm as a ROS 2 n
+Changes:
+ ros-humble-autoware-shape-estimation (0-2025.01.24.00.37) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - perception (#9569 <https://github.com/autowarefoundation/autoware.universe/issues/9569>)
+   * refactor: correct spelling (#9528 <https://github.com/autowarefoundation/autoware.universe/issues/9528>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * refactor(cuda_utils): prefix package and namespace with autoware (#9171 <https://github.com/autowarefoundation/autoware.universe/issues/9171>)
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ a6101f02f191220938fb3c7f8acc4fd62a02c0a7 5630270 ros-humble-autoware-shape-estimation-dbgsym_0-2025.01.24.00.37_amd64.ddeb
+ 04f512141617d917d48abb3f94d4c57b8dfc65d0 46620 ros-humble-autoware-shape-estimation_0-2025.01.24.00.37_amd64.buildinfo
+ ae935a5db896f0b7a127685366f7a7e6a4cce83d 171614 ros-humble-autoware-shape-estimation_0-2025.01.24.00.37_amd64.deb
+Checksums-Sha256:
+ a3ec4852c0950e7ec966640fcf5d7ffa3c45a8ba063c8675b6d64fe1cb24de90 5630270 ros-humble-autoware-shape-estimation-dbgsym_0-2025.01.24.00.37_amd64.ddeb
+ bc1d45588c8fffc6ab6ff9515cf4b636189bf8818160fdcd8fd6e3c6d09445c6 46620 ros-humble-autoware-shape-estimation_0-2025.01.24.00.37_amd64.buildinfo
+ 55df3e3d38da0ce44924bf74708d8b2716e28c0a94550a10dc23d6e5cb7884da 171614 ros-humble-autoware-shape-estimation_0-2025.01.24.00.37_amd64.deb
+Files:
+ 54c1706a329294610c1b7b055aeceb70 5630270 debug optional ros-humble-autoware-shape-estimation-dbgsym_0-2025.01.24.00.37_amd64.ddeb
+ 8691596f2176ae4ea6241bc551123093 46620 misc optional ros-humble-autoware-shape-estimation_0-2025.01.24.00.37_amd64.buildinfo
+ ecba06ab87442c854b467201da9a62d0 171614 misc optional ros-humble-autoware-shape-estimation_0-2025.01.24.00.37_amd64.deb

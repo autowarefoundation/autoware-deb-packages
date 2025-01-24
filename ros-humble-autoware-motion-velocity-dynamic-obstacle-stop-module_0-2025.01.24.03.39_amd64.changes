@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module
+Binary: ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.24.03.39
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime Clement <maxime.clement@tier4.jp>
+Changed-By: Maxime Clement <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module - dynamic_obstacle_stop module to stop ego when in the immediate pa
+Changes:
+ ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module (0-2025.01.24.03.39) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - planning (#9570 <https://github.com/autowarefoundation/autoware.universe/issues/9570>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 161cf82bcf6a1d4ae36ffc85768681ed4366f838 3863702 ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module-dbgsym_0-2025.01.24.03.39_amd64.ddeb
+ 646daa38c6c31ac61c57f901b8cd4f88e2cbe669 44097 ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module_0-2025.01.24.03.39_amd64.buildinfo
+ defc5e96deb2109dfd8d7938f8d16a932a44ac0c 144096 ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module_0-2025.01.24.03.39_amd64.deb
+Checksums-Sha256:
+ 859f6a41c605fa1cad6d16498e9a90452b1634379bfe1e06d766028ba401cb81 3863702 ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module-dbgsym_0-2025.01.24.03.39_amd64.ddeb
+ 76a6e8aa77d5ccf5034ee8baf909e87e884f57ae3433c81c7e5460a07d45785d 44097 ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module_0-2025.01.24.03.39_amd64.buildinfo
+ 6665b8b38b9a8f10a628739ba9b5f8287b0def41916afe6547826013b327db69 144096 ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module_0-2025.01.24.03.39_amd64.deb
+Files:
+ 9281c82c71c22bc6705b1b64f9e1211a 3863702 debug optional ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module-dbgsym_0-2025.01.24.03.39_amd64.ddeb
+ 59ea58daf55a768fd0db821dfc90af25 44097 misc optional ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module_0-2025.01.24.03.39_amd64.buildinfo
+ 31fc7a8d4db00cbc4fd8fee61ac78198 144096 misc optional ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module_0-2025.01.24.03.39_amd64.deb

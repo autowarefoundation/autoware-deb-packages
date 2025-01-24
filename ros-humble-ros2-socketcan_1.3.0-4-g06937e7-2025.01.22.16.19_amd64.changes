@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Tue, 16 Jul 2024 00:00:00 -0000
+Source: ros-humble-ros2-socketcan
+Binary: ros-humble-ros2-socketcan
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.3.0-4-g06937e7-2025.01.22.16.19
+Distribution: jammy
+Urgency: high
+Maintainer: Josh Whitley <whitleysoftwareservices@gmail.com>
+Changed-By: Josh Whitley <whitleysoftwareservices@gmail.com>
+Description:
+ ros-humble-ros2-socketcan - Simple wrapper around SocketCAN
+Changes:
+ ros-humble-ros2-socketcan (1.3.0-4-g06937e7-2025.01.22.16.19) jammy; urgency=high
+ .
+   * Jazzy release
+   * fix: add missing header (#42 <https://github.com/autowarefoundation/ros2_socketcan/issues/42>)
+   * Allow remapping of the canbus topics (#39 <https://github.com/autowarefoundation/ros2_socketcan/issues/39>)
+   * Contributors: Joshua Whitley, Tim Clephas
+Checksums-Sha1:
+ c4ffe12919edd58b93925c8aa987ae97261bf802 4197720 ros-humble-ros2-socketcan-dbgsym_1.3.0-4-g06937e7-2025.01.22.16.19_amd64.ddeb
+ 34da290ace26f966007e72567d36557266b55614 16829 ros-humble-ros2-socketcan_1.3.0-4-g06937e7-2025.01.22.16.19_amd64.buildinfo
+ 6b4602725c4d3847cfbe7b4976da84694b5ff7f9 195136 ros-humble-ros2-socketcan_1.3.0-4-g06937e7-2025.01.22.16.19_amd64.deb
+Checksums-Sha256:
+ 1ebf6e9ffe0b5bd179927b6b7043097d680de917679f353f5e93ddf393d0fb95 4197720 ros-humble-ros2-socketcan-dbgsym_1.3.0-4-g06937e7-2025.01.22.16.19_amd64.ddeb
+ d656134eea72773a9183381b11f1df763a13e559b784437709b36185f135a0d3 16829 ros-humble-ros2-socketcan_1.3.0-4-g06937e7-2025.01.22.16.19_amd64.buildinfo
+ 84c5d86a54c70e4f2549aad86ee341ded83620cc03706311a6be90f2834f4fc2 195136 ros-humble-ros2-socketcan_1.3.0-4-g06937e7-2025.01.22.16.19_amd64.deb
+Files:
+ b41b5fc62e27528207c4ed63e06191ce 4197720 debug optional ros-humble-ros2-socketcan-dbgsym_1.3.0-4-g06937e7-2025.01.22.16.19_amd64.ddeb
+ f6888a63cc450de5384e1af5518c5594 16829 misc optional ros-humble-ros2-socketcan_1.3.0-4-g06937e7-2025.01.22.16.19_amd64.buildinfo
+ 97014fd88c49be0bec538a8ab94fa873 195136 misc optional ros-humble-ros2-socketcan_1.3.0-4-g06937e7-2025.01.22.16.19_amd64.deb

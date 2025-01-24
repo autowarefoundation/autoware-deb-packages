@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-pose-estimator-arbiter
+Binary: ros-humble-autoware-pose-estimator-arbiter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.22.22.15
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-pose-estimator-arbiter - The arbiter of multiple pose estimators
+Changes:
+ ros-humble-autoware-pose-estimator-arbiter (0-2025.01.22.22.15) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - localization (#9567 <https://github.com/autowarefoundation/autoware.universe/issues/9567>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix(autoware_pose_estimator_arbiter): add missing include (#9376 <https://github.com/autowarefoundation/autoware.universe/issues/9376>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Ryuta Kambe, Yutaka Kondo
+Checksums-Sha1:
+ 1aa3fdd33950400512ea539ba4443fa47a0985f7 6863914 ros-humble-autoware-pose-estimator-arbiter-dbgsym_0-2025.01.22.22.15_amd64.ddeb
+ 896d7d2cbcd892f74b3ee84f743a0a4fb9b291a3 42541 ros-humble-autoware-pose-estimator-arbiter_0-2025.01.22.22.15_amd64.buildinfo
+ 9a62491aef272aeb749bb6063236f9443f288020 256368 ros-humble-autoware-pose-estimator-arbiter_0-2025.01.22.22.15_amd64.deb
+Checksums-Sha256:
+ 311caad60b42b27f81b23faaade176b45799df8b6d13f89bf24604c56f308b08 6863914 ros-humble-autoware-pose-estimator-arbiter-dbgsym_0-2025.01.22.22.15_amd64.ddeb
+ 98446cddbd48454971add3400661eea54a9826b35aa02c09bef651eb2450961e 42541 ros-humble-autoware-pose-estimator-arbiter_0-2025.01.22.22.15_amd64.buildinfo
+ 4ee6ac5b7c2c3b9e73f48afb65433949a42802682335a0de18b1aa7059d4843f 256368 ros-humble-autoware-pose-estimator-arbiter_0-2025.01.22.22.15_amd64.deb
+Files:
+ 23035d0781ceaa751c4bea71a95bb4dc 6863914 debug optional ros-humble-autoware-pose-estimator-arbiter-dbgsym_0-2025.01.22.22.15_amd64.ddeb
+ 8f04bc9c1dedbd81cf9200a57cf0dc4e 42541 misc optional ros-humble-autoware-pose-estimator-arbiter_0-2025.01.22.22.15_amd64.buildinfo
+ 8a19d38ea6613978b7e4349150cf64d5 256368 misc optional ros-humble-autoware-pose-estimator-arbiter_0-2025.01.22.22.15_amd64.deb

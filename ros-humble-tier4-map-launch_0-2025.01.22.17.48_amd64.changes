@@ -1,0 +1,66 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-tier4-map-launch
+Binary: ros-humble-tier4-map-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.22.17.48
+Distribution: jammy
+Urgency: high
+Maintainer: Ryu Yamamoto <ryu.yamamoto@tier4.jp>
+Changed-By: Ryu Yamamoto <ryu.yamamoto@tier4.jp>
+Description:
+ ros-humble-tier4-map-launch - The tier4_map_launch package
+Changes:
+ ros-humble-tier4-map-launch (0-2025.01.22.17.48) jammy; urgency=high
+ .
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * refactor(map_loader)!: prefix package and namespace with autoware (#8927 <https://github.com/autowarefoundation/autoware.universe/issues/8927>)
+     * make lanelet2_map_visualization independent
+     * remove unused files
+     * remove unused package
+     * fix package name
+     * add autoware_ prefix
+     * add autoware to exec name
+     * add autoware prefix
+     * removed unnecessary dependency
+     ---------
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * refactor(map_loader)!: prefix package and namespace with autoware (#8927 <https://github.com/autowarefoundation/autoware.universe/issues/8927>)
+     * make lanelet2_map_visualization independent
+     * remove unused files
+     * remove unused package
+     * fix package name
+     * add autoware_ prefix
+     * add autoware to exec name
+     * add autoware prefix
+     * removed unnecessary dependency
+     ---------
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Masaki Baba, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ cf40d8080de005c5eefbf2d915bca63ceca5aa51 10643 ros-humble-tier4-map-launch_0-2025.01.22.17.48_amd64.buildinfo
+ 9af7de9a514bbeaf752e3a27178cf920316f6fe9 9866 ros-humble-tier4-map-launch_0-2025.01.22.17.48_amd64.deb
+Checksums-Sha256:
+ fa21f43241b1c83c0591c88990624b26b4a5192b77a298381ed8896e40025a2b 10643 ros-humble-tier4-map-launch_0-2025.01.22.17.48_amd64.buildinfo
+ 33cbffeb42bf20d63ebea58a748cdd2d9d68fe8858dee10dc407c04d0ceda5de 9866 ros-humble-tier4-map-launch_0-2025.01.22.17.48_amd64.deb
+Files:
+ b9ad857c073e3f52651d6647365693cd 10643 misc optional ros-humble-tier4-map-launch_0-2025.01.22.17.48_amd64.buildinfo
+ cf3970527072c70addbe877832bc8eb9 9866 misc optional ros-humble-tier4-map-launch_0-2025.01.22.17.48_amd64.deb

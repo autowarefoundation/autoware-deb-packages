@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-v2x-msgs
+Binary: ros-humble-autoware-v2x-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.3.0-2025.01.22.14.50
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-v2x-msgs - Autoware v2x messages package.
+Changes:
+ ros-humble-autoware-v2x-msgs (1.3.0-2025.01.22.14.50) jammy; urgency=high
+Checksums-Sha1:
+ bf1f4e86b7bce039ab56b4ad404e385fd271c25e 568900 ros-humble-autoware-v2x-msgs-dbgsym_1.3.0-2025.01.22.14.50_amd64.ddeb
+ d7893942abaa1636c8ced7158dda6f9c5ccb8135 14716 ros-humble-autoware-v2x-msgs_1.3.0-2025.01.22.14.50_amd64.buildinfo
+ 3ec42c55a86717408fa6898a7bda404d4c123437 76314 ros-humble-autoware-v2x-msgs_1.3.0-2025.01.22.14.50_amd64.deb
+Checksums-Sha256:
+ 343af7bafd3467ebf706c311acd9c9ea5a4ca7eb9c51e092387989f0fb592174 568900 ros-humble-autoware-v2x-msgs-dbgsym_1.3.0-2025.01.22.14.50_amd64.ddeb
+ dbd338a94294aaf8220d185028413efa0201ea7cb6ee1eca5bfb6ee54c2aa554 14716 ros-humble-autoware-v2x-msgs_1.3.0-2025.01.22.14.50_amd64.buildinfo
+ 15c926de7dc7dab0f30fc169b7d8f4f7dd3abb1145f636bad5b6616696baa63b 76314 ros-humble-autoware-v2x-msgs_1.3.0-2025.01.22.14.50_amd64.deb
+Files:
+ 1e678a11afad73d10495b8d452c7ca29 568900 debug optional ros-humble-autoware-v2x-msgs-dbgsym_1.3.0-2025.01.22.14.50_amd64.ddeb
+ 1e676a3964b4df17f87f3d9e6ac34a8f 14716 misc optional ros-humble-autoware-v2x-msgs_1.3.0-2025.01.22.14.50_amd64.buildinfo
+ 52f6063b285b70f186fa9647f388e5b9 76314 misc optional ros-humble-autoware-v2x-msgs_1.3.0-2025.01.22.14.50_amd64.deb

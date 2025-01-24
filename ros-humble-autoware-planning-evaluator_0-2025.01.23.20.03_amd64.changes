@@ -1,0 +1,96 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-planning-evaluator
+Binary: ros-humble-autoware-planning-evaluator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.23.20.03
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime CLEMENT <maxime.clement@tier4.jp>
+Changed-By: Maxime CLEMENT <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-planning-evaluator - ROS 2 node for evaluating planners
+Changes:
+ ros-humble-autoware-planning-evaluator (0-2025.01.23.20.03) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - evaluator (#9566 <https://github.com/autowarefoundation/autoware.universe/issues/9566>)
+   * feat(planning_evaluator): add a trigger to choice whether to output metrics to log folder (#9476 <https://github.com/autowarefoundation/autoware.universe/issues/9476>)
+     * tmp save
+     * planning_evaluator build ok, test it.
+     * add descriptions to output.
+     * pre-commit.
+     * add parm to launch file.
+     * move output_metrics from config to launch file.
+     * fix unit test bug.
+     ---------
+   * refactor(evaluators, autoware_universe_utils): rename Stat class to Accumulator and move it to autoware_universe_utils (#9459 <https://github.com/autowarefoundation/autoware.universe/issues/9459>)
+     * add Accumulator class to autoware_universe_utils
+     * use Accumulator on all evaluators.
+     * pre-commit
+     * found and fixed a bug. add more tests.
+     * pre-commit
+     * Update common/autoware_universe_utils/include/autoware/universe_utils/math/accumulator.hpp
+     Co-authored-by: Kosuke Takeuchi <mailto:kosuke.tnp@gmail.com>
+     ---------
+     Co-authored-by: Kosuke Takeuchi <mailto:kosuke.tnp@gmail.com>
+   * feat(planning_evaluator): add processing time pub (#9334 <https://github.com/autowarefoundation/autoware.universe/issues/9334>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix(evaluator): missing dependency in evaluator components (#9074 <https://github.com/autowarefoundation/autoware.universe/issues/9074>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * feat(tier4_metric_msgs): apply tier4_metric_msgs for scenario_simulator_v2_adapter, control_evaluator, planning_evaluator, autonomous_emergency_braking, obstacle_cruise_planner, motion_velocity_planner, processing_time_checker (#9180 <https://github.com/autowarefoundation/autoware.universe/issues/9180>)
+     * first commit
+     * fix building errs.
+     * change diagnostic messages to metric messages for publishing decision.
+     * fix bug about motion_velocity_planner
+     * change the diagnostic msg to metric msg in autoware_obstacle_cruise_planner.
+     * tmp save for planning_evaluator
+     * change the topic to which metrics published to.
+     * fix typo.
+     * remove unnesessary publishing of metrics.
+     * mke planning_evaluator publish msg of MetricArray instead of Diags.
+     * update aeb with metric type for decision.
+     * fix some bug
+     * remove autoware_evaluator_utils package.
+     * remove diagnostic_msgs dependency of planning_evaluator
+     * use metric_msgs for autoware_processing_time_checker.
+     * rewrite diagnostic_convertor to scenario_simulator_v2_adapter, supporting metric_msgs.
+     * pre-commit and fix typo
+     * publish metrics even if there is no metric in the MetricArray.
+     * modify the metric name of processing_time.
+     * update unit test for test_planning/control_evaluator
+     * manual pre-commit
+     ---------
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Kazunori-Nakajima, Kem (TiankuiXian), M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo, ぐるぐる
+Checksums-Sha1:
+ 3a05b9549c135ec540cd9e17bbf668e593fc776a 10234972 ros-humble-autoware-planning-evaluator-dbgsym_0-2025.01.23.20.03_amd64.ddeb
+ 84591bc079c4be2a941693662924da351e31cf96 42925 ros-humble-autoware-planning-evaluator_0-2025.01.23.20.03_amd64.buildinfo
+ 506666b363a399dce347b4868d8149960040192d 317172 ros-humble-autoware-planning-evaluator_0-2025.01.23.20.03_amd64.deb
+Checksums-Sha256:
+ a28a85d96cea6a56f3d46ab0ec53b4bf56ea1ace411ad4b1bd8071b91be7ccd1 10234972 ros-humble-autoware-planning-evaluator-dbgsym_0-2025.01.23.20.03_amd64.ddeb
+ 15bc667430895f6eb17d372c39cf42df040aa47a241a86da8e15dbd07c42920e 42925 ros-humble-autoware-planning-evaluator_0-2025.01.23.20.03_amd64.buildinfo
+ 42ad0886317e064ae3e03c0d55f798238a6e98cca42c41c9d841bf91acf8fd83 317172 ros-humble-autoware-planning-evaluator_0-2025.01.23.20.03_amd64.deb
+Files:
+ f81797a44ba0139941a88f6fbd3e8d34 10234972 debug optional ros-humble-autoware-planning-evaluator-dbgsym_0-2025.01.23.20.03_amd64.ddeb
+ dc31e19205aa42a970286008689e88a5 42925 misc optional ros-humble-autoware-planning-evaluator_0-2025.01.23.20.03_amd64.buildinfo
+ 69febc52f1006cc56ba4ddcf1a605835 317172 misc optional ros-humble-autoware-planning-evaluator_0-2025.01.23.20.03_amd64.deb

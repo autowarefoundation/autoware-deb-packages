@@ -1,0 +1,54 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-geo-pose-projector
+Binary: ros-humble-autoware-geo-pose-projector
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.23.13.54
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-geo-pose-projector - The autoware_geo_pose_projector package
+Changes:
+ ros-humble-autoware-geo-pose-projector (0-2025.01.23.13.54) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - localization (#9567 <https://github.com/autowarefoundation/autoware.universe/issues/9567>)
+   * feat!: replace tier4_map_msgs with autoware_map_msgs for MapProjectorInfo (#9392 <https://github.com/autowarefoundation/autoware.universe/issues/9392>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * refactor(component_interface_utils): prefix package and namespace with autoware (#9092 <https://github.com/autowarefoundation/autoware.universe/issues/9092>)
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ c2bb20aa024d7a52a4b78ceac3545947281817d8 3281534 ros-humble-autoware-geo-pose-projector-dbgsym_0-2025.01.23.13.54_amd64.ddeb
+ 7ae43ccf63e0f81077ae3375667ea4c41e34077e 25786 ros-humble-autoware-geo-pose-projector_0-2025.01.23.13.54_amd64.buildinfo
+ b9317503388a1ab581f9ad9ef4e7cda5d745fb4a 149002 ros-humble-autoware-geo-pose-projector_0-2025.01.23.13.54_amd64.deb
+Checksums-Sha256:
+ 63007eea062895b75f351eac67c07083d6878fd38555ea95ce9406696f445a5c 3281534 ros-humble-autoware-geo-pose-projector-dbgsym_0-2025.01.23.13.54_amd64.ddeb
+ 5a971fc1564d644e668139a3cce7eed61b3c04fd088dae620e5ef9a92f24a350 25786 ros-humble-autoware-geo-pose-projector_0-2025.01.23.13.54_amd64.buildinfo
+ e772a5289e41550fe3a6c9815d604b887f618048c9554bdb981c071d139d849e 149002 ros-humble-autoware-geo-pose-projector_0-2025.01.23.13.54_amd64.deb
+Files:
+ 521f27907d7f5518c76109d4bcc632c5 3281534 debug optional ros-humble-autoware-geo-pose-projector-dbgsym_0-2025.01.23.13.54_amd64.ddeb
+ 2946116bd2810b60356748fff9c9eccc 25786 misc optional ros-humble-autoware-geo-pose-projector_0-2025.01.23.13.54_amd64.buildinfo
+ c1073a31f073e30cbb3495fbbb031e9b 149002 misc optional ros-humble-autoware-geo-pose-projector_0-2025.01.23.13.54_amd64.deb

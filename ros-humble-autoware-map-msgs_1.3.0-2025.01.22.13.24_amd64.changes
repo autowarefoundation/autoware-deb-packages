@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-map-msgs
+Binary: ros-humble-autoware-map-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.3.0-2025.01.22.13.24
+Distribution: jammy
+Urgency: high
+Maintainer: kminoda <koji.minoda@tier4.jp>
+Changed-By: kminoda <koji.minoda@tier4.jp>
+Description:
+ ros-humble-autoware-map-msgs - Autoware map messages package.
+Changes:
+ ros-humble-autoware-map-msgs (1.3.0-2025.01.22.13.24) jammy; urgency=high
+ .
+   * feat(autoware_map_msgs): add MapProjectorInfo message (#102 <https://github.com/autowarefoundation/autoware_msgs/issues/102>)
+   * Contributors: Ryohsuke Mitsudome
+Checksums-Sha1:
+ 7cdab58f6030c15851c835ed39ef9a729a36711b 1369978 ros-humble-autoware-map-msgs-dbgsym_1.3.0-2025.01.22.13.24_amd64.ddeb
+ 1939660d19b7cdb60988e8b7ce21a252734fd8b8 14911 ros-humble-autoware-map-msgs_1.3.0-2025.01.22.13.24_amd64.buildinfo
+ 9d06c8c27c5c5a42a415b3dca0795281dcfddd60 161622 ros-humble-autoware-map-msgs_1.3.0-2025.01.22.13.24_amd64.deb
+Checksums-Sha256:
+ b95f7441919ca6141a468efe3ce9de1ee1874298383f8c73951e0c44775bbbc1 1369978 ros-humble-autoware-map-msgs-dbgsym_1.3.0-2025.01.22.13.24_amd64.ddeb
+ d7f743836ef77fca5261a7885b2075ad81e527469ef7bbffd2c09f894a2202ff 14911 ros-humble-autoware-map-msgs_1.3.0-2025.01.22.13.24_amd64.buildinfo
+ c2cd04bfe835f3eabc80e51ed45a00c6d9894b4445b0e0a94c539b2fd81bd8b9 161622 ros-humble-autoware-map-msgs_1.3.0-2025.01.22.13.24_amd64.deb
+Files:
+ 28271c28c4115a3ac594c2685f90be1e 1369978 debug optional ros-humble-autoware-map-msgs-dbgsym_1.3.0-2025.01.22.13.24_amd64.ddeb
+ 8563ec1e748c6f0d2f7d34729a2fb5dc 14911 misc optional ros-humble-autoware-map-msgs_1.3.0-2025.01.22.13.24_amd64.buildinfo
+ ddc5910109bbaa81978d2ec9706bf788 161622 misc optional ros-humble-autoware-map-msgs_1.3.0-2025.01.22.13.24_amd64.deb

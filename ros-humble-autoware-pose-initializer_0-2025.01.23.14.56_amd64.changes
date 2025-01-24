@@ -1,0 +1,53 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-pose-initializer
+Binary: ros-humble-autoware-pose-initializer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.23.14.56
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-pose-initializer - The autoware_pose_initializer package
+Changes:
+ ros-humble-autoware-pose-initializer (0-2025.01.23.14.56) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - localization (#9567 <https://github.com/autowarefoundation/autoware.universe/issues/9567>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * refactor(component_interface_utils): prefix package and namespace with autoware (#9092 <https://github.com/autowarefoundation/autoware.universe/issues/9092>)
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ aeaa7980e62d5b456524b0191256616bf5142404 5262302 ros-humble-autoware-pose-initializer-dbgsym_0-2025.01.23.14.56_amd64.ddeb
+ bc7d5d1bb4c88fe182a5f58252db7769ca87581d 42346 ros-humble-autoware-pose-initializer_0-2025.01.23.14.56_amd64.buildinfo
+ 2294a57d126ee3e05225c9f70cc57911dac3fc98 197524 ros-humble-autoware-pose-initializer_0-2025.01.23.14.56_amd64.deb
+Checksums-Sha256:
+ a4b62f025757c6399122619ce6b30a6dc0d0b54dd6a04d5cb449f0b3534c9a16 5262302 ros-humble-autoware-pose-initializer-dbgsym_0-2025.01.23.14.56_amd64.ddeb
+ 2ea92fae52fd6e627d0841114eec4e73043ab33f39e856b6afc657689d92ece6 42346 ros-humble-autoware-pose-initializer_0-2025.01.23.14.56_amd64.buildinfo
+ 7b3f35dbe1508dfa4dee1ca734f047b221ac6a9cc29f36cd407385ec1c068717 197524 ros-humble-autoware-pose-initializer_0-2025.01.23.14.56_amd64.deb
+Files:
+ 4b793a637806d9992bb29cc6ec083e7e 5262302 debug optional ros-humble-autoware-pose-initializer-dbgsym_0-2025.01.23.14.56_amd64.ddeb
+ 7a61957f4d5fe4eb277b125b7f822f87 42346 misc optional ros-humble-autoware-pose-initializer_0-2025.01.23.14.56_amd64.buildinfo
+ d5bdfcd7fd285875d029c6c8d13f5da0 197524 misc optional ros-humble-autoware-pose-initializer_0-2025.01.23.14.56_amd64.deb

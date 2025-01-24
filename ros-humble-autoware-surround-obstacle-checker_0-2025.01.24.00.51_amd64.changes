@@ -1,0 +1,62 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-surround-obstacle-checker
+Binary: ros-humble-autoware-surround-obstacle-checker
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.24.00.51
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-surround-obstacle-checker - The autoware_surround_obstacle_checker package
+Changes:
+ ros-humble-autoware-surround-obstacle-checker (0-2025.01.24.00.51) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - planning (#9570 <https://github.com/autowarefoundation/autoware.universe/issues/9570>)
+   * ci(pre-commit): autoupdate (#8949 <https://github.com/autowarefoundation/autoware.universe/issues/8949>)
+     Co-authored-by: M. Fatih Cırıt <mailto:mfc@autoware.org>
+   * fix(surround_obstacle_checker)!: remove stop reason (#9450 <https://github.com/autowarefoundation/autoware.universe/issues/9450>)
+     fix(surround_obstacle_checker): remove stop reason
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix(autoware_surround_obstacle_checker): fix clang-diagnostic-unused-private-field (#9399 <https://github.com/autowarefoundation/autoware.universe/issues/9399>)
+     * fix: clang-diagnostic-unused-private-field
+     * refactor: fmt
+     * refactor: fmt
+     * refactor: fmt
+     * fix: hpp
+     ---------
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Satoshi OTA, Yutaka Kondo, awf-autoware-bot[bot], kobayu858
+Checksums-Sha1:
+ 4fc79479ded35d2b9060763e977e31975a4afa03 8058548 ros-humble-autoware-surround-obstacle-checker-dbgsym_0-2025.01.24.00.51_amd64.ddeb
+ c065750dd372cf5a0acf4f7e47928e74375b7890 43637 ros-humble-autoware-surround-obstacle-checker_0-2025.01.24.00.51_amd64.buildinfo
+ ab6baca9a6591543c7a3e7a41e285f2e27b44229 302348 ros-humble-autoware-surround-obstacle-checker_0-2025.01.24.00.51_amd64.deb
+Checksums-Sha256:
+ 8f2c8784e4020f7fe15f519e2371d361d0659508457f824c6b46300ad0fc4a59 8058548 ros-humble-autoware-surround-obstacle-checker-dbgsym_0-2025.01.24.00.51_amd64.ddeb
+ 139691eb30aa878d781a98bf9b2f5b1d1f40c081cf0feb522e1ca27ad305c1b7 43637 ros-humble-autoware-surround-obstacle-checker_0-2025.01.24.00.51_amd64.buildinfo
+ 09646ff0220f4e0bef0e58e5c8075eee67fef0cefb7891e8a32e78754ea4ea44 302348 ros-humble-autoware-surround-obstacle-checker_0-2025.01.24.00.51_amd64.deb
+Files:
+ d29393420b629f4b4569a8555e44b910 8058548 debug optional ros-humble-autoware-surround-obstacle-checker-dbgsym_0-2025.01.24.00.51_amd64.ddeb
+ e77a56798c281a13e76e5dce406b48b7 43637 misc optional ros-humble-autoware-surround-obstacle-checker_0-2025.01.24.00.51_amd64.buildinfo
+ 5d3009b386061bc73ef20a0d01a586d0 302348 misc optional ros-humble-autoware-surround-obstacle-checker_0-2025.01.24.00.51_amd64.deb

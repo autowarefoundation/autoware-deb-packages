@@ -1,0 +1,53 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-motion-velocity-out-of-lane-module
+Binary: ros-humble-autoware-motion-velocity-out-of-lane-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.24.03.59
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime Clement <maxime.clement@tier4.jp>
+Changed-By: Maxime Clement <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-motion-velocity-out-of-lane-module - The motion_velocity_out_of_lane_module package
+Changes:
+ ros-humble-autoware-motion-velocity-out-of-lane-module (0-2025.01.24.03.59) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * refactor(traffic_light_utils): prefix package and namespace with autoware (#9251 <https://github.com/autowarefoundation/autoware.universe/issues/9251>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * fix(out_of_lane): correct calculations of the stop pose (#9209 <https://github.com/autowarefoundation/autoware.universe/issues/9209>)
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Maxime CLEMENT, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ af39dd8e567790018c230724716a757d274955db 9991692 ros-humble-autoware-motion-velocity-out-of-lane-module-dbgsym_0-2025.01.24.03.59_amd64.ddeb
+ 45af940248e2712cdde2784cc58dcc15c9f077df 44146 ros-humble-autoware-motion-velocity-out-of-lane-module_0-2025.01.24.03.59_amd64.buildinfo
+ ce90f7e1b3f5cb58b3c3a3dc603ead7df26954b7 333678 ros-humble-autoware-motion-velocity-out-of-lane-module_0-2025.01.24.03.59_amd64.deb
+Checksums-Sha256:
+ e333bf1bdca2fb8cbda9e537cb69cef0c76fc38ff4c78528042957b333875049 9991692 ros-humble-autoware-motion-velocity-out-of-lane-module-dbgsym_0-2025.01.24.03.59_amd64.ddeb
+ 33e97defa189fb9f2cd134b641c750b6357f23e15b3db6ac10d6649ad417f353 44146 ros-humble-autoware-motion-velocity-out-of-lane-module_0-2025.01.24.03.59_amd64.buildinfo
+ 2b8001e15f649e298012fd76680f656961fb2ca3d9d58012631ecffb6417ea5b 333678 ros-humble-autoware-motion-velocity-out-of-lane-module_0-2025.01.24.03.59_amd64.deb
+Files:
+ 441523dff91888ebdddc8f832221e545 9991692 debug optional ros-humble-autoware-motion-velocity-out-of-lane-module-dbgsym_0-2025.01.24.03.59_amd64.ddeb
+ 5f001af873cd445b0ac90949f0dc8289 44146 misc optional ros-humble-autoware-motion-velocity-out-of-lane-module_0-2025.01.24.03.59_amd64.buildinfo
+ 171f9676ae28cc07761c73cb9cde779e 333678 misc optional ros-humble-autoware-motion-velocity-out-of-lane-module_0-2025.01.24.03.59_amd64.deb

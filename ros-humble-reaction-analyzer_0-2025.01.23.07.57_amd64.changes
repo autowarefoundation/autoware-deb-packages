@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-reaction-analyzer
+Binary: ros-humble-reaction-analyzer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.23.07.57
+Distribution: jammy
+Urgency: high
+Maintainer: Berkay Karaman <berkay@leodrive.ai>
+Changed-By: Berkay Karaman <berkay@leodrive.ai>
+Description:
+ ros-humble-reaction-analyzer - Analyzer that measures reaction times of the nodes
+Changes:
+ ros-humble-reaction-analyzer (0-2025.01.23.07.57) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - tools (#9574 <https://github.com/autowarefoundation/autoware.universe/issues/9574>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 08e9d512feecaa76ffb345086391142aaee8b877 21606342 ros-humble-reaction-analyzer-dbgsym_0-2025.01.23.07.57_amd64.ddeb
+ b5b8b4726d7a69f1bc7d8f8c33728dfd47539c6b 41963 ros-humble-reaction-analyzer_0-2025.01.23.07.57_amd64.buildinfo
+ b87060587806a8e04d8bff7fb9a93f38a4a3eba9 620554 ros-humble-reaction-analyzer_0-2025.01.23.07.57_amd64.deb
+Checksums-Sha256:
+ be1a9f600db405e452ccf7e17d1cd3d900f4c824fd4784a1ee6b5c2b4352a5cb 21606342 ros-humble-reaction-analyzer-dbgsym_0-2025.01.23.07.57_amd64.ddeb
+ cbf4460dda0a901a53db259f44082beedf468d24588150f53ffc2f4867239fd2 41963 ros-humble-reaction-analyzer_0-2025.01.23.07.57_amd64.buildinfo
+ 2164c223a7d5d6253df2d0dae77c3d99a3874f4bd79b695abe08fde6672e7d54 620554 ros-humble-reaction-analyzer_0-2025.01.23.07.57_amd64.deb
+Files:
+ a3747426f412aced806fdca4571f8a90 21606342 debug optional ros-humble-reaction-analyzer-dbgsym_0-2025.01.23.07.57_amd64.ddeb
+ 1c447b9c8e3e215997ea82af0a10b9e6 41963 misc optional ros-humble-reaction-analyzer_0-2025.01.23.07.57_amd64.buildinfo
+ 12f03fa47c7dbfe9bcab181cb29f6cbb 620554 misc optional ros-humble-reaction-analyzer_0-2025.01.23.07.57_amd64.deb

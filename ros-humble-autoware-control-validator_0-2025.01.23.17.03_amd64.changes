@@ -1,0 +1,55 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-control-validator
+Binary: ros-humble-autoware-control-validator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.23.17.03
+Distribution: jammy
+Urgency: high
+Maintainer: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Changed-By: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Description:
+ ros-humble-autoware-control-validator - ros node for autoware_control_validator
+Changes:
+ ros-humble-autoware-control-validator (0-2025.01.23.17.03) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - control (#9565 <https://github.com/autowarefoundation/autoware.universe/issues/9565>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * feat: suppress warning/error of the empty predicted trajectory by MPC (#9373 <https://github.com/autowarefoundation/autoware.universe/issues/9373>)
+   * fix(autoware_control_validator): fix clang-diagnostic-unused-private-field (#9381 <https://github.com/autowarefoundation/autoware.universe/issues/9381>)
+   * fix(control): missing dependency in control components (#9073 <https://github.com/autowarefoundation/autoware.universe/issues/9073>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Ryuta Kambe, Takayuki Murooka, Yutaka Kondo, ぐるぐる
+Checksums-Sha1:
+ 845be4ca89cbf96e568e162a8c47239b2a45798c 4849728 ros-humble-autoware-control-validator-dbgsym_0-2025.01.23.17.03_amd64.ddeb
+ bafb86a696205db61729ff3b2f125e27e84bdbd3 42896 ros-humble-autoware-control-validator_0-2025.01.23.17.03_amd64.buildinfo
+ a561a0633b75fdab1770c606fe8868cc34609e79 247642 ros-humble-autoware-control-validator_0-2025.01.23.17.03_amd64.deb
+Checksums-Sha256:
+ 22a84bc87e2acccfb8f6cf6cc24fcdc8b3b388b83de1ec2b10df20db99e3c992 4849728 ros-humble-autoware-control-validator-dbgsym_0-2025.01.23.17.03_amd64.ddeb
+ 0b35313278ba8fe59b1c97ca14ef2a7c7e591db6d1ac7809d0e398886894dda4 42896 ros-humble-autoware-control-validator_0-2025.01.23.17.03_amd64.buildinfo
+ f06d1587c2cf9a1b6b68887aeb0a1b3d7b2a6cfca25fc66fdaa71a75f84fe49f 247642 ros-humble-autoware-control-validator_0-2025.01.23.17.03_amd64.deb
+Files:
+ 0d8a055bb8568c99ede11cc4c7c63cc8 4849728 debug optional ros-humble-autoware-control-validator-dbgsym_0-2025.01.23.17.03_amd64.ddeb
+ e3b6960c80b291c01a31f39d769ec93a 42896 misc optional ros-humble-autoware-control-validator_0-2025.01.23.17.03_amd64.buildinfo
+ 146bc7c53d205344125a339910e63883 247642 misc optional ros-humble-autoware-control-validator_0-2025.01.23.17.03_amd64.deb

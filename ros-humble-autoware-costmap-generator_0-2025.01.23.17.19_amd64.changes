@@ -1,0 +1,76 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-humble-autoware-costmap-generator
+Binary: ros-humble-autoware-costmap-generator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.23.17.19
+Distribution: jammy
+Urgency: high
+Maintainer: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Changed-By: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Description:
+ ros-humble-autoware-costmap-generator - The autoware_costmap_generator package
+Changes:
+ ros-humble-autoware-costmap-generator (0-2025.01.23.17.19) jammy; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * feat(costmap_generator, scenario_selector): improve freespace planning stability (#9579 <https://github.com/autowarefoundation/autoware.universe/issues/9579>)
+     * discretize updating grid center position by size of grid resolution
+     * modify logic for switching to lane driving in scenario selector
+     * fix spelling
+     ---------
+   * fix(cpplint): include what you use - planning (#9570 <https://github.com/autowarefoundation/autoware.universe/issues/9570>)
+   * refactor: correct spelling (#9528 <https://github.com/autowarefoundation/autoware.universe/issues/9528>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix(autoware_costmap_generator): fix clang-diagnostic-unused-private-field (#9395 <https://github.com/autowarefoundation/autoware.universe/issues/9395>)
+     fix: clang-diagnostic-unused-private-field
+   * fix(costmap_generator): use vehicle frame for lidar height thresholds (#9311 <https://github.com/autowarefoundation/autoware.universe/issues/9311>)
+   * test(costmap_generator): unit test implementation for costmap generator (#9149 <https://github.com/autowarefoundation/autoware.universe/issues/9149>)
+     * modify costmap generator directory structure
+     * rename class CostmapGenerator to CostmapGeneratorNode
+     * unit test for object_map_utils
+     * catch error from lookupTransform
+     * use polling subscriber in costmap generator node
+     * add test for costmap generator node
+     * add test for isActive()
+     * revert unnecessary changes
+     * remove commented out line
+     * minor fix
+     * Update planning/autoware_costmap_generator/src/costmap_generator.cpp
+     Co-authored-by: Kosuke Takeuchi <mailto:kosuke.tnp@gmail.com>
+     ---------
+     Co-authored-by: Kosuke Takeuchi <mailto:kosuke.tnp@gmail.com>
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Maxime CLEMENT, Ryohsuke Mitsudome, Yutaka Kondo, kobayu858, mkquda
+Checksums-Sha1:
+ 9f1b7a759ba50642ce58807ba1b80278f907a828 8920826 ros-humble-autoware-costmap-generator-dbgsym_0-2025.01.23.17.19_amd64.ddeb
+ c826562cdf946120161283c0e578e2a4907f2d37 47865 ros-humble-autoware-costmap-generator_0-2025.01.23.17.19_amd64.buildinfo
+ c0fb602d600cad24c7b7c8b2fe561b8b0937bdae 309860 ros-humble-autoware-costmap-generator_0-2025.01.23.17.19_amd64.deb
+Checksums-Sha256:
+ b5b9b625ec49983c9dbe84d51355068a4772206f6be8350fae756f2b104165ef 8920826 ros-humble-autoware-costmap-generator-dbgsym_0-2025.01.23.17.19_amd64.ddeb
+ 58c167b51424b84b0141b88e61c93ca13a8cd34de30a053d80e7a3c5735ef965 47865 ros-humble-autoware-costmap-generator_0-2025.01.23.17.19_amd64.buildinfo
+ fccda82c82e06f41b36295f6c401716abcc44977768bdf06db14a2b1017dd525 309860 ros-humble-autoware-costmap-generator_0-2025.01.23.17.19_amd64.deb
+Files:
+ d73f15803624d87c3ee4ecb52ec328b4 8920826 debug optional ros-humble-autoware-costmap-generator-dbgsym_0-2025.01.23.17.19_amd64.ddeb
+ 150bbbe0c8be134e7095742cd721772b 47865 misc optional ros-humble-autoware-costmap-generator_0-2025.01.23.17.19_amd64.buildinfo
+ 4177e90e9e1764cd92409304042ac9af 309860 misc optional ros-humble-autoware-costmap-generator_0-2025.01.23.17.19_amd64.deb
