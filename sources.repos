@@ -27,10 +27,10 @@ repositories:
     type: git
     url: https://github.com/autowarefoundation/autoware_utils.git
     version: 451419ec58923b1a1035956f838afdb8d3cbc0d3
-  launcher/autoware_launch:
-    type: git
-    url: https://github.com/autowarefoundation/autoware_launch.git
-    version: 4c0a0d02043be657e7039970aeba119e30fff79f
+#  launcher/autoware_launch:
+#    type: git
+#    url: https://github.com/autowarefoundation/autoware_launch.git
+#    version: 4c0a0d02043be657e7039970aeba119e30fff79f
   param/autoware_individual_params:
     type: git
     url: https://github.com/autowarefoundation/autoware_individual_params.git
