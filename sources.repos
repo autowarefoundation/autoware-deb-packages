@@ -2,11 +2,11 @@ repositories:
   core/autoware.core:
     type: git
     url: https://github.com/autowarefoundation/autoware.core.git
-    version: 7908651255ba2a8b12d704ef792e16a1b921c95b
+    version: 3f26d5245f5c161fc255a8c707cfdaca5c7c9710
   core/autoware_adapi_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
-    version: d81c8bbe3f2a57bf2fc0c95e923113220e9f38e4
+    version: f895313b0ecad49477b07ea53c0f625670cbc482
   core/autoware_cmake:
     type: git
     url: https://github.com/autowarefoundation/autoware_cmake.git
@@ -14,7 +14,7 @@ repositories:
   core/autoware_internal_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_internal_msgs.git
-    version: 117bb2e8dba239e79a358e9be0dad9ac7b237de5
+    version: 30056746f25fba8b63da2c46c1709fdcc4085636
   core/autoware_lanelet2_extension:
     type: git
     url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
@@ -30,7 +30,7 @@ repositories:
   launcher/autoware_launch:
     type: git
     url: https://github.com/autowarefoundation/autoware_launch.git
-    version: 2924e57b69d95947ddeec399d299e0d0698f50ba
+    version: 0f5aa936ac6d8033ede74a607c07573d69c562ab
   param/autoware_individual_params:
     type: git
     url: https://github.com/autowarefoundation/autoware_individual_params.git
@@ -74,7 +74,7 @@ repositories:
   universe/autoware.universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
-    version: 32e340270f4390faf4619005a9215c7a3890ee2b
+    version: f1d5e0e7e3c55a35c1dbaa01ff4e6409d6701d24
   universe/external/eagleye:
     type: git
     url: https://github.com/MapIV/eagleye.git
@@ -110,7 +110,7 @@ repositories:
   universe/external/tier4_autoware_msgs:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
-    version: 10a235af807bba485291803499d4aec052b82292
+    version: e6d504b0bf4fc80d994a92fc7a783bdca11ac8d0
   universe/external/trt_batched_nms:
     type: git
     url: https://github.com/autowarefoundation/trt_batched_nms.git
