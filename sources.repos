@@ -27,10 +27,10 @@ repositories:
     type: git
     url: https://github.com/autowarefoundation/autoware_utils.git
     version: 451419ec58923b1a1035956f838afdb8d3cbc0d3
-  launcher/autoware_launch:
-    type: git
-    url: https://github.com/autowarefoundation/autoware_launch.git
-    version: 4c0a0d02043be657e7039970aeba119e30fff79f
+#  launcher/autoware_launch:
+#    type: git
+#    url: https://github.com/autowarefoundation/autoware_launch.git
+#    version: 4c0a0d02043be657e7039970aeba119e30fff79f
   param/autoware_individual_params:
     type: git
     url: https://github.com/autowarefoundation/autoware_individual_params.git
@@ -73,8 +73,8 @@ repositories:
     version: e14679e05caf29e1d853800abd9738798d49f48e
   universe/autoware.universe:
     type: git
-    url: https://github.com/autowarefoundation/autoware.universe.git
-    version: ae436b380914dd6c7cd60b28a35c0026a79e000f
+    url: https://github.com/esteve/autoware.universe.git
+    version: move-cuda-packages
   universe/external/eagleye:
     type: git
     url: https://github.com/MapIV/eagleye.git
