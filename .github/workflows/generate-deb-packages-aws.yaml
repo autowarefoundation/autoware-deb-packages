@@ -70,7 +70,7 @@ jobs:
           SQUASH_HISTORY: true
           PACKAGES_BRANCH: jammy-humble-main
           GIT_LFS: true
-          SKIP_PACKAGES: autoware_cuda_dependency_meta
+          SKIP_PACKAGES: autoware_cuda_dependency_meta autoware_cuda_utils
   stop-runner:
     name: "Stop self-hosted EC2 runner"
     needs:
