@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-cuda-utils
+Binary: ros-humble-autoware-cuda-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.10.10.22
+Distribution: jammy
+Urgency: high
+Maintainer: Manato Hirabayashi <manato.hirabayashi@tier4.jp>
+Changed-By: Manato Hirabayashi <manato.hirabayashi@tier4.jp>
+Description:
+ ros-humble-autoware-cuda-utils - cuda utility library
+Changes:
+ ros-humble-autoware-cuda-utils (0-2025.02.10.10.22) jammy; urgency=high
+Checksums-Sha1:
+ 24f21cca9083b4f0970f247a7e384d6d2022f975 10664 ros-humble-autoware-cuda-utils_0-2025.02.10.10.22_amd64.buildinfo
+ dd2005a84b4d6c649db2c3d837f14d79cde3767f 1718 ros-humble-autoware-cuda-utils_0-2025.02.10.10.22_amd64.deb
+Checksums-Sha256:
+ fef0dd539dbff997a013eedad6b195227e6971bc9b22a6e4e59675cc105958ee 10664 ros-humble-autoware-cuda-utils_0-2025.02.10.10.22_amd64.buildinfo
+ af6cd03066f97176762cc767dfd73f895835d506625b690e49b89b33c5f16855 1718 ros-humble-autoware-cuda-utils_0-2025.02.10.10.22_amd64.deb
+Files:
+ 875547452f971f45d2c2f28ac7915953 10664 misc optional ros-humble-autoware-cuda-utils_0-2025.02.10.10.22_amd64.buildinfo
+ 4a09730ab36738eb608f8842abcba595 1718 misc optional ros-humble-autoware-cuda-utils_0-2025.02.10.10.22_amd64.deb

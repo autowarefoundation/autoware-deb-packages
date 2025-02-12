@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 02 May 2024 00:00:00 -0000
+Source: ros-humble-autoware-cmake
+Binary: ros-humble-autoware-cmake
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-2025.02.10.10.11
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-autoware-cmake - CMake scripts for Autoware
+Changes:
+ ros-humble-autoware-cmake (1.0.0-2025.02.10.10.11) jammy; urgency=high
+ .
+   * Merge pull request #1 <https://github.com/youtalk/autoware_cmake/issues/1> from youtalk/import-from-autoware-common
+     feat: import from autoware_common
+   * add maintainer
+   * move to autoware_cmake
+   * Contributors: Yutaka Kondo
+Checksums-Sha1:
+ 54d045f4fe743028a669320fe9bd895f8223c8bf 10538 ros-humble-autoware-cmake_1.0.0-2025.02.10.10.11_amd64.buildinfo
+ 2738e899d1f75c5d3a883badbbbb0d180291ab8a 6750 ros-humble-autoware-cmake_1.0.0-2025.02.10.10.11_amd64.deb
+Checksums-Sha256:
+ b5d16a055752c7c80d1202a278e754d2c5b481991ca5d114ae79e3b1212fba18 10538 ros-humble-autoware-cmake_1.0.0-2025.02.10.10.11_amd64.buildinfo
+ 34d0d3dd6c8053b2f6c612fdf385a7e635b4d2e4f9783889324ca069ef2bd6d7 6750 ros-humble-autoware-cmake_1.0.0-2025.02.10.10.11_amd64.deb
+Files:
+ 85ea775ab6144ead63c2a2c6e614f9e2 10538 misc optional ros-humble-autoware-cmake_1.0.0-2025.02.10.10.11_amd64.buildinfo
+ 7d399f5a198410cebf7948134672fc61 6750 misc optional ros-humble-autoware-cmake_1.0.0-2025.02.10.10.11_amd64.deb

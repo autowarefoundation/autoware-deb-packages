@@ -1,0 +1,83 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-run-out-module
+Binary: ros-humble-autoware-behavior-velocity-run-out-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.12.03.11
+Distribution: jammy
+Urgency: high
+Maintainer: Tomohito Ando <tomohito.ando@tier4.jp>
+Changed-By: Tomohito Ando <tomohito.ando@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-run-out-module - The autoware_behavior_velocity_run_out_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-run-out-module (0-2025.02.12.03.11) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * chore(planning): move package directory for planning factor interface (#9948 <https://github.com/autowarefoundation/autoware.universe/issues/9948>)
+     * chore: add new package for planning factor interface
+     * chore(surround_obstacle_checker): update include file
+     * chore(obstacle_stop_planner): update include file
+     * chore(obstacle_cruise_planner): update include file
+     * chore(motion_velocity_planner): update include file
+     * chore(bpp): update include file
+     * chore(bvp-common): update include file
+     * chore(blind_spot): update include file
+     * chore(crosswalk): update include file
+     * chore(detection_area): update include file
+     * chore(intersection): update include file
+     * chore(no_drivable_area): update include file
+     * chore(no_stopping_area): update include file
+     * chore(occlusion_spot): update include file
+     * chore(run_out): update include file
+     * chore(speed_bump): update include file
+     * chore(stop_line): update include file
+     * chore(template_module): update include file
+     * chore(traffic_light): update include file
+     * chore(vtl): update include file
+     * chore(walkway): update include file
+     * chore(motion_utils): remove factor interface
+     ---------
+   * feat(planning_factor)!: remove velocity_factor, steering_factor and introduce planning_factor (#9927 <https://github.com/autowarefoundation/autoware.universe/issues/9927>)
+     Co-authored-by: Satoshi OTA <mailto:44889564+satoshi-ota@users.noreply.github.com>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: satoshi-ota <mailto:satoshi.ota928@gmail.com>
+   * feat(behavior_velocity_modules): add node test (#9790 <https://github.com/autowarefoundation/autoware.universe/issues/9790>)
+     * feat(behavior_velocity_crosswalk): add node test
+     * fix
+     * feat(behavior_velocity_xxx_module): add node test
+     * fix
+     * fix
+     * fix
+     * fix
+     * change directory tests -> test
+     ---------
+   * refactor(behavior_velocity_planner_common): add behavior_velocity_rtc_interface and move RTC-related implementation (#9799 <https://github.com/autowarefoundation/autoware.universe/issues/9799>)
+     * split into planer_common and rtc_interface
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_planner_common/include/autoware/behavior_velocity_planner_common/scene_module_interface.hpp
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_rtc_interface/include/autoware/behavior_velocity_rtc_interface/scene_module_interface_with_rtc.hpp
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+     * fix
+     ---------
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+   * feat(behavior_velocity_planner): use XXXStamped in autoware_internal_debug_msgs (#9744 <https://github.com/autowarefoundation/autoware.universe/issues/9744>)
+     * feat(behavior_velocity_planner): use XXXStamped in autoware_internal_debug_msgs
+     * fix
+     ---------
+   * fix(autoware_behavior_velocity_run_out_module): fix bugprone-branch-clone (#9715 <https://github.com/autowarefoundation/autoware.universe/issues/9715>)
+     fix: bugprone-error
+   * Contributors: Fumiya Watanabe, Mamoru Sobue, Satoshi OTA, Takayuki Murooka, kobayu858
+Checksums-Sha1:
+ 6320c02f7891aa5d6ef5917ed0b095c6521a08a8 11762746 ros-humble-autoware-behavior-velocity-run-out-module-dbgsym_0-2025.02.12.03.11_amd64.ddeb
+ 76e94097fea389fe5a1f8e4cb685a7fa96700f5a 48915 ros-humble-autoware-behavior-velocity-run-out-module_0-2025.02.12.03.11_amd64.buildinfo
+ b4506ee2543242f183d11f605d83f8c23b327494 346492 ros-humble-autoware-behavior-velocity-run-out-module_0-2025.02.12.03.11_amd64.deb
+Checksums-Sha256:
+ 95ce4725ae48b0ef33ca54baac7044b193da8fc018bf25d9644d7c191c6fecce 11762746 ros-humble-autoware-behavior-velocity-run-out-module-dbgsym_0-2025.02.12.03.11_amd64.ddeb
+ ae92ee6c222735645f4f208681afedd47743afc40fd3597538eb641e2317122f 48915 ros-humble-autoware-behavior-velocity-run-out-module_0-2025.02.12.03.11_amd64.buildinfo
+ 295a11825066e78a991ac627035218d95218db9877415113b8d7b447da0293b2 346492 ros-humble-autoware-behavior-velocity-run-out-module_0-2025.02.12.03.11_amd64.deb
+Files:
+ 9aec3339cfe106923b97cb3a12833fef 11762746 debug optional ros-humble-autoware-behavior-velocity-run-out-module-dbgsym_0-2025.02.12.03.11_amd64.ddeb
+ 4d3f4d63ebcd2564e34132e2dc93c03c 48915 misc optional ros-humble-autoware-behavior-velocity-run-out-module_0-2025.02.12.03.11_amd64.buildinfo
+ 9df5ac6a5a13edc04abb0dd581282070 346492 misc optional ros-humble-autoware-behavior-velocity-run-out-module_0-2025.02.12.03.11_amd64.deb

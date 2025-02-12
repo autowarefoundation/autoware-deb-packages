@@ -1,0 +1,56 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-control-performance-analysis
+Binary: ros-humble-autoware-control-performance-analysis
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.11.02.16
+Distribution: jammy
+Urgency: high
+Maintainer: Berkay Karaman <berkay@leodrive.ai>
+Changed-By: Berkay Karaman <berkay@leodrive.ai>
+Description:
+ ros-humble-autoware-control-performance-analysis - Controller Performance Evaluation
+Changes:
+ ros-humble-autoware-control-performance-analysis (0-2025.02.11.02.16) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware_ prefix for control_performance_analysis (#9982 <https://github.com/autowarefoundation/autoware.universe/issues/9982>)
+     * feat(control_performance_analysis): apply autoware_ prefix (see below):
+     Note:
+     * In this commit, I did not organize a folder structure.
+     The folder structure will be organized in the next some commits.
+     * The changes will follow the Autoware's guideline as below:
+     - https://autowarefoundation.github.io/autoware-documentation/main/contributing/coding-guidelines/ros-nodes/directory-structure/#package-folder
+     * rename(control_performance_analysis): move headers under include/autoware:
+     * Fixes due to this changes for .hpp/.cpp files will be applied in the next commit
+     * fix(control_performance_analysis): fix include paths
+     * To follow the previous commit
+     * rename: control_performance_analysis => autoware_control_performance_analysis
+     * style(pre-commit): autofix
+     * bug(autoware_control_performance_analysis): fix inconsistent namespacing
+     * style(pre-commit): autofix
+     * update(autoware_control_performance_analysis): README.md
+     * bug(autoware_control_performance_analysis): fix critical bugs that contaminate topic name
+     * style(pre-commit): autofix
+     * fix: update package name for error_rqt_multiplot.xml
+     * fix: update package name for control_performance_plot.py
+     * docs(autoware_control_performance_analysis): update package name in README and CHANGELOG.rst
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:ryohsuke.mitsudome@tier4.jp>
+     Co-authored-by: SakodaShintaro <mailto:shintaro.sakoda@tier4.jp>
+   * Contributors: Fumiya Watanabe, Junya Sasaki
+Checksums-Sha1:
+ 268ed27294ce7ba3284fac826fe93450571a4213 5852924 ros-humble-autoware-control-performance-analysis-dbgsym_0-2025.02.11.02.16_amd64.ddeb
+ 78b8045a2565443d4b679734fd40f1aaaff4473c 41049 ros-humble-autoware-control-performance-analysis_0-2025.02.11.02.16_amd64.buildinfo
+ 8e5d27cea4e6cbebb19c34ff31ca975faba95d09 278072 ros-humble-autoware-control-performance-analysis_0-2025.02.11.02.16_amd64.deb
+Checksums-Sha256:
+ 0052488b5178e1d97be2f804461a00713549b4519c7d95e802183a3a49e2c4f2 5852924 ros-humble-autoware-control-performance-analysis-dbgsym_0-2025.02.11.02.16_amd64.ddeb
+ c4efda23570228fb854b73f9219d12d4d4f323a9d3db8b8eebffb4e19602ec8e 41049 ros-humble-autoware-control-performance-analysis_0-2025.02.11.02.16_amd64.buildinfo
+ bfb6d60ddcf45d6701347a7e2e757d1029342afea7680077a6a36fa9854c8e7c 278072 ros-humble-autoware-control-performance-analysis_0-2025.02.11.02.16_amd64.deb
+Files:
+ 09b4c2d0ddfed900ca43393f9bfbf6b3 5852924 debug optional ros-humble-autoware-control-performance-analysis-dbgsym_0-2025.02.11.02.16_amd64.ddeb
+ 37a6ffa64042c0cd816054767361eb0a 41049 misc optional ros-humble-autoware-control-performance-analysis_0-2025.02.11.02.16_amd64.buildinfo
+ 879817647b4f86eb9b46473bee426195 278072 misc optional ros-humble-autoware-control-performance-analysis_0-2025.02.11.02.16_amd64.deb

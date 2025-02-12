@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-glog-component
+Binary: ros-humble-autoware-glog-component
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.10.13.04
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-glog-component - The autoware_glog_component package
+Changes:
+ ros-humble-autoware-glog-component (0-2025.02.10.13.04) jammy; urgency=high
+Checksums-Sha1:
+ 91d95850be9667197a10a5f859281a7950182aa2 521730 ros-humble-autoware-glog-component-dbgsym_0-2025.02.10.13.04_amd64.ddeb
+ c57ab1ad2103fbbb9de897c9b9fcd774211b8053 15033 ros-humble-autoware-glog-component_0-2025.02.10.13.04_amd64.buildinfo
+ f85a4f7ffed8c6d282794a13456dfa55bfe54161 29808 ros-humble-autoware-glog-component_0-2025.02.10.13.04_amd64.deb
+Checksums-Sha256:
+ 745faa46bba070919e2e320869db1798a2a7e0cce75b17a92e77ad72d6c04d43 521730 ros-humble-autoware-glog-component-dbgsym_0-2025.02.10.13.04_amd64.ddeb
+ 4f144840b4984b385d549bdeb7a251fc1de5ec99a0cf441d6998fc0019575d7d 15033 ros-humble-autoware-glog-component_0-2025.02.10.13.04_amd64.buildinfo
+ cfbf1b5f704479d2334adac1967e2266fdb295fd1193174d286b875ce8eb1406 29808 ros-humble-autoware-glog-component_0-2025.02.10.13.04_amd64.deb
+Files:
+ b33c6945c27dec438e07971b3b6c8be8 521730 debug optional ros-humble-autoware-glog-component-dbgsym_0-2025.02.10.13.04_amd64.ddeb
+ ff7f935a3e164f01eda81273988be19c 15033 misc optional ros-humble-autoware-glog-component_0-2025.02.10.13.04_amd64.buildinfo
+ 708e025de593eb18cc966618cad39d45 29808 misc optional ros-humble-autoware-glog-component_0-2025.02.10.13.04_amd64.deb

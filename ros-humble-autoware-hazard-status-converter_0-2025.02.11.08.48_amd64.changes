@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-hazard-status-converter
+Binary: ros-humble-autoware-hazard-status-converter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.11.08.48
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-hazard-status-converter - The autoware_hazard_status_converter package
+Changes:
+ ros-humble-autoware-hazard-status-converter (0-2025.02.11.08.48) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware_ prefix for diagnostic_graph_utils (#9968 <https://github.com/autowarefoundation/autoware.universe/issues/9968>)
+   * feat: apply autoware_ prefix for hazard_status_converter (#9971 <https://github.com/autowarefoundation/autoware.universe/issues/9971>)
+   * Contributors: Fumiya Watanabe, Junya Sasaki
+Checksums-Sha1:
+ 5b69c99c82f028a5f30173196c18e8f6cb0256bc 2526916 ros-humble-autoware-hazard-status-converter-dbgsym_0-2025.02.11.08.48_amd64.ddeb
+ ce367b4e8ad9525a74125f419053e8389af00ec2 40825 ros-humble-autoware-hazard-status-converter_0-2025.02.11.08.48_amd64.buildinfo
+ 337f013a3bbbcd59203c741adb86553a16ac45f1 123326 ros-humble-autoware-hazard-status-converter_0-2025.02.11.08.48_amd64.deb
+Checksums-Sha256:
+ 60934470093575d3298a6935a7cc0e093e27414d7cfd3187acda4ef701d7335c 2526916 ros-humble-autoware-hazard-status-converter-dbgsym_0-2025.02.11.08.48_amd64.ddeb
+ 7f06dda641fd26b1a44bbe7b8ee21dc2ce7232b1f3ad4287df4ad69c7e3c98a5 40825 ros-humble-autoware-hazard-status-converter_0-2025.02.11.08.48_amd64.buildinfo
+ 7b08b6e3bcd130048d7cd2bdf789a0dcf95693b9b98e16ae1f52ba3710df3e88 123326 ros-humble-autoware-hazard-status-converter_0-2025.02.11.08.48_amd64.deb
+Files:
+ b2177d9f92f4d73e34a7322f38a10297 2526916 debug optional ros-humble-autoware-hazard-status-converter-dbgsym_0-2025.02.11.08.48_amd64.ddeb
+ d4f930d0805544fdf1b0a1901eff5107 40825 misc optional ros-humble-autoware-hazard-status-converter_0-2025.02.11.08.48_amd64.buildinfo
+ bdb6803252d5fccf6e870c1a15599cd9 123326 misc optional ros-humble-autoware-hazard-status-converter_0-2025.02.11.08.48_amd64.deb

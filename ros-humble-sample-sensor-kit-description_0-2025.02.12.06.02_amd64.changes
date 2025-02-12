@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 17 Jan 2025 00:00:00 -0000
+Source: ros-humble-sample-sensor-kit-description
+Binary: ros-humble-sample-sensor-kit-description
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.12.06.02
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-sample-sensor-kit-description - The sample_sensor_kit_description package
+Changes:
+ ros-humble-sample-sensor-kit-description (0-2025.02.12.06.02) jammy; urgency=high
+Checksums-Sha1:
+ b6d89bdf3bbf40d52c7b24136f9097c8f1af192e 10920 ros-humble-sample-sensor-kit-description_0-2025.02.12.06.02_amd64.buildinfo
+ 1e405025898681dbbe5815090bbf4b050d6b6c09 13108 ros-humble-sample-sensor-kit-description_0-2025.02.12.06.02_amd64.deb
+Checksums-Sha256:
+ 3071f2fcc0801f88000bb685c0c027d6392bf8a25f074d0288b4c42d0d7abff8 10920 ros-humble-sample-sensor-kit-description_0-2025.02.12.06.02_amd64.buildinfo
+ 1bff1160bb7ca3279efff917999fb451a42b5170c8da3a43dc51e42bd5562d5d 13108 ros-humble-sample-sensor-kit-description_0-2025.02.12.06.02_amd64.deb
+Files:
+ bcf34af57cb1fb2535fcce4a92cafbd0 10920 misc optional ros-humble-sample-sensor-kit-description_0-2025.02.12.06.02_amd64.buildinfo
+ 4fc9613e0628dba37270388c9589c31e 13108 misc optional ros-humble-sample-sensor-kit-description_0-2025.02.12.06.02_amd64.deb

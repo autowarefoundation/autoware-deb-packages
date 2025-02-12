@@ -1,0 +1,44 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-localization-evaluator
+Binary: ros-humble-autoware-localization-evaluator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.10.18.07
+Distribution: jammy
+Urgency: high
+Maintainer: Dominik Jargot <dominik.jargot@robotec.ai>
+Changed-By: Dominik Jargot <dominik.jargot@robotec.ai>
+Description:
+ ros-humble-autoware-localization-evaluator - localization evaluator ROS 2 node
+Changes:
+ ros-humble-autoware-localization-evaluator (0-2025.02.10.18.07) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware_ prefix for evaluator/localization_evaluator (#9954 <https://github.com/autowarefoundation/autoware.universe/issues/9954>)
+     * feat(localization_evaluator): apply autoware_ prefix (see below):
+     * In this commit, I did not organize a folder structure.
+     The folder structure will be organized in the next some commits.
+     * The changes will follow the Autoware's guideline as below:
+     - https://autowarefoundation.github.io/autoware-documentation/main/contributing/coding-guidelines/ros-nodes/directory-structure/#package-folder
+     * rename(localization_evaluator): move headers under include/autoware:
+     * Fixes due to this changes for .hpp/.cpp files will be applied in the next commit
+     * fix(localization_evaluator): fix include paths
+     * To follow the previous commit
+     * rename: localization_evaluator => autoware_localization_evaluator
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Fumiya Watanabe, Junya Sasaki
+Checksums-Sha1:
+ 18848bdd4df1843cd392cc7c47930f40102025ed 4187420 ros-humble-autoware-localization-evaluator-dbgsym_0-2025.02.10.18.07_amd64.ddeb
+ 67c9f7243b4489dc57e4bb0dbc37cc7b6453f403 40423 ros-humble-autoware-localization-evaluator_0-2025.02.10.18.07_amd64.buildinfo
+ 6cef3f069bb421d15c28517bf54d3bc1f38c390f 200002 ros-humble-autoware-localization-evaluator_0-2025.02.10.18.07_amd64.deb
+Checksums-Sha256:
+ 5b1cc3f1c57ee67569ffae6bae1cdbd6441569002c446f29ba56c13fb69890c0 4187420 ros-humble-autoware-localization-evaluator-dbgsym_0-2025.02.10.18.07_amd64.ddeb
+ e038fe2eb39d2eb29032f05f8fc108df0e430e7bebfcb2ba50787a17eea58d93 40423 ros-humble-autoware-localization-evaluator_0-2025.02.10.18.07_amd64.buildinfo
+ 281c551935262e8666156943f2a620511652aca6be4548b28e911e1aa4e5ee0a 200002 ros-humble-autoware-localization-evaluator_0-2025.02.10.18.07_amd64.deb
+Files:
+ 49cf2fccd1be6b94a4792513c5ca24ab 4187420 debug optional ros-humble-autoware-localization-evaluator-dbgsym_0-2025.02.10.18.07_amd64.ddeb
+ 42e74f81c3732e7bfce7ee3caf594e6a 40423 misc optional ros-humble-autoware-localization-evaluator_0-2025.02.10.18.07_amd64.buildinfo
+ aeee2793274fe36551f82eba885f4db7 200002 misc optional ros-humble-autoware-localization-evaluator_0-2025.02.10.18.07_amd64.deb

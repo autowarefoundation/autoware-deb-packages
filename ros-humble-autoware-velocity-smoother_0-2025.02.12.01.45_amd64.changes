@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-velocity-smoother
+Binary: ros-humble-autoware-velocity-smoother
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.12.01.45
+Distribution: jammy
+Urgency: high
+Maintainer: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Changed-By: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Description:
+ ros-humble-autoware-velocity-smoother - The autoware_velocity_smoother package
+Changes:
+ ros-humble-autoware-velocity-smoother (0-2025.02.12.01.45) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(velocity_smoother): introduce diagnostics (#9933 <https://github.com/autowarefoundation/autoware.universe/issues/9933>)
+     * feat(velocity_smoother): introduce diagnostics
+     * fix
+     ---------
+   * feat(velocity_smoother): use autoware internal Stamped messages (#9749 <https://github.com/autowarefoundation/autoware.universe/issues/9749>)
+     * feat(velocity_smoother): use autoware internal Stamped messages
+     * fix
+     ---------
+   * Contributors: Fumiya Watanabe, Takayuki Murooka
+Checksums-Sha1:
+ 947f3b61f4fe1a0d4b1b8de3d78d111cfefda47a 8534434 ros-humble-autoware-velocity-smoother-dbgsym_0-2025.02.12.01.45_amd64.ddeb
+ 58ffb807e6e063f525bc3c9b1587b238f0ae8841 43381 ros-humble-autoware-velocity-smoother_0-2025.02.12.01.45_amd64.buildinfo
+ 5eb69f3a46a0acb21c42337f68aa7dcda866f8af 332254 ros-humble-autoware-velocity-smoother_0-2025.02.12.01.45_amd64.deb
+Checksums-Sha256:
+ 028f5d3ed97d4b4ffc6b2f9fea69931c85835cd735f53ecfb626eca4144f4acc 8534434 ros-humble-autoware-velocity-smoother-dbgsym_0-2025.02.12.01.45_amd64.ddeb
+ 2c7208def491d3abee1104e3559aabed4e49ca779b8257403460e8b7277803a7 43381 ros-humble-autoware-velocity-smoother_0-2025.02.12.01.45_amd64.buildinfo
+ f554c5d07f22196b93e1661f1515bab9196481660735413feb103b5f2cb1226b 332254 ros-humble-autoware-velocity-smoother_0-2025.02.12.01.45_amd64.deb
+Files:
+ e73cc86ef99e408e9c951135b34919fc 8534434 debug optional ros-humble-autoware-velocity-smoother-dbgsym_0-2025.02.12.01.45_amd64.ddeb
+ 757e65ea2f38ee2c07536e9a8cba7c2b 43381 misc optional ros-humble-autoware-velocity-smoother_0-2025.02.12.01.45_amd64.buildinfo
+ 753262943994edb39bb66986316b27ca 332254 misc optional ros-humble-autoware-velocity-smoother_0-2025.02.12.01.45_amd64.deb

@@ -1,0 +1,48 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-path-static-obstacle-avoidance-module
+Binary: ros-humble-autoware-behavior-path-static-obstacle-avoidance-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.12.00.08
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-path-static-obstacle-avoidance-module - The autoware_behavior_path_static_obstacle_avoidance_module packa
+Changes:
+ ros-humble-autoware-behavior-path-static-obstacle-avoidance-module (0-2025.02.12.00.08) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(static_obstacle_avoidance): output safety factor (#10000 <https://github.com/autowarefoundation/autoware.universe/issues/10000>)
+     * feat(safety_check): convert to SafetyFactor
+     * feat(static_obstacle_avoidance): use safety factor
+     * fix(bpp): output detail
+     ---------
+   * refactor(behavior_path_planner): common test functions (#9963 <https://github.com/autowarefoundation/autoware.universe/issues/9963>)
+     * feat: common test code in behavior_path_planner
+     * deal with other modules
+     * fix typo
+     * update
+     ---------
+   * feat(planning_factor)!: remove velocity_factor, steering_factor and introduce planning_factor (#9927 <https://github.com/autowarefoundation/autoware.universe/issues/9927>)
+     Co-authored-by: Satoshi OTA <mailto:44889564+satoshi-ota@users.noreply.github.com>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: satoshi-ota <mailto:satoshi.ota928@gmail.com>
+   * fix(static_avoidance): add optional check (#9782 <https://github.com/autowarefoundation/autoware.universe/issues/9782>)
+   * fix(autoware_behavior_path_static_obstacle_avoidance_module): fix bugprone-branch-clone (#9701 <https://github.com/autowarefoundation/autoware.universe/issues/9701>)
+     fix: bugprone-error
+   * Contributors: Fumiya Watanabe, Mamoru Sobue, Satoshi OTA, Takayuki Murooka, Zulfaqar Azmi, kobayu858
+Checksums-Sha1:
+ 68601b70fadb3b9295467283481a4bd32c0e4a4a 11306700 ros-humble-autoware-behavior-path-static-obstacle-avoidance-module-dbgsym_0-2025.02.12.00.08_amd64.ddeb
+ e3628d64b2b98931cd8ea36fb23cf70c06fb2988 49289 ros-humble-autoware-behavior-path-static-obstacle-avoidance-module_0-2025.02.12.00.08_amd64.buildinfo
+ 326b3d4224950c4c60cbd8b3af9018239a8fd2b4 439426 ros-humble-autoware-behavior-path-static-obstacle-avoidance-module_0-2025.02.12.00.08_amd64.deb
+Checksums-Sha256:
+ 8d6fc76e89579f95e42ae36e8c06a292570b2ad1c637c8c635de7d2b57b73245 11306700 ros-humble-autoware-behavior-path-static-obstacle-avoidance-module-dbgsym_0-2025.02.12.00.08_amd64.ddeb
+ f41c0338e21724b26e1df869b032e2fcb7d1752c85f8c0b2a3acd36bf90b0e22 49289 ros-humble-autoware-behavior-path-static-obstacle-avoidance-module_0-2025.02.12.00.08_amd64.buildinfo
+ abaec906367927d591ec0ba4349c507ad52164d6ad0a0f1c66bad06b55b35531 439426 ros-humble-autoware-behavior-path-static-obstacle-avoidance-module_0-2025.02.12.00.08_amd64.deb
+Files:
+ d942d2d6d079ad413405c40cac62949d 11306700 debug optional ros-humble-autoware-behavior-path-static-obstacle-avoidance-module-dbgsym_0-2025.02.12.00.08_amd64.ddeb
+ 9b138e9969d2c6c5d454416af31eede2 49289 misc optional ros-humble-autoware-behavior-path-static-obstacle-avoidance-module_0-2025.02.12.00.08_amd64.buildinfo
+ cf0e239418fee5a54c9472629d1bcb57 439426 misc optional ros-humble-autoware-behavior-path-static-obstacle-avoidance-module_0-2025.02.12.00.08_amd64.deb

@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module
+Binary: ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.12.04.36
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime CLEMENT <maxime.clement@tier4.jp>
+Changed-By: Maxime CLEMENT <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module - Package to adjust velocities of a trajectory in order for the rid
+Changes:
+ ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module (0-2025.02.12.04.36) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(motion_velocity_planner)!: add _universe suffix to autoware_motion_velocity_planner_common and autoware_motion_velocity_planner_node (#9942 <https://github.com/autowarefoundation/autoware.universe/issues/9942>)
+   * feat(planning_factor)!: remove velocity_factor, steering_factor and introduce planning_factor (#9927 <https://github.com/autowarefoundation/autoware.universe/issues/9927>)
+     Co-authored-by: Satoshi OTA <mailto:44889564+satoshi-ota@users.noreply.github.com>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: satoshi-ota <mailto:satoshi.ota928@gmail.com>
+   * fix(autoware_motion_velocity_obstacle_velocity_limiter_module): remove cppcheck suppressions (#9843 <https://github.com/autowarefoundation/autoware.universe/issues/9843>)
+   * feat(motion_velocity_planner): introduce Object/Pointcloud structure in PlannerData (#9812 <https://github.com/autowarefoundation/autoware.universe/issues/9812>)
+     * feat: new object/pointcloud struct in motion velocity planner
+     * update planner_data
+     * modify modules
+     * fix
+     ---------
+   * fix(autoware_motion_velocity_obstacle_velocity_limiter_module): fix bugprone-exception-escape (#9779 <https://github.com/autowarefoundation/autoware.universe/issues/9779>)
+     * fix: bugprone-error
+     * fix: cppcheck
+     * fix: cpplint
+     ---------
+   * feat(motion_velocity_planner): remove unnecessary tier4_planning_msgs dependency (#9757 <https://github.com/autowarefoundation/autoware.universe/issues/9757>)
+     * feat(motion_velocity_planner): remove unnecessary tier4_planning_msgs dependency
+     * fix
+     ---------
+   * feat(motion_velocity_planner): use Float64Stamped in autoware_internal_debug_msgs (#9745 <https://github.com/autowarefoundation/autoware.universe/issues/9745>)
+   * Contributors: Fumiya Watanabe, Mamoru Sobue, Ryohsuke Mitsudome, Ryuta Kambe, Takayuki Murooka, kobayu858
+Checksums-Sha1:
+ 6fa4664645f0034080a57b725d82ddd0768f92f6 9089684 ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module-dbgsym_0-2025.02.12.04.36_amd64.ddeb
+ f637c0507ab05382dfe53296d956284153608acc 48787 ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module_0-2025.02.12.04.36_amd64.buildinfo
+ 3c88049d4dde65e8e57b9ae7f0cfe255de310c45 286744 ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module_0-2025.02.12.04.36_amd64.deb
+Checksums-Sha256:
+ b3ae9bff175887f186dda0153c02315e7178624e6af64314504928bca81edbb7 9089684 ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module-dbgsym_0-2025.02.12.04.36_amd64.ddeb
+ c09bc515fd033b9248c96da0db8fa9b5c45fe6953cc106c3c7ec681679d706de 48787 ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module_0-2025.02.12.04.36_amd64.buildinfo
+ da9d0e6d5d658a83d71ab9d9c50febf22ccd8c84fb747bc4535d3e93d1e89591 286744 ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module_0-2025.02.12.04.36_amd64.deb
+Files:
+ 71154c6a99afb057e4894ec7773088ed 9089684 debug optional ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module-dbgsym_0-2025.02.12.04.36_amd64.ddeb
+ ab329f9cdd70f4878909e087fb12f2d6 48787 misc optional ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module_0-2025.02.12.04.36_amd64.buildinfo
+ 453ff5d7d3433fdde37a8c938a2dca5f 286744 misc optional ros-humble-autoware-motion-velocity-obstacle-velocity-limiter-module_0-2025.02.12.04.36_amd64.deb

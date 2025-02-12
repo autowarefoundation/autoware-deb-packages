@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-control-validator
+Binary: ros-humble-autoware-control-validator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.11.15.17
+Distribution: jammy
+Urgency: high
+Maintainer: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Changed-By: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Description:
+ ros-humble-autoware-control-validator - ros node for autoware_control_validator
+Changes:
+ ros-humble-autoware-control-validator (0-2025.02.11.15.17) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat:  tier4_debug_msgs to autoware_internal_debug_msgs in file contr… (#9837 <https://github.com/autowarefoundation/autoware.universe/issues/9837>)
+     feat:  tier4_debug_msgs to autoware_internal_debug_msgs in file control/autoware_control_validator
+   * Contributors: Fumiya Watanabe, Vishal Chauhan
+Checksums-Sha1:
+ 9c0deb48ef17cc40d6849ecdf428b972e9636be7 4849896 ros-humble-autoware-control-validator-dbgsym_0-2025.02.11.15.17_amd64.ddeb
+ 5ddd8c278fd482db34969bb80fb0c54a4cbda7bb 42911 ros-humble-autoware-control-validator_0-2025.02.11.15.17_amd64.buildinfo
+ 7a00056d7566fa2bb7efaab129044581e36580b4 247758 ros-humble-autoware-control-validator_0-2025.02.11.15.17_amd64.deb
+Checksums-Sha256:
+ feb3925890e624eea644814a9515370e9be48bcb6c85a186b53f949adecb4387 4849896 ros-humble-autoware-control-validator-dbgsym_0-2025.02.11.15.17_amd64.ddeb
+ 534d4c7bcb26db3f29b9360c8bfbf65d2fa6c6eb09136d23423aedb8fbd1cff8 42911 ros-humble-autoware-control-validator_0-2025.02.11.15.17_amd64.buildinfo
+ fd913b0767ec3db22e28eca80e8aacb9267757463e1a9acf84a97088f270fba2 247758 ros-humble-autoware-control-validator_0-2025.02.11.15.17_amd64.deb
+Files:
+ 8016f77a2cbb94f886bfc3375687a5f1 4849896 debug optional ros-humble-autoware-control-validator-dbgsym_0-2025.02.11.15.17_amd64.ddeb
+ 7b06a2d043c2c40911c83feadb0361a7 42911 misc optional ros-humble-autoware-control-validator_0-2025.02.11.15.17_amd64.buildinfo
+ b57edc2fa94d0a75746fb5c9989db2b0 247758 misc optional ros-humble-autoware-control-validator_0-2025.02.11.15.17_amd64.deb

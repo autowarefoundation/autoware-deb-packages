@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-pose-covariance-modifier
+Binary: ros-humble-autoware-pose-covariance-modifier
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.10.19.57
+Distribution: jammy
+Urgency: high
+Maintainer: Melike Tanrikulu <melike@leodrive.ai>
+Changed-By: Melike Tanrikulu <melike@leodrive.ai>
+Description:
+ ros-humble-autoware-pose-covariance-modifier - Add a description.
+Changes:
+ ros-humble-autoware-pose-covariance-modifier (0-2025.02.10.19.57) jammy; urgency=high
+ .
+   * revert: revert "feat(autoware_ekf_localizer)!: porting from universe to core (#9978 <https://github.com/autowarefoundation/autoware.universe/issues/9978>)" (#10004 <https://github.com/autowarefoundation/autoware.universe/issues/10004>)
+     This reverts commit 037c315fbee69bb5923ec10bb8e8e70f890725ea.
+   * feat(autoware_ekf_localizer)!: porting from universe to core (#9978 <https://github.com/autowarefoundation/autoware.universe/issues/9978>)
+     * feat: delete ekf_localizer files
+     * doc: Modify ekf_localizer directory links
+     * ci: remove ekf_localizer from the codecov target list
+     ---------
+   * Contributors: Motz, Ryohsuke Mitsudome
+Checksums-Sha1:
+ 80213ca572b4c50a35ee30579bd4db0392b063ab 2584876 ros-humble-autoware-pose-covariance-modifier-dbgsym_0-2025.02.10.19.57_amd64.ddeb
+ 79797fcc500a983819cadb057d69025cbdf5f547 39715 ros-humble-autoware-pose-covariance-modifier_0-2025.02.10.19.57_amd64.buildinfo
+ c7831fbdf98347dd75ca5def2f8911b473246c76 135914 ros-humble-autoware-pose-covariance-modifier_0-2025.02.10.19.57_amd64.deb
+Checksums-Sha256:
+ e2ad965988e10f2b11c54d86ed85d8c011709cb02b7d2c0cdb0d9fc231b5e8cb 2584876 ros-humble-autoware-pose-covariance-modifier-dbgsym_0-2025.02.10.19.57_amd64.ddeb
+ ec9cd44973b46f308de090dbe19c974d5cb6d06d981d94dbfa883ff40dbb3647 39715 ros-humble-autoware-pose-covariance-modifier_0-2025.02.10.19.57_amd64.buildinfo
+ 065bb1345e8ffe6afac2d2699b8754cb029ae4fc423c58c4bc1828f809c90500 135914 ros-humble-autoware-pose-covariance-modifier_0-2025.02.10.19.57_amd64.deb
+Files:
+ 4b0dbe30371fc29dc903b7c0ba0f034d 2584876 debug optional ros-humble-autoware-pose-covariance-modifier-dbgsym_0-2025.02.10.19.57_amd64.ddeb
+ 7e7dad272813d8f534e485a9a1a01dfb 39715 misc optional ros-humble-autoware-pose-covariance-modifier_0-2025.02.10.19.57_amd64.buildinfo
+ 9ee1a36ff288a843baddc86b21954710 135914 misc optional ros-humble-autoware-pose-covariance-modifier_0-2025.02.10.19.57_amd64.deb

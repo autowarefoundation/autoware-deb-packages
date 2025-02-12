@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-twist2accel
+Binary: ros-humble-autoware-twist2accel
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.10.11.55
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-twist2accel - The acceleration estimation package
+Changes:
+ ros-humble-autoware-twist2accel (0-2025.02.10.11.55) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * chore(autoware_twist2accel): remove an unused dependency (#9881 <https://github.com/autowarefoundation/autoware.universe/issues/9881>)
+     Removed an unused dependency
+   * feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files localization/autoware_twist2accel (#9868 <https://github.com/autowarefoundation/autoware.universe/issues/9868>)
+     Co-authored-by: SakodaShintaro <mailto:shintaro.sakoda@tier4.jp>
+   * Contributors: Fumiya Watanabe, SakodaShintaro, Vishal Chauhan
+Checksums-Sha1:
+ 22aac87cac8bee4e37a7a24e7f4af193161a66d2 3132708 ros-humble-autoware-twist2accel-dbgsym_0-2025.02.10.11.55_amd64.ddeb
+ c21795438d39a1dec9b766bbe6511ae123dd2c45 16046 ros-humble-autoware-twist2accel_0-2025.02.10.11.55_amd64.buildinfo
+ 7d64a3439ee218379a70e97a6404734005e0bf7a 141758 ros-humble-autoware-twist2accel_0-2025.02.10.11.55_amd64.deb
+Checksums-Sha256:
+ 861e8d5d0ddeb43c320da9ebab9a72cf4d0eed6359e92fc48d7138f800ad5ee8 3132708 ros-humble-autoware-twist2accel-dbgsym_0-2025.02.10.11.55_amd64.ddeb
+ 80ad5f50006cefd99fa5fef11673833187edc094c155547d63aad850a32f07aa 16046 ros-humble-autoware-twist2accel_0-2025.02.10.11.55_amd64.buildinfo
+ c9328cec26c0d04e534ac31a78e55c03c769d07c03fe61611ee3004e2bdc7d42 141758 ros-humble-autoware-twist2accel_0-2025.02.10.11.55_amd64.deb
+Files:
+ f2fd670b4e7ce0c1533eaa1e5822317f 3132708 debug optional ros-humble-autoware-twist2accel-dbgsym_0-2025.02.10.11.55_amd64.ddeb
+ e7c631e440940cc4b299c3bdf5fac032 16046 misc optional ros-humble-autoware-twist2accel_0-2025.02.10.11.55_amd64.buildinfo
+ 03a4b279a26e26cae857366b7ba1ead7 141758 misc optional ros-humble-autoware-twist2accel_0-2025.02.10.11.55_amd64.deb

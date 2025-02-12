@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-freespace-planner
+Binary: ros-humble-autoware-freespace-planner
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.11.18.48
+Distribution: jammy
+Urgency: high
+Maintainer: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Changed-By: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Description:
+ ros-humble-autoware-freespace-planner - The autoware_freespace_planner package
+Changes:
+ ros-humble-autoware-freespace-planner (0-2025.02.11.18.48) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_freespace_planner): tier4_debug_msgs changed to autoware_internal_debug_msgs in autoware_freespace_planner (#9903 <https://github.com/autowarefoundation/autoware.universe/issues/9903>)
+     feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in flies  planning/autoware_freespace_planner
+   * Contributors: Fumiya Watanabe, Vishal Chauhan
+Checksums-Sha1:
+ 87155de25e96b9cafc93138cf2521bb1b62e8104 6149104 ros-humble-autoware-freespace-planner-dbgsym_0-2025.02.11.18.48_amd64.ddeb
+ 841aa493a8017d6896b56cd94c6fded534b6c900 43508 ros-humble-autoware-freespace-planner_0-2025.02.11.18.48_amd64.buildinfo
+ a4f0012ed278b1e30d3fc3dfda2e673145fe8aa8 231876 ros-humble-autoware-freespace-planner_0-2025.02.11.18.48_amd64.deb
+Checksums-Sha256:
+ 929d7975e6718432c0a2b4a02cf9043681dacc3ff7c0a943a2491a40ef34b7a9 6149104 ros-humble-autoware-freespace-planner-dbgsym_0-2025.02.11.18.48_amd64.ddeb
+ 5c731107287f37f74a94694e542e05958532a2081083f36e12a5642381959ee5 43508 ros-humble-autoware-freespace-planner_0-2025.02.11.18.48_amd64.buildinfo
+ 3deeb0c2ef39fe2f71863e01dc53348034b7d95b6dc486c1e87d868ab003fb32 231876 ros-humble-autoware-freespace-planner_0-2025.02.11.18.48_amd64.deb
+Files:
+ b030a83ccd2275b59033aa2ce7219bba 6149104 debug optional ros-humble-autoware-freespace-planner-dbgsym_0-2025.02.11.18.48_amd64.ddeb
+ 1c8aaf59963cd8bdf800a6a0f12ab7c9 43508 misc optional ros-humble-autoware-freespace-planner_0-2025.02.11.18.48_amd64.buildinfo
+ cc9f216b36d8d5832850887388f15812 231876 misc optional ros-humble-autoware-freespace-planner_0-2025.02.11.18.48_amd64.deb

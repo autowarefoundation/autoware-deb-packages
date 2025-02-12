@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-tier4-localization-rviz-plugin
+Binary: ros-humble-tier4-localization-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.11.05.50
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-tier4-localization-rviz-plugin - The tier4_localization_rviz_plugin package
+Changes:
+ ros-humble-tier4-localization-rviz-plugin (0-2025.02.11.05.50) jammy; urgency=high
+Checksums-Sha1:
+ 3994bbae2e13bfedeac64a48e92c867eeaabf1e6 6569452 ros-humble-tier4-localization-rviz-plugin-dbgsym_0-2025.02.11.05.50_amd64.ddeb
+ 641efeab07c10d867533effb81bde04451cd5e20 42561 ros-humble-tier4-localization-rviz-plugin_0-2025.02.11.05.50_amd64.buildinfo
+ 74a44ee9f003e28f494e193efdb0300185e9fb3c 195590 ros-humble-tier4-localization-rviz-plugin_0-2025.02.11.05.50_amd64.deb
+Checksums-Sha256:
+ 5a47a06b17283095a6dfe7ef93cff898232fc4accd27d1f10fb71511c42a6c45 6569452 ros-humble-tier4-localization-rviz-plugin-dbgsym_0-2025.02.11.05.50_amd64.ddeb
+ 83b8b01b43aa0c30d59082b1dcb52798fb98edd7b5e8fc17d1879b3aee6d9d35 42561 ros-humble-tier4-localization-rviz-plugin_0-2025.02.11.05.50_amd64.buildinfo
+ 91ff0a8f771f863d4231df3a1726c00d4ffe2d97e99ed9f33371a845194159d7 195590 ros-humble-tier4-localization-rviz-plugin_0-2025.02.11.05.50_amd64.deb
+Files:
+ 29cade225a287d46e9634189a7e9bef5 6569452 debug optional ros-humble-tier4-localization-rviz-plugin-dbgsym_0-2025.02.11.05.50_amd64.ddeb
+ 3fe51bdea0eb2299401e9f624f83d90f 42561 misc optional ros-humble-tier4-localization-rviz-plugin_0-2025.02.11.05.50_amd64.buildinfo
+ d8ff2c11bb31aaa3def30ddb573e94f4 195590 misc optional ros-humble-tier4-localization-rviz-plugin_0-2025.02.11.05.50_amd64.deb

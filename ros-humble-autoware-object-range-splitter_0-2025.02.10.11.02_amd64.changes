@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-object-range-splitter
+Binary: ros-humble-autoware-object-range-splitter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.10.11.02
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-object-range-splitter - The autoware_object_range_splitter package
+Changes:
+ ros-humble-autoware-object-range-splitter (0-2025.02.10.11.02) jammy; urgency=high
+Checksums-Sha1:
+ 684ce8bc234bea52cea1ce72ddeb483dc93c3b98 2374344 ros-humble-autoware-object-range-splitter-dbgsym_0-2025.02.10.11.02_amd64.ddeb
+ 97811eecda8d40d35f8cc4076fc0e98a6ecd329e 16025 ros-humble-autoware-object-range-splitter_0-2025.02.10.11.02_amd64.buildinfo
+ 76a2d0f39ec3b2fc626a03c5f915e925f3660980 120044 ros-humble-autoware-object-range-splitter_0-2025.02.10.11.02_amd64.deb
+Checksums-Sha256:
+ 41f60b8309c21f4c111146344bde61a62cdb3968dbd41231f1d80647880bf2ae 2374344 ros-humble-autoware-object-range-splitter-dbgsym_0-2025.02.10.11.02_amd64.ddeb
+ b71aa5735822c5fe5d71eae8fe10f38fddbe2473458b8f03e0babbf4be1ba011 16025 ros-humble-autoware-object-range-splitter_0-2025.02.10.11.02_amd64.buildinfo
+ a9c74273bfededf96bc4f635470f5030168a43a11221429974fcd88a69ff5b63 120044 ros-humble-autoware-object-range-splitter_0-2025.02.10.11.02_amd64.deb
+Files:
+ 0d869a36aee8184dc263f13899b1e096 2374344 debug optional ros-humble-autoware-object-range-splitter-dbgsym_0-2025.02.10.11.02_amd64.ddeb
+ ed7aeab0ead4e1288ce4de57196a8e9f 16025 misc optional ros-humble-autoware-object-range-splitter_0-2025.02.10.11.02_amd64.buildinfo
+ 69341bb84670eae739810463409356f8 120044 misc optional ros-humble-autoware-object-range-splitter_0-2025.02.10.11.02_amd64.deb

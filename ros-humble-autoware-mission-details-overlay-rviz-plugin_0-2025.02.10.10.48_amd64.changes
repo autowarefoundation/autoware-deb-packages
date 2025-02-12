@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-mission-details-overlay-rviz-plugin
+Binary: ros-humble-autoware-mission-details-overlay-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.10.10.48
+Distribution: jammy
+Urgency: high
+Maintainer: Ahmed Ebrahim <ahmed.ebrahim@leodrive.ai>
+Changed-By: Ahmed Ebrahim <ahmed.ebrahim@leodrive.ai>
+Description:
+ ros-humble-autoware-mission-details-overlay-rviz-plugin - RViz2 plugin for 2D overlays for mission details in the 3D view.
+Changes:
+ ros-humble-autoware-mission-details-overlay-rviz-plugin (0-2025.02.10.10.48) jammy; urgency=high
+Checksums-Sha1:
+ ba3c1ad7a33d7c0e378096cab1abb58ba6b6a3bf 3136578 ros-humble-autoware-mission-details-overlay-rviz-plugin-dbgsym_0-2025.02.10.10.48_amd64.ddeb
+ ed63bc45edc329a08a49bc6c3661073a19fd0dc2 29543 ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.02.10.10.48_amd64.buildinfo
+ 44b9be9fdc0e6ffc49d7ff9b3a1eaad8b34815c9 186838 ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.02.10.10.48_amd64.deb
+Checksums-Sha256:
+ 71fe27e8c2ec66df6f247725bde7c1ae0b15c16761abbabf4244b195d87d7736 3136578 ros-humble-autoware-mission-details-overlay-rviz-plugin-dbgsym_0-2025.02.10.10.48_amd64.ddeb
+ bf2732c24a1026c676541474235b015ede888172ceb58fda3a3dd925ef87a9ef 29543 ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.02.10.10.48_amd64.buildinfo
+ 01c2f65a6389f324bde1c4131007e2c5651d1fb694249d96b5b4b6c867570202 186838 ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.02.10.10.48_amd64.deb
+Files:
+ e811996cb8881db5e13d476e20fd577e 3136578 debug optional ros-humble-autoware-mission-details-overlay-rviz-plugin-dbgsym_0-2025.02.10.10.48_amd64.ddeb
+ ce420aac8e27e1f3aeb11d0b98550abe 29543 misc optional ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.02.10.10.48_amd64.buildinfo
+ 28e2885cfc4a09b0480ad19ed4d5a809 186838 misc optional ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.02.10.10.48_amd64.deb

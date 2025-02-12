@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-detection-by-tracker
+Binary: ros-humble-autoware-detection-by-tracker
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.12.01.08
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-detection-by-tracker - The ROS 2 autoware_detection_by_tracker package
+Changes:
+ ros-humble-autoware-detection-by-tracker (0-2025.02.12.01.08) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in fil… (#9880 <https://github.com/autowarefoundation/autoware.universe/issues/9880>)
+     feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files perception/autoware_detection_by_tracker
+     Co-authored-by: Taekjin LEE <mailto:taekjin.lee@tier4.jp>
+   * Contributors: Fumiya Watanabe, Vishal Chauhan
+Checksums-Sha1:
+ 6cb6542f0614723d111d544bcdbafc1550211260 7363434 ros-humble-autoware-detection-by-tracker-dbgsym_0-2025.02.12.01.08_amd64.ddeb
+ 8e4feff3fe0a584a453286199c46e988e65d4276 44916 ros-humble-autoware-detection-by-tracker_0-2025.02.12.01.08_amd64.buildinfo
+ 11bcbd574d719320879b3e2a691446e5c01f74d7 285134 ros-humble-autoware-detection-by-tracker_0-2025.02.12.01.08_amd64.deb
+Checksums-Sha256:
+ 82d66d3bfc00d89c21ce2099f65fd73529da5f41b85552861a6375b07a4813a5 7363434 ros-humble-autoware-detection-by-tracker-dbgsym_0-2025.02.12.01.08_amd64.ddeb
+ bc21a59d81bd4dc256cdf74e684b8cdd0a970866f9192355a84d3a1fa72b238b 44916 ros-humble-autoware-detection-by-tracker_0-2025.02.12.01.08_amd64.buildinfo
+ 5eaec5930af99ab80fd21c80cfa1e55ed826f2f5959efe5528086c09d9cb195e 285134 ros-humble-autoware-detection-by-tracker_0-2025.02.12.01.08_amd64.deb
+Files:
+ fd75ce33edf6e30f4e1d395e974d0f1d 7363434 debug optional ros-humble-autoware-detection-by-tracker-dbgsym_0-2025.02.12.01.08_amd64.ddeb
+ 6c0fe49db69f72528077e9545ca3ac0f 44916 misc optional ros-humble-autoware-detection-by-tracker_0-2025.02.12.01.08_amd64.buildinfo
+ 16972a7ade4e27f0b82c29a0c58b252f 285134 misc optional ros-humble-autoware-detection-by-tracker_0-2025.02.12.01.08_amd64.deb

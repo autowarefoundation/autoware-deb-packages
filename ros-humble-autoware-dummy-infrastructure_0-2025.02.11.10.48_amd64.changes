@@ -1,0 +1,50 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-dummy-infrastructure
+Binary: ros-humble-autoware-dummy-infrastructure
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.11.10.48
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-autoware-dummy-infrastructure - autoware_dummy_infrastructure
+Changes:
+ ros-humble-autoware-dummy-infrastructure (0-2025.02.11.10.48) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware_ prefix for dummy_infrastructure (#9969 <https://github.com/autowarefoundation/autoware.universe/issues/9969>)
+     * feat(dummy_infrastructure): apply autoware_ prefix (see below):
+     Note:
+     * In this commit, I did not organize a folder structure.
+     The folder structure will be organized in the next some commits.
+     * The changes will follow the Autoware's guideline as below:
+     - https://autowarefoundation.github.io/autoware-documentation/main/contributing/coding-guidelines/ros-nodes/directory-structure/#package-folder
+     * rename(dummy_infrastructure): move a header under include/autoware
+     * Fixes due to this changes for .hpp/.cpp files will be applied in the next commit
+     * fix(dummy_infrastructure): fix include header path
+     * To follow the previous commit
+     * rename: dummy_infrastructure => autoware_dummy_infrastructure
+     * bug(autoware_dummy_infrastructure): revert wrongly updated copyrights
+     * update(autoware_dummy_infrastructure): README.md
+     * update: CODEOWNERS
+     * fix(autoware_dummy_infrastructure): fix package name in CHANGELOG.rst
+     * docs(autoware_dummy_infrastructure): fix package name in README and package description
+     ---------
+     Co-authored-by: Ryohsuke Mitsudome <mailto:ryohsuke.mitsudome@tier4.jp>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+   * Contributors: Fumiya Watanabe, Junya Sasaki
+Checksums-Sha1:
+ 61e3b63c9725ab35ffe009f033b7961683ff5343 2508152 ros-humble-autoware-dummy-infrastructure-dbgsym_0-2025.02.11.10.48_amd64.ddeb
+ 7e0fb8131c853dad358dbf80835ee510dad54205 15964 ros-humble-autoware-dummy-infrastructure_0-2025.02.11.10.48_amd64.buildinfo
+ ae4679b9c5e41e5a20ee8f8d7a5ad9d75fe07bcd 130852 ros-humble-autoware-dummy-infrastructure_0-2025.02.11.10.48_amd64.deb
+Checksums-Sha256:
+ b4d0c197cac5a4dcc3eb751e0661668d07bd85e198bad1f2c3434db96ef7c117 2508152 ros-humble-autoware-dummy-infrastructure-dbgsym_0-2025.02.11.10.48_amd64.ddeb
+ c7666594390f8d51d2aff2689f61803487a0a7e67ce4d0dd8a46df690769532b 15964 ros-humble-autoware-dummy-infrastructure_0-2025.02.11.10.48_amd64.buildinfo
+ dd98e4e3b62c194553bc5885fe4ccadf5d943948693b11c423305840bd2eb360 130852 ros-humble-autoware-dummy-infrastructure_0-2025.02.11.10.48_amd64.deb
+Files:
+ 03a08e3b7412dc5b239a13748a98e96e 2508152 debug optional ros-humble-autoware-dummy-infrastructure-dbgsym_0-2025.02.11.10.48_amd64.ddeb
+ 9fc8633a6c1f46bdad8489602c80dedc 15964 misc optional ros-humble-autoware-dummy-infrastructure_0-2025.02.11.10.48_amd64.buildinfo
+ 3b904346501e989d51f7f7afd78af2a4 130852 misc optional ros-humble-autoware-dummy-infrastructure_0-2025.02.11.10.48_amd64.deb

@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-tier4-state-rviz-plugin
+Binary: ros-humble-tier4-state-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.11.07.38
+Distribution: jammy
+Urgency: high
+Maintainer: Hiroki OTA <hiroki.ota@tier4.jp>
+Changed-By: Hiroki OTA <hiroki.ota@tier4.jp>
+Description:
+ ros-humble-tier4-state-rviz-plugin - The autoware state rviz plugin package
+Changes:
+ ros-humble-tier4-state-rviz-plugin (0-2025.02.11.07.38) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * fix(tier4_state_rviz_plugin): fix bugprone-integer-division (#9628 <https://github.com/autowarefoundation/autoware.universe/issues/9628>)
+     fix: bugprone-integer-division
+   * Contributors: Fumiya Watanabe, kobayu858
+Checksums-Sha1:
+ 380763a8004aff91eda2335cc15cc758772b4abc 12248906 ros-humble-tier4-state-rviz-plugin-dbgsym_0-2025.02.11.07.38_amd64.ddeb
+ 47af1b8e0e15af65e7ddd6b9376c5d8a5241b7ae 42257 ros-humble-tier4-state-rviz-plugin_0-2025.02.11.07.38_amd64.buildinfo
+ 7ed88f5f5e7c48d5e49a9242c51250053e51ab6d 378136 ros-humble-tier4-state-rviz-plugin_0-2025.02.11.07.38_amd64.deb
+Checksums-Sha256:
+ a24f2ac6cc00f9395d288c442dafc25d2c6c4a2a3b64cdb267b39ca7834c97d3 12248906 ros-humble-tier4-state-rviz-plugin-dbgsym_0-2025.02.11.07.38_amd64.ddeb
+ b44dee4bcf7875b295b1e31be1945283a86cc34fbb062e3479f839b66c70ab1b 42257 ros-humble-tier4-state-rviz-plugin_0-2025.02.11.07.38_amd64.buildinfo
+ b043f08da716832e2d8dd3da43c7d62bf7270e36d6212c8b3cf1ee04378e8025 378136 ros-humble-tier4-state-rviz-plugin_0-2025.02.11.07.38_amd64.deb
+Files:
+ c424628dbeb5719f048293003c002d98 12248906 debug optional ros-humble-tier4-state-rviz-plugin-dbgsym_0-2025.02.11.07.38_amd64.ddeb
+ 49729530b9c92c233bdbac9fdabf5dc1 42257 misc optional ros-humble-tier4-state-rviz-plugin_0-2025.02.11.07.38_amd64.buildinfo
+ 955cfe8b0ba1e78a0614da981ced54d5 378136 misc optional ros-humble-tier4-state-rviz-plugin_0-2025.02.11.07.38_amd64.deb

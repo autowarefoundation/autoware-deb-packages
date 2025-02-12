@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-traffic-light-utils
+Binary: ros-humble-autoware-traffic-light-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.10.15.55
+Distribution: jammy
+Urgency: high
+Maintainer: Kotaro Uetake <kotaro.uetake@tier4.jp>
+Changed-By: Kotaro Uetake <kotaro.uetake@tier4.jp>
+Description:
+ ros-humble-autoware-traffic-light-utils - The autoware_traffic_light_utils package
+Changes:
+ ros-humble-autoware-traffic-light-utils (0-2025.02.10.15.55) jammy; urgency=high
+Checksums-Sha1:
+ 9e1ba033adab379f296a3bd8ead520ff996b5588 218636 ros-humble-autoware-traffic-light-utils-dbgsym_0-2025.02.10.15.55_amd64.ddeb
+ 91f501986a5d27aa603705d44fc2b9c51dd03686 24973 ros-humble-autoware-traffic-light-utils_0-2025.02.10.15.55_amd64.buildinfo
+ 1d6fa0d76da60fc25fbbe910fac85fdf23a41bb3 15386 ros-humble-autoware-traffic-light-utils_0-2025.02.10.15.55_amd64.deb
+Checksums-Sha256:
+ cae5804eb6354d8903ff07c9a9557c9af83b18266e8e14d6feba559cd61ddc8e 218636 ros-humble-autoware-traffic-light-utils-dbgsym_0-2025.02.10.15.55_amd64.ddeb
+ 37d0b413bcbd7fb9a257a1065ff01d0c153e5d749a30840973bf6a6a10b937f8 24973 ros-humble-autoware-traffic-light-utils_0-2025.02.10.15.55_amd64.buildinfo
+ 93f38dc6e575df329c12658c15daf0e7fa875f0f738939c3cffe08b267dd621a 15386 ros-humble-autoware-traffic-light-utils_0-2025.02.10.15.55_amd64.deb
+Files:
+ 83f1a2886cae68de8cb85c465d2c3639 218636 debug optional ros-humble-autoware-traffic-light-utils-dbgsym_0-2025.02.10.15.55_amd64.ddeb
+ d8e6eaf4f9c1c440c48c1d29ad218d16 24973 misc optional ros-humble-autoware-traffic-light-utils_0-2025.02.10.15.55_amd64.buildinfo
+ 84441901dbd5083551e08552ea3e3ed8 15386 misc optional ros-humble-autoware-traffic-light-utils_0-2025.02.10.15.55_amd64.deb

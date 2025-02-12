@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-control-msgs
+Binary: ros-humble-autoware-control-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.3.0-2025.02.10.10.06
+Distribution: jammy
+Urgency: high
+Maintainer: M. Fatih Cırıt <mfc@leodrive.ai>
+Changed-By: M. Fatih Cırıt <mfc@leodrive.ai>
+Description:
+ ros-humble-autoware-control-msgs - Autoware control messages package.
+Changes:
+ ros-humble-autoware-control-msgs (1.3.0-2025.02.10.10.06) jammy; urgency=high
+Checksums-Sha1:
+ 168b1a90b198aa420e7bc4ed0167e14b64581612 326048 ros-humble-autoware-control-msgs-dbgsym_1.3.0-2025.02.10.10.06_amd64.ddeb
+ 13e70b4f16d87dc39b71496592ddf72f6fde9410 14643 ros-humble-autoware-control-msgs_1.3.0-2025.02.10.10.06_amd64.buildinfo
+ 88e3618d70be752da80ce7bd5c89651e0b103505 63552 ros-humble-autoware-control-msgs_1.3.0-2025.02.10.10.06_amd64.deb
+Checksums-Sha256:
+ 6725f79d8082d17e240541f57e43884a2ac53c3bac023a7a6da4d2118edca643 326048 ros-humble-autoware-control-msgs-dbgsym_1.3.0-2025.02.10.10.06_amd64.ddeb
+ 23b47fa31e05477757ebf1d2efb2be8268608d97a0f9dd3be0feaf40ccfdd0a8 14643 ros-humble-autoware-control-msgs_1.3.0-2025.02.10.10.06_amd64.buildinfo
+ a88a74316025ec67b20914e9f001a9655a841996cf58ac8dcd5cb9815b691b57 63552 ros-humble-autoware-control-msgs_1.3.0-2025.02.10.10.06_amd64.deb
+Files:
+ 0aedd1c063591517e1030e239be8914b 326048 debug optional ros-humble-autoware-control-msgs-dbgsym_1.3.0-2025.02.10.10.06_amd64.ddeb
+ b73926f3b99ecfb28765d95c0bd7a26c 14643 misc optional ros-humble-autoware-control-msgs_1.3.0-2025.02.10.10.06_amd64.buildinfo
+ 9703c35d65bf22e9daf088e39aabdf95 63552 misc optional ros-humble-autoware-control-msgs_1.3.0-2025.02.10.10.06_amd64.deb

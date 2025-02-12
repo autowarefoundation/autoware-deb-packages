@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-lane-departure-checker
+Binary: ros-humble-autoware-lane-departure-checker
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.11.16.48
+Distribution: jammy
+Urgency: high
+Maintainer: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Changed-By: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Description:
+ ros-humble-autoware-lane-departure-checker - The autoware_lane_departure_checker package
+Changes:
+ ros-humble-autoware-lane-departure-checker (0-2025.02.11.16.48) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * refactor(lane_departure_checker): improve LaneDepartureChecker initialization and parameter handling (#9791 <https://github.com/autowarefoundation/autoware.universe/issues/9791>)
+     * refactor(lane_departure_checker): improve LaneDepartureChecker initialization and parameter handling
+     ---------
+   * feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in fil… (#9846 <https://github.com/autowarefoundation/autoware.universe/issues/9846>)
+     * feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files ontrol/autoware_mpc_lateral_controller
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Fumiya Watanabe, Kyoichi Sugahara, Vishal Chauhan
+Checksums-Sha1:
+ b9d0922b6c85d787b5f630f630481297e2ab06c4 12699600 ros-humble-autoware-lane-departure-checker-dbgsym_0-2025.02.11.16.48_amd64.ddeb
+ 9eaa26b0fc56bdc255fe331d6088a76ccaab9798 42824 ros-humble-autoware-lane-departure-checker_0-2025.02.11.16.48_amd64.buildinfo
+ d9b2290c2da0160f4974cac2196802ba4be36f0a 478066 ros-humble-autoware-lane-departure-checker_0-2025.02.11.16.48_amd64.deb
+Checksums-Sha256:
+ c3a5ae5ce42f36ec388ae958be4936052949aacef9d56ec9fb2437f8ec0c35d8 12699600 ros-humble-autoware-lane-departure-checker-dbgsym_0-2025.02.11.16.48_amd64.ddeb
+ e5ba686dabbb66110a451649c5b134079763f90b3b7f515ff6facd5d9f223586 42824 ros-humble-autoware-lane-departure-checker_0-2025.02.11.16.48_amd64.buildinfo
+ 4656c4ba304e196ad41f564b1dad7a0f900fc07da034be8d07f6b4d2929229d5 478066 ros-humble-autoware-lane-departure-checker_0-2025.02.11.16.48_amd64.deb
+Files:
+ 0dc5d08a6df0d71f8c591503b067f499 12699600 debug optional ros-humble-autoware-lane-departure-checker-dbgsym_0-2025.02.11.16.48_amd64.ddeb
+ ec8366195c3e7b5776f22948c80a49f4 42824 misc optional ros-humble-autoware-lane-departure-checker_0-2025.02.11.16.48_amd64.buildinfo
+ 3bd3dbd90f9351dcf219c7c5b65968df 478066 misc optional ros-humble-autoware-lane-departure-checker_0-2025.02.11.16.48_amd64.deb

@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 09 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-node
+Binary: ros-humble-autoware-node
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.0.0-43-g3f26d52-2025.02.10.10.51
+Distribution: jammy
+Urgency: high
+Maintainer: M. Fatih Cırıt <mfc@autoware.org>
+Changed-By: M. Fatih Cırıt <mfc@autoware.org>
+Description:
+ ros-humble-autoware-node - Autoware Node is an Autoware.Core package designed to provide a b
+Changes:
+ ros-humble-autoware-node (0.0.0-43-g3f26d52-2025.02.10.10.51) jammy; urgency=high
+ .
+   * fix: change autoware_node from a static library to a shared library (#121 <https://github.com/autowarefoundation/autoware.core/issues/121>)
+   * feat: add autoware_node and autoware_test node (#113 <https://github.com/autowarefoundation/autoware.core/issues/113>)
+   * Contributors: M. Fatih Cırıt, SakodaShintaro
+Checksums-Sha1:
+ 9b441ab4dc0c26233823f0dd8f87be0b8858ee2f 167186 ros-humble-autoware-node-dbgsym_0.0.0-43-g3f26d52-2025.02.10.10.51_amd64.ddeb
+ ea1851fb7f8a640aaf6fcbe3e56dc7bfdb1e1b07 15625 ros-humble-autoware-node_0.0.0-43-g3f26d52-2025.02.10.10.51_amd64.buildinfo
+ 51ea53a02d3e00536e4a1d053b895c0e6dace19e 12438 ros-humble-autoware-node_0.0.0-43-g3f26d52-2025.02.10.10.51_amd64.deb
+Checksums-Sha256:
+ 0280dd60fb1975356b9472c33dabfe0b467af01bb832343801be20a6cc79ed7e 167186 ros-humble-autoware-node-dbgsym_0.0.0-43-g3f26d52-2025.02.10.10.51_amd64.ddeb
+ c6afbe81efb98e57bc101c9a525131e530a5487ead350252a69ea0baa6681865 15625 ros-humble-autoware-node_0.0.0-43-g3f26d52-2025.02.10.10.51_amd64.buildinfo
+ a6590a81b7b9ac43d7b638bd54a0f3d09d7de3381bb837e395e977fa3b42c2b6 12438 ros-humble-autoware-node_0.0.0-43-g3f26d52-2025.02.10.10.51_amd64.deb
+Files:
+ c8a4537a0fe28b7f16a901e01a62bfa3 167186 debug optional ros-humble-autoware-node-dbgsym_0.0.0-43-g3f26d52-2025.02.10.10.51_amd64.ddeb
+ 6812a6f4b7b6f8047f6f589b781a7209 15625 misc optional ros-humble-autoware-node_0.0.0-43-g3f26d52-2025.02.10.10.51_amd64.buildinfo
+ 56d3299cf2db383b56edabb31edec2dc 12438 misc optional ros-humble-autoware-node_0.0.0-43-g3f26d52-2025.02.10.10.51_amd64.deb

@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module
+Binary: ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.11.21.51
+Distribution: jammy
+Urgency: high
+Maintainer: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Changed-By: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module - The autoware_behavior_path_dynamic_obstacle_avoidance_module pack
+Changes:
+ ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module (0-2025.02.11.21.51) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * refactor(behavior_path_planner): common test functions (#9963 <https://github.com/autowarefoundation/autoware.universe/issues/9963>)
+     * feat: common test code in behavior_path_planner
+     * deal with other modules
+     * fix typo
+     * update
+     ---------
+   * feat(planning_factor)!: remove velocity_factor, steering_factor and introduce planning_factor (#9927 <https://github.com/autowarefoundation/autoware.universe/issues/9927>)
+     Co-authored-by: Satoshi OTA <mailto:44889564+satoshi-ota@users.noreply.github.com>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: satoshi-ota <mailto:satoshi.ota928@gmail.com>
+   * Contributors: Fumiya Watanabe, Mamoru Sobue, Takayuki Murooka
+Checksums-Sha1:
+ 41e5c8c382f24c6798f061e58f10838fc0ab8e80 6950108 ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module-dbgsym_0-2025.02.11.21.51_amd64.ddeb
+ 4243a2da5f685f0c5659994e435f18d0cbbadad9 49295 ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module_0-2025.02.11.21.51_amd64.buildinfo
+ 260305be554f2f21edb2716459cea24029ec98df 288126 ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module_0-2025.02.11.21.51_amd64.deb
+Checksums-Sha256:
+ 31932c95acf01240ff7aacf6f4f24487f516ec3a11b1166b18ba01c38bc861cc 6950108 ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module-dbgsym_0-2025.02.11.21.51_amd64.ddeb
+ 59d35e72ea4f14fe5df4f140dc4e87931f5127d7ba1983b2346ecb68e5581f4a 49295 ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module_0-2025.02.11.21.51_amd64.buildinfo
+ b7f5430df6bef37f1b393ec6ca67f53b362f1e1c2b64a83647ec12d7b787b69c 288126 ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module_0-2025.02.11.21.51_amd64.deb
+Files:
+ 900476724fcc4407642f11acd51887e8 6950108 debug optional ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module-dbgsym_0-2025.02.11.21.51_amd64.ddeb
+ 5e3a6ee5774d9f5a55fcb1f31f5a952c 49295 misc optional ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module_0-2025.02.11.21.51_amd64.buildinfo
+ 1c74c009ae4a78ca6ba61d22e90741e2 288126 misc optional ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module_0-2025.02.11.21.51_amd64.deb

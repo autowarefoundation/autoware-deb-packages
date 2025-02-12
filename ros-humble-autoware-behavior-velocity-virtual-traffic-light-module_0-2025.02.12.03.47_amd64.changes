@@ -1,0 +1,93 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-virtual-traffic-light-module
+Binary: ros-humble-autoware-behavior-velocity-virtual-traffic-light-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.12.03.47
+Distribution: jammy
+Urgency: high
+Maintainer: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Changed-By: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-virtual-traffic-light-module - The autoware_behavior_velocity_virtual_traffic_light_module packa
+Changes:
+ ros-humble-autoware-behavior-velocity-virtual-traffic-light-module (0-2025.02.12.03.47) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_planning_test_manager): remove dependency of VirtualTrafficLightState and ExpandStopRange (#9953 <https://github.com/autowarefoundation/autoware.universe/issues/9953>)
+     * feat(autoware_planning_test_manager): remove dependency of virtual traffic light
+     * modify obstacle_stop test code
+     ---------
+   * chore(planning): move package directory for planning factor interface (#9948 <https://github.com/autowarefoundation/autoware.universe/issues/9948>)
+     * chore: add new package for planning factor interface
+     * chore(surround_obstacle_checker): update include file
+     * chore(obstacle_stop_planner): update include file
+     * chore(obstacle_cruise_planner): update include file
+     * chore(motion_velocity_planner): update include file
+     * chore(bpp): update include file
+     * chore(bvp-common): update include file
+     * chore(blind_spot): update include file
+     * chore(crosswalk): update include file
+     * chore(detection_area): update include file
+     * chore(intersection): update include file
+     * chore(no_drivable_area): update include file
+     * chore(no_stopping_area): update include file
+     * chore(occlusion_spot): update include file
+     * chore(run_out): update include file
+     * chore(speed_bump): update include file
+     * chore(stop_line): update include file
+     * chore(template_module): update include file
+     * chore(traffic_light): update include file
+     * chore(vtl): update include file
+     * chore(walkway): update include file
+     * chore(motion_utils): remove factor interface
+     ---------
+   * feat(behavior_velocity_planner)!: remove velocity_factor completely (#9943 <https://github.com/autowarefoundation/autoware.universe/issues/9943>)
+     * feat(behavior_velocity_planner)!: remove velocity_factor completely
+     * minimize diff
+     ---------
+   * feat(planning_factor)!: remove velocity_factor, steering_factor and introduce planning_factor (#9927 <https://github.com/autowarefoundation/autoware.universe/issues/9927>)
+     Co-authored-by: Satoshi OTA <mailto:44889564+satoshi-ota@users.noreply.github.com>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: satoshi-ota <mailto:satoshi.ota928@gmail.com>
+   * feat(behavior_velocity_planner): remove virtual traffic light dependency from behavior_velocity_planner and behavior_velocity_planner_common (#9746 <https://github.com/autowarefoundation/autoware.universe/issues/9746>)
+     * feat: remove-virtual-traffic-light-dependency-from-plugin-manager
+     * build passed
+     * fix test
+     * fix test
+     * fix
+     * fix typo
+     ---------
+   * feat(behavior_velocity_modules): add node test (#9790 <https://github.com/autowarefoundation/autoware.universe/issues/9790>)
+     * feat(behavior_velocity_crosswalk): add node test
+     * fix
+     * feat(behavior_velocity_xxx_module): add node test
+     * fix
+     * fix
+     * fix
+     * fix
+     * change directory tests -> test
+     ---------
+   * refactor(behavior_velocity_planner_common): add behavior_velocity_rtc_interface and move RTC-related implementation (#9799 <https://github.com/autowarefoundation/autoware.universe/issues/9799>)
+     * split into planer_common and rtc_interface
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_planner_common/include/autoware/behavior_velocity_planner_common/scene_module_interface.hpp
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_rtc_interface/include/autoware/behavior_velocity_rtc_interface/scene_module_interface_with_rtc.hpp
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+     * fix
+     ---------
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+   * Contributors: Fumiya Watanabe, Mamoru Sobue, Satoshi OTA, Takayuki Murooka
+Checksums-Sha1:
+ bad47affef3b87ff44a5ec9a1ec3052af6dc8e9f 6377264 ros-humble-autoware-behavior-velocity-virtual-traffic-light-module-dbgsym_0-2025.02.12.03.47_amd64.ddeb
+ e3b75332403234ec376c955565aa5212d0e0ba92 44226 ros-humble-autoware-behavior-velocity-virtual-traffic-light-module_0-2025.02.12.03.47_amd64.buildinfo
+ c3043c657a5419d3abde978994791ebc842f18ac 210644 ros-humble-autoware-behavior-velocity-virtual-traffic-light-module_0-2025.02.12.03.47_amd64.deb
+Checksums-Sha256:
+ 672b61f92142e33e19eb2148d682319dc815731a26cbc9ea74adbeffeb25e0c3 6377264 ros-humble-autoware-behavior-velocity-virtual-traffic-light-module-dbgsym_0-2025.02.12.03.47_amd64.ddeb
+ f8f93df4be016626188af1044e19cd45ec6c350dda4bf821f8c353b469c84e78 44226 ros-humble-autoware-behavior-velocity-virtual-traffic-light-module_0-2025.02.12.03.47_amd64.buildinfo
+ a2d3f0056ab534120d8dfdf0eab4895ef5b81c43d7d582499af28791dfc0f12a 210644 ros-humble-autoware-behavior-velocity-virtual-traffic-light-module_0-2025.02.12.03.47_amd64.deb
+Files:
+ 7e269638bae27da4543c2b7354e636cd 6377264 debug optional ros-humble-autoware-behavior-velocity-virtual-traffic-light-module-dbgsym_0-2025.02.12.03.47_amd64.ddeb
+ 7a450311ed696fe93aa36078721514b9 44226 misc optional ros-humble-autoware-behavior-velocity-virtual-traffic-light-module_0-2025.02.12.03.47_amd64.buildinfo
+ d5a4752e4281fafac13552e10c8b1b94 210644 misc optional ros-humble-autoware-behavior-velocity-virtual-traffic-light-module_0-2025.02.12.03.47_amd64.deb

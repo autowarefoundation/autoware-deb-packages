@@ -1,0 +1,75 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-occlusion-spot-module
+Binary: ros-humble-autoware-behavior-velocity-occlusion-spot-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.12.02.07
+Distribution: jammy
+Urgency: high
+Maintainer: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Changed-By: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-occlusion-spot-module - The autoware_behavior_velocity_occlusion_spot_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-occlusion-spot-module (0-2025.02.12.02.07) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * chore(planning): move package directory for planning factor interface (#9948 <https://github.com/autowarefoundation/autoware.universe/issues/9948>)
+     * chore: add new package for planning factor interface
+     * chore(surround_obstacle_checker): update include file
+     * chore(obstacle_stop_planner): update include file
+     * chore(obstacle_cruise_planner): update include file
+     * chore(motion_velocity_planner): update include file
+     * chore(bpp): update include file
+     * chore(bvp-common): update include file
+     * chore(blind_spot): update include file
+     * chore(crosswalk): update include file
+     * chore(detection_area): update include file
+     * chore(intersection): update include file
+     * chore(no_drivable_area): update include file
+     * chore(no_stopping_area): update include file
+     * chore(occlusion_spot): update include file
+     * chore(run_out): update include file
+     * chore(speed_bump): update include file
+     * chore(stop_line): update include file
+     * chore(template_module): update include file
+     * chore(traffic_light): update include file
+     * chore(vtl): update include file
+     * chore(walkway): update include file
+     * chore(motion_utils): remove factor interface
+     ---------
+   * feat(behavior_velocity_planner)!: remove velocity_factor completely (#9943 <https://github.com/autowarefoundation/autoware.universe/issues/9943>)
+     * feat(behavior_velocity_planner)!: remove velocity_factor completely
+     * minimize diff
+     ---------
+   * feat(planning_factor)!: remove velocity_factor, steering_factor and introduce planning_factor (#9927 <https://github.com/autowarefoundation/autoware.universe/issues/9927>)
+     Co-authored-by: Satoshi OTA <mailto:44889564+satoshi-ota@users.noreply.github.com>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: satoshi-ota <mailto:satoshi.ota928@gmail.com>
+   * fix(autoware_behavior_velocity_occlusion_spot_module): fix bugprone-macro-parentheses (#9712 <https://github.com/autowarefoundation/autoware.universe/issues/9712>)
+     * fix: bugprone-error
+     * fix: fmt
+     ---------
+   * refactor(behavior_velocity_planner_common): add behavior_velocity_rtc_interface and move RTC-related implementation (#9799 <https://github.com/autowarefoundation/autoware.universe/issues/9799>)
+     * split into planer_common and rtc_interface
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_planner_common/include/autoware/behavior_velocity_planner_common/scene_module_interface.hpp
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_rtc_interface/include/autoware/behavior_velocity_rtc_interface/scene_module_interface_with_rtc.hpp
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+     * fix
+     ---------
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+   * Contributors: Fumiya Watanabe, Mamoru Sobue, Satoshi OTA, Takayuki Murooka, kobayu858
+Checksums-Sha1:
+ 2f7f58c7073a6530767234a5163499ef7eb381cd 6172008 ros-humble-autoware-behavior-velocity-occlusion-spot-module-dbgsym_0-2025.02.12.02.07_amd64.ddeb
+ 6574c488473a968e303c46a8955ca44de3166fa0 48551 ros-humble-autoware-behavior-velocity-occlusion-spot-module_0-2025.02.12.02.07_amd64.buildinfo
+ 6efc2a4d5a3d6b0d5c6d9ac36c5d6585e5841d1f 139372 ros-humble-autoware-behavior-velocity-occlusion-spot-module_0-2025.02.12.02.07_amd64.deb
+Checksums-Sha256:
+ 57fd38a7506e8486cb19ecd2ebcdf7c4ef38a62411b6d6cd03b599427be0b322 6172008 ros-humble-autoware-behavior-velocity-occlusion-spot-module-dbgsym_0-2025.02.12.02.07_amd64.ddeb
+ 0837a1554790f5dd38e5c3684fdcdeb636a364fdfcbd010eee10125ca397e183 48551 ros-humble-autoware-behavior-velocity-occlusion-spot-module_0-2025.02.12.02.07_amd64.buildinfo
+ 915f0c18f1a1b852f03ef3377eedcb69332217eab93f0165a728aa0be00be385 139372 ros-humble-autoware-behavior-velocity-occlusion-spot-module_0-2025.02.12.02.07_amd64.deb
+Files:
+ c96aa164558413afc5da3a0dca254823 6172008 debug optional ros-humble-autoware-behavior-velocity-occlusion-spot-module-dbgsym_0-2025.02.12.02.07_amd64.ddeb
+ a1f28aa3188cf1d72102c02881ef8e88 48551 misc optional ros-humble-autoware-behavior-velocity-occlusion-spot-module_0-2025.02.12.02.07_amd64.buildinfo
+ 22353a5ed7f076837e9288c92cd8c224 139372 misc optional ros-humble-autoware-behavior-velocity-occlusion-spot-module_0-2025.02.12.02.07_amd64.deb

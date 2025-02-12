@@ -1,0 +1,45 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-system-monitor
+Binary: ros-humble-autoware-system-monitor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.10.23.45
+Distribution: jammy
+Urgency: high
+Maintainer: Fumihito Ito <fumihito.ito@tier4.jp>
+Changed-By: Fumihito Ito <fumihito.ito@tier4.jp>
+Description:
+ ros-humble-autoware-system-monitor - The system_monitor package
+Changes:
+ ros-humble-autoware-system-monitor (0-2025.02.10.23.45) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware_ prefix for system_monitor (#10017 <https://github.com/autowarefoundation/autoware.universe/issues/10017>)
+     * feat(system_monitor): apply autoware_ prefix (see below):
+     * The system_monitor operates independently from other modules in autoware.universe, so the autoware_ prefix is added only to the package name.
+     * The autoware:: namespace is not used because C language does not support namespaces.
+     * Headers are not moved under include/autoware to maintain compatibility for use outside the autoware context.
+     * For users utilizing this package within autoware.universe, only the package name includes the autoware_ prefix.
+     This approach explains the unique namespacing and naming conventions for system_monitor compared to other packages.
+     * bug(system_monitor): fix missing package name update
+     * rename: system_monitor => autoware_system_monitor
+     * style(pre-commit): autofix
+     * update: CODEOWNERS
+     * bug(autoware_system_monitor): apply missing fix
+     * update: CODEOWNERS
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Fumiya Watanabe, Junya Sasaki
+Checksums-Sha1:
+ f8b1b8e3e02a4403eaab49c113e38147e215c16e 21234314 ros-humble-autoware-system-monitor-dbgsym_0-2025.02.10.23.45_amd64.ddeb
+ 742ea46758de9d5b1ba8275095ca7677cb1f254b 40561 ros-humble-autoware-system-monitor_0-2025.02.10.23.45_amd64.buildinfo
+ cd1940c753f7b6c23fa69801efd16f5192e984f4 825262 ros-humble-autoware-system-monitor_0-2025.02.10.23.45_amd64.deb
+Checksums-Sha256:
+ 3c48ee99d49bbbadb0c6e2448bc63d52c1f408a718abb55ac98a18bf685a5b13 21234314 ros-humble-autoware-system-monitor-dbgsym_0-2025.02.10.23.45_amd64.ddeb
+ 3fc56fb3c129f91c7ee795fa7fc5e0bacaf0f7a01df541fd6a3c0ed986ec2421 40561 ros-humble-autoware-system-monitor_0-2025.02.10.23.45_amd64.buildinfo
+ a21dc4334f59417597091db647063691d76b839f62f3e5a6fb231d8f31e96692 825262 ros-humble-autoware-system-monitor_0-2025.02.10.23.45_amd64.deb
+Files:
+ 07a64d66b5572d3518c318712ad8f0e9 21234314 debug optional ros-humble-autoware-system-monitor-dbgsym_0-2025.02.10.23.45_amd64.ddeb
+ e780f60f205368d416e3855e03dc37ac 40561 misc optional ros-humble-autoware-system-monitor_0-2025.02.10.23.45_amd64.buildinfo
+ 4420224637af58c19d3ac96381ce56da 825262 misc optional ros-humble-autoware-system-monitor_0-2025.02.10.23.45_amd64.deb

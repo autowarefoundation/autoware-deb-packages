@@ -1,0 +1,47 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-mrm-handler
+Binary: ros-humble-autoware-mrm-handler
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.11.09.35
+Distribution: jammy
+Urgency: high
+Maintainer: Makoto Kurihara <makoto.kurihara@tier4.jp>
+Changed-By: Makoto Kurihara <makoto.kurihara@tier4.jp>
+Description:
+ ros-humble-autoware-mrm-handler - The mrm_handler ROS 2 package
+Changes:
+ ros-humble-autoware-mrm-handler (0-2025.02.11.09.35) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware_ prefix for mrm_handler (#9974 <https://github.com/autowarefoundation/autoware.universe/issues/9974>)
+     * feat(mrm_handler): apply autoware_ prefix (see below):
+     Note:
+     * In this commit, I did not organize a folder structure.
+     The folder structure will be organized in the next some commits.
+     * The changes will follow the Autoware's guideline as below:
+     - https://autowarefoundation.github.io/autoware-documentation/main/contributing/coding-guidelines/ros-nodes/directory-structure/#package-folder
+     * rename(mrm_handler): move a header under include/autoware:
+     * Fixes due to this changes for .hpp/.cpp files will be applied in the next commit
+     * fix(mrm_handler): fix include header path
+     * To follow the previous commit
+     * rename: mrm_handler => autoware_mrm_handler
+     * bug(tier4_system_launch): fix a missing autoware_ for mrm_handler
+     * bug(mrm_handler): revert wrongly updated copyrights
+     * update(mrm_handler): README.md
+     * bug(autoware_mrm_handler): fix a critical bug that contaminates topic name
+     ---------
+   * Contributors: Fumiya Watanabe, Junya Sasaki
+Checksums-Sha1:
+ e0bce2de5b596e90de83b8a1ad66ecd1eddf7239 6744764 ros-humble-autoware-mrm-handler-dbgsym_0-2025.02.11.09.35_amd64.ddeb
+ 42e8c960e40dcef3ada12bf1ddbdc24954ddd460 40588 ros-humble-autoware-mrm-handler_0-2025.02.11.09.35_amd64.buildinfo
+ a15fb6d6887c14fa9da3b51d1d8e515788185e7d 251658 ros-humble-autoware-mrm-handler_0-2025.02.11.09.35_amd64.deb
+Checksums-Sha256:
+ ee7cb1f60be9979ce7e022ca4e34771d9ed7feb9556999bd37d0a2a5010e4ec9 6744764 ros-humble-autoware-mrm-handler-dbgsym_0-2025.02.11.09.35_amd64.ddeb
+ af62d7337072356d3c9eeb3f61c2a8277f377964a855c1524fb0ae85ec01e0a2 40588 ros-humble-autoware-mrm-handler_0-2025.02.11.09.35_amd64.buildinfo
+ 267a6f67e3d3946e4afbd3acc19efd8d539fd9370645e4ce9c7759791008a94e 251658 ros-humble-autoware-mrm-handler_0-2025.02.11.09.35_amd64.deb
+Files:
+ b13a96805e37ca31c0a2fe9fa3515b85 6744764 debug optional ros-humble-autoware-mrm-handler-dbgsym_0-2025.02.11.09.35_amd64.ddeb
+ 1f73b95df5df573de3e764851ab9ec34 40588 misc optional ros-humble-autoware-mrm-handler_0-2025.02.11.09.35_amd64.buildinfo
+ 07d591fd79e0762129b22809cbb8439c 251658 misc optional ros-humble-autoware-mrm-handler_0-2025.02.11.09.35_amd64.deb

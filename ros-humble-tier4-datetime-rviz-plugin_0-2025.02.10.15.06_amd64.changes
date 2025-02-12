@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-tier4-datetime-rviz-plugin
+Binary: ros-humble-tier4-datetime-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.10.15.06
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-tier4-datetime-rviz-plugin - The tier4_datetime_rviz_plugin package
+Changes:
+ ros-humble-tier4-datetime-rviz-plugin (0-2025.02.10.15.06) jammy; urgency=high
+Checksums-Sha1:
+ ce44a52d3413bb46f2a287f4bd5b90fe616fabcb 537064 ros-humble-tier4-datetime-rviz-plugin-dbgsym_0-2025.02.10.15.06_amd64.ddeb
+ c36d7e6fb7dbb70a39e9031748bd2741d06526fa 23321 ros-humble-tier4-datetime-rviz-plugin_0-2025.02.10.15.06_amd64.buildinfo
+ 8094b8302d8c42deb23fb1023b3ccd505f25edc2 20666 ros-humble-tier4-datetime-rviz-plugin_0-2025.02.10.15.06_amd64.deb
+Checksums-Sha256:
+ 2b2aa1a90a56052154b7186f3069a40f14428f54c9f599dbb313340ca93e8213 537064 ros-humble-tier4-datetime-rviz-plugin-dbgsym_0-2025.02.10.15.06_amd64.ddeb
+ b0e04cc882c8370e9c4d46fdfbf5f9152aae7b55031b5f7a88c8213b875982af 23321 ros-humble-tier4-datetime-rviz-plugin_0-2025.02.10.15.06_amd64.buildinfo
+ 1db2aa311fa41a34005dc21e536a334a59a245c15e47f001d6444087bd82e96f 20666 ros-humble-tier4-datetime-rviz-plugin_0-2025.02.10.15.06_amd64.deb
+Files:
+ 1c3c304bfe37d5a37503bb090f46307d 537064 debug optional ros-humble-tier4-datetime-rviz-plugin-dbgsym_0-2025.02.10.15.06_amd64.ddeb
+ 0ad33c50a8945d13629dd0951cd9ca44 23321 misc optional ros-humble-tier4-datetime-rviz-plugin_0-2025.02.10.15.06_amd64.buildinfo
+ 78c6b902092f769a642da7ae6e57b624 20666 misc optional ros-humble-tier4-datetime-rviz-plugin_0-2025.02.10.15.06_amd64.deb

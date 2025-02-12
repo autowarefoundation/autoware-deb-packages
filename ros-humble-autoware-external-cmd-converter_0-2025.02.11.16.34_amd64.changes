@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-external-cmd-converter
+Binary: ros-humble-autoware-external-cmd-converter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.11.16.34
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-external-cmd-converter - The autoware_external_cmd_converter package
+Changes:
+ ros-humble-autoware-external-cmd-converter (0-2025.02.11.16.34) jammy; urgency=high
+Checksums-Sha1:
+ 9cd3f3111736ed99306854badbbe4a6e7347a75c 5778326 ros-humble-autoware-external-cmd-converter-dbgsym_0-2025.02.11.16.34_amd64.ddeb
+ 4779a3d27144e729c051b8622c1e5867ea40e708 42846 ros-humble-autoware-external-cmd-converter_0-2025.02.11.16.34_amd64.buildinfo
+ 5fc16bad94eb83576e68040c36d0c14060dc9686 231000 ros-humble-autoware-external-cmd-converter_0-2025.02.11.16.34_amd64.deb
+Checksums-Sha256:
+ 9aa3116f1c93301f4897ef6223d71608fa6b5c89f9a483070a2c780c08d7e9d1 5778326 ros-humble-autoware-external-cmd-converter-dbgsym_0-2025.02.11.16.34_amd64.ddeb
+ e37d3c637cf3bd53436cab8479b67b4a06c197e17f5e084f36e93cf540a457f4 42846 ros-humble-autoware-external-cmd-converter_0-2025.02.11.16.34_amd64.buildinfo
+ ed74caadcf5307c8dc463003eebe289af49efedd44bbd16b69d1bd9e2b97c678 231000 ros-humble-autoware-external-cmd-converter_0-2025.02.11.16.34_amd64.deb
+Files:
+ f1aaef3535444be9fcdbfc829542de7e 5778326 debug optional ros-humble-autoware-external-cmd-converter-dbgsym_0-2025.02.11.16.34_amd64.ddeb
+ ff618c0b10ea87c9ba770c77c38be0f4 42846 misc optional ros-humble-autoware-external-cmd-converter_0-2025.02.11.16.34_amd64.buildinfo
+ aab7115c29bc03c5447dad12aefaa3e7 231000 misc optional ros-humble-autoware-external-cmd-converter_0-2025.02.11.16.34_amd64.deb

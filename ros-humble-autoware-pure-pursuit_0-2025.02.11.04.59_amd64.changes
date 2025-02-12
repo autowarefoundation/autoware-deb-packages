@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-pure-pursuit
+Binary: ros-humble-autoware-pure-pursuit
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.11.04.59
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-pure-pursuit - The pure_pursuit package
+Changes:
+ ros-humble-autoware-pure-pursuit (0-2025.02.11.04.59) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_pure_pursuit)!: tier4_debug_msgs changed to autoware_internal_debug_msgs in autoware_pure_pursuit (#9849 <https://github.com/autowarefoundation/autoware.universe/issues/9849>)
+     feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files control/autoware_pure_pursuit
+   * Contributors: Fumiya Watanabe, Vishal Chauhan
+Checksums-Sha1:
+ c40d70f9965a03a100d5cb2f33b59ef00251f61e 2970526 ros-humble-autoware-pure-pursuit-dbgsym_0-2025.02.11.04.59_amd64.ddeb
+ ce46e009e5523b0ba452f9e53c8fd4b60df4f975 41039 ros-humble-autoware-pure-pursuit_0-2025.02.11.04.59_amd64.buildinfo
+ 8410eb97c28e5bdca36295e6e58300589611ae67 105744 ros-humble-autoware-pure-pursuit_0-2025.02.11.04.59_amd64.deb
+Checksums-Sha256:
+ a995a3eceda3f74e127210dfd8be27c191fc5fda03411b19460de586f80aa519 2970526 ros-humble-autoware-pure-pursuit-dbgsym_0-2025.02.11.04.59_amd64.ddeb
+ 2c35fc255d12b965e9b425315d6812785601ed9a41339e27aad582bb023addde 41039 ros-humble-autoware-pure-pursuit_0-2025.02.11.04.59_amd64.buildinfo
+ ae86b2492805cbf7134ca294962dc0f6ef925bccc49caf6a675fe420aecfded8 105744 ros-humble-autoware-pure-pursuit_0-2025.02.11.04.59_amd64.deb
+Files:
+ ac17d7ee27634ae862ddd469cb4d5be5 2970526 debug optional ros-humble-autoware-pure-pursuit-dbgsym_0-2025.02.11.04.59_amd64.ddeb
+ 46ba0322d6dc1434dfa163ac429730b2 41039 misc optional ros-humble-autoware-pure-pursuit_0-2025.02.11.04.59_amd64.buildinfo
+ 3c17e3537184e7b5661f4f0ca447b7de 105744 misc optional ros-humble-autoware-pure-pursuit_0-2025.02.11.04.59_amd64.deb

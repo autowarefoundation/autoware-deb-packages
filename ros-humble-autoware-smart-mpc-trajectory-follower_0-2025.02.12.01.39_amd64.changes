@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-smart-mpc-trajectory-follower
+Binary: ros-humble-autoware-smart-mpc-trajectory-follower
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.12.01.39
+Distribution: jammy
+Urgency: high
+Maintainer: Masayuki Aino <masayuki.aino@proxima-ai-tech.com>
+Changed-By: Masayuki Aino <masayuki.aino@proxima-ai-tech.com>
+Description:
+ ros-humble-autoware-smart-mpc-trajectory-follower - Nodes to follow a trajectory by generating control commands using
+Changes:
+ ros-humble-autoware-smart-mpc-trajectory-follower (0-2025.02.12.01.39) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in fil… (#9851 <https://github.com/autowarefoundation/autoware.universe/issues/9851>)
+   * Contributors: Fumiya Watanabe, Vishal Chauhan
+Checksums-Sha1:
+ cd78330b765d3137722fca7443c024c3ff423f25 45708 ros-humble-autoware-smart-mpc-trajectory-follower_0-2025.02.12.01.39_amd64.buildinfo
+ 161ea15b1626b1a215cf2626502c9aa91c6430e7 2436680 ros-humble-autoware-smart-mpc-trajectory-follower_0-2025.02.12.01.39_amd64.deb
+Checksums-Sha256:
+ 720eba8cae26f3a3604e1bdd040656a38dfc2f1ccc17376acd250b9c1d1d4066 45708 ros-humble-autoware-smart-mpc-trajectory-follower_0-2025.02.12.01.39_amd64.buildinfo
+ 11727279d5844f0af1a9f5f70a5d79ee625dcb357ca84b543178f5a8c5860ad3 2436680 ros-humble-autoware-smart-mpc-trajectory-follower_0-2025.02.12.01.39_amd64.deb
+Files:
+ 54a398bdea11ba49a4607cb3d75e2ae8 45708 misc optional ros-humble-autoware-smart-mpc-trajectory-follower_0-2025.02.12.01.39_amd64.buildinfo
+ a9c63c5b741542df9d1899c1a9b335d3 2436680 misc optional ros-humble-autoware-smart-mpc-trajectory-follower_0-2025.02.12.01.39_amd64.deb

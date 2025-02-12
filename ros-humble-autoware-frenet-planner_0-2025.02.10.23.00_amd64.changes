@@ -1,0 +1,54 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-frenet-planner
+Binary: ros-humble-autoware-frenet-planner
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.10.23.00
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime CLEMENT <maxime.clement@tier4.jp>
+Changed-By: Maxime CLEMENT <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-frenet-planner - The autoware_frenet_planner package for trajectory generation in
+Changes:
+ ros-humble-autoware-frenet-planner (0-2025.02.10.23.00) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(lane_change): using frenet planner to generate lane change path when ego near terminal (#9767 <https://github.com/autowarefoundation/autoware.universe/issues/9767>)
+     * frenet planner
+     * minor refactoring
+     * adding parameter
+     * Add diff th param
+     * limit curvature for prepare segment
+     * minor refactoring
+     * print average curvature
+     * refactor
+     * filter the path directly
+     * fix some conflicts
+     * include curvature smoothing
+     * document
+     * fix image folder
+     * image size
+     * doxygen
+     * add debug for state
+     * use sign function instead
+     * rename argument
+     * readme
+     * fix failed test due to empty value
+     * add additional note
+     * fix conflict
+     ---------
+   * Contributors: Fumiya Watanabe, Zulfaqar Azmi
+Checksums-Sha1:
+ f4f866b533e8b505011582e5154ca94e47afd107 1993544 ros-humble-autoware-frenet-planner-dbgsym_0-2025.02.10.23.00_amd64.ddeb
+ 882fde0f633944c1bf38102f5322c81824ff3692 40524 ros-humble-autoware-frenet-planner_0-2025.02.10.23.00_amd64.buildinfo
+ 78c45ece2eb48c83eb6be2defeeb02274e0c4fd0 34382 ros-humble-autoware-frenet-planner_0-2025.02.10.23.00_amd64.deb
+Checksums-Sha256:
+ da7fd345e2b16b9da728794234e43154642be4436d5a7543c017891c52319e28 1993544 ros-humble-autoware-frenet-planner-dbgsym_0-2025.02.10.23.00_amd64.ddeb
+ 90a6888b70cd2c4d77c05bcc6d5ea960b68a81cf8ad35e72e46f4b2ae68c1d17 40524 ros-humble-autoware-frenet-planner_0-2025.02.10.23.00_amd64.buildinfo
+ 7278eb84cf033fa8e2c68f87386aa5601016d7f5587fda6a03b80fcae0c72bd6 34382 ros-humble-autoware-frenet-planner_0-2025.02.10.23.00_amd64.deb
+Files:
+ 29d0ee1ef28f0cebf3bd97a4c1d9c1ab 1993544 debug optional ros-humble-autoware-frenet-planner-dbgsym_0-2025.02.10.23.00_amd64.ddeb
+ 9298c05b182d6df333667be2ae6f6b68 40524 misc optional ros-humble-autoware-frenet-planner_0-2025.02.10.23.00_amd64.buildinfo
+ cc57c0c1e359979fbdcf235ba87c6c68 34382 misc optional ros-humble-autoware-frenet-planner_0-2025.02.10.23.00_amd64.deb

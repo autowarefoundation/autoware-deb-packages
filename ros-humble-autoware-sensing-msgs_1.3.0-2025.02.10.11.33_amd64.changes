@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-sensing-msgs
+Binary: ros-humble-autoware-sensing-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.3.0-2025.02.10.11.33
+Distribution: jammy
+Urgency: high
+Maintainer: Yutaka Kondo <yutaka.kondo@tier4.jp>
+Changed-By: Yutaka Kondo <yutaka.kondo@tier4.jp>
+Description:
+ ros-humble-autoware-sensing-msgs - Autoware sensing messages package.
+Changes:
+ ros-humble-autoware-sensing-msgs (1.3.0-2025.02.10.11.33) jammy; urgency=high
+Checksums-Sha1:
+ 84b78795b534ecbf94cc2908ac26af26a0da999b 199926 ros-humble-autoware-sensing-msgs-dbgsym_1.3.0-2025.02.10.11.33_amd64.ddeb
+ d7b0c8fc094a37c29ee5114702fb03c931739bf7 14758 ros-humble-autoware-sensing-msgs_1.3.0-2025.02.10.11.33_amd64.buildinfo
+ c4ed827f124752ece6c705a487695c2573160891 45392 ros-humble-autoware-sensing-msgs_1.3.0-2025.02.10.11.33_amd64.deb
+Checksums-Sha256:
+ 829c21c42466db44787d204bc3f5ce43966d291601a54b7960b53f1401d11d0f 199926 ros-humble-autoware-sensing-msgs-dbgsym_1.3.0-2025.02.10.11.33_amd64.ddeb
+ b0d73eb9d56c63660c3f1571c788fa14ec26097b444daee5d36ea256b31baf11 14758 ros-humble-autoware-sensing-msgs_1.3.0-2025.02.10.11.33_amd64.buildinfo
+ ea77783bd34286deece1433207f3e01ad7c6e1ab5d2e95b0a70a64ee3a9e9997 45392 ros-humble-autoware-sensing-msgs_1.3.0-2025.02.10.11.33_amd64.deb
+Files:
+ 33604a683efb0189abfddd2c7473b935 199926 debug optional ros-humble-autoware-sensing-msgs-dbgsym_1.3.0-2025.02.10.11.33_amd64.ddeb
+ 3f06153d921e5715f47ce3274a8d388d 14758 misc optional ros-humble-autoware-sensing-msgs_1.3.0-2025.02.10.11.33_amd64.buildinfo
+ 4feb84c7019115847d76ad7e30eb70ae 45392 misc optional ros-humble-autoware-sensing-msgs_1.3.0-2025.02.10.11.33_amd64.deb

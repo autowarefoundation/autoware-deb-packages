@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-vehicle-info-utils
+Binary: ros-humble-autoware-vehicle-info-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.11.01.44
+Distribution: jammy
+Urgency: high
+Maintainer: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Changed-By: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-vehicle-info-utils - The autoware_vehicle_info_utils package
+Changes:
+ ros-humble-autoware-vehicle-info-utils (0-2025.02.11.01.44) jammy; urgency=high
+Checksums-Sha1:
+ 085daacc8f673f9b29ac0af03417356dd996a35c 334472 ros-humble-autoware-vehicle-info-utils-dbgsym_0-2025.02.11.01.44_amd64.ddeb
+ a7069a4caeba934419c25faecaf310ffc5b5a438 40381 ros-humble-autoware-vehicle-info-utils_0-2025.02.11.01.44_amd64.buildinfo
+ f91564988d755d64f73a03449665fe2927ea1e82 21716 ros-humble-autoware-vehicle-info-utils_0-2025.02.11.01.44_amd64.deb
+Checksums-Sha256:
+ 0f46be8e4458531047aa93118560d2e1aa5ecc16a85ecf7ed6e22c8d484014d5 334472 ros-humble-autoware-vehicle-info-utils-dbgsym_0-2025.02.11.01.44_amd64.ddeb
+ e501069389e2825183981ad8c446e4357fb3dca5598c770e5df51bb5758d42a5 40381 ros-humble-autoware-vehicle-info-utils_0-2025.02.11.01.44_amd64.buildinfo
+ 8171cbb8bdba151d5bb0638e92831469a67d91257f1a9a2307edc83f6404a862 21716 ros-humble-autoware-vehicle-info-utils_0-2025.02.11.01.44_amd64.deb
+Files:
+ 60ec9819502c3b5d80b0c9ef6ce8c49d 334472 debug optional ros-humble-autoware-vehicle-info-utils-dbgsym_0-2025.02.11.01.44_amd64.ddeb
+ a7a005d67e8fcc794c25076f697e20ec 40381 misc optional ros-humble-autoware-vehicle-info-utils_0-2025.02.11.01.44_amd64.buildinfo
+ 0863cdda6fad0de7c82b0acab47a80d9 21716 misc optional ros-humble-autoware-vehicle-info-utils_0-2025.02.11.01.44_amd64.deb

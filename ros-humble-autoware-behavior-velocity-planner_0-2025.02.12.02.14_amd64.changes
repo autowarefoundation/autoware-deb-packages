@@ -1,0 +1,50 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-planner
+Binary: ros-humble-autoware-behavior-velocity-planner
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.12.02.14
+Distribution: jammy
+Urgency: high
+Maintainer: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Changed-By: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-planner - The autoware_behavior_velocity_planner package
+Changes:
+ ros-humble-autoware-behavior-velocity-planner (0-2025.02.12.02.14) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(behavior_velocity_planner): remove virtual traffic light dependency from behavior_velocity_planner and behavior_velocity_planner_common (#9746 <https://github.com/autowarefoundation/autoware.universe/issues/9746>)
+     * feat: remove-virtual-traffic-light-dependency-from-plugin-manager
+     * build passed
+     * fix test
+     * fix test
+     * fix
+     * fix typo
+     ---------
+   * feat(behavior_velocity_modules): add node test (#9790 <https://github.com/autowarefoundation/autoware.universe/issues/9790>)
+     * feat(behavior_velocity_crosswalk): add node test
+     * fix
+     * feat(behavior_velocity_xxx_module): add node test
+     * fix
+     * fix
+     * fix
+     * fix
+     * change directory tests -> test
+     ---------
+   * refactor(behavior_velocity_planner): independent of plugin packages (#9760 <https://github.com/autowarefoundation/autoware.universe/issues/9760>)
+   * feat(behavior_velocity_planner): remove unnecessary tier4_api_msgs (#9692 <https://github.com/autowarefoundation/autoware.universe/issues/9692>)
+   * Contributors: Fumiya Watanabe, Takayuki Murooka
+Checksums-Sha1:
+ 2e8eeb0ab174b168719ba1fa5949148af1a0eabe 17737352 ros-humble-autoware-behavior-velocity-planner-dbgsym_0-2025.02.12.02.14_amd64.ddeb
+ 1b4348fa051d6ba59da6ace77b0eb4cdf2b16e57 43868 ros-humble-autoware-behavior-velocity-planner_0-2025.02.12.02.14_amd64.buildinfo
+ 8681a2c0b77dc887b09d11159bdaa306730e70f4 473472 ros-humble-autoware-behavior-velocity-planner_0-2025.02.12.02.14_amd64.deb
+Checksums-Sha256:
+ 520cf6a12e1a044299cff902a375e544b2dee05a7b1667850c9d030655fd3825 17737352 ros-humble-autoware-behavior-velocity-planner-dbgsym_0-2025.02.12.02.14_amd64.ddeb
+ be6202976707b46abad5f72ba230b4212e33e55bb2ce98f35889a7152decbd48 43868 ros-humble-autoware-behavior-velocity-planner_0-2025.02.12.02.14_amd64.buildinfo
+ 2c0be0eb1fa119c8001b08f6a55c652f1e2628b2edbc4209aba6972e0f41899f 473472 ros-humble-autoware-behavior-velocity-planner_0-2025.02.12.02.14_amd64.deb
+Files:
+ da85def5912b43295bdde279c5b99ebc 17737352 debug optional ros-humble-autoware-behavior-velocity-planner-dbgsym_0-2025.02.12.02.14_amd64.ddeb
+ 7eeeee3da37429c4543451bd6f37bb48 43868 misc optional ros-humble-autoware-behavior-velocity-planner_0-2025.02.12.02.14_amd64.buildinfo
+ c386fe8424faca99121491216702caf0 473472 misc optional ros-humble-autoware-behavior-velocity-planner_0-2025.02.12.02.14_amd64.deb

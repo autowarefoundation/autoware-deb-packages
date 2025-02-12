@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-stop-filter
+Binary: ros-humble-autoware-stop-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.10.11.36
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-stop-filter - The stop filter package
+Changes:
+ ros-humble-autoware-stop-filter (0-2025.02.10.11.36) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: tier4_debug_msgs to autoware_internal_debug_msgs in files localization/autoware_stop_filter (#9867 <https://github.com/autowarefoundation/autoware.universe/issues/9867>)
+     Co-authored-by: SakodaShintaro <mailto:shintaro.sakoda@tier4.jp>
+   * fix(autoware_stop_filter): fix bugprone-reserved-identifier (#9643 <https://github.com/autowarefoundation/autoware.universe/issues/9643>)
+     * fix: bugprone-reserved-identifier
+     * fix: fmt
+     ---------
+   * Contributors: Fumiya Watanabe, Vishal Chauhan, kobayu858
+Checksums-Sha1:
+ d7ce7cd23fee48b8fa9493ebab280a4c1553cd59 2422664 ros-humble-autoware-stop-filter-dbgsym_0-2025.02.10.11.36_amd64.ddeb
+ fb9624eed9976820f408f878d09fec1e885520ac 15988 ros-humble-autoware-stop-filter_0-2025.02.10.11.36_amd64.buildinfo
+ e32f1fd1d9e7b7e75bdb81c0fd26a518293f5332 123642 ros-humble-autoware-stop-filter_0-2025.02.10.11.36_amd64.deb
+Checksums-Sha256:
+ 3336c579e407b2c8782cb3c021e14a350d60e6ab2789965d7ae751013bbb8e08 2422664 ros-humble-autoware-stop-filter-dbgsym_0-2025.02.10.11.36_amd64.ddeb
+ dc875ac0d58f3daddb14644bda08bf7b2c7b43c2fb1b756aac4a090a67706ac7 15988 ros-humble-autoware-stop-filter_0-2025.02.10.11.36_amd64.buildinfo
+ 09317e414e52f7f980e98c03a36ab9f84a51017210ed6e435feadd008cd869c8 123642 ros-humble-autoware-stop-filter_0-2025.02.10.11.36_amd64.deb
+Files:
+ ea9a253e545bec68d6b852c68db484fa 2422664 debug optional ros-humble-autoware-stop-filter-dbgsym_0-2025.02.10.11.36_amd64.ddeb
+ faf0425439c750c82f4b67d5939918b9 15988 misc optional ros-humble-autoware-stop-filter_0-2025.02.10.11.36_amd64.buildinfo
+ 3157c969f568978290e4a8d2a8d7c433 123642 misc optional ros-humble-autoware-stop-filter_0-2025.02.10.11.36_amd64.deb

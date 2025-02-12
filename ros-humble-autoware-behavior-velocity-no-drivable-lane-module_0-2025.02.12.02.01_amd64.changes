@@ -1,0 +1,71 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-no-drivable-lane-module
+Binary: ros-humble-autoware-behavior-velocity-no-drivable-lane-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.12.02.01
+Distribution: jammy
+Urgency: high
+Maintainer: Ahmed Ebrahim <ahmed.ebrahim@leodrive.ai>
+Changed-By: Ahmed Ebrahim <ahmed.ebrahim@leodrive.ai>
+Description:
+ ros-humble-autoware-behavior-velocity-no-drivable-lane-module - The autoware_behavior_velocity_no_drivable_lane_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-no-drivable-lane-module (0-2025.02.12.02.01) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * chore(planning): move package directory for planning factor interface (#9948 <https://github.com/autowarefoundation/autoware.universe/issues/9948>)
+     * chore: add new package for planning factor interface
+     * chore(surround_obstacle_checker): update include file
+     * chore(obstacle_stop_planner): update include file
+     * chore(obstacle_cruise_planner): update include file
+     * chore(motion_velocity_planner): update include file
+     * chore(bpp): update include file
+     * chore(bvp-common): update include file
+     * chore(blind_spot): update include file
+     * chore(crosswalk): update include file
+     * chore(detection_area): update include file
+     * chore(intersection): update include file
+     * chore(no_drivable_area): update include file
+     * chore(no_stopping_area): update include file
+     * chore(occlusion_spot): update include file
+     * chore(run_out): update include file
+     * chore(speed_bump): update include file
+     * chore(stop_line): update include file
+     * chore(template_module): update include file
+     * chore(traffic_light): update include file
+     * chore(vtl): update include file
+     * chore(walkway): update include file
+     * chore(motion_utils): remove factor interface
+     ---------
+   * feat(behavior_velocity_planner)!: remove velocity_factor completely (#9943 <https://github.com/autowarefoundation/autoware.universe/issues/9943>)
+     * feat(behavior_velocity_planner)!: remove velocity_factor completely
+     * minimize diff
+     ---------
+   * feat(planning_factor)!: remove velocity_factor, steering_factor and introduce planning_factor (#9927 <https://github.com/autowarefoundation/autoware.universe/issues/9927>)
+     Co-authored-by: Satoshi OTA <mailto:44889564+satoshi-ota@users.noreply.github.com>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: satoshi-ota <mailto:satoshi.ota928@gmail.com>
+   * refactor(behavior_velocity_planner_common): add behavior_velocity_rtc_interface and move RTC-related implementation (#9799 <https://github.com/autowarefoundation/autoware.universe/issues/9799>)
+     * split into planer_common and rtc_interface
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_planner_common/include/autoware/behavior_velocity_planner_common/scene_module_interface.hpp
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_rtc_interface/include/autoware/behavior_velocity_rtc_interface/scene_module_interface_with_rtc.hpp
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+     * fix
+     ---------
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+   * Contributors: Fumiya Watanabe, Mamoru Sobue, Satoshi OTA, Takayuki Murooka
+Checksums-Sha1:
+ fb310eaf223d51ed081edd5c42032fa356a03a16 3591648 ros-humble-autoware-behavior-velocity-no-drivable-lane-module-dbgsym_0-2025.02.12.02.01_amd64.ddeb
+ 9ebab098629dca0ed8d975db0dfeeaec68aece3d 44006 ros-humble-autoware-behavior-velocity-no-drivable-lane-module_0-2025.02.12.02.01_amd64.buildinfo
+ 4f458cd9540052fcd8e0f6ce4f8e0d93f8a43628 72874 ros-humble-autoware-behavior-velocity-no-drivable-lane-module_0-2025.02.12.02.01_amd64.deb
+Checksums-Sha256:
+ 06fd3cacbacc1e1de0f329726caa8a8e2bc722366b4c61ded6d834cdab150850 3591648 ros-humble-autoware-behavior-velocity-no-drivable-lane-module-dbgsym_0-2025.02.12.02.01_amd64.ddeb
+ aa4de1c1d11570fdebcb9c0859407dbfb857966ff0e8a59f1fc30f3dcff17570 44006 ros-humble-autoware-behavior-velocity-no-drivable-lane-module_0-2025.02.12.02.01_amd64.buildinfo
+ e6bc7656af5b1a2748a816226dc146e68fcf3824d3fc8eac5c05de8984037320 72874 ros-humble-autoware-behavior-velocity-no-drivable-lane-module_0-2025.02.12.02.01_amd64.deb
+Files:
+ 4dc67ade248ca6d766eec57ebde76728 3591648 debug optional ros-humble-autoware-behavior-velocity-no-drivable-lane-module-dbgsym_0-2025.02.12.02.01_amd64.ddeb
+ 2a17409a0dabac8a07954f81ec697c36 44006 misc optional ros-humble-autoware-behavior-velocity-no-drivable-lane-module_0-2025.02.12.02.01_amd64.buildinfo
+ 0b2c0bf76efe7d427ea625d40f4abc5c 72874 misc optional ros-humble-autoware-behavior-velocity-no-drivable-lane-module_0-2025.02.12.02.01_amd64.deb

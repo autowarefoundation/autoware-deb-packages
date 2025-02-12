@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-motion-velocity-planner-common-universe
+Binary: ros-humble-autoware-motion-velocity-planner-common-universe
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.12.04.03
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime Clement <maxime.clement@tier4.jp>
+Changed-By: Maxime Clement <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-motion-velocity-planner-common-universe - Common functions and interfaces for motion_velocity_planner modul
+Changes:
+ ros-humble-autoware-motion-velocity-planner-common-universe (0-2025.02.12.04.03) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(motion_velocity_planner)!: add _universe suffix to autoware_motion_velocity_planner_common and autoware_motion_velocity_planner_node (#9942 <https://github.com/autowarefoundation/autoware.universe/issues/9942>)
+   * Contributors: Fumiya Watanabe, Ryohsuke Mitsudome
+Checksums-Sha1:
+ 56c98831fdca2cd12b93ad2691f2f1ea349ec61c 4795874 ros-humble-autoware-motion-velocity-planner-common-universe-dbgsym_0-2025.02.12.04.03_amd64.ddeb
+ 52004dc8f666194e97bc2274759ae0c92cfd3d9c 43943 ros-humble-autoware-motion-velocity-planner-common-universe_0-2025.02.12.04.03_amd64.buildinfo
+ 0323e283cefed5b39ccfdf908ccde84a67a1329a 190434 ros-humble-autoware-motion-velocity-planner-common-universe_0-2025.02.12.04.03_amd64.deb
+Checksums-Sha256:
+ e1e21975305aa7d6ad4a3de1419a4f4f500bc002aa0a7980476d2e3d51de8f55 4795874 ros-humble-autoware-motion-velocity-planner-common-universe-dbgsym_0-2025.02.12.04.03_amd64.ddeb
+ 69408351197c6a306f805e8ffa58dc481f34eefb59a6cde22c392ee92ae6a000 43943 ros-humble-autoware-motion-velocity-planner-common-universe_0-2025.02.12.04.03_amd64.buildinfo
+ c32aaf2d6249427e4781dd2aec3de32de5cb9a3f597b408cb07b7a0baef6a295 190434 ros-humble-autoware-motion-velocity-planner-common-universe_0-2025.02.12.04.03_amd64.deb
+Files:
+ bf207c42efb0e92edcaefcaee77fcfcf 4795874 debug optional ros-humble-autoware-motion-velocity-planner-common-universe-dbgsym_0-2025.02.12.04.03_amd64.ddeb
+ 774014267c3f73d8390b8b7aac8dc619 43943 misc optional ros-humble-autoware-motion-velocity-planner-common-universe_0-2025.02.12.04.03_amd64.buildinfo
+ f176880515a5eeceeb916f9cb5ed0596 190434 misc optional ros-humble-autoware-motion-velocity-planner-common-universe_0-2025.02.12.04.03_amd64.deb

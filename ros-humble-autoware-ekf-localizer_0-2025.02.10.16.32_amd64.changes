@@ -1,0 +1,45 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-ekf-localizer
+Binary: ros-humble-autoware-ekf-localizer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.10.16.32
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-ekf-localizer - The autoware_ekf_localizer package
+Changes:
+ ros-humble-autoware-ekf-localizer (0-2025.02.10.16.32) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * revert: revert "feat(autoware_ekf_localizer)!: porting from universe to core (#9978 <https://github.com/autowarefoundation/autoware.universe/issues/9978>)" (#10004 <https://github.com/autowarefoundation/autoware.universe/issues/10004>)
+     This reverts commit 037c315fbee69bb5923ec10bb8e8e70f890725ea.
+   * feat(autoware_ekf_localizer)!: porting from universe to core (#9978 <https://github.com/autowarefoundation/autoware.universe/issues/9978>)
+     * feat: delete ekf_localizer files
+     * doc: Modify ekf_localizer directory links
+     * ci: remove ekf_localizer from the codecov target list
+     ---------
+   * feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in fies localization/autoware_ekf_localizer (#9860 <https://github.com/autowarefoundation/autoware.universe/issues/9860>)
+     Co-authored-by: SakodaShintaro <mailto:shintaro.sakoda@tier4.jp>
+   * feat(ekf_localizer): check whether the initialpose has been set (#9787 <https://github.com/autowarefoundation/autoware.universe/issues/9787>)
+     * check set intialpose
+     * update png
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Fumiya Watanabe, Motz, Ryohsuke Mitsudome, Vishal Chauhan, Yamato Ando
+Checksums-Sha1:
+ 0bb9b5023c31ca5c5bc926d1ec47a5308ac65679 6209760 ros-humble-autoware-ekf-localizer-dbgsym_0-2025.02.10.16.32_amd64.ddeb
+ 94faee81eab0dfc1329d66ecce1f68ce4c775ac7 41279 ros-humble-autoware-ekf-localizer_0-2025.02.10.16.32_amd64.buildinfo
+ 5195b1bb8d25ff274d6470e4afd74f6b9443b55a 249474 ros-humble-autoware-ekf-localizer_0-2025.02.10.16.32_amd64.deb
+Checksums-Sha256:
+ a8273e00bd50dc9c605814eff698b7b120ba01b9d4449a7638567823e7527e00 6209760 ros-humble-autoware-ekf-localizer-dbgsym_0-2025.02.10.16.32_amd64.ddeb
+ 6e805456bb83ed211ead9e557c161dcef6ac323c56e7e51a159077bc0a1f0f6b 41279 ros-humble-autoware-ekf-localizer_0-2025.02.10.16.32_amd64.buildinfo
+ 110f02fc919cd9708bd5b42b1d56438fadccd6b562f2442ec0adeb0631719df9 249474 ros-humble-autoware-ekf-localizer_0-2025.02.10.16.32_amd64.deb
+Files:
+ 741626b81daa50a1446c6d959f1ca6db 6209760 debug optional ros-humble-autoware-ekf-localizer-dbgsym_0-2025.02.10.16.32_amd64.ddeb
+ 010c413eeb3d932e1f42b4614ae2abf8 41279 misc optional ros-humble-autoware-ekf-localizer_0-2025.02.10.16.32_amd64.buildinfo
+ c353f07398387428ed91b5d724dbc67f 249474 misc optional ros-humble-autoware-ekf-localizer_0-2025.02.10.16.32_amd64.deb

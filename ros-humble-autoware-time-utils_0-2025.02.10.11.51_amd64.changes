@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-time-utils
+Binary: ros-humble-autoware-time-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.10.11.51
+Distribution: jammy
+Urgency: high
+Maintainer: Christopher Ho <christopherj.ho@gmail.com>
+Changed-By: Christopher Ho <christopherj.ho@gmail.com>
+Description:
+ ros-humble-autoware-time-utils - Simple conversion methods to/from std::chrono to simplify algorit
+Changes:
+ ros-humble-autoware-time-utils (0-2025.02.10.11.51) jammy; urgency=high
+Checksums-Sha1:
+ fb7b6cdb13eba5543cddd6bfaa7566c4bd3f8474 14192 ros-humble-autoware-time-utils-dbgsym_0-2025.02.10.11.51_amd64.ddeb
+ 4568f9e5cbd601cbd8196b4011478951ae49dedd 13791 ros-humble-autoware-time-utils_0-2025.02.10.11.51_amd64.buildinfo
+ 630596dfd2a7d43bd1e3c863de84094caf606a84 12610 ros-humble-autoware-time-utils_0-2025.02.10.11.51_amd64.deb
+Checksums-Sha256:
+ d819ebda74f05404e54efca2b51196bda9d4d4fde06da0fa0781e153ab4f62b3 14192 ros-humble-autoware-time-utils-dbgsym_0-2025.02.10.11.51_amd64.ddeb
+ f4924f89ddee664a24c2028964beb3fb8a9f5025378debf1681e2f84c9ce8aeb 13791 ros-humble-autoware-time-utils_0-2025.02.10.11.51_amd64.buildinfo
+ f2dec5ff832802539abc621f8386e274ac030f6e6a78bca691564c530840862c 12610 ros-humble-autoware-time-utils_0-2025.02.10.11.51_amd64.deb
+Files:
+ 8f0661fb7fe1313addfd29e13ece77b9 14192 debug optional ros-humble-autoware-time-utils-dbgsym_0-2025.02.10.11.51_amd64.ddeb
+ 16023a10c60b18574ffc1f37a1eb2e88 13791 misc optional ros-humble-autoware-time-utils_0-2025.02.10.11.51_amd64.buildinfo
+ de100dfab9709e2d08fe68c0ea87fb2f 12610 misc optional ros-humble-autoware-time-utils_0-2025.02.10.11.51_amd64.deb

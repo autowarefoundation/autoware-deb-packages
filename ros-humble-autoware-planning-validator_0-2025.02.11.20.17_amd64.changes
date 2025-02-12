@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-planning-validator
+Binary: ros-humble-autoware-planning-validator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.11.20.17
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-planning-validator - ros node for autoware_planning_validator
+Changes:
+ ros-humble-autoware-planning-validator (0-2025.02.11.20.17) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_planning_validator)!: tier4_debug_msgs changed to autoware_internal_debug_msgs in autoware_planning_validator (#9911 <https://github.com/autowarefoundation/autoware.universe/issues/9911>)
+     feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files planning/autoware_planning_validator
+   * Contributors: Fumiya Watanabe, Vishal Chauhan
+Checksums-Sha1:
+ addaeb0480286244af6d1492cb38adb3ac1c1068 7408594 ros-humble-autoware-planning-validator-dbgsym_0-2025.02.11.20.17_amd64.ddeb
+ c3d3b426c051b7c9a98ffb0cef850dd4389ed501 42983 ros-humble-autoware-planning-validator_0-2025.02.11.20.17_amd64.buildinfo
+ 99a9da23116d029226e0d59ef5ee52ef41fe6387 343870 ros-humble-autoware-planning-validator_0-2025.02.11.20.17_amd64.deb
+Checksums-Sha256:
+ 78291f5ac1d042343995a106fb19da7a3013698bb4320c121b37af7990bd5f53 7408594 ros-humble-autoware-planning-validator-dbgsym_0-2025.02.11.20.17_amd64.ddeb
+ d4b46efcf417c166066a10cdbaaa3be1861521a5055bd217699020b9f9e52a95 42983 ros-humble-autoware-planning-validator_0-2025.02.11.20.17_amd64.buildinfo
+ 64d242b0a69f38d68fb13b54832fbc893c924b6e6d7c1b6818b661f214b62d2a 343870 ros-humble-autoware-planning-validator_0-2025.02.11.20.17_amd64.deb
+Files:
+ 6c3f029f06922bb2f9b4be373c8ec80e 7408594 debug optional ros-humble-autoware-planning-validator-dbgsym_0-2025.02.11.20.17_amd64.ddeb
+ d537863f799c08ec1498aef2c58e3af1 42983 misc optional ros-humble-autoware-planning-validator_0-2025.02.11.20.17_amd64.buildinfo
+ ef75fba6fbea1374b817b2a4c9293cc8 343870 misc optional ros-humble-autoware-planning-validator_0-2025.02.11.20.17_amd64.deb
