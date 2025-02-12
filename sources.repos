@@ -2,7 +2,7 @@ repositories:
   core/autoware.core:
     type: git
     url: https://github.com/autowarefoundation/autoware.core.git
-    version: 3f26d5245f5c161fc255a8c707cfdaca5c7c9710
+    version: 63f86cfaff85dab2c1c7f1f78f859d9e0879fcae
   core/autoware_adapi_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
@@ -26,11 +26,11 @@ repositories:
   core/autoware_utils:
     type: git
     url: https://github.com/autowarefoundation/autoware_utils.git
-    version: 451419ec58923b1a1035956f838afdb8d3cbc0d3
+    version: 7115d01f3f8b7b0abc31dfabdd293ce548399623
   launcher/autoware_launch:
     type: git
     url: https://github.com/autowarefoundation/autoware_launch.git
-    version: 19d30d4a681aa12cae72b23958279e286959b3ab
+    version: b3607103cbe652b63f24b8fdc131015191c278ae
   param/autoware_individual_params:
     type: git
     url: https://github.com/autowarefoundation/autoware_individual_params.git
@@ -62,19 +62,19 @@ repositories:
   sensor_kit/external/awsim_sensor_kit_launch:
     type: git
     url: https://github.com/tier4/awsim_sensor_kit_launch.git
-    version: 33ef7eec8951c6466cb2c12209275e59837f3a3e
+    version: e501dfb504eff739920f8495e46ed408907859df
   sensor_kit/sample_sensor_kit_launch:
     type: git
     url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
-    version: f0b6ef48c08885377e18565e56a3820a907d7f76
+    version: 10425283cc1dddd1f05a1478c96d48aad726bfd4
   sensor_kit/single_lidar_sensor_kit_launch:
     type: git
     url: https://github.com/autowarefoundation/single_lidar_sensor_kit_launch.git
-    version: df12295d27bd2b7b2ed8c70502a3223471fab135
+    version: da146226cc681a0008f30ade5b02257cea2bab05
   universe/autoware.universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
-    version: b3c69b465c34e155f6a95f9656d4f4dc7bcb2ecd
+    version: 5d3b97a314c41c850700ac0b83c1c878598a116e
   universe/external/eagleye:
     type: git
     url: https://github.com/MapIV/eagleye.git
@@ -106,7 +106,7 @@ repositories:
   universe/external/tier4_ad_api_adaptor:
     type: git
     url: https://github.com/tier4/tier4_ad_api_adaptor.git
-    version: 4dbe2eda72c637215c38ec1c1562d2a979b37565
+    version: 278e32d1bc3f14cb79e27c6ef8131db82504769d
   universe/external/tier4_autoware_msgs:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
