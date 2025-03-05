@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-geo-pose-projector
+Binary: ros-humble-autoware-geo-pose-projector
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.04.11.58
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-geo-pose-projector - The autoware_geo_pose_projector package
+Changes:
+ ros-humble-autoware-geo-pose-projector (0-2025.03.04.11.58) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_component_interface_specs_universe!): rename package (#9753 <https://github.com/autowarefoundation/autoware.universe/issues/9753>)
+   * Contributors: Fumiya Watanabe, Ryohsuke Mitsudome
+Checksums-Sha1:
+ e7e4b5d41e82ce89158070d7e544d8571f1bdb9e 3283134 ros-humble-autoware-geo-pose-projector-dbgsym_0-2025.03.04.11.58_amd64.ddeb
+ 14c8309df57723686e7a963628b7cfbfae9f9798 42080 ros-humble-autoware-geo-pose-projector_0-2025.03.04.11.58_amd64.buildinfo
+ 34be3c766306ba8aaf13e94de1cb94f19d8d4518 149256 ros-humble-autoware-geo-pose-projector_0-2025.03.04.11.58_amd64.deb
+Checksums-Sha256:
+ 2b2258dc546cc71be649c72ab6df3ac77a6c83ab37b5b32f724d3ea5b00bc466 3283134 ros-humble-autoware-geo-pose-projector-dbgsym_0-2025.03.04.11.58_amd64.ddeb
+ 02cc47aab24879ba36a5a9f239dd36783e9400e31da1d749b5291aa3b204d8e8 42080 ros-humble-autoware-geo-pose-projector_0-2025.03.04.11.58_amd64.buildinfo
+ 7c6d77055c004e75e32f90849ed9a59443636e160e58f055d2a4951645d10fe4 149256 ros-humble-autoware-geo-pose-projector_0-2025.03.04.11.58_amd64.deb
+Files:
+ d8943f96c63023b544476fe473d90594 3283134 debug optional ros-humble-autoware-geo-pose-projector-dbgsym_0-2025.03.04.11.58_amd64.ddeb
+ 62ffdbe1353b910effe503b0bcee25a4 42080 misc optional ros-humble-autoware-geo-pose-projector_0-2025.03.04.11.58_amd64.buildinfo
+ d45ee70e4977ecb1a75f821a507017b7 149256 misc optional ros-humble-autoware-geo-pose-projector_0-2025.03.04.11.58_amd64.deb

@@ -1,0 +1,98 @@
+Format: 1.8
+Date: Mon, 10 Feb 2025 00:00:00 -0000
+Source: ros-humble-autoware-iv-internal-api-adaptor
+Binary: ros-humble-autoware-iv-internal-api-adaptor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.41.0-2025.03.05.10.02
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-iv-internal-api-adaptor - The autoware_iv_internal_api_adaptor package
+Changes:
+ ros-humble-autoware-iv-internal-api-adaptor (0.41.0-2025.03.05.10.02) jammy; urgency=high
+ .
+   * feat: remove autoware_auto messages (#124 <https://github.com/tier4/tier4_ad_api_adaptor/issues/124>)
+   * fix(autoware_iv_internal_api_adaptor): iv msg types (#121 <https://github.com/tier4/tier4_ad_api_adaptor/issues/121>)
+   * fix: change the output of ControlMode to autoware_auto_msgs (#116 <https://github.com/tier4/tier4_ad_api_adaptor/issues/116>)
+   * feat!: change from autoware_auto_msgs to autoware_msgs (#115 <https://github.com/tier4/tier4_ad_api_adaptor/issues/115>)
+     * fix:autoware_planning_msgs
+     * feat(tier4_ad_api_adaptor): replace autoware_control_msg with autoware_control_msg
+     * feat(tier4_ad_api_adaptor): replace autoware_auto_system_msg with autoware_system_msg
+     * feat(tier4_ad_api_adaptor): replace autoware_auto_msgs with autoware_msgs
+     * feat: replace DetectedObjects and TrackedObjects messages to autoware_perception_msgs
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: jack.song <jack.song@autocore.ai>
+     Co-authored-by: NorahXiong <norah.xiong@autocore.ai>
+     Co-authored-by: liu cui <cynthia.liu@autocore.ai>
+     Co-authored-by: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * build: use <buildtool_depend> for autoware_cmake (#103 <https://github.com/tier4/tier4_ad_api_adaptor/issues/103>)
+     * build: use <buildtool_depend> for autoware_cmake
+     * style(pre-commit): autofix
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: Kenji Miyake <mailto:31987104+kenji-miyake@users.noreply.github.com>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * feat(rtc_controller): add new module avoidance_by_lc (#89 <https://github.com/tier4/tier4_ad_api_adaptor/issues/89>)
+     * feat(rtc_controller): add new module avoidance_by_lc
+     * chore(internal): apply pre-commit
+     ---------
+   * feat: move launch files (#90 <https://github.com/tier4/tier4_ad_api_adaptor/issues/90>)
+   * feat: apply mrm state to autoware state (#81 <https://github.com/tier4/tier4_ad_api_adaptor/issues/81>)
+     feat: apply mrm state
+   * feat: apply adapi operation mode (#77 <https://github.com/tier4/tier4_ad_api_adaptor/issues/77>)
+     * feat: apply adapi routing
+     * feat: add auto route clear
+     * Update autoware_iv_external_api_adaptor/src/converter/routing.hpp
+     Co-authored-by: Kah Hooi Tan <mailto:41041286+tkhmy@users.noreply.github.com>
+     * feat: apply adapi operation mode
+     * feat: change service
+     Co-authored-by: Kah Hooi Tan <mailto:41041286+tkhmy@users.noreply.github.com>
+   * feat: apply adapi routing (#75 <https://github.com/tier4/tier4_ad_api_adaptor/issues/75>)
+     * feat: apply adapi routing
+     * feat: add auto route clear
+     * Update autoware_iv_external_api_adaptor/src/converter/routing.hpp
+     Co-authored-by: Kah Hooi Tan <mailto:41041286+tkhmy@users.noreply.github.com>
+     Co-authored-by: Kah Hooi Tan <mailto:41041286+tkhmy@users.noreply.github.com>
+   * docs: fix url (#78 <https://github.com/tier4/tier4_ad_api_adaptor/issues/78>)
+   * refactor!: remove tier4 control mode msg (#60 <https://github.com/tier4/tier4_ad_api_adaptor/issues/60>)
+     * remove t4-auto message converter for ControlMode
+     * fix: keep the interface
+     Co-authored-by: Takamasa Horibe <mailto:horibe.takamasa@gmail.com>
+   * feat: apply adapi initial pose (#69 <https://github.com/tier4/tier4_ad_api_adaptor/issues/69>)
+     * feat: apply adapi initial pose
+     * feat: overwrite covariance for backward compatibility
+   * chore: use autoware_cmake (#71 <https://github.com/tier4/tier4_ad_api_adaptor/issues/71>)
+   * fix: change initial pose timeout (#65 <https://github.com/tier4/tier4_ad_api_adaptor/issues/65>)
+   * feat: add option to ignore set engage request when the status is emergency (#58 <https://github.com/tier4/tier4_ad_api_adaptor/issues/58>)
+     * feat: add option to ignore set engage request when the status is emergency
+     * set default send-engage param to true
+     * add null check
+     * change default param
+   * feat(operator): support autoware operation mode service (#51 <https://github.com/tier4/tier4_ad_api_adaptor/issues/51>)
+     * feat(operator): support autoware operation mode service
+     * change topic name
+     * fix return value
+     * fix typo
+   * feat: add external api adaptor for calibration status (#43 <https://github.com/tier4/tier4_ad_api_adaptor/issues/43>)
+     * (editting) save current work
+     * fix bug and run pre-commit
+     * pull the latest tier4/universe
+     * pull the latest tier4/univerese
+   * Contributors: Ryohsuke Mitsudome, Satoshi OTA, Takagi, Isamu, Takamasa Horibe, TakumiKozaka-T4, Tomoya Kimura, Vincent Richard, Yukihiro Saito
+Checksums-Sha1:
+ 24209bbd0f4e52a852a959a24b26694f4ec82fbc 10835582 ros-humble-autoware-iv-internal-api-adaptor-dbgsym_0.41.0-2025.03.05.10.02_amd64.ddeb
+ 3e6d4ff8072b162129a3b88670839601fd9758ca 17297 ros-humble-autoware-iv-internal-api-adaptor_0.41.0-2025.03.05.10.02_amd64.buildinfo
+ 07366cd488d51a6d232b31bccbc53a0eef82bfcb 345790 ros-humble-autoware-iv-internal-api-adaptor_0.41.0-2025.03.05.10.02_amd64.deb
+Checksums-Sha256:
+ 6463ab76bf1bd99ea6a8db9a2c233af92a89f06b9207bc299d8225766cd72f2c 10835582 ros-humble-autoware-iv-internal-api-adaptor-dbgsym_0.41.0-2025.03.05.10.02_amd64.ddeb
+ b712e29a0d05bc6124104b2dda80e7965b35665eca69df2fdcc01465bd8c9e3f 17297 ros-humble-autoware-iv-internal-api-adaptor_0.41.0-2025.03.05.10.02_amd64.buildinfo
+ 94c46a6e542a360e5eaa6e5282b6b944bcbd8c91b45b6b2e0a4b71e4f40997a6 345790 ros-humble-autoware-iv-internal-api-adaptor_0.41.0-2025.03.05.10.02_amd64.deb
+Files:
+ 8d48b1ed9235418de8b661cbe004c9cb 10835582 debug optional ros-humble-autoware-iv-internal-api-adaptor-dbgsym_0.41.0-2025.03.05.10.02_amd64.ddeb
+ 2c0160b0cab1d98dcfaac3231a440236 17297 misc optional ros-humble-autoware-iv-internal-api-adaptor_0.41.0-2025.03.05.10.02_amd64.buildinfo
+ e20380eb7b06227d99a5c935064706c6 345790 misc optional ros-humble-autoware-iv-internal-api-adaptor_0.41.0-2025.03.05.10.02_amd64.deb

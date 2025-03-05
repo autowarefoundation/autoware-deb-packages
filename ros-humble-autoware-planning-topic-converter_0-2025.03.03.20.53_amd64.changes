@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-planning-topic-converter
+Binary: ros-humble-autoware-planning-topic-converter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.03.20.53
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi OTA <satoshi.ota@tier4.jp>
+Changed-By: Satoshi OTA <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-planning-topic-converter - The autoware_planning_topic_converter package
+Changes:
+ ros-humble-autoware-planning-topic-converter (0-2025.03.03.20.53) jammy; urgency=high
+Checksums-Sha1:
+ 539315c0d987833f4bf3cab7046c8af1ef55b8f1 2452774 ros-humble-autoware-planning-topic-converter-dbgsym_0-2025.03.03.20.53_amd64.ddeb
+ a2ca12fa97f4fb546f385eb05e1e42573e106064 40743 ros-humble-autoware-planning-topic-converter_0-2025.03.03.20.53_amd64.buildinfo
+ f519d26cdbd070697fd824143119ed141f6fce79 120618 ros-humble-autoware-planning-topic-converter_0-2025.03.03.20.53_amd64.deb
+Checksums-Sha256:
+ aa3e64b28d81e8b5b09310dddfba56ad3a4291a3ecdcf7f196c8a1261852080b 2452774 ros-humble-autoware-planning-topic-converter-dbgsym_0-2025.03.03.20.53_amd64.ddeb
+ acf9a4c670d19cffda45b7ec2e5181900c5bba4716ae7e0eeca8588f978dbbce 40743 ros-humble-autoware-planning-topic-converter_0-2025.03.03.20.53_amd64.buildinfo
+ 45a1aac8a05015635e54e9cbc60d9f2c6b4d28f3188810ef5d15676dabdb1622 120618 ros-humble-autoware-planning-topic-converter_0-2025.03.03.20.53_amd64.deb
+Files:
+ f8a894ad7b38385f3418db8ec147b46b 2452774 debug optional ros-humble-autoware-planning-topic-converter-dbgsym_0-2025.03.03.20.53_amd64.ddeb
+ 1306bfcb7d44c5dce2c29fbc25a37659 40743 misc optional ros-humble-autoware-planning-topic-converter_0-2025.03.03.20.53_amd64.buildinfo
+ cfd614d9871a75238373f6d9da1c67f0 120618 misc optional ros-humble-autoware-planning-topic-converter_0-2025.03.03.20.53_amd64.deb

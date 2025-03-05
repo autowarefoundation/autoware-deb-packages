@@ -1,0 +1,106 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-multi-object-tracker
+Binary: ros-humble-autoware-multi-object-tracker
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.03.19.02
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-multi-object-tracker - The ROS 2 autoware_multi_object_tracker package
+Changes:
+ ros-humble-autoware-multi-object-tracker (0-2025.03.03.19.02) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(multi_object_tracker): integrate odometry and transform processes (#9912 <https://github.com/autowarefoundation/autoware.universe/issues/9912>)
+     * feat: Add odometry processor to multi-object tracker
+     * refactor: Refactor Odometry class for improved code organization and readability
+     * feat: Refactor Odometry class for improved code organization and readability
+     * refactor: Transform objects to world coordinate in Odometry class
+     refactor: Transform objects to world coordinate in Odometry class
+     refactor: Update Odometry class to get transform from tf with source frame ID
+     feat: Update Odometry class to get transform from tf with source frame ID
+     fix: move necessare tr2 header
+     * Revert "refactor: Transform objects to world coordinate in Odometry class"
+     This reverts commit efca28a40105f80deb09d57b55cb6f9d83ffda2c.
+     * refactor: Remove unnecessary tf2 headers from tracker models
+     * fix: move transform obtainer to odometry class
+     * refactor: Update Odometry class to get transform from tf with source frame ID
+     * refactor: Transform objects to world coordinate in Odometry class
+     * refactor: remove transformObjects from shapes
+     * refactor: Update Odometry class to use 'updateFromTf' instead of 'setOdometryFromTf'
+     * refactor: Update Odometry class to use 'updateFromTf' instead of 'setOdometryFromTf'
+     * refactor: Update InputManager to include Odometry in constructor
+     * refactor: Move odometry.cpp to lib folder
+     * move object transform to input stream
+     * refactor: Add enable_odometry_uncertainty parameter to Odometry constructor
+     * refactor: Update Odometry class to return optional Odometry from getOdometryFromTf
+     * refactor: Update Odometry class to use tf_cache_ for storing and retrieving transforms
+     * refactor: Update Odometry class to use tf_cache_ for storing and retrieving transforms
+     * refactor: bring odometry covariance modeler into odometry class
+     * refactor: Remove redundant code for updating tf cache in Odometry::updateTfCache
+     * refactor: Update runProcess parameter name to detected_objects
+     ---------
+   * feat: tier4_debug_msgs to autoware_internal_debug_msgs in files  perc… (#9879 <https://github.com/autowarefoundation/autoware.universe/issues/9879>)
+     feat: tier4_debug_msgs to autoware_internal_debug_msgs in files  perception/autoware_multi_object_tracker
+   * chore(autoware_multi_object_tracker): fix autoware univserse documentation page (#9772 <https://github.com/autowarefoundation/autoware.universe/issues/9772>)
+     * feat: Add descriptions for confidence thresholds in multi_object_tracker_node schema
+     * feat: Update multi_object_tracker_node schema with confidence threshold descriptions
+     ---------
+   * refactor(autoware_multi_object_tracker): define a new internal object class (#9706 <https://github.com/autowarefoundation/autoware.universe/issues/9706>)
+     * feat: Add dynamic_object.hpp to object_model directory
+     * chore: Update autoware_perception_msgs include statements in association.hpp and dynamic_object.hpp
+     * fix: replace object message type to the DynamicObject type
+     * chore: Update autoware_perception_msgs include statements in association.hpp and dynamic_object.hpp
+     * chore: add channel index to the DynamicObjects
+     * Revert "chore: add channel index to the DynamicObjects"
+     This reverts commit c7e73f08a8d17b5b085dd330dbf187aabbec6879.
+     * fix: replace trackedobject in the process
+     * fix: Replace transformObjects with shapes::transformObjects for object transformation
+     * chore: add channel index to the DynamicObjects
+     * feat: separate shape related functions
+     * chore: clean up utils.hpp
+     * chore: Update function signatures to use DynamicObjectList instead of DynamicObjects
+     * chore: Add channel index to DynamicObject and DynamicObjectList
+     * chore: Refactor processor and debugger classes to remove channel_index parameter
+     * chore: Refactor multiple_vehicle_tracker.cpp and debugger.cpp
+     * Refactor object tracker classes to remove self_transform parameter
+     * Refactor object tracker classes to use shapes namespace for shape-related functions
+     * Refactor object tracker classes to use types.hpp for object model types
+     * Refactor object tracker classes to remove unused utils.hpp
+     * Refactor object tracker classes to use types.hpp for object model types
+     * chore: rename to types.cpp
+     * rename getDynamicObject to toDynamicObject
+     * Update perception/autoware_multi_object_tracker/lib/object_model/shapes.cpp
+     Co-authored-by: Yukihiro Saito <yukky.saito@gmail.com>
+     ---------
+     Co-authored-by: Yukihiro Saito <yukky.saito@gmail.com>
+   * fix(autoware_multi_object_tracker): fix bugprone-errors (#9651 <https://github.com/autowarefoundation/autoware.universe/issues/9651>)
+     fix: bugprone-errors
+   * refactor(autoware_multi_object_tracker): add configurable tracker parameters (#9621 <https://github.com/autowarefoundation/autoware.universe/issues/9621>)
+     * refactor(autoware_multi_object_tracker): add configurable tracker parameters
+     * style(pre-commit): autofix
+     * refactor(autoware_multi_object_tracker): remove default values from parameter declarations
+     * refactor(autoware_multi_object_tracker): update schema file
+     * style(pre-commit): autofix
+     * Update perception/autoware_multi_object_tracker/src/processor/processor.cpp
+     * Update perception/autoware_multi_object_tracker/src/processor/processor.cpp
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+   * Contributors: Fumiya Watanabe, Taekjin LEE, Vishal Chauhan, jakor97, kobayu858
+Checksums-Sha1:
+ 9b1802e2d74a5ba328cce2da9647847027a15112 14079798 ros-humble-autoware-multi-object-tracker-dbgsym_0-2025.03.03.19.02_amd64.ddeb
+ 473dd1e1976d34c23c8e3e04bae302d2efaa1bf7 40879 ros-humble-autoware-multi-object-tracker_0-2025.03.03.19.02_amd64.buildinfo
+ 9cfa1701779af490ce4ff095c07a8b641eed2a8d 400700 ros-humble-autoware-multi-object-tracker_0-2025.03.03.19.02_amd64.deb
+Checksums-Sha256:
+ 0f43a3be090875a45e85ecb47e0bcdfbda01d3f3ab7a0f2ba1867f0276bb0ed7 14079798 ros-humble-autoware-multi-object-tracker-dbgsym_0-2025.03.03.19.02_amd64.ddeb
+ 62c119e929c8b9667523e030de4b99b97107993597b482c43263a6ac7ae34656 40879 ros-humble-autoware-multi-object-tracker_0-2025.03.03.19.02_amd64.buildinfo
+ 1ae7e9125998cd12be7b24542062538ee19cd0848a985b70380872739d6949b4 400700 ros-humble-autoware-multi-object-tracker_0-2025.03.03.19.02_amd64.deb
+Files:
+ 2e7b3a598a4e9d3d17a17ea55c63aa64 14079798 debug optional ros-humble-autoware-multi-object-tracker-dbgsym_0-2025.03.03.19.02_amd64.ddeb
+ d594232ab6ab37b4173856f6b3d313b9 40879 misc optional ros-humble-autoware-multi-object-tracker_0-2025.03.03.19.02_amd64.buildinfo
+ 66122603e9c0499be179f1c5404d21ce 400700 misc optional ros-humble-autoware-multi-object-tracker_0-2025.03.03.19.02_amd64.deb

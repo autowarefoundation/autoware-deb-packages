@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-path-sampler
+Binary: ros-humble-autoware-path-sampler
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.04.01.41
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime CLEMENT <maxime.clement@tier4.jp>
+Changed-By: Maxime CLEMENT <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-path-sampler - Package for the sampling-based path planner
+Changes:
+ ros-humble-autoware-path-sampler (0-2025.03.04.01.41) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(sampling_based_planner)!: tier4_debug_msgs changed to autoware_internal_debug_msgs in sampling_based_planner (#9916 <https://github.com/autowarefoundation/autoware.universe/issues/9916>)
+   * feat(motion_planning): use StringStamped in autoware_internal_debug_msgs (#9742 <https://github.com/autowarefoundation/autoware.universe/issues/9742>)
+     feat(motion planning): use StringStamped in autoware_internal_debug_msgs
+   * Contributors: Fumiya Watanabe, Takayuki Murooka, Vishal Chauhan
+Checksums-Sha1:
+ b996de631a03e009af605e708a347bbe31b717de 6266544 ros-humble-autoware-path-sampler-dbgsym_0-2025.03.04.01.41_amd64.ddeb
+ 36a026fe2403a1f2d4dd30dbc2389d90de9f1dba 41926 ros-humble-autoware-path-sampler_0-2025.03.04.01.41_amd64.buildinfo
+ 9010fd610f5af1555521f080e2ef7aa8d291bb23 227668 ros-humble-autoware-path-sampler_0-2025.03.04.01.41_amd64.deb
+Checksums-Sha256:
+ e4d2a4c9ca8ca5829dbf25c2c39d45b58b298c54695e8cda59175993fd4131f4 6266544 ros-humble-autoware-path-sampler-dbgsym_0-2025.03.04.01.41_amd64.ddeb
+ f7e28c9231a635533a65ea9b950fc815bc4f252b55f31ca8e6daf1f9de25d388 41926 ros-humble-autoware-path-sampler_0-2025.03.04.01.41_amd64.buildinfo
+ b9e7bedbbfcf8419ef405f49e10ad667737a76899b060509caed2f151cfbbf6a 227668 ros-humble-autoware-path-sampler_0-2025.03.04.01.41_amd64.deb
+Files:
+ 41a108f7a090319603757befc10906f6 6266544 debug optional ros-humble-autoware-path-sampler-dbgsym_0-2025.03.04.01.41_amd64.ddeb
+ 059210c4ef877b893f0d89e263909ed6 41926 misc optional ros-humble-autoware-path-sampler_0-2025.03.04.01.41_amd64.buildinfo
+ 7a4c85ea49528ac2b076ed4fc673f78b 227668 misc optional ros-humble-autoware-path-sampler_0-2025.03.04.01.41_amd64.deb

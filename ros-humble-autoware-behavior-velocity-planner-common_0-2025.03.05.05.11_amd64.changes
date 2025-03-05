@@ -1,0 +1,85 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-planner-common
+Binary: ros-humble-autoware-behavior-velocity-planner-common
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.05.05.11
+Distribution: jammy
+Urgency: high
+Maintainer: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Changed-By: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-planner-common - The autoware_behavior_velocity_planner_common package
+Changes:
+ ros-humble-autoware-behavior-velocity-planner-common (0-2025.03.05.05.11) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * chore(planning): move package directory for planning factor interface (#9948 <https://github.com/autowarefoundation/autoware.universe/issues/9948>)
+     * chore: add new package for planning factor interface
+     * chore(surround_obstacle_checker): update include file
+     * chore(obstacle_stop_planner): update include file
+     * chore(obstacle_cruise_planner): update include file
+     * chore(motion_velocity_planner): update include file
+     * chore(bpp): update include file
+     * chore(bvp-common): update include file
+     * chore(blind_spot): update include file
+     * chore(crosswalk): update include file
+     * chore(detection_area): update include file
+     * chore(intersection): update include file
+     * chore(no_drivable_area): update include file
+     * chore(no_stopping_area): update include file
+     * chore(occlusion_spot): update include file
+     * chore(run_out): update include file
+     * chore(speed_bump): update include file
+     * chore(stop_line): update include file
+     * chore(template_module): update include file
+     * chore(traffic_light): update include file
+     * chore(vtl): update include file
+     * chore(walkway): update include file
+     * chore(motion_utils): remove factor interface
+     ---------
+   * feat(behavior_velocity_planner)!: remove velocity_factor completely (#9943 <https://github.com/autowarefoundation/autoware.universe/issues/9943>)
+     * feat(behavior_velocity_planner)!: remove velocity_factor completely
+     * minimize diff
+     ---------
+   * feat(planning_factor)!: remove velocity_factor, steering_factor and introduce planning_factor (#9927 <https://github.com/autowarefoundation/autoware.universe/issues/9927>)
+     Co-authored-by: Satoshi OTA <mailto:44889564+satoshi-ota@users.noreply.github.com>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: satoshi-ota <mailto:satoshi.ota928@gmail.com>
+   * fix(behavior_velocity_planner_common): fix unregister process (#9913 <https://github.com/autowarefoundation/autoware.universe/issues/9913>)
+   * feat(behavior_velocity_planner): remove virtual traffic light dependency from behavior_velocity_planner and behavior_velocity_planner_common (#9746 <https://github.com/autowarefoundation/autoware.universe/issues/9746>)
+     * feat: remove-virtual-traffic-light-dependency-from-plugin-manager
+     * build passed
+     * fix test
+     * fix test
+     * fix
+     * fix typo
+     ---------
+   * refactor(behavior_velocity_planner_common): add behavior_velocity_rtc_interface and move RTC-related implementation (#9799 <https://github.com/autowarefoundation/autoware.universe/issues/9799>)
+     * split into planer_common and rtc_interface
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_planner_common/include/autoware/behavior_velocity_planner_common/scene_module_interface.hpp
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_rtc_interface/include/autoware/behavior_velocity_rtc_interface/scene_module_interface_with_rtc.hpp
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+     * fix
+     ---------
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+   * feat(behavior_velocity_planner): use XXXStamped in autoware_internal_debug_msgs (#9744 <https://github.com/autowarefoundation/autoware.universe/issues/9744>)
+     * feat(behavior_velocity_planner): use XXXStamped in autoware_internal_debug_msgs
+     * fix
+     ---------
+   * feat(behavior_velocity_planner): remove unnecessary tier4_api_msgs (#9692 <https://github.com/autowarefoundation/autoware.universe/issues/9692>)
+   * Contributors: Fumiya Watanabe, Mamoru Sobue, Satoshi OTA, Takayuki Murooka, Yuki TAKAGI
+Checksums-Sha1:
+ 174eba01ed14d50fff5d8c7b7ba92e8d14f53e55 5341918 ros-humble-autoware-behavior-velocity-planner-common-dbgsym_0-2025.03.05.05.11_amd64.ddeb
+ 1c531e3e088d0bb11c663eb03552533a9904e6e1 44607 ros-humble-autoware-behavior-velocity-planner-common_0-2025.03.05.05.11_amd64.buildinfo
+ 613b876190aa790459522993302b8d0ae92fecdf 135650 ros-humble-autoware-behavior-velocity-planner-common_0-2025.03.05.05.11_amd64.deb
+Checksums-Sha256:
+ ef3182a87e9d591845998f0efcb4eba459312e15f785d3f538a9a0c1f3b08f01 5341918 ros-humble-autoware-behavior-velocity-planner-common-dbgsym_0-2025.03.05.05.11_amd64.ddeb
+ 401e4548907760d5283cd4cdd9d74f664bfeb9527e6e7ea05804fab37d27d696 44607 ros-humble-autoware-behavior-velocity-planner-common_0-2025.03.05.05.11_amd64.buildinfo
+ d61f385a44c388bfc1e25155a677c266f6c9661e94d2a0a189415fd2cc7c2310 135650 ros-humble-autoware-behavior-velocity-planner-common_0-2025.03.05.05.11_amd64.deb
+Files:
+ 3bf64fa77ed6d134f81586a4af3024cd 5341918 debug optional ros-humble-autoware-behavior-velocity-planner-common-dbgsym_0-2025.03.05.05.11_amd64.ddeb
+ 7d80b3fc916cf76c87f01759dba28364 44607 misc optional ros-humble-autoware-behavior-velocity-planner-common_0-2025.03.05.05.11_amd64.buildinfo
+ 85bcf4c04cce2235e58fb0d827a05240 135650 misc optional ros-humble-autoware-behavior-velocity-planner-common_0-2025.03.05.05.11_amd64.deb

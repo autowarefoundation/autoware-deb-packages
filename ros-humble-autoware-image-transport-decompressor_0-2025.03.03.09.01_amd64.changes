@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-image-transport-decompressor
+Binary: ros-humble-autoware-image-transport-decompressor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.03.09.01
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-image-transport-decompressor - The image_transport_decompressor package
+Changes:
+ ros-humble-autoware-image-transport-decompressor (0-2025.03.03.09.01) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * fix(autoware_image_transport_decompressor): fix bugprone-branch-clone (#9724 <https://github.com/autowarefoundation/autoware.universe/issues/9724>)
+     fix: bugprone-error
+   * Contributors: Fumiya Watanabe, kobayu858
+Checksums-Sha1:
+ 5b308c375e451ac8c2e086b6dc195cff40217934 2424954 ros-humble-autoware-image-transport-decompressor-dbgsym_0-2025.03.03.09.01_amd64.ddeb
+ a55b964c4ccd8797b68ce5bb0a54365a195fcec7 27743 ros-humble-autoware-image-transport-decompressor_0-2025.03.03.09.01_amd64.buildinfo
+ e250ab062d1f59f13ac4f4abfc5167d29f924098 122142 ros-humble-autoware-image-transport-decompressor_0-2025.03.03.09.01_amd64.deb
+Checksums-Sha256:
+ 09bb29f37e639de421222f2935707b013c8b139d3ccd133f5fa29f4b44afe526 2424954 ros-humble-autoware-image-transport-decompressor-dbgsym_0-2025.03.03.09.01_amd64.ddeb
+ 14fe007a61fa90de9a716cbfd59a9a600e2d369bbc88cf06441a39d7564bde9a 27743 ros-humble-autoware-image-transport-decompressor_0-2025.03.03.09.01_amd64.buildinfo
+ 8aec54f5643cd900a711a5dfb82994d1358b42fe5928578f527b6e22c4cb577b 122142 ros-humble-autoware-image-transport-decompressor_0-2025.03.03.09.01_amd64.deb
+Files:
+ af4bfcf48da540a3e71e5fcec7710ea1 2424954 debug optional ros-humble-autoware-image-transport-decompressor-dbgsym_0-2025.03.03.09.01_amd64.ddeb
+ 45babacf3e8210facc91dff55b30f4b2 27743 misc optional ros-humble-autoware-image-transport-decompressor_0-2025.03.03.09.01_amd64.buildinfo
+ 415c61516f3009fc50b80aab5ba0fd0a 122142 misc optional ros-humble-autoware-image-transport-decompressor_0-2025.03.03.09.01_amd64.deb

@@ -1,0 +1,66 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-shape-estimation
+Binary: ros-humble-autoware-shape-estimation
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.05.02.19
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-shape-estimation - This package implements a shape estimation algorithm as a ROS 2 n
+Changes:
+ ros-humble-autoware-shape-estimation (0-2025.03.05.02.19) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_shape_estimation): tier4_debug_msgs chnaged to autoware_internal_debug_msgs in autoware_shape_estimation (#9897 <https://github.com/autowarefoundation/autoware.universe/issues/9897>)
+     feat: tier4_debug_msgs chnaged to autoware_internal_debug_msgs in files  perception/autoware_shape_estimation
+   * refactor(autoware_tensorrt_common): multi-TensorRT compatibility & tensorrt_common as unified lib for all perception components (#9762 <https://github.com/autowarefoundation/autoware.universe/issues/9762>)
+     * refactor(autoware_tensorrt_common): multi-TensorRT compatibility & tensorrt_common as unified lib for all perception components
+     * style(pre-commit): autofix
+     * style(autoware_tensorrt_common): linting
+     * style(autoware_lidar_centerpoint): typo
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * docs(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * fix(autoware_lidar_transfusion): reuse cast variable
+     * fix(autoware_tensorrt_common): remove deprecated inference API
+     * style(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * style(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * fix(autoware_tensorrt_common): const pointer
+     * fix(autoware_tensorrt_common): remove unused method declaration
+     * style(pre-commit): autofix
+     * refactor(autoware_tensorrt_common): readability
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+     * fix(autoware_tensorrt_common): return if layer not registered
+     * refactor(autoware_tensorrt_common): readability
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+     * fix(autoware_tensorrt_common): rename struct
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+   * fix(autoware_shape_estimation): fix bugprone-branch-clone (#9659 <https://github.com/autowarefoundation/autoware.universe/issues/9659>)
+     * fix: bugprone-error
+     * fix: fmt
+     * fix: pre-commit
+     * fix: pre-commit
+     ---------
+   * Contributors: Amadeusz Szymko, Fumiya Watanabe, Vishal Chauhan, kobayu858
+Checksums-Sha1:
+ 4c474e9884d80e47310cd3318471bd2634248365 5630776 ros-humble-autoware-shape-estimation-dbgsym_0-2025.03.05.02.19_amd64.ddeb
+ ce31f66f9912f2598add98b696762115998e2fc8 47688 ros-humble-autoware-shape-estimation_0-2025.03.05.02.19_amd64.buildinfo
+ b9fb2840adccf6dfebfedfa651ce9aef958c8d31 172058 ros-humble-autoware-shape-estimation_0-2025.03.05.02.19_amd64.deb
+Checksums-Sha256:
+ aae273ca909246331d6e2d8ea1864e392f235782c4d59634b1c337b27785c9f5 5630776 ros-humble-autoware-shape-estimation-dbgsym_0-2025.03.05.02.19_amd64.ddeb
+ f71ae6580dde8a5f750bfd387f92c5c3af82ce88222c1ebb7fa2bf5cd2337542 47688 ros-humble-autoware-shape-estimation_0-2025.03.05.02.19_amd64.buildinfo
+ 51aad3d41f3fc8334c615894e8f224667354956bf777b9f40759160703e0b6f1 172058 ros-humble-autoware-shape-estimation_0-2025.03.05.02.19_amd64.deb
+Files:
+ a8d0397f3a952ed6368213f2a73b1316 5630776 debug optional ros-humble-autoware-shape-estimation-dbgsym_0-2025.03.05.02.19_amd64.ddeb
+ 75754931c2a1343217bd1f2224884ee5 47688 misc optional ros-humble-autoware-shape-estimation_0-2025.03.05.02.19_amd64.buildinfo
+ 5a339bd8c739f9a3e410901ec7ea5e13 172058 misc optional ros-humble-autoware-shape-estimation_0-2025.03.05.02.19_amd64.deb

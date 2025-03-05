@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-external-cmd-selector
+Binary: ros-humble-autoware-external-cmd-selector
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.05.09.49
+Distribution: jammy
+Urgency: high
+Maintainer: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Changed-By: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-external-cmd-selector - The autoware_external_cmd_selector package
+Changes:
+ ros-humble-autoware-external-cmd-selector (0-2025.03.05.09.49) jammy; urgency=high
+Checksums-Sha1:
+ a65ba70182246ee488547880db31fe50178b8fe6 5593942 ros-humble-autoware-external-cmd-selector-dbgsym_0-2025.03.05.09.49_amd64.ddeb
+ 76c859fa3e44d47258a9e6be70e2272566ff4eb6 17241 ros-humble-autoware-external-cmd-selector_0-2025.03.05.09.49_amd64.buildinfo
+ 5a272ffc151b7734c761189257dfc112c1cbbfbe 222388 ros-humble-autoware-external-cmd-selector_0-2025.03.05.09.49_amd64.deb
+Checksums-Sha256:
+ b6c99adc0e7a097061da6ddf8130f20fa89f7fafa8e4b4712db378f03ce8e128 5593942 ros-humble-autoware-external-cmd-selector-dbgsym_0-2025.03.05.09.49_amd64.ddeb
+ fe9d6657386d2decbfb52c3451c7200bfafc922a49272aaa64b980e694278f3d 17241 ros-humble-autoware-external-cmd-selector_0-2025.03.05.09.49_amd64.buildinfo
+ f052418361ce76ff1ec67713d68b7cf8545f146f0a5413f6901cb5f71f03488c 222388 ros-humble-autoware-external-cmd-selector_0-2025.03.05.09.49_amd64.deb
+Files:
+ 12155039b493dca997230145d5fe39cd 5593942 debug optional ros-humble-autoware-external-cmd-selector-dbgsym_0-2025.03.05.09.49_amd64.ddeb
+ ba1450b18276a08374160b309c13b197 17241 misc optional ros-humble-autoware-external-cmd-selector_0-2025.03.05.09.49_amd64.buildinfo
+ a67cb6895cfa634ec93bc973af0ec5ab 222388 misc optional ros-humble-autoware-external-cmd-selector_0-2025.03.05.09.49_amd64.deb

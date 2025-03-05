@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-path-external-request-lane-change-module
+Binary: ros-humble-autoware-behavior-path-external-request-lane-change-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.04.23.55
+Distribution: jammy
+Urgency: high
+Maintainer: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Changed-By: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-path-external-request-lane-change-module - The autoware_behavior_path_external_request_lane_change_module pa
+Changes:
+ ros-humble-autoware-behavior-path-external-request-lane-change-module (0-2025.03.04.23.55) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * refactor(behavior_path_planner): common test functions (#9963 <https://github.com/autowarefoundation/autoware.universe/issues/9963>)
+     * feat: common test code in behavior_path_planner
+     * deal with other modules
+     * fix typo
+     * update
+     ---------
+   * feat(planning_factor)!: remove velocity_factor, steering_factor and introduce planning_factor (#9927 <https://github.com/autowarefoundation/autoware.universe/issues/9927>)
+     Co-authored-by: Satoshi OTA <mailto:44889564+satoshi-ota@users.noreply.github.com>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: satoshi-ota <mailto:satoshi.ota928@gmail.com>
+   * Contributors: Fumiya Watanabe, Mamoru Sobue, Takayuki Murooka
+Checksums-Sha1:
+ fe8b31c73869a29d927beff27c07cc9cbe6fb5b0 2505318 ros-humble-autoware-behavior-path-external-request-lane-change-module-dbgsym_0-2025.03.04.23.55_amd64.ddeb
+ e679bc9a3d44db243fa1023625e2b343556fafbc 50494 ros-humble-autoware-behavior-path-external-request-lane-change-module_0-2025.03.04.23.55_amd64.buildinfo
+ 437c14437b254d4a54a771d130c148c23f38517e 30284 ros-humble-autoware-behavior-path-external-request-lane-change-module_0-2025.03.04.23.55_amd64.deb
+Checksums-Sha256:
+ 35efb158e32300252ef43854e6a0a5c6bb5deeca7309e7d371c8e2ecc50ee813 2505318 ros-humble-autoware-behavior-path-external-request-lane-change-module-dbgsym_0-2025.03.04.23.55_amd64.ddeb
+ a8c4e66cfee379fece5df51c30aecf899ea2f756ae76ab2bab323fb0409106e2 50494 ros-humble-autoware-behavior-path-external-request-lane-change-module_0-2025.03.04.23.55_amd64.buildinfo
+ f341076d59f758b0b24cfd6df906a226103e257ca6bd6746cdf7939629351166 30284 ros-humble-autoware-behavior-path-external-request-lane-change-module_0-2025.03.04.23.55_amd64.deb
+Files:
+ 52cafcbc711a92f7178ed69bd9d44dfd 2505318 debug optional ros-humble-autoware-behavior-path-external-request-lane-change-module-dbgsym_0-2025.03.04.23.55_amd64.ddeb
+ 4aa959e63c526f1b54020a2b81d9b8a0 50494 misc optional ros-humble-autoware-behavior-path-external-request-lane-change-module_0-2025.03.04.23.55_amd64.buildinfo
+ 2e1f720823ed4a645f68a08a7c69eb60 30284 misc optional ros-humble-autoware-behavior-path-external-request-lane-change-module_0-2025.03.04.23.55_amd64.deb

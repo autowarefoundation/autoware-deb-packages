@@ -1,0 +1,134 @@
+Format: 1.8
+Date: Mon, 10 Feb 2025 00:00:00 -0000
+Source: ros-humble-autoware-iv-external-api-adaptor
+Binary: ros-humble-autoware-iv-external-api-adaptor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.41.0-2025.03.05.09.54
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-iv-external-api-adaptor - The autoware_iv_external_api_adaptor package
+Changes:
+ ros-humble-autoware-iv-external-api-adaptor (0.41.0-2025.03.05.09.54) jammy; urgency=high
+ .
+   * feat: rename autoware_component_interface_specs to autoware_component_interface_specs_universe (#130 <https://github.com/tier4/tier4_ad_api_adaptor/issues/130>)
+   * fix(external): fix old package name (#128 <https://github.com/tier4/tier4_ad_api_adaptor/issues/128>)
+     * fix(external): fix old package name
+     * fix: typo
+     ---------
+   * refactor(autoware_iv_external_api_adaptor): update component_interface_utils dependency (#127 <https://github.com/tier4/tier4_ad_api_adaptor/issues/127>)
+     * refactor(autoware_iv_external_api_adaptor): update component_interface_utils dependency
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * refactor(autoware_iv_external_api_adaptor): update component_interface_specs dependency (#126 <https://github.com/tier4/tier4_ad_api_adaptor/issues/126>)
+     * refactor(autoware_iv_external_api_adaptor): update component_interface_specs dependency
+     * shorten namespaces
+     * update includes
+     ---------
+   * feat!: change from autoware_auto_msgs to autoware_msgs (#115 <https://github.com/tier4/tier4_ad_api_adaptor/issues/115>)
+     * fix:autoware_planning_msgs
+     * feat(tier4_ad_api_adaptor): replace autoware_control_msg with autoware_control_msg
+     * feat(tier4_ad_api_adaptor): replace autoware_auto_system_msg with autoware_system_msg
+     * feat(tier4_ad_api_adaptor): replace autoware_auto_msgs with autoware_msgs
+     * feat: replace DetectedObjects and TrackedObjects messages to autoware_perception_msgs
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: jack.song <jack.song@autocore.ai>
+     Co-authored-by: NorahXiong <norah.xiong@autocore.ai>
+     Co-authored-by: liu cui <cynthia.liu@autocore.ai>
+     Co-authored-by: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * chore(rtc_controller): update module name (#114 <https://github.com/tier4/tier4_ad_api_adaptor/issues/114>)
+   * feat: localization initialization method (#112 <https://github.com/tier4/tier4_ad_api_adaptor/issues/112>)
+   * feat: add support auto mode status (#111 <https://github.com/tier4/tier4_ad_api_adaptor/issues/111>)
+     * feat: add support auto mode status
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * refactor(start_planner): rename pull out to start planner (#108 <https://github.com/tier4/tier4_ad_api_adaptor/issues/108>)
+   * build: use <buildtool_depend> for autoware_cmake (#103 <https://github.com/tier4/tier4_ad_api_adaptor/issues/103>)
+     * build: use <buildtool_depend> for autoware_cmake
+     * style(pre-commit): autofix
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: Kenji Miyake <mailto:31987104+kenji-miyake@users.noreply.github.com>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * refactor(behavior_path_planner): rename pull_over to goal_planner (#102 <https://github.com/tier4/tier4_ad_api_adaptor/issues/102>)
+     refactor: renaem pull_over to goal_planenr
+   * feat(behavior_velocity_planner::intersection): add occlusion detection feature (#100 <https://github.com/tier4/tier4_ad_api_adaptor/issues/100>)
+     add intersection occlusion
+   * feat: add rosbag_logging_mode (#98 <https://github.com/tier4/tier4_ad_api_adaptor/issues/98>)
+   * feat: change the external lane change name (#97 <https://github.com/tier4/tier4_ad_api_adaptor/issues/97>)
+   * feat(rtc_controller): add new module avoidance_by_lc (#89 <https://github.com/tier4/tier4_ad_api_adaptor/issues/89>)
+     * feat(rtc_controller): add new module avoidance_by_lc
+     * chore(internal): apply pre-commit
+     ---------
+   * feat(rtc_controller): add external request lane change module (#83 <https://github.com/tier4/tier4_ad_api_adaptor/issues/83>)
+   * feat: move launch files (#90 <https://github.com/tier4/tier4_ad_api_adaptor/issues/90>)
+   * feat: external api v0.4.0 (#79 <https://github.com/tier4/tier4_ad_api_adaptor/issues/79>)
+   * feat(rtc_controller): add auto mode api (#86 <https://github.com/tier4/tier4_ad_api_adaptor/issues/86>)
+     add auto mode api
+   * feat: apply mrm state to awapi (#82 <https://github.com/tier4/tier4_ad_api_adaptor/issues/82>)
+     * feat: apply mrm state
+     * feat: rename emergency state to mrm state
+   * feat: apply adapi routing (#75 <https://github.com/tier4/tier4_ad_api_adaptor/issues/75>)
+     * feat: apply adapi routing
+     * feat: add auto route clear
+     * Update autoware_iv_external_api_adaptor/src/converter/routing.hpp
+     Co-authored-by: Kah Hooi Tan <mailto:41041286+tkhmy@users.noreply.github.com>
+     Co-authored-by: Kah Hooi Tan <mailto:41041286+tkhmy@users.noreply.github.com>
+   * docs: fix url (#78 <https://github.com/tier4/tier4_ad_api_adaptor/issues/78>)
+   * refactor!: remove tier4 control mode msg (#60 <https://github.com/tier4/tier4_ad_api_adaptor/issues/60>)
+     * remove t4-auto message converter for ControlMode
+     * fix: keep the interface
+     Co-authored-by: Takamasa Horibe <mailto:horibe.takamasa@gmail.com>
+   * feat: apply adapi initial pose (#69 <https://github.com/tier4/tier4_ad_api_adaptor/issues/69>)
+     * feat: apply adapi initial pose
+     * feat: overwrite covariance for backward compatibility
+   * chore: use autoware_cmake (#71 <https://github.com/tier4/tier4_ad_api_adaptor/issues/71>)
+   * fix(rtc_controller): fix RTC name space (#61 <https://github.com/tier4/tier4_ad_api_adaptor/issues/61>)
+   * feat(rtc_controller): add_finish_distance (#64 <https://github.com/tier4/tier4_ad_api_adaptor/issues/64>)
+   * fix: change initial pose timeout (#65 <https://github.com/tier4/tier4_ad_api_adaptor/issues/65>)
+   * feat: change version to 0.2.1 (#57 <https://github.com/tier4/tier4_ad_api_adaptor/issues/57>)
+   * feature: change error code for engage in driving (#52 <https://github.com/tier4/tier4_ad_api_adaptor/issues/52>)
+   * fix: rtc distance (#56 <https://github.com/tier4/tier4_ad_api_adaptor/issues/56>)
+     * fix distance value
+     * temp fix
+     * clean
+     * delete comment
+     * add comment
+     Co-authored-by: khtan <mailto:tkh.my.p@gmail.com>
+   * feat: add localization score adapter (#54 <https://github.com/tier4/tier4_ad_api_adaptor/issues/54>)
+     * add localization score relay node
+     * change output topic name
+     * Delete commented out codes.
+     * fixed typo.
+   * fix: remove unneeded namespace (#53 <https://github.com/tier4/tier4_ad_api_adaptor/issues/53>)
+     remove unneeded namespace
+   * refactor: refactor rtc adaptor (#49 <https://github.com/tier4/tier4_ad_api_adaptor/issues/49>)
+     * fix client crash node error
+     * refractor rtc controller
+     * refactor service
+     * fix syntax
+   * feat: add external api adaptor for calibration status (#43 <https://github.com/tier4/tier4_ad_api_adaptor/issues/43>)
+     * (editting) save current work
+     * fix bug and run pre-commit
+     * pull the latest tier4/universe
+     * pull the latest tier4/univerese
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Kah Hooi Tan, Kosuke Takeuchi, Mamoru Sobue, Ryohsuke Mitsudome, Satoshi OTA, Takagi, Isamu, Takayuki Murooka, Takeshi Miura, TakumiKozaka-T4, Vincent Richard, Yukihiro Saito, hidenaga
+Checksums-Sha1:
+ e477c6558f53d922a6e64b61f65c1a201668cc42 33593474 ros-humble-autoware-iv-external-api-adaptor-dbgsym_0.41.0-2025.03.05.09.54_amd64.ddeb
+ ff6dbf34d90483fa6a1bfd901d3f2571173cac89 17908 ros-humble-autoware-iv-external-api-adaptor_0.41.0-2025.03.05.09.54_amd64.buildinfo
+ 35b44304e13b92fd7b587148a6b687dfc2cf0e2c 855994 ros-humble-autoware-iv-external-api-adaptor_0.41.0-2025.03.05.09.54_amd64.deb
+Checksums-Sha256:
+ 008622fe89139ccc7ea482e0657eb57d69678f04a430d41792cfe3f5c3b0bd10 33593474 ros-humble-autoware-iv-external-api-adaptor-dbgsym_0.41.0-2025.03.05.09.54_amd64.ddeb
+ be3ee99c45706209a3ff54fd35ea9467384041e8d5329a6fc92ccdb171bab3f0 17908 ros-humble-autoware-iv-external-api-adaptor_0.41.0-2025.03.05.09.54_amd64.buildinfo
+ 411f179ce253eafe2ce974b1721f0c289e84db8dd98aa8f3baed6fbe5e4d2312 855994 ros-humble-autoware-iv-external-api-adaptor_0.41.0-2025.03.05.09.54_amd64.deb
+Files:
+ d3c4c92b113ba62b0a723e5ec9ff67dc 33593474 debug optional ros-humble-autoware-iv-external-api-adaptor-dbgsym_0.41.0-2025.03.05.09.54_amd64.ddeb
+ 9b8efeab390de381add0fe8dbb4075c1 17908 misc optional ros-humble-autoware-iv-external-api-adaptor_0.41.0-2025.03.05.09.54_amd64.buildinfo
+ 7c1fb7f2df55fee5156b74873152b23e 855994 misc optional ros-humble-autoware-iv-external-api-adaptor_0.41.0-2025.03.05.09.54_amd64.deb

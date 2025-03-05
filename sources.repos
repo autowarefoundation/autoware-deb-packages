@@ -2,11 +2,11 @@ repositories:
   core/autoware.core:
     type: git
     url: https://github.com/autowarefoundation/autoware.core.git
-    version: 3f26d5245f5c161fc255a8c707cfdaca5c7c9710
+    version: d3f360f1ad7711c7dc62aa7fbf8c5fa83b6e1560
   core/autoware_adapi_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
-    version: f895313b0ecad49477b07ea53c0f625670cbc482
+    version: 1.7.0
   core/autoware_cmake:
     type: git
     url: https://github.com/autowarefoundation/autoware_cmake.git
@@ -14,7 +14,7 @@ repositories:
   core/autoware_internal_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_internal_msgs.git
-    version: 30056746f25fba8b63da2c46c1709fdcc4085636
+    version: 1.6.0
   core/autoware_lanelet2_extension:
     type: git
     url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
@@ -26,11 +26,11 @@ repositories:
   core/autoware_utils:
     type: git
     url: https://github.com/autowarefoundation/autoware_utils.git
-    version: 1.0.0
+    version: 1.1.0
   launcher/autoware_launch:
     type: git
     url: https://github.com/autowarefoundation/autoware_launch.git
-    version: 19d30d4a681aa12cae72b23958279e286959b3ab
+    version: ea7b92d7338afd4282114742f98bf109ce474806
   param/autoware_individual_params:
     type: git
     url: https://github.com/autowarefoundation/autoware_individual_params.git
@@ -58,23 +58,23 @@ repositories:
   sensor_kit/awsim_labs_sensor_kit_launch:
     type: git
     url: https://github.com/autowarefoundation/awsim_labs_sensor_kit_launch.git
-    version: 01570ac6b5e748efdfb0e58d0fcb544b1c34b160
+    version: 0408a820fc93bee269b16cdb7ee13e5d0b3e8625
   sensor_kit/external/awsim_sensor_kit_launch:
     type: git
     url: https://github.com/tier4/awsim_sensor_kit_launch.git
-    version: 33ef7eec8951c6466cb2c12209275e59837f3a3e
+    version: 9a2bec455ae3c4616b5e52bf7062ceeced82fbbf
   sensor_kit/sample_sensor_kit_launch:
     type: git
     url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
-    version: f0b6ef48c08885377e18565e56a3820a907d7f76
+    version: 561034ec56328329ade3a52e1ebbed5db70cdc06
   sensor_kit/single_lidar_sensor_kit_launch:
     type: git
     url: https://github.com/autowarefoundation/single_lidar_sensor_kit_launch.git
-    version: df12295d27bd2b7b2ed8c70502a3223471fab135
+    version: bfbf37b50481e9173c5888f9739f4eabaa45d10e
   universe/autoware.universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
-    version: b3c69b465c34e155f6a95f9656d4f4dc7bcb2ecd
+    version: a11a3eee0325792e924349809ec7d80ed435f003
   universe/external/eagleye:
     type: git
     url: https://github.com/MapIV/eagleye.git
@@ -106,11 +106,11 @@ repositories:
   universe/external/tier4_ad_api_adaptor:
     type: git
     url: https://github.com/tier4/tier4_ad_api_adaptor.git
-    version: 4dbe2eda72c637215c38ec1c1562d2a979b37565
+    version: 0.41.0
   universe/external/tier4_autoware_msgs:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
-    version: e6d504b0bf4fc80d994a92fc7a783bdca11ac8d0
+    version: v0.41.0
   universe/external/trt_batched_nms:
     type: git
     url: https://github.com/autowarefoundation/trt_batched_nms.git

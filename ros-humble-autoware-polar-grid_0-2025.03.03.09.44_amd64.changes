@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-polar-grid
+Binary: ros-humble-autoware-polar-grid
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.03.09.44
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-polar-grid - The autoware_polar_grid package
+Changes:
+ ros-humble-autoware-polar-grid (0-2025.03.03.09.44) jammy; urgency=high
+Checksums-Sha1:
+ 3d62bd27c8aaef2ff81a4664d4767a69eee7c54b 508790 ros-humble-autoware-polar-grid-dbgsym_0-2025.03.03.09.44_amd64.ddeb
+ 1ce1810295e20ca90823125ae04e05f53492e088 24021 ros-humble-autoware-polar-grid_0-2025.03.03.09.44_amd64.buildinfo
+ 339a3775ea863922d3bf82590c928bd40ff7d477 40834 ros-humble-autoware-polar-grid_0-2025.03.03.09.44_amd64.deb
+Checksums-Sha256:
+ d640167f1c626194731660b8b32c1d2df3ff5a9d7fd9fec7ea33001a2ae9a160 508790 ros-humble-autoware-polar-grid-dbgsym_0-2025.03.03.09.44_amd64.ddeb
+ eb96f5534fb68cd7abc513230145c49da969badbab7a36680044192380115c26 24021 ros-humble-autoware-polar-grid_0-2025.03.03.09.44_amd64.buildinfo
+ 48fd7cbca3254b97bb8d36edd1b602a5f7ced25704ce9d09a90db56d1bd90311 40834 ros-humble-autoware-polar-grid_0-2025.03.03.09.44_amd64.deb
+Files:
+ 2068dd1de0f9bf7d62f09a7230b7704a 508790 debug optional ros-humble-autoware-polar-grid-dbgsym_0-2025.03.03.09.44_amd64.ddeb
+ a4f24b55554a85c5e0082a84c59e42bd 24021 misc optional ros-humble-autoware-polar-grid_0-2025.03.03.09.44_amd64.buildinfo
+ 5742c2072d8b58678cfa6b016d73bdfe 40834 misc optional ros-humble-autoware-polar-grid_0-2025.03.03.09.44_amd64.deb

@@ -1,0 +1,43 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-test-utils
+Binary: ros-humble-autoware-test-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.04.14.31
+Distribution: jammy
+Urgency: high
+Maintainer: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Changed-By: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Description:
+ ros-humble-autoware-test-utils - ROS 2 node for testing interface of the nodes in planning module
+Changes:
+ ros-humble-autoware-test-utils (0-2025.03.04.14.31) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_component_interface_specs_universe!): rename package (#9753 <https://github.com/autowarefoundation/autoware.universe/issues/9753>)
+   * feat(autoware_planning_test_manager): remove dependency of tier4_planning_msgs::msg::LateralOffset (#9967 <https://github.com/autowarefoundation/autoware.universe/issues/9967>)
+     * feat(autoware_planning_test_manager): remove dependency of tier4_planning_msgs::msg::LateralOffset
+     * fix
+     ---------
+   * chore(autoware_test_utils): move rviz config to autoware_launch (#9925 <https://github.com/autowarefoundation/autoware.universe/issues/9925>)
+   * feat(autoware_test_utils): add visualization and yaml dumper for PathWithLaneId (#9841 <https://github.com/autowarefoundation/autoware.universe/issues/9841>)
+   * chore(autoware_test_utils): update test map (#9664 <https://github.com/autowarefoundation/autoware.universe/issues/9664>)
+   * feat(autoware_test_utils): add visualization (#9603 <https://github.com/autowarefoundation/autoware.universe/issues/9603>)
+   * refactor(autoware_test_utils): enhance makeMapBinMsg to accept package name and map filename parameters (#9617 <https://github.com/autowarefoundation/autoware.universe/issues/9617>)
+     * feat: enhance makeMapBinMsg to accept package name and map filename parameters
+     * feat: set default package name to 'autoware_test_utils' in makeMapBinMsg and related functions
+     ---------
+   * Contributors: Fumiya Watanabe, Kyoichi Sugahara, Mamoru Sobue, Ryohsuke Mitsudome, Takayuki Murooka
+Checksums-Sha1:
+ e9115b5cd19eff67c68e19c1c9e0f71654a9c364 11804108 ros-humble-autoware-test-utils-dbgsym_0-2025.03.04.14.31_amd64.ddeb
+ d49daa659009196795bb993f28806b7ffda9af5d 43484 ros-humble-autoware-test-utils_0-2025.03.04.14.31_amd64.buildinfo
+ 0c6d36fe6041c2f5c207db97c003cb61e8280fba 16735038 ros-humble-autoware-test-utils_0-2025.03.04.14.31_amd64.deb
+Checksums-Sha256:
+ ba8afc33f449f04143aa11ed1623d5e4045079154635d6b1a95ad7d7536d47fa 11804108 ros-humble-autoware-test-utils-dbgsym_0-2025.03.04.14.31_amd64.ddeb
+ eac4a3039574176bf609488cb09f43a0e6b1d15a67660b8bfc86bbc5b6b0a0f4 43484 ros-humble-autoware-test-utils_0-2025.03.04.14.31_amd64.buildinfo
+ 7852fa275213c8ab8ceb8697999d4206be218df1fa619f99dec4b1c88fad4034 16735038 ros-humble-autoware-test-utils_0-2025.03.04.14.31_amd64.deb
+Files:
+ 70ca6f419f4137cda546c5c436ec9103 11804108 debug optional ros-humble-autoware-test-utils-dbgsym_0-2025.03.04.14.31_amd64.ddeb
+ 65874e5899c025dc870d07a8b249f2fd 43484 misc optional ros-humble-autoware-test-utils_0-2025.03.04.14.31_amd64.buildinfo
+ caadf580fd81641e5af477ca0372d2db 16735038 misc optional ros-humble-autoware-test-utils_0-2025.03.04.14.31_amd64.deb

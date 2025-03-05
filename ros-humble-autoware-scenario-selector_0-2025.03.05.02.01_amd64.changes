@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-scenario-selector
+Binary: ros-humble-autoware-scenario-selector
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.05.02.01
+Distribution: jammy
+Urgency: high
+Maintainer: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Changed-By: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-scenario-selector - The autoware_scenario_selector ROS 2 package
+Changes:
+ ros-humble-autoware-scenario-selector (0-2025.03.05.02.01) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_scenario_selector): tier4_debug_msgs changed to autoware_internal_debug_msgs in autoware_scenario_selector (#9914 <https://github.com/autowarefoundation/autoware.universe/issues/9914>)
+     feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files  planning/autoware_scenario_selector
+   * fix(autoware_scenario_selector): fix bugprone-branch-clone (#9699 <https://github.com/autowarefoundation/autoware.universe/issues/9699>)
+     fix: bugprone-error
+   * Contributors: Fumiya Watanabe, Vishal Chauhan, kobayu858
+Checksums-Sha1:
+ 9f78bd2f6e68aff43e29046a23932028e3570d9a 8052526 ros-humble-autoware-scenario-selector-dbgsym_0-2025.03.05.02.01_amd64.ddeb
+ 12433b642c10fd476cea2f2c6aaf7dd15eba5311 43869 ros-humble-autoware-scenario-selector_0-2025.03.05.02.01_amd64.buildinfo
+ ba565f8a6ea3642042b19371147680f15f39c52e 269326 ros-humble-autoware-scenario-selector_0-2025.03.05.02.01_amd64.deb
+Checksums-Sha256:
+ cffb69bd290c84e9ebea75ff303079e17b47acc8fe9101b4262fd765eb29b96f 8052526 ros-humble-autoware-scenario-selector-dbgsym_0-2025.03.05.02.01_amd64.ddeb
+ 2337b5fb71ab2e73335b81eba0324e57a5e024643be0afe7cf991bcc9b38b45a 43869 ros-humble-autoware-scenario-selector_0-2025.03.05.02.01_amd64.buildinfo
+ a1ed56ba90732ab14ac867b2ca3686c37d99f36cd589812ef3e75e3e80c39eb0 269326 ros-humble-autoware-scenario-selector_0-2025.03.05.02.01_amd64.deb
+Files:
+ 12f9fe050dcd26ee254db37388e39960 8052526 debug optional ros-humble-autoware-scenario-selector-dbgsym_0-2025.03.05.02.01_amd64.ddeb
+ b451562e47b94c83ca9791a946edbcae 43869 misc optional ros-humble-autoware-scenario-selector_0-2025.03.05.02.01_amd64.buildinfo
+ e147d65a1795ac02af462c599fe71dd5 269326 misc optional ros-humble-autoware-scenario-selector_0-2025.03.05.02.01_amd64.deb

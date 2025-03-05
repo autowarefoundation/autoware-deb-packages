@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-pose-estimator-arbiter
+Binary: ros-humble-autoware-pose-estimator-arbiter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.03.22.13
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-pose-estimator-arbiter - The arbiter of multiple pose estimators
+Changes:
+ ros-humble-autoware-pose-estimator-arbiter (0-2025.03.03.22.13) jammy; urgency=high
+Checksums-Sha1:
+ 7b34d5545409e76f3220a0607e7735655f8f82e0 6863858 ros-humble-autoware-pose-estimator-arbiter-dbgsym_0-2025.03.03.22.13_amd64.ddeb
+ 97feff3390803df088533540201d4ca448042417 42568 ros-humble-autoware-pose-estimator-arbiter_0-2025.03.03.22.13_amd64.buildinfo
+ 22f5e9e0fbdae004a57c129943eee2994d68a9af 256376 ros-humble-autoware-pose-estimator-arbiter_0-2025.03.03.22.13_amd64.deb
+Checksums-Sha256:
+ 6094e796eaf68da8b0a1ce7a8bff052783fcda62b36e8538ed9f6b8fa6a52ad3 6863858 ros-humble-autoware-pose-estimator-arbiter-dbgsym_0-2025.03.03.22.13_amd64.ddeb
+ 6148828b108e19422ae5a5df7a0d7790f2847cd2ed0098a780433a1c476a35e7 42568 ros-humble-autoware-pose-estimator-arbiter_0-2025.03.03.22.13_amd64.buildinfo
+ 5df379f31d168559b31e681287667fdd1cb3f1d9fe83f0fdcf57232937a2a799 256376 ros-humble-autoware-pose-estimator-arbiter_0-2025.03.03.22.13_amd64.deb
+Files:
+ 95793ac5d15a4032f902886633a85658 6863858 debug optional ros-humble-autoware-pose-estimator-arbiter-dbgsym_0-2025.03.03.22.13_amd64.ddeb
+ f655963e57a267cd07bddb146cf146ad 42568 misc optional ros-humble-autoware-pose-estimator-arbiter_0-2025.03.03.22.13_amd64.buildinfo
+ f6f2bb8abfd68617b197b8a4d063acb4 256376 misc optional ros-humble-autoware-pose-estimator-arbiter_0-2025.03.03.22.13_amd64.deb

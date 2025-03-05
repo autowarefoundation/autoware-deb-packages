@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-vehicle-cmd-gate
+Binary: ros-humble-autoware-vehicle-cmd-gate
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.05.04.12
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-vehicle-cmd-gate - The vehicle_cmd_gate package
+Changes:
+ ros-humble-autoware-vehicle-cmd-gate (0-2025.03.05.04.12) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_vehicle_cmd_gate)!: tier4-debug_msgs changed to autoware_internal_debug_msgs in autoware_vehicle_cmd_gate (#9856 <https://github.com/autowarefoundation/autoware.universe/issues/9856>)
+   * feat(autoware_component_interface_specs_universe!): rename package (#9753 <https://github.com/autowarefoundation/autoware.universe/issues/9753>)
+   * Contributors: Fumiya Watanabe, Ryohsuke Mitsudome, Vishal Chauhan
+Checksums-Sha1:
+ bbd95ebc38541e1782b3898ddc3e5187687583ec 14760702 ros-humble-autoware-vehicle-cmd-gate-dbgsym_0-2025.03.05.04.12_amd64.ddeb
+ f41e6d9832d516d2d5c6eadb80524f3283a36894 41695 ros-humble-autoware-vehicle-cmd-gate_0-2025.03.05.04.12_amd64.buildinfo
+ ef3f6e5f12e3035775fa9507b89ed5eba297f3b9 505348 ros-humble-autoware-vehicle-cmd-gate_0-2025.03.05.04.12_amd64.deb
+Checksums-Sha256:
+ 85a585136b0a35972a1483901fc682916af9a9b4ba487e2d34e98d4b634f2313 14760702 ros-humble-autoware-vehicle-cmd-gate-dbgsym_0-2025.03.05.04.12_amd64.ddeb
+ 2eea613e772d0760befd306269c21db4e2f7f5dfad35a308e0384c8f582e7d4c 41695 ros-humble-autoware-vehicle-cmd-gate_0-2025.03.05.04.12_amd64.buildinfo
+ e7a4cae9521aab7e08e61dbb9423296fe4a9ad9a1bf5ffd1f0162309ef04151f 505348 ros-humble-autoware-vehicle-cmd-gate_0-2025.03.05.04.12_amd64.deb
+Files:
+ d546790313c528f53f6be8e2cbb4a9fd 14760702 debug optional ros-humble-autoware-vehicle-cmd-gate-dbgsym_0-2025.03.05.04.12_amd64.ddeb
+ 1ebbe33070aac46056b7eea08ace267d 41695 misc optional ros-humble-autoware-vehicle-cmd-gate_0-2025.03.05.04.12_amd64.buildinfo
+ 05943960cf05cf8d11b1eadda935c9b6 505348 misc optional ros-humble-autoware-vehicle-cmd-gate_0-2025.03.05.04.12_amd64.deb

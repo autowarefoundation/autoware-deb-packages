@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-traffic-light-arbiter
+Binary: ros-humble-autoware-traffic-light-arbiter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.05.03.16
+Distribution: jammy
+Urgency: high
+Maintainer: Kenzo Lobos-Tsunekawa <kenzo.lobos@tier4.jp>
+Changed-By: Kenzo Lobos-Tsunekawa <kenzo.lobos@tier4.jp>
+Description:
+ ros-humble-autoware-traffic-light-arbiter - The autoware_traffic_light_arbiter package
+Changes:
+ ros-humble-autoware-traffic-light-arbiter (0-2025.03.05.03.16) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_traffic_light_arbiter): add current time validation (#9747 <https://github.com/autowarefoundation/autoware.universe/issues/9747>)
+     * add current time validation
+     * style(pre-commit): autofix
+     * change ros parameter name
+     * style(pre-commit): autofix
+     * add validation with absolute function
+     * add timestamp of topic in test
+     * fix ci error
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Fumiya Watanabe, Masato Saeki
+Checksums-Sha1:
+ a1364c508d63361dcde69ce5286994cbf0231926 4140112 ros-humble-autoware-traffic-light-arbiter-dbgsym_0-2025.03.05.03.16_amd64.ddeb
+ 0bdaed647255a4d03e6361125fc8638ca23dc418 43630 ros-humble-autoware-traffic-light-arbiter_0-2025.03.05.03.16_amd64.buildinfo
+ 2eefd8a9ef38e8b57e4bbbc8a11e867480736ce3 149782 ros-humble-autoware-traffic-light-arbiter_0-2025.03.05.03.16_amd64.deb
+Checksums-Sha256:
+ fcb52274fdbfe33dd6ee4d501db3856c575fc5960aa6e7ee4c28b7aa465a3733 4140112 ros-humble-autoware-traffic-light-arbiter-dbgsym_0-2025.03.05.03.16_amd64.ddeb
+ cac1dd54c564d421e3919fa4edbab5ba9fd3159b788ef91b4996d34a45a6e405 43630 ros-humble-autoware-traffic-light-arbiter_0-2025.03.05.03.16_amd64.buildinfo
+ d09d0945551e05f38468669b339cec33d1a0f9860c702243ae47a5153692f553 149782 ros-humble-autoware-traffic-light-arbiter_0-2025.03.05.03.16_amd64.deb
+Files:
+ c54bdbab8330a1c6da6df0528bf35802 4140112 debug optional ros-humble-autoware-traffic-light-arbiter-dbgsym_0-2025.03.05.03.16_amd64.ddeb
+ e5d2c1c331d36c1c974bb6544f9439e6 43630 misc optional ros-humble-autoware-traffic-light-arbiter_0-2025.03.05.03.16_amd64.buildinfo
+ 231b17a94757b9b54abb265d2baf81ca 149782 misc optional ros-humble-autoware-traffic-light-arbiter_0-2025.03.05.03.16_amd64.deb

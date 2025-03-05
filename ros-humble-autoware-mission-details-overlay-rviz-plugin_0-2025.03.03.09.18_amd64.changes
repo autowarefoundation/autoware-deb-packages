@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-mission-details-overlay-rviz-plugin
+Binary: ros-humble-autoware-mission-details-overlay-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.03.09.18
+Distribution: jammy
+Urgency: high
+Maintainer: Ahmed Ebrahim <ahmed.ebrahim@leodrive.ai>
+Changed-By: Ahmed Ebrahim <ahmed.ebrahim@leodrive.ai>
+Description:
+ ros-humble-autoware-mission-details-overlay-rviz-plugin - RViz2 plugin for 2D overlays for mission details in the 3D view.
+Changes:
+ ros-humble-autoware-mission-details-overlay-rviz-plugin (0-2025.03.03.09.18) jammy; urgency=high
+Checksums-Sha1:
+ 9c0fcf350211fc57c303fdfe80d867624f5b874a 3136546 ros-humble-autoware-mission-details-overlay-rviz-plugin-dbgsym_0-2025.03.03.09.18_amd64.ddeb
+ 6c77b965558af26a201364faff9396c6630732a2 29537 ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.03.03.09.18_amd64.buildinfo
+ 4b4a595e93b1c8bcbd9a705fc24241cb4ebb4f3a 186834 ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.03.03.09.18_amd64.deb
+Checksums-Sha256:
+ 3bb0689f0fdc201789d343e17e4a8860a17cd5357979f746f3d080521b9859d7 3136546 ros-humble-autoware-mission-details-overlay-rviz-plugin-dbgsym_0-2025.03.03.09.18_amd64.ddeb
+ cd0f11cf912cc5f2c3ae0e574553db794fe8758f339e63126fb6092ca47d4dba 29537 ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.03.03.09.18_amd64.buildinfo
+ d9545ef699bf652468219c30ded7c1195450a6539aad3e3239e2cb45cca5f429 186834 ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.03.03.09.18_amd64.deb
+Files:
+ fdd274666f1a3f863ae69c63d26964e7 3136546 debug optional ros-humble-autoware-mission-details-overlay-rviz-plugin-dbgsym_0-2025.03.03.09.18_amd64.ddeb
+ 580bc180ff43c04994f79c6a5e6a01c7 29537 misc optional ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.03.03.09.18_amd64.buildinfo
+ 474ccae063d23e96e027854fff52aadd 186834 misc optional ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.03.03.09.18_amd64.deb

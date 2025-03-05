@@ -169,27 +169,12 @@ autoware_time_utils:
 autoware_topic_state_monitor:
   ubuntu:
   - ros-humble-autoware-topic-state-monitor
+autoware_trajectory:
+  ubuntu:
+  - ros-humble-autoware-trajectory
 autoware_twist2accel:
   ubuntu:
   - ros-humble-autoware-twist2accel
-autoware_utils:
-  ubuntu:
-  - ros-humble-autoware-utils
-autoware_lanelet2_extension:
-  ubuntu:
-  - ros-humble-autoware-lanelet2-extension
-autoware_geography_utils:
-  ubuntu:
-  - ros-humble-autoware-geography-utils
-autoware_lanelet2_extension_python:
-  ubuntu:
-  - ros-humble-autoware-lanelet2-extension-python
-autoware_lanelet2_map_visualizer:
-  ubuntu:
-  - ros-humble-autoware-lanelet2-map-visualizer
-autoware_map_tf_generator:
-  ubuntu:
-  - ros-humble-autoware-map-tf-generator
 autoware_v2x_msgs:
   ubuntu:
   - ros-humble-autoware-v2x-msgs
@@ -199,6 +184,51 @@ autoware_vehicle_door_simulator:
 autoware_vehicle_msgs:
   ubuntu:
   - ros-humble-autoware-vehicle-msgs
+autoware_component_interface_specs:
+  ubuntu:
+  - ros-humble-autoware-component-interface-specs
+autoware_utils:
+  ubuntu:
+  - ros-humble-autoware-utils
+autoware_ekf_localizer:
+  ubuntu:
+  - ros-humble-autoware-ekf-localizer
+autoware_interpolation:
+  ubuntu:
+  - ros-humble-autoware-interpolation
+autoware_lanelet2_extension:
+  ubuntu:
+  - ros-humble-autoware-lanelet2-extension
+autoware_geography_utils:
+  ubuntu:
+  - ros-humble-autoware-geography-utils
+autoware_gnss_poser:
+  ubuntu:
+  - ros-humble-autoware-gnss-poser
+autoware_lanelet2_extension_python:
+  ubuntu:
+  - ros-humble-autoware-lanelet2-extension-python
+autoware_lanelet2_map_visualizer:
+  ubuntu:
+  - ros-humble-autoware-lanelet2-map-visualizer
+autoware_map_tf_generator:
+  ubuntu:
+  - ros-humble-autoware-map-tf-generator
+autoware_motion_utils:
+  ubuntu:
+  - ros-humble-autoware-motion-utils
+autoware_objects_of_interest_marker_interface:
+  ubuntu:
+  - ros-humble-autoware-objects-of-interest-marker-interface
+autoware_pose_covariance_modifier:
+  ubuntu:
+  - ros-humble-autoware-pose-covariance-modifier
+autoware_vehicle_info_utils:
+  ubuntu:
+  - ros-humble-autoware-vehicle-info-utils
+autoware_path_generator:
+  ubuntu:
+  - ros-humble-autoware-path-generator
 autoware_vehicle_velocity_converter:
   ubuntu:
   - ros-humble-autoware-vehicle-velocity-converter
@@ -406,6 +436,9 @@ tier4_localization_msgs:
 autoware_map_height_fitter:
   ubuntu:
   - ros-humble-autoware-map-height-fitter
+tier4_localization_rviz_plugin:
+  ubuntu:
+  - ros-humble-tier4-localization-rviz-plugin
 tier4_map_launch:
   ubuntu:
   - ros-humble-tier4-map-launch
@@ -448,21 +481,24 @@ autoware_external_velocity_limit_selector:
 autoware_overlay_rviz_plugin:
   ubuntu:
   - ros-humble-autoware-overlay-rviz-plugin
-autoware_trajectory:
-  ubuntu:
-  - ros-humble-autoware-trajectory
 autoware_universe_utils:
   ubuntu:
   - ros-humble-autoware-universe-utils
+autoware_collision_detector:
+  ubuntu:
+  - ros-humble-autoware-collision-detector
+autoware_control_performance_analysis:
+  ubuntu:
+  - ros-humble-autoware-control-performance-analysis
 autoware_crosswalk_traffic_light_estimator:
   ubuntu:
   - ros-humble-autoware-crosswalk-traffic-light-estimator
-autoware_ekf_localizer:
-  ubuntu:
-  - ros-humble-autoware-ekf-localizer
 autoware_euclidean_cluster:
   ubuntu:
   - ros-humble-autoware-euclidean-cluster
+autoware_freespace_planning_algorithms:
+  ubuntu:
+  - ros-humble-autoware-freespace-planning-algorithms
 autoware_goal_distance_calculator:
   ubuntu:
   - ros-humble-autoware-goal-distance-calculator
@@ -481,9 +517,6 @@ autoware_image_diagnostics:
 autoware_imu_corrector:
   ubuntu:
   - ros-humble-autoware-imu-corrector
-autoware_interpolation:
-  ubuntu:
-  - ros-humble-autoware-interpolation
 autoware_joy_controller:
   ubuntu:
   - ros-humble-autoware-joy-controller
@@ -508,9 +541,6 @@ autoware_localization_error_monitor:
 autoware_localization_evaluator:
   ubuntu:
   - ros-humble-autoware-localization-evaluator
-autoware_motion_utils:
-  ubuntu:
-  - ros-humble-autoware-motion-utils
 autoware_map_based_prediction:
   ubuntu:
   - ros-humble-autoware-map-based-prediction
@@ -538,12 +568,15 @@ autoware_object_merger:
 autoware_object_velocity_splitter:
   ubuntu:
   - ros-humble-autoware-object-velocity-splitter
-autoware_objects_of_interest_marker_interface:
+autoware_obstacle_collision_checker:
   ubuntu:
-  - ros-humble-autoware-objects-of-interest-marker-interface
+  - ros-humble-autoware-obstacle-collision-checker
 autoware_path_distance_calculator:
   ubuntu:
   - ros-humble-autoware-path-distance-calculator
+autoware_perception_online_evaluator:
+  ubuntu:
+  - ros-humble-autoware-perception-online-evaluator
 autoware_planning_factor_interface:
   ubuntu:
   - ros-humble-autoware-planning-factor-interface
@@ -553,12 +586,12 @@ autoware_planning_topic_converter:
 autoware_pointcloud_preprocessor:
   ubuntu:
   - ros-humble-autoware-pointcloud-preprocessor
+autoware_ground_segmentation:
+  ubuntu:
+  - ros-humble-autoware-ground-segmentation
 autoware_occupancy_grid_map_outlier_filter:
   ubuntu:
   - ros-humble-autoware-occupancy-grid-map-outlier-filter
-autoware_pose_covariance_modifier:
-  ubuntu:
-  - ros-humble-autoware-pose-covariance-modifier
 autoware_pose_estimator_arbiter:
   ubuntu:
   - ros-humble-autoware-pose-estimator-arbiter
@@ -598,12 +631,18 @@ autoware_bezier_sampler:
 autoware_frenet_planner:
   ubuntu:
   - ros-humble-autoware-frenet-planner
+autoware_path_sampler:
+  ubuntu:
+  - ros-humble-autoware-path-sampler
 autoware_shift_decider:
   ubuntu:
   - ros-humble-autoware-shift-decider
 autoware_simple_object_merger:
   ubuntu:
   - ros-humble-autoware-simple-object-merger
+autoware_steer_offset_estimator:
+  ubuntu:
+  - ros-humble-autoware-steer-offset-estimator
 autoware_system_monitor:
   ubuntu:
   - ros-humble-autoware-system-monitor
@@ -625,33 +664,6 @@ autoware_traffic_light_occlusion_predictor:
 autoware_traffic_light_recognition_marker_publisher:
   ubuntu:
   - ros-humble-autoware-traffic-light-recognition-marker-publisher
-autoware_vehicle_info_utils:
-  ubuntu:
-  - ros-humble-autoware-vehicle-info-utils
-autoware_collision_detector:
-  ubuntu:
-  - ros-humble-autoware-collision-detector
-autoware_control_performance_analysis:
-  ubuntu:
-  - ros-humble-autoware-control-performance-analysis
-autoware_freespace_planning_algorithms:
-  ubuntu:
-  - ros-humble-autoware-freespace-planning-algorithms
-autoware_ground_segmentation:
-  ubuntu:
-  - ros-humble-autoware-ground-segmentation
-autoware_obstacle_collision_checker:
-  ubuntu:
-  - ros-humble-autoware-obstacle-collision-checker
-autoware_path_sampler:
-  ubuntu:
-  - ros-humble-autoware-path-sampler
-autoware_perception_online_evaluator:
-  ubuntu:
-  - ros-humble-autoware-perception-online-evaluator
-autoware_steer_offset_estimator:
-  ubuntu:
-  - ros-humble-autoware-steer-offset-estimator
 autoware_trajectory_follower_base:
   ubuntu:
   - ros-humble-autoware-trajectory-follower-base
@@ -670,9 +682,6 @@ autoware_trajectory_follower_node:
 reaction_analyzer:
   ubuntu:
   - ros-humble-reaction-analyzer
-tier4_localization_rviz_plugin:
-  ubuntu:
-  - ros-humble-tier4-localization-rviz-plugin
 tier4_planning_factor_rviz_plugin:
   ubuntu:
   - ros-humble-tier4-planning-factor-rviz-plugin
@@ -787,9 +796,6 @@ autoware_default_adapi:
 autoware_geo_pose_projector:
   ubuntu:
   - ros-humble-autoware-geo-pose-projector
-autoware_gnss_poser:
-  ubuntu:
-  - ros-humble-autoware-gnss-poser
 autoware_map_loader:
   ubuntu:
   - ros-humble-autoware-map-loader
@@ -934,6 +940,12 @@ autoware_surround_obstacle_checker:
 autoware_traffic_light_arbiter:
   ubuntu:
   - ros-humble-autoware-traffic-light-arbiter
+autoware_traffic_light_category_merger:
+  ubuntu:
+  - ros-humble-autoware-traffic-light-category-merger
+autoware_traffic_light_selector:
+  ubuntu:
+  - ros-humble-autoware-traffic-light-selector
 autoware_vehicle_cmd_gate:
   ubuntu:
   - ros-humble-autoware-vehicle-cmd-gate

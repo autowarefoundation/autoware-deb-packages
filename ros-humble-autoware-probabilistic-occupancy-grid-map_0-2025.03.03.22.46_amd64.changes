@@ -1,0 +1,76 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-probabilistic-occupancy-grid-map
+Binary: ros-humble-autoware-probabilistic-occupancy-grid-map
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.03.22.46
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-probabilistic-occupancy-grid-map - generate probabilistic occupancy grid map
+Changes:
+ ros-humble-autoware-probabilistic-occupancy-grid-map (0-2025.03.03.22.46) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_probabilistic_occupancy_grid_map): cuda accelerated implementation (#9542 <https://github.com/autowarefoundation/autoware.universe/issues/9542>)
+     * feat: implemented a cuda accelerated ogm
+     * chore: fixed cspells
+     * chore: unused header and variable names
+     * chore: cspell fixes
+     * chore: cppcheck fix attempt
+     * fix: attempting to fix ci/cd regarding the cuda library
+     * chore: fixed the order of the cuda check in the cmakelist
+     * fix: removed cuda as a required dep for cpu only builds
+     * fix: missing cuda linking (?)
+     * feat: fixed single mode, added streams, and added the restrict keyword
+     * chore: replaced a potential indetermination using an epsilon
+     * Update perception/autoware_probabilistic_occupancy_grid_map/lib/updater/log_odds_bayes_filter_updater_kernel.cu
+     Co-authored-by: Yoshi Ri <mailto:yoshiyoshidetteiu@gmail.com>
+     * Update perception/autoware_probabilistic_occupancy_grid_map/lib/updater/log_odds_bayes_filter_updater_kernel.cu
+     Co-authored-by: Yoshi Ri <mailto:yoshiyoshidetteiu@gmail.com>
+     * style(pre-commit): autofix
+     * chore: added bound checkings in the update origin kernel
+     * chore: disabled tests since universe does not support cuda in ci/cd
+     * chore: added me as a maintainer
+     * fix: missedn the end in the cmake
+     * chore: moved the boudnary checks to only the cuda version since the cpu version uses the upstream logic
+     ---------
+     Co-authored-by: Yoshi Ri <mailto:yoshiyoshidetteiu@gmail.com>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * feat(autoware_probabilistic_occupancy_grid_map): tier4_debug_msgs changed to autoware_internal_debug_msgs in autoware_probabilistic_occupancy_grid_map (#9895 <https://github.com/autowarefoundation/autoware.universe/issues/9895>)
+     feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files perception/autoware_probabilistic_occupancy_grid_map
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+   * fix(perception): fix perception docs (#9766 <https://github.com/autowarefoundation/autoware.universe/issues/9766>)
+     * fix: fix perception docs
+     * fix: fix missing parameter in schema
+     * Update perception/autoware_object_merger/schema/data_association_matrix.schema.json
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * Update perception/autoware_object_merger/schema/data_association_matrix.schema.json
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * Update perception/autoware_object_merger/schema/data_association_matrix.schema.json
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * Update perception/autoware_object_merger/schema/data_association_matrix.schema.json
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * style(pre-commit): autofix
+     * chore: seperate paramters for different nodes
+     ---------
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * fix(autoware_probabilistic_occupancy_grid_map): fix bugprone-branch-clone (#9652 <https://github.com/autowarefoundation/autoware.universe/issues/9652>)
+     fix: bugprone-error
+   * Contributors: Fumiya Watanabe, Kenzo Lobos Tsunekawa, Vishal Chauhan, Yi-Hsiang Fang (Vivid), kobayu858
+Checksums-Sha1:
+ 91cccf87b0fc783ee5f51d789af2d36546fb77ac 7834930 ros-humble-autoware-probabilistic-occupancy-grid-map-dbgsym_0-2025.03.03.22.46_amd64.ddeb
+ da68bd7ccad730adb63afd465358d4c90c2b4e24 49420 ros-humble-autoware-probabilistic-occupancy-grid-map_0-2025.03.03.22.46_amd64.buildinfo
+ a112a734ac446481af8c4c41a7178ac3c091ea12 237952 ros-humble-autoware-probabilistic-occupancy-grid-map_0-2025.03.03.22.46_amd64.deb
+Checksums-Sha256:
+ 984f300714763601f7ff99b1eaebaa52e00ebe79c60c0c37be41bd307584b068 7834930 ros-humble-autoware-probabilistic-occupancy-grid-map-dbgsym_0-2025.03.03.22.46_amd64.ddeb
+ c711aaf6439e70ac6b8a3fda5c04d29229074df8b600f4a3c6aa8d7c4f1bde83 49420 ros-humble-autoware-probabilistic-occupancy-grid-map_0-2025.03.03.22.46_amd64.buildinfo
+ e117089d14691006703e36ae0674df3f4ec73545cd6746e343f911415360dfff 237952 ros-humble-autoware-probabilistic-occupancy-grid-map_0-2025.03.03.22.46_amd64.deb
+Files:
+ fa6d87033cf767461113cae3bdccb02c 7834930 debug optional ros-humble-autoware-probabilistic-occupancy-grid-map-dbgsym_0-2025.03.03.22.46_amd64.ddeb
+ 76c9b3a14a63d920be29079789634b2f 49420 misc optional ros-humble-autoware-probabilistic-occupancy-grid-map_0-2025.03.03.22.46_amd64.buildinfo
+ 6cada2cb688a1b45ec3cd49a4a4f0b42 237952 misc optional ros-humble-autoware-probabilistic-occupancy-grid-map_0-2025.03.03.22.46_amd64.deb

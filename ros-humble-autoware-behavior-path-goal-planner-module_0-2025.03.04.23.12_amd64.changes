@@ -1,0 +1,65 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-path-goal-planner-module
+Binary: ros-humble-autoware-behavior-path-goal-planner-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.04.23.12
+Distribution: jammy
+Urgency: high
+Maintainer: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Changed-By: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-path-goal-planner-module - The autoware_behavior_path_goal_planner_module package
+Changes:
+ ros-humble-autoware-behavior-path-goal-planner-module (0-2025.03.04.23.12) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(goal_planner): introduce bezier based pullover for bus stop area (#10027 <https://github.com/autowarefoundation/autoware.universe/issues/10027>)
+   * fix(goal_planner): fix waiting approval path of backward parking (#10015 <https://github.com/autowarefoundation/autoware.universe/issues/10015>)
+   * refactor(goal_planner): divide extract_dynamic_object/is_goal_in_lanes util function (#10019 <https://github.com/autowarefoundation/autoware.universe/issues/10019>)
+   * fix(start_planner, goal_planner): refactor lane departure checker initialization (#9944 <https://github.com/autowarefoundation/autoware.universe/issues/9944>)
+   * feat(planning_factor)!: remove velocity_factor, steering_factor and introduce planning_factor (#9927 <https://github.com/autowarefoundation/autoware.universe/issues/9927>)
+     Co-authored-by: Satoshi OTA <mailto:44889564+satoshi-ota@users.noreply.github.com>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: satoshi-ota <mailto:satoshi.ota928@gmail.com>
+   * fix(goal_planner): fix geometric pull over (#9932 <https://github.com/autowarefoundation/autoware.universe/issues/9932>)
+   * test(autoware_behavior_path_start_planner_module):  add test helper and implement unit tests for FreespacePullOut (#9832 <https://github.com/autowarefoundation/autoware.universe/issues/9832>)
+     * refactor(autoware_behavior_path_start_planner_module): remove unnecessary time_keeper parameter from pull-out planners
+     * refactor(autoware_behavior_path_start_planner_module): remove TimeKeeper parameter from pull-out planners
+     * refactor(lane_departure_checker): improve LaneDepartureChecker initialization and parameter handling
+     * refactor(planner): add planner_data parameter to plan methods in pull out planners
+     * refactor(autoware_behavior_path_start_planner_module): remove LaneDepartureChecker dependency from pull-out planners
+     ---------
+   * feat(goal_planner): update lateral_deviation_thresh from 0.3 to 0.1 (#9850 <https://github.com/autowarefoundation/autoware.universe/issues/9850>)
+     * fix(goal_planner): Update lateral_deviation_thresh from 0.3 to 0.1
+     * unified hasDeviatedFrom{Last|Current}PreviousModulePath
+     * style(pre-commit): autofix
+     * hasDeviatedFromPath argument modification
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * feat(goal_planner): cut stop path to goal (#9829 <https://github.com/autowarefoundation/autoware.universe/issues/9829>)
+   * refactor(lane_departure_checker): improve LaneDepartureChecker initialization and parameter handling (#9791 <https://github.com/autowarefoundation/autoware.universe/issues/9791>)
+     * refactor(lane_departure_checker): improve LaneDepartureChecker initialization and parameter handling
+     ---------
+   * fix(goal_planner): fix usage of last_previous_module_output (#9811 <https://github.com/autowarefoundation/autoware.universe/issues/9811>)
+   * fix(behavior_path_planner): add freespace_planning_algorithms dependency (#9800 <https://github.com/autowarefoundation/autoware.universe/issues/9800>)
+   * chore(autoware_test_utils): update test map (#9664 <https://github.com/autowarefoundation/autoware.universe/issues/9664>)
+   * refactor(goal_planner): divide sort function (#9650 <https://github.com/autowarefoundation/autoware.universe/issues/9650>)
+   * perf(goal_planner): remove unnecessary call to setMap on freespace planning (#9644 <https://github.com/autowarefoundation/autoware.universe/issues/9644>)
+   * feat(goal_planner): add bezier based pull over planner (#9642 <https://github.com/autowarefoundation/autoware.universe/issues/9642>)
+   * feat(goal_planner): divide Planners to isolated threads (#9514 <https://github.com/autowarefoundation/autoware.universe/issues/9514>)
+   * Contributors: Fumiya Watanabe, Kazunori-Nakajima, Kosuke Takeuchi, Kyoichi Sugahara, Mamoru Sobue, Takayuki Murooka
+Checksums-Sha1:
+ 116e84df31f6abe68962cce7587559c82e51fb49 15161834 ros-humble-autoware-behavior-path-goal-planner-module-dbgsym_0-2025.03.04.23.12_amd64.ddeb
+ d6988bdfd1f35bc807a72096498fccaa12a04a48 50278 ros-humble-autoware-behavior-path-goal-planner-module_0-2025.03.04.23.12_amd64.buildinfo
+ 869542fbea14473493bb017eb29cec936afad002 457276 ros-humble-autoware-behavior-path-goal-planner-module_0-2025.03.04.23.12_amd64.deb
+Checksums-Sha256:
+ ebbfc5301c160dbb5a79692d47ba3a68b953587bb072b01d1c60856dc51c1103 15161834 ros-humble-autoware-behavior-path-goal-planner-module-dbgsym_0-2025.03.04.23.12_amd64.ddeb
+ 55dbbbf42bf42a9cb58c3947f2892e8cc4395c056d716e23d545b5144e871450 50278 ros-humble-autoware-behavior-path-goal-planner-module_0-2025.03.04.23.12_amd64.buildinfo
+ aa592bcf6608b76c7241c7e5d6714d42172bf6d7cd8a4c6cf58432f8aab6d168 457276 ros-humble-autoware-behavior-path-goal-planner-module_0-2025.03.04.23.12_amd64.deb
+Files:
+ 63f1d6145548af37093de9af3539d20f 15161834 debug optional ros-humble-autoware-behavior-path-goal-planner-module-dbgsym_0-2025.03.04.23.12_amd64.ddeb
+ 456c7169a95e8d2e92c52e1441f75895 50278 misc optional ros-humble-autoware-behavior-path-goal-planner-module_0-2025.03.04.23.12_amd64.buildinfo
+ cfd96897fcf80a6cd6e61555f6f51247 457276 misc optional ros-humble-autoware-behavior-path-goal-planner-module_0-2025.03.04.23.12_amd64.deb

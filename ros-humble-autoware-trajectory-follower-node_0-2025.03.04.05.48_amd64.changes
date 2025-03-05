@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-trajectory-follower-node
+Binary: ros-humble-autoware-trajectory-follower-node
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.04.05.48
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-trajectory-follower-node - Nodes to follow a trajectory by generating control commands separ
+Changes:
+ ros-humble-autoware-trajectory-follower-node (0-2025.03.04.05.48) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in fil… (#9853 <https://github.com/autowarefoundation/autoware.universe/issues/9853>)
+     feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files control/autoware_trajectory_follower_node
+   * fix: remove unnecessary parameters (#9935 <https://github.com/autowarefoundation/autoware.universe/issues/9935>)
+   * chore(trajectory_follower_node): fix typos (#9707 <https://github.com/autowarefoundation/autoware.universe/issues/9707>)
+   * feat(pid_longitudinal_controller): update plotjuggler settings (#9703 <https://github.com/autowarefoundation/autoware.universe/issues/9703>)
+   * feat(pid_longitudinal_controller): remove trans/rot deviation validation since the control_validator has the same feature (#9675 <https://github.com/autowarefoundation/autoware.universe/issues/9675>)
+     * feat(pid_longitudinal_controller): remove trans/rot deviation validation since the control_validator has the same feature
+     * fix test
+     ---------
+   * Contributors: Fumiya Watanabe, Kosuke Takeuchi, Takayuki Murooka, Vishal Chauhan, Yuki TAKAGI
+Checksums-Sha1:
+ 6100aae0ef600b0ec8bf7f5df67a4271bc7e0b61 9861310 ros-humble-autoware-trajectory-follower-node-dbgsym_0-2025.03.04.05.48_amd64.ddeb
+ b7c36c2e197628c57e13af708f9800dcabbf66c1 42384 ros-humble-autoware-trajectory-follower-node_0-2025.03.04.05.48_amd64.buildinfo
+ dccfad46e26f6febdba8eadcda92a56a356f84f2 351046 ros-humble-autoware-trajectory-follower-node_0-2025.03.04.05.48_amd64.deb
+Checksums-Sha256:
+ 324398362ebd2f0559b0ac03c637885f66e1990b1f9c03584a9ba1b4bb41f389 9861310 ros-humble-autoware-trajectory-follower-node-dbgsym_0-2025.03.04.05.48_amd64.ddeb
+ 5ac54826f0d87277707e89898d895c4e529fe092988bcc7797847237c6081351 42384 ros-humble-autoware-trajectory-follower-node_0-2025.03.04.05.48_amd64.buildinfo
+ cbdd0cd8c6b15f82e7186ee2fdf6b418f207c826bdd1487b6232beb9715ed969 351046 ros-humble-autoware-trajectory-follower-node_0-2025.03.04.05.48_amd64.deb
+Files:
+ c5b57d7afb9d41b8a5634a93c355f330 9861310 debug optional ros-humble-autoware-trajectory-follower-node-dbgsym_0-2025.03.04.05.48_amd64.ddeb
+ 9ed7b8dc40803f7e04eef68a0c4a3d39 42384 misc optional ros-humble-autoware-trajectory-follower-node_0-2025.03.04.05.48_amd64.buildinfo
+ cef7e154b11dff1352b894627cc86f01 351046 misc optional ros-humble-autoware-trajectory-follower-node_0-2025.03.04.05.48_amd64.deb

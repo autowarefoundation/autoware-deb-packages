@@ -1,0 +1,50 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-perception-online-evaluator
+Binary: ros-humble-autoware-perception-online-evaluator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.03.20.21
+Distribution: jammy
+Urgency: high
+Maintainer: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Changed-By: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Description:
+ ros-humble-autoware-perception-online-evaluator - ROS 2 node for evaluating perception
+Changes:
+ ros-humble-autoware-perception-online-evaluator (0-2025.03.03.20.21) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware_ prefix for perception_online_evaluator (#9956 <https://github.com/autowarefoundation/autoware.universe/issues/9956>)
+     * feat(perception_online_evaluator): apply autoware_ prefix (see below):
+     * In this commit, I did not organize a folder structure.
+     The folder structure will be organized in the next some commits.
+     * The changes will follow the Autoware's guideline as below:
+     - https://autowarefoundation.github.io/autoware-documentation/main/contributing/coding-guidelines/ros-nodes/directory-structure/#package-folder
+     * bug(perception_online_evaluator): remove duplicated properties
+     * It seems the motion_evaluator is defined and used in the autoware_planning_evaluator
+     * rename(perception_online_evaluator): move headers under include/autoware:
+     * Fixes due to this changes for .hpp/.cpp files will be applied in the next commit
+     * fix(perception_online_evaluator): fix include paths
+     * To follow the previous commit
+     * rename: perception_online_evaluator => autoware_perception_online_evaluator
+     * style(pre-commit): autofix
+     * bug(autoware_perception_online_evaluator): revert wrongly updated copyright
+     * bug(autoware_perception_online_evaluator): autoware_ prefix is not needed here
+     * update: CODEOWNERS
+     * bug(autoware_perception_online_evaluator): fix a wrong package name
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Fumiya Watanabe, Junya Sasaki
+Checksums-Sha1:
+ 3690f71b73dfb8e2c077384ea22d8e39cafa6272 4621438 ros-humble-autoware-perception-online-evaluator-dbgsym_0-2025.03.03.20.21_amd64.ddeb
+ 7081dcd561f2a93f7b046a070efb04aef7b96bd1 42339 ros-humble-autoware-perception-online-evaluator_0-2025.03.03.20.21_amd64.buildinfo
+ 3049845837decbc61cbc080d5bfd84aa7f912883 206288 ros-humble-autoware-perception-online-evaluator_0-2025.03.03.20.21_amd64.deb
+Checksums-Sha256:
+ dd06d83cfceaeb4b7df55831c33a307f81eca0410e42fd90f1791d12748bef2a 4621438 ros-humble-autoware-perception-online-evaluator-dbgsym_0-2025.03.03.20.21_amd64.ddeb
+ 6191efbd08b36e6c9e69e3d6fe7dabc24493d38f2a3751644e36ef506c3bab1d 42339 ros-humble-autoware-perception-online-evaluator_0-2025.03.03.20.21_amd64.buildinfo
+ 89ce5e91d63d88037198697a50c3bbeed244b00261ca265338e40dbcf4855550 206288 ros-humble-autoware-perception-online-evaluator_0-2025.03.03.20.21_amd64.deb
+Files:
+ f1e82b66b4fb0a39b6bf9d1ea28647fe 4621438 debug optional ros-humble-autoware-perception-online-evaluator-dbgsym_0-2025.03.03.20.21_amd64.ddeb
+ cb7dd4b93e1f36d19472f2fcf6b3a1d4 42339 misc optional ros-humble-autoware-perception-online-evaluator_0-2025.03.03.20.21_amd64.buildinfo
+ 53b853fb4e12616ee24b48b826577492 206288 misc optional ros-humble-autoware-perception-online-evaluator_0-2025.03.03.20.21_amd64.deb

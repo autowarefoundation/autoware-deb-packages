@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-joy-controller
+Binary: ros-humble-autoware-joy-controller
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.03.16.59
+Distribution: jammy
+Urgency: high
+Maintainer: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Changed-By: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-joy-controller - The autoware_joy_controller package
+Changes:
+ ros-humble-autoware-joy-controller (0-2025.03.03.16.59) jammy; urgency=high
+Checksums-Sha1:
+ 492e636f5bd5194bb6c4440157c6e03130cd9b65 4456598 ros-humble-autoware-joy-controller-dbgsym_0-2025.03.03.16.59_amd64.ddeb
+ 10348534bb33b911dc8db51159f8ce4a3c6832ab 42833 ros-humble-autoware-joy-controller_0-2025.03.03.16.59_amd64.buildinfo
+ e32707341194eb0a221ea536b2c1327b8858f643 201570 ros-humble-autoware-joy-controller_0-2025.03.03.16.59_amd64.deb
+Checksums-Sha256:
+ af06b922ed27516270fe73e9caab0c0006810468abb04318046e7ab7539a51d5 4456598 ros-humble-autoware-joy-controller-dbgsym_0-2025.03.03.16.59_amd64.ddeb
+ 389b6dc8b5650332aa5377562b426d97f54123ff406db2779db8976f7c7e3006 42833 ros-humble-autoware-joy-controller_0-2025.03.03.16.59_amd64.buildinfo
+ 1d7daccf725b2e8377df62163bcb8e7a4800da75dfb51408498f8ab7a7fd05f1 201570 ros-humble-autoware-joy-controller_0-2025.03.03.16.59_amd64.deb
+Files:
+ ccea9bf7362832e08a7e8556b0c014e3 4456598 debug optional ros-humble-autoware-joy-controller-dbgsym_0-2025.03.03.16.59_amd64.ddeb
+ 44038acf401a29f7ecfb213d039d5646 42833 misc optional ros-humble-autoware-joy-controller_0-2025.03.03.16.59_amd64.buildinfo
+ d1d6ca6fa69406f6e59c7ed93d5fabbe 201570 misc optional ros-humble-autoware-joy-controller_0-2025.03.03.16.59_amd64.deb

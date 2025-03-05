@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-remaining-distance-time-calculator
+Binary: ros-humble-autoware-remaining-distance-time-calculator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.04.21.30
+Distribution: jammy
+Urgency: high
+Maintainer: Ahmed Ebrahim <ahmed.ebrahim@leodrive.ai>
+Changed-By: Ahmed Ebrahim <ahmed.ebrahim@leodrive.ai>
+Description:
+ ros-humble-autoware-remaining-distance-time-calculator - Calculates and publishes remaining distance and time of the missi
+Changes:
+ ros-humble-autoware-remaining-distance-time-calculator (0-2025.03.04.21.30) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(remaining_distance_time_calculator): integrate generate_parameter_library (#8826 <https://github.com/autowarefoundation/autoware.universe/issues/8826>)
+     * add parameter description
+     * use parameter listener
+     * supress deprecated error
+     * change scope of compile option to private
+     ---------
+   * feat(remaining_distance_time_calculator): skip calculation during parking (#9013 <https://github.com/autowarefoundation/autoware.universe/issues/9013>)
+   * Contributors: Fumiya Watanabe, Ismet Atabay, Mitsuhiro Sakamoto
+Checksums-Sha1:
+ 4557ec656f092d51092002a59f315320a276d33d 6489004 ros-humble-autoware-remaining-distance-time-calculator-dbgsym_0-2025.03.04.21.30_amd64.ddeb
+ 0deb3ee2451323ffa917118ec3ffb9774131cf62 44586 ros-humble-autoware-remaining-distance-time-calculator_0-2025.03.04.21.30_amd64.buildinfo
+ cb7eb405a58369f715b17f09085d9ca5566d183a 214560 ros-humble-autoware-remaining-distance-time-calculator_0-2025.03.04.21.30_amd64.deb
+Checksums-Sha256:
+ 7e3930f93f701c4e203d7d734f887bca7557f4184289b1087158ab6c187e01d4 6489004 ros-humble-autoware-remaining-distance-time-calculator-dbgsym_0-2025.03.04.21.30_amd64.ddeb
+ e07bbb2dff0f01d6e041a9c252ae8c696cec68e2b97cd6217527cfd506e31296 44586 ros-humble-autoware-remaining-distance-time-calculator_0-2025.03.04.21.30_amd64.buildinfo
+ 7057bb1c35319e0b3e841c984b21f5c88ebe3da3cce7c87fe341f40084046acf 214560 ros-humble-autoware-remaining-distance-time-calculator_0-2025.03.04.21.30_amd64.deb
+Files:
+ 5f04ff3ffde068de34685d60866aacf8 6489004 debug optional ros-humble-autoware-remaining-distance-time-calculator-dbgsym_0-2025.03.04.21.30_amd64.ddeb
+ 0c41358d9e8c8dc2bf8d2702871d4527 44586 misc optional ros-humble-autoware-remaining-distance-time-calculator_0-2025.03.04.21.30_amd64.buildinfo
+ e7d7004a9ff3f8197e38fe7cb7ff787d 214560 misc optional ros-humble-autoware-remaining-distance-time-calculator_0-2025.03.04.21.30_amd64.deb

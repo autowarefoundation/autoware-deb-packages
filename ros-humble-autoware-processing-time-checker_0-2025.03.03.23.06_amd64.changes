@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-processing-time-checker
+Binary: ros-humble-autoware-processing-time-checker
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.03.23.06
+Distribution: jammy
+Urgency: high
+Maintainer: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Changed-By: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Description:
+ ros-humble-autoware-processing-time-checker - A package to find out nodes with common names
+Changes:
+ ros-humble-autoware-processing-time-checker (0-2025.03.03.23.06) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_processing_time_checker)!: tier4_debug_msgs changed to autoware_internal_debug_msgs in autoware_processing_time_checker (#9921 <https://github.com/autowarefoundation/autoware.universe/issues/9921>)
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+   * fix(autoware_processing_time_checker): fix bugprone-exception-escape (#9780 <https://github.com/autowarefoundation/autoware.universe/issues/9780>)
+     * fix: bugprone-error
+     * fix: cpplint
+     ---------
+   * Contributors: Fumiya Watanabe, Vishal Chauhan, kobayu858
+Checksums-Sha1:
+ 883926cb7504b479210adb6816555422bbcfd498 2793728 ros-humble-autoware-processing-time-checker-dbgsym_0-2025.03.03.23.06_amd64.ddeb
+ 8fced3b6a501bad2af76fa7298dd805a691fbc1e 41461 ros-humble-autoware-processing-time-checker_0-2025.03.03.23.06_amd64.buildinfo
+ c2a16dd0311021cc9459b7dd51113053d09a04dd 142678 ros-humble-autoware-processing-time-checker_0-2025.03.03.23.06_amd64.deb
+Checksums-Sha256:
+ 64bcaa9372b860fbc997ed56e69f9f018fe590c07eb8517ad9d9bcad3d6c6e95 2793728 ros-humble-autoware-processing-time-checker-dbgsym_0-2025.03.03.23.06_amd64.ddeb
+ f5d08e5ce46b05db95d226c3ea7c9294dcc1440c2a9b48d3e5dd2f0cd24f5937 41461 ros-humble-autoware-processing-time-checker_0-2025.03.03.23.06_amd64.buildinfo
+ 075a97e36911cf98b764ee079172c0126dc61845beb8748270ce0bfc25d75545 142678 ros-humble-autoware-processing-time-checker_0-2025.03.03.23.06_amd64.deb
+Files:
+ 3210bb7ce7ce31f332c0bb2b97616adc 2793728 debug optional ros-humble-autoware-processing-time-checker-dbgsym_0-2025.03.03.23.06_amd64.ddeb
+ dfffdcecca97edda351e9905743115db 41461 misc optional ros-humble-autoware-processing-time-checker_0-2025.03.03.23.06_amd64.buildinfo
+ e3a528ee410190ce8db2408e92640245 142678 misc optional ros-humble-autoware-processing-time-checker_0-2025.03.03.23.06_amd64.deb

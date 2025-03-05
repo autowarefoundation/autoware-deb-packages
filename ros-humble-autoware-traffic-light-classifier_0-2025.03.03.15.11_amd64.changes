@@ -1,0 +1,64 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-traffic-light-classifier
+Binary: ros-humble-autoware-traffic-light-classifier
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.03.15.11
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-traffic-light-classifier - The autoware_traffic_light_classifier package
+Changes:
+ ros-humble-autoware-traffic-light-classifier (0-2025.03.03.15.11) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * chore(autoware_traffic_light_classifier): modify docs (#9819 <https://github.com/autowarefoundation/autoware.universe/issues/9819>)
+     * modify docs
+     * style(pre-commit): autofix
+     * fix docs
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * refactor(autoware_tensorrt_common): multi-TensorRT compatibility & tensorrt_common as unified lib for all perception components (#9762 <https://github.com/autowarefoundation/autoware.universe/issues/9762>)
+     * refactor(autoware_tensorrt_common): multi-TensorRT compatibility & tensorrt_common as unified lib for all perception components
+     * style(pre-commit): autofix
+     * style(autoware_tensorrt_common): linting
+     * style(autoware_lidar_centerpoint): typo
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * docs(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * fix(autoware_lidar_transfusion): reuse cast variable
+     * fix(autoware_tensorrt_common): remove deprecated inference API
+     * style(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * style(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * fix(autoware_tensorrt_common): const pointer
+     * fix(autoware_tensorrt_common): remove unused method declaration
+     * style(pre-commit): autofix
+     * refactor(autoware_tensorrt_common): readability
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+     * fix(autoware_tensorrt_common): return if layer not registered
+     * refactor(autoware_tensorrt_common): readability
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+     * fix(autoware_tensorrt_common): rename struct
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+   * Contributors: Amadeusz Szymko, Fumiya Watanabe, Masato Saeki
+Checksums-Sha1:
+ c1d4510220eff29db1bdbb3a98f3608a750686a7 3556478 ros-humble-autoware-traffic-light-classifier-dbgsym_0-2025.03.03.15.11_amd64.ddeb
+ 34be1e825a6caa0e34f94e779b3948c6978cc56b 28273 ros-humble-autoware-traffic-light-classifier_0-2025.03.03.15.11_amd64.buildinfo
+ 4815b4d9db07b8c00a77dcba7d86b093c1ca52e8 186570 ros-humble-autoware-traffic-light-classifier_0-2025.03.03.15.11_amd64.deb
+Checksums-Sha256:
+ 76b213068adbb410c76fcc3f930cb8b72949d24c286d795bf125193758a0adf1 3556478 ros-humble-autoware-traffic-light-classifier-dbgsym_0-2025.03.03.15.11_amd64.ddeb
+ 32f1fbe6c73b23bcc88851caf4015b0a19e8acb520a55f9c2b035ba17fa6091e 28273 ros-humble-autoware-traffic-light-classifier_0-2025.03.03.15.11_amd64.buildinfo
+ 7d5de50f728c3bf6d43f90201bcdd6d7c885d09b3a20365c2871cb1b546e51f0 186570 ros-humble-autoware-traffic-light-classifier_0-2025.03.03.15.11_amd64.deb
+Files:
+ bbd1b3bbc420946dbac6fda38355d447 3556478 debug optional ros-humble-autoware-traffic-light-classifier-dbgsym_0-2025.03.03.15.11_amd64.ddeb
+ 1e93ff617a73dc31019567a3f3da4e01 28273 misc optional ros-humble-autoware-traffic-light-classifier_0-2025.03.03.15.11_amd64.buildinfo
+ 756942b06d80f9605157bbb734ac5a70 186570 misc optional ros-humble-autoware-traffic-light-classifier_0-2025.03.03.15.11_amd64.deb

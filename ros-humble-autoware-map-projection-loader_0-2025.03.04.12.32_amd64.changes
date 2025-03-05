@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-map-projection-loader
+Binary: ros-humble-autoware-map-projection-loader
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.04.12.32
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-map-projection-loader - autoware_map_projection_loader package as a ROS 2 node
+Changes:
+ ros-humble-autoware-map-projection-loader (0-2025.03.04.12.32) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_component_interface_specs_universe!): rename package (#9753 <https://github.com/autowarefoundation/autoware.universe/issues/9753>)
+   * Contributors: Fumiya Watanabe, Ryohsuke Mitsudome
+Checksums-Sha1:
+ 3332baa0f92839b3dad5d0023e85d8102e532d31 2118460 ros-humble-autoware-map-projection-loader-dbgsym_0-2025.03.04.12.32_amd64.ddeb
+ f0b8b645433d5c51bcb960e199fbc16f0351d51d 42802 ros-humble-autoware-map-projection-loader_0-2025.03.04.12.32_amd64.buildinfo
+ a419ebad12e734da4ab1839e777f528c5757e4b8 81290 ros-humble-autoware-map-projection-loader_0-2025.03.04.12.32_amd64.deb
+Checksums-Sha256:
+ 4b123005a0225269a0c738ff69329c2a75d63dc13bb3b450e664e20ce0a1da26 2118460 ros-humble-autoware-map-projection-loader-dbgsym_0-2025.03.04.12.32_amd64.ddeb
+ e55297981aaff1ecfb71bc2f7eaddfb4d658e452bce542f0c98f9d4882095246 42802 ros-humble-autoware-map-projection-loader_0-2025.03.04.12.32_amd64.buildinfo
+ 59a1c079576d562e181d97654dfcd5fd31066d566b245013f38fea12e915b44e 81290 ros-humble-autoware-map-projection-loader_0-2025.03.04.12.32_amd64.deb
+Files:
+ c5359eb806fa9f384ed17ded7230c916 2118460 debug optional ros-humble-autoware-map-projection-loader-dbgsym_0-2025.03.04.12.32_amd64.ddeb
+ 107abf947ddf236e76bf669076674536 42802 misc optional ros-humble-autoware-map-projection-loader_0-2025.03.04.12.32_amd64.buildinfo
+ 12304459f9f31b7d43b0bbaa3d577156 81290 misc optional ros-humble-autoware-map-projection-loader_0-2025.03.04.12.32_amd64.deb

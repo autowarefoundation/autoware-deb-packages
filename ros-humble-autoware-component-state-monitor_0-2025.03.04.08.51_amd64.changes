@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-component-state-monitor
+Binary: ros-humble-autoware-component-state-monitor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.04.08.51
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-component-state-monitor - The autoware_component_state_monitor package
+Changes:
+ ros-humble-autoware-component-state-monitor (0-2025.03.04.08.51) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware prefix for component_state_monitor and its dependencies (#9961 <https://github.com/autowarefoundation/autoware.universe/issues/9961>)
+   * Contributors: Fumiya Watanabe, Junya Sasaki
+Checksums-Sha1:
+ c448f1e4c7943cf6bda7ba67ce73302c64dd33b4 2404834 ros-humble-autoware-component-state-monitor-dbgsym_0-2025.03.04.08.51_amd64.ddeb
+ 2e4c4bfdb31150d030579750ae5109bb1a862381 16096 ros-humble-autoware-component-state-monitor_0-2025.03.04.08.51_amd64.buildinfo
+ 54f057e8c48ec130e690968bc67c544736aeafe7 118744 ros-humble-autoware-component-state-monitor_0-2025.03.04.08.51_amd64.deb
+Checksums-Sha256:
+ 1281fdee0376d0c2f55f78f9d009f56c2a3155f559e8301727f0778cb8a14250 2404834 ros-humble-autoware-component-state-monitor-dbgsym_0-2025.03.04.08.51_amd64.ddeb
+ 30240c72f95ff0814d2156ece74f8f1378362b27a7c12f3cdd006cbe8ff08295 16096 ros-humble-autoware-component-state-monitor_0-2025.03.04.08.51_amd64.buildinfo
+ 0a97177e963711870e72be690eb77d223bf3f193846bd9ca848e5e90c1a8261e 118744 ros-humble-autoware-component-state-monitor_0-2025.03.04.08.51_amd64.deb
+Files:
+ 1bb5c9c93cf3d0c312ba12932c384dda 2404834 debug optional ros-humble-autoware-component-state-monitor-dbgsym_0-2025.03.04.08.51_amd64.ddeb
+ 171660e779d1be2b3f0dc0e406b7044f 16096 misc optional ros-humble-autoware-component-state-monitor_0-2025.03.04.08.51_amd64.buildinfo
+ bf3a07334d20848ae7f21de28dfc0bbb 118744 misc optional ros-humble-autoware-component-state-monitor_0-2025.03.04.08.51_amd64.deb

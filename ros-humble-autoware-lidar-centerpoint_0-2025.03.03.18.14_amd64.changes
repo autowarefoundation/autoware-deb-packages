@@ -1,0 +1,63 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-lidar-centerpoint
+Binary: ros-humble-autoware-lidar-centerpoint
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.03.18.14
+Distribution: jammy
+Urgency: high
+Maintainer: Kenzo Lobos-Tsunekawa <kenzo.lobos@tier4.jp>
+Changed-By: Kenzo Lobos-Tsunekawa <kenzo.lobos@tier4.jp>
+Description:
+ ros-humble-autoware-lidar-centerpoint - The autoware_lidar_centerpoint package
+Changes:
+ ros-humble-autoware-lidar-centerpoint (0-2025.03.03.18.14) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * refactor(autoware_tensorrt_common): multi-TensorRT compatibility & tensorrt_common as unified lib for all perception components (#9762 <https://github.com/autowarefoundation/autoware.universe/issues/9762>)
+     * refactor(autoware_tensorrt_common): multi-TensorRT compatibility & tensorrt_common as unified lib for all perception components
+     * style(pre-commit): autofix
+     * style(autoware_tensorrt_common): linting
+     * style(autoware_lidar_centerpoint): typo
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * docs(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * fix(autoware_lidar_transfusion): reuse cast variable
+     * fix(autoware_tensorrt_common): remove deprecated inference API
+     * style(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * style(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * fix(autoware_tensorrt_common): const pointer
+     * fix(autoware_tensorrt_common): remove unused method declaration
+     * style(pre-commit): autofix
+     * refactor(autoware_tensorrt_common): readability
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+     * fix(autoware_tensorrt_common): return if layer not registered
+     * refactor(autoware_tensorrt_common): readability
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+     * fix(autoware_tensorrt_common): rename struct
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+   * feat(lidar_centerpoint, pointpainting): add diag publisher for max voxel size (#9720 <https://github.com/autowarefoundation/autoware.universe/issues/9720>)
+   * fix(autoware_lidar_centerpoint): fixed rounding errors that caused illegal memory access (#9795 <https://github.com/autowarefoundation/autoware.universe/issues/9795>)
+     fix: fixed rounding errors that caused illegal memory address
+   * feat(autoware_lidar_centerpoint): process front voxels first (#9608 <https://github.com/autowarefoundation/autoware.universe/issues/9608>)
+     * feat: optimize voxel indexing in preprocess_kernel.cu
+     * fix: remove redundant index check
+     * fix: modify voxel index for better memory access
+     ---------
+   * Contributors: Amadeusz Szymko, Fumiya Watanabe, Kenzo Lobos Tsunekawa, Taekjin LEE, kminoda
+Checksums-Sha1:
+ 4a608534e9aa0e43f38448ffd333a9c948f95ebb 40297 ros-humble-autoware-lidar-centerpoint_0-2025.03.03.18.14_amd64.buildinfo
+ 077a8c8c9d9920b9773c6de132321a7e180955c4 16476 ros-humble-autoware-lidar-centerpoint_0-2025.03.03.18.14_amd64.deb
+Checksums-Sha256:
+ cd68eb5ad4ced89cc33fc1f6d05a89323cef834bddfaa819e4dc760ae11db085 40297 ros-humble-autoware-lidar-centerpoint_0-2025.03.03.18.14_amd64.buildinfo
+ 5e61ad58d288bcef474faa62b488a5dd5012fdabf6c1cc0f40101c2d16dfe189 16476 ros-humble-autoware-lidar-centerpoint_0-2025.03.03.18.14_amd64.deb
+Files:
+ 87d1013d4625b940a121723fc6dd012d 40297 misc optional ros-humble-autoware-lidar-centerpoint_0-2025.03.03.18.14_amd64.buildinfo
+ 2fde67c43f24f142f8340d5ca7baf4c6 16476 misc optional ros-humble-autoware-lidar-centerpoint_0-2025.03.03.18.14_amd64.deb

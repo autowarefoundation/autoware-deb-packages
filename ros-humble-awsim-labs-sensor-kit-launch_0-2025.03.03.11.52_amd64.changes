@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 12 Feb 2025 00:00:00 -0000
+Source: ros-humble-awsim-labs-sensor-kit-launch
+Binary: ros-humble-awsim-labs-sensor-kit-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.03.11.52
+Distribution: jammy
+Urgency: high
+Maintainer: Piotr Jaroszek <piotr.jaroszek@robotec.ai>
+Changed-By: Piotr Jaroszek <piotr.jaroszek@robotec.ai>
+Description:
+ ros-humble-awsim-labs-sensor-kit-launch - The awsim_labs_sensor_kit_launch package
+Changes:
+ ros-humble-awsim-labs-sensor-kit-launch (0-2025.03.03.11.52) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into HEAD
+   * fix(awsim_labs_sensor_kit_launch): add autoware prefix to vehicle_velocity_converter (#11 <https://github.com/autowarefoundation/awsim_labs_sensor_kit_launch/issues/11>)
+   * chore: sync files (#14 <https://github.com/autowarefoundation/awsim_labs_sensor_kit_launch/issues/14>)
+     Co-authored-by: github-actions <mailto:github-actions@github.com>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: M. Fatih Cırıt <mailto:mfc@autoware.org>
+   * Contributors: Masaki Baba, Ryohsuke Mitsudome, awf-autoware-bot[bot]
+Checksums-Sha1:
+ ece0f1878622eb92e72330561ec3ac308f502cf5 10597 ros-humble-awsim-labs-sensor-kit-launch_0-2025.03.03.11.52_amd64.buildinfo
+ e82645a2bb2952d374ff2d81f1e3ce9612f20b20 8666 ros-humble-awsim-labs-sensor-kit-launch_0-2025.03.03.11.52_amd64.deb
+Checksums-Sha256:
+ 83453f14fb54268644acea96bf2771c439a45a820577f87ccc5942fe74760fd9 10597 ros-humble-awsim-labs-sensor-kit-launch_0-2025.03.03.11.52_amd64.buildinfo
+ 52c292034e72de110e5a3c7911e3e7b4a1164c351a922476fdd1a2d9246df9a6 8666 ros-humble-awsim-labs-sensor-kit-launch_0-2025.03.03.11.52_amd64.deb
+Files:
+ 08c9dc6ea93305b057961e6abcf1ef70 10597 misc optional ros-humble-awsim-labs-sensor-kit-launch_0-2025.03.03.11.52_amd64.buildinfo
+ 40af496e8f685b4825743c233edc8a48 8666 misc optional ros-humble-awsim-labs-sensor-kit-launch_0-2025.03.03.11.52_amd64.deb

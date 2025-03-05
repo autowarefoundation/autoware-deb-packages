@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-simple-object-merger
+Binary: ros-humble-autoware-simple-object-merger
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.04.02.13
+Distribution: jammy
+Urgency: high
+Maintainer: Sathshi Tanaka <satoshi.tanaka@tier4.jp>
+Changed-By: Sathshi Tanaka <satoshi.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-simple-object-merger - autoware_simple_object_merger
+Changes:
+ ros-humble-autoware-simple-object-merger (0-2025.03.04.02.13) jammy; urgency=high
+Checksums-Sha1:
+ 67cb9d1139eacfaefc27727c601481bf47e93385 2627384 ros-humble-autoware-simple-object-merger-dbgsym_0-2025.03.04.02.13_amd64.ddeb
+ f472291939650cf84e8e70effb7d9fabd0eac5ae 40493 ros-humble-autoware-simple-object-merger_0-2025.03.04.02.13_amd64.buildinfo
+ 40535e12dc720c4e53d0cc90130c316efe1c8957 132952 ros-humble-autoware-simple-object-merger_0-2025.03.04.02.13_amd64.deb
+Checksums-Sha256:
+ 8a60db3328e9dff48d5461ea2c353a1f51cda3d2207e2d7fda3ea28cfb567b03 2627384 ros-humble-autoware-simple-object-merger-dbgsym_0-2025.03.04.02.13_amd64.ddeb
+ dde72f981de0b555c7b98a752523d4a4c856030135c113850173b2db7a3c0557 40493 ros-humble-autoware-simple-object-merger_0-2025.03.04.02.13_amd64.buildinfo
+ a1cdca7309042b0dd47a158cc68a400ce3d6207f062fcce91715ad1bade8f683 132952 ros-humble-autoware-simple-object-merger_0-2025.03.04.02.13_amd64.deb
+Files:
+ 640ec9f4b21c6e069186f197f1cbcc8f 2627384 debug optional ros-humble-autoware-simple-object-merger-dbgsym_0-2025.03.04.02.13_amd64.ddeb
+ 95621414dde32b7878156434c26b7cff 40493 misc optional ros-humble-autoware-simple-object-merger_0-2025.03.04.02.13_amd64.buildinfo
+ 3d6896bb4811c55bf4c137736ce77587 132952 misc optional ros-humble-autoware-simple-object-merger_0-2025.03.04.02.13_amd64.deb

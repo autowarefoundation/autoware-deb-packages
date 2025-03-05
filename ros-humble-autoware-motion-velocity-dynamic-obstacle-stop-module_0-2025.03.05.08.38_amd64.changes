@@ -1,0 +1,70 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module
+Binary: ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.05.08.38
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime Clement <maxime.clement@tier4.jp>
+Changed-By: Maxime Clement <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module - dynamic_obstacle_stop module to stop ego when in the immediate pa
+Changes:
+ ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module (0-2025.03.05.08.38) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(motion_velocity_planner)!: add _universe suffix to autoware_motion_velocity_planner_common and autoware_motion_velocity_planner_node (#9942 <https://github.com/autowarefoundation/autoware.universe/issues/9942>)
+   * chore(planning): move package directory for planning factor interface (#9948 <https://github.com/autowarefoundation/autoware.universe/issues/9948>)
+     * chore: add new package for planning factor interface
+     * chore(surround_obstacle_checker): update include file
+     * chore(obstacle_stop_planner): update include file
+     * chore(obstacle_cruise_planner): update include file
+     * chore(motion_velocity_planner): update include file
+     * chore(bpp): update include file
+     * chore(bvp-common): update include file
+     * chore(blind_spot): update include file
+     * chore(crosswalk): update include file
+     * chore(detection_area): update include file
+     * chore(intersection): update include file
+     * chore(no_drivable_area): update include file
+     * chore(no_stopping_area): update include file
+     * chore(occlusion_spot): update include file
+     * chore(run_out): update include file
+     * chore(speed_bump): update include file
+     * chore(stop_line): update include file
+     * chore(template_module): update include file
+     * chore(traffic_light): update include file
+     * chore(vtl): update include file
+     * chore(walkway): update include file
+     * chore(motion_utils): remove factor interface
+     ---------
+   * feat(planning_factor)!: remove velocity_factor, steering_factor and introduce planning_factor (#9927 <https://github.com/autowarefoundation/autoware.universe/issues/9927>)
+     Co-authored-by: Satoshi OTA <mailto:44889564+satoshi-ota@users.noreply.github.com>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: satoshi-ota <mailto:satoshi.ota928@gmail.com>
+   * feat(motion_velocity_planner): introduce Object/Pointcloud structure in PlannerData (#9812 <https://github.com/autowarefoundation/autoware.universe/issues/9812>)
+     * feat: new object/pointcloud struct in motion velocity planner
+     * update planner_data
+     * modify modules
+     * fix
+     ---------
+   * feat(motion_velocity_planner): remove unnecessary tier4_planning_msgs dependency (#9757 <https://github.com/autowarefoundation/autoware.universe/issues/9757>)
+     * feat(motion_velocity_planner): remove unnecessary tier4_planning_msgs dependency
+     * fix
+     ---------
+   * feat(motion_velocity_planner): use Float64Stamped in autoware_internal_debug_msgs (#9745 <https://github.com/autowarefoundation/autoware.universe/issues/9745>)
+   * Contributors: Fumiya Watanabe, Mamoru Sobue, Ryohsuke Mitsudome, Satoshi OTA, Takayuki Murooka
+Checksums-Sha1:
+ c8cd4c06cba58199a0609d54f361a632e06faaaf 3871372 ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module-dbgsym_0-2025.03.05.08.38_amd64.ddeb
+ 7a4867736db9f0eb7f4f0e9afffcd15098087d9d 45066 ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module_0-2025.03.05.08.38_amd64.buildinfo
+ feefec1d68d0657b7c431f094681705f2e2868eb 144228 ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module_0-2025.03.05.08.38_amd64.deb
+Checksums-Sha256:
+ bea2dad64f90f0c6211748f8c44288793668c4b6966a52e4a941ddd34e9e46cf 3871372 ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module-dbgsym_0-2025.03.05.08.38_amd64.ddeb
+ d50590d2cf47ce797079daae0176e0f145de717486dc886ea17fc13f91a8c56e 45066 ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module_0-2025.03.05.08.38_amd64.buildinfo
+ d89fdd505da2656690e48f3299997d63ec9f9b33a542ddda3d6011b991784d12 144228 ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module_0-2025.03.05.08.38_amd64.deb
+Files:
+ b1a326be319a20a9c1da2dbbebf9b6f4 3871372 debug optional ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module-dbgsym_0-2025.03.05.08.38_amd64.ddeb
+ 54ff9adbbf990f0137c18caf605bffe8 45066 misc optional ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module_0-2025.03.05.08.38_amd64.buildinfo
+ b81ec711134994baf8ea229f208798e2 144228 misc optional ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module_0-2025.03.05.08.38_amd64.deb
