@@ -2,7 +2,7 @@ repositories:
   core/autoware.core:
     type: git
     url: https://github.com/autowarefoundation/autoware.core.git
-    version: d3f360f1ad7711c7dc62aa7fbf8c5fa83b6e1560
+    version: e79597c294ac5411700d043c762d6d28956162ff
   core/autoware_adapi_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
@@ -14,7 +14,7 @@ repositories:
   core/autoware_internal_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_internal_msgs.git
-    version: 04484399dc98fb4b12f292128aea687a7b13d53e
+    version: d1f41f235dc7b8fdfaa759023d00af0e6e73f8ba
   core/autoware_lanelet2_extension:
     type: git
     url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
@@ -22,15 +22,15 @@ repositories:
   core/autoware_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_msgs.git
-    version: bbafc6c4410222de45df2d73e66678f80b1e28d4
+    version: 2a54c182c5a166eb8a55a2dfadc9c144232b1bf2
   core/autoware_utils:
     type: git
     url: https://github.com/autowarefoundation/autoware_utils.git
-    version: 7115d01f3f8b7b0abc31dfabdd293ce548399623
+    version: 62b5953d32eebcd7bb206b2395d6c9ab6b81155e
   launcher/autoware_launch:
     type: git
     url: https://github.com/autowarefoundation/autoware_launch.git
-    version: ea7b92d7338afd4282114742f98bf109ce474806
+    version: 2ef661c443d0181028b244179b235ca4cb91cfbc
   param/autoware_individual_params:
     type: git
     url: https://github.com/autowarefoundation/autoware_individual_params.git
@@ -74,7 +74,7 @@ repositories:
   universe/autoware.universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
-    version: a11a3eee0325792e924349809ec7d80ed435f003
+    version: fbc7a9d9cb617485d48ebe79f781e5741d0456dd
   universe/external/eagleye:
     type: git
     url: https://github.com/MapIV/eagleye.git
