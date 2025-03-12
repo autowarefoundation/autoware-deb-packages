@@ -127,3 +127,7 @@ repositories:
     type: git
     url: https://github.com/autowarefoundation/sample_vehicle_launch.git
     version: cd852aed85aaf033a0747050cf4300967e89c1ae
+  universe/external/grid_map:
+    type: git
+    url: https://github.com/esteve/grid_map.git
+    version: fix-dependency
