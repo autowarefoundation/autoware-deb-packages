@@ -4,10 +4,10 @@ name: generate-deb-packages-aws
 on:
   push:
     branches:
-      - 'main'
+      - 'release-base'
   pull_request:
     branches:
-      - 'main'
+      - 'release-base'
 
 jobs:
   start-runner:
