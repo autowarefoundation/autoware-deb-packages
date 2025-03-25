@@ -4,10 +4,10 @@ name: generate-deb-packages-aws
 on:
   push:
     branches:
-      - 'release-base'
+      - 'release/2025.02'
   pull_request:
     branches:
-      - 'release-base'
+      - 'release/2025.02'
 
 jobs:
   start-runner:
@@ -65,10 +65,10 @@ jobs:
           SBUILD_CONF: $extra_repositories = ["deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ jammy main"];
           DEB_DISTRO: jammy
           ROS_DISTRO: humble
-          REPOS_FILE: sources.repos
+          REPOS_FILE: https://raw.githubusercontent.com/autowarefoundation/autoware/release/2025.02/autoware.repos
           GITHUB_TOKEN: ${{ env.gh_personal_access_token_mfc }}
           SQUASH_HISTORY: true
-          PACKAGES_BRANCH: jammy-humble-main
+          PACKAGES_BRANCH: jammy-humble-release/2025.02
           GIT_LFS: true
   stop-runner:
     name: "Stop self-hosted EC2 runner"
