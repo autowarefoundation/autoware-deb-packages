@@ -25,7 +25,7 @@ jobs:
           aws-region: ${{ secrets.EC2_ON_DEMAND_AWS_REGION }}
       - name: "Start EC2 runner"
         id: start-ec2-runner
-        uses: esteve/ec2-github-runner@Optionally-execute-runner-as-a-service-size
+        uses: esteve/ec2-github-runner@feature/allow-changing-root-volume-size
         with:
           mode: start
           github-token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN_MFC }}
@@ -61,7 +61,7 @@ jobs:
             echo "gh_personal_access_token_mfc=" >> $GITHUB_ENV
           fi
       - name: "Build Debian packages (pushing packages to repository: ${{ env.push_packages }})"
-        uses: esteve/ros-deb-builder-action@tier4/main
+        uses: jspricke/ros-deb-builder-action@main
         with:
           ROSDEP_SOURCE: yaml https://s3.amazonaws.com/autonomoustuff-repo/autonomoustuff-public-humble.yaml
           SBUILD_CONF: $extra_repositories = ["deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ jammy main"];
