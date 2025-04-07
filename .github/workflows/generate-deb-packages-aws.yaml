@@ -31,7 +31,6 @@ jobs:
           github-token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN_MFC }}
           ec2-image-id: ami-0c3b809fcf2445b6a
           ec2-instance-type: t3.xlarge
-          ec2-volume-device: /dev/sda1
           ec2-volume-size: 30
           subnet-id: subnet-4e5eb225
           security-group-id: sg-02780d120ee4d06e1
