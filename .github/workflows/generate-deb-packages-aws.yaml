@@ -60,7 +60,7 @@ jobs:
             echo "gh_personal_access_token_mfc=" >> $GITHUB_ENV
           fi
       - name: "Build Debian packages (pushing packages to repository: ${{ env.push_packages }})"
-        uses: jspricke/ros-deb-builder-action@main
+        uses: esteve/ros-deb-builder-action@tier4/main
         with:
           ROSDEP_SOURCE: yaml https://s3.amazonaws.com/autonomoustuff-repo/autonomoustuff-public-humble.yaml
           SBUILD_CONF: $extra_repositories = ["deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ jammy main"];
