@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-pose-initializer
+Binary: ros-humble-autoware-pose-initializer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.10.17.10
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-pose-initializer - The autoware_pose_initializer package
+Changes:
+ ros-humble-autoware-pose-initializer (0-2025.04.10.17.10) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware_ prefix for default_ad_api_helpers (#9965 <https://github.com/autowarefoundation/autoware.universe/issues/9965>)
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Takagi, Isamu <mailto:isamu.takagi@tier4.jp>
+   * feat(autoware_component_interface_specs_universe!): rename package (#9753 <https://github.com/autowarefoundation/autoware.universe/issues/9753>)
+   * refactor(autoware_universe_utils): add missing 's' in the class of diagnostics_interface (#9777 <https://github.com/autowarefoundation/autoware.universe/issues/9777>)
+   * feat!: move diagnostics_module from localization_util to unverse_utils (#9714 <https://github.com/autowarefoundation/autoware.universe/issues/9714>)
+     * feat!: move diagnostics_module from localization_util to unverse_utils
+     * remove diagnostics module from localization_util
+     * style(pre-commit): autofix
+     * minor fix in pose_initializer
+     * add test
+     * style(pre-commit): autofix
+     * remove unnecessary declaration
+     * module -> interface
+     * remove unnecessary equal expression
+     * revert the remove of template function
+     * style(pre-commit): autofix
+     * use overload instead
+     * include what you use -- test_diagnostics_interface.cpp
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Fumiya Watanabe, Junya Sasaki, Ryohsuke Mitsudome, kminoda
+Checksums-Sha1:
+ 2844a56657e18fb785fa7c717624b2176b57b2d1 5267468 ros-humble-autoware-pose-initializer-dbgsym_0-2025.04.10.17.10_amd64.ddeb
+ d5947043c6e5891641a1ffb59b8ee03fd8cd8789 42410 ros-humble-autoware-pose-initializer_0-2025.04.10.17.10_amd64.buildinfo
+ 17d90a238628e7cf8d67f011169706acf638fd00 199020 ros-humble-autoware-pose-initializer_0-2025.04.10.17.10_amd64.deb
+Checksums-Sha256:
+ 7ea6c21c1330fce8032ed42be9a1f2552febba1896f0b84c300821a715b7af90 5267468 ros-humble-autoware-pose-initializer-dbgsym_0-2025.04.10.17.10_amd64.ddeb
+ b08b313897c7a66579b0bf44568bab273ec3c5dd13d975586353eb9248b22c5d 42410 ros-humble-autoware-pose-initializer_0-2025.04.10.17.10_amd64.buildinfo
+ 1bba2150ada81509db60236473754b748fc3cc99e3519d7a9d51f32a947606ab 199020 ros-humble-autoware-pose-initializer_0-2025.04.10.17.10_amd64.deb
+Files:
+ 46eb96ef65aa291f7a5b6c1e96620fd1 5267468 debug optional ros-humble-autoware-pose-initializer-dbgsym_0-2025.04.10.17.10_amd64.ddeb
+ 2357103b437c51dc12d42a28d871fd91 42410 misc optional ros-humble-autoware-pose-initializer_0-2025.04.10.17.10_amd64.buildinfo
+ b1bc7fb5f5dda2f0a21ee5a88ae8498a 199020 misc optional ros-humble-autoware-pose-initializer_0-2025.04.10.17.10_amd64.deb

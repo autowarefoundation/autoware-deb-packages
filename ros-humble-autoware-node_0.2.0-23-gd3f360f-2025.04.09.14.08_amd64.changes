@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Fri, 07 Feb 2025 00:00:00 -0000
+Source: ros-humble-autoware-node
+Binary: ros-humble-autoware-node
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.0-23-gd3f360f-2025.04.09.14.08
+Distribution: jammy
+Urgency: high
+Maintainer: Mete Fatih Cırıt <mfc@autoware.org>
+Changed-By: Mete Fatih Cırıt <mfc@autoware.org>
+Description:
+ ros-humble-autoware-node - Autoware Node is an Autoware.Core package designed to provide a b
+Changes:
+ ros-humble-autoware-node (0.2.0-23-gd3f360f-2025.04.09.14.08) jammy; urgency=high
+ .
+   * chore: humble to main sync (#162 <https://github.com/autowarefoundation/autoware.core/issues/162>)
+     * update changelog
+     * 0.1.0
+     ---------
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+   * fix: change autoware_node from a static library to a shared library (#121 <https://github.com/autowarefoundation/autoware.core/issues/121>)
+   * feat: add autoware_node and autoware_test node (#113 <https://github.com/autowarefoundation/autoware.core/issues/113>)
+   * Contributors: M. Fatih Cırıt, SakodaShintaro, Yutaka Kondo
+Checksums-Sha1:
+ f45fc9a26c2a3d40c1fca491f0c380e41ac05391 138616 ros-humble-autoware-node-dbgsym_0.2.0-23-gd3f360f-2025.04.09.14.08_amd64.ddeb
+ 4adade28b322f7a653314c66e5999bf65255878f 15460 ros-humble-autoware-node_0.2.0-23-gd3f360f-2025.04.09.14.08_amd64.buildinfo
+ f40f1d133e6a994567a15faf4deb226659497209 11734 ros-humble-autoware-node_0.2.0-23-gd3f360f-2025.04.09.14.08_amd64.deb
+Checksums-Sha256:
+ 1e54ce54dbb176c438a6e3bfa88d362f9c8aae9654c3a91e4ce6b662a64a2fd1 138616 ros-humble-autoware-node-dbgsym_0.2.0-23-gd3f360f-2025.04.09.14.08_amd64.ddeb
+ 1a24ae0507395d88ac5667a0c11a03f89ee28a7d01b770b07819fee9ce558de5 15460 ros-humble-autoware-node_0.2.0-23-gd3f360f-2025.04.09.14.08_amd64.buildinfo
+ b47c11cbd858ab2145c91e9e1608b966ac68991b16b6dde8aa359fee3ed2fb77 11734 ros-humble-autoware-node_0.2.0-23-gd3f360f-2025.04.09.14.08_amd64.deb
+Files:
+ ba80f7ad079c6518afecc0c642637735 138616 debug optional ros-humble-autoware-node-dbgsym_0.2.0-23-gd3f360f-2025.04.09.14.08_amd64.ddeb
+ 75322704a11e28521e027a65b85b6aa3 15460 misc optional ros-humble-autoware-node_0.2.0-23-gd3f360f-2025.04.09.14.08_amd64.buildinfo
+ 25cb63b5369aa053293309f5d1f5ea8a 11734 misc optional ros-humble-autoware-node_0.2.0-23-gd3f360f-2025.04.09.14.08_amd64.deb

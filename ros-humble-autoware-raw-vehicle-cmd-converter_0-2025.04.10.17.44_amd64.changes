@@ -1,0 +1,42 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-raw-vehicle-cmd-converter
+Binary: ros-humble-autoware-raw-vehicle-cmd-converter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.10.17.44
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-raw-vehicle-cmd-converter - The autoware_raw_vehicle_cmd_converter package
+Changes:
+ ros-humble-autoware-raw-vehicle-cmd-converter (0-2025.04.10.17.44) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_raw_vehicle_cmd_converter)!: tier4_debug_msgs changed to autoware_internal_debug_msgs in autoware_raw_vehicle_cmd_converter (#9924 <https://github.com/autowarefoundation/autoware.universe/issues/9924>)
+     feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files vehicle/autoware_raw_vehicle_cmd_converter
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+   * fix(raw_veihicle_converter): fix too long line (#9716 <https://github.com/autowarefoundation/autoware.universe/issues/9716>)
+   * feat(raw_vehicle_cmd_converter): add vehicle adaptor  (#8782 <https://github.com/autowarefoundation/autoware.universe/issues/8782>)
+     * feat(raw_vehicle_cmd_converter): add vehicle adaptor
+     sub operation status
+     * feat(raw_vehicle_cmd_converter): publish vehicle adaptor output
+     * use control horizon
+     * revert carla
+     * update docs
+     ---------
+   * Contributors: Fumiya Watanabe, Kosuke Takeuchi, Vishal Chauhan
+Checksums-Sha1:
+ 6a6cd8d53d3ea2ae8d10865e22cba7ebdc447efc 7557398 ros-humble-autoware-raw-vehicle-cmd-converter-dbgsym_0-2025.04.10.17.44_amd64.ddeb
+ b35175c4c38ee77630391000349e9eaf0e96874b 41011 ros-humble-autoware-raw-vehicle-cmd-converter_0-2025.04.10.17.44_amd64.buildinfo
+ ff4d60bffa756c3870930149b19b73a2d2b3cbdf 282934 ros-humble-autoware-raw-vehicle-cmd-converter_0-2025.04.10.17.44_amd64.deb
+Checksums-Sha256:
+ b634fdd25adb46a158a31ae564be6753833ba66a6e8ab0f3008aef2d1a04f332 7557398 ros-humble-autoware-raw-vehicle-cmd-converter-dbgsym_0-2025.04.10.17.44_amd64.ddeb
+ fd0f899d20e1c7a0a2276b5f2ddff807da189070b8ef0e02bcc6b3c2cbf0b9f6 41011 ros-humble-autoware-raw-vehicle-cmd-converter_0-2025.04.10.17.44_amd64.buildinfo
+ f7f0ba8d83d6caa1087bbdd77ea68f37d1db1f8717f3b670e7faa0e1e90a635b 282934 ros-humble-autoware-raw-vehicle-cmd-converter_0-2025.04.10.17.44_amd64.deb
+Files:
+ e48f959974c850aefb371c910eec5ab0 7557398 debug optional ros-humble-autoware-raw-vehicle-cmd-converter-dbgsym_0-2025.04.10.17.44_amd64.ddeb
+ 074ef7025f34aa885d3be2c12cc45aed 41011 misc optional ros-humble-autoware-raw-vehicle-cmd-converter_0-2025.04.10.17.44_amd64.buildinfo
+ e5f8f8353956277d30c657abb9139ad3 282934 misc optional ros-humble-autoware-raw-vehicle-cmd-converter_0-2025.04.10.17.44_amd64.deb

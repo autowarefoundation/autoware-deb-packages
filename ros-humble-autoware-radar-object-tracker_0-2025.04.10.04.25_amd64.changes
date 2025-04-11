@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-radar-object-tracker
+Binary: ros-humble-autoware-radar-object-tracker
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.10.04.25
+Distribution: jammy
+Urgency: high
+Maintainer: Yoshi Ri <yoshi.ri@tier4.jp>
+Changed-By: Yoshi Ri <yoshi.ri@tier4.jp>
+Description:
+ ros-humble-autoware-radar-object-tracker - Do tracking radar object
+Changes:
+ ros-humble-autoware-radar-object-tracker (0-2025.04.10.04.25) jammy; urgency=high
+Checksums-Sha1:
+ 77aef3b640ea0e32b0bfd6fadb072f4fe0e90ae2 12014266 ros-humble-autoware-radar-object-tracker-dbgsym_0-2025.04.10.04.25_amd64.ddeb
+ cad55f010eaf667fdd5dd9915a36cb09c614a984 42100 ros-humble-autoware-radar-object-tracker_0-2025.04.10.04.25_amd64.buildinfo
+ 8fd77d0027b0e81ddd3a61cad175b0c297a23b74 346884 ros-humble-autoware-radar-object-tracker_0-2025.04.10.04.25_amd64.deb
+Checksums-Sha256:
+ b6b84c416489157c0f434cacd4b77db31ecbb45d5efdf3b39c12fcfc19df5ea3 12014266 ros-humble-autoware-radar-object-tracker-dbgsym_0-2025.04.10.04.25_amd64.ddeb
+ 5b369cb4bfcb4eab73826a65dc3d77dae5a6714e9cda96816c2232659fe1c80a 42100 ros-humble-autoware-radar-object-tracker_0-2025.04.10.04.25_amd64.buildinfo
+ 2af16d45eb1d38e48df735eb09768a6b7b1180077027b0aeadf212c6bdd8642a 346884 ros-humble-autoware-radar-object-tracker_0-2025.04.10.04.25_amd64.deb
+Files:
+ 4921fc2f87cd1eb66e667c961a744724 12014266 debug optional ros-humble-autoware-radar-object-tracker-dbgsym_0-2025.04.10.04.25_amd64.ddeb
+ c74abf67dceee9d5764261f2e70912a5 42100 misc optional ros-humble-autoware-radar-object-tracker_0-2025.04.10.04.25_amd64.buildinfo
+ a4a0969ee4419b42263d1dc19945e5a6 346884 misc optional ros-humble-autoware-radar-object-tracker_0-2025.04.10.04.25_amd64.deb

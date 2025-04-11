@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-radar-tracks-msgs-converter
+Binary: ros-humble-autoware-radar-tracks-msgs-converter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.10.04.57
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Tanaka <satoshi.tanaka@tier4.jp>
+Changed-By: Satoshi Tanaka <satoshi.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-radar-tracks-msgs-converter - autoware_radar_tracks_msgs_converter
+Changes:
+ ros-humble-autoware-radar-tracks-msgs-converter (0-2025.04.10.04.57) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * fix(autoware_radar_tracks_msgs_converter): fix bugprone-reserved-identifier (#9658 <https://github.com/autowarefoundation/autoware.universe/issues/9658>)
+     fix: bugprone-error
+   * Contributors: Fumiya Watanabe, kobayu858
+Checksums-Sha1:
+ 329ee56c21728d6acf4006197189cf82d6d8ca0e 3553404 ros-humble-autoware-radar-tracks-msgs-converter-dbgsym_0-2025.04.10.04.57_amd64.ddeb
+ 35a2e889cb70de8528402538e11e5e1117a38ec1 40719 ros-humble-autoware-radar-tracks-msgs-converter_0-2025.04.10.04.57_amd64.buildinfo
+ f850ab1b71c09eff42793bf835457f41621bdac3 161946 ros-humble-autoware-radar-tracks-msgs-converter_0-2025.04.10.04.57_amd64.deb
+Checksums-Sha256:
+ ce447b108f79059a9bb35c21c4daf8ab8c69b4fbd48f1573422dcde67248ed66 3553404 ros-humble-autoware-radar-tracks-msgs-converter-dbgsym_0-2025.04.10.04.57_amd64.ddeb
+ 7186d426a40739a7c071e4b5355187672825ee9f464bb02f35734b51c3bc4225 40719 ros-humble-autoware-radar-tracks-msgs-converter_0-2025.04.10.04.57_amd64.buildinfo
+ 318dc3d5945e10055588c8b8450f780436ec67a98521b54a8d593da3fc1ac99c 161946 ros-humble-autoware-radar-tracks-msgs-converter_0-2025.04.10.04.57_amd64.deb
+Files:
+ b541fe86f5bd1a3f68052a05df3298ed 3553404 debug optional ros-humble-autoware-radar-tracks-msgs-converter-dbgsym_0-2025.04.10.04.57_amd64.ddeb
+ 29b2d97bc6e2a9a8d692c4664feb7ccd 40719 misc optional ros-humble-autoware-radar-tracks-msgs-converter_0-2025.04.10.04.57_amd64.buildinfo
+ 0bea4ebfb0eadce6d7a889ed40c867c8 161946 misc optional ros-humble-autoware-radar-tracks-msgs-converter_0-2025.04.10.04.57_amd64.deb

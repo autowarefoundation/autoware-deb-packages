@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-auto-common
+Binary: ros-humble-autoware-auto-common
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.09.13.26
+Distribution: jammy
+Urgency: high
+Maintainer: Apex.AI, Inc. <opensource@apex.ai>
+Changed-By: Apex.AI, Inc. <opensource@apex.ai>
+Description:
+ ros-humble-autoware-auto-common - Miscellaneous helper functions
+Changes:
+ ros-humble-autoware-auto-common (0-2025.04.09.13.26) jammy; urgency=high
+Checksums-Sha1:
+ 4d2c5b86f0d9aa262fa68d429eff11f9fc2a4141 13635 ros-humble-autoware-auto-common_0-2025.04.09.13.26_amd64.buildinfo
+ 8a9a6445d18a0500a09730c9aed5f63aaafd7be9 28160 ros-humble-autoware-auto-common_0-2025.04.09.13.26_amd64.deb
+Checksums-Sha256:
+ 34d8098398d313aa8616ce17a133e673c293bd5db19f385adcb1e13cb2b1c985 13635 ros-humble-autoware-auto-common_0-2025.04.09.13.26_amd64.buildinfo
+ 1bb43c61f0129d9ecde3a59dc3deb3aeaa4269dbe7b513f9a44a877890b6b40a 28160 ros-humble-autoware-auto-common_0-2025.04.09.13.26_amd64.deb
+Files:
+ 0dd47ffd15c9aa1dee93d446e5e43ef9 13635 misc optional ros-humble-autoware-auto-common_0-2025.04.09.13.26_amd64.buildinfo
+ 9cc7567c4b466eea23ede4b328dd3581 28160 misc optional ros-humble-autoware-auto-common_0-2025.04.09.13.26_amd64.deb

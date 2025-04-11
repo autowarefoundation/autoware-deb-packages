@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-tier4-system-rviz-plugin
+Binary: ros-humble-tier4-system-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.10.14.45
+Distribution: jammy
+Urgency: high
+Maintainer: Koji Minoda <koji.minoda@tier4.jp>
+Changed-By: Koji Minoda <koji.minoda@tier4.jp>
+Description:
+ ros-humble-tier4-system-rviz-plugin - The tier4_vehicle_rviz_plugin package
+Changes:
+ ros-humble-tier4-system-rviz-plugin (0-2025.04.10.14.45) jammy; urgency=high
+Checksums-Sha1:
+ 8ca6a35eb7d3d410af2fab7fe991eb96095546dc 3331664 ros-humble-tier4-system-rviz-plugin-dbgsym_0-2025.04.10.14.45_amd64.ddeb
+ 3f70527c3d9fbe8801a6e823900065152aa8feb0 42626 ros-humble-tier4-system-rviz-plugin_0-2025.04.10.14.45_amd64.buildinfo
+ 5366ded5fb5002d83dbcbb234aa42885fe1003be 118582 ros-humble-tier4-system-rviz-plugin_0-2025.04.10.14.45_amd64.deb
+Checksums-Sha256:
+ 16b5e1512adf4455eb8e5ff61e605c74e94e4eb662a5cf63e1bc155a7c58e614 3331664 ros-humble-tier4-system-rviz-plugin-dbgsym_0-2025.04.10.14.45_amd64.ddeb
+ eb367557edec8953653e8ca5cd092cfaeb3d73236ef7ae93f3fc8383ffdc3b34 42626 ros-humble-tier4-system-rviz-plugin_0-2025.04.10.14.45_amd64.buildinfo
+ 7dac14d8ee1d4b12aeb15f2b41cadd4727d953f1c941a99f4320c865fd93a514 118582 ros-humble-tier4-system-rviz-plugin_0-2025.04.10.14.45_amd64.deb
+Files:
+ 8646c2d975b6e23bd3253f6c3d28d2e7 3331664 debug optional ros-humble-tier4-system-rviz-plugin-dbgsym_0-2025.04.10.14.45_amd64.ddeb
+ 216d566777a2d94ca922a04912ba0431 42626 misc optional ros-humble-tier4-system-rviz-plugin_0-2025.04.10.14.45_amd64.buildinfo
+ 224f084417ec3a9160781414e655d6f3 118582 misc optional ros-humble-tier4-system-rviz-plugin_0-2025.04.10.14.45_amd64.deb

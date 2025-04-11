@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-learning-based-vehicle-model
+Binary: ros-humble-autoware-learning-based-vehicle-model
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.09.13.52
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime Clement <maxime.clement@tier4.jp>
+Changed-By: Maxime Clement <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-learning-based-vehicle-model - autoware_learning_based_vehicle_model for simple_planning_simulat
+Changes:
+ ros-humble-autoware-learning-based-vehicle-model (0-2025.04.09.13.52) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware_ prefix for learning_based_vehicle_model (#9991 <https://github.com/autowarefoundation/autoware.universe/issues/9991>)
+   * Contributors: Fumiya Watanabe, Junya Sasaki
+Checksums-Sha1:
+ 51634bbbc816723693137557e2af54e7a30859dc 721606 ros-humble-autoware-learning-based-vehicle-model-dbgsym_0-2025.04.09.13.52_amd64.ddeb
+ 9f358f0adb61a935d854218c2324bc1a4e49774e 12130 ros-humble-autoware-learning-based-vehicle-model_0-2025.04.09.13.52_amd64.buildinfo
+ dfd9167385020acd090c0e23f535f951d8955b20 59012 ros-humble-autoware-learning-based-vehicle-model_0-2025.04.09.13.52_amd64.deb
+Checksums-Sha256:
+ 22fbef70cb7dad8ad5b1250bf88a55f032d27187f756a1625c1572da9aed593e 721606 ros-humble-autoware-learning-based-vehicle-model-dbgsym_0-2025.04.09.13.52_amd64.ddeb
+ 8a79f42f97db8a71a0842a7b634eb67865c1169e3e440b2f14c7ea1a25f9d659 12130 ros-humble-autoware-learning-based-vehicle-model_0-2025.04.09.13.52_amd64.buildinfo
+ fdb5e379621e77e4dda6a2c8df7e0eabdbfc15d50cdec2d58c69642c7e48f027 59012 ros-humble-autoware-learning-based-vehicle-model_0-2025.04.09.13.52_amd64.deb
+Files:
+ 7b5f9b2514b6c1dfd4be6fe0469e0ea4 721606 debug optional ros-humble-autoware-learning-based-vehicle-model-dbgsym_0-2025.04.09.13.52_amd64.ddeb
+ bb75a2376214dda15e43d3bb9896a383 12130 misc optional ros-humble-autoware-learning-based-vehicle-model_0-2025.04.09.13.52_amd64.buildinfo
+ 5f5b913eb54e3b5c44ebfa9da15e9799 59012 misc optional ros-humble-autoware-learning-based-vehicle-model_0-2025.04.09.13.52_amd64.deb

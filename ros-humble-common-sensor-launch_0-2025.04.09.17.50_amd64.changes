@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Wed, 12 Feb 2025 00:00:00 -0000
+Source: ros-humble-common-sensor-launch
+Binary: ros-humble-common-sensor-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.09.17.50
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-common-sensor-launch - The common_sensor_launch package
+Changes:
+ ros-humble-common-sensor-launch (0-2025.04.09.17.50) jammy; urgency=high
+ .
+   * fix: add udp_only (#109 <https://github.com/autowarefoundation/sample_sensor_kit_launch/issues/109>)
+     Added udp_only
+   * feat(common_sensor_launch): rename velodyne_monitor to autoware_velodyne_monitor (#119 <https://github.com/autowarefoundation/sample_sensor_kit_launch/issues/119>)
+   * Contributors: Ryohsuke Mitsudome, SakodaShintaro
+Checksums-Sha1:
+ 7b639624246d9c1bdbc5cb9f7c1cfaea834d2162 10570 ros-humble-common-sensor-launch_0-2025.04.09.17.50_amd64.buildinfo
+ d5d2e2d9468a59bc7e3113b572a95e1c5b9f94da 15972 ros-humble-common-sensor-launch_0-2025.04.09.17.50_amd64.deb
+Checksums-Sha256:
+ 3dee6b8455f7fb4c43c5ac06fbdaaca187a09ae44eabc4a64e5df233ac16447b 10570 ros-humble-common-sensor-launch_0-2025.04.09.17.50_amd64.buildinfo
+ b4280753f2f0d0c2ddc66eab846cdb7ba90055e8c17f5ac4130652df52ceee9e 15972 ros-humble-common-sensor-launch_0-2025.04.09.17.50_amd64.deb
+Files:
+ 6d4510035f8399daa5987cdbd0fbdfe7 10570 misc optional ros-humble-common-sensor-launch_0-2025.04.09.17.50_amd64.buildinfo
+ 0ccb3ebcb7db6418f8091cf240196cb7 15972 misc optional ros-humble-common-sensor-launch_0-2025.04.09.17.50_amd64.deb

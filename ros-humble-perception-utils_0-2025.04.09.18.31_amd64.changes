@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-perception-utils
+Binary: ros-humble-perception-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.09.18.31
+Distribution: jammy
+Urgency: high
+Maintainer: Shunsuke Miura <shunsuke.miura@tier4.jp>
+Changed-By: Shunsuke Miura <shunsuke.miura@tier4.jp>
+Description:
+ ros-humble-perception-utils - The perception_utils package
+Changes:
+ ros-humble-perception-utils (0-2025.04.09.18.31) jammy; urgency=high
+Checksums-Sha1:
+ 5653fb22c32e9e33344da4eb16745ec7ba3b1325 104894 ros-humble-perception-utils-dbgsym_0-2025.04.09.18.31_amd64.ddeb
+ 77d0051457e57822a33f2ff94451ecd9b095b09e 26177 ros-humble-perception-utils_0-2025.04.09.18.31_amd64.buildinfo
+ dbbf075430590e0472058fc96a407aca856422f2 14858 ros-humble-perception-utils_0-2025.04.09.18.31_amd64.deb
+Checksums-Sha256:
+ 5550b25556f3dfe5e0d797304bbfee4c4a38c84351c59abb19f8ebebf5c55340 104894 ros-humble-perception-utils-dbgsym_0-2025.04.09.18.31_amd64.ddeb
+ 6627170fe0cfa4ac1003d62285fd996d4ef35729b1e14e62fe8ece2ba0ed2999 26177 ros-humble-perception-utils_0-2025.04.09.18.31_amd64.buildinfo
+ 05f82d6c42dfb83c7395b066e144d9a7da483af07754198008b59bb05b295e45 14858 ros-humble-perception-utils_0-2025.04.09.18.31_amd64.deb
+Files:
+ 256c7b0d3671d007bba0ff36fc9dd243 104894 debug optional ros-humble-perception-utils-dbgsym_0-2025.04.09.18.31_amd64.ddeb
+ 1204b8239fe4504d9d247c675413ae7f 26177 misc optional ros-humble-perception-utils_0-2025.04.09.18.31_amd64.buildinfo
+ f03bfee8e83494458b6af27e2d8840eb 14858 misc optional ros-humble-perception-utils_0-2025.04.09.18.31_amd64.deb

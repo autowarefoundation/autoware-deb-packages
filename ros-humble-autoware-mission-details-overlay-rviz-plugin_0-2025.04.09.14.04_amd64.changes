@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-mission-details-overlay-rviz-plugin
+Binary: ros-humble-autoware-mission-details-overlay-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.09.14.04
+Distribution: jammy
+Urgency: high
+Maintainer: Ahmed Ebrahim <ahmed.ebrahim@leodrive.ai>
+Changed-By: Ahmed Ebrahim <ahmed.ebrahim@leodrive.ai>
+Description:
+ ros-humble-autoware-mission-details-overlay-rviz-plugin - RViz2 plugin for 2D overlays for mission details in the 3D view.
+Changes:
+ ros-humble-autoware-mission-details-overlay-rviz-plugin (0-2025.04.09.14.04) jammy; urgency=high
+Checksums-Sha1:
+ 1a66b65ca90e93d6abeb1edb441e06d1411513c5 3136840 ros-humble-autoware-mission-details-overlay-rviz-plugin-dbgsym_0-2025.04.09.14.04_amd64.ddeb
+ 8ade9a5916a0a7b4d72e97315534277595348270 29547 ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.04.09.14.04_amd64.buildinfo
+ 1a8ff99ee42c447ab17ebe44096a4549ee60c1df 186736 ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.04.09.14.04_amd64.deb
+Checksums-Sha256:
+ 6369e068d8f7246eafd79702bc6b05e6217715ad5d70895deb6793595ba13190 3136840 ros-humble-autoware-mission-details-overlay-rviz-plugin-dbgsym_0-2025.04.09.14.04_amd64.ddeb
+ d246d2eb0001a7992cff7fd289bf59db2d6e5b1dce05b91153f83ccff5cca579 29547 ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.04.09.14.04_amd64.buildinfo
+ e5f0350dcd688947fce9d2d8c289656fe2930fd9cbb62dd2dd67ce2305e3be95 186736 ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.04.09.14.04_amd64.deb
+Files:
+ 56179c365ae72c78aae937fe1be003fd 3136840 debug optional ros-humble-autoware-mission-details-overlay-rviz-plugin-dbgsym_0-2025.04.09.14.04_amd64.ddeb
+ fd4c12915389ff813761a61146bb00bb 29547 misc optional ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.04.09.14.04_amd64.buildinfo
+ 46deef6c0954c68e0aae8e7f7771b1b5 186736 misc optional ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.04.09.14.04_amd64.deb

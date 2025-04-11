@@ -1,0 +1,80 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-planning-factor-interface
+Binary: ros-humble-autoware-planning-factor-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.10.01.56
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-planning-factor-interface - The autoware_planning_factor_interface package
+Changes:
+ ros-humble-autoware-planning-factor-interface (0-2025.04.10.01.56) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * chore(planning): move package directory for planning factor interface (#9948 <https://github.com/autowarefoundation/autoware.universe/issues/9948>)
+     * chore: add new package for planning factor interface
+     * chore(surround_obstacle_checker): update include file
+     * chore(obstacle_stop_planner): update include file
+     * chore(obstacle_cruise_planner): update include file
+     * chore(motion_velocity_planner): update include file
+     * chore(bpp): update include file
+     * chore(bvp-common): update include file
+     * chore(blind_spot): update include file
+     * chore(crosswalk): update include file
+     * chore(detection_area): update include file
+     * chore(intersection): update include file
+     * chore(no_drivable_area): update include file
+     * chore(no_stopping_area): update include file
+     * chore(occlusion_spot): update include file
+     * chore(run_out): update include file
+     * chore(speed_bump): update include file
+     * chore(stop_line): update include file
+     * chore(template_module): update include file
+     * chore(traffic_light): update include file
+     * chore(vtl): update include file
+     * chore(walkway): update include file
+     * chore(motion_utils): remove factor interface
+     ---------
+   * Contributors: Fumiya Watanabe, Satoshi OTA
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * chore(planning): move package directory for planning factor interface (#9948 <https://github.com/autowarefoundation/autoware.universe/issues/9948>)
+     * chore: add new package for planning factor interface
+     * chore(surround_obstacle_checker): update include file
+     * chore(obstacle_stop_planner): update include file
+     * chore(obstacle_cruise_planner): update include file
+     * chore(motion_velocity_planner): update include file
+     * chore(bpp): update include file
+     * chore(bvp-common): update include file
+     * chore(blind_spot): update include file
+     * chore(crosswalk): update include file
+     * chore(detection_area): update include file
+     * chore(intersection): update include file
+     * chore(no_drivable_area): update include file
+     * chore(no_stopping_area): update include file
+     * chore(occlusion_spot): update include file
+     * chore(run_out): update include file
+     * chore(speed_bump): update include file
+     * chore(stop_line): update include file
+     * chore(template_module): update include file
+     * chore(traffic_light): update include file
+     * chore(vtl): update include file
+     * chore(walkway): update include file
+     * chore(motion_utils): remove factor interface
+     ---------
+   * Contributors: Fumiya Watanabe, Satoshi OTA
+Checksums-Sha1:
+ 6b0d3d5cf9bba69c16fe31fc1175597ead78cd8d 283228 ros-humble-autoware-planning-factor-interface-dbgsym_0-2025.04.10.01.56_amd64.ddeb
+ 74bdd480de6effffa997d4a59a3e3a47d33c846a 40897 ros-humble-autoware-planning-factor-interface_0-2025.04.10.01.56_amd64.buildinfo
+ 9b1278ab591fcda5fe1d088fff293b3662624d92 20380 ros-humble-autoware-planning-factor-interface_0-2025.04.10.01.56_amd64.deb
+Checksums-Sha256:
+ 61a3cdcbb43f568d3cb5ce16523131b864999506e4ecd42edeedf937cbd91019 283228 ros-humble-autoware-planning-factor-interface-dbgsym_0-2025.04.10.01.56_amd64.ddeb
+ 54fbca5c1477f59e1638972f22279f28f5c53cc1093fcf2091fe4fd933dcefd6 40897 ros-humble-autoware-planning-factor-interface_0-2025.04.10.01.56_amd64.buildinfo
+ 5cf960fb01d5834273514b59894c4ab455e6842a078af2776e68196a44bb5ef6 20380 ros-humble-autoware-planning-factor-interface_0-2025.04.10.01.56_amd64.deb
+Files:
+ db1ebef4bb0891224d6b3d79d1367539 283228 debug optional ros-humble-autoware-planning-factor-interface-dbgsym_0-2025.04.10.01.56_amd64.ddeb
+ de29425005c24fa87c1013614681e41e 40897 misc optional ros-humble-autoware-planning-factor-interface_0-2025.04.10.01.56_amd64.buildinfo
+ 82b4e1719474ebe4db9c4e3965ecac4a 20380 misc optional ros-humble-autoware-planning-factor-interface_0-2025.04.10.01.56_amd64.deb

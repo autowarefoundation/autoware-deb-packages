@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-automatic-pose-initializer
+Binary: ros-humble-autoware-automatic-pose-initializer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.10.12.57
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-automatic-pose-initializer - The automatic_pose_initializer package
+Changes:
+ ros-humble-autoware-automatic-pose-initializer (0-2025.04.10.12.57) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware_ prefix for default_ad_api_helpers (#9965 <https://github.com/autowarefoundation/autoware.universe/issues/9965>)
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Takagi, Isamu <mailto:isamu.takagi@tier4.jp>
+   * Contributors: Fumiya Watanabe, Junya Sasaki
+Checksums-Sha1:
+ a107539c7e42b98fbae2d73ee6a950731c2e96b8 2750006 ros-humble-autoware-automatic-pose-initializer-dbgsym_0-2025.04.10.12.57_amd64.ddeb
+ 8479d9f26dfb3d64b3b0e5031359a5e0a420b549 16518 ros-humble-autoware-automatic-pose-initializer_0-2025.04.10.12.57_amd64.buildinfo
+ 6cc57d4b6f2ff173738f0187a63d62e7ccabd0ba 137592 ros-humble-autoware-automatic-pose-initializer_0-2025.04.10.12.57_amd64.deb
+Checksums-Sha256:
+ 8b037e659c01e9fd924bf57b4957e7dad9cb54bf8269a0cbc7778039a4d2d995 2750006 ros-humble-autoware-automatic-pose-initializer-dbgsym_0-2025.04.10.12.57_amd64.ddeb
+ 72e91a3430435f9e7cb218874dca2103075c43848c0908efa23bf331527c354d 16518 ros-humble-autoware-automatic-pose-initializer_0-2025.04.10.12.57_amd64.buildinfo
+ 49f20bf37bb470ea2927a7f47e6a9a8712b2c80051e98fa34fe088c7de9ff7ec 137592 ros-humble-autoware-automatic-pose-initializer_0-2025.04.10.12.57_amd64.deb
+Files:
+ 52fc4e874a384c39ea75c2456cdd4a16 2750006 debug optional ros-humble-autoware-automatic-pose-initializer-dbgsym_0-2025.04.10.12.57_amd64.ddeb
+ 2aa8b5e3276a605c8531fccdddd8b64b 16518 misc optional ros-humble-autoware-automatic-pose-initializer_0-2025.04.10.12.57_amd64.buildinfo
+ 297f12587991903a31a71c019803e369 137592 misc optional ros-humble-autoware-automatic-pose-initializer_0-2025.04.10.12.57_amd64.deb

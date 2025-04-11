@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 12 Feb 2025 00:00:00 -0000
+Source: ros-humble-awsim-labs-sensor-kit-launch
+Binary: ros-humble-awsim-labs-sensor-kit-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.09.17.27
+Distribution: jammy
+Urgency: high
+Maintainer: Piotr Jaroszek <piotr.jaroszek@robotec.ai>
+Changed-By: Piotr Jaroszek <piotr.jaroszek@robotec.ai>
+Description:
+ ros-humble-awsim-labs-sensor-kit-launch - The awsim_labs_sensor_kit_launch package
+Changes:
+ ros-humble-awsim-labs-sensor-kit-launch (0-2025.04.09.17.27) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into HEAD
+   * fix(awsim_labs_sensor_kit_launch): add autoware prefix to vehicle_velocity_converter (#11 <https://github.com/autowarefoundation/awsim_labs_sensor_kit_launch/issues/11>)
+   * chore: sync files (#14 <https://github.com/autowarefoundation/awsim_labs_sensor_kit_launch/issues/14>)
+     Co-authored-by: github-actions <mailto:github-actions@github.com>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: M. Fatih Cırıt <mailto:mfc@autoware.org>
+   * Contributors: Masaki Baba, Ryohsuke Mitsudome, awf-autoware-bot[bot]
+Checksums-Sha1:
+ 741fc0533313746e322914aae5a8795c657f1d2c 10607 ros-humble-awsim-labs-sensor-kit-launch_0-2025.04.09.17.27_amd64.buildinfo
+ 67eb21479a89d44d06733bba771d9ac29a741c35 8652 ros-humble-awsim-labs-sensor-kit-launch_0-2025.04.09.17.27_amd64.deb
+Checksums-Sha256:
+ 51b3fef5a5d6c9ded2ca878074fb99d31226cf462f653a224e69ac2f789ada5c 10607 ros-humble-awsim-labs-sensor-kit-launch_0-2025.04.09.17.27_amd64.buildinfo
+ dec1bf0c4aebf6302ceb6c6fe26b37108e885b0260cd155a59ff934b6789b861 8652 ros-humble-awsim-labs-sensor-kit-launch_0-2025.04.09.17.27_amd64.deb
+Files:
+ 45acb06e34e6e858e4e8adab4bba4b1b 10607 misc optional ros-humble-awsim-labs-sensor-kit-launch_0-2025.04.09.17.27_amd64.buildinfo
+ 8c9732f535f898925096da5f99e3a7b9 8652 misc optional ros-humble-awsim-labs-sensor-kit-launch_0-2025.04.09.17.27_amd64.deb

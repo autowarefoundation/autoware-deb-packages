@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-pose2twist
+Binary: ros-humble-autoware-pose2twist
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.09.14.43
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-pose2twist - The autoware_pose2twist package
+Changes:
+ ros-humble-autoware-pose2twist (0-2025.04.09.14.43) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files localization/autoware_pose2twist (#9866 <https://github.com/autowarefoundation/autoware.universe/issues/9866>)
+   * Contributors: Fumiya Watanabe, Vishal Chauhan
+Checksums-Sha1:
+ eb5fef0ae550597e3b96bd15cfcc729b69800f0d 2465632 ros-humble-autoware-pose2twist-dbgsym_0-2025.04.09.14.43_amd64.ddeb
+ 62037761895d34d767376ee59614f4afe734f057 17077 ros-humble-autoware-pose2twist_0-2025.04.09.14.43_amd64.buildinfo
+ 320646926e0bb49a26d32fd8c25ad1cd8b415227 125042 ros-humble-autoware-pose2twist_0-2025.04.09.14.43_amd64.deb
+Checksums-Sha256:
+ a5107597a94ce9bbdd14ffc2b62bf6af0e5936d2dbfed6ca1242f1e10745ad93 2465632 ros-humble-autoware-pose2twist-dbgsym_0-2025.04.09.14.43_amd64.ddeb
+ 80c8f7014cb7c4072fd0aff52ef5eba7f96d8d28955d8aaee98909edc9fcd0a3 17077 ros-humble-autoware-pose2twist_0-2025.04.09.14.43_amd64.buildinfo
+ 0b2e8a2ca931ad33824513c04aafa7c4780815cbd23e39d7752e2e7b44fa1af3 125042 ros-humble-autoware-pose2twist_0-2025.04.09.14.43_amd64.deb
+Files:
+ 9198e4cd17585d23526a24b497cda9d5 2465632 debug optional ros-humble-autoware-pose2twist-dbgsym_0-2025.04.09.14.43_amd64.ddeb
+ 98659d34f02456f9440f1f996846d4bf 17077 misc optional ros-humble-autoware-pose2twist_0-2025.04.09.14.43_amd64.buildinfo
+ a185755703a2c8cdf4192358c81e9919 125042 misc optional ros-humble-autoware-pose2twist_0-2025.04.09.14.43_amd64.deb

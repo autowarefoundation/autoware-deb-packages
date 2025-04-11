@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-rtc-interface
+Binary: ros-humble-autoware-rtc-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.11.01.47
+Distribution: jammy
+Urgency: high
+Maintainer: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Changed-By: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Description:
+ ros-humble-autoware-rtc-interface - The autoware_rtc_interface package
+Changes:
+ ros-humble-autoware-rtc-interface (0-2025.04.11.01.47) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * fix(autoware_rtc_interface): fix bugprone-branch-clone (#9698 <https://github.com/autowarefoundation/autoware.universe/issues/9698>)
+   * Contributors: Fumiya Watanabe, kobayu858
+Checksums-Sha1:
+ 03528fd98326792a6911d70f51b6d64a45f155d3 1333322 ros-humble-autoware-rtc-interface-dbgsym_0-2025.04.11.01.47_amd64.ddeb
+ 0c77036f19cf0a0c004f50d64c060a041037840b 43651 ros-humble-autoware-rtc-interface_0-2025.04.11.01.47_amd64.buildinfo
+ 10c02fdb77d6f3dba88b8f2353b26c0212020b05 85200 ros-humble-autoware-rtc-interface_0-2025.04.11.01.47_amd64.deb
+Checksums-Sha256:
+ 48579b32b5b3fbc2f8addf35d41cbdd6066a3f4de077fde7ad9e800eb4c68393 1333322 ros-humble-autoware-rtc-interface-dbgsym_0-2025.04.11.01.47_amd64.ddeb
+ 3744e6a8c1e3a211e5ec64e5820072b88320454be541de5dfd3d0ab5cc018981 43651 ros-humble-autoware-rtc-interface_0-2025.04.11.01.47_amd64.buildinfo
+ 2aa63e00c2ce5b0cd87dd68a258ad18d7725c74d7782d7e69df32c4d379fcff6 85200 ros-humble-autoware-rtc-interface_0-2025.04.11.01.47_amd64.deb
+Files:
+ 48517cbe8a31301f6a723c2ccf903058 1333322 debug optional ros-humble-autoware-rtc-interface-dbgsym_0-2025.04.11.01.47_amd64.ddeb
+ 52b94bb5b67364d05e4d4109cad191d1 43651 misc optional ros-humble-autoware-rtc-interface_0-2025.04.11.01.47_amd64.buildinfo
+ 7250fbdc2deb0aa3a1bcf05c069e4260 85200 misc optional ros-humble-autoware-rtc-interface_0-2025.04.11.01.47_amd64.deb

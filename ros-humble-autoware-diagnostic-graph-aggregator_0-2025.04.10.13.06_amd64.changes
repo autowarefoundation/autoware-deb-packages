@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-diagnostic-graph-aggregator
+Binary: ros-humble-autoware-diagnostic-graph-aggregator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.10.13.06
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-diagnostic-graph-aggregator - The diagnostic_graph_aggregator package
+Changes:
+ ros-humble-autoware-diagnostic-graph-aggregator (0-2025.04.10.13.06) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware prefix for component_state_monitor and its dependencies (#9961 <https://github.com/autowarefoundation/autoware.universe/issues/9961>)
+   * Contributors: Fumiya Watanabe, Junya Sasaki
+Checksums-Sha1:
+ 49498b14443d6fb10e23cd2fd7210fd747ada952 5361002 ros-humble-autoware-diagnostic-graph-aggregator-dbgsym_0-2025.04.10.13.06_amd64.ddeb
+ 6a732d29fde2f294a41e16fb333a285fe685cc5f 16291 ros-humble-autoware-diagnostic-graph-aggregator_0-2025.04.10.13.06_amd64.buildinfo
+ ccfc61bd36c1ea36c90653e40fc003cce04acf43 240870 ros-humble-autoware-diagnostic-graph-aggregator_0-2025.04.10.13.06_amd64.deb
+Checksums-Sha256:
+ 8ee7ce0aa84764257561abdc201179fd61cd273ede42bd81337ff0c8479b75a8 5361002 ros-humble-autoware-diagnostic-graph-aggregator-dbgsym_0-2025.04.10.13.06_amd64.ddeb
+ 6fe167fba23389e41376004d4d779cc541288b1f9c642eb4b908a3eb6bdb9388 16291 ros-humble-autoware-diagnostic-graph-aggregator_0-2025.04.10.13.06_amd64.buildinfo
+ d357277165f358c24e7f89348fe44980acca4e92f6806a2e160c2a0d5b1c5dbc 240870 ros-humble-autoware-diagnostic-graph-aggregator_0-2025.04.10.13.06_amd64.deb
+Files:
+ 08c0d63b0a458fad3ddfc2f8c9533a8b 5361002 debug optional ros-humble-autoware-diagnostic-graph-aggregator-dbgsym_0-2025.04.10.13.06_amd64.ddeb
+ 5ba97fd39c2b349306acb524e8431a38 16291 misc optional ros-humble-autoware-diagnostic-graph-aggregator_0-2025.04.10.13.06_amd64.buildinfo
+ 505b262f508766b6409725542240b8e9 240870 misc optional ros-humble-autoware-diagnostic-graph-aggregator_0-2025.04.10.13.06_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-grid-map-utils
+Binary: ros-humble-autoware-grid-map-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.09.23.04
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime CLEMENT <maxime.clement@tier4.jp>
+Changed-By: Maxime CLEMENT <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-grid-map-utils - Utilities for the grid_map library
+Changes:
+ ros-humble-autoware-grid-map-utils (0-2025.04.09.23.04) jammy; urgency=high
+Checksums-Sha1:
+ 455c1b6670ee1b3e489f7743cc8aa113cdc31952 225258 ros-humble-autoware-grid-map-utils-dbgsym_0-2025.04.09.23.04_amd64.ddeb
+ bd2b9bccf0439454d4c78ddba1d66339a9756af0 44644 ros-humble-autoware-grid-map-utils_0-2025.04.09.23.04_amd64.buildinfo
+ 6f7ca52270b6d5741a3f1886e200de5b3e14cf37 80030 ros-humble-autoware-grid-map-utils_0-2025.04.09.23.04_amd64.deb
+Checksums-Sha256:
+ ce536b78a0fbefdfe4384057cc29035da4877dfd5ba88d303ff5e7f92974830f 225258 ros-humble-autoware-grid-map-utils-dbgsym_0-2025.04.09.23.04_amd64.ddeb
+ c43033f4a1f67772a84368d3687e536aa85237715ba6f28d38cf995764bc469f 44644 ros-humble-autoware-grid-map-utils_0-2025.04.09.23.04_amd64.buildinfo
+ 9fe8ea3fa015fdbec7b0f3f05528b0490dea46dd4f1610b0dc32f2d3258bf0e1 80030 ros-humble-autoware-grid-map-utils_0-2025.04.09.23.04_amd64.deb
+Files:
+ b901b1bfb9241d68f0c22ebf18bd514c 225258 debug optional ros-humble-autoware-grid-map-utils-dbgsym_0-2025.04.09.23.04_amd64.ddeb
+ 7cc21c685ced3dbad7cd5b5366aec57a 44644 misc optional ros-humble-autoware-grid-map-utils_0-2025.04.09.23.04_amd64.buildinfo
+ e78e94b94b7d1c93237efc868b79f449 80030 misc optional ros-humble-autoware-grid-map-utils_0-2025.04.09.23.04_amd64.deb

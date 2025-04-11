@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-component-interface-specs-universe
+Binary: ros-humble-autoware-component-interface-specs-universe
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.10.15.39
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-component-interface-specs-universe - The autoware_component_interface_specs_universe package
+Changes:
+ ros-humble-autoware-component-interface-specs-universe (0-2025.04.10.15.39) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_component_interface_specs_universe!): rename package (#9753 <https://github.com/autowarefoundation/autoware.universe/issues/9753>)
+   * Contributors: Fumiya Watanabe, Ryohsuke Mitsudome
+Checksums-Sha1:
+ 8a64586b7f9837b31c06f244bec6b2f856a41487 16214 ros-humble-autoware-component-interface-specs-universe_0-2025.04.10.15.39_amd64.buildinfo
+ de4dfd5f26ec4be9ac9ad224e29e6df9003d320d 9342 ros-humble-autoware-component-interface-specs-universe_0-2025.04.10.15.39_amd64.deb
+Checksums-Sha256:
+ d74e0e8f6ef0a864ecfc84f2da0772a7e787b00cc2a7597653194606211f151e 16214 ros-humble-autoware-component-interface-specs-universe_0-2025.04.10.15.39_amd64.buildinfo
+ 9414bb951e13e2c05961bb3326543311a18473393ffe5e4faab632161e37728e 9342 ros-humble-autoware-component-interface-specs-universe_0-2025.04.10.15.39_amd64.deb
+Files:
+ f608973d43618bb726800cd477dc6077 16214 misc optional ros-humble-autoware-component-interface-specs-universe_0-2025.04.10.15.39_amd64.buildinfo
+ 860e3f8ba6aef97e66fd4c7ffbe227b4 9342 misc optional ros-humble-autoware-component-interface-specs-universe_0-2025.04.10.15.39_amd64.deb

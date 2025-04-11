@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-object-recognition-utils
+Binary: ros-humble-autoware-object-recognition-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.10.00.50
+Distribution: jammy
+Urgency: high
+Maintainer: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Changed-By: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Description:
+ ros-humble-autoware-object-recognition-utils - The autoware_object_recognition_utils package
+Changes:
+ ros-humble-autoware-object-recognition-utils (0-2025.04.10.00.50) jammy; urgency=high
+Checksums-Sha1:
+ e9f32379c37a64934bd2ee90fbc863b984c6ca78 178596 ros-humble-autoware-object-recognition-utils-dbgsym_0-2025.04.10.00.50_amd64.ddeb
+ cd2a0b796b9538434284147e7042bba5d7854ec0 40632 ros-humble-autoware-object-recognition-utils_0-2025.04.10.00.50_amd64.buildinfo
+ b66d810c79210d5131be207d78383974dca53ca7 22262 ros-humble-autoware-object-recognition-utils_0-2025.04.10.00.50_amd64.deb
+Checksums-Sha256:
+ 6859d873e10e491a390258f536540027390559be8ed6a734eb6dc9d7aa9f1894 178596 ros-humble-autoware-object-recognition-utils-dbgsym_0-2025.04.10.00.50_amd64.ddeb
+ 13c286200fb8cacc656ea2b0a0c712599508ef6df8806f08a0709a96c1c23f00 40632 ros-humble-autoware-object-recognition-utils_0-2025.04.10.00.50_amd64.buildinfo
+ 8a67a12f59774465cb71a2465444dd513d3c3614c492a1133319250583858af5 22262 ros-humble-autoware-object-recognition-utils_0-2025.04.10.00.50_amd64.deb
+Files:
+ 721041b726e554cef02d994de243082f 178596 debug optional ros-humble-autoware-object-recognition-utils-dbgsym_0-2025.04.10.00.50_amd64.ddeb
+ 4a80c60aa32cfde37d15607413a307b6 40632 misc optional ros-humble-autoware-object-recognition-utils_0-2025.04.10.00.50_amd64.buildinfo
+ eb701b12109aa257697eeb6bfa91e1a7 22262 misc optional ros-humble-autoware-object-recognition-utils_0-2025.04.10.00.50_amd64.deb

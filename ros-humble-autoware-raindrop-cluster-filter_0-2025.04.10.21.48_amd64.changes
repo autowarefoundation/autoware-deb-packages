@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-raindrop-cluster-filter
+Binary: ros-humble-autoware-raindrop-cluster-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.10.21.48
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-raindrop-cluster-filter - The ROS 2 filter cluster package
+Changes:
+ ros-humble-autoware-raindrop-cluster-filter (0-2025.04.10.21.48) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in fil… (#9896 <https://github.com/autowarefoundation/autoware.universe/issues/9896>)
+     feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files perception/autoware_raindrop_cluster_filter
+   * Contributors: Fumiya Watanabe, Vishal Chauhan
+Checksums-Sha1:
+ e7cde7c2d05e08c7f08ccb665cfe1f3653ee608c 3165868 ros-humble-autoware-raindrop-cluster-filter-dbgsym_0-2025.04.10.21.48_amd64.ddeb
+ a169354626571f7231ce0f16c332123fbc320d48 46721 ros-humble-autoware-raindrop-cluster-filter_0-2025.04.10.21.48_amd64.buildinfo
+ 20d0b84ba10eb1e0d63667823fe8e7a49f3c2f58 134824 ros-humble-autoware-raindrop-cluster-filter_0-2025.04.10.21.48_amd64.deb
+Checksums-Sha256:
+ c0b14275430cbef77af593e15fae833ce0c768af256c5279e26d90ea2b5b59d8 3165868 ros-humble-autoware-raindrop-cluster-filter-dbgsym_0-2025.04.10.21.48_amd64.ddeb
+ 257fa132fc730679e548a01a5534224ffa4290b715c0b9fcc0ff278fd29ee841 46721 ros-humble-autoware-raindrop-cluster-filter_0-2025.04.10.21.48_amd64.buildinfo
+ e6b44986fadb0c9c47e9e67afbe95cd4bc9ef0e6cd3efd0a268dea52e659e826 134824 ros-humble-autoware-raindrop-cluster-filter_0-2025.04.10.21.48_amd64.deb
+Files:
+ 989eeddc57665a78f67f8374a4a3d7d2 3165868 debug optional ros-humble-autoware-raindrop-cluster-filter-dbgsym_0-2025.04.10.21.48_amd64.ddeb
+ ead15b7849a8353ff9a29f4213c710ca 46721 misc optional ros-humble-autoware-raindrop-cluster-filter_0-2025.04.10.21.48_amd64.buildinfo
+ 193203c3a67ac1547c3631f668e7b3df 134824 misc optional ros-humble-autoware-raindrop-cluster-filter_0-2025.04.10.21.48_amd64.deb

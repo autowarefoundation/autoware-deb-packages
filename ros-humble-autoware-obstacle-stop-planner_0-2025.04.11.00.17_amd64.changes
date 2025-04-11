@@ -1,0 +1,64 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-obstacle-stop-planner
+Binary: ros-humble-autoware-obstacle-stop-planner
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.11.00.17
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-obstacle-stop-planner - The autoware_obstacle_stop_planner package
+Changes:
+ ros-humble-autoware-obstacle-stop-planner (0-2025.04.11.00.17) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_obstacle_stop_planner)!: tier4_debug_msgs changed to autoware_internal_debug_msgs in autoware_obstacle_stop_planner (#9906 <https://github.com/autowarefoundation/autoware.universe/issues/9906>)
+     feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files planning/autoware_obstacle_stop_planner
+   * feat(autoware_planning_test_manager): remove dependency of VirtualTrafficLightState and ExpandStopRange (#9953 <https://github.com/autowarefoundation/autoware.universe/issues/9953>)
+     * feat(autoware_planning_test_manager): remove dependency of virtual traffic light
+     * modify obstacle_stop test code
+     ---------
+   * chore(planning): move package directory for planning factor interface (#9948 <https://github.com/autowarefoundation/autoware.universe/issues/9948>)
+     * chore: add new package for planning factor interface
+     * chore(surround_obstacle_checker): update include file
+     * chore(obstacle_stop_planner): update include file
+     * chore(obstacle_cruise_planner): update include file
+     * chore(motion_velocity_planner): update include file
+     * chore(bpp): update include file
+     * chore(bvp-common): update include file
+     * chore(blind_spot): update include file
+     * chore(crosswalk): update include file
+     * chore(detection_area): update include file
+     * chore(intersection): update include file
+     * chore(no_drivable_area): update include file
+     * chore(no_stopping_area): update include file
+     * chore(occlusion_spot): update include file
+     * chore(run_out): update include file
+     * chore(speed_bump): update include file
+     * chore(stop_line): update include file
+     * chore(template_module): update include file
+     * chore(traffic_light): update include file
+     * chore(vtl): update include file
+     * chore(walkway): update include file
+     * chore(motion_utils): remove factor interface
+     ---------
+   * fix(obstacle_stop_planner): migrate planning factor (#9939 <https://github.com/autowarefoundation/autoware.universe/issues/9939>)
+     * fix(obstacle_stop_planner): migrate planning factor
+     * fix(autoware_default_adapi): add coversion map
+     ---------
+   * Contributors: Fumiya Watanabe, Satoshi OTA, Takayuki Murooka, Vishal Chauhan
+Checksums-Sha1:
+ 0313a257a5280e7c4d0ddfc411afff551558721f 12247000 ros-humble-autoware-obstacle-stop-planner-dbgsym_0-2025.04.11.00.17_amd64.ddeb
+ ccca98e774b6ce6b59c9aaf93999cfe2ff1e9359 44162 ros-humble-autoware-obstacle-stop-planner_0-2025.04.11.00.17_amd64.buildinfo
+ 35700b5a44c6750601f445149ec9669d68f3e911 464180 ros-humble-autoware-obstacle-stop-planner_0-2025.04.11.00.17_amd64.deb
+Checksums-Sha256:
+ 096634f8a5d3780ffef69e381e2ae75cd987be8192b406b79f735f0d84852cc7 12247000 ros-humble-autoware-obstacle-stop-planner-dbgsym_0-2025.04.11.00.17_amd64.ddeb
+ 022d5db7930c16ea1780d1e1ab14960ecb23494155084a8a5bedba58c329f138 44162 ros-humble-autoware-obstacle-stop-planner_0-2025.04.11.00.17_amd64.buildinfo
+ 2b6b23c62607e62240bf8d119969d2a16d434f33361599115553691e22a32c26 464180 ros-humble-autoware-obstacle-stop-planner_0-2025.04.11.00.17_amd64.deb
+Files:
+ 7166a9b9ceac616837aa6028f140edfd 12247000 debug optional ros-humble-autoware-obstacle-stop-planner-dbgsym_0-2025.04.11.00.17_amd64.ddeb
+ b1820ebe31b5fc306a0160df4a1b962f 44162 misc optional ros-humble-autoware-obstacle-stop-planner_0-2025.04.11.00.17_amd64.buildinfo
+ 49cccf94968a8177a7b6d5c83f75cd59 464180 misc optional ros-humble-autoware-obstacle-stop-planner_0-2025.04.11.00.17_amd64.deb

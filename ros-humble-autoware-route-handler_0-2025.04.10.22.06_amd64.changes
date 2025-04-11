@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-route-handler
+Binary: ros-humble-autoware-route-handler
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.10.22.06
+Distribution: jammy
+Urgency: high
+Maintainer: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Changed-By: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Description:
+ ros-humble-autoware-route-handler - The route_handling package
+Changes:
+ ros-humble-autoware-route-handler (0-2025.04.10.22.06) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * fix(autoware_route_handler): fix bugprone-exception-escape (#9738 <https://github.com/autowarefoundation/autoware.universe/issues/9738>)
+     * fix: bugprone-error
+     * fix: add include
+     ---------
+   * Contributors: Fumiya Watanabe, kobayu858
+Checksums-Sha1:
+ 87cca80a6bfecfca812801f6ca73156773cebd98 2076232 ros-humble-autoware-route-handler-dbgsym_0-2025.04.10.22.06_amd64.ddeb
+ f8b9396c796ed57b95f1dcd16fbdbc68322cf10c 43595 ros-humble-autoware-route-handler_0-2025.04.10.22.06_amd64.buildinfo
+ 5e6ad14bbc6d844c8d8ad386881b86e21cd8cac1 93162 ros-humble-autoware-route-handler_0-2025.04.10.22.06_amd64.deb
+Checksums-Sha256:
+ 9e402815388955ff5f0c81ad56c1fe75bb205de091380ffe14d14f426b89f9b4 2076232 ros-humble-autoware-route-handler-dbgsym_0-2025.04.10.22.06_amd64.ddeb
+ e5903759de8afb733b6e20dda6a1a62813707030df6ed5f1568aebaff5953985 43595 ros-humble-autoware-route-handler_0-2025.04.10.22.06_amd64.buildinfo
+ 45188c6d097291717b9d93b59ead3949fca2a7eb568fde1b8811fcddb7d8728c 93162 ros-humble-autoware-route-handler_0-2025.04.10.22.06_amd64.deb
+Files:
+ cec594f737520951abf64a8b2bc04756 2076232 debug optional ros-humble-autoware-route-handler-dbgsym_0-2025.04.10.22.06_amd64.ddeb
+ d24e71eaba654b1f975a25dc54c21fe2 43595 misc optional ros-humble-autoware-route-handler_0-2025.04.10.22.06_amd64.buildinfo
+ 98d008dce3228ccf1f3fc680a4e1e652 93162 misc optional ros-humble-autoware-route-handler_0-2025.04.10.22.06_amd64.deb

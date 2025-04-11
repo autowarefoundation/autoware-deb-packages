@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-lidar-transfusion
+Binary: ros-humble-autoware-lidar-transfusion
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.10.01.09
+Distribution: jammy
+Urgency: high
+Maintainer: Amadeusz Szymko <amadeusz.szymko.2@tier4.jp>
+Changed-By: Amadeusz Szymko <amadeusz.szymko.2@tier4.jp>
+Description:
+ ros-humble-autoware-lidar-transfusion - The lidar_transfusion package
+Changes:
+ ros-humble-autoware-lidar-transfusion (0-2025.04.10.01.09) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * refactor(autoware_tensorrt_common): multi-TensorRT compatibility & tensorrt_common as unified lib for all perception components (#9762 <https://github.com/autowarefoundation/autoware.universe/issues/9762>)
+     * refactor(autoware_tensorrt_common): multi-TensorRT compatibility & tensorrt_common as unified lib for all perception components
+     * style(pre-commit): autofix
+     * style(autoware_tensorrt_common): linting
+     * style(autoware_lidar_centerpoint): typo
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * docs(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * fix(autoware_lidar_transfusion): reuse cast variable
+     * fix(autoware_tensorrt_common): remove deprecated inference API
+     * style(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * style(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * fix(autoware_tensorrt_common): const pointer
+     * fix(autoware_tensorrt_common): remove unused method declaration
+     * style(pre-commit): autofix
+     * refactor(autoware_tensorrt_common): readability
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+     * fix(autoware_tensorrt_common): return if layer not registered
+     * refactor(autoware_tensorrt_common): readability
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+     * fix(autoware_tensorrt_common): rename struct
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+   * fix(autoware_lidar_transfusion): fixed rounding errors that caused illegal memory access (#9796 <https://github.com/autowarefoundation/autoware.universe/issues/9796>)
+     fix: fixed rounding errors that caused illegal memory address
+     Co-authored-by: Amadeusz Szymko <mailto:amadeusz.szymko.2@tier4.jp>
+   * Contributors: Amadeusz Szymko, Fumiya Watanabe, Kenzo Lobos Tsunekawa
+Checksums-Sha1:
+ 92272ac45540c3c8a421bcb8d50cb0876fedd7a3 40679 ros-humble-autoware-lidar-transfusion_0-2025.04.10.01.09_amd64.buildinfo
+ b3b8bf6a10d682c30848cfaa1424f646d36d5089 17006 ros-humble-autoware-lidar-transfusion_0-2025.04.10.01.09_amd64.deb
+Checksums-Sha256:
+ e038fae0fe4c93140fb2e22e8439d85e0e9df9cc9f6ce6c8c521ad34bc95943a 40679 ros-humble-autoware-lidar-transfusion_0-2025.04.10.01.09_amd64.buildinfo
+ bb9e147dc963c1e823622061e1c2cc42409dee99f8375be061d7e46ec4ac7934 17006 ros-humble-autoware-lidar-transfusion_0-2025.04.10.01.09_amd64.deb
+Files:
+ 539fde7968cbf341b5874aedd647b99b 40679 misc optional ros-humble-autoware-lidar-transfusion_0-2025.04.10.01.09_amd64.buildinfo
+ e81bcad01829a000e1d0ce00707d8167 17006 misc optional ros-humble-autoware-lidar-transfusion_0-2025.04.10.01.09_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-obstacle-collision-checker
+Binary: ros-humble-autoware-obstacle-collision-checker
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.10.01.35
+Distribution: jammy
+Urgency: high
+Maintainer: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Changed-By: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-obstacle-collision-checker - The obstacle_collision_checker package
+Changes:
+ ros-humble-autoware-obstacle-collision-checker (0-2025.04.10.01.35) jammy; urgency=high
+Checksums-Sha1:
+ 47d351a3e036795075a6f433d6c4f27ae6eed801 6280650 ros-humble-autoware-obstacle-collision-checker-dbgsym_0-2025.04.10.01.35_amd64.ddeb
+ dc85caa7afe2559e86680ccc4cd98c48f42d309a 40726 ros-humble-autoware-obstacle-collision-checker_0-2025.04.10.01.35_amd64.buildinfo
+ 5ffc0d76e5232178e4c81858a101d7d227919d5b 250328 ros-humble-autoware-obstacle-collision-checker_0-2025.04.10.01.35_amd64.deb
+Checksums-Sha256:
+ 2a3d8788ef2d11d8126e8f21d282db190332ee0c4af6b00257c17c881a0fdda7 6280650 ros-humble-autoware-obstacle-collision-checker-dbgsym_0-2025.04.10.01.35_amd64.ddeb
+ 720e62aa740a03ce030735fc41b56849619c22f6f976c03e99872b5ec2020456 40726 ros-humble-autoware-obstacle-collision-checker_0-2025.04.10.01.35_amd64.buildinfo
+ 6f13a03c3ae20041e6d33270a5e597b550b0d718b4d4c5f90925a69925daabe2 250328 ros-humble-autoware-obstacle-collision-checker_0-2025.04.10.01.35_amd64.deb
+Files:
+ 552c824f34bb94ac2b890120e8bc9ee1 6280650 debug optional ros-humble-autoware-obstacle-collision-checker-dbgsym_0-2025.04.10.01.35_amd64.ddeb
+ c63946b4ec4e08363ababd39ae43bf9a 40726 misc optional ros-humble-autoware-obstacle-collision-checker_0-2025.04.10.01.35_amd64.buildinfo
+ b79d0a52d9e37ba9350c77f310103688 250328 misc optional ros-humble-autoware-obstacle-collision-checker_0-2025.04.10.01.35_amd64.deb

@@ -1,0 +1,54 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-simple-planning-simulator
+Binary: ros-humble-autoware-simple-planning-simulator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.10.18.16
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-simple-planning-simulator - simple_planning_simulator as a ROS 2 node
+Changes:
+ ros-humble-autoware-simple-planning-simulator (0-2025.04.10.18.16) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware_ prefix for learning_based_vehicle_model (#9991 <https://github.com/autowarefoundation/autoware.universe/issues/9991>)
+   * feat: apply autoware_ prefix for simple_planning_simulator (#9995 <https://github.com/autowarefoundation/autoware.universe/issues/9995>)
+     * feat(simple_planning_simulator): apply autoware_ prefix (see below):
+     Note:
+     * In this commit, I did not organize a folder structure.
+     The folder structure will be organized in the next some commits.
+     * The changes will follow the Autoware's guideline as below:
+     - https://autowarefoundation.github.io/autoware-documentation/main/contributing/coding-guidelines/ros-nodes/directory-structure/#package-folder
+     * rename(simple_planning_simulator): move headers under include/autoware:
+     * Fixes due to this changes for .hpp/.cpp files will be applied in the next commit
+     * fix(simple_planning_simulator): fix include header paths
+     * To follow the previous commit
+     * rename: simple_planning_simulator => autoware_simple_planning_simulator
+     * bug(autoware_simple_planning_simulator): fix missing changes
+     * style(pre-commit): autofix
+     * bug(autoware_simple_planning_simulator): fix errors in build and tests
+     * I had to run after rm -rf install build, ... sorry
+     * style(pre-commit): autofix
+     * Fixed NOLINT
+     * Added NOLINT
+     * Fixed to autoware_simple_planning_simulator
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Shintaro Sakoda <mailto:shintaro.sakoda@tier4.jp>
+   * Contributors: Fumiya Watanabe, Junya Sasaki
+Checksums-Sha1:
+ e947986f2fe8f97297b284b0d11330ab56b8739c 14543690 ros-humble-autoware-simple-planning-simulator-dbgsym_0-2025.04.10.18.16_amd64.ddeb
+ 32acac0bf8937b37ff77012542c4a335be3a0f31 42523 ros-humble-autoware-simple-planning-simulator_0-2025.04.10.18.16_amd64.buildinfo
+ a9706d4bb8a15f99415e3c19c358afe0320ec015 486586 ros-humble-autoware-simple-planning-simulator_0-2025.04.10.18.16_amd64.deb
+Checksums-Sha256:
+ 1ecf7c85b9ffd1dbe46e9a70267eee18242a997ebed44bc5e78535a19bf96bb7 14543690 ros-humble-autoware-simple-planning-simulator-dbgsym_0-2025.04.10.18.16_amd64.ddeb
+ 3b974abd41c3dc69b18be2a77f6c5543d6f68447502f5ed2ae631ef87a4cbfcc 42523 ros-humble-autoware-simple-planning-simulator_0-2025.04.10.18.16_amd64.buildinfo
+ f3099bf30efe15f673261b109c153a611323838a60b2000a11c2860edc331ae0 486586 ros-humble-autoware-simple-planning-simulator_0-2025.04.10.18.16_amd64.deb
+Files:
+ 95cdd057f43d1a64b2ff154584026ba7 14543690 debug optional ros-humble-autoware-simple-planning-simulator-dbgsym_0-2025.04.10.18.16_amd64.ddeb
+ 8b68e906593b7186fac18d125287d09c 42523 misc optional ros-humble-autoware-simple-planning-simulator_0-2025.04.10.18.16_amd64.buildinfo
+ 0e8002c836dae95e4b338bd06db27860 486586 misc optional ros-humble-autoware-simple-planning-simulator_0-2025.04.10.18.16_amd64.deb

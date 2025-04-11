@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Wed, 12 Feb 2025 00:00:00 -0000
+Source: ros-humble-common-awsim-labs-sensor-launch
+Binary: ros-humble-common-awsim-labs-sensor-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.09.17.48
+Distribution: jammy
+Urgency: high
+Maintainer: Piotr Jaroszek <piotr.jaroszek@robotec.ai>
+Changed-By: Piotr Jaroszek <piotr.jaroszek@robotec.ai>
+Description:
+ ros-humble-common-awsim-labs-sensor-launch - The common_sensor_launch package
+Changes:
+ ros-humble-common-awsim-labs-sensor-launch (0-2025.04.09.17.48) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into HEAD
+   * chore: remove unnecessary dependency to velodyne_monitor (#19 <https://github.com/autowarefoundation/awsim_labs_sensor_kit_launch/issues/19>)
+   * chore: sync files (#14 <https://github.com/autowarefoundation/awsim_labs_sensor_kit_launch/issues/14>)
+     Co-authored-by: github-actions <mailto:github-actions@github.com>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: M. Fatih Cırıt <mailto:mfc@autoware.org>
+   * refactor(glog_component): prefix package and namespace with autoware (#10 <https://github.com/autowarefoundation/awsim_labs_sensor_kit_launch/issues/10>)
+   * Contributors: Esteve Fernandez, Ryohsuke Mitsudome, awf-autoware-bot[bot]
+Checksums-Sha1:
+ c9c2fb4177b3a6a7a27e3b1b2be44cb225d0b37d 10622 ros-humble-common-awsim-labs-sensor-launch_0-2025.04.09.17.48_amd64.buildinfo
+ ea315a793e1e1e9e9708a30752e3b0cc283a1a0e 8048 ros-humble-common-awsim-labs-sensor-launch_0-2025.04.09.17.48_amd64.deb
+Checksums-Sha256:
+ 47eb15dd7da7976f44e3c50e0093de369b28f8e9b04c261cacaa3708d2dc409b 10622 ros-humble-common-awsim-labs-sensor-launch_0-2025.04.09.17.48_amd64.buildinfo
+ ccd05058a5c249e0c0365df5f6a8a443ac2ebfbf19d77b7c4b2145156bfe1f9d 8048 ros-humble-common-awsim-labs-sensor-launch_0-2025.04.09.17.48_amd64.deb
+Files:
+ 648d2895581a9fda739d578d6cc5a5c4 10622 misc optional ros-humble-common-awsim-labs-sensor-launch_0-2025.04.09.17.48_amd64.buildinfo
+ 61757187bdc82bb159dc60f0ae3acb5e 8048 misc optional ros-humble-common-awsim-labs-sensor-launch_0-2025.04.09.17.48_amd64.deb

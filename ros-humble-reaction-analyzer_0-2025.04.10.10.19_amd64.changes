@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-reaction-analyzer
+Binary: ros-humble-reaction-analyzer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.10.10.19
+Distribution: jammy
+Urgency: high
+Maintainer: Berkay Karaman <berkay@leodrive.ai>
+Changed-By: Berkay Karaman <berkay@leodrive.ai>
+Description:
+ ros-humble-reaction-analyzer - Analyzer that measures reaction times of the nodes
+Changes:
+ ros-humble-reaction-analyzer (0-2025.04.10.10.19) jammy; urgency=high
+Checksums-Sha1:
+ 42cbd1a86c83336050739e67feb8f8afe93aec79 21623318 ros-humble-reaction-analyzer-dbgsym_0-2025.04.10.10.19_amd64.ddeb
+ b8242dd09ca1326a1b964fd21c4c7e5616f8d9c0 42127 ros-humble-reaction-analyzer_0-2025.04.10.10.19_amd64.buildinfo
+ 1142ca9497009f1606405d9409fe3c40c669b29c 622834 ros-humble-reaction-analyzer_0-2025.04.10.10.19_amd64.deb
+Checksums-Sha256:
+ 9e1ec82f339d7fb21586586029da23a87a5971289f3dcc3262a25c6354178563 21623318 ros-humble-reaction-analyzer-dbgsym_0-2025.04.10.10.19_amd64.ddeb
+ 798c44eb4396d3e6e7e7425b7b405a1a6dfc6e35757489bb8d806905fe128e62 42127 ros-humble-reaction-analyzer_0-2025.04.10.10.19_amd64.buildinfo
+ 9cd795bf15266b7aa6c9bec4fdda493005852b17d954bb10643cd1550e1d53c2 622834 ros-humble-reaction-analyzer_0-2025.04.10.10.19_amd64.deb
+Files:
+ 3b4005f2ee6e5027e367e5dee64c04d0 21623318 debug optional ros-humble-reaction-analyzer-dbgsym_0-2025.04.10.10.19_amd64.ddeb
+ eab536d582621e93247fe83727c0caea 42127 misc optional ros-humble-reaction-analyzer_0-2025.04.10.10.19_amd64.buildinfo
+ 705b21f9c09e8be07a0177eaa24af4ae 622834 misc optional ros-humble-reaction-analyzer_0-2025.04.10.10.19_amd64.deb

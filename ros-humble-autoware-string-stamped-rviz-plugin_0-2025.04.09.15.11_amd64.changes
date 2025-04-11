@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-string-stamped-rviz-plugin
+Binary: ros-humble-autoware-string-stamped-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.09.15.11
+Distribution: jammy
+Urgency: high
+Maintainer: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Changed-By: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Description:
+ ros-humble-autoware-string-stamped-rviz-plugin - RViz2 plugin for 2D overlays in the 3D view.
+Changes:
+ ros-humble-autoware-string-stamped-rviz-plugin (0-2025.04.09.15.11) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * chore(autoware_string_stamped_overlay_rviz_plugin): fix version in package.xml (#9874 <https://github.com/autowarefoundation/autoware.universe/issues/9874>)
+   * feat(autoware_overlay_rviz_plugin): add plugin to show string stamped (#9683 <https://github.com/autowarefoundation/autoware.universe/issues/9683>)
+     * feat(autoware_overlay_rviz_plugin): add plugin to show string stamped
+     * fix
+     * better visualization
+     * update
+     * fix cpp check and typo
+     * fix
+     * fix
+     ---------
+   * Contributors: Fumiya Watanabe, Takayuki Murooka
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * chore(autoware_string_stamped_overlay_rviz_plugin): fix version in package.xml (#9874 <https://github.com/autowarefoundation/autoware.universe/issues/9874>)
+   * feat(autoware_overlay_rviz_plugin): add plugin to show string stamped (#9683 <https://github.com/autowarefoundation/autoware.universe/issues/9683>)
+     * feat(autoware_overlay_rviz_plugin): add plugin to show string stamped
+     * fix
+     * better visualization
+     * update
+     * fix cpp check and typo
+     * fix
+     * fix
+     ---------
+   * Contributors: Fumiya Watanabe, Takayuki Murooka
+Checksums-Sha1:
+ 1caee56776e8001d897156efa091f6ff600b1c8a 3477452 ros-humble-autoware-string-stamped-rviz-plugin-dbgsym_0-2025.04.09.15.11_amd64.ddeb
+ 686a9a21c2587bd9391fd398020acf4c994e8b2d 23498 ros-humble-autoware-string-stamped-rviz-plugin_0-2025.04.09.15.11_amd64.buildinfo
+ 0921eb08ae35a10376e51bad27b96875d295147e 115418 ros-humble-autoware-string-stamped-rviz-plugin_0-2025.04.09.15.11_amd64.deb
+Checksums-Sha256:
+ bc7fe288c5fb99aca9c61f186e154597d1b21ca4ac0e10789c967935b4420c09 3477452 ros-humble-autoware-string-stamped-rviz-plugin-dbgsym_0-2025.04.09.15.11_amd64.ddeb
+ d7ba51b00612033e720fbe774609fef2101ae84c92cf02f808ca1470db88ef75 23498 ros-humble-autoware-string-stamped-rviz-plugin_0-2025.04.09.15.11_amd64.buildinfo
+ 577a49bba52456770883ff2740d3a1c56cb896c7b37f027d783991bc415d0a9c 115418 ros-humble-autoware-string-stamped-rviz-plugin_0-2025.04.09.15.11_amd64.deb
+Files:
+ c63bbbd20cb6816882bf828c5dc28444 3477452 debug optional ros-humble-autoware-string-stamped-rviz-plugin-dbgsym_0-2025.04.09.15.11_amd64.ddeb
+ d1650e5fa19a0442a5648be6124917fc 23498 misc optional ros-humble-autoware-string-stamped-rviz-plugin_0-2025.04.09.15.11_amd64.buildinfo
+ fd79ec8cbada93297e10c4024944316c 115418 misc optional ros-humble-autoware-string-stamped-rviz-plugin_0-2025.04.09.15.11_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 25 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-system-msgs
+Binary: ros-humble-autoware-system-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.3.0-2025.04.09.15.16
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-system-msgs - Autoware system messages package.
+Changes:
+ ros-humble-autoware-system-msgs (1.3.0-2025.04.09.15.16) jammy; urgency=high
+Checksums-Sha1:
+ c0e2774de3367be39891d79e0b62d3a88e861435 377992 ros-humble-autoware-system-msgs-dbgsym_1.3.0-2025.04.09.15.16_amd64.ddeb
+ b3bb50bde6685d3d085501960b6073deed5c5931 14944 ros-humble-autoware-system-msgs_1.3.0-2025.04.09.15.16_amd64.buildinfo
+ 90c700ae386d3b9f8ded8d8a06d09b14f5b6289e 63172 ros-humble-autoware-system-msgs_1.3.0-2025.04.09.15.16_amd64.deb
+Checksums-Sha256:
+ 108529d271da64f0de0efcbe5d4645f349d3f4d390a945f6185d43f15daeb242 377992 ros-humble-autoware-system-msgs-dbgsym_1.3.0-2025.04.09.15.16_amd64.ddeb
+ ff821a9faa7d4c0084660e0452743b1d9faabfcd791933f54040b003329bf588 14944 ros-humble-autoware-system-msgs_1.3.0-2025.04.09.15.16_amd64.buildinfo
+ f13c1311e87851caf4a1c20274d4df9e92017a45b2a222de33de608157935b82 63172 ros-humble-autoware-system-msgs_1.3.0-2025.04.09.15.16_amd64.deb
+Files:
+ 0a06e094e93c6df98ee8fe30cad51079 377992 debug optional ros-humble-autoware-system-msgs-dbgsym_1.3.0-2025.04.09.15.16_amd64.ddeb
+ 8a00017b95485849d1e6086ea3342fec 14944 misc optional ros-humble-autoware-system-msgs_1.3.0-2025.04.09.15.16_amd64.buildinfo
+ b50b16238db72c3a6c45e275045c2834 63172 misc optional ros-humble-autoware-system-msgs_1.3.0-2025.04.09.15.16_amd64.deb

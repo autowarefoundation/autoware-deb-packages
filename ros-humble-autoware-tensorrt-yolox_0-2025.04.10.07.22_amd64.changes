@@ -1,0 +1,69 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-tensorrt-yolox
+Binary: ros-humble-autoware-tensorrt-yolox
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.10.07.22
+Distribution: jammy
+Urgency: high
+Maintainer: Dan Umeda <dan.umeda@tier4.jp>
+Changed-By: Dan Umeda <dan.umeda@tier4.jp>
+Description:
+ ros-humble-autoware-tensorrt-yolox - tensorrt library implementation for yolox
+Changes:
+ ros-humble-autoware-tensorrt-yolox (0-2025.04.10.07.22) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_tensorrt_yolox)!: tier4_debug_msgs changed to autoware_internal_debug_msgs in autoware_tensorrt_yolox (#9898 <https://github.com/autowarefoundation/autoware.universe/issues/9898>)
+   * feat(tensorrt_yolox): add launch for tlr model (#9828 <https://github.com/autowarefoundation/autoware.universe/issues/9828>)
+     * feat(tensorrt_yolox): add launch for tlr model
+     * chore: typo
+     * docs: update readme and description
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * fix(autoware_tensorrt_yolox): modify tensorrt_yolox_node name (#9156 <https://github.com/autowarefoundation/autoware.universe/issues/9156>)
+   * refactor(autoware_tensorrt_common): multi-TensorRT compatibility & tensorrt_common as unified lib for all perception components (#9762 <https://github.com/autowarefoundation/autoware.universe/issues/9762>)
+     * refactor(autoware_tensorrt_common): multi-TensorRT compatibility & tensorrt_common as unified lib for all perception components
+     * style(pre-commit): autofix
+     * style(autoware_tensorrt_common): linting
+     * style(autoware_lidar_centerpoint): typo
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * docs(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * fix(autoware_lidar_transfusion): reuse cast variable
+     * fix(autoware_tensorrt_common): remove deprecated inference API
+     * style(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * style(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * fix(autoware_tensorrt_common): const pointer
+     * fix(autoware_tensorrt_common): remove unused method declaration
+     * style(pre-commit): autofix
+     * refactor(autoware_tensorrt_common): readability
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+     * fix(autoware_tensorrt_common): return if layer not registered
+     * refactor(autoware_tensorrt_common): readability
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+     * fix(autoware_tensorrt_common): rename struct
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+   * fix(autoware_tensorrt_yolox): fix bugprone-exception-escape (#9734 <https://github.com/autowarefoundation/autoware.universe/issues/9734>)
+     * fix: bugprone-error
+     * fix: fmt
+     * fix: fmt
+     ---------
+   * Contributors: Amadeusz Szymko, Fumiya Watanabe, Vishal Chauhan, badai nguyen, cyn-liu, kobayu858
+Checksums-Sha1:
+ 3904aecbdc489c4959a502c5d28ff86874cc44ce 44622 ros-humble-autoware-tensorrt-yolox_0-2025.04.10.07.22_amd64.buildinfo
+ 75679d435e7540d24e2742d7d705e14b7660724b 3358 ros-humble-autoware-tensorrt-yolox_0-2025.04.10.07.22_amd64.deb
+Checksums-Sha256:
+ ff59edbd9585df83f120b30d2207d16cda7d1419f45da8196dd6ede51d68fff6 44622 ros-humble-autoware-tensorrt-yolox_0-2025.04.10.07.22_amd64.buildinfo
+ 0b8555b4b3b57cb2c3adc8c310a4aee9876cae85bd27b48d1d6db4068429ec87 3358 ros-humble-autoware-tensorrt-yolox_0-2025.04.10.07.22_amd64.deb
+Files:
+ 4a644efbece0b1eb72a78a28897e70ce 44622 misc optional ros-humble-autoware-tensorrt-yolox_0-2025.04.10.07.22_amd64.buildinfo
+ ad8140ed63a72bd4c6207c441ad4944a 3358 misc optional ros-humble-autoware-tensorrt-yolox_0-2025.04.10.07.22_amd64.deb

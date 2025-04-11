@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-tier4-adapi-rviz-plugin
+Binary: ros-humble-tier4-adapi-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.10.14.24
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-tier4-adapi-rviz-plugin - The autoware adapi rviz plugin package
+Changes:
+ ros-humble-tier4-adapi-rviz-plugin (0-2025.04.10.14.24) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: operation mode debug panel (#8933 <https://github.com/autowarefoundation/autoware.universe/issues/8933>)
+   * Contributors: Fumiya Watanabe, Takagi, Isamu
+Checksums-Sha1:
+ c2adf50c291d8070f3655cc4bcca2854a211d051 6531062 ros-humble-tier4-adapi-rviz-plugin-dbgsym_0-2025.04.10.14.24_amd64.ddeb
+ f809a0053510f187fe1ebac0b15caba251ddebac 24887 ros-humble-tier4-adapi-rviz-plugin_0-2025.04.10.14.24_amd64.buildinfo
+ 4380d08dfdc79a2b1361c80c8e26ea691710234b 231306 ros-humble-tier4-adapi-rviz-plugin_0-2025.04.10.14.24_amd64.deb
+Checksums-Sha256:
+ ef2f951fd44ef103fe38e7f082ac1021b63894f0598325fb6d76ed5a2effb3e0 6531062 ros-humble-tier4-adapi-rviz-plugin-dbgsym_0-2025.04.10.14.24_amd64.ddeb
+ 9411db1eb9889446b721cba9b6ec5f24faf929a5d67d9c525577829f5caf8725 24887 ros-humble-tier4-adapi-rviz-plugin_0-2025.04.10.14.24_amd64.buildinfo
+ 0efea38d78cfc8af0ef7b56e43115d55e695ed4058f81a6801322d381f0e8f5b 231306 ros-humble-tier4-adapi-rviz-plugin_0-2025.04.10.14.24_amd64.deb
+Files:
+ cfcaaf42fe4d7fc1ab7e010064aff9e5 6531062 debug optional ros-humble-tier4-adapi-rviz-plugin-dbgsym_0-2025.04.10.14.24_amd64.ddeb
+ 87db6bc78390bace6ecc8e12b29ce8db 24887 misc optional ros-humble-tier4-adapi-rviz-plugin_0-2025.04.10.14.24_amd64.buildinfo
+ 36a430b71d0c3078af9adcdf19926078 231306 misc optional ros-humble-tier4-adapi-rviz-plugin_0-2025.04.10.14.24_amd64.deb

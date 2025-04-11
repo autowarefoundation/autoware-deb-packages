@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Fri, 07 Feb 2025 00:00:00 -0000
+Source: ros-humble-autoware-test-node
+Binary: ros-humble-autoware-test-node
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.0-23-gd3f360f-2025.04.09.15.23
+Distribution: jammy
+Urgency: high
+Maintainer: Mete Fatih Cırıt <mfc@autoware.org>
+Changed-By: Mete Fatih Cırıt <mfc@autoware.org>
+Description:
+ ros-humble-autoware-test-node - Test package for Autoware Node.
+Changes:
+ ros-humble-autoware-test-node (0.2.0-23-gd3f360f-2025.04.09.15.23) jammy; urgency=high
+ .
+   * chore: humble to main sync (#162 <https://github.com/autowarefoundation/autoware.core/issues/162>)
+     * update changelog
+     * 0.1.0
+     ---------
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+   * feat: add autoware_node and autoware_test node (#113 <https://github.com/autowarefoundation/autoware.core/issues/113>)
+   * Contributors: M. Fatih Cırıt, Yutaka Kondo
+Checksums-Sha1:
+ e53756ba8b62009f6fcb4c598c51d43d10e179dd 500864 ros-humble-autoware-test-node-dbgsym_0.2.0-23-gd3f360f-2025.04.09.15.23_amd64.ddeb
+ 52dbe72205db7d43b0db15d3b9379d827000079c 15125 ros-humble-autoware-test-node_0.2.0-23-gd3f360f-2025.04.09.15.23_amd64.buildinfo
+ bd4f93a295da2c5bc69540129b331041b06f9550 29254 ros-humble-autoware-test-node_0.2.0-23-gd3f360f-2025.04.09.15.23_amd64.deb
+Checksums-Sha256:
+ 9c3081d8179c316550dbcb8cd7252d66ad2b31ffe31de600d928ae98f960a6d6 500864 ros-humble-autoware-test-node-dbgsym_0.2.0-23-gd3f360f-2025.04.09.15.23_amd64.ddeb
+ f91948de45992686d5f1c2ef337af14a1298a8240ef61fc7bb97ab842cd954ac 15125 ros-humble-autoware-test-node_0.2.0-23-gd3f360f-2025.04.09.15.23_amd64.buildinfo
+ 8d8e46cab1adbd5ec715af527d5062e98b14ad2fe901cd243683cefa5a467ce9 29254 ros-humble-autoware-test-node_0.2.0-23-gd3f360f-2025.04.09.15.23_amd64.deb
+Files:
+ a9fe2690a7b16fb6badb945ec2f56f61 500864 debug optional ros-humble-autoware-test-node-dbgsym_0.2.0-23-gd3f360f-2025.04.09.15.23_amd64.ddeb
+ c6b8707579a19346312d826b94068221 15125 misc optional ros-humble-autoware-test-node_0.2.0-23-gd3f360f-2025.04.09.15.23_amd64.buildinfo
+ 113000a461604efe655ea3fef4fd6283 29254 misc optional ros-humble-autoware-test-node_0.2.0-23-gd3f360f-2025.04.09.15.23_amd64.deb

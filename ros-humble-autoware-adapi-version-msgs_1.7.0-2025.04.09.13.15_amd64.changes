@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 18 Feb 2025 00:00:00 -0000
+Source: ros-humble-autoware-adapi-version-msgs
+Binary: ros-humble-autoware-adapi-version-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.7.0-2025.04.09.13.15
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-adapi-version-msgs - The Autoware AD API version interfaces
+Changes:
+ ros-humble-autoware-adapi-version-msgs (1.7.0-2025.04.09.13.15) jammy; urgency=high
+ .
+   * fix(autoware_adapi_msgs): fix links to issues in CHANGELOG.rst files (#72 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/72>)
+   * feat: update v1.6.0 (#63 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/63>)
+   * Contributors: Esteve Fernandez, Takagi, Isamu
+Checksums-Sha1:
+ d6cc058b642bb9c04948d80f73d8d68f559be0f4 135166 ros-humble-autoware-adapi-version-msgs-dbgsym_1.7.0-2025.04.09.13.15_amd64.ddeb
+ d726b723e529c178be578835601808a0ef016ce3 14572 ros-humble-autoware-adapi-version-msgs_1.7.0-2025.04.09.13.15_amd64.buildinfo
+ 021c828d5d7f98cf95f25578674c799c3ffbacf7 42194 ros-humble-autoware-adapi-version-msgs_1.7.0-2025.04.09.13.15_amd64.deb
+Checksums-Sha256:
+ f449fc0b31cfa49cf3a1fdce111dece5470bd1bedaacfdc8a6d15856192be345 135166 ros-humble-autoware-adapi-version-msgs-dbgsym_1.7.0-2025.04.09.13.15_amd64.ddeb
+ aaf60919587a7db7492a31d2cc5ded48fe68c66115c5a5b33a698fde7db27c6c 14572 ros-humble-autoware-adapi-version-msgs_1.7.0-2025.04.09.13.15_amd64.buildinfo
+ ed4877e1b212ca6ae8430687b24484f66a108d29428e864ba675f4300455e949 42194 ros-humble-autoware-adapi-version-msgs_1.7.0-2025.04.09.13.15_amd64.deb
+Files:
+ d9937ac14fdc202b245a3efbf910e126 135166 debug optional ros-humble-autoware-adapi-version-msgs-dbgsym_1.7.0-2025.04.09.13.15_amd64.ddeb
+ 58d963a1a9e3186d936c7daffbce3e79 14572 misc optional ros-humble-autoware-adapi-version-msgs_1.7.0-2025.04.09.13.15_amd64.buildinfo
+ 79664d49a6e078c6bd1540743fc2738e 42194 misc optional ros-humble-autoware-adapi-version-msgs_1.7.0-2025.04.09.13.15_amd64.deb

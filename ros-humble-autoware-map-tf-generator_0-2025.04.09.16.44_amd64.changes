@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-map-tf-generator
+Binary: ros-humble-autoware-map-tf-generator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.09.16.44
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-map-tf-generator - map_tf_generator package as a ROS 2 node
+Changes:
+ ros-humble-autoware-map-tf-generator (0-2025.04.09.16.44) jammy; urgency=high
+Checksums-Sha1:
+ 0bcc0f2c711efa62044fd03ce255f1d6aa61e535 5592286 ros-humble-autoware-map-tf-generator-dbgsym_0-2025.04.09.16.44_amd64.ddeb
+ efd0c2d37e5e532f9041e21144cf3037849facf4 41388 ros-humble-autoware-map-tf-generator_0-2025.04.09.16.44_amd64.buildinfo
+ 1595bc4300dbc1acc38cbfca58f9178eadd99480 183998 ros-humble-autoware-map-tf-generator_0-2025.04.09.16.44_amd64.deb
+Checksums-Sha256:
+ 9ffb71c49341fa8ded7cc90ea0896d36513d975ac7b3869fbd5b8cf5c0196e7e 5592286 ros-humble-autoware-map-tf-generator-dbgsym_0-2025.04.09.16.44_amd64.ddeb
+ 21965d397c8652580d5628f6d48fbd6fe5a3a697c62a3d4473c6119120a14ebe 41388 ros-humble-autoware-map-tf-generator_0-2025.04.09.16.44_amd64.buildinfo
+ c0582ad19ea1c1b6a9c52537002aa1dd7f32db089c52503a6ad024cf3eb78613 183998 ros-humble-autoware-map-tf-generator_0-2025.04.09.16.44_amd64.deb
+Files:
+ f532e631ed38c24245b84d80d1d28abe 5592286 debug optional ros-humble-autoware-map-tf-generator-dbgsym_0-2025.04.09.16.44_amd64.ddeb
+ 0f4cb42375070fdfb1d4fb8ce223e4de 41388 misc optional ros-humble-autoware-map-tf-generator_0-2025.04.09.16.44_amd64.buildinfo
+ b789cf00c61352303557ef8bdcaa321d 183998 misc optional ros-humble-autoware-map-tf-generator_0-2025.04.09.16.44_amd64.deb

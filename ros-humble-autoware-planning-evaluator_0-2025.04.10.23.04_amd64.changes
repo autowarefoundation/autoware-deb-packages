@@ -1,0 +1,57 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-planning-evaluator
+Binary: ros-humble-autoware-planning-evaluator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.10.23.04
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime CLEMENT <maxime.clement@tier4.jp>
+Changed-By: Maxime CLEMENT <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-planning-evaluator - ROS 2 node for evaluating planners
+Changes:
+ ros-humble-autoware-planning-evaluator (0-2025.04.10.23.04) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in fil… (#9859 <https://github.com/autowarefoundation/autoware.universe/issues/9859>)
+     feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files evaluator/autoware_planning_evaluator
+   * fix(planning_evaluator): update lateral_trajectory_displacement to absolute value (#9696 <https://github.com/autowarefoundation/autoware.universe/issues/9696>)
+     * fix(planning_evaluator): update lateral_trajectory_displacement to absolute value
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * fix(autoware_planning_evaluator): rename lateral deviation metrics (#9801 <https://github.com/autowarefoundation/autoware.universe/issues/9801>)
+     * refactor(planning_evaluator): rename and add lateral trajectory displacement metrics
+     * fix typo
+     ---------
+   * feat(planning_evaluator): add evaluation feature of trajectory lateral displacement (#9718 <https://github.com/autowarefoundation/autoware.universe/issues/9718>)
+     * feat(planning_evaluator): add evaluation feature of trajectory lateral displacement
+     * feat(metrics_calculator): implement lookahead trajectory calculation and remove deprecated method
+     * fix(planning_evaluator): rename lateral_trajectory_displacement to trajectory_lateral_displacement for consistency
+     ---------
+   * fix(autoware_planning_evaluator): fix bugprone-exception-escape (#9730 <https://github.com/autowarefoundation/autoware.universe/issues/9730>)
+     fix: bugprone-exception-escape
+   * feat(planning_evaluator): add lateral trajectory displacement metrics (#9674 <https://github.com/autowarefoundation/autoware.universe/issues/9674>)
+     * feat(planning_evaluator): add nearest pose deviation msg
+     * update comment contents
+     * update variable name
+     * Revert "update variable name"
+     This reverts commit ee427222fcbd2a18ffbc20fecca3ad557f527e37.
+     * move lateral_trajectory_displacement position
+     * prev.dist -> prev_lateral_deviation
+     ---------
+   * Contributors: Fumiya Watanabe, Kazunori-Nakajima, Kyoichi Sugahara, Vishal Chauhan, kobayu858
+Checksums-Sha1:
+ 43827bd9727c23dd02a0757aa639881f168df2f5 10172032 ros-humble-autoware-planning-evaluator-dbgsym_0-2025.04.10.23.04_amd64.ddeb
+ e9b6d86cc78e084f1681ccfb53f075914df895c0 44145 ros-humble-autoware-planning-evaluator_0-2025.04.10.23.04_amd64.buildinfo
+ b9dc1454f5a03d9b8301a8b318015b9f8be8bddf 321974 ros-humble-autoware-planning-evaluator_0-2025.04.10.23.04_amd64.deb
+Checksums-Sha256:
+ 8ac4c0d3eeb5abe95744293fc983c7c75be7a1d7ab8b41cf9e260dedc32f2793 10172032 ros-humble-autoware-planning-evaluator-dbgsym_0-2025.04.10.23.04_amd64.ddeb
+ 4726b5d8bd8f5a420ac72485fdaf948da84075a8390cbde504cb0884efd2a7bd 44145 ros-humble-autoware-planning-evaluator_0-2025.04.10.23.04_amd64.buildinfo
+ e9f9cf0cb352dd4e36494bcbead7fcd5b4fd439e1ca074ffe996fe54a32bf3e7 321974 ros-humble-autoware-planning-evaluator_0-2025.04.10.23.04_amd64.deb
+Files:
+ ee98aecd5b7dde7ddd0eeb5ce17a872e 10172032 debug optional ros-humble-autoware-planning-evaluator-dbgsym_0-2025.04.10.23.04_amd64.ddeb
+ e0054b879cbc12d87bfc6b7fa1f213e3 44145 misc optional ros-humble-autoware-planning-evaluator_0-2025.04.10.23.04_amd64.buildinfo
+ a8fa7669e13ac2667ff92cf3ee1dbbcc 321974 misc optional ros-humble-autoware-planning-evaluator_0-2025.04.10.23.04_amd64.deb

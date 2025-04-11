@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-ndt-scan-matcher
+Binary: ros-humble-autoware-ndt-scan-matcher
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.10.00.41
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-ndt-scan-matcher - The autoware_ndt_scan_matcher package
+Changes:
+ ros-humble-autoware-ndt-scan-matcher (0-2025.04.10.00.41) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: tier4_debug_msgs changed to autoware-internal_debug_msgs in files localization/autoware_ndt_scan_matcher (#9861 <https://github.com/autowarefoundation/autoware.universe/issues/9861>)
+     Co-authored-by: SakodaShintaro <mailto:shintaro.sakoda@tier4.jp>
+   * refactor(autoware_universe_utils): add missing 's' in the class of diagnostics_interface (#9777 <https://github.com/autowarefoundation/autoware.universe/issues/9777>)
+   * feat!: move diagnostics_module from localization_util to unverse_utils (#9714 <https://github.com/autowarefoundation/autoware.universe/issues/9714>)
+     * feat!: move diagnostics_module from localization_util to unverse_utils
+     * remove diagnostics module from localization_util
+     * style(pre-commit): autofix
+     * minor fix in pose_initializer
+     * add test
+     * style(pre-commit): autofix
+     * remove unnecessary declaration
+     * module -> interface
+     * remove unnecessary equal expression
+     * revert the remove of template function
+     * style(pre-commit): autofix
+     * use overload instead
+     * include what you use -- test_diagnostics_interface.cpp
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Fumiya Watanabe, Vishal Chauhan, kminoda
+Checksums-Sha1:
+ 1c61400926b82946aa0c1e0dd7ea20204bbe3ba8 14799820 ros-humble-autoware-ndt-scan-matcher-dbgsym_0-2025.04.10.00.41_amd64.ddeb
+ c0848b32ef848c973954687f68065a9bd3c63f0a 41036 ros-humble-autoware-ndt-scan-matcher_0-2025.04.10.00.41_amd64.buildinfo
+ f936858ea6c3dbcc4effc21bfdb257f63169ec5c 359196 ros-humble-autoware-ndt-scan-matcher_0-2025.04.10.00.41_amd64.deb
+Checksums-Sha256:
+ 7263e9716c411074f6a80d21b337eb9f7adfac7ec94d7971b993deb6f703c6f1 14799820 ros-humble-autoware-ndt-scan-matcher-dbgsym_0-2025.04.10.00.41_amd64.ddeb
+ 6b13def196c0e9edfdea68647e7156b7e3d2d12f16356c471ee3b34441999af7 41036 ros-humble-autoware-ndt-scan-matcher_0-2025.04.10.00.41_amd64.buildinfo
+ af39b23273f5d2a367f517fe1662c20920ca2b2ef3a4ded46e57646e100cd011 359196 ros-humble-autoware-ndt-scan-matcher_0-2025.04.10.00.41_amd64.deb
+Files:
+ 19dcb3616c452f08bbbf7689e0c69b41 14799820 debug optional ros-humble-autoware-ndt-scan-matcher-dbgsym_0-2025.04.10.00.41_amd64.ddeb
+ 8d89ac8b7d07efd70c85a786c90b53f1 41036 misc optional ros-humble-autoware-ndt-scan-matcher_0-2025.04.10.00.41_amd64.buildinfo
+ 88f26cf59cc1742f2d269708afdca5f2 359196 misc optional ros-humble-autoware-ndt-scan-matcher_0-2025.04.10.00.41_amd64.deb

@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Tue, 18 Feb 2025 00:00:00 -0000
+Source: ros-humble-autoware-adapi-v1-msgs
+Binary: ros-humble-autoware-adapi-v1-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.7.0-2025.04.09.13.11
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-adapi-v1-msgs - The Autoware AD API interfaces
+Changes:
+ ros-humble-autoware-adapi-v1-msgs (1.7.0-2025.04.09.13.11) jammy; urgency=high
+ .
+   * feat: drop route following check option (#71 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/71>)
+   * fix(autoware_adapi_msgs): fix links to issues in CHANGELOG.rst files (#72 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/72>)
+   * feat(planning): add new planning behavior (adaptive-cruise) (#67 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/67>)
+   * feat(autoware_adapi_v1_msgs): add new planning behavior "run-out" (#65 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/65>)
+   * feat: update v1.6.0 (#63 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/63>)
+   * feat(autoware_adapi_v1_msgs): add route following check option (#61 <https://github.com/autowarefoundation/autoware_adapi_msgs/issues/61>)
+   * Contributors: Esteve Fernandez, Kyoichi Sugahara, Satoshi OTA, Takagi, Isamu
+Checksums-Sha1:
+ 9ff7a9adeb3c8a8ae420d151348c8edb819e6ef2 4373736 ros-humble-autoware-adapi-v1-msgs-dbgsym_1.7.0-2025.04.09.13.11_amd64.ddeb
+ e368ad6d73d6db90f0885995ca52b17455fd20e8 14970 ros-humble-autoware-adapi-v1-msgs_1.7.0-2025.04.09.13.11_amd64.buildinfo
+ 088e6a0aff50b8a550abea3243d6b649cd76b171 460790 ros-humble-autoware-adapi-v1-msgs_1.7.0-2025.04.09.13.11_amd64.deb
+Checksums-Sha256:
+ e24f9a05d5d8d10835e772e75b3dfabb50c3bd51dfd8f484f00abe807fb7d903 4373736 ros-humble-autoware-adapi-v1-msgs-dbgsym_1.7.0-2025.04.09.13.11_amd64.ddeb
+ 66e760421e1506f89632d1ab74f5ebf0d9a5a4fb94da9236539ee8071d8142bb 14970 ros-humble-autoware-adapi-v1-msgs_1.7.0-2025.04.09.13.11_amd64.buildinfo
+ 781bdfec38e5c89e01243b73f26b277d33232ca15aac236b84244305e08805ab 460790 ros-humble-autoware-adapi-v1-msgs_1.7.0-2025.04.09.13.11_amd64.deb
+Files:
+ 46a342447899c705c4487edb027890a7 4373736 debug optional ros-humble-autoware-adapi-v1-msgs-dbgsym_1.7.0-2025.04.09.13.11_amd64.ddeb
+ 295ad8aff3e43fca18559097c7571edc 14970 misc optional ros-humble-autoware-adapi-v1-msgs_1.7.0-2025.04.09.13.11_amd64.buildinfo
+ 5e8c4fbf15a210ff52c2bdf6f028e38b 460790 misc optional ros-humble-autoware-adapi-v1-msgs_1.7.0-2025.04.09.13.11_amd64.deb

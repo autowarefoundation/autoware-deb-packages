@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-livox-tag-filter
+Binary: ros-humble-autoware-livox-tag-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.09.13.53
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-autoware-livox-tag-filter - The autoware_livox_tag_filter package
+Changes:
+ ros-humble-autoware-livox-tag-filter (0-2025.04.09.13.53) jammy; urgency=high
+Checksums-Sha1:
+ 639c4d4b03ac60eaf987c108f3ac26926a3363ee 2768892 ros-humble-autoware-livox-tag-filter-dbgsym_0-2025.04.09.13.53_amd64.ddeb
+ 277b575302e3b30bb0170af4985e0540c185416a 38836 ros-humble-autoware-livox-tag-filter_0-2025.04.09.13.53_amd64.buildinfo
+ 1f8f53fc2b11ac7f9fecc9decfbad9f778305b17 125468 ros-humble-autoware-livox-tag-filter_0-2025.04.09.13.53_amd64.deb
+Checksums-Sha256:
+ 8ceaea70b55cb9e2db3afc19e657453209236970074cc2510475cc704f966b0a 2768892 ros-humble-autoware-livox-tag-filter-dbgsym_0-2025.04.09.13.53_amd64.ddeb
+ eee95e001701a7ad0a1f4ed549b55b4d1f0c02533c537e9e76a4ef75ab1bf4d4 38836 ros-humble-autoware-livox-tag-filter_0-2025.04.09.13.53_amd64.buildinfo
+ 86685c69591e1de57565435b68590ce9c9582609174b1e315532d7fe9c60dcbb 125468 ros-humble-autoware-livox-tag-filter_0-2025.04.09.13.53_amd64.deb
+Files:
+ 1045dd668571a0b7c5f616278a20bd1d 2768892 debug optional ros-humble-autoware-livox-tag-filter-dbgsym_0-2025.04.09.13.53_amd64.ddeb
+ 03bdc2bdf8c8793abb3845699077e98e 38836 misc optional ros-humble-autoware-livox-tag-filter_0-2025.04.09.13.53_amd64.buildinfo
+ 428f21c1ca5529fb6f8796834e515720 125468 misc optional ros-humble-autoware-livox-tag-filter_0-2025.04.09.13.53_amd64.deb

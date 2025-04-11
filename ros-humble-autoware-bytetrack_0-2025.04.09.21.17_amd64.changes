@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-bytetrack
+Binary: ros-humble-autoware-bytetrack
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.09.21.17
+Distribution: jammy
+Urgency: high
+Maintainer: Manato HIRABAYASHI <manato.hirabayashi@tier4.jp>
+Changed-By: Manato HIRABAYASHI <manato.hirabayashi@tier4.jp>
+Description:
+ ros-humble-autoware-bytetrack - ByteTrack implementation ported toward Autoware
+Changes:
+ ros-humble-autoware-bytetrack (0-2025.04.09.21.17) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * fix(autoware_bytetrack): fix bugprone-reserved-identifier (#9647 <https://github.com/autowarefoundation/autoware.universe/issues/9647>)
+     fix: bugprone-reserved-identifier
+   * Contributors: Fumiya Watanabe, kobayu858
+Checksums-Sha1:
+ aa347f9cc133293913b84b0444ce9fb38e45bcaf 7671166 ros-humble-autoware-bytetrack-dbgsym_0-2025.04.09.21.17_amd64.ddeb
+ c596a96ef5eeb87b0021e63b63f188d056417f97 28873 ros-humble-autoware-bytetrack_0-2025.04.09.21.17_amd64.buildinfo
+ 3edbdedc13074df2d02da9c83e7a6da0bcad5698 301586 ros-humble-autoware-bytetrack_0-2025.04.09.21.17_amd64.deb
+Checksums-Sha256:
+ 2b2d5a0d526bfab8845c2c9c416f65abfef7781eb5898024c0bafbcfc6897f09 7671166 ros-humble-autoware-bytetrack-dbgsym_0-2025.04.09.21.17_amd64.ddeb
+ 933fa0f8d383ac8b87aca5b34e7ec73bb12e086f4d9afc7a6bda5fca9f8422ae 28873 ros-humble-autoware-bytetrack_0-2025.04.09.21.17_amd64.buildinfo
+ 8365724863998ce88b7519fd44a333d2e05e81f69edb20c658013e2f2434da9c 301586 ros-humble-autoware-bytetrack_0-2025.04.09.21.17_amd64.deb
+Files:
+ 9a39e251b169065e583e407e081faf82 7671166 debug optional ros-humble-autoware-bytetrack-dbgsym_0-2025.04.09.21.17_amd64.ddeb
+ 03ccf8df99fc9d42f7e80d431ec8dfac 28873 misc optional ros-humble-autoware-bytetrack_0-2025.04.09.21.17_amd64.buildinfo
+ b044bccc16f8c97708e0b00db34bd7a1 301586 misc optional ros-humble-autoware-bytetrack_0-2025.04.09.21.17_amd64.deb

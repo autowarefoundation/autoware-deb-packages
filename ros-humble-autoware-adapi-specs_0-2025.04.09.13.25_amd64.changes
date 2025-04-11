@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-adapi-specs
+Binary: ros-humble-autoware-adapi-specs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.09.13.25
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-adapi-specs - The autoware_adapi_specs package
+Changes:
+ ros-humble-autoware-adapi-specs (0-2025.04.09.13.25) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_default_adapi): release adapi v1.6.0 (#9704 <https://github.com/autowarefoundation/autoware.universe/issues/9704>)
+     * feat: reject clearing route during autonomous mode
+     * feat: modify check and relay door service
+     * fix door condition
+     * fix error and add option
+     * update v1.6.0
+     ---------
+   * Contributors: Fumiya Watanabe, Takagi, Isamu
+Checksums-Sha1:
+ ad4135b71bc7afd3406481b1ceac745db3c2dde4 10690 ros-humble-autoware-adapi-specs_0-2025.04.09.13.25_amd64.buildinfo
+ 0c27f886a2a9867ce224c384972a5bd23c62e8fc 9458 ros-humble-autoware-adapi-specs_0-2025.04.09.13.25_amd64.deb
+Checksums-Sha256:
+ 1c11e6a5c03ad7073bb5038e96726d541211c9ef346bd6497c418a24b657ec76 10690 ros-humble-autoware-adapi-specs_0-2025.04.09.13.25_amd64.buildinfo
+ 463a92fdc6d0238bc5aa0edb2d92ce2ba38488b606c0c49c29c0d3deecda62ef 9458 ros-humble-autoware-adapi-specs_0-2025.04.09.13.25_amd64.deb
+Files:
+ 32c4931ba93ab63e1b26b9ff0e9bb366 10690 misc optional ros-humble-autoware-adapi-specs_0-2025.04.09.13.25_amd64.buildinfo
+ cfbedeb17af3d7f3ba038168d8b023c3 9458 misc optional ros-humble-autoware-adapi-specs_0-2025.04.09.13.25_amd64.deb

@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-adapi-adaptors
+Binary: ros-humble-autoware-adapi-adaptors
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.10.12.40
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-adapi-adaptors - The adapi_adaptors package
+Changes:
+ ros-humble-autoware-adapi-adaptors (0-2025.04.10.12.40) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware_ prefix for default_ad_api_helpers (#9965 <https://github.com/autowarefoundation/autoware.universe/issues/9965>)
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Takagi, Isamu <mailto:isamu.takagi@tier4.jp>
+   * Contributors: Fumiya Watanabe, Junya Sasaki
+Checksums-Sha1:
+ 8f6c0fb951240809b1c794682a5841006bfacfe0 5517644 ros-humble-autoware-adapi-adaptors-dbgsym_0-2025.04.10.12.40_amd64.ddeb
+ d98913c9e72b2f56a2ffe408d9ca2fb81f038827 41866 ros-humble-autoware-adapi-adaptors_0-2025.04.10.12.40_amd64.buildinfo
+ f3dc670307d55a487e738cd196cd8090cac15af2 202562 ros-humble-autoware-adapi-adaptors_0-2025.04.10.12.40_amd64.deb
+Checksums-Sha256:
+ e6c7829b370283482c394a2021e316dae8e9419e8aab64f6d7ec0c84ffbdf643 5517644 ros-humble-autoware-adapi-adaptors-dbgsym_0-2025.04.10.12.40_amd64.ddeb
+ ea2029a1faeb098815884cb5b3e3f448f56238232a810b3a5675c07898dd92e0 41866 ros-humble-autoware-adapi-adaptors_0-2025.04.10.12.40_amd64.buildinfo
+ 25e71293b34d9ee2bd84dc17c6c46e6e41af61ac257fcf6378e987d2a3dfb0a3 202562 ros-humble-autoware-adapi-adaptors_0-2025.04.10.12.40_amd64.deb
+Files:
+ 536e08bc3cd2dbfdd3caee8ca759bd5b 5517644 debug optional ros-humble-autoware-adapi-adaptors-dbgsym_0-2025.04.10.12.40_amd64.ddeb
+ 25d84428c2e40e937da602cc70dfb4dd 41866 misc optional ros-humble-autoware-adapi-adaptors_0-2025.04.10.12.40_amd64.buildinfo
+ 0570aae0730cfafebb93e06b79fb2a73 202562 misc optional ros-humble-autoware-adapi-adaptors_0-2025.04.10.12.40_amd64.deb
