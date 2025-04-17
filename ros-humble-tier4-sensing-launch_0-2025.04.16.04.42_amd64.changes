@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-tier4-sensing-launch
+Binary: ros-humble-tier4-sensing-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.04.42
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-tier4-sensing-launch - The tier4_sensing_launch package
+Changes:
+ ros-humble-tier4-sensing-launch (0-2025.04.16.04.42) jammy; urgency=high
+Checksums-Sha1:
+ 9537f5cdd03357a501aced72984b90e21448d6b2 10690 ros-humble-tier4-sensing-launch_0-2025.04.16.04.42_amd64.buildinfo
+ 0bc1604c726f455ddb027a399895678619d85b14 7038 ros-humble-tier4-sensing-launch_0-2025.04.16.04.42_amd64.deb
+Checksums-Sha256:
+ 149d3a35aa5373ac414cbcc5d17e42094df4f86aa0b897554f5e4ec1a200dc88 10690 ros-humble-tier4-sensing-launch_0-2025.04.16.04.42_amd64.buildinfo
+ 73e1e8ce8ec980286f533fa4a8f076d7526cb736d932e766dae96909abe9d00a 7038 ros-humble-tier4-sensing-launch_0-2025.04.16.04.42_amd64.deb
+Files:
+ 9563c4fe0a401afedef338a1600c0593 10690 misc optional ros-humble-tier4-sensing-launch_0-2025.04.16.04.42_amd64.buildinfo
+ c4ad778735ee22bc981758c21d602135 7038 misc optional ros-humble-tier4-sensing-launch_0-2025.04.16.04.42_amd64.deb

@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-freespace-planning-algorithms
+Binary: ros-humble-autoware-freespace-planning-algorithms
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.20.28
+Distribution: jammy
+Urgency: high
+Maintainer: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Changed-By: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Description:
+ ros-humble-autoware-freespace-planning-algorithms - The autoware_freespace_planning_algorithms package
+Changes:
+ ros-humble-autoware-freespace-planning-algorithms (0-2025.04.15.20.28) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * fix(autoware_freespace_planning_algorithms): fix bugprone-errors (#9670 <https://github.com/autowarefoundation/autoware.universe/issues/9670>)
+     * fix: bugprone-error
+     * fix: bugprone-error
+     ---------
+   * build(autoware_freespace_planning_algorithms): increase test timeout to 2 mins (#9639 <https://github.com/autowarefoundation/autoware.universe/issues/9639>)
+   * Contributors: Fumiya Watanabe, M. Fatih Cırıt, kobayu858
+Checksums-Sha1:
+ 552fac12995c36e53e4d018f31153d7a921844b8 1300770 ros-humble-autoware-freespace-planning-algorithms-dbgsym_0-2025.04.15.20.28_amd64.ddeb
+ 62ad0b4fd70e94f257981a94e3ca17e8f2187db4 41265 ros-humble-autoware-freespace-planning-algorithms_0-2025.04.15.20.28_amd64.buildinfo
+ 9c39a521e466431ff5a53dcfb8096207964405ed 166848 ros-humble-autoware-freespace-planning-algorithms_0-2025.04.15.20.28_amd64.deb
+Checksums-Sha256:
+ 6d1cfaa486939653bb68d5127976ea4712d73806978dd700e949db70121356e5 1300770 ros-humble-autoware-freespace-planning-algorithms-dbgsym_0-2025.04.15.20.28_amd64.ddeb
+ c77c4ec0482344bad940df6c2f58f069c9f8c55ea8552f1eb020720fec094fc3 41265 ros-humble-autoware-freespace-planning-algorithms_0-2025.04.15.20.28_amd64.buildinfo
+ 4482926b0c653b86af3046096686203b382d3389b63783cc76ac8fe411274b20 166848 ros-humble-autoware-freespace-planning-algorithms_0-2025.04.15.20.28_amd64.deb
+Files:
+ 5da2676b80d5e70d1b4f2446fd52df85 1300770 debug optional ros-humble-autoware-freespace-planning-algorithms-dbgsym_0-2025.04.15.20.28_amd64.ddeb
+ fd13f32305e152950cf80c16c943651c 41265 misc optional ros-humble-autoware-freespace-planning-algorithms_0-2025.04.15.20.28_amd64.buildinfo
+ 7e76302779d8d189998de611c1c0ce48 166848 misc optional ros-humble-autoware-freespace-planning-algorithms_0-2025.04.15.20.28_amd64.deb

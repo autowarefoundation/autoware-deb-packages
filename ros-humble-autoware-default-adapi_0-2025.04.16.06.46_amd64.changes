@@ -1,0 +1,53 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-default-adapi
+Binary: ros-humble-autoware-default-adapi
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.06.46
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-default-adapi - The autoware_default_adapi package
+Changes:
+ ros-humble-autoware-default-adapi (0-2025.04.16.06.46) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware prefix for component_state_monitor and its dependencies (#9961 <https://github.com/autowarefoundation/autoware.universe/issues/9961>)
+   * feat: apply autoware_ prefix for diagnostic_graph_utils (#9968 <https://github.com/autowarefoundation/autoware.universe/issues/9968>)
+   * feat: apply autoware_ prefix for default_ad_api_helpers (#9965 <https://github.com/autowarefoundation/autoware.universe/issues/9965>)
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Takagi, Isamu <mailto:isamu.takagi@tier4.jp>
+   * feat(autoware_component_interface_specs_universe!): rename package (#9753 <https://github.com/autowarefoundation/autoware.universe/issues/9753>)
+   * fix(obstacle_stop_planner): migrate planning factor (#9939 <https://github.com/autowarefoundation/autoware.universe/issues/9939>)
+     * fix(obstacle_stop_planner): migrate planning factor
+     * fix(autoware_default_adapi): add coversion map
+     ---------
+   * feat(planning_factor)!: remove velocity_factor, steering_factor and introduce planning_factor (#9927 <https://github.com/autowarefoundation/autoware.universe/issues/9927>)
+     Co-authored-by: Satoshi OTA <mailto:44889564+satoshi-ota@users.noreply.github.com>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: satoshi-ota <mailto:satoshi.ota928@gmail.com>
+   * feat(autoware_default_adapi): release adapi v1.6.0 (#9704 <https://github.com/autowarefoundation/autoware.universe/issues/9704>)
+     * feat: reject clearing route during autonomous mode
+     * feat: modify check and relay door service
+     * fix door condition
+     * fix error and add option
+     * update v1.6.0
+     ---------
+   * fix(autoware_default_adapi): fix bugprone-branch-clone (#9726 <https://github.com/autowarefoundation/autoware.universe/issues/9726>)
+     fix: bugprone-error
+   * Contributors: Fumiya Watanabe, Junya Sasaki, Mamoru Sobue, Ryohsuke Mitsudome, Satoshi OTA, Takagi, Isamu, kobayu858
+Checksums-Sha1:
+ 0f0df4e17f6d6f0178d433656dd5d7d7432be189 32082390 ros-humble-autoware-default-adapi-dbgsym_0-2025.04.16.06.46_amd64.ddeb
+ ede2ed8f5d009279817242c3757929fc40799bfc 43034 ros-humble-autoware-default-adapi_0-2025.04.16.06.46_amd64.buildinfo
+ 38b287be0dc195f3d744459566b47d0c612ed7f4 821322 ros-humble-autoware-default-adapi_0-2025.04.16.06.46_amd64.deb
+Checksums-Sha256:
+ f83c3c7926b1e4d4ffd7f86342b649b76fc3d1c299d97d2c28b895ad2633d101 32082390 ros-humble-autoware-default-adapi-dbgsym_0-2025.04.16.06.46_amd64.ddeb
+ a89f9b7c8dd341d97d9eb9a61f1108c36445d85d15f9466273afff16cbf82e57 43034 ros-humble-autoware-default-adapi_0-2025.04.16.06.46_amd64.buildinfo
+ a2015577e35d43335431f3f249ced298d7343996e8a1aeb9897f351208d30ddf 821322 ros-humble-autoware-default-adapi_0-2025.04.16.06.46_amd64.deb
+Files:
+ ce2c45c7f7285daaf4861e1e0003e658 32082390 debug optional ros-humble-autoware-default-adapi-dbgsym_0-2025.04.16.06.46_amd64.ddeb
+ 89601c7b02d39c8b994f802a47f3e20e 43034 misc optional ros-humble-autoware-default-adapi_0-2025.04.16.06.46_amd64.buildinfo
+ 8f50198b50bdab5d2a120a73a284a627 821322 misc optional ros-humble-autoware-default-adapi_0-2025.04.16.06.46_amd64.deb

@@ -1,0 +1,86 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-detection-area-module
+Binary: ros-humble-autoware-behavior-velocity-detection-area-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.19.25
+Distribution: jammy
+Urgency: high
+Maintainer: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Changed-By: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-detection-area-module - The autoware_behavior_velocity_detection_area_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-detection-area-module (0-2025.04.16.19.25) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * chore(planning): move package directory for planning factor interface (#9948 <https://github.com/autowarefoundation/autoware.universe/issues/9948>)
+     * chore: add new package for planning factor interface
+     * chore(surround_obstacle_checker): update include file
+     * chore(obstacle_stop_planner): update include file
+     * chore(obstacle_cruise_planner): update include file
+     * chore(motion_velocity_planner): update include file
+     * chore(bpp): update include file
+     * chore(bvp-common): update include file
+     * chore(blind_spot): update include file
+     * chore(crosswalk): update include file
+     * chore(detection_area): update include file
+     * chore(intersection): update include file
+     * chore(no_drivable_area): update include file
+     * chore(no_stopping_area): update include file
+     * chore(occlusion_spot): update include file
+     * chore(run_out): update include file
+     * chore(speed_bump): update include file
+     * chore(stop_line): update include file
+     * chore(template_module): update include file
+     * chore(traffic_light): update include file
+     * chore(vtl): update include file
+     * chore(walkway): update include file
+     * chore(motion_utils): remove factor interface
+     ---------
+   * feat(behavior_velocity_planner)!: remove velocity_factor completely (#9943 <https://github.com/autowarefoundation/autoware.universe/issues/9943>)
+     * feat(behavior_velocity_planner)!: remove velocity_factor completely
+     * minimize diff
+     ---------
+   * feat(planning_factor)!: remove velocity_factor, steering_factor and introduce planning_factor (#9927 <https://github.com/autowarefoundation/autoware.universe/issues/9927>)
+     Co-authored-by: Satoshi OTA <mailto:44889564+satoshi-ota@users.noreply.github.com>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: satoshi-ota <mailto:satoshi.ota928@gmail.com>
+   * feat(behavior_velocity_modules): add node test (#9790 <https://github.com/autowarefoundation/autoware.universe/issues/9790>)
+     * feat(behavior_velocity_crosswalk): add node test
+     * fix
+     * feat(behavior_velocity_xxx_module): add node test
+     * fix
+     * fix
+     * fix
+     * fix
+     * change directory tests -> test
+     ---------
+   * feat(behavior_velocity_detection_area): use base class without RTC (#9802 <https://github.com/autowarefoundation/autoware.universe/issues/9802>)
+     * feat(behavior_velocity_detection_area): use base class without RTC
+     * fix
+     * fix
+     ---------
+   * refactor(behavior_velocity_planner_common): add behavior_velocity_rtc_interface and move RTC-related implementation (#9799 <https://github.com/autowarefoundation/autoware.universe/issues/9799>)
+     * split into planer_common and rtc_interface
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_planner_common/include/autoware/behavior_velocity_planner_common/scene_module_interface.hpp
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_rtc_interface/include/autoware/behavior_velocity_rtc_interface/scene_module_interface_with_rtc.hpp
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+     * fix
+     ---------
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+   * Contributors: Fumiya Watanabe, Mamoru Sobue, Satoshi OTA, Takayuki Murooka
+Checksums-Sha1:
+ dde562cfd09b8603e36eb2120f8d7570ff983be6 4692586 ros-humble-autoware-behavior-velocity-detection-area-module-dbgsym_0-2025.04.16.19.25_amd64.ddeb
+ 195b7ff330fab726ce2d29b42cf7bbe3e9fa12cf 44974 ros-humble-autoware-behavior-velocity-detection-area-module_0-2025.04.16.19.25_amd64.buildinfo
+ ffa0ce8dca210be139b93ef9e8e20f3f6e4104a9 49112 ros-humble-autoware-behavior-velocity-detection-area-module_0-2025.04.16.19.25_amd64.deb
+Checksums-Sha256:
+ 45f1b0191a22bac1a7e8efa261c6413f1706ce02c4ae25492b210e9c826ddc9c 4692586 ros-humble-autoware-behavior-velocity-detection-area-module-dbgsym_0-2025.04.16.19.25_amd64.ddeb
+ e26e15696029f0819ebb56b45a36d09370c9ed4d003ec340e9ded232cf85a42f 44974 ros-humble-autoware-behavior-velocity-detection-area-module_0-2025.04.16.19.25_amd64.buildinfo
+ 8266712e0aef9a96692ab4090233ecc4dde5080d8b2d6e767ee5b610dca946aa 49112 ros-humble-autoware-behavior-velocity-detection-area-module_0-2025.04.16.19.25_amd64.deb
+Files:
+ 44c6ad8d25dc1052d9627aa2d2cb2ed6 4692586 debug optional ros-humble-autoware-behavior-velocity-detection-area-module-dbgsym_0-2025.04.16.19.25_amd64.ddeb
+ af00dbe78eabdbe61e56eb8dfd470d0d 44974 misc optional ros-humble-autoware-behavior-velocity-detection-area-module_0-2025.04.16.19.25_amd64.buildinfo
+ 5551eeb68a5ebefe81369fa1a68c677b 49112 misc optional ros-humble-autoware-behavior-velocity-detection-area-module_0-2025.04.16.19.25_amd64.deb

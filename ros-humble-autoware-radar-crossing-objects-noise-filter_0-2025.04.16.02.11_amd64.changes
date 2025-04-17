@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-radar-crossing-objects-noise-filter
+Binary: ros-humble-autoware-radar-crossing-objects-noise-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.02.11
+Distribution: jammy
+Urgency: high
+Maintainer: Sathshi Tanaka <satoshi.tanaka@tier4.jp>
+Changed-By: Sathshi Tanaka <satoshi.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-radar-crossing-objects-noise-filter - autoware_radar_crossing_objects_noise_filter
+Changes:
+ ros-humble-autoware-radar-crossing-objects-noise-filter (0-2025.04.16.02.11) jammy; urgency=high
+Checksums-Sha1:
+ 54a512194e03bd8a86a8156aa6f12774ab19e89f 2469102 ros-humble-autoware-radar-crossing-objects-noise-filter-dbgsym_0-2025.04.16.02.11_amd64.ddeb
+ 1695d9f0f4f617218e39ef152af0cf3701923b84 40662 ros-humble-autoware-radar-crossing-objects-noise-filter_0-2025.04.16.02.11_amd64.buildinfo
+ 916b43d8ec971748f920af1c58883491bb27bce9 123606 ros-humble-autoware-radar-crossing-objects-noise-filter_0-2025.04.16.02.11_amd64.deb
+Checksums-Sha256:
+ 482beac1db190ef873e214c380b1b00016fcd70453c6722c26ff5596de605162 2469102 ros-humble-autoware-radar-crossing-objects-noise-filter-dbgsym_0-2025.04.16.02.11_amd64.ddeb
+ fcaeb509f9e88ca7f0401f42a23f3aadbcd0c46c20e5a00a88e94d6492f8d08d 40662 ros-humble-autoware-radar-crossing-objects-noise-filter_0-2025.04.16.02.11_amd64.buildinfo
+ fb872775202040e0f4581f07219159440918358780b8db7d33bba60e5b53383c 123606 ros-humble-autoware-radar-crossing-objects-noise-filter_0-2025.04.16.02.11_amd64.deb
+Files:
+ 3715be77a833cf68207008f7d83277a3 2469102 debug optional ros-humble-autoware-radar-crossing-objects-noise-filter-dbgsym_0-2025.04.16.02.11_amd64.ddeb
+ 7964a9f6eb370099239e3cdea845ab8c 40662 misc optional ros-humble-autoware-radar-crossing-objects-noise-filter_0-2025.04.16.02.11_amd64.buildinfo
+ f93e43465a1267893f235cd360d06af6 123606 misc optional ros-humble-autoware-radar-crossing-objects-noise-filter_0-2025.04.16.02.11_amd64.deb

@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-compare-map-segmentation
+Binary: ros-humble-autoware-compare-map-segmentation
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.08.21
+Distribution: jammy
+Urgency: high
+Maintainer: amc-nu <abrahammonrroy@yahoo.com>
+Changed-By: amc-nu <abrahammonrroy@yahoo.com>
+Description:
+ ros-humble-autoware-compare-map-segmentation - The ROS 2 autoware_compare_map_segmentation package
+Changes:
+ ros-humble-autoware-compare-map-segmentation (0-2025.04.16.08.21) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_compare_map_segmentation): tier4_debug_msgs changed to autoware_internal_debug_msgs in fil… (#9869 <https://github.com/autowarefoundation/autoware.universe/issues/9869>)
+     feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files perception/autoware_compare_map_segmentation
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+   * Contributors: Fumiya Watanabe, Vishal Chauhan
+Checksums-Sha1:
+ 5715472aa6a70eb8f507f5c69ae2469eae28ed8c 14740490 ros-humble-autoware-compare-map-segmentation-dbgsym_0-2025.04.16.08.21_amd64.ddeb
+ 57cea62ecb7a1ec1da718046a40e25b6031bd6c4 49881 ros-humble-autoware-compare-map-segmentation_0-2025.04.16.08.21_amd64.buildinfo
+ 77ad98bb41129de0345f83396f68ba9b4e6663e3 273862 ros-humble-autoware-compare-map-segmentation_0-2025.04.16.08.21_amd64.deb
+Checksums-Sha256:
+ 40078d6b74cb21bc74810a38de196bf649992ab2f24fcf83fa27e3da0b09a278 14740490 ros-humble-autoware-compare-map-segmentation-dbgsym_0-2025.04.16.08.21_amd64.ddeb
+ 4c6739b0a6e20f17d2a17d44f1d541b060c4d913d3bc4e1e83aa51156e88454b 49881 ros-humble-autoware-compare-map-segmentation_0-2025.04.16.08.21_amd64.buildinfo
+ 965394569bcd02e79dd838fd96189d6d060066815b7302135d7242b69345890a 273862 ros-humble-autoware-compare-map-segmentation_0-2025.04.16.08.21_amd64.deb
+Files:
+ 32ed9185ee9c8d57bcf3889160f612e4 14740490 debug optional ros-humble-autoware-compare-map-segmentation-dbgsym_0-2025.04.16.08.21_amd64.ddeb
+ ba566b46947f1c11bf35aa784efb7363 49881 misc optional ros-humble-autoware-compare-map-segmentation_0-2025.04.16.08.21_amd64.buildinfo
+ 8c510477c84d1483d33fcca48048b16f 273862 misc optional ros-humble-autoware-compare-map-segmentation_0-2025.04.16.08.21_amd64.deb

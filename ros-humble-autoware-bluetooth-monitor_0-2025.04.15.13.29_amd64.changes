@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-bluetooth-monitor
+Binary: ros-humble-autoware-bluetooth-monitor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.13.29
+Distribution: jammy
+Urgency: high
+Maintainer: Fumihito Ito <fumihito.ito@tier4.jp>
+Changed-By: Fumihito Ito <fumihito.ito@tier4.jp>
+Description:
+ ros-humble-autoware-bluetooth-monitor - Bluetooth alive monitoring
+Changes:
+ ros-humble-autoware-bluetooth-monitor (0-2025.04.15.13.29) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware_ prefix for bluetooth_monitor (#9960 <https://github.com/autowarefoundation/autoware.universe/issues/9960>)
+     * feat(bluetooth_monitor): apply autoware_ prefix (see below):
+     * In this commit, I did not organize a folder structure.
+     The folder structure will be organized in the next some commits.
+     * The changes will follow the Autoware's guideline as below:
+     - https://autowarefoundation.github.io/autoware-documentation/main/contributing/coding-guidelines/ros-nodes/directory-structure/#package-folder
+     * rename(bluetooth_monitor): move headers under include/autoware:
+     * Fixes due to this changes for .hpp/.cpp files will be applied in the next commit
+     * fix(bluetooth_monitor): fix include paths
+     * To follow the previous commit
+     * bug(bluetooth_monitor): fix a missing prefix bug
+     * rename: bluetooth_monitor => autoware_bluetooth_monitor
+     * style(pre-commit): autofix
+     * bug(autoware_bluetooth_monitor): revert wrongly updated copyrights
+     * bug(autoware_bluetooth_monitor): autoware_ prefix is not needed here
+     * update: CODEOWNERS
+     * update(autoware_bluetooth_monitor): README.md
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Fumiya Watanabe, Junya Sasaki
+Checksums-Sha1:
+ e3dd037de48fd6e2a12636486c1caf64fb91f3e8 3683638 ros-humble-autoware-bluetooth-monitor-dbgsym_0-2025.04.15.13.29_amd64.ddeb
+ 81a76139725c6478e62261c57f3ec1f83d5bf961 16591 ros-humble-autoware-bluetooth-monitor_0-2025.04.15.13.29_amd64.buildinfo
+ 386f4ca59831b6dddbcefac718bc8e1f2f2853bc 234350 ros-humble-autoware-bluetooth-monitor_0-2025.04.15.13.29_amd64.deb
+Checksums-Sha256:
+ 9ef52c51ff420bd8f653133d10eb109f13be8e2c5d9c5ff25ae072fbeb19a6c2 3683638 ros-humble-autoware-bluetooth-monitor-dbgsym_0-2025.04.15.13.29_amd64.ddeb
+ ad3f80654feefe7612f71ce151c14e7ac771a32a699a62ff4929f3e77ad289e4 16591 ros-humble-autoware-bluetooth-monitor_0-2025.04.15.13.29_amd64.buildinfo
+ f3efc3e25487716a76213e2e927fe63a99b0489b122a94aafc33fc3842a882f8 234350 ros-humble-autoware-bluetooth-monitor_0-2025.04.15.13.29_amd64.deb
+Files:
+ b37f96d025a4c9a707fbbf6c767e4171 3683638 debug optional ros-humble-autoware-bluetooth-monitor-dbgsym_0-2025.04.15.13.29_amd64.ddeb
+ d6dec9ad176e2ca01d43e680dba02600 16591 misc optional ros-humble-autoware-bluetooth-monitor_0-2025.04.15.13.29_amd64.buildinfo
+ 654291bc1a243bc89474924aa311a5f9 234350 misc optional ros-humble-autoware-bluetooth-monitor_0-2025.04.15.13.29_amd64.deb

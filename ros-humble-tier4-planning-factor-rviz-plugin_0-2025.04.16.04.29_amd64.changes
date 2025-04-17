@@ -1,0 +1,44 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-tier4-planning-factor-rviz-plugin
+Binary: ros-humble-tier4-planning-factor-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.04.29
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-tier4-planning-factor-rviz-plugin - The tier4_planning_factor_rviz_plugin package
+Changes:
+ ros-humble-tier4-planning-factor-rviz-plugin (0-2025.04.16.04.29) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(rviz): add new plugin to visualize planning factor (#9999 <https://github.com/autowarefoundation/autoware.universe/issues/9999>)
+     * feat(rviz): add new plugin to visualize planning factor
+     * feat(rviz): show safety factors
+     * chore: add maintainer
+     * feat: show detail
+     ---------
+   * Contributors: Fumiya Watanabe, Satoshi OTA
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(rviz): add new plugin to visualize planning factor (#9999 <https://github.com/autowarefoundation/autoware.universe/issues/9999>)
+     * feat(rviz): add new plugin to visualize planning factor
+     * feat(rviz): show safety factors
+     * chore: add maintainer
+     * feat: show detail
+     ---------
+   * Contributors: Fumiya Watanabe, Satoshi OTA
+Checksums-Sha1:
+ fa71f87d3d54a979783f36af534c6cf82a4b8b0e 2433346 ros-humble-tier4-planning-factor-rviz-plugin-dbgsym_0-2025.04.16.04.29_amd64.ddeb
+ 28f9e652d37b3ba2e2fb226de02443217059c33d 43057 ros-humble-tier4-planning-factor-rviz-plugin_0-2025.04.16.04.29_amd64.buildinfo
+ 1d2b459c989c11a5adacb07ab6f75d468a3df8e8 132164 ros-humble-tier4-planning-factor-rviz-plugin_0-2025.04.16.04.29_amd64.deb
+Checksums-Sha256:
+ e5cedb1924509da5d2e5c7ae1acde2ccf65d5fc0c2f307a20fb5e4f127bebf23 2433346 ros-humble-tier4-planning-factor-rviz-plugin-dbgsym_0-2025.04.16.04.29_amd64.ddeb
+ e1f07231624d744575d8567f73dc76e53756efd91c78a52c52d9b63dc243bb1d 43057 ros-humble-tier4-planning-factor-rviz-plugin_0-2025.04.16.04.29_amd64.buildinfo
+ 83e21b0248c1c01e9c2ee2a52510ca6b77e05cee8908b677b141155200ac8161 132164 ros-humble-tier4-planning-factor-rviz-plugin_0-2025.04.16.04.29_amd64.deb
+Files:
+ 56b343907aaf6c73a874f59d7d58616d 2433346 debug optional ros-humble-tier4-planning-factor-rviz-plugin-dbgsym_0-2025.04.16.04.29_amd64.ddeb
+ be2410348a8803dbdc0698d3ba48dcc2 43057 misc optional ros-humble-tier4-planning-factor-rviz-plugin_0-2025.04.16.04.29_amd64.buildinfo
+ 7522058470708d6692c16ec6b48f826a 132164 misc optional ros-humble-tier4-planning-factor-rviz-plugin_0-2025.04.16.04.29_amd64.deb

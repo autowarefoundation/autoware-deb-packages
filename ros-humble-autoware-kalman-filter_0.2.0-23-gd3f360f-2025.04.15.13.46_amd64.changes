@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Fri, 07 Feb 2025 00:00:00 -0000
+Source: ros-humble-autoware-kalman-filter
+Binary: ros-humble-autoware-kalman-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.0-23-gd3f360f-2025.04.15.13.46
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-kalman-filter - The kalman filter package
+Changes:
+ ros-humble-autoware-kalman-filter (0.2.0-23-gd3f360f-2025.04.15.13.46) jammy; urgency=high
+ .
+   * unify version to 0.1.0
+   * update changelog
+   * feat: port autoware_kalman_filter from autoware.universe (#141 <https://github.com/autowarefoundation/autoware.core/issues/141>)
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+   * Contributors: Yutaka Kondo, cyn-liu
+   * feat: port autoware_kalman_filter from autoware.universe (#141 <https://github.com/autowarefoundation/autoware.core/issues/141>)
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+   * Contributors: cyn-liu
+Checksums-Sha1:
+ 04a76d841f7b4ae73ec5b1eb6bc67e75fa5dfd80 2365166 ros-humble-autoware-kalman-filter-dbgsym_0.2.0-23-gd3f360f-2025.04.15.13.46_amd64.ddeb
+ d08516e398d7ae5c0bfc724ee5835b6d45b09c52 11814 ros-humble-autoware-kalman-filter_0.2.0-23-gd3f360f-2025.04.15.13.46_amd64.buildinfo
+ 58401bc9747735edc0650a9602149e540dbd258d 51626 ros-humble-autoware-kalman-filter_0.2.0-23-gd3f360f-2025.04.15.13.46_amd64.deb
+Checksums-Sha256:
+ afc02240769d7c9d3976a8490acdabd4d38bd475232e8ba597267d571cf93672 2365166 ros-humble-autoware-kalman-filter-dbgsym_0.2.0-23-gd3f360f-2025.04.15.13.46_amd64.ddeb
+ 925f41c0f569951050116679c7efeb269202478ddc589b2869c44026303fd33c 11814 ros-humble-autoware-kalman-filter_0.2.0-23-gd3f360f-2025.04.15.13.46_amd64.buildinfo
+ c442bd3b36557715df74b0ee829b529948859db3cc60ae45babff42d93c9a0ea 51626 ros-humble-autoware-kalman-filter_0.2.0-23-gd3f360f-2025.04.15.13.46_amd64.deb
+Files:
+ 2997d85b1598912a4f8e374b851f0e9c 2365166 debug optional ros-humble-autoware-kalman-filter-dbgsym_0.2.0-23-gd3f360f-2025.04.15.13.46_amd64.ddeb
+ a85e824c7f3bc5e3086ce97df36665cd 11814 misc optional ros-humble-autoware-kalman-filter_0.2.0-23-gd3f360f-2025.04.15.13.46_amd64.buildinfo
+ 6b39b25549b07a7910b717052a901064 51626 misc optional ros-humble-autoware-kalman-filter_0.2.0-23-gd3f360f-2025.04.15.13.46_amd64.deb

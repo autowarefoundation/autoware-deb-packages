@@ -1,0 +1,77 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-walkway-module
+Binary: ros-humble-autoware-behavior-velocity-walkway-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.23.13
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-walkway-module - The autoware_behavior_velocity_walkway_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-walkway-module (0-2025.04.16.23.13) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * chore(planning): move package directory for planning factor interface (#9948 <https://github.com/autowarefoundation/autoware.universe/issues/9948>)
+     * chore: add new package for planning factor interface
+     * chore(surround_obstacle_checker): update include file
+     * chore(obstacle_stop_planner): update include file
+     * chore(obstacle_cruise_planner): update include file
+     * chore(motion_velocity_planner): update include file
+     * chore(bpp): update include file
+     * chore(bvp-common): update include file
+     * chore(blind_spot): update include file
+     * chore(crosswalk): update include file
+     * chore(detection_area): update include file
+     * chore(intersection): update include file
+     * chore(no_drivable_area): update include file
+     * chore(no_stopping_area): update include file
+     * chore(occlusion_spot): update include file
+     * chore(run_out): update include file
+     * chore(speed_bump): update include file
+     * chore(stop_line): update include file
+     * chore(template_module): update include file
+     * chore(traffic_light): update include file
+     * chore(vtl): update include file
+     * chore(walkway): update include file
+     * chore(motion_utils): remove factor interface
+     ---------
+   * feat(planning_factor)!: remove velocity_factor, steering_factor and introduce planning_factor (#9927 <https://github.com/autowarefoundation/autoware.universe/issues/9927>)
+     Co-authored-by: Satoshi OTA <mailto:44889564+satoshi-ota@users.noreply.github.com>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: satoshi-ota <mailto:satoshi.ota928@gmail.com>
+   * feat(behavior_velocity_modules): add node test (#9790 <https://github.com/autowarefoundation/autoware.universe/issues/9790>)
+     * feat(behavior_velocity_crosswalk): add node test
+     * fix
+     * feat(behavior_velocity_xxx_module): add node test
+     * fix
+     * fix
+     * fix
+     * fix
+     * change directory tests -> test
+     ---------
+   * refactor(behavior_velocity_planner_common): add behavior_velocity_rtc_interface and move RTC-related implementation (#9799 <https://github.com/autowarefoundation/autoware.universe/issues/9799>)
+     * split into planer_common and rtc_interface
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_planner_common/include/autoware/behavior_velocity_planner_common/scene_module_interface.hpp
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_rtc_interface/include/autoware/behavior_velocity_rtc_interface/scene_module_interface_with_rtc.hpp
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+     * fix
+     ---------
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+   * Contributors: Fumiya Watanabe, Mamoru Sobue, Satoshi OTA, Takayuki Murooka
+Checksums-Sha1:
+ 321963baf8b04b9a3b451213d30a5b592939a1e5 3621640 ros-humble-autoware-behavior-velocity-walkway-module-dbgsym_0-2025.04.16.23.13_amd64.ddeb
+ 6deb6a4be15eb149c096b3ac0c13ea4dd430d4c1 49743 ros-humble-autoware-behavior-velocity-walkway-module_0-2025.04.16.23.13_amd64.buildinfo
+ 9bf0e2c325f07da9f09f1c475d1bbbac4b44074d 49130 ros-humble-autoware-behavior-velocity-walkway-module_0-2025.04.16.23.13_amd64.deb
+Checksums-Sha256:
+ d738f442454d3cec039a2f456f5d6e418b5b2552bffe2c4c9f83fcf4fd5a3bd7 3621640 ros-humble-autoware-behavior-velocity-walkway-module-dbgsym_0-2025.04.16.23.13_amd64.ddeb
+ cc62a00ff4ce53a10be573a27f4ca9c0eae3eb37fb4c72456e396ff027578919 49743 ros-humble-autoware-behavior-velocity-walkway-module_0-2025.04.16.23.13_amd64.buildinfo
+ d950de1b8f420e14783504b7cdd241dc9f15b8a37381378470eed6cc5d28bca4 49130 ros-humble-autoware-behavior-velocity-walkway-module_0-2025.04.16.23.13_amd64.deb
+Files:
+ 0e13c5f045abd4599d493dde7d307a0a 3621640 debug optional ros-humble-autoware-behavior-velocity-walkway-module-dbgsym_0-2025.04.16.23.13_amd64.ddeb
+ 55d52537900b23a796ebe3f1554f25d4 49743 misc optional ros-humble-autoware-behavior-velocity-walkway-module_0-2025.04.16.23.13_amd64.buildinfo
+ 036718e7686d59e9cbc6ff78c269c064 49130 misc optional ros-humble-autoware-behavior-velocity-walkway-module_0-2025.04.16.23.13_amd64.deb

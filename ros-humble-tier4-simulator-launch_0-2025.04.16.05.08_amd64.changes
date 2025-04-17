@@ -1,0 +1,92 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-tier4-simulator-launch
+Binary: ros-humble-tier4-simulator-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.05.08
+Distribution: jammy
+Urgency: high
+Maintainer: Keisuke Shima <keisuke.shima@tier4.jp>
+Changed-By: Keisuke Shima <keisuke.shima@tier4.jp>
+Description:
+ ros-humble-tier4-simulator-launch - The tier4_simulator_launch package
+Changes:
+ ros-humble-tier4-simulator-launch (0-2025.04.16.05.08) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware_ prefix for dummy_perception_publisher (#9987 <https://github.com/autowarefoundation/autoware.universe/issues/9987>)
+   * fix(tier4_simulator_launch): fix a wrong package name: fault_injection => autoware_fault_injection  (#10014 <https://github.com/autowarefoundation/autoware.universe/issues/10014>)
+   * feat: apply autoware_ prefix for scenario_simulator_v2_adapter (#9957 <https://github.com/autowarefoundation/autoware.universe/issues/9957>)
+     * feat(autoware_scenario_simulator_v2_adapter): apply autoware_ prefix (see below):
+     * In this commit, I did not organize a folder structure.
+     The folder structure will be organized in the next some commits.
+     * The changes will follow the Autoware's guideline as below:
+     - https://autowarefoundation.github.io/autoware-documentation/main/contributing/coding-guidelines/ros-nodes/directory-structure/#package-folder
+     * rename(scenario_simulator_v2_adapter): move headers under include/autoware:
+     * Fixes due to this changes for .hpp/.cpp files will be applied in the next commit
+     * fix(scenario_simulator_v2_adapter): fix include paths
+     * To follow the previous commit
+     * rename: scenario_simulator_v2_adapter => autoware_scenario_simulator_v2_adapter
+     * bug(autoware_scenario_simulator_v2_adapter): revert wrongly updated copyrights
+     * bug(autoware_scenario_simulator_v2_adapter): autoware_ prefix is not needed here
+     * bug(autoware_scenario_simulator_v2_adapter): wrong package name in launch side
+     ---------
+   * feat: apply autoware_ prefix for simple_planning_simulator (#9995 <https://github.com/autowarefoundation/autoware.universe/issues/9995>)
+     * feat(simple_planning_simulator): apply autoware_ prefix (see below):
+     Note:
+     * In this commit, I did not organize a folder structure.
+     The folder structure will be organized in the next some commits.
+     * The changes will follow the Autoware's guideline as below:
+     - https://autowarefoundation.github.io/autoware-documentation/main/contributing/coding-guidelines/ros-nodes/directory-structure/#package-folder
+     * rename(simple_planning_simulator): move headers under include/autoware:
+     * Fixes due to this changes for .hpp/.cpp files will be applied in the next commit
+     * fix(simple_planning_simulator): fix include header paths
+     * To follow the previous commit
+     * rename: simple_planning_simulator => autoware_simple_planning_simulator
+     * bug(autoware_simple_planning_simulator): fix missing changes
+     * style(pre-commit): autofix
+     * bug(autoware_simple_planning_simulator): fix errors in build and tests
+     * I had to run after rm -rf install build, ... sorry
+     * style(pre-commit): autofix
+     * Fixed NOLINT
+     * Added NOLINT
+     * Fixed to autoware_simple_planning_simulator
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Shintaro Sakoda <mailto:shintaro.sakoda@tier4.jp>
+   * feat: apply autoware_ prefix for vehicle_door_simulator (#9997 <https://github.com/autowarefoundation/autoware.universe/issues/9997>)
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * feat: apply autoware_ prefix for fault_injection (#9989 <https://github.com/autowarefoundation/autoware.universe/issues/9989>)
+     * feat(fault_injection): apply autoware_ prefix (see below):
+     Note:
+     * In this commit, I did not organize a folder structure.
+     The folder structure will be organized in the next some commits.
+     * The changes will follow the Autoware's guideline as below:
+     - https://autowarefoundation.github.io/autoware-documentation/main/contributing/coding-guidelines/ros-nodes/directory-structure/#package-folder
+     * rename(fault_injection): move headers under include/autoware:
+     * Fixes due to this changes for .hpp/.cpp files will be applied in the next commit
+     * fix(fault_injection): fix include header paths
+     * To follow the previous commit
+     * rename: fault_injection => autoware_fault_injection
+     * Fixed exec_depend
+     ---------
+     Co-authored-by: SakodaShintaro <mailto:shintaro.sakoda@tier4.jp>
+   * fix(launch): fix missing changes for launch (#10007 <https://github.com/autowarefoundation/autoware.universe/issues/10007>)
+     bug(launch): fix missing changes for following PRs:
+     * https://github.com/autowarefoundation/autoware.universe/pull/9956
+     * https://github.com/autowarefoundation/autoware.universe/pull/9970
+   * fix(tier4_simulator_launch): add use_validator argument to simulator launch (#9634 <https://github.com/autowarefoundation/autoware.universe/issues/9634>)
+     * feat: add use_validator argument to simulator launch
+     * feat: set variables explicitly
+     ---------
+   * Contributors: Fumiya Watanabe, Junya Sasaki, Taekjin LEE
+Checksums-Sha1:
+ 6c8fa52976a7d60d2404733d891af4a23d4662a1 10703 ros-humble-tier4-simulator-launch_0-2025.04.16.05.08_amd64.buildinfo
+ f3ad36af161a645b04d25b02dca5aed3dc366221 13284 ros-humble-tier4-simulator-launch_0-2025.04.16.05.08_amd64.deb
+Checksums-Sha256:
+ 73ff5f80748a786fa038758314c652e84be55b7a2c6b9c68e8369ea6ee444828 10703 ros-humble-tier4-simulator-launch_0-2025.04.16.05.08_amd64.buildinfo
+ 003e33564cc19dc644740641aa6f528a47ba9131317b5ff88c1c9d02eb248b6b 13284 ros-humble-tier4-simulator-launch_0-2025.04.16.05.08_amd64.deb
+Files:
+ d9990e3ddc0c5e2280a075de39c4bec4 10703 misc optional ros-humble-tier4-simulator-launch_0-2025.04.16.05.08_amd64.buildinfo
+ b79133f4091b84b0c94a28944595de14 13284 misc optional ros-humble-tier4-simulator-launch_0-2025.04.16.05.08_amd64.deb

@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Wed, 19 Feb 2025 00:00:00 -0000
+Source: ros-humble-autoware-internal-planning-msgs
+Binary: ros-humble-autoware-internal-planning-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.6.0-2025.04.15.14.19
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-internal-planning-msgs - The autoware_internal_planning_msgs package
+Changes:
+ ros-humble-autoware-internal-planning-msgs (1.6.0-2025.04.15.14.19) jammy; urgency=high
+ .
+   * feat: port VelocityLimit messages from tier4_planning_msgs (#49 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/49>)
+   * Contributors: Ryohsuke Mitsudome
+Checksums-Sha1:
+ 7bcf9ad1e77c7878cd35bba97fa9641607fae6bd 1192582 ros-humble-autoware-internal-planning-msgs-dbgsym_1.6.0-2025.04.15.14.19_amd64.ddeb
+ b45697a9c5fbd528259e5fabbd797d88c74d8520 15115 ros-humble-autoware-internal-planning-msgs_1.6.0-2025.04.15.14.19_amd64.buildinfo
+ 7067f9704271e0a72ac78990b786608cc34c24f4 139274 ros-humble-autoware-internal-planning-msgs_1.6.0-2025.04.15.14.19_amd64.deb
+Checksums-Sha256:
+ a4b61d3f20686bca5f27b133f386a7d810ef58db2af5b680048a2350c211435e 1192582 ros-humble-autoware-internal-planning-msgs-dbgsym_1.6.0-2025.04.15.14.19_amd64.ddeb
+ f9a88b982550e41ad563198b42421e7d52e83b36b153b5ed310138cce3f7b469 15115 ros-humble-autoware-internal-planning-msgs_1.6.0-2025.04.15.14.19_amd64.buildinfo
+ c3cbc058a70f5c18c44f2d9654bdced8242088d3b72cfeb97f9870a0be18014c 139274 ros-humble-autoware-internal-planning-msgs_1.6.0-2025.04.15.14.19_amd64.deb
+Files:
+ 90d89259e502c9ff581cc02e5beda19d 1192582 debug optional ros-humble-autoware-internal-planning-msgs-dbgsym_1.6.0-2025.04.15.14.19_amd64.ddeb
+ 7a32e0e29ce268916b33bd9de4620b9b 15115 misc optional ros-humble-autoware-internal-planning-msgs_1.6.0-2025.04.15.14.19_amd64.buildinfo
+ a390c6a55ddcabb6ff66d8b61458f470 139274 misc optional ros-humble-autoware-internal-planning-msgs_1.6.0-2025.04.15.14.19_amd64.deb

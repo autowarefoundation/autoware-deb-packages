@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-diagnostic-graph-utils
+Binary: ros-humble-autoware-diagnostic-graph-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.05.42
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-diagnostic-graph-utils - The autoware_diagnostic_graph_utils package
+Changes:
+ ros-humble-autoware-diagnostic-graph-utils (0-2025.04.16.05.42) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware_ prefix for diagnostic_graph_utils (#9968 <https://github.com/autowarefoundation/autoware.universe/issues/9968>)
+   * Contributors: Fumiya Watanabe, Junya Sasaki
+Checksums-Sha1:
+ bbb558fccd815d3a46d2d560b1ef3c2d3704ba01 5092360 ros-humble-autoware-diagnostic-graph-utils-dbgsym_0-2025.04.16.05.42_amd64.ddeb
+ f22bac068ea8879b38e8f2c69f6fb0e0cf1aa143 16172 ros-humble-autoware-diagnostic-graph-utils_0-2025.04.16.05.42_amd64.buildinfo
+ c3770a3c5c6843cedd1e68ec50f2178a88ec289a 192014 ros-humble-autoware-diagnostic-graph-utils_0-2025.04.16.05.42_amd64.deb
+Checksums-Sha256:
+ c5a48def97524cad64564382617192617895c0f58e64d83e6e43d0d0aaa0ea4a 5092360 ros-humble-autoware-diagnostic-graph-utils-dbgsym_0-2025.04.16.05.42_amd64.ddeb
+ d981ef6b7cd3e88277f991772015a4104a0f5370c469de5b50c3ab20b2f5f780 16172 ros-humble-autoware-diagnostic-graph-utils_0-2025.04.16.05.42_amd64.buildinfo
+ d2f9be1ac81a91f4dbddc35e92d7d3c864d9c621e995854776aee1bf36a8319a 192014 ros-humble-autoware-diagnostic-graph-utils_0-2025.04.16.05.42_amd64.deb
+Files:
+ 698182d5cbdfc37604e733c62fec401e 5092360 debug optional ros-humble-autoware-diagnostic-graph-utils-dbgsym_0-2025.04.16.05.42_amd64.ddeb
+ a3dc15e0882f9cd64af767e3ea8f6b76 16172 misc optional ros-humble-autoware-diagnostic-graph-utils_0-2025.04.16.05.42_amd64.buildinfo
+ 74219e6d379f846f44ae028861cfee60 192014 misc optional ros-humble-autoware-diagnostic-graph-utils_0-2025.04.16.05.42_amd64.deb

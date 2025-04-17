@@ -1,0 +1,67 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-template-module
+Binary: ros-humble-autoware-behavior-velocity-template-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.22.17
+Distribution: jammy
+Urgency: high
+Maintainer: Daniel Sanchez <daniel.sanchez@tier4.jp>
+Changed-By: Daniel Sanchez <daniel.sanchez@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-template-module - The autoware_behavior_velocity_template_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-template-module (0-2025.04.16.22.17) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * chore(planning): move package directory for planning factor interface (#9948 <https://github.com/autowarefoundation/autoware.universe/issues/9948>)
+     * chore: add new package for planning factor interface
+     * chore(surround_obstacle_checker): update include file
+     * chore(obstacle_stop_planner): update include file
+     * chore(obstacle_cruise_planner): update include file
+     * chore(motion_velocity_planner): update include file
+     * chore(bpp): update include file
+     * chore(bvp-common): update include file
+     * chore(blind_spot): update include file
+     * chore(crosswalk): update include file
+     * chore(detection_area): update include file
+     * chore(intersection): update include file
+     * chore(no_drivable_area): update include file
+     * chore(no_stopping_area): update include file
+     * chore(occlusion_spot): update include file
+     * chore(run_out): update include file
+     * chore(speed_bump): update include file
+     * chore(stop_line): update include file
+     * chore(template_module): update include file
+     * chore(traffic_light): update include file
+     * chore(vtl): update include file
+     * chore(walkway): update include file
+     * chore(motion_utils): remove factor interface
+     ---------
+   * feat(planning_factor)!: remove velocity_factor, steering_factor and introduce planning_factor (#9927 <https://github.com/autowarefoundation/autoware.universe/issues/9927>)
+     Co-authored-by: Satoshi OTA <mailto:44889564+satoshi-ota@users.noreply.github.com>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: satoshi-ota <mailto:satoshi.ota928@gmail.com>
+   * refactor(behavior_velocity_planner_common): add behavior_velocity_rtc_interface and move RTC-related implementation (#9799 <https://github.com/autowarefoundation/autoware.universe/issues/9799>)
+     * split into planer_common and rtc_interface
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_planner_common/include/autoware/behavior_velocity_planner_common/scene_module_interface.hpp
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_rtc_interface/include/autoware/behavior_velocity_rtc_interface/scene_module_interface_with_rtc.hpp
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+     * fix
+     ---------
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+   * Contributors: Fumiya Watanabe, Mamoru Sobue, Satoshi OTA, Takayuki Murooka
+Checksums-Sha1:
+ eda9e61e2218d510b14af8eec828f7a4ec299a1c 2685290 ros-humble-autoware-behavior-velocity-template-module-dbgsym_0-2025.04.16.22.17_amd64.ddeb
+ 9bac69d99d5c459393937e2df4c6adb4ac22325a 44849 ros-humble-autoware-behavior-velocity-template-module_0-2025.04.16.22.17_amd64.buildinfo
+ 97790ab9c232f56b28c18209b867ee8897614aff 24162 ros-humble-autoware-behavior-velocity-template-module_0-2025.04.16.22.17_amd64.deb
+Checksums-Sha256:
+ 0b8f3bcbc06d9eaade0ab6068b8d76667a8d3bede3891e0ede51a06cb2a9b303 2685290 ros-humble-autoware-behavior-velocity-template-module-dbgsym_0-2025.04.16.22.17_amd64.ddeb
+ a0aad5ba0fef99523130e976ad363f5d8f4ed85595db6e8f938db3d4d1309a1d 44849 ros-humble-autoware-behavior-velocity-template-module_0-2025.04.16.22.17_amd64.buildinfo
+ 6682ebe088d1de093046f428bd71e52e3d8981883976aab292dbb000059e0c3a 24162 ros-humble-autoware-behavior-velocity-template-module_0-2025.04.16.22.17_amd64.deb
+Files:
+ 3786d58b01bff4b4c7934e1e301bdc8a 2685290 debug optional ros-humble-autoware-behavior-velocity-template-module-dbgsym_0-2025.04.16.22.17_amd64.ddeb
+ 4511102d9b6d0a901483099e4ea01013 44849 misc optional ros-humble-autoware-behavior-velocity-template-module_0-2025.04.16.22.17_amd64.buildinfo
+ 54d0f61851cd0264416b7d5638bc5cee 24162 misc optional ros-humble-autoware-behavior-velocity-template-module_0-2025.04.16.22.17_amd64.deb

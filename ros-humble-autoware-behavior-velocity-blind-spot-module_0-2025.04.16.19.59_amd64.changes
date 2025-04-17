@@ -1,0 +1,78 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-blind-spot-module
+Binary: ros-humble-autoware-behavior-velocity-blind-spot-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.19.59
+Distribution: jammy
+Urgency: high
+Maintainer: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Changed-By: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-blind-spot-module - The autoware_behavior_velocity_blind_spot_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-blind-spot-module (0-2025.04.16.19.59) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * chore(planning): move package directory for planning factor interface (#9948 <https://github.com/autowarefoundation/autoware.universe/issues/9948>)
+     * chore: add new package for planning factor interface
+     * chore(surround_obstacle_checker): update include file
+     * chore(obstacle_stop_planner): update include file
+     * chore(obstacle_cruise_planner): update include file
+     * chore(motion_velocity_planner): update include file
+     * chore(bpp): update include file
+     * chore(bvp-common): update include file
+     * chore(blind_spot): update include file
+     * chore(crosswalk): update include file
+     * chore(detection_area): update include file
+     * chore(intersection): update include file
+     * chore(no_drivable_area): update include file
+     * chore(no_stopping_area): update include file
+     * chore(occlusion_spot): update include file
+     * chore(run_out): update include file
+     * chore(speed_bump): update include file
+     * chore(stop_line): update include file
+     * chore(template_module): update include file
+     * chore(traffic_light): update include file
+     * chore(vtl): update include file
+     * chore(walkway): update include file
+     * chore(motion_utils): remove factor interface
+     ---------
+   * feat(planning_factor)!: remove velocity_factor, steering_factor and introduce planning_factor (#9927 <https://github.com/autowarefoundation/autoware.universe/issues/9927>)
+     Co-authored-by: Satoshi OTA <mailto:44889564+satoshi-ota@users.noreply.github.com>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: satoshi-ota <mailto:satoshi.ota928@gmail.com>
+   * test(blind_spot): add unit tests for util functions (#9597 <https://github.com/autowarefoundation/autoware.universe/issues/9597>)
+   * feat(behavior_velocity_modules): add node test (#9790 <https://github.com/autowarefoundation/autoware.universe/issues/9790>)
+     * feat(behavior_velocity_crosswalk): add node test
+     * fix
+     * feat(behavior_velocity_xxx_module): add node test
+     * fix
+     * fix
+     * fix
+     * fix
+     * change directory tests -> test
+     ---------
+   * refactor(behavior_velocity_planner_common): add behavior_velocity_rtc_interface and move RTC-related implementation (#9799 <https://github.com/autowarefoundation/autoware.universe/issues/9799>)
+     * split into planer_common and rtc_interface
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_planner_common/include/autoware/behavior_velocity_planner_common/scene_module_interface.hpp
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_rtc_interface/include/autoware/behavior_velocity_rtc_interface/scene_module_interface_with_rtc.hpp
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+     * fix
+     ---------
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+   * Contributors: Fumiya Watanabe, Mamoru Sobue, Satoshi OTA, Takayuki Murooka
+Checksums-Sha1:
+ b95d6c63e23f584bf13874bca6040201225eeaae 5327410 ros-humble-autoware-behavior-velocity-blind-spot-module-dbgsym_0-2025.04.16.19.59_amd64.ddeb
+ 72337fcc62de366b303149107d45fd3c7a60d6f0 45133 ros-humble-autoware-behavior-velocity-blind-spot-module_0-2025.04.16.19.59_amd64.buildinfo
+ b9a1f76b3c035e5033244451b1a01196ab67e56d 110816 ros-humble-autoware-behavior-velocity-blind-spot-module_0-2025.04.16.19.59_amd64.deb
+Checksums-Sha256:
+ 784e01715491cd39e2de351c27081f1521a1219d957f75aa6d95c61380d24f15 5327410 ros-humble-autoware-behavior-velocity-blind-spot-module-dbgsym_0-2025.04.16.19.59_amd64.ddeb
+ 323453645b589d97264086e454966327d240a5b35c7d0c3a3eca9191c2549486 45133 ros-humble-autoware-behavior-velocity-blind-spot-module_0-2025.04.16.19.59_amd64.buildinfo
+ c4732db48d3fd4058d53a8e61a0d447827adf7ca21cc2b90f4f4f9cc6874551e 110816 ros-humble-autoware-behavior-velocity-blind-spot-module_0-2025.04.16.19.59_amd64.deb
+Files:
+ 2902eecc74a604189ecf76292d7d896e 5327410 debug optional ros-humble-autoware-behavior-velocity-blind-spot-module-dbgsym_0-2025.04.16.19.59_amd64.ddeb
+ 607e7e29eff4eb3ecf54711c1f60c886 45133 misc optional ros-humble-autoware-behavior-velocity-blind-spot-module_0-2025.04.16.19.59_amd64.buildinfo
+ ecbac7f8cb63e7414b99563b6bc97d56 110816 misc optional ros-humble-autoware-behavior-velocity-blind-spot-module_0-2025.04.16.19.59_amd64.deb

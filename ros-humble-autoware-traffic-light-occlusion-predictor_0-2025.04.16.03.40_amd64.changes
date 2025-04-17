@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-traffic-light-occlusion-predictor
+Binary: ros-humble-autoware-traffic-light-occlusion-predictor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.03.40
+Distribution: jammy
+Urgency: high
+Maintainer: Tao Zhong <tao.zhong@tier4.jp>
+Changed-By: Tao Zhong <tao.zhong@tier4.jp>
+Description:
+ ros-humble-autoware-traffic-light-occlusion-predictor - The autoware_traffic_light_occlusion_predictor package
+Changes:
+ ros-humble-autoware-traffic-light-occlusion-predictor (0-2025.04.16.03.40) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * chore(autoware_traffic_light_occlusion_predictor): modify docs (#9820 <https://github.com/autowarefoundation/autoware.universe/issues/9820>)
+     * fix docs
+     * fix docs
+     ---------
+   * Contributors: Fumiya Watanabe, Masato Saeki
+Checksums-Sha1:
+ f922332c19177ea1fd49ac06ffb5eff6dc7eb860 8726660 ros-humble-autoware-traffic-light-occlusion-predictor-dbgsym_0-2025.04.16.03.40_amd64.ddeb
+ 396e885b1c4957f42c631b324cce441203eb21ef 45813 ros-humble-autoware-traffic-light-occlusion-predictor_0-2025.04.16.03.40_amd64.buildinfo
+ 7fe15d066268ba87ec89a0f5f638d9bc8cf03e76 236000 ros-humble-autoware-traffic-light-occlusion-predictor_0-2025.04.16.03.40_amd64.deb
+Checksums-Sha256:
+ f98e1cf570ac851cee565bedc7883098a2403ef60c5b4ce67c45088f16f7f813 8726660 ros-humble-autoware-traffic-light-occlusion-predictor-dbgsym_0-2025.04.16.03.40_amd64.ddeb
+ 984d5708ef1c10fb3785476effc44f5d8fd6b56b8964556788f3dbaab37732ab 45813 ros-humble-autoware-traffic-light-occlusion-predictor_0-2025.04.16.03.40_amd64.buildinfo
+ f9aaabd8ffe4e1fcc2a8dd432c73dd4944286e61383e366ffd8b820b672417ab 236000 ros-humble-autoware-traffic-light-occlusion-predictor_0-2025.04.16.03.40_amd64.deb
+Files:
+ fdfcaebfbb33f4aae26911f68ed00c45 8726660 debug optional ros-humble-autoware-traffic-light-occlusion-predictor-dbgsym_0-2025.04.16.03.40_amd64.ddeb
+ ed13bbdedbffc545ca5ba6f93c943edb 45813 misc optional ros-humble-autoware-traffic-light-occlusion-predictor_0-2025.04.16.03.40_amd64.buildinfo
+ a2ce3941a5a0bffedad388249e7b1138 236000 misc optional ros-humble-autoware-traffic-light-occlusion-predictor_0-2025.04.16.03.40_amd64.deb

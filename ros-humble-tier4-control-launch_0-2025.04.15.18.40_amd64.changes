@@ -1,0 +1,47 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-tier4-control-launch
+Binary: ros-humble-tier4-control-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.18.40
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-tier4-control-launch - The tier4_control_launch package
+Changes:
+ ros-humble-tier4-control-launch (0-2025.04.15.18.40) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware_ prefix for predicted_path_checker (#9985 <https://github.com/autowarefoundation/autoware.universe/issues/9985>)
+     * feat(predicted_path_checker): apply autoware_ prefix (see below):
+     Note:
+     * In this commit, I did not organize a folder structure.
+     The folder structure will be organized in the next some commits.
+     * The changes will follow the Autoware's guideline as below:
+     - https://autowarefoundation.github.io/autoware-documentation/main/contributing/coding-guidelines/ros-nodes/directory-structure/#package-folder
+     * rename(predicted_path_checker): move headers under include/autoware
+     * Fixes due to this changes for .hpp/.cpp files will be applied in the next commit
+     * fix(predicted_path_checker): fix include header paths
+     * To follow the previous commit
+     * rename: predicted_path_checker => autoware_predicted_path_checker
+     * style(pre-commit): autofix
+     * bug(autoware_predicted_path_checker): fix inconsistent namespacings
+     * bug(autoware_predicted_path_checker): do not change node name
+     * This might contaminate topic name
+     * style(pre-commit): autofix
+     * bug(tier4_control_launch): fix wrong package/plugin names
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Fumiya Watanabe, Junya Sasaki
+Checksums-Sha1:
+ 21d25403260a98ec1db3186164454a96394f7e0b 10693 ros-humble-tier4-control-launch_0-2025.04.15.18.40_amd64.buildinfo
+ 675a7cf679654f7bc901e4df6ef071efc11b1f44 16774 ros-humble-tier4-control-launch_0-2025.04.15.18.40_amd64.deb
+Checksums-Sha256:
+ 0fbf4ac2bbe21e0da67eaa83d1863d62a0715e04be6fc49b75b7136acec90c49 10693 ros-humble-tier4-control-launch_0-2025.04.15.18.40_amd64.buildinfo
+ 582c320fd3b838776c389ebd1ebbc75ca8a50aae3a55959920d3b1b7ae9162be 16774 ros-humble-tier4-control-launch_0-2025.04.15.18.40_amd64.deb
+Files:
+ 848cd885e0115fe8b29597d89f4975eb 10693 misc optional ros-humble-tier4-control-launch_0-2025.04.15.18.40_amd64.buildinfo
+ f024c2fc0aa45c0c4ca0fc79e306f344 16774 misc optional ros-humble-tier4-control-launch_0-2025.04.15.18.40_amd64.deb

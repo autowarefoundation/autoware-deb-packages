@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Fri, 07 Feb 2025 00:00:00 -0000
+Source: ros-humble-autoware-localization-util
+Binary: ros-humble-autoware-localization-util
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.0-23-gd3f360f-2025.04.15.13.55
+Distribution: jammy
+Urgency: high
+Maintainer: Xingang Liu <lxg19892021@gmail.com>
+Changed-By: Xingang Liu <lxg19892021@gmail.com>
+Description:
+ ros-humble-autoware-localization-util - The autoware_localization_util package
+Changes:
+ ros-humble-autoware-localization-util (0.2.0-23-gd3f360f-2025.04.15.13.55) jammy; urgency=high
+ .
+   * unify version to 0.1.0
+   * update changelog
+   * feat: migrate autoware_localization_util from universe to core (#150 <https://github.com/autowarefoundation/autoware.core/issues/150>)
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: SakodaShintaro <mailto:shintaro.sakoda@tier4.jp>
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * Contributors: Yutaka Kondo, 心刚
+   * feat: migrate autoware_localization_util from universe to core (#150 <https://github.com/autowarefoundation/autoware.core/issues/150>)
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: SakodaShintaro <mailto:shintaro.sakoda@tier4.jp>
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * Contributors: 心刚
+Checksums-Sha1:
+ 2b61cab606ea96aaf62a73aee4b1ec4dd2d9eb68 3078734 ros-humble-autoware-localization-util-dbgsym_0.2.0-23-gd3f360f-2025.04.15.13.55_amd64.ddeb
+ cb8ac428f3a53e639f90dc7a9c338768f0dbc811 16796 ros-humble-autoware-localization-util_0.2.0-23-gd3f360f-2025.04.15.13.55_amd64.buildinfo
+ 5f9900d26f646b2e78be5802de4b88c10ec3df77 45332 ros-humble-autoware-localization-util_0.2.0-23-gd3f360f-2025.04.15.13.55_amd64.deb
+Checksums-Sha256:
+ ab8ad9746fbc08052a30cec92f0bc1abc7b36fef11852b74df4cc4e6e2f84e81 3078734 ros-humble-autoware-localization-util-dbgsym_0.2.0-23-gd3f360f-2025.04.15.13.55_amd64.ddeb
+ a26c1530d2d1829e18d5cc6543936111b3e77aacecb47755b77fa7398b3b7e34 16796 ros-humble-autoware-localization-util_0.2.0-23-gd3f360f-2025.04.15.13.55_amd64.buildinfo
+ 5846b054939e14c0170e2e9ef08314ca8a05972bf0517bc874d54d4032b7afb4 45332 ros-humble-autoware-localization-util_0.2.0-23-gd3f360f-2025.04.15.13.55_amd64.deb
+Files:
+ 1fa435229560e191fe1389c50b236f00 3078734 debug optional ros-humble-autoware-localization-util-dbgsym_0.2.0-23-gd3f360f-2025.04.15.13.55_amd64.ddeb
+ 6bac6566f0f81fa77dcef58d06b7917c 16796 misc optional ros-humble-autoware-localization-util_0.2.0-23-gd3f360f-2025.04.15.13.55_amd64.buildinfo
+ 15a3214ba8bda0edf03fff0b21c9de26 45332 misc optional ros-humble-autoware-localization-util_0.2.0-23-gd3f360f-2025.04.15.13.55_amd64.deb

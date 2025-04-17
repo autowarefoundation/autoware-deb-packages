@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 02 May 2024 00:00:00 -0000
+Source: ros-humble-autoware-lint-common
+Binary: ros-humble-autoware-lint-common
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-2025.04.15.13.20
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-autoware-lint-common - The list of commonly used linters in Autoware
+Changes:
+ ros-humble-autoware-lint-common (1.0.0-2025.04.15.13.20) jammy; urgency=high
+ .
+   * Merge pull request #1 <https://github.com/youtalk/autoware_cmake/issues/1> from youtalk/import-from-autoware-common
+     feat: import from autoware_common
+   * Merge branch 'autoware-lint-common' into import-from-autoware-common
+   * move to autoware_lint_common
+   * Contributors: Yutaka Kondo
+Checksums-Sha1:
+ 7257ae2bbafedb81b2ac90f22a068e479e6a4437 8403 ros-humble-autoware-lint-common_1.0.0-2025.04.15.13.20_amd64.buildinfo
+ ff1eb845b57b818a7c0dfd748f73062f1ad51a3c 5908 ros-humble-autoware-lint-common_1.0.0-2025.04.15.13.20_amd64.deb
+Checksums-Sha256:
+ 19b471f4d3ac44d01740be4048324420ab42941baa9cfd0dac2b866d4b466f13 8403 ros-humble-autoware-lint-common_1.0.0-2025.04.15.13.20_amd64.buildinfo
+ ec9aaa4fd19da052e946ed6c5d6017a61209756483ae6c85fd09fef4c0ff9ce7 5908 ros-humble-autoware-lint-common_1.0.0-2025.04.15.13.20_amd64.deb
+Files:
+ 3b4c367c5bb147cbadd51ff2af6cb95e 8403 misc optional ros-humble-autoware-lint-common_1.0.0-2025.04.15.13.20_amd64.buildinfo
+ 0bc3c7d8ccd56d61876e512aaa7c49a4 5908 misc optional ros-humble-autoware-lint-common_1.0.0-2025.04.15.13.20_amd64.deb

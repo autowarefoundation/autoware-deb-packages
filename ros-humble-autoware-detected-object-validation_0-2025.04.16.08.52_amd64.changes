@@ -1,0 +1,47 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-detected-object-validation
+Binary: ros-humble-autoware-detected-object-validation
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.08.52
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-detected-object-validation - The ROS 2 detected_object_validation package
+Changes:
+ ros-humble-autoware-detected-object-validation (0-2025.04.16.08.52) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_detected_object_validation): add height filter in lanelet filtering (#10003 <https://github.com/autowarefoundation/autoware.universe/issues/10003>)
+     * feat: add height filter param
+     * feat: use ego base height
+     * fix: build error
+     * feat: add lanelet filter test
+     * feat: add height filter test
+     * docs: update README and lanelet filter
+     * fix: do not getTransform when flag is off
+     ---------
+   * feat(autoware_detected_object_validation): tier4_debug_msgs changed to autoware_internal_debug_msgs in fil… (#9871 <https://github.com/autowarefoundation/autoware.universe/issues/9871>)
+     feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files perception/autoware_detected_object_validation
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+   * feat(autoware_detected_object_validation): set validate distance in the obstacle pointcloud based validator  (#9663 <https://github.com/autowarefoundation/autoware.universe/issues/9663>)
+     * chore: add validate_max_distance_m parameter for obstacle_pointcloud_based_validator
+     * chore: optimize object distance validation in obstacle_pointcloud_validator
+     * chore: add validate_max_distance_m parameter for obstacle_pointcloud_based_validator
+     ---------
+   * Contributors: Fumiya Watanabe, Taekjin LEE, Vishal Chauhan, Yoshi Ri
+Checksums-Sha1:
+ 6d1f5b478052269f77751274ddc74cecd0cc1a00 22779388 ros-humble-autoware-detected-object-validation-dbgsym_0-2025.04.16.08.52_amd64.ddeb
+ 4e1f642bd440155b4f1cfa2608a29ca58a1e0813 47653 ros-humble-autoware-detected-object-validation_0-2025.04.16.08.52_amd64.buildinfo
+ 41bbaf6f3e57100f7460befedeef65b62cbd5bc5 674278 ros-humble-autoware-detected-object-validation_0-2025.04.16.08.52_amd64.deb
+Checksums-Sha256:
+ ea3273520cdde229167271d502ae150ba48743b11e92626eac52f68fc7e14128 22779388 ros-humble-autoware-detected-object-validation-dbgsym_0-2025.04.16.08.52_amd64.ddeb
+ 12b004f4ebcae58532df54e1257bb8c4932279b3b30927e495c5fe3e88467319 47653 ros-humble-autoware-detected-object-validation_0-2025.04.16.08.52_amd64.buildinfo
+ c3f354bcb74223441937c65f55592d32de2e5e8d544b4460361b478ce3c16d08 674278 ros-humble-autoware-detected-object-validation_0-2025.04.16.08.52_amd64.deb
+Files:
+ c5cb7f10ba8dd2d75d75b3b0b9d52375 22779388 debug optional ros-humble-autoware-detected-object-validation-dbgsym_0-2025.04.16.08.52_amd64.ddeb
+ 9c4f933d0ca0444b158ada9b652a711e 47653 misc optional ros-humble-autoware-detected-object-validation_0-2025.04.16.08.52_amd64.buildinfo
+ 315ac2479086fe2dc37a89372be7f27d 674278 misc optional ros-humble-autoware-detected-object-validation_0-2025.04.16.08.52_amd64.deb

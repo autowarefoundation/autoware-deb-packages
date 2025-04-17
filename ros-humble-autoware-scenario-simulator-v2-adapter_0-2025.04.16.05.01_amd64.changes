@@ -1,0 +1,45 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-scenario-simulator-v2-adapter
+Binary: ros-humble-autoware-scenario-simulator-v2-adapter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.05.01
+Distribution: jammy
+Urgency: high
+Maintainer: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Changed-By: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Description:
+ ros-humble-autoware-scenario-simulator-v2-adapter - Node for converting autoware's messages into UserDefinedValue mes
+Changes:
+ ros-humble-autoware-scenario-simulator-v2-adapter (0-2025.04.16.05.01) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware_ prefix for scenario_simulator_v2_adapter (#9957 <https://github.com/autowarefoundation/autoware.universe/issues/9957>)
+     * feat(autoware_scenario_simulator_v2_adapter): apply autoware_ prefix (see below):
+     * In this commit, I did not organize a folder structure.
+     The folder structure will be organized in the next some commits.
+     * The changes will follow the Autoware's guideline as below:
+     - https://autowarefoundation.github.io/autoware-documentation/main/contributing/coding-guidelines/ros-nodes/directory-structure/#package-folder
+     * rename(scenario_simulator_v2_adapter): move headers under include/autoware:
+     * Fixes due to this changes for .hpp/.cpp files will be applied in the next commit
+     * fix(scenario_simulator_v2_adapter): fix include paths
+     * To follow the previous commit
+     * rename: scenario_simulator_v2_adapter => autoware_scenario_simulator_v2_adapter
+     * bug(autoware_scenario_simulator_v2_adapter): revert wrongly updated copyrights
+     * bug(autoware_scenario_simulator_v2_adapter): autoware_ prefix is not needed here
+     * bug(autoware_scenario_simulator_v2_adapter): wrong package name in launch side
+     ---------
+   * Contributors: Fumiya Watanabe, Junya Sasaki
+Checksums-Sha1:
+ c3f5847668506e0862a2a9aa08770445040fe47a 3002932 ros-humble-autoware-scenario-simulator-v2-adapter-dbgsym_0-2025.04.16.05.01_amd64.ddeb
+ 204ffe115c74be7269d79474431f0128a2f947b4 16358 ros-humble-autoware-scenario-simulator-v2-adapter_0-2025.04.16.05.01_amd64.buildinfo
+ 8e0a2364ddf6216c49afb24a503065197a3580d3 169096 ros-humble-autoware-scenario-simulator-v2-adapter_0-2025.04.16.05.01_amd64.deb
+Checksums-Sha256:
+ d6496721081a4f18e4d407dd14e1fedb866133038ebdcf77dd0b137885e05369 3002932 ros-humble-autoware-scenario-simulator-v2-adapter-dbgsym_0-2025.04.16.05.01_amd64.ddeb
+ 00044f839a0176204c9d059fa57531d3f312f34691ece8819aa1784cad3f9e74 16358 ros-humble-autoware-scenario-simulator-v2-adapter_0-2025.04.16.05.01_amd64.buildinfo
+ 9d60255319b068ef744d3eaef435495ef5c80b57cfcd581557bc72cd00725ad5 169096 ros-humble-autoware-scenario-simulator-v2-adapter_0-2025.04.16.05.01_amd64.deb
+Files:
+ 4317ed1b961f151843cb56dd44b27e7a 3002932 debug optional ros-humble-autoware-scenario-simulator-v2-adapter-dbgsym_0-2025.04.16.05.01_amd64.ddeb
+ 100fb4071443573038078a859ae4f36b 16358 misc optional ros-humble-autoware-scenario-simulator-v2-adapter_0-2025.04.16.05.01_amd64.buildinfo
+ a5e2e86eb6fe5656004f6adef6ca90e0 169096 misc optional ros-humble-autoware-scenario-simulator-v2-adapter_0-2025.04.16.05.01_amd64.deb

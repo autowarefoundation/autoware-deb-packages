@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-image-diagnostics
+Binary: ros-humble-autoware-image-diagnostics
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.20.56
+Distribution: jammy
+Urgency: high
+Maintainer: Dai Nguyen <dai.nguyen@tier4.jp>
+Changed-By: Dai Nguyen <dai.nguyen@tier4.jp>
+Description:
+ ros-humble-autoware-image-diagnostics - The autoware_image_diagnostics package
+Changes:
+ ros-humble-autoware-image-diagnostics (0-2025.04.15.20.56) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_image_diagnostics): tier4_debug_msgs changed to autoware_internal_debug_msgs in autoware_image_diagnostics (#9918 <https://github.com/autowarefoundation/autoware.universe/issues/9918>)
+     feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files sensing/autoware_image_diagnostics
+   * fix(autoware_image_diagnostics): fix bugprone-branch-clone (#9723 <https://github.com/autowarefoundation/autoware.universe/issues/9723>)
+     fix: bugprone-error
+   * Contributors: Fumiya Watanabe, Vishal Chauhan, kobayu858
+Checksums-Sha1:
+ 84483933578745a9b053660404bb531decb26ee8 2813306 ros-humble-autoware-image-diagnostics-dbgsym_0-2025.04.15.20.56_amd64.ddeb
+ 598743e384c8b8475ef0e4b5bf1a8a31a1e0a716 44510 ros-humble-autoware-image-diagnostics_0-2025.04.15.20.56_amd64.buildinfo
+ 3c3dae7c45a0bbcdc1b9b40ce1a4c6078d35e36a 145882 ros-humble-autoware-image-diagnostics_0-2025.04.15.20.56_amd64.deb
+Checksums-Sha256:
+ afc381a80c9a0c2b72364ed2ffb916d4958ca16db2474ef9a99187c01d2a1759 2813306 ros-humble-autoware-image-diagnostics-dbgsym_0-2025.04.15.20.56_amd64.ddeb
+ 39be97d489e8ea6a76035b7c7de231572625d682e498c2b63da9c36d80340f81 44510 ros-humble-autoware-image-diagnostics_0-2025.04.15.20.56_amd64.buildinfo
+ 1e01b93972b9521608aa8b751013d0f5352e1dfd24c299e3c8db4420de514ea2 145882 ros-humble-autoware-image-diagnostics_0-2025.04.15.20.56_amd64.deb
+Files:
+ 1abb766b14d7c53564a4d1c4356051b3 2813306 debug optional ros-humble-autoware-image-diagnostics-dbgsym_0-2025.04.15.20.56_amd64.ddeb
+ e4f4560b2e40e1b972d3b387cf7b937e 44510 misc optional ros-humble-autoware-image-diagnostics_0-2025.04.15.20.56_amd64.buildinfo
+ de3779772426af6336f59c751e7d23e3 145882 misc optional ros-humble-autoware-image-diagnostics_0-2025.04.15.20.56_amd64.deb

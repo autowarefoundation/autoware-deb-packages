@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-euclidean-cluster
+Binary: ros-humble-autoware-euclidean-cluster
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.20.23
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-euclidean-cluster - The autoware_euclidean_cluster package
+Changes:
+ ros-humble-autoware-euclidean-cluster (0-2025.04.15.20.23) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_euclidean_cluster)!: tier4_debug_msgs changed to autoware_internal_debug_msgs in autoware_euclidean_cluster (#9873 <https://github.com/autowarefoundation/autoware.universe/issues/9873>)
+     feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files perception/autoware_euclidean_cluster
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+   * Contributors: Fumiya Watanabe, Vishal Chauhan
+Checksums-Sha1:
+ 389031adfcc32c1b67e59f7b7014fd99b0535d1b 7579918 ros-humble-autoware-euclidean-cluster-dbgsym_0-2025.04.15.20.23_amd64.ddeb
+ 3594fa672a4577adfa3137ed747aaab8d4793af6 40706 ros-humble-autoware-euclidean-cluster_0-2025.04.15.20.23_amd64.buildinfo
+ c55f6cbdf5a6173574ce6f6fa2d0dd4e8dea8ea0 232816 ros-humble-autoware-euclidean-cluster_0-2025.04.15.20.23_amd64.deb
+Checksums-Sha256:
+ 3653ba157a662a75c1b48080c4cf49fe314e28e08227c40b7f42027ba1a2d167 7579918 ros-humble-autoware-euclidean-cluster-dbgsym_0-2025.04.15.20.23_amd64.ddeb
+ e697df2c75e3740677747d707fda221db3b46551a864534e041a6f894696c086 40706 ros-humble-autoware-euclidean-cluster_0-2025.04.15.20.23_amd64.buildinfo
+ fe42d4ec27095c471d0e5dbbc58dd9909d2b044e75a850539001e155b1ab9e01 232816 ros-humble-autoware-euclidean-cluster_0-2025.04.15.20.23_amd64.deb
+Files:
+ 4c6e1c3031afb3e4c3c5b620cc918708 7579918 debug optional ros-humble-autoware-euclidean-cluster-dbgsym_0-2025.04.15.20.23_amd64.ddeb
+ 6ce3259bdbd74a4f1a101e0b33e6b5b3 40706 misc optional ros-humble-autoware-euclidean-cluster_0-2025.04.15.20.23_amd64.buildinfo
+ 80a32d69362a496c33d4d5bf55667ecd 232816 misc optional ros-humble-autoware-euclidean-cluster_0-2025.04.15.20.23_amd64.deb

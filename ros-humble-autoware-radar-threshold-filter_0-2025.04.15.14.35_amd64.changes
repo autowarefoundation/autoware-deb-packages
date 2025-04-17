@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-radar-threshold-filter
+Binary: ros-humble-autoware-radar-threshold-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.14.35
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Tanaka <satoshi.tanaka@tier4.jp>
+Changed-By: Satoshi Tanaka <satoshi.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-radar-threshold-filter - autoware_radar_threshold_filter
+Changes:
+ ros-humble-autoware-radar-threshold-filter (0-2025.04.15.14.35) jammy; urgency=high
+Checksums-Sha1:
+ d6b904f7964d4bf11efd0bbdb2c93d0c6b141dfa 2370516 ros-humble-autoware-radar-threshold-filter-dbgsym_0-2025.04.15.14.35_amd64.ddeb
+ c7ab6b63bf521c796a0c5cf1f7a3ad739faff19b 17301 ros-humble-autoware-radar-threshold-filter_0-2025.04.15.14.35_amd64.buildinfo
+ 75dc7a72539fb918576723665ee36f57deb9ad30 123462 ros-humble-autoware-radar-threshold-filter_0-2025.04.15.14.35_amd64.deb
+Checksums-Sha256:
+ 75a34b930144ef2aea8bce051679ad91f3a1384b4fe122b9a8cf9e7af8370835 2370516 ros-humble-autoware-radar-threshold-filter-dbgsym_0-2025.04.15.14.35_amd64.ddeb
+ a0e078794f6713514528e224299efbbfaa6622b9558dced9c461e0d1a1efc2ca 17301 ros-humble-autoware-radar-threshold-filter_0-2025.04.15.14.35_amd64.buildinfo
+ f14f97c7ccc16669ab08d7ac463e4cdcdf1a52e59560062d684830b246a66763 123462 ros-humble-autoware-radar-threshold-filter_0-2025.04.15.14.35_amd64.deb
+Files:
+ 891d39d833b3dffac072b8559e1735a1 2370516 debug optional ros-humble-autoware-radar-threshold-filter-dbgsym_0-2025.04.15.14.35_amd64.ddeb
+ 39f351b339f923bec3e04fd1679e08f9 17301 misc optional ros-humble-autoware-radar-threshold-filter_0-2025.04.15.14.35_amd64.buildinfo
+ 39be030800c8809432639e0967f6d43a 123462 misc optional ros-humble-autoware-radar-threshold-filter_0-2025.04.15.14.35_amd64.deb

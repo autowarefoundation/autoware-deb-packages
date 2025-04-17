@@ -1,0 +1,80 @@
+Format: 1.8
+Date: Mon, 10 Feb 2025 00:00:00 -0000
+Source: ros-humble-awapi-awiv-adapter
+Binary: ros-humble-awapi-awiv-adapter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.41.0-2025.04.17.02.51
+Distribution: jammy
+Urgency: high
+Maintainer: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Changed-By: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Description:
+ ros-humble-awapi-awiv-adapter - The awapi_awiv_adapter package
+Changes:
+ ros-humble-awapi-awiv-adapter (0.41.0-2025.04.17.02.51) jammy; urgency=high
+ .
+   * feat(awapi): add velocity factor converter (#129 <https://github.com/tier4/tier4_ad_api_adaptor/issues/129>)
+     * feat(awapi): add velocity factor converter
+     * fix: use velocity factor converter
+     * fix: remove unused subscriber
+     ---------
+   * feat: set timestamp to max_velocity topic (#125 <https://github.com/tier4/tier4_ad_api_adaptor/issues/125>)
+     * set timestamp to max_velocity topic
+     * fix constructor order
+     ---------
+   * feat: remove autoware_auto messages (#124 <https://github.com/tier4/tier4_ad_api_adaptor/issues/124>)
+   * fix: fix smoother namespace (#118 <https://github.com/tier4/tier4_ad_api_adaptor/issues/118>)
+   * feat!: change from autoware_auto_msgs to autoware_msgs (#115 <https://github.com/tier4/tier4_ad_api_adaptor/issues/115>)
+     * fix:autoware_planning_msgs
+     * feat(tier4_ad_api_adaptor): replace autoware_control_msg with autoware_control_msg
+     * feat(tier4_ad_api_adaptor): replace autoware_auto_system_msg with autoware_system_msg
+     * feat(tier4_ad_api_adaptor): replace autoware_auto_msgs with autoware_msgs
+     * feat: replace DetectedObjects and TrackedObjects messages to autoware_perception_msgs
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: jack.song <jack.song@autocore.ai>
+     Co-authored-by: NorahXiong <norah.xiong@autocore.ai>
+     Co-authored-by: liu cui <cynthia.liu@autocore.ai>
+     Co-authored-by: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * build: use <buildtool_depend> for autoware_cmake (#103 <https://github.com/tier4/tier4_ad_api_adaptor/issues/103>)
+     * build: use <buildtool_depend> for autoware_cmake
+     * style(pre-commit): autofix
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: Kenji Miyake <mailto:31987104+kenji-miyake@users.noreply.github.com>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * fix(stop_reason_aggregator): fix threshold for closest index (#99 <https://github.com/tier4/tier4_ad_api_adaptor/issues/99>)
+   * fix: rename use_external_emergency_stop to check_external_emergency_heartbeat (#84 <https://github.com/tier4/tier4_ad_api_adaptor/issues/84>)
+   * feat: apply mrm state to awapi (#82 <https://github.com/tier4/tier4_ad_api_adaptor/issues/82>)
+     * feat: apply mrm state
+     * feat: rename emergency state to mrm state
+   * refactor!: remove tier4 control mode msg (#60 <https://github.com/tier4/tier4_ad_api_adaptor/issues/60>)
+     * remove t4-auto message converter for ControlMode
+     * fix: keep the interface
+     Co-authored-by: Takamasa Horibe <mailto:horibe.takamasa@gmail.com>
+   * chore: use autoware_cmake (#71 <https://github.com/tier4/tier4_ad_api_adaptor/issues/71>)
+   * feat(rtc_controller): add_finish_distance (#64 <https://github.com/tier4/tier4_ad_api_adaptor/issues/64>)
+   * change energy level default value for rclpy bug on humble (#48 <https://github.com/tier4/tier4_ad_api_adaptor/issues/48>)
+     fix default value
+   * feat: add external api adaptor for calibration status (#43 <https://github.com/tier4/tier4_ad_api_adaptor/issues/43>)
+     * (editting) save current work
+     * fix bug and run pre-commit
+     * pull the latest tier4/universe
+     * pull the latest tier4/univerese
+   * fix(awapi_awiv_adapter): change velocity limit publisher QoS(Volatile to TransientLocal) (#46 <https://github.com/tier4/tier4_ad_api_adaptor/issues/46>)
+   * chore: replace topic tools (#44 <https://github.com/tier4/tier4_ad_api_adaptor/issues/44>)
+   * Contributors: Autumn60, Daisuke Nishimatsu, Fumiya Watanabe, Hiroki OTA, Satoshi OTA, Shumpei Wakabayashi, Takagi, Isamu, TakumiKozaka-T4, Vincent Richard, Yukihiro Saito, yabuta
+Checksums-Sha1:
+ 1b03c801734eb0248b93415785e5922f7567f662 21998692 ros-humble-awapi-awiv-adapter-dbgsym_0.41.0-2025.04.17.02.51_amd64.ddeb
+ 5aa73aa195b9c134284461cadc8edf180fd4ca89 18257 ros-humble-awapi-awiv-adapter_0.41.0-2025.04.17.02.51_amd64.buildinfo
+ 28a309c05031a470d743fb60d9c79fdc54455e08 487532 ros-humble-awapi-awiv-adapter_0.41.0-2025.04.17.02.51_amd64.deb
+Checksums-Sha256:
+ 239408ceffad1b0aebfabf8b1fe407c5ee58cdbd50443e225e542a485ef9e2ff 21998692 ros-humble-awapi-awiv-adapter-dbgsym_0.41.0-2025.04.17.02.51_amd64.ddeb
+ af9e78ba44ce3ba1b8a10239b8d4e76e7c1058dcc663f87ade08cc4ddf71bc24 18257 ros-humble-awapi-awiv-adapter_0.41.0-2025.04.17.02.51_amd64.buildinfo
+ ffc6448899a27bb592d9e3e1c62701b16dcd1b080d749ecd8d8881f008d814a9 487532 ros-humble-awapi-awiv-adapter_0.41.0-2025.04.17.02.51_amd64.deb
+Files:
+ 3ac02d3f99f8fb1f8ea2d179ee32e5b6 21998692 debug optional ros-humble-awapi-awiv-adapter-dbgsym_0.41.0-2025.04.17.02.51_amd64.ddeb
+ 7affd3c7e79f6ec86a173bee7bc2e473 18257 misc optional ros-humble-awapi-awiv-adapter_0.41.0-2025.04.17.02.51_amd64.buildinfo
+ dab08f96ad653b6ebafcc200961e64b4 487532 misc optional ros-humble-awapi-awiv-adapter_0.41.0-2025.04.17.02.51_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-glog-component
+Binary: ros-humble-autoware-glog-component
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.16.50
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-glog-component - The autoware_glog_component package
+Changes:
+ ros-humble-autoware-glog-component (0-2025.04.15.16.50) jammy; urgency=high
+Checksums-Sha1:
+ ba74044aff5fb4afc9d62570842589baecc84845 520642 ros-humble-autoware-glog-component-dbgsym_0-2025.04.15.16.50_amd64.ddeb
+ 7b966a7bd7cc2913f1ea5cee8d40fece3ca18fbe 15048 ros-humble-autoware-glog-component_0-2025.04.15.16.50_amd64.buildinfo
+ cfb977689d3c54fcb9baeb6e4728675998b2a71b 29730 ros-humble-autoware-glog-component_0-2025.04.15.16.50_amd64.deb
+Checksums-Sha256:
+ 51fc4de8dc711d50df4fa6f9701a1ffbbe4be9da2dcc7b21e6d7f6f1e1b8d5a2 520642 ros-humble-autoware-glog-component-dbgsym_0-2025.04.15.16.50_amd64.ddeb
+ c71ed596d18307deaea64d8985c498488321d36d1b77e00f54cd8bd3fc73e5a1 15048 ros-humble-autoware-glog-component_0-2025.04.15.16.50_amd64.buildinfo
+ c4210945c5813100878742d0e4a5c03e132782b17d81625a63cc30216cff356f 29730 ros-humble-autoware-glog-component_0-2025.04.15.16.50_amd64.deb
+Files:
+ 69cf6767cd161a5309aa36f507ca7753 520642 debug optional ros-humble-autoware-glog-component-dbgsym_0-2025.04.15.16.50_amd64.ddeb
+ 7b81aa9d30f61caf7ffe8f175aedce40 15048 misc optional ros-humble-autoware-glog-component_0-2025.04.15.16.50_amd64.buildinfo
+ 2686568f94b773e4ca92eee8b53a7f92 29730 misc optional ros-humble-autoware-glog-component_0-2025.04.15.16.50_amd64.deb

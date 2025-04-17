@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-path-optimizer
+Binary: ros-humble-autoware-path-optimizer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.10.23
+Distribution: jammy
+Urgency: high
+Maintainer: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Changed-By: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Description:
+ ros-humble-autoware-path-optimizer - The autoware_path_optimizer package
+Changes:
+ ros-humble-autoware-path-optimizer (0-2025.04.16.10.23) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_path_optimizer)!: tier4_debug_msgs changed to autoware-internal_debug_msgs in autoware_path_optimizer (#9907 <https://github.com/autowarefoundation/autoware.universe/issues/9907>)
+     * feat: tier4_debug_msgs changed to autoware-internal_debug_msgs in files planning/autoware_path_optimizer
+     * Update planning/autoware_path_optimizer/package.xml
+     ---------
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+   * feat(motion_planning): use StringStamped in autoware_internal_debug_msgs (#9742 <https://github.com/autowarefoundation/autoware.universe/issues/9742>)
+     feat(motion planning): use StringStamped in autoware_internal_debug_msgs
+   * Contributors: Fumiya Watanabe, Takayuki Murooka, Vishal Chauhan
+Checksums-Sha1:
+ af18e6db56b0c07bf6eee685e0b8f69941e36500 7134516 ros-humble-autoware-path-optimizer-dbgsym_0-2025.04.16.10.23_amd64.ddeb
+ 184e3e8342d26996927645384222c55f68a14794 44976 ros-humble-autoware-path-optimizer_0-2025.04.16.10.23_amd64.buildinfo
+ c8fc7241bc31dae1e0d317d2b2eed58a51830ef0 312924 ros-humble-autoware-path-optimizer_0-2025.04.16.10.23_amd64.deb
+Checksums-Sha256:
+ 8af3f23ee39760e48ff914ccd4f9cf32aeeac53371ecaa098b9277ac3294e77e 7134516 ros-humble-autoware-path-optimizer-dbgsym_0-2025.04.16.10.23_amd64.ddeb
+ f67172fdc294140d704ae14a087ba2381081fb7548fba3e1ccae10c2cb1a5aa9 44976 ros-humble-autoware-path-optimizer_0-2025.04.16.10.23_amd64.buildinfo
+ 171d2f3068727aa1829c8265224ff431cec54ba349f61aedaf2ea47f63611236 312924 ros-humble-autoware-path-optimizer_0-2025.04.16.10.23_amd64.deb
+Files:
+ a5a92fee0b8f2333f110a168903bea4c 7134516 debug optional ros-humble-autoware-path-optimizer-dbgsym_0-2025.04.16.10.23_amd64.ddeb
+ 649237f82a45ad46455cee8ca5c3fb92 44976 misc optional ros-humble-autoware-path-optimizer_0-2025.04.16.10.23_amd64.buildinfo
+ 4814c517f6fdc6b14138751c0534c8e9 312924 misc optional ros-humble-autoware-path-optimizer_0-2025.04.16.10.23_amd64.deb

@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Mon, 10 Feb 2025 00:00:00 -0000
+Source: ros-humble-autoware-external-api-msgs
+Binary: ros-humble-autoware-external-api-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.41.0-2025.04.15.18.52
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-external-api-msgs - The autoware_external_api_msgs package
+Changes:
+ ros-humble-autoware-external-api-msgs (0.41.0-2025.04.15.18.52) jammy; urgency=high
+ .
+   * chore: use autoware_cmake (#71 <https://github.com/tier4/tier4_ad_api_adaptor/issues/71>)
+   * feat: add external api adaptor for calibration status (#43 <https://github.com/tier4/tier4_ad_api_adaptor/issues/43>)
+     * (editting) save current work
+     * fix bug and run pre-commit
+     * pull the latest tier4/universe
+     * pull the latest tier4/univerese
+   * Contributors: Takagi, Isamu, TakumiKozaka-T4
+Checksums-Sha1:
+ 2ded2e12aad8444b439b1cae2063ca8844f5c034 229570 ros-humble-autoware-external-api-msgs-dbgsym_0.41.0-2025.04.15.18.52_amd64.ddeb
+ 356f335bf13632a2d42d59404fd087c5cf8148b6 14104 ros-humble-autoware-external-api-msgs_0.41.0-2025.04.15.18.52_amd64.buildinfo
+ 219ea599ac8d3137d3b909264feed364f0614b51 53168 ros-humble-autoware-external-api-msgs_0.41.0-2025.04.15.18.52_amd64.deb
+Checksums-Sha256:
+ 21d670b068dad5895b9d47f4d5eea4bf59de8069905c3d0d99b4fdb2723629d6 229570 ros-humble-autoware-external-api-msgs-dbgsym_0.41.0-2025.04.15.18.52_amd64.ddeb
+ 2f84815c62127614abc22745e3ffea6c520be2a1ed5231a774464c31fd9f3634 14104 ros-humble-autoware-external-api-msgs_0.41.0-2025.04.15.18.52_amd64.buildinfo
+ 5e5d7c8810bcc2a121cdae6de67ef1183a3553ef3f917a006bf5eac2650d814b 53168 ros-humble-autoware-external-api-msgs_0.41.0-2025.04.15.18.52_amd64.deb
+Files:
+ 841d1b2880ab49e7d4cbfb625fdf65cb 229570 debug optional ros-humble-autoware-external-api-msgs-dbgsym_0.41.0-2025.04.15.18.52_amd64.ddeb
+ 7e2f119e42e8de329bfffa6cc8de9380 14104 misc optional ros-humble-autoware-external-api-msgs_0.41.0-2025.04.15.18.52_amd64.buildinfo
+ 5c00ff3cd106ef40d06d12e4d3900949 53168 misc optional ros-humble-autoware-external-api-msgs_0.41.0-2025.04.15.18.52_amd64.deb

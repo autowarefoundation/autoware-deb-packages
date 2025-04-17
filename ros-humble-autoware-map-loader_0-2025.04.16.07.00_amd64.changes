@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-map-loader
+Binary: ros-humble-autoware-map-loader
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.07.00
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-map-loader - The autoware_map_loader package
+Changes:
+ ros-humble-autoware-map-loader (0-2025.04.16.07.00) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_component_interface_specs_universe!): rename package (#9753 <https://github.com/autowarefoundation/autoware.universe/issues/9753>)
+   * Contributors: Fumiya Watanabe, Ryohsuke Mitsudome
+Checksums-Sha1:
+ 167a422ead7ba659b4ffbf89796492e679332357 8030876 ros-humble-autoware-map-loader-dbgsym_0-2025.04.16.07.00_amd64.ddeb
+ 356c00efcad5240f1d3ebda72e15c29c2d7f3269 42823 ros-humble-autoware-map-loader_0-2025.04.16.07.00_amd64.buildinfo
+ 6b8b974208224a68d02742280041f9e864a64779 243244 ros-humble-autoware-map-loader_0-2025.04.16.07.00_amd64.deb
+Checksums-Sha256:
+ 6544b6eb626e745a991cb3f20e529f8113c7511320fae7265e9525ebdef86291 8030876 ros-humble-autoware-map-loader-dbgsym_0-2025.04.16.07.00_amd64.ddeb
+ c2cdac8b926337acc4b5f35895d71dc85545b71a6d3b58437d15980ce9f56647 42823 ros-humble-autoware-map-loader_0-2025.04.16.07.00_amd64.buildinfo
+ 32c035c31767da7954858d920b86fb0c357fa2ba337230908b220be51115657b 243244 ros-humble-autoware-map-loader_0-2025.04.16.07.00_amd64.deb
+Files:
+ ef1eddc7d17bca81347fc7937d15e94e 8030876 debug optional ros-humble-autoware-map-loader-dbgsym_0-2025.04.16.07.00_amd64.ddeb
+ 8e5ac79f6dabfbe6b6057fcd26f83f28 42823 misc optional ros-humble-autoware-map-loader_0-2025.04.16.07.00_amd64.buildinfo
+ 076849c40773bccb083db32ccafd7f81 243244 misc optional ros-humble-autoware-map-loader_0-2025.04.16.07.00_amd64.deb

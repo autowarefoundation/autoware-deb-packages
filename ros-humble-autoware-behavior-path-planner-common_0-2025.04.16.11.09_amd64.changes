@@ -1,0 +1,67 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-path-planner-common
+Binary: ros-humble-autoware-behavior-path-planner-common
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.11.09
+Distribution: jammy
+Urgency: high
+Maintainer: Zulfaqar Azmi <zulfaqar.azmi@tier4.jp>
+Changed-By: Zulfaqar Azmi <zulfaqar.azmi@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-path-planner-common - The autoware_behavior_path_planner_common package
+Changes:
+ ros-humble-autoware-behavior-path-planner-common (0-2025.04.16.11.09) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(start_planner): visualize planner evaluation table in rviz (#10029 <https://github.com/autowarefoundation/autoware.universe/issues/10029>)
+     visualize planner evaluation table in rviz
+   * feat(static_obstacle_avoidance): output safety factor (#10000 <https://github.com/autowarefoundation/autoware.universe/issues/10000>)
+     * feat(safety_check): convert to SafetyFactor
+     * feat(static_obstacle_avoidance): use safety factor
+     * fix(bpp): output detail
+     ---------
+   * chore(planning): move package directory for planning factor interface (#9948 <https://github.com/autowarefoundation/autoware.universe/issues/9948>)
+     * chore: add new package for planning factor interface
+     * chore(surround_obstacle_checker): update include file
+     * chore(obstacle_stop_planner): update include file
+     * chore(obstacle_cruise_planner): update include file
+     * chore(motion_velocity_planner): update include file
+     * chore(bpp): update include file
+     * chore(bvp-common): update include file
+     * chore(blind_spot): update include file
+     * chore(crosswalk): update include file
+     * chore(detection_area): update include file
+     * chore(intersection): update include file
+     * chore(no_drivable_area): update include file
+     * chore(no_stopping_area): update include file
+     * chore(occlusion_spot): update include file
+     * chore(run_out): update include file
+     * chore(speed_bump): update include file
+     * chore(stop_line): update include file
+     * chore(template_module): update include file
+     * chore(traffic_light): update include file
+     * chore(vtl): update include file
+     * chore(walkway): update include file
+     * chore(motion_utils): remove factor interface
+     ---------
+   * feat(planning_factor)!: remove velocity_factor, steering_factor and introduce planning_factor (#9927 <https://github.com/autowarefoundation/autoware.universe/issues/9927>)
+     Co-authored-by: Satoshi OTA <mailto:44889564+satoshi-ota@users.noreply.github.com>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: satoshi-ota <mailto:satoshi.ota928@gmail.com>
+   * fix(autoware_behavior_path_planner_common): fix bugprone-errors (#9700 <https://github.com/autowarefoundation/autoware.universe/issues/9700>)
+     fix: bugprone-error
+   * Contributors: Fumiya Watanabe, Kyoichi Sugahara, Mamoru Sobue, Satoshi OTA, kobayu858
+Checksums-Sha1:
+ bbf7be4287ca43abdeb6bd37b7273d59d1127779 17971862 ros-humble-autoware-behavior-path-planner-common-dbgsym_0-2025.04.16.11.09_amd64.ddeb
+ 31f49b13d9cab5e0e0932f32c63127eb17f37a79 45367 ros-humble-autoware-behavior-path-planner-common_0-2025.04.16.11.09_amd64.buildinfo
+ 4cc09fb75c64cc32b9510781f16ce90cc6f67ebf 594708 ros-humble-autoware-behavior-path-planner-common_0-2025.04.16.11.09_amd64.deb
+Checksums-Sha256:
+ 37a5c5ac74d43bfc4e80bb07f355c7fab3c06fcf157f7e7181d3903e12d9c49a 17971862 ros-humble-autoware-behavior-path-planner-common-dbgsym_0-2025.04.16.11.09_amd64.ddeb
+ 18f1989680b5ca2c57a5300e2130abd2dcb72cd517d91f9adb6871dab304057e 45367 ros-humble-autoware-behavior-path-planner-common_0-2025.04.16.11.09_amd64.buildinfo
+ 19db8b5811dd49ce290edc63f0d57a0fb727dc58e1164a7ac8ef01ab977fc2bb 594708 ros-humble-autoware-behavior-path-planner-common_0-2025.04.16.11.09_amd64.deb
+Files:
+ 81ca8100fdcabe4c556f7a92753c6ce7 17971862 debug optional ros-humble-autoware-behavior-path-planner-common-dbgsym_0-2025.04.16.11.09_amd64.ddeb
+ ac7299b651a17ff381540a9cb3101586 45367 misc optional ros-humble-autoware-behavior-path-planner-common_0-2025.04.16.11.09_amd64.buildinfo
+ 08c10e9c33dc137cdc2db5f63f6b004c 594708 misc optional ros-humble-autoware-behavior-path-planner-common_0-2025.04.16.11.09_amd64.deb

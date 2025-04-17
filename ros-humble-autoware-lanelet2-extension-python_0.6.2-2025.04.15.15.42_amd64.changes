@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 21 Nov 2024 00:00:00 -0000
+Source: ros-humble-autoware-lanelet2-extension-python
+Binary: ros-humble-autoware-lanelet2-extension-python
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.2-2025.04.15.15.42
+Distribution: jammy
+Urgency: high
+Maintainer: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Changed-By: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Description:
+ ros-humble-autoware-lanelet2-extension-python - The autoware_lanelet2_extension_python package contains Python bi
+Changes:
+ ros-humble-autoware-lanelet2-extension-python (0.6.2-2025.04.15.15.42) jammy; urgency=high
+ .
+   * fix(Python bindings): add missing dependency to lanelet2 (#32 <https://github.com/autowarefoundation/autoware_lanelet2_extension/issues/32>)
+   * Contributors: Kenji Miyake
+Checksums-Sha1:
+ 1fdcb686357e9378c772628df9036d2dfb1dfeae 4353352 ros-humble-autoware-lanelet2-extension-python-dbgsym_0.6.2-2025.04.15.15.42_amd64.ddeb
+ d8d0380adfed2996bd802b4424a90914f4975557 40832 ros-humble-autoware-lanelet2-extension-python_0.6.2-2025.04.15.15.42_amd64.buildinfo
+ 64665c1a1bf3dc98df8e734096acd0ad39c8fb8f 196748 ros-humble-autoware-lanelet2-extension-python_0.6.2-2025.04.15.15.42_amd64.deb
+Checksums-Sha256:
+ 630d682a03a58aa74439d17f9ceac12ed5bfd1dcaf6d7617ab9a0f309c1f18a0 4353352 ros-humble-autoware-lanelet2-extension-python-dbgsym_0.6.2-2025.04.15.15.42_amd64.ddeb
+ 4dbf5a9cfa800f8f0394052be3d0227cd65c5d4a3282ae56c3782468c2f266a5 40832 ros-humble-autoware-lanelet2-extension-python_0.6.2-2025.04.15.15.42_amd64.buildinfo
+ 0fda67acf6d3ece2ff5b4f6497f9c33410c201932aa14b21be68e718e276243b 196748 ros-humble-autoware-lanelet2-extension-python_0.6.2-2025.04.15.15.42_amd64.deb
+Files:
+ e872c37b3b56a3c184b85c96138cabb6 4353352 debug optional ros-humble-autoware-lanelet2-extension-python-dbgsym_0.6.2-2025.04.15.15.42_amd64.ddeb
+ fb54261cd16bebc429f5d72d28e58496 40832 misc optional ros-humble-autoware-lanelet2-extension-python_0.6.2-2025.04.15.15.42_amd64.buildinfo
+ 215d6175d56d696cb5d257fd2c20f911 196748 misc optional ros-humble-autoware-lanelet2-extension-python_0.6.2-2025.04.15.15.42_amd64.deb

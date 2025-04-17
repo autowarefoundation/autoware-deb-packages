@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-accel-brake-map-calibrator
+Binary: ros-humble-autoware-accel-brake-map-calibrator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.07.42
+Distribution: jammy
+Urgency: high
+Maintainer: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Changed-By: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Description:
+ ros-humble-autoware-accel-brake-map-calibrator - The accel_brake_map_calibrator
+Changes:
+ ros-humble-autoware-accel-brake-map-calibrator (0-2025.04.16.07.42) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_accel_brake_map_calibrator)!: tier4_debug_msgs changed to autoware_internal_debug_msgs in autoware_accel_brake_map_calibrator (#9923 <https://github.com/autowarefoundation/autoware.universe/issues/9923>)
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+   * Contributors: Fumiya Watanabe, Vishal Chauhan
+Checksums-Sha1:
+ 71cf2d62e71d3067c099042fd093c636d745a2ba 8530754 ros-humble-autoware-accel-brake-map-calibrator-dbgsym_0-2025.04.16.07.42_amd64.ddeb
+ 7be375832054ccc8d698c30f7aa2b88cced66c26 41350 ros-humble-autoware-accel-brake-map-calibrator_0-2025.04.16.07.42_amd64.buildinfo
+ 47bdebd9ddaaf90bbbebabc416eab958c047e365 282242 ros-humble-autoware-accel-brake-map-calibrator_0-2025.04.16.07.42_amd64.deb
+Checksums-Sha256:
+ f03b6486b757c24ef4f7dfb1c14e88a50101ed63b4e30361d2f4841c99f00968 8530754 ros-humble-autoware-accel-brake-map-calibrator-dbgsym_0-2025.04.16.07.42_amd64.ddeb
+ 5c4ad7195a6eae0c38c2be20d3fbdb37d55426fb293f5dc76aba20e6bf414a80 41350 ros-humble-autoware-accel-brake-map-calibrator_0-2025.04.16.07.42_amd64.buildinfo
+ 00810017ac56d933cc566ef2d795db5097d600a386f807b1cce902380cc26231 282242 ros-humble-autoware-accel-brake-map-calibrator_0-2025.04.16.07.42_amd64.deb
+Files:
+ ce56a411d80cd6c23af4602df5011f8c 8530754 debug optional ros-humble-autoware-accel-brake-map-calibrator-dbgsym_0-2025.04.16.07.42_amd64.ddeb
+ ec9c678c5aea2de64bddb275e2af49f5 41350 misc optional ros-humble-autoware-accel-brake-map-calibrator_0-2025.04.16.07.42_amd64.buildinfo
+ a5dee1890d5d19be248ce017a5703277 282242 misc optional ros-humble-autoware-accel-brake-map-calibrator_0-2025.04.16.07.42_amd64.deb

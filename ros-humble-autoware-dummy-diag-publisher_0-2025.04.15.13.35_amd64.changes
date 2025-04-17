@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-dummy-diag-publisher
+Binary: ros-humble-autoware-dummy-diag-publisher
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.13.35
+Distribution: jammy
+Urgency: high
+Maintainer: Fumihito Ito <fumihito.ito@tier4.jp>
+Changed-By: Fumihito Ito <fumihito.ito@tier4.jp>
+Description:
+ ros-humble-autoware-dummy-diag-publisher - The dummy_diag_publisher ROS 2 package
+Changes:
+ ros-humble-autoware-dummy-diag-publisher (0-2025.04.15.13.35) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * fix(autoware_dummy_diag_publisher): add autowre prefix (#9958 <https://github.com/autowarefoundation/autoware.universe/issues/9958>)
+     * fic: add autoare_ prefix
+     * fix: add autoare_ prefix codeowner
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Fumiya Watanabe, TetsuKawa
+Checksums-Sha1:
+ 25afc3d2025c082a1a210b92c352fb1b0f13c712 1577886 ros-humble-autoware-dummy-diag-publisher-dbgsym_0-2025.04.15.13.35_amd64.ddeb
+ fbed88f1cbbff861c948131fd8fd04e7dbf26b61 15965 ros-humble-autoware-dummy-diag-publisher_0-2025.04.15.13.35_amd64.buildinfo
+ c333a1eee95bbc0cb24b9084c781397ba21e1546 120174 ros-humble-autoware-dummy-diag-publisher_0-2025.04.15.13.35_amd64.deb
+Checksums-Sha256:
+ c23d100dedf2e6455b0dc2cdcff2300d4a24961e5753f5dfdb35fbd2fa29de1e 1577886 ros-humble-autoware-dummy-diag-publisher-dbgsym_0-2025.04.15.13.35_amd64.ddeb
+ 6cc90065fcc20cf3a68429ab0e70d55453b8217bfee250768331ee98e43b8827 15965 ros-humble-autoware-dummy-diag-publisher_0-2025.04.15.13.35_amd64.buildinfo
+ 8f3ae4d453f0915d840b8018c5cc7f200d2790df40041a9aea5da094610a501e 120174 ros-humble-autoware-dummy-diag-publisher_0-2025.04.15.13.35_amd64.deb
+Files:
+ 0dadc0b1a0cc9d41270cf7b8c2c2f612 1577886 debug optional ros-humble-autoware-dummy-diag-publisher-dbgsym_0-2025.04.15.13.35_amd64.ddeb
+ 42747c0e8463dfba8d759d52c87a11ca 15965 misc optional ros-humble-autoware-dummy-diag-publisher_0-2025.04.15.13.35_amd64.buildinfo
+ b22c31ae6980b0f16c0ea0ac72d68f48 120174 misc optional ros-humble-autoware-dummy-diag-publisher_0-2025.04.15.13.35_amd64.deb

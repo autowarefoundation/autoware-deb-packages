@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Wed, 12 Feb 2025 00:00:00 -0000
+Source: ros-humble-single-lidar-sensor-kit-description
+Binary: ros-humble-single-lidar-sensor-kit-description
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-4-gbfbf37b-2025.04.17.03.35
+Distribution: jammy
+Urgency: high
+Maintainer: beginning.fan <beginning.fan@autocore.ai>
+Changed-By: beginning.fan <beginning.fan@autocore.ai>
+Description:
+ ros-humble-single-lidar-sensor-kit-description - The single_lidar_sensor_kit_description package
+Changes:
+ ros-humble-single-lidar-sensor-kit-description (0.39.0-4-gbfbf37b-2025.04.17.03.35) jammy; urgency=high
+Checksums-Sha1:
+ 7348f11b6e64abec9d2e03e9067effe885725bc2 11021 ros-humble-single-lidar-sensor-kit-description_0.39.0-4-gbfbf37b-2025.04.17.03.35_amd64.buildinfo
+ 8deae6ca43404a8c3889e8fd57dd08d8a5e17a5d 6678 ros-humble-single-lidar-sensor-kit-description_0.39.0-4-gbfbf37b-2025.04.17.03.35_amd64.deb
+Checksums-Sha256:
+ edbc29740fca6b088536da0770290d9cdcdc1d12030ae13b908ac23b367052b1 11021 ros-humble-single-lidar-sensor-kit-description_0.39.0-4-gbfbf37b-2025.04.17.03.35_amd64.buildinfo
+ 4c0957f536a5bf9b4b16f419368540a54798ddec477415ef0fa464af310f0c66 6678 ros-humble-single-lidar-sensor-kit-description_0.39.0-4-gbfbf37b-2025.04.17.03.35_amd64.deb
+Files:
+ c4c6c25b3b17f485a4ac3e034059f6fd 11021 misc optional ros-humble-single-lidar-sensor-kit-description_0.39.0-4-gbfbf37b-2025.04.17.03.35_amd64.buildinfo
+ db2228ff73b7bdd6c7f944414c1a4a4d 6678 misc optional ros-humble-single-lidar-sensor-kit-description_0.39.0-4-gbfbf37b-2025.04.17.03.35_amd64.deb

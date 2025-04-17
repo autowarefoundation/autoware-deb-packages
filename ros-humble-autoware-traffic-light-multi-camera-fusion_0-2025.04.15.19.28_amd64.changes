@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-traffic-light-multi-camera-fusion
+Binary: ros-humble-autoware-traffic-light-multi-camera-fusion
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.19.28
+Distribution: jammy
+Urgency: high
+Maintainer: Tao Zhong <tao.zhong@tier4.jp>
+Changed-By: Tao Zhong <tao.zhong@tier4.jp>
+Description:
+ ros-humble-autoware-traffic-light-multi-camera-fusion - The autoware_traffic_light_multi_camera_fusion package
+Changes:
+ ros-humble-autoware-traffic-light-multi-camera-fusion (0-2025.04.15.19.28) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * chore(autoware_traffic_light_multi_camera_fusion): modify docs (#9821 <https://github.com/autowarefoundation/autoware.universe/issues/9821>)
+     * fix docs
+     * add condition
+     ---------
+   * Contributors: Fumiya Watanabe, Masato Saeki
+Checksums-Sha1:
+ 4d543e04b0a61134e1fad7801ab24eb087ccfdec 6913242 ros-humble-autoware-traffic-light-multi-camera-fusion-dbgsym_0-2025.04.15.19.28_amd64.ddeb
+ c6638926486c3cd661653012192594bdfbde12ff 41604 ros-humble-autoware-traffic-light-multi-camera-fusion_0-2025.04.15.19.28_amd64.buildinfo
+ ee8e671a2700a1d3120be3508d66a71ca9354e92 249376 ros-humble-autoware-traffic-light-multi-camera-fusion_0-2025.04.15.19.28_amd64.deb
+Checksums-Sha256:
+ 58ec8e689303877d097b8137ca307e0163433aa7f4d5c60757ce58e7688e708f 6913242 ros-humble-autoware-traffic-light-multi-camera-fusion-dbgsym_0-2025.04.15.19.28_amd64.ddeb
+ 0f8bb1e39e5b70d9e743915c009266f1ade6aa693ab24fb6a9f58c3ff6514149 41604 ros-humble-autoware-traffic-light-multi-camera-fusion_0-2025.04.15.19.28_amd64.buildinfo
+ 7e1b047a524fa334737878f0abfc00aefbfc7c20412c5dc9cb97b88ee1bf2382 249376 ros-humble-autoware-traffic-light-multi-camera-fusion_0-2025.04.15.19.28_amd64.deb
+Files:
+ 306d58bc9d66a78e32f381745fd09888 6913242 debug optional ros-humble-autoware-traffic-light-multi-camera-fusion-dbgsym_0-2025.04.15.19.28_amd64.ddeb
+ f8f3cf619360c84496119bca8f58a338 41604 misc optional ros-humble-autoware-traffic-light-multi-camera-fusion_0-2025.04.15.19.28_amd64.buildinfo
+ f45abd943e1009dca395c2f2f617a4e7 249376 misc optional ros-humble-autoware-traffic-light-multi-camera-fusion_0-2025.04.15.19.28_amd64.deb

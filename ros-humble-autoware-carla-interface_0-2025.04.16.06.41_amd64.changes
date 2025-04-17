@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-carla-interface
+Binary: ros-humble-autoware-carla-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.06.41
+Distribution: jammy
+Urgency: high
+Maintainer: Muhammad Raditya GIOVANNI <mradityagio@gmail.com>
+Changed-By: Muhammad Raditya GIOVANNI <mradityagio@gmail.com>
+Description:
+ ros-humble-autoware-carla-interface - The carla autoware bridge package
+Changes:
+ ros-humble-autoware-carla-interface (0-2025.04.16.06.41) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * fix(autoware_carla_interface): fix lidar topic name (#9645 <https://github.com/autowarefoundation/autoware.universe/issues/9645>)
+   * Contributors: Fumiya Watanabe, Maxime CLEMENT
+Checksums-Sha1:
+ ac2fda05a9703722161bee006af5d449721a68d2 17336 ros-humble-autoware-carla-interface_0-2025.04.16.06.41_amd64.buildinfo
+ 1da8939f8fcb46585fcafb97e9e6ce58da690403 39648 ros-humble-autoware-carla-interface_0-2025.04.16.06.41_amd64.deb
+Checksums-Sha256:
+ 324dffde78e5feb8b92f6d0da6fa93c9ae29fc4deb8a71236ea691b684664493 17336 ros-humble-autoware-carla-interface_0-2025.04.16.06.41_amd64.buildinfo
+ 0752b1af3e6783bf5a708d73913914209502dc7fe67aceb55df6b7ce1c2e31e7 39648 ros-humble-autoware-carla-interface_0-2025.04.16.06.41_amd64.deb
+Files:
+ a8ea146dce25a14f1cc671391b4a352f 17336 misc optional ros-humble-autoware-carla-interface_0-2025.04.16.06.41_amd64.buildinfo
+ d7b29f0729c4543d0b03f3f5382f41d2 39648 misc optional ros-humble-autoware-carla-interface_0-2025.04.16.06.41_amd64.deb

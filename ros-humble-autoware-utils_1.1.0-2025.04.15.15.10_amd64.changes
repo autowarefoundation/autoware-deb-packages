@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 27 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-utils
+Binary: ros-humble-autoware-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.1.0-2025.04.15.15.10
+Distribution: jammy
+Urgency: high
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Changed-By: Jian Kang <egon.kang@autocore.ai>
+Description:
+ ros-humble-autoware-utils - The autoware_utils package
+Changes:
+ ros-humble-autoware-utils (1.1.0-2025.04.15.15.10) jammy; urgency=high
+ .
+   * feat(autoware_utils): porting from autoware_universe_utils (#23 <https://github.com/autowarefoundation/autoware_utils/issues/23>)
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: NorahXiong <mailto:norah.xiong@autocore.ai>
+   * chore: sync files (#17 <https://github.com/autowarefoundation/autoware_utils/issues/17>)
+   * fix(autoware_utils): fix links to issues in CHANGELOG.rst files (#15 <https://github.com/autowarefoundation/autoware_utils/issues/15>)
+   * Contributors: Esteve Fernandez, JianKangEgon, awf-autoware-bot[bot]
+Checksums-Sha1:
+ b06f91d87df2e09b52d51cf84202f2ed01956a4d 4249388 ros-humble-autoware-utils-dbgsym_1.1.0-2025.04.15.15.10_amd64.ddeb
+ d1d1b99c66c3fd7896e4eaa2188ca6bca1b62e4a 40125 ros-humble-autoware-utils_1.1.0-2025.04.15.15.10_amd64.buildinfo
+ 4597927b315e1eee5970f4b3cdaaf4e0498c8d5a 308916 ros-humble-autoware-utils_1.1.0-2025.04.15.15.10_amd64.deb
+Checksums-Sha256:
+ 4f7b4e04d9938c9b882adf7cdee1e240ae59757dc6c47196c89a369ff38acf6d 4249388 ros-humble-autoware-utils-dbgsym_1.1.0-2025.04.15.15.10_amd64.ddeb
+ 524e81a00eecb484df5a28d4072c15dba5e74dc2be7288227b2cdcf9b71bdaa2 40125 ros-humble-autoware-utils_1.1.0-2025.04.15.15.10_amd64.buildinfo
+ cdb9079991570629941e8ab3fea6a2721dd1537e77dd87a108f34469aded92e0 308916 ros-humble-autoware-utils_1.1.0-2025.04.15.15.10_amd64.deb
+Files:
+ fdf80682abe7bf9dc08cb6b40b1f2bd0 4249388 debug optional ros-humble-autoware-utils-dbgsym_1.1.0-2025.04.15.15.10_amd64.ddeb
+ 6789c5173fa17a3faa9cb9ba1bf2f485 40125 misc optional ros-humble-autoware-utils_1.1.0-2025.04.15.15.10_amd64.buildinfo
+ bee50cba7fbd130593030fe15a852625 308916 misc optional ros-humble-autoware-utils_1.1.0-2025.04.15.15.10_amd64.deb

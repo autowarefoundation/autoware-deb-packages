@@ -1,0 +1,89 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-intersection-module
+Binary: ros-humble-autoware-behavior-velocity-intersection-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.20.39
+Distribution: jammy
+Urgency: high
+Maintainer: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Changed-By: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-intersection-module - The autoware_behavior_velocity_intersection_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-intersection-module (0-2025.04.16.20.39) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(intersection): add wall marker for too late detect objects (#10006 <https://github.com/autowarefoundation/autoware.universe/issues/10006>)
+   * chore(planning): move package directory for planning factor interface (#9948 <https://github.com/autowarefoundation/autoware.universe/issues/9948>)
+     * chore: add new package for planning factor interface
+     * chore(surround_obstacle_checker): update include file
+     * chore(obstacle_stop_planner): update include file
+     * chore(obstacle_cruise_planner): update include file
+     * chore(motion_velocity_planner): update include file
+     * chore(bpp): update include file
+     * chore(bvp-common): update include file
+     * chore(blind_spot): update include file
+     * chore(crosswalk): update include file
+     * chore(detection_area): update include file
+     * chore(intersection): update include file
+     * chore(no_drivable_area): update include file
+     * chore(no_stopping_area): update include file
+     * chore(occlusion_spot): update include file
+     * chore(run_out): update include file
+     * chore(speed_bump): update include file
+     * chore(stop_line): update include file
+     * chore(template_module): update include file
+     * chore(traffic_light): update include file
+     * chore(vtl): update include file
+     * chore(walkway): update include file
+     * chore(motion_utils): remove factor interface
+     ---------
+   * feat(behavior_velocity_planner)!: remove velocity_factor completely (#9943 <https://github.com/autowarefoundation/autoware.universe/issues/9943>)
+     * feat(behavior_velocity_planner)!: remove velocity_factor completely
+     * minimize diff
+     ---------
+   * feat(planning_factor)!: remove velocity_factor, steering_factor and introduce planning_factor (#9927 <https://github.com/autowarefoundation/autoware.universe/issues/9927>)
+     Co-authored-by: Satoshi OTA <mailto:44889564+satoshi-ota@users.noreply.github.com>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: satoshi-ota <mailto:satoshi.ota928@gmail.com>
+   * feat(behavior_velocity_modules): add node test (#9790 <https://github.com/autowarefoundation/autoware.universe/issues/9790>)
+     * feat(behavior_velocity_crosswalk): add node test
+     * fix
+     * feat(behavior_velocity_xxx_module): add node test
+     * fix
+     * fix
+     * fix
+     * fix
+     * change directory tests -> test
+     ---------
+   * fix(autoware_behavior_velocity_intersection_module): fix bugprone-branch-clone (#9702 <https://github.com/autowarefoundation/autoware.universe/issues/9702>)
+     fix: bugprone-error
+   * refactor(behavior_velocity_planner_common): add behavior_velocity_rtc_interface and move RTC-related implementation (#9799 <https://github.com/autowarefoundation/autoware.universe/issues/9799>)
+     * split into planer_common and rtc_interface
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_planner_common/include/autoware/behavior_velocity_planner_common/scene_module_interface.hpp
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_rtc_interface/include/autoware/behavior_velocity_rtc_interface/scene_module_interface_with_rtc.hpp
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+     * fix
+     ---------
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+   * feat(behavior_velocity_planner): use XXXStamped in autoware_internal_debug_msgs (#9744 <https://github.com/autowarefoundation/autoware.universe/issues/9744>)
+     * feat(behavior_velocity_planner): use XXXStamped in autoware_internal_debug_msgs
+     * fix
+     ---------
+   * feat(behavior_velocity_planner): remove unnecessary tier4_api_msgs (#9692 <https://github.com/autowarefoundation/autoware.universe/issues/9692>)
+   * Contributors: Fumiya Watanabe, Mamoru Sobue, Satoshi OTA, Takayuki Murooka, kobayu858
+Checksums-Sha1:
+ a05d9dea2d17b649fd4b045a92a55968cd2e1e8a 14852568 ros-humble-autoware-behavior-velocity-intersection-module-dbgsym_0-2025.04.16.20.39_amd64.ddeb
+ ea2f6adbcb9448012f2351d50890a279dd1028f9 49001 ros-humble-autoware-behavior-velocity-intersection-module_0-2025.04.16.20.39_amd64.buildinfo
+ 05af17e9f8abf6904a6f5eac8caac762f516b369 385330 ros-humble-autoware-behavior-velocity-intersection-module_0-2025.04.16.20.39_amd64.deb
+Checksums-Sha256:
+ 887537e7849c69fb487633424f498937fffef05cc5970ecdfa467e39007321b3 14852568 ros-humble-autoware-behavior-velocity-intersection-module-dbgsym_0-2025.04.16.20.39_amd64.ddeb
+ 6bd2d3edc80b39cbd0cd207a2591df1162bc08ad3e1e1fdce4db92b17ffca0ee 49001 ros-humble-autoware-behavior-velocity-intersection-module_0-2025.04.16.20.39_amd64.buildinfo
+ d0da936602d881f031840a017d1ead0a4ffe4377329e6dacc1956409a8932f34 385330 ros-humble-autoware-behavior-velocity-intersection-module_0-2025.04.16.20.39_amd64.deb
+Files:
+ 22761a699b49dea0758da88ea2b06711 14852568 debug optional ros-humble-autoware-behavior-velocity-intersection-module-dbgsym_0-2025.04.16.20.39_amd64.ddeb
+ a0fbe0ca20fbc8ebbfcd6ce71aa7dc2b 49001 misc optional ros-humble-autoware-behavior-velocity-intersection-module_0-2025.04.16.20.39_amd64.buildinfo
+ ba46166a93708c28fcd2667550e87161 385330 misc optional ros-humble-autoware-behavior-velocity-intersection-module_0-2025.04.16.20.39_amd64.deb

@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-tier4-localization-launch
+Binary: ros-humble-tier4-localization-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.18.58
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-tier4-localization-launch - The tier4_localization_launch package
+Changes:
+ ros-humble-tier4-localization-launch (0-2025.04.15.18.58) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware_ prefix for default_ad_api_helpers (#9965 <https://github.com/autowarefoundation/autoware.universe/issues/9965>)
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Takagi, Isamu <mailto:isamu.takagi@tier4.jp>
+   * Contributors: Fumiya Watanabe, Junya Sasaki
+Checksums-Sha1:
+ be358d55a9af8ef1c6514f63e19a4541fb194bee 10718 ros-humble-tier4-localization-launch_0-2025.04.15.18.58_amd64.buildinfo
+ 3af88eb70e69700d636cf20dc7a8dd9db2d9dcca 26292 ros-humble-tier4-localization-launch_0-2025.04.15.18.58_amd64.deb
+Checksums-Sha256:
+ cb7eddea3e90c44450475b7afd63bc8c7b8f46c47507771bbed311661878da0a 10718 ros-humble-tier4-localization-launch_0-2025.04.15.18.58_amd64.buildinfo
+ f97eb1d0d0123a5fb55d534145ddf5af601e2eabd210e9192dbb5ab24c322585 26292 ros-humble-tier4-localization-launch_0-2025.04.15.18.58_amd64.deb
+Files:
+ abb14f4e9600ee49cc5d8c5d6914cbbf 10718 misc optional ros-humble-tier4-localization-launch_0-2025.04.15.18.58_amd64.buildinfo
+ efed89ceed0009be87d0a7334591c984 26292 misc optional ros-humble-tier4-localization-launch_0-2025.04.15.18.58_amd64.deb

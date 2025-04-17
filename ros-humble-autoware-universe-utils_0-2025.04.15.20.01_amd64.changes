@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-universe-utils
+Binary: ros-humble-autoware-universe-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.20.01
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-universe-utils - The autoware_universe_utils package
+Changes:
+ ros-humble-autoware-universe-utils (0-2025.04.15.20.01) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * refactor(autoware_universe_utils): add missing 's' in the class of diagnostics_interface (#9777 <https://github.com/autowarefoundation/autoware.universe/issues/9777>)
+   * feat(behavior_path_planner): use autoware internal stamped messages (#9750 <https://github.com/autowarefoundation/autoware.universe/issues/9750>)
+     * feat(behavior_path_planner): use autoware internal stamped messages
+     * fix universe_utils
+     ---------
+   * feat!: move diagnostics_module from localization_util to unverse_utils (#9714 <https://github.com/autowarefoundation/autoware.universe/issues/9714>)
+     * feat!: move diagnostics_module from localization_util to unverse_utils
+     * remove diagnostics module from localization_util
+     * style(pre-commit): autofix
+     * minor fix in pose_initializer
+     * add test
+     * style(pre-commit): autofix
+     * remove unnecessary declaration
+     * module -> interface
+     * remove unnecessary equal expression
+     * revert the remove of template function
+     * style(pre-commit): autofix
+     * use overload instead
+     * include what you use -- test_diagnostics_interface.cpp
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * fix(autoware_universe_utils): fix bug in test (#9710 <https://github.com/autowarefoundation/autoware.universe/issues/9710>)
+   * Contributors: Fumiya Watanabe, Ryuta Kambe, Takayuki Murooka, kminoda
+Checksums-Sha1:
+ c02659cb558449bc3cba4e284087ddaa2199dad5 4495882 ros-humble-autoware-universe-utils-dbgsym_0-2025.04.15.20.01_amd64.ddeb
+ b50e5df875b38ded3a4fc0ca56977c910e2199a1 40413 ros-humble-autoware-universe-utils_0-2025.04.15.20.01_amd64.buildinfo
+ ae9110e2c84974273665aac2d77bed9c12ab72c9 326260 ros-humble-autoware-universe-utils_0-2025.04.15.20.01_amd64.deb
+Checksums-Sha256:
+ e5bf80690732f6e7d7ab7b126b9f6a7516600279d0cb11332eb23974cfa5ef85 4495882 ros-humble-autoware-universe-utils-dbgsym_0-2025.04.15.20.01_amd64.ddeb
+ d40aa30baf16f145e0bc1919e27cc98d4568f245484cc9ea2f9b2813bf99e614 40413 ros-humble-autoware-universe-utils_0-2025.04.15.20.01_amd64.buildinfo
+ 6c147c9021cdcfd7db2b60a4e3d54c23091cd74707e6fa516379e81af87e5c8b 326260 ros-humble-autoware-universe-utils_0-2025.04.15.20.01_amd64.deb
+Files:
+ 2d7e02e27a54c1391219db8220344d64 4495882 debug optional ros-humble-autoware-universe-utils-dbgsym_0-2025.04.15.20.01_amd64.ddeb
+ fa0474320dc65b26e390460b19ed7aff 40413 misc optional ros-humble-autoware-universe-utils_0-2025.04.15.20.01_amd64.buildinfo
+ 7356acf3e849bb4076c45bb7b919d027 326260 misc optional ros-humble-autoware-universe-utils_0-2025.04.15.20.01_amd64.deb

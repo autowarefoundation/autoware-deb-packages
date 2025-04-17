@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-bezier-sampler
+Binary: ros-humble-autoware-bezier-sampler
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.02.45
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime CLEMENT <maxime.clement@tier4.jp>
+Changed-By: Maxime CLEMENT <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-bezier-sampler - Package to sample trajectories using Bézier curves
+Changes:
+ ros-humble-autoware-bezier-sampler (0-2025.04.16.02.45) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(goal_planner): add bezier based pull over planner (#9642 <https://github.com/autowarefoundation/autoware.universe/issues/9642>)
+   * Contributors: Fumiya Watanabe, Mamoru Sobue
+Checksums-Sha1:
+ 1931bd808361a54359fb668207edd12f6939cf08 1050924 ros-humble-autoware-bezier-sampler-dbgsym_0-2025.04.16.02.45_amd64.ddeb
+ 6b70d410a80454d34a4bc8660688dceba7fbb25b 40605 ros-humble-autoware-bezier-sampler_0-2025.04.16.02.45_amd64.buildinfo
+ d4bdfb194bafd1c18d0b11186352f38b0cb282b2 19056 ros-humble-autoware-bezier-sampler_0-2025.04.16.02.45_amd64.deb
+Checksums-Sha256:
+ 669fa92cdb09936bc96401f0ad87717582fa09477a45b808db6aadbf09cb16ef 1050924 ros-humble-autoware-bezier-sampler-dbgsym_0-2025.04.16.02.45_amd64.ddeb
+ 0839662e2aa030bb348bb15711aeb706bd7bdc45c23401f9352c91507ae218a8 40605 ros-humble-autoware-bezier-sampler_0-2025.04.16.02.45_amd64.buildinfo
+ 9d8973c2e560eb905cfc8bce9ca80cbd5cf378b0d07d0e8344f9109d08925930 19056 ros-humble-autoware-bezier-sampler_0-2025.04.16.02.45_amd64.deb
+Files:
+ 1565b664e25ab12545d7ba2f3e2af587 1050924 debug optional ros-humble-autoware-bezier-sampler-dbgsym_0-2025.04.16.02.45_amd64.ddeb
+ 467e571d75b498531aa17cf5d8b07f98 40605 misc optional ros-humble-autoware-bezier-sampler_0-2025.04.16.02.45_amd64.buildinfo
+ fba4c3ceb58b909dc99dec41946faeb4 19056 misc optional ros-humble-autoware-bezier-sampler_0-2025.04.16.02.45_amd64.deb

@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Fri, 07 Feb 2025 00:00:00 -0000
+Source: ros-humble-autoware-point-types
+Binary: ros-humble-autoware-point-types
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.0-23-gd3f360f-2025.04.15.14.20
+Distribution: jammy
+Urgency: high
+Maintainer: David Wong <david.wong@tier4.jp>
+Changed-By: David Wong <david.wong@tier4.jp>
+Description:
+ ros-humble-autoware-point-types - The point types definition to use point_cloud_msg_wrapper
+Changes:
+ ros-humble-autoware-point-types (0.2.0-23-gd3f360f-2025.04.15.14.20) jammy; urgency=high
+ .
+   * unify version to 0.1.0
+   * update changelog
+   * feat: port autoware_point_types from autoware.universe (#151 <https://github.com/autowarefoundation/autoware.core/issues/151>)
+     * feat: port autoware_point_types from universe
+     * chore: remove change log and reset version to 0.0.0
+     * add myself as maintainer
+     * docs: finish README.md
+     * style(pre-commit): autofix
+     * fix: fix pre-commit.ci error
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * Contributors: Yutaka Kondo, cyn-liu
+   * feat: port autoware_point_types from autoware.universe (#151 <https://github.com/autowarefoundation/autoware.core/issues/151>)
+     * feat: port autoware_point_types from universe
+     * chore: remove change log and reset version to 0.0.0
+     * add myself as maintainer
+     * docs: finish README.md
+     * style(pre-commit): autofix
+     * fix: fix pre-commit.ci error
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * Contributors: cyn-liu
+Checksums-Sha1:
+ 70ab9c74f6f74f0e12a6523c9278ac6f2864e8ef 39173 ros-humble-autoware-point-types_0.2.0-23-gd3f360f-2025.04.15.14.20_amd64.buildinfo
+ bc54180356d7211c1af7f75336bb48a5e6c01bd7 9168 ros-humble-autoware-point-types_0.2.0-23-gd3f360f-2025.04.15.14.20_amd64.deb
+Checksums-Sha256:
+ 061295a4d3fb6a7d450a25b63a4155032505449f625902f60efd073533beebac 39173 ros-humble-autoware-point-types_0.2.0-23-gd3f360f-2025.04.15.14.20_amd64.buildinfo
+ 218d6a3082ea17b0504f70d7029514e811e53368c1535e38852a84ba851d60de 9168 ros-humble-autoware-point-types_0.2.0-23-gd3f360f-2025.04.15.14.20_amd64.deb
+Files:
+ c269e22f2a529becb5730101f191476d 39173 misc optional ros-humble-autoware-point-types_0.2.0-23-gd3f360f-2025.04.15.14.20_amd64.buildinfo
+ b8eb5fb9c3b127f6a27a9f4b29c8a44a 9168 misc optional ros-humble-autoware-point-types_0.2.0-23-gd3f360f-2025.04.15.14.20_amd64.deb

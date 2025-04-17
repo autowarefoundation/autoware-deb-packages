@@ -1,0 +1,60 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-surround-obstacle-checker
+Binary: ros-humble-autoware-surround-obstacle-checker
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.15.58
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-surround-obstacle-checker - The autoware_surround_obstacle_checker package
+Changes:
+ ros-humble-autoware-surround-obstacle-checker (0-2025.04.16.15.58) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * chore(planning): move package directory for planning factor interface (#9948 <https://github.com/autowarefoundation/autoware.universe/issues/9948>)
+     * chore: add new package for planning factor interface
+     * chore(surround_obstacle_checker): update include file
+     * chore(obstacle_stop_planner): update include file
+     * chore(obstacle_cruise_planner): update include file
+     * chore(motion_velocity_planner): update include file
+     * chore(bpp): update include file
+     * chore(bvp-common): update include file
+     * chore(blind_spot): update include file
+     * chore(crosswalk): update include file
+     * chore(detection_area): update include file
+     * chore(intersection): update include file
+     * chore(no_drivable_area): update include file
+     * chore(no_stopping_area): update include file
+     * chore(occlusion_spot): update include file
+     * chore(run_out): update include file
+     * chore(speed_bump): update include file
+     * chore(stop_line): update include file
+     * chore(template_module): update include file
+     * chore(traffic_light): update include file
+     * chore(vtl): update include file
+     * chore(walkway): update include file
+     * chore(motion_utils): remove factor interface
+     ---------
+   * feat(planning_factor)!: remove velocity_factor, steering_factor and introduce planning_factor (#9927 <https://github.com/autowarefoundation/autoware.universe/issues/9927>)
+     Co-authored-by: Satoshi OTA <mailto:44889564+satoshi-ota@users.noreply.github.com>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: satoshi-ota <mailto:satoshi.ota928@gmail.com>
+   * feat(autoware_surround_obstacle_checker): tier4_debug_msgs changed to autoware_internal_debug_msgs in autoware_surround_obstacle_checker (#9915 <https://github.com/autowarefoundation/autoware.universe/issues/9915>)
+     feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files  planning/autoware_surround_obstacle_checker
+   * Contributors: Fumiya Watanabe, Mamoru Sobue, Satoshi OTA, Vishal Chauhan
+Checksums-Sha1:
+ 721e30d659d357289b5b1f480c79c2040717c548 8074746 ros-humble-autoware-surround-obstacle-checker-dbgsym_0-2025.04.16.15.58_amd64.ddeb
+ 97ef78f4d447e0c80a0d803c9e5ee78ec00d19ba 44763 ros-humble-autoware-surround-obstacle-checker_0-2025.04.16.15.58_amd64.buildinfo
+ ad48fc9fb0fef60d1ac69aa97dd66b7be519f014 303660 ros-humble-autoware-surround-obstacle-checker_0-2025.04.16.15.58_amd64.deb
+Checksums-Sha256:
+ 4675816c45e9be39a766587b52eae1aca434172cde82c4bd4d85d6f332e7b45a 8074746 ros-humble-autoware-surround-obstacle-checker-dbgsym_0-2025.04.16.15.58_amd64.ddeb
+ 1d49403833cdd32b5f971708567c642096b3dae90d04c1b2ac0b24ccbb7cba85 44763 ros-humble-autoware-surround-obstacle-checker_0-2025.04.16.15.58_amd64.buildinfo
+ fc6da410e17da8945259c0f0652416d6eaff9ef36d4e3e8636b398095a7f21fc 303660 ros-humble-autoware-surround-obstacle-checker_0-2025.04.16.15.58_amd64.deb
+Files:
+ 6bb2b820fb28bbb123cf56c9ccb034e2 8074746 debug optional ros-humble-autoware-surround-obstacle-checker-dbgsym_0-2025.04.16.15.58_amd64.ddeb
+ 7e42130b36e30a102e7c5fe6e2bd8590 44763 misc optional ros-humble-autoware-surround-obstacle-checker_0-2025.04.16.15.58_amd64.buildinfo
+ e62f6fb98a9d731f3bacfec386be29ed 303660 misc optional ros-humble-autoware-surround-obstacle-checker_0-2025.04.16.15.58_amd64.deb

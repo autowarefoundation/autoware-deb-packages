@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Wed, 12 Feb 2025 00:00:00 -0000
+Source: ros-humble-single-lidar-common-launch
+Binary: ros-humble-single-lidar-common-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.39.0-4-gbfbf37b-2025.04.15.18.33
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-single-lidar-common-launch - The single_lidar_common_launch package
+Changes:
+ ros-humble-single-lidar-common-launch (0.39.0-4-gbfbf37b-2025.04.15.18.33) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat: rename velodyne_monitor with autoware_velodyne_monitor (#7 <https://github.com/autowarefoundation/single_lidar_sensor_kit_launch/issues/7>)
+   * refactor(glog_component): prefix package and namespace with autoware (#4 <https://github.com/autowarefoundation/single_lidar_sensor_kit_launch/issues/4>)
+   * Contributors: Esteve Fernandez, Ryohsuke Mitsudome
+Checksums-Sha1:
+ 4100c21c78f19ca441831ae9f0ab6a1f35f5d6de 10661 ros-humble-single-lidar-common-launch_0.39.0-4-gbfbf37b-2025.04.15.18.33_amd64.buildinfo
+ d923b6c9b90fd101fc0794c89328451e57e2791c 9218 ros-humble-single-lidar-common-launch_0.39.0-4-gbfbf37b-2025.04.15.18.33_amd64.deb
+Checksums-Sha256:
+ 3bfff36ab1101dd8a91099ebe790dd0f52888147a298bfb03db7b6911d604019 10661 ros-humble-single-lidar-common-launch_0.39.0-4-gbfbf37b-2025.04.15.18.33_amd64.buildinfo
+ e10d1c2817fc01bb32850c63c4690d1915713d23f84169ac7c4dc55693902449 9218 ros-humble-single-lidar-common-launch_0.39.0-4-gbfbf37b-2025.04.15.18.33_amd64.deb
+Files:
+ e73067cfd126843a38acc870f01d409f 10661 misc optional ros-humble-single-lidar-common-launch_0.39.0-4-gbfbf37b-2025.04.15.18.33_amd64.buildinfo
+ 6e2ecbd6c2842bcee9285b9972aecde9 9218 misc optional ros-humble-single-lidar-common-launch_0.39.0-4-gbfbf37b-2025.04.15.18.33_amd64.deb

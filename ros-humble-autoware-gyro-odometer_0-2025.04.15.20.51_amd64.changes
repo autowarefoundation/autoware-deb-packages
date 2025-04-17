@@ -1,0 +1,47 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-gyro-odometer
+Binary: ros-humble-autoware-gyro-odometer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.20.51
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-gyro-odometer - The autoware_gyro_odometer package as a ROS 2 node
+Changes:
+ ros-humble-autoware-gyro-odometer (0-2025.04.15.20.51) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * refactor(autoware_universe_utils): add missing 's' in the class of diagnostics_interface (#9777 <https://github.com/autowarefoundation/autoware.universe/issues/9777>)
+   * feat!: move diagnostics_module from localization_util to unverse_utils (#9714 <https://github.com/autowarefoundation/autoware.universe/issues/9714>)
+     * feat!: move diagnostics_module from localization_util to unverse_utils
+     * remove diagnostics module from localization_util
+     * style(pre-commit): autofix
+     * minor fix in pose_initializer
+     * add test
+     * style(pre-commit): autofix
+     * remove unnecessary declaration
+     * module -> interface
+     * remove unnecessary equal expression
+     * revert the remove of template function
+     * style(pre-commit): autofix
+     * use overload instead
+     * include what you use -- test_diagnostics_interface.cpp
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Fumiya Watanabe, kminoda
+Checksums-Sha1:
+ 00ec278872b5dd164cbd1487ad0abb4e6bbb53f2 3437370 ros-humble-autoware-gyro-odometer-dbgsym_0-2025.04.15.20.51_amd64.ddeb
+ 7054d441e2c796e3bb3043408e80b804bf8e9efe 40543 ros-humble-autoware-gyro-odometer_0-2025.04.15.20.51_amd64.buildinfo
+ f3f8422439fa3862cd8a603882e1fbea4ff178da 160514 ros-humble-autoware-gyro-odometer_0-2025.04.15.20.51_amd64.deb
+Checksums-Sha256:
+ dfc5784d1558a937d99c7ea880127178429eec6a31c513ab4f65794fd47718ae 3437370 ros-humble-autoware-gyro-odometer-dbgsym_0-2025.04.15.20.51_amd64.ddeb
+ 595bf67e6c671c773350385137868dfb590c0275a27d68d1d6d9fa1526c9c693 40543 ros-humble-autoware-gyro-odometer_0-2025.04.15.20.51_amd64.buildinfo
+ d105a1918ee3e0e26007c4d7e81bf28a87e7fb1e2e581eedc0a458f754aae158 160514 ros-humble-autoware-gyro-odometer_0-2025.04.15.20.51_amd64.deb
+Files:
+ 1d4807187f4c7810df4ffb27e857a951 3437370 debug optional ros-humble-autoware-gyro-odometer-dbgsym_0-2025.04.15.20.51_amd64.ddeb
+ 79627936cd61594e63a54b5389c2a15a 40543 misc optional ros-humble-autoware-gyro-odometer_0-2025.04.15.20.51_amd64.buildinfo
+ f69e3233a30966835beab55a304eae22 160514 misc optional ros-humble-autoware-gyro-odometer_0-2025.04.15.20.51_amd64.deb

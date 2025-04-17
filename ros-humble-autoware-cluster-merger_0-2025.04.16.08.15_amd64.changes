@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-cluster-merger
+Binary: ros-humble-autoware-cluster-merger
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.08.15
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-cluster-merger - The ROS 2 cluster merger package
+Changes:
+ ros-humble-autoware-cluster-merger (0-2025.04.16.08.15) jammy; urgency=high
+Checksums-Sha1:
+ fb39248d6e10e4b2307bbb6b8f7d5ddc3aad0d22 4190194 ros-humble-autoware-cluster-merger-dbgsym_0-2025.04.16.08.15_amd64.ddeb
+ e19280250b3962324fc53b6b51a2a7474f274fa6 43815 ros-humble-autoware-cluster-merger_0-2025.04.16.08.15_amd64.buildinfo
+ b606cd6a3c03bb432a953a02b05930e75c50d9e7 191492 ros-humble-autoware-cluster-merger_0-2025.04.16.08.15_amd64.deb
+Checksums-Sha256:
+ 7787b30ee89926dc77bdeaf111d17a724d43727b8e98672e2488b92e4a290545 4190194 ros-humble-autoware-cluster-merger-dbgsym_0-2025.04.16.08.15_amd64.ddeb
+ c8ebf8157d5bac3bd4f4f1c73bf46ecae3a43bd9ea6f724839003b1f00af54e8 43815 ros-humble-autoware-cluster-merger_0-2025.04.16.08.15_amd64.buildinfo
+ 1ba25a7db47556eb320bf95275b6ff7ddd0b4b41d7ac054c0449726f66934ac9 191492 ros-humble-autoware-cluster-merger_0-2025.04.16.08.15_amd64.deb
+Files:
+ 4f266958263b48d121cbf4a7cfb06f78 4190194 debug optional ros-humble-autoware-cluster-merger-dbgsym_0-2025.04.16.08.15_amd64.ddeb
+ 53d816e3c5148a73cc219943dc8a6710 43815 misc optional ros-humble-autoware-cluster-merger_0-2025.04.16.08.15_amd64.buildinfo
+ df6013de246d3625296ef9e6a30545df 191492 misc optional ros-humble-autoware-cluster-merger_0-2025.04.16.08.15_amd64.deb

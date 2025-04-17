@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Wed, 12 Feb 2025 00:00:00 -0000
+Source: ros-humble-sample-sensor-kit-launch
+Binary: ros-humble-sample-sensor-kit-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.18.29
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-sample-sensor-kit-launch - The sample_sensor_kit_launch package
+Changes:
+ ros-humble-sample-sensor-kit-launch (0-2025.04.15.18.29) jammy; urgency=high
+ .
+   * feat(sample_sensor_kit_launch): concatenate node load from parameter file (#108 <https://github.com/autowarefoundation/sample_sensor_kit_launch/issues/108>)
+     * feat: concatenate node load from parameter file
+     * chore: update params
+     * chore: add use_naive_approach
+     * chore: remove space
+     * feat: add matching strategy params
+     ---------
+   * Contributors: Yi-Hsiang Fang (Vivid)
+Checksums-Sha1:
+ 895c1cdedfef3b71ab85fd6bf7de663c64691254 10590 ros-humble-sample-sensor-kit-launch_0-2025.04.15.18.29_amd64.buildinfo
+ 6ab4132d3646604b954f0c7f1edac9ccf2e2f2de 16678 ros-humble-sample-sensor-kit-launch_0-2025.04.15.18.29_amd64.deb
+Checksums-Sha256:
+ 6b7960dd6aafa8086191a4662e0a9691998d7ff46c00db5ebe479463e336c2e8 10590 ros-humble-sample-sensor-kit-launch_0-2025.04.15.18.29_amd64.buildinfo
+ 3b12a0b90dc6ae1883d014ff4dd701a51249fe79e2d4120cd17d76b8d2df5c68 16678 ros-humble-sample-sensor-kit-launch_0-2025.04.15.18.29_amd64.deb
+Files:
+ dddcf748fc5682aa8c6946d3ec1da4ef 10590 misc optional ros-humble-sample-sensor-kit-launch_0-2025.04.15.18.29_amd64.buildinfo
+ 67d38d9210bd60f3392b8b3c6fbf17c9 16678 misc optional ros-humble-sample-sensor-kit-launch_0-2025.04.15.18.29_amd64.deb

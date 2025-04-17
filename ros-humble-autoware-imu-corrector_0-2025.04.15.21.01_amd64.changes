@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-imu-corrector
+Binary: ros-humble-autoware-imu-corrector
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.21.01
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-imu-corrector - The ROS 2 autoware_imu_corrector package
+Changes:
+ ros-humble-autoware-imu-corrector (0-2025.04.15.21.01) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * fix(imu_corrector): remove non-periodic publish to /diagnostics topic (#9951 <https://github.com/autowarefoundation/autoware.universe/issues/9951>)
+     fix(imu_corrector): remove force_update() in timer callback
+     Co-authored-by: Takahisa.Ishikawa <mailto:takahisa.ishikawa@tier4.jp>
+   * Contributors: Fumiya Watanabe, interimadd
+Checksums-Sha1:
+ 50998a5071fd2670991b2a04d719c82814ef1c1f 5910580 ros-humble-autoware-imu-corrector-dbgsym_0-2025.04.15.21.01_amd64.ddeb
+ b82580a639291a8807e4cf9029c5d1185d348f6c 40529 ros-humble-autoware-imu-corrector_0-2025.04.15.21.01_amd64.buildinfo
+ a64201eafcebcbf0d05659b4bb2021cabf774f7f 242196 ros-humble-autoware-imu-corrector_0-2025.04.15.21.01_amd64.deb
+Checksums-Sha256:
+ d79aed397e2fcaafb0374a5314a5acc0c16b5ec801d7ff0e2716a6f32a55c344 5910580 ros-humble-autoware-imu-corrector-dbgsym_0-2025.04.15.21.01_amd64.ddeb
+ 6437c8d624eca05bb4cf199c1025cf678bcdd8c96103aa914ba7f95d587a962b 40529 ros-humble-autoware-imu-corrector_0-2025.04.15.21.01_amd64.buildinfo
+ 66317f4b4c6f3a078cc912e6031f60b725cb1715abb5da4f702f17feaf6a2e3d 242196 ros-humble-autoware-imu-corrector_0-2025.04.15.21.01_amd64.deb
+Files:
+ 3c19ccfb1a5e1b7e1130a8d8b85da953 5910580 debug optional ros-humble-autoware-imu-corrector-dbgsym_0-2025.04.15.21.01_amd64.ddeb
+ f7e8244828685efc0460bf5fff2c1651 40529 misc optional ros-humble-autoware-imu-corrector_0-2025.04.15.21.01_amd64.buildinfo
+ 100d23dd5fae9c58e4582b99ed6e9162 242196 misc optional ros-humble-autoware-imu-corrector_0-2025.04.15.21.01_amd64.deb

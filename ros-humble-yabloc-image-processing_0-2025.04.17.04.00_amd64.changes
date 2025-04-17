@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-yabloc-image-processing
+Binary: ros-humble-yabloc-image-processing
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.17.04.00
+Distribution: jammy
+Urgency: high
+Maintainer: Kento Yabuuchi <kento.yabuuchi.2@tier4.jp>
+Changed-By: Kento Yabuuchi <kento.yabuuchi.2@tier4.jp>
+Description:
+ ros-humble-yabloc-image-processing - YabLoc image processing package
+Changes:
+ ros-humble-yabloc-image-processing (0-2025.04.17.04.00) jammy; urgency=high
+Checksums-Sha1:
+ 8ce072afc7912a426bf478d32cc73536c43f4ecb 15861932 ros-humble-yabloc-image-processing-dbgsym_0-2025.04.17.04.00_amd64.ddeb
+ abd290ab4af96bc1658c01504db9f177d442d540 46580 ros-humble-yabloc-image-processing_0-2025.04.17.04.00_amd64.buildinfo
+ 05ae7cdf8cce5bdddd8c52f5701e99e785de5f82 386046 ros-humble-yabloc-image-processing_0-2025.04.17.04.00_amd64.deb
+Checksums-Sha256:
+ 39f1cd51eecaf029c15f6018f5de53a367cae57e6e891947cc8df29ab0f3c198 15861932 ros-humble-yabloc-image-processing-dbgsym_0-2025.04.17.04.00_amd64.ddeb
+ db455a4581099271a48087aac79783c32a15b45f520a43e924d74b109bad008a 46580 ros-humble-yabloc-image-processing_0-2025.04.17.04.00_amd64.buildinfo
+ b198a1b5e80050812aad61d4ce5814dc39b8d55eba672b0a3e3e427c00979ea5 386046 ros-humble-yabloc-image-processing_0-2025.04.17.04.00_amd64.deb
+Files:
+ 0d12ee65391dc226eb8bd7c28b0906f3 15861932 debug optional ros-humble-yabloc-image-processing-dbgsym_0-2025.04.17.04.00_amd64.ddeb
+ 7c8f885817b8bc3d6fd0cdfca55df00a 46580 misc optional ros-humble-yabloc-image-processing_0-2025.04.17.04.00_amd64.buildinfo
+ dea066708d04e700f6cb61f74ef0899e 386046 misc optional ros-humble-yabloc-image-processing_0-2025.04.17.04.00_amd64.deb

@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Wed, 12 Feb 2025 00:00:00 -0000
+Source: ros-humble-awsim-labs-sensor-kit-description
+Binary: ros-humble-awsim-labs-sensor-kit-description
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.17.03.24
+Distribution: jammy
+Urgency: high
+Maintainer: Piotr Jaroszek <piotr.jaroszek@robotec.ai>
+Changed-By: Piotr Jaroszek <piotr.jaroszek@robotec.ai>
+Description:
+ ros-humble-awsim-labs-sensor-kit-description - The awsim_labs_sensor_kit_description package
+Changes:
+ ros-humble-awsim-labs-sensor-kit-description (0-2025.04.17.03.24) jammy; urgency=high
+Checksums-Sha1:
+ 70de94cfc212932f13a876e7bd154451c42f0ed9 10947 ros-humble-awsim-labs-sensor-kit-description_0-2025.04.17.03.24_amd64.buildinfo
+ 76de4e3dc942c434cb82906605cf99f89ba7d1af 7594 ros-humble-awsim-labs-sensor-kit-description_0-2025.04.17.03.24_amd64.deb
+Checksums-Sha256:
+ 39855eb4261b725ef30ff7b3d91141ec83610cc06caf3d78eab547bca08078a6 10947 ros-humble-awsim-labs-sensor-kit-description_0-2025.04.17.03.24_amd64.buildinfo
+ 50278d434662ad1b64ea0f66ebf0014bb949b6d9e0e22d52401020d1caad2c99 7594 ros-humble-awsim-labs-sensor-kit-description_0-2025.04.17.03.24_amd64.deb
+Files:
+ 4904b90b2618fbb9720c0836e17a9bb0 10947 misc optional ros-humble-awsim-labs-sensor-kit-description_0-2025.04.17.03.24_amd64.buildinfo
+ 3e3405825e7825508218aedcf1c496fb 7594 misc optional ros-humble-awsim-labs-sensor-kit-description_0-2025.04.17.03.24_amd64.deb

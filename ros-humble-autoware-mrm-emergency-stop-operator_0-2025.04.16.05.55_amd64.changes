@@ -1,0 +1,46 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-mrm-emergency-stop-operator
+Binary: ros-humble-autoware-mrm-emergency-stop-operator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.05.55
+Distribution: jammy
+Urgency: high
+Maintainer: Makoto Kurihara <makoto.kurihara@tier4.jp>
+Changed-By: Makoto Kurihara <makoto.kurihara@tier4.jp>
+Description:
+ ros-humble-autoware-mrm-emergency-stop-operator - The MRM emergency stop operator package
+Changes:
+ ros-humble-autoware-mrm-emergency-stop-operator (0-2025.04.16.05.55) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware_ prefix for mrm_emergency_stop_operator (#9973 <https://github.com/autowarefoundation/autoware.universe/issues/9973>)
+     * feat(mrm_emergency_stop_operator): apply autoware_ prefix (see below):
+     Note:
+     * In this commit, I did not organize a folder structure.
+     The folder structure will be organized in the next some commits.
+     * The changes will follow the Autoware's guideline as below:
+     - https://autowarefoundation.github.io/autoware-documentation/main/contributing/coding-guidelines/ros-nodes/directory-structure/#package-folder
+     * rename(mrm_emergency_stop_operator): move a header under include/autoware:
+     * Fixes due to this changes for .hpp/.cpp files will be applied in the next commit
+     * fix(mrm_emergency_stop_operator): fix include header path
+     * To follow the previous commit
+     * rename: mrm_emergency_stop_operator => autoware_mrm_emergency_stop_operator
+     * bug(autoware_mrm_emergency_stop_operator): revert wrongly updated copyrights
+     * bug(tier4_system_launch): fix a missing autoware_ for mrm_emergency_stop_operator
+     * bug(autoware_mrm_emergency_stop_operator): fix critical bugs that contaminate topic names
+     ---------
+   * Contributors: Fumiya Watanabe, Junya Sasaki
+Checksums-Sha1:
+ 151da116210dd0dc7b72e4b5898d01b45e8456dd 2664988 ros-humble-autoware-mrm-emergency-stop-operator-dbgsym_0-2025.04.16.05.55_amd64.ddeb
+ ba7edd5e7ee74dd9351fa67e23a770ad588a423a 40948 ros-humble-autoware-mrm-emergency-stop-operator_0-2025.04.16.05.55_amd64.buildinfo
+ 9990ef4a3912654be5fcbf462d44b2715a60773c 140628 ros-humble-autoware-mrm-emergency-stop-operator_0-2025.04.16.05.55_amd64.deb
+Checksums-Sha256:
+ bdbb5c117e10ec036198a272d4f41cb46f745b3164d31d8ee8fc4342e7033615 2664988 ros-humble-autoware-mrm-emergency-stop-operator-dbgsym_0-2025.04.16.05.55_amd64.ddeb
+ 5579867bad6d70118972563a39c52e941a1ea54071b521979f9afd248eb3022c 40948 ros-humble-autoware-mrm-emergency-stop-operator_0-2025.04.16.05.55_amd64.buildinfo
+ 86c48fce7007e62731d015ef14cb7e472d1b5901802a2b8424e18d618cac3e7d 140628 ros-humble-autoware-mrm-emergency-stop-operator_0-2025.04.16.05.55_amd64.deb
+Files:
+ 05c2c0dd167d90e775640c50561afac1 2664988 debug optional ros-humble-autoware-mrm-emergency-stop-operator-dbgsym_0-2025.04.16.05.55_amd64.ddeb
+ 68a40be3a2bad523a07eae38122a5da3 40948 misc optional ros-humble-autoware-mrm-emergency-stop-operator_0-2025.04.16.05.55_amd64.buildinfo
+ daeb48b63ea600b6e45bac12a4977e44 140628 misc optional ros-humble-autoware-mrm-emergency-stop-operator_0-2025.04.16.05.55_amd64.deb

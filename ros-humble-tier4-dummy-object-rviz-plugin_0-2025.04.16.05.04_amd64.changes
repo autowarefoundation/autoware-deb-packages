@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-tier4-dummy-object-rviz-plugin
+Binary: ros-humble-tier4-dummy-object-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.05.04
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-tier4-dummy-object-rviz-plugin - The tier4_dummy_object_rviz_plugin package
+Changes:
+ ros-humble-tier4-dummy-object-rviz-plugin (0-2025.04.16.05.04) jammy; urgency=high
+Checksums-Sha1:
+ 9678928cc4c315c611f7e2218f91313237c1cb84 2446026 ros-humble-tier4-dummy-object-rviz-plugin-dbgsym_0-2025.04.16.05.04_amd64.ddeb
+ f990b58bb09d98496d1165d7cc525e0b4649c537 24342 ros-humble-tier4-dummy-object-rviz-plugin_0-2025.04.16.05.04_amd64.buildinfo
+ 8e25f224e5326e5318fb891ae362363ac9c8ff66 79074 ros-humble-tier4-dummy-object-rviz-plugin_0-2025.04.16.05.04_amd64.deb
+Checksums-Sha256:
+ bfc0ffd1cdce74ec3bcd35a74794d138e4628d661035b9062494f613084c184c 2446026 ros-humble-tier4-dummy-object-rviz-plugin-dbgsym_0-2025.04.16.05.04_amd64.ddeb
+ 34022ea4f0977f19d7fd81f0a4631cd083983fa188a9180d0780f2a8c91d7373 24342 ros-humble-tier4-dummy-object-rviz-plugin_0-2025.04.16.05.04_amd64.buildinfo
+ 5a24da1ddda1d03d13a1ba7b016addd1e78e2dcfe4664f54b59c69aa25ceed24 79074 ros-humble-tier4-dummy-object-rviz-plugin_0-2025.04.16.05.04_amd64.deb
+Files:
+ 0fc14ff9d586294abaa63f6e095873a9 2446026 debug optional ros-humble-tier4-dummy-object-rviz-plugin-dbgsym_0-2025.04.16.05.04_amd64.ddeb
+ 722e4d557e705ca2b3f392fab6947a9e 24342 misc optional ros-humble-tier4-dummy-object-rviz-plugin_0-2025.04.16.05.04_amd64.buildinfo
+ 740fb05777f8ea9a512ede8d7fe844c6 79074 misc optional ros-humble-tier4-dummy-object-rviz-plugin_0-2025.04.16.05.04_amd64.deb

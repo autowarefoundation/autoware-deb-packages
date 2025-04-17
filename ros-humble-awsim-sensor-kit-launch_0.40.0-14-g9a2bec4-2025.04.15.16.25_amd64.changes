@@ -1,0 +1,43 @@
+Format: 1.8
+Date: Wed, 12 Feb 2025 00:00:00 -0000
+Source: ros-humble-awsim-sensor-kit-launch
+Binary: ros-humble-awsim-sensor-kit-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.40.0-14-g9a2bec4-2025.04.15.16.25
+Distribution: jammy
+Urgency: high
+Maintainer: Piotr Jaroszek <piotr.jaroszek@robotec.ai>
+Changed-By: Piotr Jaroszek <piotr.jaroszek@robotec.ai>
+Description:
+ ros-humble-awsim-sensor-kit-launch - The awsim_sensor_kit_launch package
+Changes:
+ ros-humble-awsim-sensor-kit-launch (0.40.0-14-g9a2bec4-2025.04.15.16.25) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * Merge pull request #26 <https://github.com/tier4/awsim_sensor_kit_launch/issues/26> from SakodaShintaro/fix/add_udp_only
+     fix: add udp_only
+   * Merge pull request #25 <https://github.com/tier4/awsim_sensor_kit_launch/issues/25> from vividf/feature/tier4_awsim_load_concatenate
+     feat(awsim_sensor_kit_launch): awsim load concatenate node parameters
+   * chore: increase window size
+   * chore: add mathcing strategy
+   * chore: add use_naive_approach
+   * fix(awsim_sensor_kit_launch): add autoware prefix to vehicle_velocity_converter (#27 <https://github.com/tier4/awsim_sensor_kit_launch/issues/27>)
+     * add autoware prefix
+     * add dependency autoware_vehicle_velocity_converter
+     ---------
+   * chore: update params
+   * Added udp_only
+   * chore: fix timeout sec
+   * chore: add space
+   * feat: awsim load comcatenate parameter
+   * Contributors: Masaki Baba, Ryohsuke Mitsudome, SakodaShintaro, Shintaro Sakoda, vividf
+Checksums-Sha1:
+ cc6723fa71be661d2f4c0486df7d87a9864c31ec 10650 ros-humble-awsim-sensor-kit-launch_0.40.0-14-g9a2bec4-2025.04.15.16.25_amd64.buildinfo
+ 7fe5901720f471f395445194588ffc3b7df2bd8f 9412 ros-humble-awsim-sensor-kit-launch_0.40.0-14-g9a2bec4-2025.04.15.16.25_amd64.deb
+Checksums-Sha256:
+ c27302b430de3a15deddfc6a5c528f74e7128a6cb4a1224dff2b607677a2c32c 10650 ros-humble-awsim-sensor-kit-launch_0.40.0-14-g9a2bec4-2025.04.15.16.25_amd64.buildinfo
+ 607f3a205543d028f034dae233943f23d37fd5acf48b9ce4c3e9c95341bad778 9412 ros-humble-awsim-sensor-kit-launch_0.40.0-14-g9a2bec4-2025.04.15.16.25_amd64.deb
+Files:
+ 5795859248c2dcfafca39efc70713440 10650 misc optional ros-humble-awsim-sensor-kit-launch_0.40.0-14-g9a2bec4-2025.04.15.16.25_amd64.buildinfo
+ 04567086c089eb19c0486c2fa295f9bb 9412 misc optional ros-humble-awsim-sensor-kit-launch_0.40.0-14-g9a2bec4-2025.04.15.16.25_amd64.deb

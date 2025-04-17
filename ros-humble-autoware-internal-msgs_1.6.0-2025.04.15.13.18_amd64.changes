@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 19 Feb 2025 00:00:00 -0000
+Source: ros-humble-autoware-internal-msgs
+Binary: ros-humble-autoware-internal-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.6.0-2025.04.15.13.18
+Distribution: jammy
+Urgency: high
+Maintainer: Berkay Karaman <berkay@leodrive.ai>
+Changed-By: Berkay Karaman <berkay@leodrive.ai>
+Description:
+ ros-humble-autoware-internal-msgs - Autoware internal messages package.
+Changes:
+ ros-humble-autoware-internal-msgs (1.6.0-2025.04.15.13.18) jammy; urgency=high
+Checksums-Sha1:
+ 80bea9473da607a1d493c16aa57e9e9472debf6d 263822 ros-humble-autoware-internal-msgs-dbgsym_1.6.0-2025.04.15.13.18_amd64.ddeb
+ 8b8e70533f3b5587e71635df1bd9e732f9b9cd42 14716 ros-humble-autoware-internal-msgs_1.6.0-2025.04.15.13.18_amd64.buildinfo
+ 0b9f0ad79d4664a8e0a57283879ca195bae574b9 53748 ros-humble-autoware-internal-msgs_1.6.0-2025.04.15.13.18_amd64.deb
+Checksums-Sha256:
+ d755b0b97717120d11d6fd9420a0c769f784bf2f8c1bfe29ee46a96966af9bb2 263822 ros-humble-autoware-internal-msgs-dbgsym_1.6.0-2025.04.15.13.18_amd64.ddeb
+ 87e7458e1550f5d7045d1610c608f5adc6788066d037563c3d02efe162d60a21 14716 ros-humble-autoware-internal-msgs_1.6.0-2025.04.15.13.18_amd64.buildinfo
+ d269fdf68b8c0a17546b80f4ff61d152ea123269ce2994b5877ee91b13ad921e 53748 ros-humble-autoware-internal-msgs_1.6.0-2025.04.15.13.18_amd64.deb
+Files:
+ fe02cc05ea68dcd66bf05b677b76f082 263822 debug optional ros-humble-autoware-internal-msgs-dbgsym_1.6.0-2025.04.15.13.18_amd64.ddeb
+ 3f408be371a27c9b3bf4d3883a1cdd80 14716 misc optional ros-humble-autoware-internal-msgs_1.6.0-2025.04.15.13.18_amd64.buildinfo
+ 72fcb511523ea8f8c64116893b51a9f1 53748 misc optional ros-humble-autoware-internal-msgs_1.6.0-2025.04.15.13.18_amd64.deb

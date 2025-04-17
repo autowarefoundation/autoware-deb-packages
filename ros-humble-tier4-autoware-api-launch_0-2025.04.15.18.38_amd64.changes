@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-tier4-autoware-api-launch
+Binary: ros-humble-tier4-autoware-api-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.18.38
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-tier4-autoware-api-launch - The tier4_autoware_api_launch package
+Changes:
+ ros-humble-tier4-autoware-api-launch (0-2025.04.15.18.38) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware_ prefix for default_ad_api_helpers (#9965 <https://github.com/autowarefoundation/autoware.universe/issues/9965>)
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Takagi, Isamu <mailto:isamu.takagi@tier4.jp>
+   * Contributors: Fumiya Watanabe, Junya Sasaki
+Checksums-Sha1:
+ 10f5ba639c5d6a8d78867d674cc425e0898cd1f7 10715 ros-humble-tier4-autoware-api-launch_0-2025.04.15.18.38_amd64.buildinfo
+ 11b00b3ae1b1caa774f6f509719d12678f928750 8278 ros-humble-tier4-autoware-api-launch_0-2025.04.15.18.38_amd64.deb
+Checksums-Sha256:
+ fea2b18e5c3c658669d7b591d78a7e02eb3585f87aacf085a0552724000f0acb 10715 ros-humble-tier4-autoware-api-launch_0-2025.04.15.18.38_amd64.buildinfo
+ dce9e2a7d17495366eeae5adb676acee9d10974d02bea77b1ce3ee3a7301d389 8278 ros-humble-tier4-autoware-api-launch_0-2025.04.15.18.38_amd64.deb
+Files:
+ b1c3000348801d8e54d9941b433bf226 10715 misc optional ros-humble-tier4-autoware-api-launch_0-2025.04.15.18.38_amd64.buildinfo
+ c5499269e1b466d2e22e5b28d922ac1f 8278 misc optional ros-humble-tier4-autoware-api-launch_0-2025.04.15.18.38_amd64.deb

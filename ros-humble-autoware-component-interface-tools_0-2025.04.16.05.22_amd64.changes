@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-component-interface-tools
+Binary: ros-humble-autoware-component-interface-tools
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.05.22
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-component-interface-tools - The autoware_component_interface_tools package
+Changes:
+ ros-humble-autoware-component-interface-tools (0-2025.04.16.05.22) jammy; urgency=high
+Checksums-Sha1:
+ fb484b0e92d281f25a505a74f46a71a010652eed 3032424 ros-humble-autoware-component-interface-tools-dbgsym_0-2025.04.16.05.22_amd64.ddeb
+ 77ce860e977d46b7ada1a1e16cee96af3632adff 16696 ros-humble-autoware-component-interface-tools_0-2025.04.16.05.22_amd64.buildinfo
+ f1b767a1b66bd6224a859ab79dbd33372ae0a13a 179810 ros-humble-autoware-component-interface-tools_0-2025.04.16.05.22_amd64.deb
+Checksums-Sha256:
+ ecdebe18aedb3adb98126ca6e55a030485a83e4220ada9154ab2114661039081 3032424 ros-humble-autoware-component-interface-tools-dbgsym_0-2025.04.16.05.22_amd64.ddeb
+ 69162b528d060abed96ef9eb8814bb5d40a6dadc020cd8863e0641ce60f06286 16696 ros-humble-autoware-component-interface-tools_0-2025.04.16.05.22_amd64.buildinfo
+ 4f82de6e321f4ca37fd97c558867ef28e01d69d4d5254295d5c26079f4ba3fa6 179810 ros-humble-autoware-component-interface-tools_0-2025.04.16.05.22_amd64.deb
+Files:
+ 23a98fc673e0e1f17b731f4d380dc94d 3032424 debug optional ros-humble-autoware-component-interface-tools-dbgsym_0-2025.04.16.05.22_amd64.ddeb
+ 80f58e6e47d63fc0a1eb56d24641f3f1 16696 misc optional ros-humble-autoware-component-interface-tools_0-2025.04.16.05.22_amd64.buildinfo
+ 1c61c90567448c84747795a3eb3fa12b 179810 misc optional ros-humble-autoware-component-interface-tools_0-2025.04.16.05.22_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-yabloc-particle-filter
+Binary: ros-humble-yabloc-particle-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.17.04.24
+Distribution: jammy
+Urgency: high
+Maintainer: Kento Yabuuchi <kento.yabuuchi.2@tier4.jp>
+Changed-By: Kento Yabuuchi <kento.yabuuchi.2@tier4.jp>
+Description:
+ ros-humble-yabloc-particle-filter - YabLoc particle filter package
+Changes:
+ ros-humble-yabloc-particle-filter (0-2025.04.17.04.24) jammy; urgency=high
+Checksums-Sha1:
+ 01268dcda576b02072098d41df4184561b845893 22656466 ros-humble-yabloc-particle-filter-dbgsym_0-2025.04.17.04.24_amd64.ddeb
+ 2b1ad96d08db2455ba5341fd56f626832b88b49d 46698 ros-humble-yabloc-particle-filter_0-2025.04.17.04.24_amd64.buildinfo
+ 3e5945ba2e1ec80f78b7560fd0a597a337ab6414 630572 ros-humble-yabloc-particle-filter_0-2025.04.17.04.24_amd64.deb
+Checksums-Sha256:
+ ad3405bd1d77518f69e7991eafcb2f13b5b5208abeb3812bb91483b9d9135122 22656466 ros-humble-yabloc-particle-filter-dbgsym_0-2025.04.17.04.24_amd64.ddeb
+ b5df2e0d52d1f86e2fe6f187ebf080304b4c1846dc6d3e8069736cb373cf8d7f 46698 ros-humble-yabloc-particle-filter_0-2025.04.17.04.24_amd64.buildinfo
+ c91014a8f459eef5888bc28d49ded4044a752cb1ed0e2af157a0af8044b8ab99 630572 ros-humble-yabloc-particle-filter_0-2025.04.17.04.24_amd64.deb
+Files:
+ fd9d30ff5bacb333d6371a028344e2e6 22656466 debug optional ros-humble-yabloc-particle-filter-dbgsym_0-2025.04.17.04.24_amd64.ddeb
+ b91daed9adf870bddd8d6af1187719eb 46698 misc optional ros-humble-yabloc-particle-filter_0-2025.04.17.04.24_amd64.buildinfo
+ 5279427d28bd11a6290f42f37acb5fd4 630572 misc optional ros-humble-yabloc-particle-filter_0-2025.04.17.04.24_amd64.deb

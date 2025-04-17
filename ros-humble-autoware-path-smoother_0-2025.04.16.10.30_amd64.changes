@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-path-smoother
+Binary: ros-humble-autoware-path-smoother
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.10.30
+Distribution: jammy
+Urgency: high
+Maintainer: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Changed-By: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Description:
+ ros-humble-autoware-path-smoother - The autoware_path_smoother package
+Changes:
+ ros-humble-autoware-path-smoother (0-2025.04.16.10.30) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_path_smoother)!: tier4_debug_msgs changed to autoware_internal_debug_msgs in autoware_path_smoother (#9910 <https://github.com/autowarefoundation/autoware.universe/issues/9910>)
+     * feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files planning/autoware_path_smoother
+     * Update planning/autoware_path_smoother/package.xml
+     ---------
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+   * feat(motion_planning): use StringStamped in autoware_internal_debug_msgs (#9742 <https://github.com/autowarefoundation/autoware.universe/issues/9742>)
+     feat(motion planning): use StringStamped in autoware_internal_debug_msgs
+   * fix(autoware_path_smoother): fix bugprone-branch-clone (#9697 <https://github.com/autowarefoundation/autoware.universe/issues/9697>)
+     * fix: bugprone-error
+     * fix: bugprone-error
+     ---------
+   * Contributors: Fumiya Watanabe, Takayuki Murooka, Vishal Chauhan, kobayu858
+Checksums-Sha1:
+ 3237279ff030ce20ad5ce7dce023931645998732 5001634 ros-humble-autoware-path-smoother-dbgsym_0-2025.04.16.10.30_amd64.ddeb
+ 138f81eed3a021bbdec5d868f0ec3d689d1962d1 44887 ros-humble-autoware-path-smoother_0-2025.04.16.10.30_amd64.buildinfo
+ 7af36d2a43e9ef220878db0cea3ed0b4a0e5bb04 211550 ros-humble-autoware-path-smoother_0-2025.04.16.10.30_amd64.deb
+Checksums-Sha256:
+ 4c7531b4eebf293f3c1272f8f32892df90b5ecd5459f22b055a77af3ad133ed2 5001634 ros-humble-autoware-path-smoother-dbgsym_0-2025.04.16.10.30_amd64.ddeb
+ 3c9325f4b4606bbe625589c9fa505e9500d7e08f7f915e9d4b345b6a0a127330 44887 ros-humble-autoware-path-smoother_0-2025.04.16.10.30_amd64.buildinfo
+ f17c430af635e1616c149b333692a5b787909097ab0de1f3633930a1b6add477 211550 ros-humble-autoware-path-smoother_0-2025.04.16.10.30_amd64.deb
+Files:
+ 9600130b08fed7684796450102f3de20 5001634 debug optional ros-humble-autoware-path-smoother-dbgsym_0-2025.04.16.10.30_amd64.ddeb
+ b0850b3825bad2a16c1b8bb52d65e3db 44887 misc optional ros-humble-autoware-path-smoother_0-2025.04.16.10.30_amd64.buildinfo
+ ed6423ddbbc713eb597a42f88a1a9c2e 211550 misc optional ros-humble-autoware-path-smoother_0-2025.04.16.10.30_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-fake-test-node
+Binary: ros-humble-autoware-fake-test-node
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.13.39
+Distribution: jammy
+Urgency: high
+Maintainer: Apex.AI, Inc. <opensource@apex.ai>
+Changed-By: Apex.AI, Inc. <opensource@apex.ai>
+Description:
+ ros-humble-autoware-fake-test-node - A fake node that we can use in the integration-like cpp tests.
+Changes:
+ ros-humble-autoware-fake-test-node (0-2025.04.15.13.39) jammy; urgency=high
+Checksums-Sha1:
+ 5b49dc8da119b082b1a3e182ff71cdba24cfd120 1987144 ros-humble-autoware-fake-test-node-dbgsym_0-2025.04.15.13.39_amd64.ddeb
+ 213c92d201830f9ab54db29010c1d9d76d8a0149 16658 ros-humble-autoware-fake-test-node_0-2025.04.15.13.39_amd64.buildinfo
+ f04957d03194e75d131b02537c394785136b5eff 107588 ros-humble-autoware-fake-test-node_0-2025.04.15.13.39_amd64.deb
+Checksums-Sha256:
+ dc7476e2c36d7e348dd7a126bfe91d3206c5a85c340964265b8566d862d854c6 1987144 ros-humble-autoware-fake-test-node-dbgsym_0-2025.04.15.13.39_amd64.ddeb
+ 80edfc7766e1b8689f7ec023e91ceefd355f97aace8f9a659e872ee139f19498 16658 ros-humble-autoware-fake-test-node_0-2025.04.15.13.39_amd64.buildinfo
+ 2b8b64fb675e49a791e01b04b574b900e3417727d3b3942959a6c87ee7604927 107588 ros-humble-autoware-fake-test-node_0-2025.04.15.13.39_amd64.deb
+Files:
+ 86c1bdc383faf5e2cdd1215417c82d9c 1987144 debug optional ros-humble-autoware-fake-test-node-dbgsym_0-2025.04.15.13.39_amd64.ddeb
+ a43258357ae06cb32760fc1267e57af5 16658 misc optional ros-humble-autoware-fake-test-node_0-2025.04.15.13.39_amd64.buildinfo
+ 9812bf90ca5bf3043f65123d79cc42b3 107588 misc optional ros-humble-autoware-fake-test-node_0-2025.04.15.13.39_amd64.deb

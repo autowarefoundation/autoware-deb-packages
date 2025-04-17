@@ -1,0 +1,44 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-mpc-lateral-controller
+Binary: ros-humble-autoware-mpc-lateral-controller
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.03.58
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-mpc-lateral-controller - MPC-based lateral controller
+Changes:
+ ros-humble-autoware-mpc-lateral-controller (0-2025.04.16.03.58) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in fil… (#9846 <https://github.com/autowarefoundation/autoware.universe/issues/9846>)
+     * feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files ontrol/autoware_mpc_lateral_controller
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * chore(autoware_mpc_lateral_controller): fix formula description in vehicle_model_bicycle_kinematics.hpp (#8971 <https://github.com/autowarefoundation/autoware.universe/issues/8971>)
+     fix formula description in vehicle_model_bicycle_kinematics.hpp
+   * fix(mpc_lateral_controller): prevent unstable steering command while stopped (#9690 <https://github.com/autowarefoundation/autoware.universe/issues/9690>)
+     * modify logic of function isStoppedState
+     * use a constant distance margin instead of wheelbase length
+     * add comment to implementation
+     ---------
+   * feat(mpc_lateral_controller): remove trans/rot deviation validation since the control_validator has the same feature (#9684 <https://github.com/autowarefoundation/autoware.universe/issues/9684>)
+   * docs: modified minor sign error (#8140 <https://github.com/autowarefoundation/autoware.universe/issues/8140>)
+   * Contributors: Autumn60, Fumiya Watanabe, Takayuki Murooka, Vishal Chauhan, Yuki Kimura, mkquda
+Checksums-Sha1:
+ fb45dad3dc35ba177557b8a822561ca342238346 7180814 ros-humble-autoware-mpc-lateral-controller-dbgsym_0-2025.04.16.03.58_amd64.ddeb
+ 1a569e29edd9f85eaf1edc58a933cfe26219d822 41287 ros-humble-autoware-mpc-lateral-controller_0-2025.04.16.03.58_amd64.buildinfo
+ 287c4279218f5033481d5b8603736b4d2ee257af 197950 ros-humble-autoware-mpc-lateral-controller_0-2025.04.16.03.58_amd64.deb
+Checksums-Sha256:
+ b8f00c867111bf3ddbc38cf35697b7ade2920c0f21ad5b3bae0af28f11d9b6f3 7180814 ros-humble-autoware-mpc-lateral-controller-dbgsym_0-2025.04.16.03.58_amd64.ddeb
+ 56bb0a59770f722607279a936cd6c7b653cead78b5a3f82993b1ec05c5ac3c7f 41287 ros-humble-autoware-mpc-lateral-controller_0-2025.04.16.03.58_amd64.buildinfo
+ b832375ff820570c0b2f0e04827beb2dc240c86c57c5b9b4edec955d5b822e42 197950 ros-humble-autoware-mpc-lateral-controller_0-2025.04.16.03.58_amd64.deb
+Files:
+ aecb3c40b7af0fb9a2a66a7f6d8e3b7c 7180814 debug optional ros-humble-autoware-mpc-lateral-controller-dbgsym_0-2025.04.16.03.58_amd64.ddeb
+ 9076559489bdb8c533e1f2b26fe329fe 41287 misc optional ros-humble-autoware-mpc-lateral-controller_0-2025.04.16.03.58_amd64.buildinfo
+ 8e519ca1083011853b8b522950c6e793 197950 misc optional ros-humble-autoware-mpc-lateral-controller_0-2025.04.16.03.58_amd64.deb

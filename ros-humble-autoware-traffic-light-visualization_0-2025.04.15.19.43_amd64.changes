@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-traffic-light-visualization
+Binary: ros-humble-autoware-traffic-light-visualization
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.19.43
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-traffic-light-visualization - The autoware_traffic_light_visualization package
+Changes:
+ ros-humble-autoware-traffic-light-visualization (0-2025.04.15.19.43) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * fix(autoware_traffic_light_visualization): fix bugprone-branch-clone (#9668 <https://github.com/autowarefoundation/autoware.universe/issues/9668>)
+     fix: bugprone-error
+   * Contributors: Fumiya Watanabe, kobayu858
+Checksums-Sha1:
+ 62aaa62320ef948806747e1cb9c57c2a892e09d7 8801170 ros-humble-autoware-traffic-light-visualization-dbgsym_0-2025.04.15.19.43_amd64.ddeb
+ 7e20fdf482aeb4ad3cf81eb58f5c80eeb29b71db 45621 ros-humble-autoware-traffic-light-visualization_0-2025.04.15.19.43_amd64.buildinfo
+ d7976bc6017b47514a464e7b462ac6ac6b4a258c 2426018 ros-humble-autoware-traffic-light-visualization_0-2025.04.15.19.43_amd64.deb
+Checksums-Sha256:
+ 1745425881a30d665c75100ae1d76c13e0e44f309698e6e00dd389ceed711242 8801170 ros-humble-autoware-traffic-light-visualization-dbgsym_0-2025.04.15.19.43_amd64.ddeb
+ 8a19f7411c12ee71f580efa57bce311f1ed4a2b86cdee21d89dfa922be47c3da 45621 ros-humble-autoware-traffic-light-visualization_0-2025.04.15.19.43_amd64.buildinfo
+ e773fdcedd6a1d0ba5edd4c8fb9fe6e08e8dd4ddf432d360f2b2d9e1b4f97765 2426018 ros-humble-autoware-traffic-light-visualization_0-2025.04.15.19.43_amd64.deb
+Files:
+ f82292179cfd4c191c47b5c7e1173858 8801170 debug optional ros-humble-autoware-traffic-light-visualization-dbgsym_0-2025.04.15.19.43_amd64.ddeb
+ 805171bec30df4bd6d647ae965ff5bdb 45621 misc optional ros-humble-autoware-traffic-light-visualization_0-2025.04.15.19.43_amd64.buildinfo
+ fc5709d1fea94dc0217fc7ac28e503e3 2426018 misc optional ros-humble-autoware-traffic-light-visualization_0-2025.04.15.19.43_amd64.deb

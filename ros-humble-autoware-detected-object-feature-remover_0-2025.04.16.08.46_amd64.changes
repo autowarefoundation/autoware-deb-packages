@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-detected-object-feature-remover
+Binary: ros-humble-autoware-detected-object-feature-remover
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.08.46
+Distribution: jammy
+Urgency: high
+Maintainer: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Changed-By: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Description:
+ ros-humble-autoware-detected-object-feature-remover - The autoware_detected_object_feature_remover package
+Changes:
+ ros-humble-autoware-detected-object-feature-remover (0-2025.04.16.08.46) jammy; urgency=high
+Checksums-Sha1:
+ 8f74d2c499a5cca5aae23db98b594d5411aa3ebc 2607940 ros-humble-autoware-detected-object-feature-remover-dbgsym_0-2025.04.16.08.46_amd64.ddeb
+ 277fb387e31bf0ce6c646ded6068200b87eb61a5 43823 ros-humble-autoware-detected-object-feature-remover_0-2025.04.16.08.46_amd64.buildinfo
+ df1c44f8aba6230fac2fb2ce2e9932e402761eba 128956 ros-humble-autoware-detected-object-feature-remover_0-2025.04.16.08.46_amd64.deb
+Checksums-Sha256:
+ 278328abccd25ea03c49d84e4590d087dd2a3b4dc8c6b5a4061815268e65a06c 2607940 ros-humble-autoware-detected-object-feature-remover-dbgsym_0-2025.04.16.08.46_amd64.ddeb
+ 9f751f333899175bea7b17990568a057350ebe804566107a07767b92faae3d64 43823 ros-humble-autoware-detected-object-feature-remover_0-2025.04.16.08.46_amd64.buildinfo
+ be9532f0e623ac7e2e8bd91b9403d0116ea410ba43b708d6ffdbd0d09bf201e7 128956 ros-humble-autoware-detected-object-feature-remover_0-2025.04.16.08.46_amd64.deb
+Files:
+ ecbb927587584419122675d8610c8d93 2607940 debug optional ros-humble-autoware-detected-object-feature-remover-dbgsym_0-2025.04.16.08.46_amd64.ddeb
+ 985f7f5f52511d892106e7d67d9e98a1 43823 misc optional ros-humble-autoware-detected-object-feature-remover_0-2025.04.16.08.46_amd64.buildinfo
+ 779b1d6e6fce4139d5ac018ebcfc08fd 128956 misc optional ros-humble-autoware-detected-object-feature-remover_0-2025.04.16.08.46_amd64.deb

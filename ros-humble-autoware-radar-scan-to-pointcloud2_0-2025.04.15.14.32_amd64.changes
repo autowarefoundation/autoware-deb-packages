@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-radar-scan-to-pointcloud2
+Binary: ros-humble-autoware-radar-scan-to-pointcloud2
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.14.32
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Tanaka <satoshi.tanaka@tier4.jp>
+Changed-By: Satoshi Tanaka <satoshi.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-radar-scan-to-pointcloud2 - autoware_radar_scan_to_pointcloud2
+Changes:
+ ros-humble-autoware-radar-scan-to-pointcloud2 (0-2025.04.15.14.32) jammy; urgency=high
+Checksums-Sha1:
+ bd7a353830f57070edb8ec2786dace99b86df309 2719058 ros-humble-autoware-radar-scan-to-pointcloud2-dbgsym_0-2025.04.15.14.32_amd64.ddeb
+ 6e77a300a52bf1b1b1d03f137caeb73c1fbddb60 40106 ros-humble-autoware-radar-scan-to-pointcloud2_0-2025.04.15.14.32_amd64.buildinfo
+ 8130179db345ade7ecf6086c189cdf02a4f8a6ee 126396 ros-humble-autoware-radar-scan-to-pointcloud2_0-2025.04.15.14.32_amd64.deb
+Checksums-Sha256:
+ a0fe0dc2582d35bfc5a61424b572aa0d08a1417067e1c411143ebab82530f01c 2719058 ros-humble-autoware-radar-scan-to-pointcloud2-dbgsym_0-2025.04.15.14.32_amd64.ddeb
+ 31d29d418b3fb3b1477862d3a569c8bceb253f4eda3583978f7a19bd55e1097f 40106 ros-humble-autoware-radar-scan-to-pointcloud2_0-2025.04.15.14.32_amd64.buildinfo
+ e6597bc6c7e299a71cdae8060eeee57ee636b515eb9a7940f862584b6dcdb974 126396 ros-humble-autoware-radar-scan-to-pointcloud2_0-2025.04.15.14.32_amd64.deb
+Files:
+ 60cce5828e421effa027be02ab7eb8b9 2719058 debug optional ros-humble-autoware-radar-scan-to-pointcloud2-dbgsym_0-2025.04.15.14.32_amd64.ddeb
+ b396748caae34a6711e0bf76c22852a6 40106 misc optional ros-humble-autoware-radar-scan-to-pointcloud2_0-2025.04.15.14.32_amd64.buildinfo
+ 1967fddd7d0c028191504fdaf1cbbba7 126396 misc optional ros-humble-autoware-radar-scan-to-pointcloud2_0-2025.04.15.14.32_amd64.deb

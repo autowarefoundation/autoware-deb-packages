@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-mission-details-overlay-rviz-plugin
+Binary: ros-humble-autoware-mission-details-overlay-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.13.59
+Distribution: jammy
+Urgency: high
+Maintainer: Ahmed Ebrahim <ahmed.ebrahim@leodrive.ai>
+Changed-By: Ahmed Ebrahim <ahmed.ebrahim@leodrive.ai>
+Description:
+ ros-humble-autoware-mission-details-overlay-rviz-plugin - RViz2 plugin for 2D overlays for mission details in the 3D view.
+Changes:
+ ros-humble-autoware-mission-details-overlay-rviz-plugin (0-2025.04.15.13.59) jammy; urgency=high
+Checksums-Sha1:
+ 0b7215f0e8c8e99550cbbaf96f75d8f390a7f050 3136852 ros-humble-autoware-mission-details-overlay-rviz-plugin-dbgsym_0-2025.04.15.13.59_amd64.ddeb
+ 6eaa8d6f2ba68498935a6904c71f8fcb7ee7f0a1 29547 ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.04.15.13.59_amd64.buildinfo
+ f860b226ceadbcac05a8e49a86dfd76e437f59b9 186750 ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.04.15.13.59_amd64.deb
+Checksums-Sha256:
+ 4e18c5307dea7fc9f1733d530df8be61d472d0d76498f1d6f0432276ec1ffcf9 3136852 ros-humble-autoware-mission-details-overlay-rviz-plugin-dbgsym_0-2025.04.15.13.59_amd64.ddeb
+ a59e8fee15621d916da20043dfacf3dad58ed79886141be84f37c69f30b9b51f 29547 ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.04.15.13.59_amd64.buildinfo
+ 6cfdd4653d8728e86ce76d484daa802fa736dff6038c0e529d94ce182dd7614b 186750 ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.04.15.13.59_amd64.deb
+Files:
+ e1ba6654e8f788f5d0112de733ae9f0d 3136852 debug optional ros-humble-autoware-mission-details-overlay-rviz-plugin-dbgsym_0-2025.04.15.13.59_amd64.ddeb
+ 2773a07c31bc05e487f2f2db2d22e957 29547 misc optional ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.04.15.13.59_amd64.buildinfo
+ 6efdece185b20cd5c96a7bee7472c545 186750 misc optional ros-humble-autoware-mission-details-overlay-rviz-plugin_0-2025.04.15.13.59_amd64.deb

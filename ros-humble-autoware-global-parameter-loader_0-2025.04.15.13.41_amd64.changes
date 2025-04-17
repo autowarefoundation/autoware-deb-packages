@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-global-parameter-loader
+Binary: ros-humble-autoware-global-parameter-loader
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.13.41
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-autoware-global-parameter-loader - The autoware_global_parameter_loader package
+Changes:
+ ros-humble-autoware-global-parameter-loader (0-2025.04.15.13.41) jammy; urgency=high
+Checksums-Sha1:
+ cdafd5d0a56e8d4380a9b538d7f54a2e567b13cc 10750 ros-humble-autoware-global-parameter-loader_0-2025.04.15.13.41_amd64.buildinfo
+ bbef1b9fd3dab0df9b18ce1a19f2a41aa3847a20 7414 ros-humble-autoware-global-parameter-loader_0-2025.04.15.13.41_amd64.deb
+Checksums-Sha256:
+ 6f361a17c97004289ce5b61a82edcbc501884365f66d5e51742163f908f260ae 10750 ros-humble-autoware-global-parameter-loader_0-2025.04.15.13.41_amd64.buildinfo
+ b122078ad628124dc20fcf39b75d0131dbd0dbf4ee3b7b8658575e422c67ca4a 7414 ros-humble-autoware-global-parameter-loader_0-2025.04.15.13.41_amd64.deb
+Files:
+ e8b57d9301b297f765930c5acfe39946 10750 misc optional ros-humble-autoware-global-parameter-loader_0-2025.04.15.13.41_amd64.buildinfo
+ 8e088803a54cc56e1ff96c0cca966901 7414 misc optional ros-humble-autoware-global-parameter-loader_0-2025.04.15.13.41_amd64.deb

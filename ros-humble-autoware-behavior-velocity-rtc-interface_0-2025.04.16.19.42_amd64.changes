@@ -1,0 +1,106 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-rtc-interface
+Binary: ros-humble-autoware-behavior-velocity-rtc-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.19.42
+Distribution: jammy
+Urgency: high
+Maintainer: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Changed-By: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-rtc-interface - The autoware_behavior_velocity_rtc_interface package
+Changes:
+ ros-humble-autoware-behavior-velocity-rtc-interface (0-2025.04.16.19.42) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * chore(planning): move package directory for planning factor interface (#9948 <https://github.com/autowarefoundation/autoware.universe/issues/9948>)
+     * chore: add new package for planning factor interface
+     * chore(surround_obstacle_checker): update include file
+     * chore(obstacle_stop_planner): update include file
+     * chore(obstacle_cruise_planner): update include file
+     * chore(motion_velocity_planner): update include file
+     * chore(bpp): update include file
+     * chore(bvp-common): update include file
+     * chore(blind_spot): update include file
+     * chore(crosswalk): update include file
+     * chore(detection_area): update include file
+     * chore(intersection): update include file
+     * chore(no_drivable_area): update include file
+     * chore(no_stopping_area): update include file
+     * chore(occlusion_spot): update include file
+     * chore(run_out): update include file
+     * chore(speed_bump): update include file
+     * chore(stop_line): update include file
+     * chore(template_module): update include file
+     * chore(traffic_light): update include file
+     * chore(vtl): update include file
+     * chore(walkway): update include file
+     * chore(motion_utils): remove factor interface
+     ---------
+   * feat(planning_factor)!: remove velocity_factor, steering_factor and introduce planning_factor (#9927 <https://github.com/autowarefoundation/autoware.universe/issues/9927>)
+     Co-authored-by: Satoshi OTA <mailto:44889564+satoshi-ota@users.noreply.github.com>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: satoshi-ota <mailto:satoshi.ota928@gmail.com>
+   * refactor(behavior_velocity_planner_common): add behavior_velocity_rtc_interface and move RTC-related implementation (#9799 <https://github.com/autowarefoundation/autoware.universe/issues/9799>)
+     * split into planer_common and rtc_interface
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_planner_common/include/autoware/behavior_velocity_planner_common/scene_module_interface.hpp
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_rtc_interface/include/autoware/behavior_velocity_rtc_interface/scene_module_interface_with_rtc.hpp
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+     * fix
+     ---------
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+   * Contributors: Fumiya Watanabe, Mamoru Sobue, Satoshi OTA, Takayuki Murooka
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * chore(planning): move package directory for planning factor interface (#9948 <https://github.com/autowarefoundation/autoware.universe/issues/9948>)
+     * chore: add new package for planning factor interface
+     * chore(surround_obstacle_checker): update include file
+     * chore(obstacle_stop_planner): update include file
+     * chore(obstacle_cruise_planner): update include file
+     * chore(motion_velocity_planner): update include file
+     * chore(bpp): update include file
+     * chore(bvp-common): update include file
+     * chore(blind_spot): update include file
+     * chore(crosswalk): update include file
+     * chore(detection_area): update include file
+     * chore(intersection): update include file
+     * chore(no_drivable_area): update include file
+     * chore(no_stopping_area): update include file
+     * chore(occlusion_spot): update include file
+     * chore(run_out): update include file
+     * chore(speed_bump): update include file
+     * chore(stop_line): update include file
+     * chore(template_module): update include file
+     * chore(traffic_light): update include file
+     * chore(vtl): update include file
+     * chore(walkway): update include file
+     * chore(motion_utils): remove factor interface
+     ---------
+   * feat(planning_factor)!: remove velocity_factor, steering_factor and introduce planning_factor (#9927 <https://github.com/autowarefoundation/autoware.universe/issues/9927>)
+     Co-authored-by: Satoshi OTA <mailto:44889564+satoshi-ota@users.noreply.github.com>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: satoshi-ota <mailto:satoshi.ota928@gmail.com>
+   * refactor(behavior_velocity_planner_common): add behavior_velocity_rtc_interface and move RTC-related implementation (#9799 <https://github.com/autowarefoundation/autoware.universe/issues/9799>)
+     * split into planer_common and rtc_interface
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_planner_common/include/autoware/behavior_velocity_planner_common/scene_module_interface.hpp
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+     * Update planning/behavior_velocity_planner/autoware_behavior_velocity_rtc_interface/include/autoware/behavior_velocity_rtc_interface/scene_module_interface_with_rtc.hpp
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+     * fix
+     ---------
+     Co-authored-by: Mamoru Sobue <mailto:mamoru.sobue@tier4.jp>
+   * Contributors: Fumiya Watanabe, Mamoru Sobue, Satoshi OTA, Takayuki Murooka
+Checksums-Sha1:
+ 9c9f2f4b9d7bb1426c4514587a5ea3c06a6cc1cc 2542364 ros-humble-autoware-behavior-velocity-rtc-interface-dbgsym_0-2025.04.16.19.42_amd64.ddeb
+ 863ec60f02890a109866f7fb7c06bfae3db729f6 44828 ros-humble-autoware-behavior-velocity-rtc-interface_0-2025.04.16.19.42_amd64.buildinfo
+ 81cbf9b301c826c55b0873e4a25f8ce22dc69e5a 90024 ros-humble-autoware-behavior-velocity-rtc-interface_0-2025.04.16.19.42_amd64.deb
+Checksums-Sha256:
+ fa3c7081494c7a84dfc478bed12bbf19a9d5f542956a0044f970b5a64910a4ba 2542364 ros-humble-autoware-behavior-velocity-rtc-interface-dbgsym_0-2025.04.16.19.42_amd64.ddeb
+ bf7211ecb23d695753dcd8bb46eff899b3fc1d38c76c5f213bcd9e381f7c12a3 44828 ros-humble-autoware-behavior-velocity-rtc-interface_0-2025.04.16.19.42_amd64.buildinfo
+ 6be143593ae01afa53b1aa9870b87397850ff46459627cafdc9023f857f66b17 90024 ros-humble-autoware-behavior-velocity-rtc-interface_0-2025.04.16.19.42_amd64.deb
+Files:
+ b63686a3a7db004cbd5272358b9caab8 2542364 debug optional ros-humble-autoware-behavior-velocity-rtc-interface-dbgsym_0-2025.04.16.19.42_amd64.ddeb
+ 4110fafe3e50a1ceeaba4d1fcee0865f 44828 misc optional ros-humble-autoware-behavior-velocity-rtc-interface_0-2025.04.16.19.42_amd64.buildinfo
+ b5c991dd50b41cc8f45da196c6628546 90024 misc optional ros-humble-autoware-behavior-velocity-rtc-interface_0-2025.04.16.19.42_amd64.deb

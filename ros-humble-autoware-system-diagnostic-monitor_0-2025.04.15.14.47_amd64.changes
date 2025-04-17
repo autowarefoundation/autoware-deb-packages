@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-system-diagnostic-monitor
+Binary: ros-humble-autoware-system-diagnostic-monitor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.14.47
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-system-diagnostic-monitor - The autoware_system_diagnostic_monitor package
+Changes:
+ ros-humble-autoware-system-diagnostic-monitor (0-2025.04.15.14.47) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware prefix for component_state_monitor and its dependencies (#9961 <https://github.com/autowarefoundation/autoware.universe/issues/9961>)
+   * Contributors: Fumiya Watanabe, Junya Sasaki
+Checksums-Sha1:
+ 0c6227b1eaf3908e33ac0de2253e3cef4564aaea 10760 ros-humble-autoware-system-diagnostic-monitor_0-2025.04.15.14.47_amd64.buildinfo
+ 2c91afa4b64bfc0b44f67a2672d4644bedae2944 9964 ros-humble-autoware-system-diagnostic-monitor_0-2025.04.15.14.47_amd64.deb
+Checksums-Sha256:
+ 180f3f93f95576750dbdf5270029f3e4c982ef3d62d03aa6eb3af14d577ace30 10760 ros-humble-autoware-system-diagnostic-monitor_0-2025.04.15.14.47_amd64.buildinfo
+ 2c6a1765369c9a3f3753e6af015dd46f8a418f0acaf2796c92213e4479f4b794 9964 ros-humble-autoware-system-diagnostic-monitor_0-2025.04.15.14.47_amd64.deb
+Files:
+ f7557db64820a00658aac7fe3f07461b 10760 misc optional ros-humble-autoware-system-diagnostic-monitor_0-2025.04.15.14.47_amd64.buildinfo
+ 271063416c6d3b8b2ac697c61cb3947f 9964 misc optional ros-humble-autoware-system-diagnostic-monitor_0-2025.04.15.14.47_amd64.deb

@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-lidar-apollo-instance-segmentation
+Binary: ros-humble-autoware-lidar-apollo-instance-segmentation
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.21.27
+Distribution: jammy
+Urgency: high
+Maintainer: Yoshi Ri <yoshi.ri@tier4.jp>
+Changed-By: Yoshi Ri <yoshi.ri@tier4.jp>
+Description:
+ ros-humble-autoware-lidar-apollo-instance-segmentation - autoware_lidar_apollo_instance_segmentation
+Changes:
+ ros-humble-autoware-lidar-apollo-instance-segmentation (0-2025.04.15.21.27) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_lidar_apollo_instance_segmentation): tier4_debug_msgs to autoware_internal_debug_msgs in files perce… (#9876 <https://github.com/autowarefoundation/autoware.universe/issues/9876>)
+     feat: tier4_debug_msgs to autoware_internal_debug_msgs in files perception/autoware_lidar_apollo_instance_segmentation
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+   * refactor(autoware_tensorrt_common): multi-TensorRT compatibility & tensorrt_common as unified lib for all perception components (#9762 <https://github.com/autowarefoundation/autoware.universe/issues/9762>)
+     * refactor(autoware_tensorrt_common): multi-TensorRT compatibility & tensorrt_common as unified lib for all perception components
+     * style(pre-commit): autofix
+     * style(autoware_tensorrt_common): linting
+     * style(autoware_lidar_centerpoint): typo
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * docs(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * fix(autoware_lidar_transfusion): reuse cast variable
+     * fix(autoware_tensorrt_common): remove deprecated inference API
+     * style(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * style(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * fix(autoware_tensorrt_common): const pointer
+     * fix(autoware_tensorrt_common): remove unused method declaration
+     * style(pre-commit): autofix
+     * refactor(autoware_tensorrt_common): readability
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+     * fix(autoware_tensorrt_common): return if layer not registered
+     * refactor(autoware_tensorrt_common): readability
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+     * fix(autoware_tensorrt_common): rename struct
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+   * Contributors: Amadeusz Szymko, Fumiya Watanabe, Vishal Chauhan
+Checksums-Sha1:
+ c666d6835ba53266e761ad97555e91f7667f2aa6 40978 ros-humble-autoware-lidar-apollo-instance-segmentation_0-2025.04.15.21.27_amd64.buildinfo
+ f758d0e57710b4021a4d41c69b4643310d73c444 7354 ros-humble-autoware-lidar-apollo-instance-segmentation_0-2025.04.15.21.27_amd64.deb
+Checksums-Sha256:
+ 4dc99f8d66cca5f8b64c77258d5da4bd4b6c3a1262accdc41b6321d05e32c9e6 40978 ros-humble-autoware-lidar-apollo-instance-segmentation_0-2025.04.15.21.27_amd64.buildinfo
+ edece0d3c14bd06cb65cf80f877f0789e983d22566f90ec49a98a33161098a3f 7354 ros-humble-autoware-lidar-apollo-instance-segmentation_0-2025.04.15.21.27_amd64.deb
+Files:
+ 6711fb19d1b733871ca90201a3bdd14c 40978 misc optional ros-humble-autoware-lidar-apollo-instance-segmentation_0-2025.04.15.21.27_amd64.buildinfo
+ 58aad8436f67efb43bcf9fb9f1fe4d7e 7354 misc optional ros-humble-autoware-lidar-apollo-instance-segmentation_0-2025.04.15.21.27_amd64.deb

@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-costmap-generator
+Binary: ros-humble-autoware-costmap-generator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.08.37
+Distribution: jammy
+Urgency: high
+Maintainer: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Changed-By: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Description:
+ ros-humble-autoware-costmap-generator - The autoware_costmap_generator package
+Changes:
+ ros-humble-autoware-costmap-generator (0-2025.04.16.08.37) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_costmap_generator): tier4_debug_msgs changed to autoware_internal-debug_msgs in autoware_costmap_generator (#9901 <https://github.com/autowarefoundation/autoware.universe/issues/9901>)
+     feat: tier4_debug_msgs changed to autoware_internal-debug_msgs in files planning/autoware_costmap_generator
+   * fix(autoware_costmap_generator): fix bugprone-branch-clone (#9669 <https://github.com/autowarefoundation/autoware.universe/issues/9669>)
+     fix: bugprone-error
+   * chore(autoware_costmap_generator): suppress Could not find a connection between 'map' and 'base_link' (#9655 <https://github.com/autowarefoundation/autoware.universe/issues/9655>)
+   * Contributors: Fumiya Watanabe, Vishal Chauhan, Yukinari Hisaki, kobayu858
+Checksums-Sha1:
+ cc6e74ed693375b28e313d52c1e84f06ffa1341e 8923910 ros-humble-autoware-costmap-generator-dbgsym_0-2025.04.16.08.37_amd64.ddeb
+ bd069630b45a9b8be13e977ae4d31756bc856f08 48943 ros-humble-autoware-costmap-generator_0-2025.04.16.08.37_amd64.buildinfo
+ a7352924f9160b843b04d0c4182159393065891d 311262 ros-humble-autoware-costmap-generator_0-2025.04.16.08.37_amd64.deb
+Checksums-Sha256:
+ 232f14208dffdca42b3f035ccd0f85d6026f410c93495decdb1f0bc26951bdf3 8923910 ros-humble-autoware-costmap-generator-dbgsym_0-2025.04.16.08.37_amd64.ddeb
+ e286ec99d319c8919476995420e9a0bc8069dd687e991e51f3fbdafa7030a1e5 48943 ros-humble-autoware-costmap-generator_0-2025.04.16.08.37_amd64.buildinfo
+ bf5bb6eac8cf7d726bc5744ed1ad5132e507f8027c9d07fe444c76b4729f795d 311262 ros-humble-autoware-costmap-generator_0-2025.04.16.08.37_amd64.deb
+Files:
+ 047243c7dcf59b7b0ca332728da9b5f8 8923910 debug optional ros-humble-autoware-costmap-generator-dbgsym_0-2025.04.16.08.37_amd64.ddeb
+ 0e4a8bcd3dc23238dee46db1ab83ecb6 48943 misc optional ros-humble-autoware-costmap-generator_0-2025.04.16.08.37_amd64.buildinfo
+ 7888cca651dc595b443f0a14f38e61ff 311262 misc optional ros-humble-autoware-costmap-generator_0-2025.04.16.08.37_amd64.deb

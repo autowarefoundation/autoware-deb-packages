@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-ar-tag-based-localizer
+Binary: ros-humble-autoware-ar-tag-based-localizer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.21.20
+Distribution: jammy
+Urgency: high
+Maintainer: Shintaro Sakoda <shintaro.sakoda@tier4.jp>
+Changed-By: Shintaro Sakoda <shintaro.sakoda@tier4.jp>
+Description:
+ ros-humble-autoware-ar-tag-based-localizer - The autoware_ar_tag_based_localizer package
+Changes:
+ ros-humble-autoware-ar-tag-based-localizer (0-2025.04.15.21.20) jammy; urgency=high
+Checksums-Sha1:
+ 6386960badda68374feab34084e8cc33b1fa4cba 6511862 ros-humble-autoware-ar-tag-based-localizer-dbgsym_0-2025.04.15.21.20_amd64.ddeb
+ 1829df0d0608e40ffcf0e0f686f4077588a5e98a 44971 ros-humble-autoware-ar-tag-based-localizer_0-2025.04.15.21.20_amd64.buildinfo
+ d161235e6b6860d8eceb2712e2df25daf9c102be 219696 ros-humble-autoware-ar-tag-based-localizer_0-2025.04.15.21.20_amd64.deb
+Checksums-Sha256:
+ a867dda6b9ae9f222301f2131074e3b2a09b992535ad3aea5ae51031da381f24 6511862 ros-humble-autoware-ar-tag-based-localizer-dbgsym_0-2025.04.15.21.20_amd64.ddeb
+ 4ea6f6040cb856932848cb63e5401deda088ab36e339fbb78a894cf563eaa61a 44971 ros-humble-autoware-ar-tag-based-localizer_0-2025.04.15.21.20_amd64.buildinfo
+ ae237ca6832ae215cb5b9de7f79f79deb348800830ed2931254c288a40e9046c 219696 ros-humble-autoware-ar-tag-based-localizer_0-2025.04.15.21.20_amd64.deb
+Files:
+ 30d173d2e5d5eb08641ae6a0f69d0840 6511862 debug optional ros-humble-autoware-ar-tag-based-localizer-dbgsym_0-2025.04.15.21.20_amd64.ddeb
+ a9d88cb21bd870ec5cf1801c8ae4ecc0 44971 misc optional ros-humble-autoware-ar-tag-based-localizer_0-2025.04.15.21.20_amd64.buildinfo
+ 2c87427d24a3889614861737227aa190 219696 misc optional ros-humble-autoware-ar-tag-based-localizer_0-2025.04.15.21.20_amd64.deb

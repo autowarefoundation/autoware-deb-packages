@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-kinematic-evaluator
+Binary: ros-humble-autoware-kinematic-evaluator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.21.11
+Distribution: jammy
+Urgency: high
+Maintainer: Dominik Jargot <dominik.jargot@robotec.ai>
+Changed-By: Dominik Jargot <dominik.jargot@robotec.ai>
+Description:
+ ros-humble-autoware-kinematic-evaluator - kinematic evaluator ROS 2 node
+Changes:
+ ros-humble-autoware-kinematic-evaluator (0-2025.04.15.21.11) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware_ prefix for evaluator/kinematic_evaluator (#9936 <https://github.com/autowarefoundation/autoware.universe/issues/9936>)
+   * Contributors: Fumiya Watanabe, Junya Sasaki
+Checksums-Sha1:
+ 1c84f220279d0e5799d1f9775bdac48ad448acc5 2703352 ros-humble-autoware-kinematic-evaluator-dbgsym_0-2025.04.15.21.11_amd64.ddeb
+ 3b86f5d7f5f369a477238442a0c5f8095bc1c0ac 40518 ros-humble-autoware-kinematic-evaluator_0-2025.04.15.21.11_amd64.buildinfo
+ dc49b975935a39c27a8ca7efc30b31f46aa23985 139454 ros-humble-autoware-kinematic-evaluator_0-2025.04.15.21.11_amd64.deb
+Checksums-Sha256:
+ b734d0784dcd2caeba9722021a980249efcdd39cf1107d562fb27f9d623c3574 2703352 ros-humble-autoware-kinematic-evaluator-dbgsym_0-2025.04.15.21.11_amd64.ddeb
+ 2aed14e8be5c1b29d5b80cc0c520c87a148ff3a334db6336734661270bc61379 40518 ros-humble-autoware-kinematic-evaluator_0-2025.04.15.21.11_amd64.buildinfo
+ 50e22e4174b29e5da87ebf42e38e70a4a3ef2cff0fd5e8091141964851c76f09 139454 ros-humble-autoware-kinematic-evaluator_0-2025.04.15.21.11_amd64.deb
+Files:
+ 5f81586af55209c5e6ad221d27af9a84 2703352 debug optional ros-humble-autoware-kinematic-evaluator-dbgsym_0-2025.04.15.21.11_amd64.ddeb
+ fcb964634ef61067b452bc8c3b6b3122 40518 misc optional ros-humble-autoware-kinematic-evaluator_0-2025.04.15.21.11_amd64.buildinfo
+ 693f172879718a62c3d89b54a17e8a04 139454 misc optional ros-humble-autoware-kinematic-evaluator_0-2025.04.15.21.11_amd64.deb

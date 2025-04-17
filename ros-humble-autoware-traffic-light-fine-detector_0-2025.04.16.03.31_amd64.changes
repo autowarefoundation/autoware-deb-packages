@@ -1,0 +1,61 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-traffic-light-fine-detector
+Binary: ros-humble-autoware-traffic-light-fine-detector
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.03.31
+Distribution: jammy
+Urgency: high
+Maintainer: Tao Zhong <tao.zhong@tier4.jp>
+Changed-By: Tao Zhong <tao.zhong@tier4.jp>
+Description:
+ ros-humble-autoware-traffic-light-fine-detector - The autoware_traffic_light_fine_detector package
+Changes:
+ ros-humble-autoware-traffic-light-fine-detector (0-2025.04.16.03.31) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(traffic_light_fine_detector)!: tier4_debug_msgs changed to autoware_internal_debug_msgs in traffic_light_fine_detector (#9900 <https://github.com/autowarefoundation/autoware.universe/issues/9900>)
+   * chore(autoware_traffic_light_fine_detector): modify docs and related params (#9818 <https://github.com/autowarefoundation/autoware.universe/issues/9818>)
+     * modify readme and related params
+     * fix typo
+     * fix
+     ---------
+   * refactor(autoware_tensorrt_common): multi-TensorRT compatibility & tensorrt_common as unified lib for all perception components (#9762 <https://github.com/autowarefoundation/autoware.universe/issues/9762>)
+     * refactor(autoware_tensorrt_common): multi-TensorRT compatibility & tensorrt_common as unified lib for all perception components
+     * style(pre-commit): autofix
+     * style(autoware_tensorrt_common): linting
+     * style(autoware_lidar_centerpoint): typo
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * docs(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * fix(autoware_lidar_transfusion): reuse cast variable
+     * fix(autoware_tensorrt_common): remove deprecated inference API
+     * style(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * style(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * fix(autoware_tensorrt_common): const pointer
+     * fix(autoware_tensorrt_common): remove unused method declaration
+     * style(pre-commit): autofix
+     * refactor(autoware_tensorrt_common): readability
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+     * fix(autoware_tensorrt_common): return if layer not registered
+     * refactor(autoware_tensorrt_common): readability
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+     * fix(autoware_tensorrt_common): rename struct
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+   * Contributors: Amadeusz Szymko, Fumiya Watanabe, Masato Saeki, Vishal Chauhan
+Checksums-Sha1:
+ 7e23d61eff7379c0e55393dac4b025099621f558 44821 ros-humble-autoware-traffic-light-fine-detector_0-2025.04.16.03.31_amd64.buildinfo
+ 589644c8bf971dc9ea203066f228f1985df2948e 8636 ros-humble-autoware-traffic-light-fine-detector_0-2025.04.16.03.31_amd64.deb
+Checksums-Sha256:
+ 744068fa9a4fe0252b9182fba5a7c11fa64994e2ef5a0df804e92cd3809e2193 44821 ros-humble-autoware-traffic-light-fine-detector_0-2025.04.16.03.31_amd64.buildinfo
+ 53400dc47e0a1e47f61a81ad67b49bd037065dcd2ccf3b29d4954e165876e12c 8636 ros-humble-autoware-traffic-light-fine-detector_0-2025.04.16.03.31_amd64.deb
+Files:
+ 8e2f00b7a667efe25234980be2074385 44821 misc optional ros-humble-autoware-traffic-light-fine-detector_0-2025.04.16.03.31_amd64.buildinfo
+ 7aa87f2558752c8efbd607ce2c7a9a9a 8636 misc optional ros-humble-autoware-traffic-light-fine-detector_0-2025.04.16.03.31_amd64.deb

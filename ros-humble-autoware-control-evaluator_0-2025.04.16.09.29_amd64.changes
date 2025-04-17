@@ -1,0 +1,48 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-control-evaluator
+Binary: ros-humble-autoware-control-evaluator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.09.29
+Distribution: jammy
+Urgency: high
+Maintainer: Daniel SANCHEZ <daniel.sanchez@tier4.jp>
+Changed-By: Daniel SANCHEZ <daniel.sanchez@tier4.jp>
+Description:
+ ros-humble-autoware-control-evaluator - ROS 2 node for evaluating control
+Changes:
+ ros-humble-autoware-control-evaluator (0-2025.04.16.09.29) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_control_evaluator): add new steering metrics (#10012 <https://github.com/autowarefoundation/autoware.universe/issues/10012>)
+   * feat(autoware_control_evaluator): add new boundary_distance metrics (#9984 <https://github.com/autowarefoundation/autoware.universe/issues/9984>)
+     * add boundary_distance metric
+     * pre-commit
+     * use path topic instead of lanenet.
+     * remove unused import
+     * apply is_point_left_of_line
+     * fix typo
+     * fix test bug
+     * manual pre-commit
+     ---------
+     Co-authored-by: t4-adc <mailto:grp-rd-1-adc-admin@tier4.jp>
+   * feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in fil… (#9858 <https://github.com/autowarefoundation/autoware.universe/issues/9858>)
+     feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files evaluator/autoware_control_evaluator
+   * fix(autoware_control_evaluator): fix bugprone-exception-escape (#9630 <https://github.com/autowarefoundation/autoware.universe/issues/9630>)
+     * fix: bugprone-exception-escape
+     * fix: cpplint
+     ---------
+   * Contributors: Fumiya Watanabe, Kem (TiankuiXian), Vishal Chauhan, kobayu858
+Checksums-Sha1:
+ 5fac4257ef61899d6be22a8cc29d242db144b527 10033432 ros-humble-autoware-control-evaluator-dbgsym_0-2025.04.16.09.29_amd64.ddeb
+ 519a8c5fc293452e5672ab31d3d2fd0e5dd9eec8 44136 ros-humble-autoware-control-evaluator_0-2025.04.16.09.29_amd64.buildinfo
+ 9ee3d83630b2ff06906c98fdf9b7c4127dd258a7 334654 ros-humble-autoware-control-evaluator_0-2025.04.16.09.29_amd64.deb
+Checksums-Sha256:
+ c23a76d5646ac2611351a8e1861a3f59216aba598f22e33bfed7f4292bf9344c 10033432 ros-humble-autoware-control-evaluator-dbgsym_0-2025.04.16.09.29_amd64.ddeb
+ 9d14094ed4afc82ec08d548f3f19b1c68a8c9d22b809204a3cad09f2f4e76091 44136 ros-humble-autoware-control-evaluator_0-2025.04.16.09.29_amd64.buildinfo
+ 4f833d590a48de200e7e64bfbc2e1523785287947a9d193a456e29dbdb903505 334654 ros-humble-autoware-control-evaluator_0-2025.04.16.09.29_amd64.deb
+Files:
+ f6bd4a1022071a5d2f5e83ae52351593 10033432 debug optional ros-humble-autoware-control-evaluator-dbgsym_0-2025.04.16.09.29_amd64.ddeb
+ 735d9e9613ef30711153b36adcd1260c 44136 misc optional ros-humble-autoware-control-evaluator_0-2025.04.16.09.29_amd64.buildinfo
+ 9c5eeb862524669598aef4c5572972c8 334654 misc optional ros-humble-autoware-control-evaluator_0-2025.04.16.09.29_amd64.deb

@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-tier4-state-rviz-plugin
+Binary: ros-humble-tier4-state-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.05.10
+Distribution: jammy
+Urgency: high
+Maintainer: Hiroki OTA <hiroki.ota@tier4.jp>
+Changed-By: Hiroki OTA <hiroki.ota@tier4.jp>
+Description:
+ ros-humble-tier4-state-rviz-plugin - The autoware state rviz plugin package
+Changes:
+ ros-humble-tier4-state-rviz-plugin (0-2025.04.16.05.10) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * fix(tier4_state_rviz_plugin): fix bugprone-integer-division (#9628 <https://github.com/autowarefoundation/autoware.universe/issues/9628>)
+     fix: bugprone-integer-division
+   * Contributors: Fumiya Watanabe, kobayu858
+Checksums-Sha1:
+ 708fea1eebbe8cc8c104987ee6337e4c72578960 12258346 ros-humble-tier4-state-rviz-plugin-dbgsym_0-2025.04.16.05.10_amd64.ddeb
+ ddcdf2c0da98cc9f2bfa5fc30237442bf72be410 42259 ros-humble-tier4-state-rviz-plugin_0-2025.04.16.05.10_amd64.buildinfo
+ 6859831c12299e999f52b7ad414a2666ad3139b0 375786 ros-humble-tier4-state-rviz-plugin_0-2025.04.16.05.10_amd64.deb
+Checksums-Sha256:
+ c85b15e0a10d973bedb76ed1ddf44e3276abde97217ce716960cada7834dc22d 12258346 ros-humble-tier4-state-rviz-plugin-dbgsym_0-2025.04.16.05.10_amd64.ddeb
+ 61d5c4b46a6bc11a0232665d997b0b9c0a1590adf3e2c481a0ddfbdfbc5ef69b 42259 ros-humble-tier4-state-rviz-plugin_0-2025.04.16.05.10_amd64.buildinfo
+ b27542c260f1b0ba169d15968686eaec182bbec4290396b7ca017e56ff902115 375786 ros-humble-tier4-state-rviz-plugin_0-2025.04.16.05.10_amd64.deb
+Files:
+ 52efcbb8df95d409f653261ecd111b96 12258346 debug optional ros-humble-tier4-state-rviz-plugin-dbgsym_0-2025.04.16.05.10_amd64.ddeb
+ 800de7f9ff8313b4a6b7f408a6b4cded 42259 misc optional ros-humble-tier4-state-rviz-plugin_0-2025.04.16.05.10_amd64.buildinfo
+ cb409cceaa28d2a014f8c73d42956400 375786 misc optional ros-humble-tier4-state-rviz-plugin_0-2025.04.16.05.10_amd64.deb

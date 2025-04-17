@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-goal-distance-calculator
+Binary: ros-humble-autoware-goal-distance-calculator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.20.35
+Distribution: jammy
+Urgency: high
+Maintainer: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Changed-By: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-goal-distance-calculator - The autoware_goal_distance_calculator package
+Changes:
+ ros-humble-autoware-goal-distance-calculator (0-2025.04.15.20.35) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_goal_distance_calculator)!:  tier4_debug_msgs to autoware_internal_debug_msgs for autoware_goal_distance_calculator (#9833 <https://github.com/autowarefoundation/autoware.universe/issues/9833>)
+   * Contributors: Fumiya Watanabe, Vishal Chauhan
+Checksums-Sha1:
+ dd5a6ecff8106e01003ce3855adaf53bccbde8a7 2689530 ros-humble-autoware-goal-distance-calculator-dbgsym_0-2025.04.15.20.35_amd64.ddeb
+ ab14e3f41d0f34eb8bdfeb10106666e3217cb6c0 40563 ros-humble-autoware-goal-distance-calculator_0-2025.04.15.20.35_amd64.buildinfo
+ 4108f0550d036497a25e2480d91eb0066b3bb56a 131812 ros-humble-autoware-goal-distance-calculator_0-2025.04.15.20.35_amd64.deb
+Checksums-Sha256:
+ 62d3064476395f95d9fa2f49e56a3e72e38ddca1bdeb8cd81ac872ff4892c75b 2689530 ros-humble-autoware-goal-distance-calculator-dbgsym_0-2025.04.15.20.35_amd64.ddeb
+ c848de2257cdab9e762562fdab9a40d2173e479caa6e0c7f3836ad9d000c2ef4 40563 ros-humble-autoware-goal-distance-calculator_0-2025.04.15.20.35_amd64.buildinfo
+ eb56938a11276365a6799fb0fb5689b403876fc2407656372837975b3e1769df 131812 ros-humble-autoware-goal-distance-calculator_0-2025.04.15.20.35_amd64.deb
+Files:
+ 0b4d05025f148b2d61c0c611fb6f617a 2689530 debug optional ros-humble-autoware-goal-distance-calculator-dbgsym_0-2025.04.15.20.35_amd64.ddeb
+ 2ede632f6faed59e7ffa2f1f2eb440f8 40563 misc optional ros-humble-autoware-goal-distance-calculator_0-2025.04.15.20.35_amd64.buildinfo
+ 07f18e9d326a393c8165e0367f04b576 131812 misc optional ros-humble-autoware-goal-distance-calculator_0-2025.04.15.20.35_amd64.deb

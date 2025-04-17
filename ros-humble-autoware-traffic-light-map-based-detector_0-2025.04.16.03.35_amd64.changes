@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-traffic-light-map-based-detector
+Binary: ros-humble-autoware-traffic-light-map-based-detector
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.03.35
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-traffic-light-map-based-detector - The autoware_traffic_light_map_based_detector package
+Changes:
+ ros-humble-autoware-traffic-light-map-based-detector (0-2025.04.16.03.35) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * chore(autoware_traffic_light_map_based_detector): modify docs (#9817 <https://github.com/autowarefoundation/autoware.universe/issues/9817>)
+     * modify docs
+     * fix title
+     * fix docs
+     * fix word
+     * add comment about debug markers
+     * fix docs
+     ---------
+   * Contributors: Fumiya Watanabe, Masato Saeki
+Checksums-Sha1:
+ d6a890da9029375b59c6e8bcd8520e9a4e01c05e 6334128 ros-humble-autoware-traffic-light-map-based-detector-dbgsym_0-2025.04.16.03.35_amd64.ddeb
+ 1536bd55cbb2b1c1629e9c126c1ebe6182005b80 45686 ros-humble-autoware-traffic-light-map-based-detector_0-2025.04.16.03.35_amd64.buildinfo
+ 4cef824a46e29c331d1bcc07a1e8b449409bba22 240326 ros-humble-autoware-traffic-light-map-based-detector_0-2025.04.16.03.35_amd64.deb
+Checksums-Sha256:
+ 3c13350aa030dff3814b8c0fbbbc8917fff3b8db5432f5ec4946c71722fada31 6334128 ros-humble-autoware-traffic-light-map-based-detector-dbgsym_0-2025.04.16.03.35_amd64.ddeb
+ bc4c79047f1f1a382ed26fa8a95e46e02b46caf29d5e9a881da71a155295c389 45686 ros-humble-autoware-traffic-light-map-based-detector_0-2025.04.16.03.35_amd64.buildinfo
+ 6ecdd3cbbd75782dd32d5cb6a3dcd18a97a0635d64fe5b42aef773c53d35c06f 240326 ros-humble-autoware-traffic-light-map-based-detector_0-2025.04.16.03.35_amd64.deb
+Files:
+ d3f6490c9caaf74c5372731daf4fcb91 6334128 debug optional ros-humble-autoware-traffic-light-map-based-detector-dbgsym_0-2025.04.16.03.35_amd64.ddeb
+ 967f1a1efa24686eedf8c539ecf0e217 45686 misc optional ros-humble-autoware-traffic-light-map-based-detector_0-2025.04.16.03.35_amd64.buildinfo
+ 6ea30fabd56bd2ad344810228efc9fc8 240326 misc optional ros-humble-autoware-traffic-light-map-based-detector_0-2025.04.16.03.35_amd64.deb

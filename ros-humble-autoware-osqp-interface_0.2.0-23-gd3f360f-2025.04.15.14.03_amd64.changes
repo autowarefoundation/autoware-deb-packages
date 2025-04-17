@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Fri, 07 Feb 2025 00:00:00 -0000
+Source: ros-humble-autoware-osqp-interface
+Binary: ros-humble-autoware-osqp-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.0-23-gd3f360f-2025.04.15.14.03
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime CLEMENT <maxime.clement@tier4.jp>
+Changed-By: Maxime CLEMENT <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-osqp-interface - Interface for the OSQP solver
+Changes:
+ ros-humble-autoware-osqp-interface (0.2.0-23-gd3f360f-2025.04.15.14.03) jammy; urgency=high
+ .
+   * unify version to 0.1.0
+   * update changelog
+   * feat(autoware_osqp_interface): porting autoware_osqp_interface package from autoware.universe (#165 <https://github.com/autowarefoundation/autoware.core/issues/165>)
+   * Contributors: NorahXiong, Yutaka Kondo
+   * feat(autoware_osqp_interface): porting autoware_osqp_interface package from autoware.universe (#165 <https://github.com/autowarefoundation/autoware.core/issues/165>)
+   * Contributors: NorahXiong
+Checksums-Sha1:
+ 4a6bbd105c0a92df9b1a40c67bc31cc12018048e 338190 ros-humble-autoware-osqp-interface-dbgsym_0.2.0-23-gd3f360f-2025.04.15.14.03_amd64.ddeb
+ 0d9c6ad0c9fade7f35f57fcc49ee5f6e54a4db30 16058 ros-humble-autoware-osqp-interface_0.2.0-23-gd3f360f-2025.04.15.14.03_amd64.buildinfo
+ f0df2edae4e3aba47e15f7864493240aae79b787 26070 ros-humble-autoware-osqp-interface_0.2.0-23-gd3f360f-2025.04.15.14.03_amd64.deb
+Checksums-Sha256:
+ f0effbf3a65712ce6be2a46dce4b48c82039a0c0cc55d6667e42710603d470a2 338190 ros-humble-autoware-osqp-interface-dbgsym_0.2.0-23-gd3f360f-2025.04.15.14.03_amd64.ddeb
+ ac9daa22371c5fabc065871795c8462b32cc4ab31a5f927c1f96a3a4cc22d245 16058 ros-humble-autoware-osqp-interface_0.2.0-23-gd3f360f-2025.04.15.14.03_amd64.buildinfo
+ 28d85c517c6a6bc7b53f6a375735be0cc3067cd0213b61e7f4fd3e00a7967902 26070 ros-humble-autoware-osqp-interface_0.2.0-23-gd3f360f-2025.04.15.14.03_amd64.deb
+Files:
+ 627556154e9303cdc1c1d3c30498e205 338190 debug optional ros-humble-autoware-osqp-interface-dbgsym_0.2.0-23-gd3f360f-2025.04.15.14.03_amd64.ddeb
+ ab942d06f7e7542da2158d0f1a5b7f47 16058 misc optional ros-humble-autoware-osqp-interface_0.2.0-23-gd3f360f-2025.04.15.14.03_amd64.buildinfo
+ 3243c9f5e56a91b074b9eaaa9ffcec2c 26070 misc optional ros-humble-autoware-osqp-interface_0.2.0-23-gd3f360f-2025.04.15.14.03_amd64.deb

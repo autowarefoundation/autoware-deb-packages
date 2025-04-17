@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-vehicle-velocity-converter
+Binary: ros-humble-autoware-vehicle-velocity-converter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.16.18
+Distribution: jammy
+Urgency: high
+Maintainer: Ryu Yamamoto <ryu.yamamoto@tier4.jp>
+Changed-By: Ryu Yamamoto <ryu.yamamoto@tier4.jp>
+Description:
+ ros-humble-autoware-vehicle-velocity-converter - The autoware_vehicle_velocity_converter package
+Changes:
+ ros-humble-autoware-vehicle-velocity-converter (0-2025.04.15.16.18) jammy; urgency=high
+Checksums-Sha1:
+ afe753270969e0b6212e82d90e6328e24bcfb80d 2347264 ros-humble-autoware-vehicle-velocity-converter-dbgsym_0-2025.04.15.16.18_amd64.ddeb
+ 3c2584f5ba4935284cd939035e1d93374ce7fba0 16206 ros-humble-autoware-vehicle-velocity-converter_0-2025.04.15.16.18_amd64.buildinfo
+ c0c5393b402c7cd517490a49dce1716cdadf9559 119498 ros-humble-autoware-vehicle-velocity-converter_0-2025.04.15.16.18_amd64.deb
+Checksums-Sha256:
+ 91b73e46a8f35479a954bd4cb8727684fcb18b6bf7abb119f3f95174ae867044 2347264 ros-humble-autoware-vehicle-velocity-converter-dbgsym_0-2025.04.15.16.18_amd64.ddeb
+ 65fffec2177518c30f66a2ee0a73c8dcf75b3cace79ba63819f7f8ae80602887 16206 ros-humble-autoware-vehicle-velocity-converter_0-2025.04.15.16.18_amd64.buildinfo
+ f139cbbab5c79822eaa17228c6412686fb702054c76fbe12e7d9e500d49016a2 119498 ros-humble-autoware-vehicle-velocity-converter_0-2025.04.15.16.18_amd64.deb
+Files:
+ a76d212dfa39001fef21ef7e73ec6c90 2347264 debug optional ros-humble-autoware-vehicle-velocity-converter-dbgsym_0-2025.04.15.16.18_amd64.ddeb
+ c1d25a892c59f6c02e0b6f6f3f51b83b 16206 misc optional ros-humble-autoware-vehicle-velocity-converter_0-2025.04.15.16.18_amd64.buildinfo
+ 688c0320dc04c5b0b52b80d776e44ed6 119498 misc optional ros-humble-autoware-vehicle-velocity-converter_0-2025.04.15.16.18_amd64.deb

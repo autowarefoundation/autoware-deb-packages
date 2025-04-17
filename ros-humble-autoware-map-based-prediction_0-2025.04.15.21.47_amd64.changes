@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-map-based-prediction
+Binary: ros-humble-autoware-map-based-prediction
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.21.47
+Distribution: jammy
+Urgency: high
+Maintainer: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Changed-By: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Description:
+ ros-humble-autoware-map-based-prediction - This package implements a map_based_prediction
+Changes:
+ ros-humble-autoware-map-based-prediction (0-2025.04.15.21.47) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * fix(map_based_prediction): fix unintentional accumulation of lanelets (#9950 <https://github.com/autowarefoundation/autoware.universe/issues/9950>)
+     add clear before insert
+   * feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in fil… (#9875 <https://github.com/autowarefoundation/autoware.universe/issues/9875>)
+     feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files perception/autoware_map_based_prediction
+   * Contributors: Fumiya Watanabe, Masaki Baba, Vishal Chauhan
+Checksums-Sha1:
+ 5bf25d185314e160f5511b4d3ffa86c8b099e497 10206598 ros-humble-autoware-map-based-prediction-dbgsym_0-2025.04.15.21.47_amd64.ddeb
+ 1167d74fc7cf368d40e375405cf70e3e4b8a2b7e 41992 ros-humble-autoware-map-based-prediction_0-2025.04.15.21.47_amd64.buildinfo
+ d9d30141a0e7db7450eb63992de473870f5cf775 340030 ros-humble-autoware-map-based-prediction_0-2025.04.15.21.47_amd64.deb
+Checksums-Sha256:
+ ef0c7fdac42bdde690c4d6e1b43b48408cf4b8146165bf7592b0dc665c6a1569 10206598 ros-humble-autoware-map-based-prediction-dbgsym_0-2025.04.15.21.47_amd64.ddeb
+ 0726dcca2f9734fa6493863d5cb20eae027474873e5e330032a0024bcecb22c1 41992 ros-humble-autoware-map-based-prediction_0-2025.04.15.21.47_amd64.buildinfo
+ a1851ae9063dd8533f57f2c460f13e41e0d7a6e0f61c459fc6c70e4aa3c4cee6 340030 ros-humble-autoware-map-based-prediction_0-2025.04.15.21.47_amd64.deb
+Files:
+ 5bd1192b96843cc5d88ebbfa4b92540e 10206598 debug optional ros-humble-autoware-map-based-prediction-dbgsym_0-2025.04.15.21.47_amd64.ddeb
+ 884c919f761101327dc7b3fc7f65159c 41992 misc optional ros-humble-autoware-map-based-prediction_0-2025.04.15.21.47_amd64.buildinfo
+ 374e3061109d31239389a3ae096c7213 340030 misc optional ros-humble-autoware-map-based-prediction_0-2025.04.15.21.47_amd64.deb

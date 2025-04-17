@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-occupancy-grid-map-outlier-filter
+Binary: ros-humble-autoware-occupancy-grid-map-outlier-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.01.20
+Distribution: jammy
+Urgency: high
+Maintainer: amc-nu <abrahammonrroy@yahoo.com>
+Changed-By: amc-nu <abrahammonrroy@yahoo.com>
+Description:
+ ros-humble-autoware-occupancy-grid-map-outlier-filter - The ROS 2 occupancy_grid_map_outlier_filter package
+Changes:
+ ros-humble-autoware-occupancy-grid-map-outlier-filter (0-2025.04.16.01.20) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_occupancy_grid_map_outlier_filter): tier4_debug_msgs changed to autoware_internal_debug_msgs in fil… (#9894 <https://github.com/autowarefoundation/autoware.universe/issues/9894>)
+     feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files  perception/autoware_occupancy_grid_map_outlier_filter
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+   * fix(perception): fix perception docs (#9766 <https://github.com/autowarefoundation/autoware.universe/issues/9766>)
+     * fix: fix perception docs
+     * fix: fix missing parameter in schema
+     * Update perception/autoware_object_merger/schema/data_association_matrix.schema.json
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * Update perception/autoware_object_merger/schema/data_association_matrix.schema.json
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * Update perception/autoware_object_merger/schema/data_association_matrix.schema.json
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * Update perception/autoware_object_merger/schema/data_association_matrix.schema.json
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * style(pre-commit): autofix
+     * chore: seperate paramters for different nodes
+     ---------
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Fumiya Watanabe, Vishal Chauhan, Yi-Hsiang Fang (Vivid)
+Checksums-Sha1:
+ f1fc827e0040660e4368e29a5a57b94270be6298 5613274 ros-humble-autoware-occupancy-grid-map-outlier-filter-dbgsym_0-2025.04.16.01.20_amd64.ddeb
+ 4c80b1d9ccb74768b48bb27074e2160571c45f3c 47290 ros-humble-autoware-occupancy-grid-map-outlier-filter_0-2025.04.16.01.20_amd64.buildinfo
+ 048a4b767401859ebc52578ec14a027ba020dffe 194556 ros-humble-autoware-occupancy-grid-map-outlier-filter_0-2025.04.16.01.20_amd64.deb
+Checksums-Sha256:
+ ca5caee680a8dd8804eef713c486f3b828f1068effab7535f9f9f8c46f382a0d 5613274 ros-humble-autoware-occupancy-grid-map-outlier-filter-dbgsym_0-2025.04.16.01.20_amd64.ddeb
+ 3e7a7d3e901ea54afbdd17f931642e9fb4751409bee4c214e90ff9be798eaec6 47290 ros-humble-autoware-occupancy-grid-map-outlier-filter_0-2025.04.16.01.20_amd64.buildinfo
+ 817d400cd9f79559e26f4d36aaa63920dd6e95d61093ac0b16caa241e671a40b 194556 ros-humble-autoware-occupancy-grid-map-outlier-filter_0-2025.04.16.01.20_amd64.deb
+Files:
+ 217e66c367705bcd816107e509cb4c7d 5613274 debug optional ros-humble-autoware-occupancy-grid-map-outlier-filter-dbgsym_0-2025.04.16.01.20_amd64.ddeb
+ 397e496bbc967e7840e00017c729e860 47290 misc optional ros-humble-autoware-occupancy-grid-map-outlier-filter_0-2025.04.16.01.20_amd64.buildinfo
+ 8e9e46a60df0b3df08a23ff8dead96bc 194556 misc optional ros-humble-autoware-occupancy-grid-map-outlier-filter_0-2025.04.16.01.20_amd64.deb

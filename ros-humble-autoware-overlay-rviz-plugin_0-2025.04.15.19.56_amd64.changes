@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-overlay-rviz-plugin
+Binary: ros-humble-autoware-overlay-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.19.56
+Distribution: jammy
+Urgency: high
+Maintainer: Khalil Selyan <khalil@leodrive.ai>
+Changed-By: Khalil Selyan <khalil@leodrive.ai>
+Description:
+ ros-humble-autoware-overlay-rviz-plugin - RViz2 plugin for 2D overlays in the 3D view.
+Changes:
+ ros-humble-autoware-overlay-rviz-plugin (0-2025.04.15.19.56) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * fix(autoware_overlay_rviz_plugin): fix clang-tidy errors (#9627 <https://github.com/autowarefoundation/autoware.universe/issues/9627>)
+     * fix: clang-tidy errors
+     * fix: clang-fmt
+     ---------
+   * Contributors: Fumiya Watanabe, kobayu858
+Checksums-Sha1:
+ e348ef872412bb0d6e9fe8558f0a8560a8d137ea 8291510 ros-humble-autoware-overlay-rviz-plugin-dbgsym_0-2025.04.15.19.56_amd64.ddeb
+ 3d4bc4c664a0cf620e24ec7b4a209d5ce8566681 29707 ros-humble-autoware-overlay-rviz-plugin_0-2025.04.15.19.56_amd64.buildinfo
+ a475c2108f4857334a749274cb4e6c103396970b 574256 ros-humble-autoware-overlay-rviz-plugin_0-2025.04.15.19.56_amd64.deb
+Checksums-Sha256:
+ 59754a4209d6baa03fdb2d84a21c1dcca32bd90fa3e8766e385fce630fe5021d 8291510 ros-humble-autoware-overlay-rviz-plugin-dbgsym_0-2025.04.15.19.56_amd64.ddeb
+ bd9e034002ce806881c638828c02309a45bc9dbd15b752da61f36ac2963527f0 29707 ros-humble-autoware-overlay-rviz-plugin_0-2025.04.15.19.56_amd64.buildinfo
+ 0495005f551f1f81255167a21b3de0df49ab39604d8cc6073bb74a64edb70c5c 574256 ros-humble-autoware-overlay-rviz-plugin_0-2025.04.15.19.56_amd64.deb
+Files:
+ b49d9188d8eca1f622ecee25f499a6b4 8291510 debug optional ros-humble-autoware-overlay-rviz-plugin-dbgsym_0-2025.04.15.19.56_amd64.ddeb
+ 5c61c790464ddbf5e7c2cc42a4d766c8 29707 misc optional ros-humble-autoware-overlay-rviz-plugin_0-2025.04.15.19.56_amd64.buildinfo
+ 6b8f40c4aeacb8b31552f6aeb08f3581 574256 misc optional ros-humble-autoware-overlay-rviz-plugin_0-2025.04.15.19.56_amd64.deb

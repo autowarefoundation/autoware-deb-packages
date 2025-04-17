@@ -1,0 +1,50 @@
+Format: 1.8
+Date: Fri, 07 Feb 2025 00:00:00 -0000
+Source: ros-humble-autoware-qp-interface
+Binary: ros-humble-autoware-qp-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.0-23-gd3f360f-2025.04.15.14.30
+Distribution: jammy
+Urgency: high
+Maintainer: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Changed-By: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Description:
+ ros-humble-autoware-qp-interface - Interface for the QP solvers
+Changes:
+ ros-humble-autoware-qp-interface (0.2.0-23-gd3f360f-2025.04.15.14.30) jammy; urgency=high
+ .
+   * unify version to 0.1.0
+   * update changelog
+   * fix(autoware_qp_interface): incorrect parameter passing in delegating constructor (#147 <https://github.com/autowarefoundation/autoware.core/issues/147>)
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * feat(autoware_qp_interface): porting autoware_qp_interface package from autoware.universe (#146 <https://github.com/autowarefoundation/autoware.core/issues/146>)
+     * feat(autoware_qp_interface): porting autoware_qp_interface package from autoware.universe
+     * Delete CHANGELOG.rst since it's outdated
+     * Update common/autoware_qp_interface/package.xml
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * Contributors: NorahXiong, Yutaka Kondo
+   * fix(autoware_qp_interface): incorrect parameter passing in delegating constructor (#147 <https://github.com/autowarefoundation/autoware.core/issues/147>)
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * feat(autoware_qp_interface): porting autoware_qp_interface package from autoware.universe (#146 <https://github.com/autowarefoundation/autoware.core/issues/146>)
+     * feat(autoware_qp_interface): porting autoware_qp_interface package from autoware.universe
+     * Delete CHANGELOG.rst since it's outdated
+     * Update common/autoware_qp_interface/package.xml
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * Contributors: NorahXiong
+Checksums-Sha1:
+ 56bdf0be12dfc7b6fcf45e3b39a78d56c09cd2c7 3219268 ros-humble-autoware-qp-interface-dbgsym_0.2.0-23-gd3f360f-2025.04.15.14.30_amd64.ddeb
+ 0068017efdb5ba94f0342ce79dad4a886ca20d1f 16603 ros-humble-autoware-qp-interface_0.2.0-23-gd3f360f-2025.04.15.14.30_amd64.buildinfo
+ 53f6fce7b5215c89e6339f9f8134b368709a25e8 104984 ros-humble-autoware-qp-interface_0.2.0-23-gd3f360f-2025.04.15.14.30_amd64.deb
+Checksums-Sha256:
+ 6709993ee694cb0dd6f4501415bd2b518d3aa65e79d3ecad88b389c18bfdb105 3219268 ros-humble-autoware-qp-interface-dbgsym_0.2.0-23-gd3f360f-2025.04.15.14.30_amd64.ddeb
+ d7f7e7d56f9bd6a788b522d35cd5e906d20778486ba312ff6677de067b0a9f8b 16603 ros-humble-autoware-qp-interface_0.2.0-23-gd3f360f-2025.04.15.14.30_amd64.buildinfo
+ ca6fa9572e5155ea01d2c1e947f525ea71675bfdd4d9c67e2cd3c00d71042c96 104984 ros-humble-autoware-qp-interface_0.2.0-23-gd3f360f-2025.04.15.14.30_amd64.deb
+Files:
+ 5fffb5dd0d1cd139da34fc1f0ac3eb1a 3219268 debug optional ros-humble-autoware-qp-interface-dbgsym_0.2.0-23-gd3f360f-2025.04.15.14.30_amd64.ddeb
+ 9252e649b1adf33349faaae4a2270712 16603 misc optional ros-humble-autoware-qp-interface_0.2.0-23-gd3f360f-2025.04.15.14.30_amd64.buildinfo
+ 45dfce22756ed178a32320d8d273fe92 104984 misc optional ros-humble-autoware-qp-interface_0.2.0-23-gd3f360f-2025.04.15.14.30_amd64.deb

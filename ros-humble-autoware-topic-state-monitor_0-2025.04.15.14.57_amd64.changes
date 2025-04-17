@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-topic-state-monitor
+Binary: ros-humble-autoware-topic-state-monitor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.14.57
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-autoware-topic-state-monitor - The autoware_topic_state_monitor package
+Changes:
+ ros-humble-autoware-topic-state-monitor (0-2025.04.15.14.57) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: apply autoware prefix for component_state_monitor and its dependencies (#9961 <https://github.com/autowarefoundation/autoware.universe/issues/9961>)
+   * Contributors: Fumiya Watanabe, Junya Sasaki
+Checksums-Sha1:
+ fe694d36382945ffd3b9461d8f58ee713a80f149 2693832 ros-humble-autoware-topic-state-monitor-dbgsym_0-2025.04.15.14.57_amd64.ddeb
+ 7daa34fcd1225ec7d43ddf07990f3125b01a8b4f 16436 ros-humble-autoware-topic-state-monitor_0-2025.04.15.14.57_amd64.buildinfo
+ b1c657a80c6c121cb8cd48e69d94d9603a14c60e 148868 ros-humble-autoware-topic-state-monitor_0-2025.04.15.14.57_amd64.deb
+Checksums-Sha256:
+ 5cb102fdd4ebf00d0fc6006b57ad4527c64960b814bc1127bc0db3fa3703b859 2693832 ros-humble-autoware-topic-state-monitor-dbgsym_0-2025.04.15.14.57_amd64.ddeb
+ a91b76e6934d701a335259c12c5977e9a883b1b3b755ffec27f7fcacdb216106 16436 ros-humble-autoware-topic-state-monitor_0-2025.04.15.14.57_amd64.buildinfo
+ 04e9520def9d3eb5bfe1f2c23e111da9f81dc0bdb60c5d254781570c7039dbaf 148868 ros-humble-autoware-topic-state-monitor_0-2025.04.15.14.57_amd64.deb
+Files:
+ aa1bf9735c94e05194c84cbce29851f6 2693832 debug optional ros-humble-autoware-topic-state-monitor-dbgsym_0-2025.04.15.14.57_amd64.ddeb
+ f5d2d5fd4a19c5e33bae037daa48eb2d 16436 misc optional ros-humble-autoware-topic-state-monitor_0-2025.04.15.14.57_amd64.buildinfo
+ 1bb33fc1482f41f5f17e336845864ca6 148868 misc optional ros-humble-autoware-topic-state-monitor_0-2025.04.15.14.57_amd64.deb

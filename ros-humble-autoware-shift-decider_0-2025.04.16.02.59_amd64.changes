@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-shift-decider
+Binary: ros-humble-autoware-shift-decider
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.02.59
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-shift-decider - The autoware_shift_decider package
+Changes:
+ ros-humble-autoware-shift-decider (0-2025.04.16.02.59) jammy; urgency=high
+Checksums-Sha1:
+ cba6fce33e07e5ccda5b696663f73b3cbfd3791e 3826688 ros-humble-autoware-shift-decider-dbgsym_0-2025.04.16.02.59_amd64.ddeb
+ f695a15817fa4d62ed14d4be671b034a78824ccf 40148 ros-humble-autoware-shift-decider_0-2025.04.16.02.59_amd64.buildinfo
+ bda7159d7d3fcd1a78f8781ae13d9965b380ae8d 160476 ros-humble-autoware-shift-decider_0-2025.04.16.02.59_amd64.deb
+Checksums-Sha256:
+ bb57f9193dc29aff1037e3f6b0222b9f21582f05051f1ff4fecbbaab0035f8a7 3826688 ros-humble-autoware-shift-decider-dbgsym_0-2025.04.16.02.59_amd64.ddeb
+ 8b04305cbebb59e285c375e0858e2c6730d37ed1d8b6975c9a42e4bab87f220e 40148 ros-humble-autoware-shift-decider_0-2025.04.16.02.59_amd64.buildinfo
+ 37c3878d10de562de0c1ed451f9cb353535ddbee69bd4928c6d6093726c5a48d 160476 ros-humble-autoware-shift-decider_0-2025.04.16.02.59_amd64.deb
+Files:
+ cedb0268439355effc1fa490cc877029 3826688 debug optional ros-humble-autoware-shift-decider-dbgsym_0-2025.04.16.02.59_amd64.ddeb
+ edb63aa2d9745104c47d50a856e1f99b 40148 misc optional ros-humble-autoware-shift-decider_0-2025.04.16.02.59_amd64.buildinfo
+ a77707c79b24b70c00469462453267aa 160476 misc optional ros-humble-autoware-shift-decider_0-2025.04.16.02.59_amd64.deb

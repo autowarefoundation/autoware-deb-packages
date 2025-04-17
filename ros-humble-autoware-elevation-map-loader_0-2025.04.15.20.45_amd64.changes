@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-elevation-map-loader
+Binary: ros-humble-autoware-elevation-map-loader
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.20.45
+Distribution: jammy
+Urgency: high
+Maintainer: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Changed-By: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Description:
+ ros-humble-autoware-elevation-map-loader - The autoware_elevation_map_loader package
+Changes:
+ ros-humble-autoware-elevation-map-loader (0-2025.04.15.20.45) jammy; urgency=high
+Checksums-Sha1:
+ adcdef0e1b854a5619980cec9f3ea7c98f82aa8f 9755244 ros-humble-autoware-elevation-map-loader-dbgsym_0-2025.04.15.20.45_amd64.ddeb
+ d343d7b9340e8ed8bb8a1e7b1c84289b928ae201 46752 ros-humble-autoware-elevation-map-loader_0-2025.04.15.20.45_amd64.buildinfo
+ 4ee9e95ee458b5d0b4018adc488a7a3f59a36282 321668 ros-humble-autoware-elevation-map-loader_0-2025.04.15.20.45_amd64.deb
+Checksums-Sha256:
+ 55dbd64442fd716bb214ed7b97e3dea2efe295d83a690b8f4f4621db6c8613ef 9755244 ros-humble-autoware-elevation-map-loader-dbgsym_0-2025.04.15.20.45_amd64.ddeb
+ 67b1663c7df46c9a277cd4595c57e12bcf3160878b08cc7cf08a8ea18fd965cf 46752 ros-humble-autoware-elevation-map-loader_0-2025.04.15.20.45_amd64.buildinfo
+ 1354d2220bd6291665a07c605e639b426cefa0c44c6bd4ee6d672062908812bc 321668 ros-humble-autoware-elevation-map-loader_0-2025.04.15.20.45_amd64.deb
+Files:
+ 5f53f12606a41d97335d37adeecf5978 9755244 debug optional ros-humble-autoware-elevation-map-loader-dbgsym_0-2025.04.15.20.45_amd64.ddeb
+ 800f01901a1f521d9553868ee7307426 46752 misc optional ros-humble-autoware-elevation-map-loader_0-2025.04.15.20.45_amd64.buildinfo
+ 8a54ce15179db885f38ee882e0f7fa02 321668 misc optional ros-humble-autoware-elevation-map-loader_0-2025.04.15.20.45_amd64.deb

@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-tier4-camera-view-rviz-plugin
+Binary: ros-humble-tier4-camera-view-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.06.16
+Distribution: jammy
+Urgency: high
+Maintainer: Yuxuan Liu <uken.ryu@tier4.jp>
+Changed-By: Yuxuan Liu <uken.ryu@tier4.jp>
+Description:
+ ros-humble-tier4-camera-view-rviz-plugin - The autoware camera view rviz plugin package
+Changes:
+ ros-humble-tier4-camera-view-rviz-plugin (0-2025.04.16.06.16) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * fix(tier4_camera_view_rviz_plugin): fix bugprone-parent-virtual-call (#9815 <https://github.com/autowarefoundation/autoware.universe/issues/9815>)
+     * fix:bugprone-error
+     * fix:fmt
+     ---------
+   * Contributors: Fumiya Watanabe, kobayu858
+Checksums-Sha1:
+ 13c7508d99597a8fcf08a438a646fa856572fbe5 873610 ros-humble-tier4-camera-view-rviz-plugin-dbgsym_0-2025.04.16.06.16_amd64.ddeb
+ d1b6ce5f0ec2b34ade6807e7215b6bde422c95e8 24619 ros-humble-tier4-camera-view-rviz-plugin_0-2025.04.16.06.16_amd64.buildinfo
+ 3cc93f64e1b4a2f7301e7fc756a85499ced3c68a 35262 ros-humble-tier4-camera-view-rviz-plugin_0-2025.04.16.06.16_amd64.deb
+Checksums-Sha256:
+ 957eedf5f4dc09e4e40aa9b23d2a0bb8d4afef04ac13910702d5da59ef316875 873610 ros-humble-tier4-camera-view-rviz-plugin-dbgsym_0-2025.04.16.06.16_amd64.ddeb
+ fc2713782ad02161502e09ac001a66dcd13772c78e65e555ed48bd6767d6dd78 24619 ros-humble-tier4-camera-view-rviz-plugin_0-2025.04.16.06.16_amd64.buildinfo
+ e18274ecc65afcdbf8ee99f7ed7c8f056512d0baffa7e7855d1e3210ee210ec5 35262 ros-humble-tier4-camera-view-rviz-plugin_0-2025.04.16.06.16_amd64.deb
+Files:
+ dd22ac019201ae1de83ec97de7ec927f 873610 debug optional ros-humble-tier4-camera-view-rviz-plugin-dbgsym_0-2025.04.16.06.16_amd64.ddeb
+ f12e89f9cf928df5c960043da812d730 24619 misc optional ros-humble-tier4-camera-view-rviz-plugin_0-2025.04.16.06.16_amd64.buildinfo
+ 793e73732ce3baf86f9193a268a978e7 35262 misc optional ros-humble-tier4-camera-view-rviz-plugin_0-2025.04.16.06.16_amd64.deb

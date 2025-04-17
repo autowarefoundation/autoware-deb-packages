@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-tier4-vehicle-launch
+Binary: ros-humble-tier4-vehicle-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.06.36
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-tier4-vehicle-launch - The tier4_vehicle_launch package
+Changes:
+ ros-humble-tier4-vehicle-launch (0-2025.04.16.06.36) jammy; urgency=high
+Checksums-Sha1:
+ 66e108bcfd30fff775da53228bce40496ed7680b 10690 ros-humble-tier4-vehicle-launch_0-2025.04.16.06.36_amd64.buildinfo
+ 36f9de94d8c292b93274ad4988fce2f405bd5711 7334 ros-humble-tier4-vehicle-launch_0-2025.04.16.06.36_amd64.deb
+Checksums-Sha256:
+ 9ea7f5fcc744f42fd17fdfd51c87f863be335251d9f5f6521dbad135b5cda228 10690 ros-humble-tier4-vehicle-launch_0-2025.04.16.06.36_amd64.buildinfo
+ 3e3108e36530a53571dbba0227d0a0b64e8608c9f61a749b0a184ef15109a3d6 7334 ros-humble-tier4-vehicle-launch_0-2025.04.16.06.36_amd64.deb
+Files:
+ f3e38685c0fda592647e844ae3edf23d 10690 misc optional ros-humble-tier4-vehicle-launch_0-2025.04.16.06.36_amd64.buildinfo
+ 8e76dcad4a7a84cafbce58bdadc24d45 7334 misc optional ros-humble-tier4-vehicle-launch_0-2025.04.16.06.36_amd64.deb

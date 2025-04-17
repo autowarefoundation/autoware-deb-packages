@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-object-velocity-splitter
+Binary: ros-humble-autoware-object-velocity-splitter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.15.23.02
+Distribution: jammy
+Urgency: high
+Maintainer: Sathshi Tanaka <satoshi.tanaka@tier4.jp>
+Changed-By: Sathshi Tanaka <satoshi.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-object-velocity-splitter - autoware_object_velocity_splitter
+Changes:
+ ros-humble-autoware-object-velocity-splitter (0-2025.04.15.23.02) jammy; urgency=high
+Checksums-Sha1:
+ 99f0de676a256f71581b6e1b3f60e657ec15a643 2453936 ros-humble-autoware-object-velocity-splitter-dbgsym_0-2025.04.15.23.02_amd64.ddeb
+ 6317260a11171845cca5552e96867223d946553b 40563 ros-humble-autoware-object-velocity-splitter_0-2025.04.15.23.02_amd64.buildinfo
+ 59a0882110030fc25cf7b9e2aaafa910b39c99e0 122366 ros-humble-autoware-object-velocity-splitter_0-2025.04.15.23.02_amd64.deb
+Checksums-Sha256:
+ 501fbaea614af5da9fb73f00d50d8216b904290fc53c01cdf7a7f92f9840af05 2453936 ros-humble-autoware-object-velocity-splitter-dbgsym_0-2025.04.15.23.02_amd64.ddeb
+ 95445d1d634a8a25394735f615497c6ffc2e6b288f08f750d17956182f530833 40563 ros-humble-autoware-object-velocity-splitter_0-2025.04.15.23.02_amd64.buildinfo
+ eb96afc3787bd2736d89bf4bc6f2f45849ebfa0bf7b9136ef447b6a22bf79214 122366 ros-humble-autoware-object-velocity-splitter_0-2025.04.15.23.02_amd64.deb
+Files:
+ 50b019bcca0e46c5f71a75e4f847c1bf 2453936 debug optional ros-humble-autoware-object-velocity-splitter-dbgsym_0-2025.04.15.23.02_amd64.ddeb
+ 9b32a5202d334654019a76557267ddaa 40563 misc optional ros-humble-autoware-object-velocity-splitter_0-2025.04.15.23.02_amd64.buildinfo
+ 64c1b3e39b0dc20a0b9ab214a8d46e42 122366 misc optional ros-humble-autoware-object-velocity-splitter_0-2025.04.15.23.02_amd64.deb

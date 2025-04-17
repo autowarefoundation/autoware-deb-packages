@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-trajectory-follower-base
+Binary: ros-humble-autoware-trajectory-follower-base
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.03.51
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-trajectory-follower-base - Library for generating lateral and longitudinal controls followin
+Changes:
+ ros-humble-autoware-trajectory-follower-base (0-2025.04.16.03.51) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: tier4_debug_msgs changed to autoware_internal_msgs in files con… (#9852 <https://github.com/autowarefoundation/autoware.universe/issues/9852>)
+     feat: tier4_debug_msgs changed to autoware_internal_msgs in files control/autoware_trajectory_follower_base
+   * Contributors: Fumiya Watanabe, Vishal Chauhan
+Checksums-Sha1:
+ 17ec165179a476959ac50cb3431f55b0b432be4c 52658 ros-humble-autoware-trajectory-follower-base-dbgsym_0-2025.04.16.03.51_amd64.ddeb
+ f0743a483672b9f9f8f0b474758b2e1fc29a514a 41226 ros-humble-autoware-trajectory-follower-base_0-2025.04.16.03.51_amd64.buildinfo
+ 17ff9ecb11f8497900ff9c323a368e71886f654d 12786 ros-humble-autoware-trajectory-follower-base_0-2025.04.16.03.51_amd64.deb
+Checksums-Sha256:
+ cb98301bb266ac711311fa9a314c7de73f431b65e94d031fec475dec30414a7a 52658 ros-humble-autoware-trajectory-follower-base-dbgsym_0-2025.04.16.03.51_amd64.ddeb
+ 15bae50eafb31eaf5eb4b4669119f2b7cf651f74b4f39eecb0748263e86222bd 41226 ros-humble-autoware-trajectory-follower-base_0-2025.04.16.03.51_amd64.buildinfo
+ 884e1790171db74214e0b36206d40763828d40a839ebfa8f62932616987d94b7 12786 ros-humble-autoware-trajectory-follower-base_0-2025.04.16.03.51_amd64.deb
+Files:
+ 45bb901e6302e54540853da04f591874 52658 debug optional ros-humble-autoware-trajectory-follower-base-dbgsym_0-2025.04.16.03.51_amd64.ddeb
+ 7ed1e11497e3efc7e861a03441627f82 41226 misc optional ros-humble-autoware-trajectory-follower-base_0-2025.04.16.03.51_amd64.buildinfo
+ 9fe1947189ba0d60529b7741f0dba171 12786 misc optional ros-humble-autoware-trajectory-follower-base_0-2025.04.16.03.51_amd64.deb

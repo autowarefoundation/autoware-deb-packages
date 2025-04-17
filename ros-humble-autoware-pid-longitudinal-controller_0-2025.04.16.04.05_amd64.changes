@@ -1,0 +1,46 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-pid-longitudinal-controller
+Binary: ros-humble-autoware-pid-longitudinal-controller
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.04.05
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-pid-longitudinal-controller - PID-based longitudinal controller
+Changes:
+ ros-humble-autoware-pid-longitudinal-controller (0-2025.04.16.04.05) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * fix: remove unnecessary parameters (#9935 <https://github.com/autowarefoundation/autoware.universe/issues/9935>)
+   * feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in fil… (#9848 <https://github.com/autowarefoundation/autoware.universe/issues/9848>)
+     feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files control/autoware_pid_longitudinal_controller
+   * feat(pid_longitudinal_controller): add new slope compensation mode trajectory_goal_adaptive (#9705 <https://github.com/autowarefoundation/autoware.universe/issues/9705>)
+   * feat(pid_longitudinal_controller): add virtual wall for dry steering and emergency (#9685 <https://github.com/autowarefoundation/autoware.universe/issues/9685>)
+     * feat(pid_longitudinal_controller): add virtual wall for dry steering and emergency
+     * fix
+     ---------
+   * feat(pid_longitudinal_controller): remove trans/rot deviation validation since the control_validator has the same feature (#9675 <https://github.com/autowarefoundation/autoware.universe/issues/9675>)
+     * feat(pid_longitudinal_controller): remove trans/rot deviation validation since the control_validator has the same feature
+     * fix test
+     ---------
+   * feat(pid_longitudinal_controller): add smooth_stop mode in debug_values (#9681 <https://github.com/autowarefoundation/autoware.universe/issues/9681>)
+   * feat(pid_longitudinal_controller): update trajectory_adaptive; add debug_values, adopt rate limit fillter (#9656 <https://github.com/autowarefoundation/autoware.universe/issues/9656>)
+   * fix(autoware_pid_longitudinal_controller): fix bugprone-branch-clone (#9629 <https://github.com/autowarefoundation/autoware.universe/issues/9629>)
+     fix: bugprone-branch-clone
+   * Contributors: Fumiya Watanabe, Takayuki Murooka, Vishal Chauhan, Yuki TAKAGI, kobayu858
+Checksums-Sha1:
+ 07d37974a75913308c43101ea52170271abefd6b 1516690 ros-humble-autoware-pid-longitudinal-controller-dbgsym_0-2025.04.16.04.05_amd64.ddeb
+ 0ae7f0d67f952f6edbea9cf5572cce618d5ead6d 41332 ros-humble-autoware-pid-longitudinal-controller_0-2025.04.16.04.05_amd64.buildinfo
+ daa9e4446bc874f51aebbc16eba62fb129f7f906 109314 ros-humble-autoware-pid-longitudinal-controller_0-2025.04.16.04.05_amd64.deb
+Checksums-Sha256:
+ da32efee289c95a6be000aa47adf7be1cf219035f692f0489b9b968c35d49bc2 1516690 ros-humble-autoware-pid-longitudinal-controller-dbgsym_0-2025.04.16.04.05_amd64.ddeb
+ efe6838b3c60a421f8b454bd092dcbc9d508eb0264f9b2be2d6df5eeb768aa42 41332 ros-humble-autoware-pid-longitudinal-controller_0-2025.04.16.04.05_amd64.buildinfo
+ 376ac5f98d91284c19cdc3237d8c9e1a192503c523e9e842b5566575dffd7d1e 109314 ros-humble-autoware-pid-longitudinal-controller_0-2025.04.16.04.05_amd64.deb
+Files:
+ b30f8589f4b305d81f42a3a73494c29c 1516690 debug optional ros-humble-autoware-pid-longitudinal-controller-dbgsym_0-2025.04.16.04.05_amd64.ddeb
+ 4d7fc10617d7c2a1edbb30c4fed43f29 41332 misc optional ros-humble-autoware-pid-longitudinal-controller_0-2025.04.16.04.05_amd64.buildinfo
+ 07070f1b2e0b6993943081eb7255b057 109314 misc optional ros-humble-autoware-pid-longitudinal-controller_0-2025.04.16.04.05_amd64.deb

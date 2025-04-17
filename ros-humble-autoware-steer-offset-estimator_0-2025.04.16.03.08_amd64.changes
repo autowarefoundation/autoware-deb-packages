@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-steer-offset-estimator
+Binary: ros-humble-autoware-steer-offset-estimator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.03.08
+Distribution: jammy
+Urgency: high
+Maintainer: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Changed-By: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-steer-offset-estimator - The steer_offset_estimator
+Changes:
+ ros-humble-autoware-steer-offset-estimator (0-2025.04.16.03.08) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_steer_offset_estimator)!: tier4_debug_msgs changed to autoware_internal_debug_msgs in autoware_steer_offset_estimator (#9926 <https://github.com/autowarefoundation/autoware.universe/issues/9926>)
+     feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files vehicle/autoware_steer_offset_estimator
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+   * Contributors: Fumiya Watanabe, Vishal Chauhan
+Checksums-Sha1:
+ e4044b07565a0bf7199fe88d12f5875323f9c8c6 3432704 ros-humble-autoware-steer-offset-estimator-dbgsym_0-2025.04.16.03.08_amd64.ddeb
+ adfa983d85e4de071110d8b1b532905a2df1a229 40690 ros-humble-autoware-steer-offset-estimator_0-2025.04.16.03.08_amd64.buildinfo
+ ab2ae893a3c0b247144e10b50525882232d56fb9 162278 ros-humble-autoware-steer-offset-estimator_0-2025.04.16.03.08_amd64.deb
+Checksums-Sha256:
+ d25bfed7cb2b5d2afabf0eb7bc0dfb2cb7fd3826a57a45b2f40ccab54596df62 3432704 ros-humble-autoware-steer-offset-estimator-dbgsym_0-2025.04.16.03.08_amd64.ddeb
+ 9f0ae07975bd7ec734f3f0c9b2ad67709c9ffb97b5bb9dc9873f8a782890f250 40690 ros-humble-autoware-steer-offset-estimator_0-2025.04.16.03.08_amd64.buildinfo
+ e3b0c48bda1f9f001b0bdbc0b8961cfc6cd0de412bb3a73ef112de8f3cf08c1b 162278 ros-humble-autoware-steer-offset-estimator_0-2025.04.16.03.08_amd64.deb
+Files:
+ 61bdff45eafc5e15f10f7652a0e01f5a 3432704 debug optional ros-humble-autoware-steer-offset-estimator-dbgsym_0-2025.04.16.03.08_amd64.ddeb
+ 3cb62d02feefc26161f98299b09de6af 40690 misc optional ros-humble-autoware-steer-offset-estimator_0-2025.04.16.03.08_amd64.buildinfo
+ d96144d3a2ff240da695dc773abb70f5 162278 misc optional ros-humble-autoware-steer-offset-estimator_0-2025.04.16.03.08_amd64.deb

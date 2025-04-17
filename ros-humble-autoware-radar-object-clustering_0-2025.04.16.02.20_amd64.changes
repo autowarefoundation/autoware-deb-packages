@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-radar-object-clustering
+Binary: ros-humble-autoware-radar-object-clustering
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.02.20
+Distribution: jammy
+Urgency: high
+Maintainer: Sathshi Tanaka <satoshi.tanaka@tier4.jp>
+Changed-By: Sathshi Tanaka <satoshi.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-radar-object-clustering - autoware_radar_object_clustering
+Changes:
+ ros-humble-autoware-radar-object-clustering (0-2025.04.16.02.20) jammy; urgency=high
+Checksums-Sha1:
+ c135a45d9cd553ebd2f7dcfda88076f574600362 3549354 ros-humble-autoware-radar-object-clustering-dbgsym_0-2025.04.16.02.20_amd64.ddeb
+ 29c7fd60d3f91220cdd1f1fc2434a6bb8398261c 40699 ros-humble-autoware-radar-object-clustering_0-2025.04.16.02.20_amd64.buildinfo
+ 371b3120784fc44f5595c72918b363f974d1b31a 130380 ros-humble-autoware-radar-object-clustering_0-2025.04.16.02.20_amd64.deb
+Checksums-Sha256:
+ 249c4130a558eed3b8f6d954dd4ee92dd3dba6914fe5b7150254d43bd4fe0b83 3549354 ros-humble-autoware-radar-object-clustering-dbgsym_0-2025.04.16.02.20_amd64.ddeb
+ b18621320ce78d3f9d27915353bb31e96c5565b2f5a9b8814fe9a1b7e374acb1 40699 ros-humble-autoware-radar-object-clustering_0-2025.04.16.02.20_amd64.buildinfo
+ d4c8098ed99c1953a1f3847d6f3cb01c0df88a7ce311f99bb15ca70b091ef98a 130380 ros-humble-autoware-radar-object-clustering_0-2025.04.16.02.20_amd64.deb
+Files:
+ 55552d9db5186a2aa55dd23455dab0ce 3549354 debug optional ros-humble-autoware-radar-object-clustering-dbgsym_0-2025.04.16.02.20_amd64.ddeb
+ 0073b34ee15ddade302a4fb5bfb94374 40699 misc optional ros-humble-autoware-radar-object-clustering_0-2025.04.16.02.20_amd64.buildinfo
+ 096c82181b3ebfbb8a3893666da6859c 130380 misc optional ros-humble-autoware-radar-object-clustering_0-2025.04.16.02.20_amd64.deb

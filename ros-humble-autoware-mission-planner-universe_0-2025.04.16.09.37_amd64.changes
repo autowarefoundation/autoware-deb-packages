@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-humble-autoware-mission-planner-universe
+Binary: ros-humble-autoware-mission-planner-universe
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.04.16.09.37
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-mission-planner-universe - The autoware_mission_planner_universe package
+Changes:
+ ros-humble-autoware-mission-planner-universe (0-2025.04.16.09.37) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_mission_planner)!: feat(autoware_mission_planner_universe)!: add _universe suffix to package name (#9941 <https://github.com/autowarefoundation/autoware.universe/issues/9941>)
+   * Contributors: Fumiya Watanabe, Ryohsuke Mitsudome
+Checksums-Sha1:
+ ac61061e34ba943122f7a9eb3329ec97927bb784 20002626 ros-humble-autoware-mission-planner-universe-dbgsym_0-2025.04.16.09.37_amd64.ddeb
+ 5b466efd13c32717b5c111c2b25d94dfd009cfb1 44106 ros-humble-autoware-mission-planner-universe_0-2025.04.16.09.37_amd64.buildinfo
+ a5c5af0c94b8ae72a1a997992cb49fccee5e8632 656616 ros-humble-autoware-mission-planner-universe_0-2025.04.16.09.37_amd64.deb
+Checksums-Sha256:
+ 50c9a413c5333e1c7d4f020c6d20db32ed05bcf938e253052d744d7c1cfde466 20002626 ros-humble-autoware-mission-planner-universe-dbgsym_0-2025.04.16.09.37_amd64.ddeb
+ d201f6814d182cece3e0739550bfdf79167b594bc41bbbd793db3088ef6050c7 44106 ros-humble-autoware-mission-planner-universe_0-2025.04.16.09.37_amd64.buildinfo
+ bb58d00dbabff8d758466a01dbbe7343d2038d36f38d7486f4398c338802aed6 656616 ros-humble-autoware-mission-planner-universe_0-2025.04.16.09.37_amd64.deb
+Files:
+ 5bf7da2efc17a20c120bba762f0c33ec 20002626 debug optional ros-humble-autoware-mission-planner-universe-dbgsym_0-2025.04.16.09.37_amd64.ddeb
+ a037b35ba481528dfb99e59e8f5aebdd 44106 misc optional ros-humble-autoware-mission-planner-universe_0-2025.04.16.09.37_amd64.buildinfo
+ 438f90b12adf51c24011532d6d026a82 656616 misc optional ros-humble-autoware-mission-planner-universe_0-2025.04.16.09.37_amd64.deb
