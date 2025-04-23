@@ -50,6 +50,8 @@ jobs:
     steps:
       - name: "Remove unattended-upgrades"
         run: sudo apt-get remove -y --purge unattended-upgrades
+      - name: "Setup ROS"
+        uses: ros-tooling/setup-ros@v0.7
       - name: "Check if packages should be pushed to the repo"
         run: |
           if [[ "${{ startsWith(github.ref, 'refs/heads/') && !startsWith(github.ref, 'refs/pull/')}}" == "true" ]]; then
