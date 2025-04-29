@@ -8,16 +8,89 @@ on:
       - completed
 
 jobs:
-  simple-job:
-    name: "Simple skeleton job"
+  start-runner:
+    name: "Start self-hosted EC2 runner"
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
+    outputs:
+      label: ${{ steps.start-ec2-runner.outputs.label }}
+      ec2-instance-id: ${{ steps.start-ec2-runner.outputs.ec2-instance-id }}
     steps:
-      - name: "Download non-CUDA Debian packages generated from previous workflow"
-        uses: dawidd6/action-download-artifact@v6
+      - name: "Configure AWS credentials"
+        uses: aws-actions/configure-aws-credentials@v2
         with:
-            name: no-cuda-debian-packages
-            run_id: ${{ github.event.workflow_run.id }}
-
-      - name: "List contents"
-        run: find
+          aws-access-key-id: ${{ secrets.EC2_ON_DEMAND_AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.EC2_ON_DEMAND_AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.EC2_ON_DEMAND_AWS_REGION }}
+      - name: "Start EC2 runner"
+        id: start-ec2-runner
+        uses: esteve/ec2-github-runner@feature/allow-changing-root-volume-size
+        with:
+          mode: start
+          github-token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN_MFC }}
+          ec2-image-id: ami-0a60b027285c0d4c5
+          ec2-instance-type: t3.xlarge
+          ec2-volume-size: 30
+          subnet-id: subnet-4e5eb225
+          security-group-id: sg-02780d120ee4d06e1
+          run-runner-as-service: true
+          run-runner-as-user: ubuntu
+  generate-deb-packages-aws-cuda:
+    name: "Build Debian packages for Autoware (Humble) (CUDA)"
+    needs: start-runner
+    runs-on: ${{ needs.start-runner.outputs.label }}
+    timeout-minutes: 5760
+    permissions:
+      deployments: write
+      contents: write
+      statuses: write
+      actions: write
+      checks: read
+    steps:
+      - name: "Remove unattended-upgrades"
+        run: sudo apt-get remove -y --purge unattended-upgrades
+      - name: "Setup ROS"
+        uses: ros-tooling/setup-ros@v0.7
+      - name: "Check if packages should be pushed to the repo"
+        run: |
+          if [[ "${{ startsWith(github.ref, 'refs/heads/') && !startsWith(github.ref, 'refs/pull/')}}" == "true" ]]; then
+            echo "push_packages=true" >> $GITHUB_ENV
+            echo "gh_personal_access_token_mfc=${{ secrets.GH_PERSONAL_ACCESS_TOKEN_MFC }}" >> $GITHUB_ENV
+          else
+            echo "push_packages=false" >> $GITHUB_ENV
+            echo "gh_personal_access_token_mfc=" >> $GITHUB_ENV
+          fi
+      - name: "Build Debian packages (pushing packages to repository: ${{ env.push_packages }})"
+        uses: jspricke/ros-deb-builder-action@main
+        with:
+          ROSDEP_SOURCE: yaml https://s3.amazonaws.com/autonomoustuff-repo/autonomoustuff-public-humble.yaml
+          SBUILD_CONF: $extra_repositories = ["deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ jammy main", "deb [trusted=yes] https://raw.githubusercontent.com/autowarefoundation/autoware-deb-packages/jammy-humble-main/ ./"];
+          DEB_DISTRO: jammy
+          ROS_DISTRO: humble
+          REPOS_FILE: sources.repos
+          GITHUB_TOKEN: ${{ env.gh_personal_access_token_mfc }}
+          SQUASH_HISTORY: true
+          PACKAGES_BRANCH: jammy-humble-main-cuda
+          GIT_LFS: true
+          COLCON_DEFAULTS_FILE: colcon-only-cuda.yml
+  stop-runner:
+    name: "Stop self-hosted EC2 runner"
+    needs:
+      - start-runner
+      - generate-deb-packages-aws-cuda
+    runs-on: ubuntu-latest
+    if: ${{ always() }}
+    steps:
+      - name: "Configure AWS credentials"
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.EC2_ON_DEMAND_AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.EC2_ON_DEMAND_AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.EC2_ON_DEMAND_AWS_REGION }}
+      - name: "Stop EC2 runner"
+        uses: machulav/ec2-github-runner@v2
+        with:
+          mode: stop
+          github-token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN_MFC }}
+          label: ${{ needs.start-runner.outputs.label }}
+          ec2-instance-id: ${{ needs.start-runner.outputs.ec2-instance-id }}
