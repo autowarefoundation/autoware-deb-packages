@@ -1,0 +1,3 @@
+list:
+  packages-select-by-dep:
+    - autoware_cuda_dependency_meta
