@@ -60,6 +60,11 @@ jobs:
             echo "push_packages=false" >> $GITHUB_ENV
             echo "gh_personal_access_token_mfc=" >> $GITHUB_ENV
           fi
+      - name: 'Download non-CUDA Debian packages generated from previous workflow'
+        uses: dawidd6/action-download-artifact@v6
+        with:
+            name: no-cuda-debian-packages
+            run_id: ${{ github.event.workflow_run.id }}
       - name: "Build Debian packages (pushing packages to repository: ${{ env.push_packages }})"
         uses: jspricke/ros-deb-builder-action@main
         with:
