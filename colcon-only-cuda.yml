@@ -1,3 +1,5 @@
 list:
   packages-select-by-dep:
     - autoware_cuda_dependency_meta
+  packages-up-to:
+    - autoware_bevfusion
