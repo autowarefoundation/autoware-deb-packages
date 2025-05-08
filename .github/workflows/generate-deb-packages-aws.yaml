@@ -74,11 +74,15 @@ jobs:
           PACKAGES_BRANCH: jammy-humble-main
           GIT_LFS: true
           COLCON_DEFAULTS_FILE: colcon-skip-cuda.yml
+
+      - name: "Tar artifacts"
+        run: tar -cvf apt_repo.tar apt_repo
+
       - name: "Share Debian packages with the CUDA-only workflow"
         uses: actions/upload-artifact@v4
         with:
           name: no-cuda-debian-packages
-          path: apt_repo
+          path: apt_repo.tar
           if-no-files-found: error
           retention-days: 1
           compression-level: 0
