@@ -74,6 +74,14 @@ jobs:
           PACKAGES_BRANCH: jammy-humble-main
           GIT_LFS: true
           COLCON_DEFAULTS_FILE: colcon-skip-cuda.yml
+      - name: "Share Debian packages with the CUDA-only workflow"
+        uses: actions/upload-artifact@v4
+        with:
+          name: no-cuda-debian-packages
+          path: apt_repo
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 0
   stop-runner:
     name: "Stop self-hosted EC2 runner"
     needs:
