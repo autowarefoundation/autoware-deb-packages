@@ -181,7 +181,7 @@ jobs:
           PACKAGES_BRANCH: jammy-humble-main-cuda
           GIT_LFS: true
           COLCON_DEFAULTS_FILE: colcon-only-cuda.yml
-  stop-runner:
+  stop-runner-cuda:
     name: "Stop self-hosted EC2 runner"
     needs:
       - start-runner-cuda
