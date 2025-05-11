@@ -112,7 +112,7 @@ jobs:
 
   start-runner-cuda:
     name: "Start self-hosted EC2 runner"
-    needs: generate-deb-packages-aws
+    needs: stop-runner
     runs-on: ubuntu-latest
     outputs:
       label: ${{ steps.start-ec2-runner.outputs.label }}
