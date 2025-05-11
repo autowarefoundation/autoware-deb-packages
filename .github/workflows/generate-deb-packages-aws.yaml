@@ -93,6 +93,7 @@ jobs:
     needs:
       - start-runner
       - generate-deb-packages-aws
+      - generate-deb-packages-aws-cuda
     runs-on: ubuntu-latest
     if: ${{ always() }}
     steps:
