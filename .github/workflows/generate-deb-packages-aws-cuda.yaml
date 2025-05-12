@@ -11,6 +11,7 @@ jobs:
   simple-job:
     name: "Simple skeleton job"
     runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
     steps:
       - name: "Download non-CUDA Debian packages generated from previous workflow"
         uses: dawidd6/action-download-artifact@v6
