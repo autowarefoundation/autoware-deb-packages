@@ -1,0 +1,22 @@
+
+name: generate-deb-packages-aws-cuda
+
+on:
+  workflow_run:
+    workflows: ["generate-deb-packages-aws"]
+    types:
+      - completed
+
+jobs:
+  simple-job:
+    name: "Simple skeleton job"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Download non-CUDA Debian packages generated from previous workflow"
+        uses: dawidd6/action-download-artifact@v6
+        with:
+            name: no-cuda-debian-packages
+            run_id: ${{ github.event.workflow_run.id }}
+
+      - name: "List contents"
+        run: find
