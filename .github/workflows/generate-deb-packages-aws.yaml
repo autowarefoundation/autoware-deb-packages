@@ -14,7 +14,23 @@ jobs:
     name: "Generate Debian packages"
     uses: ./.github/workflows/generate-deb-packages-aws-reusable.yaml
     with:
-      is-cuda-job: false
+      colcon-defaults-file: colcon-skip-cuda.yml
+      packages-branch: jammy-humble-main
+      artifacts-upload-name: no-cuda-debian-packages
+    secrets:
+      aws-access-key-id: ${{ secrets.EC2_ON_DEMAND_AWS_ACCESS_KEY_ID }}
+      aws-secret-access-key: ${{ secrets.EC2_ON_DEMAND_AWS_SECRET_ACCESS_KEY }}
+      aws-region: ${{ secrets.EC2_ON_DEMAND_AWS_REGION }}
+      gh-personal-access-token-mfc: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN_MFC }}
+
+  generate-debian-packages-cuda:
+    name: "Generate CUDA Debian packages"
+    uses: ./.github/workflows/generate-deb-packages-aws-reusable.yaml
+    needs: generate-debian-packages
+    with:
+      colcon-defaults-file: colcon-only-cuda.yml
+      packages-branch: jammy-humble-main-cuda
+      artifacts-download-name: no-cuda-debian-packages
     secrets:
       aws-access-key-id: ${{ secrets.EC2_ON_DEMAND_AWS_ACCESS_KEY_ID }}
       aws-secret-access-key: ${{ secrets.EC2_ON_DEMAND_AWS_SECRET_ACCESS_KEY }}

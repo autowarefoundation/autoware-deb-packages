@@ -4,9 +4,18 @@ name: generate-deb-packages-aws (reusable)
 on:
   workflow_call:
     inputs:
-      is-cuda-job:
+      colcon-defaults-file:
+        required: true
+        type: string
+      packages-branch:
+        required: true
+        type: string
+      artifacts-upload-name:
         required: false
-        type: boolean
+        type: string
+      artifacts-download-name:
+        required: false
+        type: string
     secrets:
       aws-access-key-id:
         required: true
@@ -70,6 +79,17 @@ jobs:
             echo "push_packages=false" >> $GITHUB_ENV
             echo "gh_personal_access_token_mfc=" >> $GITHUB_ENV
           fi
+
+      - name: 'Download non-CUDA Debian packages generated from previous workflow'
+        uses: actions/download-artifact@v4
+        if: ${{ inputs.artifacts-download-name != '' }}
+        with:
+            name: ${{ inputs.artifacts-download-name }}
+
+      - name: 'Unpack non-CUDA Debian packages'
+        if: ${{ inputs.artifacts-download-name != '' }}
+        run: tar -xvf apt_repo.tar
+
       - name: "Build Debian packages (pushing packages to repository: ${{ env.push_packages }})"
         uses: jspricke/ros-deb-builder-action@main
         with:
@@ -80,19 +100,19 @@ jobs:
           REPOS_FILE: sources.repos
           GITHUB_TOKEN: ${{ env.gh_personal_access_token_mfc }}
           SQUASH_HISTORY: true
-          PACKAGES_BRANCH: jammy-humble-main
+          PACKAGES_BRANCH: ${{ inputs.packages-branch }}
           GIT_LFS: true
-          COLCON_DEFAULTS_FILE: colcon-skip-cuda.yml
+          COLCON_DEFAULTS_FILE: ${{ inputs.colcon-defaults-file }}
 
       - name: "Tar artifacts"
-        if: ${{ !inputs.is-cuda-job }}
+        if: ${{ inputs.artifacts-upload-name != '' }}
         run: tar -cvf apt_repo.tar apt_repo
 
       - name: "Share Debian packages with the CUDA-only job"
-        if: ${{ !inputs.is-cuda-job }}
+        if: ${{ inputs.artifacts-upload-name != '' }}
         uses: actions/upload-artifact@v4
         with:
-          name: no-cuda-debian-packages
+          name: ${{ inputs.artifacts-upload-name }}
           path: apt_repo.tar
           if-no-files-found: error
           retention-days: 1
