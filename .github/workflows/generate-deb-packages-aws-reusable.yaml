@@ -94,7 +94,7 @@ jobs:
         uses: jspricke/ros-deb-builder-action@main
         if: ${{ inputs.artifacts-download-name != '' }}
         with:
-          ROSDEP_SOURCE: 'yaml https://s3.amazonaws.com/autonomoustuff-repo/autonomoustuff-public-humble.yaml
+          ROSDEP_SOURCE: 'yaml https://s3.amazonaws.com/autonomoustuff-repo/autonomoustuff-public-humble.yaml;
                           yaml file://${{ runner.temp }}/apt_repo-nocuda/local.yaml'
           SBUILD_CONF: 'push @$unshare_bind_mounts, { directory => "${{ runner.temp }}/apt_repo-nocuda", mountpoint => "/apt_repo-nocuda" };
                         $extra_repositories = [
