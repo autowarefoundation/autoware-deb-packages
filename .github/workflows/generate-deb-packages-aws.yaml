@@ -16,8 +16,7 @@ concurrency:
 jobs:
   generate-deb-packages-aws:
     name: "Build Debian packages for Autoware (Humble)"
-    runs-on: [self-hosted, Linux, X64]
-    container: ubuntu:22.04
+    runs-on: [self-hosted, Linux, X64, generate-deb-pkgs]
     timeout-minutes: 5760
     permissions:
       deployments: write
