@@ -9,38 +9,15 @@ on:
     branches:
       - 'main'
 
+concurrency:
+  group: generate-deb-packages # only one job can run at a time
+  cancel-in-progress: true
+
 jobs:
-  start-runner:
-    name: "Start self-hosted EC2 runner"
-    runs-on: ubuntu-latest
-    outputs:
-      label: ${{ steps.start-ec2-runner.outputs.label }}
-      ec2-instance-id: ${{ steps.start-ec2-runner.outputs.ec2-instance-id }}
-    steps:
-      - name: "Configure AWS credentials"
-        uses: aws-actions/configure-aws-credentials@v2
-        with:
-          aws-access-key-id: ${{ secrets.EC2_ON_DEMAND_AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.EC2_ON_DEMAND_AWS_SECRET_ACCESS_KEY }}
-          aws-region: ${{ secrets.EC2_ON_DEMAND_AWS_REGION }}
-      - name: "Start EC2 runner"
-        id: start-ec2-runner
-        uses: esteve/ec2-github-runner@feature/allow-changing-root-volume-size
-        with:
-          mode: start
-          github-token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN_MFC }}
-          ec2-image-id: ami-0c3b809fcf2445b6a
-          ec2-instance-type: t3.xlarge
-          ec2-volume-size: 40
-          ec2-volume-type: gp3
-          subnet-id: subnet-4e5eb225
-          security-group-id: sg-02780d120ee4d06e1
-          run-runner-as-service: true
-          run-runner-as-user: ubuntu
   generate-deb-packages-aws:
     name: "Build Debian packages for Autoware (Humble)"
-    needs: start-runner
-    runs-on: ${{ needs.start-runner.outputs.label }}
+    runs-on: [self-hosted, Linux, X64]
+    container: ubuntu:22.04
     timeout-minutes: 5760
     permissions:
       deployments: write
@@ -87,25 +64,3 @@ jobs:
           if-no-files-found: error
           retention-days: 1
           compression-level: 0
-
-  stop-runner:
-    name: "Stop self-hosted EC2 runner"
-    needs:
-      - start-runner
-      - generate-deb-packages-aws
-    runs-on: ubuntu-latest
-    if: ${{ always() }}
-    steps:
-      - name: "Configure AWS credentials"
-        uses: aws-actions/configure-aws-credentials@v2
-        with:
-          aws-access-key-id: ${{ secrets.EC2_ON_DEMAND_AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.EC2_ON_DEMAND_AWS_SECRET_ACCESS_KEY }}
-          aws-region: ${{ secrets.EC2_ON_DEMAND_AWS_REGION }}
-      - name: "Stop EC2 runner"
-        uses: machulav/ec2-github-runner@v2
-        with:
-          mode: stop
-          github-token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN_MFC }}
-          label: ${{ needs.start-runner.outputs.label }}
-          ec2-instance-id: ${{ needs.start-runner.outputs.ec2-instance-id }}
