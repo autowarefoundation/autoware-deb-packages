@@ -21,6 +21,7 @@ jobs:
       colcon-defaults-file: colcon-skip-cuda.yml
       packages-branch: jammy-humble-main
       artifacts-upload-name: no-cuda-debian-packages
+      gh-personal-access-token-mfc: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN_MFC }}
 
   generate-debian-packages-cuda:
     name: "Generate CUDA Debian packages"
@@ -30,3 +31,4 @@ jobs:
       colcon-defaults-file: colcon-only-cuda.yml
       packages-branch: jammy-humble-main-cuda
       artifacts-download-name: no-cuda-debian-packages
+      gh-personal-access-token-mfc: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN_MFC }}
