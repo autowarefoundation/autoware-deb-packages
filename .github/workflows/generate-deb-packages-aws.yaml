@@ -14,6 +14,11 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  test-colcon-file:
+    steps:
+      - name: test-colcon-skip
+        run: ls -l $GITHUB_WORKSPACE
+
   generate-debian-packages:
     name: "Generate Debian packages"
     uses: ./.github/workflows/generate-deb-packages-aws-reusable.yaml
