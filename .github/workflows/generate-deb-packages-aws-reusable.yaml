@@ -58,12 +58,6 @@ jobs:
         if: ${{ inputs.artifacts-download-name != '' }}
         run: tar -C ${{ runner.temp }} -xvf apt_repo-nocuda.tar
 
-      - name: test-colcon-skip
-        run: ls -l $GITHUB_WORKSPACE
-
-      - name: test-colcon-skip
-        run: ls -l $GITHUB_WORKSPACE/repo
-
       - name: "Build Debian CUDA packages (pushing packages to repository: ${{ env.push_packages }})"
         uses: jspricke/ros-deb-builder-action@main
         if: ${{ inputs.artifacts-download-name != '' }}
