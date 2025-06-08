@@ -82,7 +82,7 @@ jobs:
           SQUASH_HISTORY: true
           PACKAGES_BRANCH: ${{ inputs.packages-branch }}
           GIT_LFS: true
-          COLCON_DEFAULTS_FILE: repo/colcon-only-cuda.yml
+          COLCON_DEFAULTS_FILE: repo/${{ inputs.colcon-defaults-file }}
 
       - name: "Build Debian non-CUDA packages (pushing packages to repository: ${{ env.push_packages }})"
         uses: jspricke/ros-deb-builder-action@main
@@ -99,7 +99,7 @@ jobs:
           SQUASH_HISTORY: true
           PACKAGES_BRANCH: ${{ inputs.packages-branch }}
           GIT_LFS: true
-          COLCON_DEFAULTS_FILE: repo/colcon-skip-cuda.yml
+          COLCON_DEFAULTS_FILE: repo/${{ inputs.colcon-defaults-file }}
 
       - name: "Tar artifacts"
         if: ${{ inputs.artifacts-upload-name != '' }}
