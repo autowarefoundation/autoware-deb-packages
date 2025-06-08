@@ -18,7 +18,7 @@ jobs:
     name: "Generate Debian packages"
     uses: ./.github/workflows/generate-deb-packages-aws-reusable.yaml
     with:
-      colcon-defaults-file: colcon-skip-cuda.yml
+      colcon-defaults-file: ${{ github.workspace }}/repo/colcon-skip-cuda.yml
       packages-branch: jammy-humble-main
       artifacts-upload-name: no-cuda-debian-packages
     secrets:
@@ -29,7 +29,7 @@ jobs:
     uses: ./.github/workflows/generate-deb-packages-aws-reusable.yaml
     needs: generate-debian-packages
     with:
-      colcon-defaults-file: colcon-only-cuda.yml
+      colcon-defaults-file: ${{ github.workspace }}/repo/colcon-only-cuda.yml
       packages-branch: jammy-humble-main-cuda
       artifacts-download-name: no-cuda-debian-packages
     secrets:
