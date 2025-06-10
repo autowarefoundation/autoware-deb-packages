@@ -11,7 +11,7 @@ on:
 
 concurrency:
   group: generate-deb-packages # only one job can run at a time
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   generate-debian-packages:
