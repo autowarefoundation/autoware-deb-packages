@@ -1,0 +1,110 @@
+
+name: generate-deb-packages-aws (reusable)
+
+on:
+  workflow_call:
+    inputs:
+      colcon-defaults-file:
+        required: true
+        type: string
+      packages-branch:
+        required: true
+        type: string
+      artifacts-upload-name:
+        required: false
+        type: string
+      artifacts-download-name:
+        required: false
+        type: string
+    secrets:
+      gh-personal-access-token-mfc:
+        required: true
+
+jobs:
+  generate-deb-packages-aws:
+    name: "Build Debian packages for Autoware (Humble)"
+    runs-on: [self-hosted, Linux, X64, generate-deb-pkgs]
+    timeout-minutes: 5760
+    permissions:
+      deployments: write
+      contents: write
+      statuses: write
+      actions: write
+      checks: read
+    steps:
+      - name: "Remove unattended-upgrades"
+        run: sudo apt-get remove -y --purge unattended-upgrades
+      - name: "Clean up build environment"
+        run: rm -rfv $GITHUB_WORKSPACE/apt_repo $GITHUB_WORKSPACE/src $GITHUB_WORKSPACE/workspace $HOME/.cache/ccache $HOME/.cache/sbuild
+      - name: "Setup ROS"
+        uses: ros-tooling/setup-ros@v0.7
+      - name: "Check if packages should be pushed to the repo"
+        run: |
+          if [[ "${{ startsWith(github.ref, 'refs/heads/') && !startsWith(github.ref, 'refs/pull/')}}" == "true" ]]; then
+            echo "push_packages=true" >> $GITHUB_ENV
+            echo "gh_personal_access_token_mfc=${{ secrets.gh-personal-access-token-mfc }}" >> $GITHUB_ENV
+          else
+            echo "push_packages=false" >> $GITHUB_ENV
+            echo "gh_personal_access_token_mfc=" >> $GITHUB_ENV
+          fi
+
+      - name: 'Download non-CUDA Debian packages generated from previous workflow'
+        uses: actions/download-artifact@v4
+        if: ${{ inputs.artifacts-download-name != '' }}
+        with:
+            name: ${{ inputs.artifacts-download-name }}
+
+      - name: 'Unpack non-CUDA Debian packages'
+        if: ${{ inputs.artifacts-download-name != '' }}
+        run: tar -C ${{ runner.temp }} -xvf apt_repo-nocuda.tar
+
+      - name: "Build Debian CUDA packages (pushing packages to repository: ${{ env.push_packages }})"
+        uses: jspricke/ros-deb-builder-action@main
+        if: ${{ inputs.artifacts-download-name != '' }}
+        with:
+          ROSDEP_SOURCE: 'yaml https://s3.amazonaws.com/autonomoustuff-repo/autonomoustuff-public-humble.yaml\n
+                          yaml file://${{ runner.temp }}/apt_repo-nocuda/local.yaml'
+          SBUILD_CONF: 'push @$unshare_bind_mounts, { directory => "${{ runner.temp }}/apt_repo-nocuda", mountpoint => "/apt_repo-nocuda" };
+                        $extra_repositories = [
+                          "deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ jammy main",
+                          "deb [trusted=yes] file:///apt_repo-nocuda/ ./"
+                        ];'
+          DEB_DISTRO: jammy
+          ROS_DISTRO: humble
+          REPOS_FILE: sources.repos
+          GITHUB_TOKEN: ${{ env.gh_personal_access_token_mfc }}
+          SQUASH_HISTORY: true
+          PACKAGES_BRANCH: ${{ inputs.packages-branch }}
+          GIT_LFS: true
+          COLCON_DEFAULTS_FILE: repo/${{ inputs.colcon-defaults-file }}
+
+      - name: "Build Debian non-CUDA packages (pushing packages to repository: ${{ env.push_packages }})"
+        uses: jspricke/ros-deb-builder-action@main
+        if: ${{ inputs.artifacts-download-name == '' }}
+        with:
+          ROSDEP_SOURCE: 'yaml https://s3.amazonaws.com/autonomoustuff-repo/autonomoustuff-public-humble.yaml'
+          SBUILD_CONF: '$extra_repositories = [
+                          "deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ jammy main",
+                        ];'
+          DEB_DISTRO: jammy
+          ROS_DISTRO: humble
+          REPOS_FILE: sources.repos
+          GITHUB_TOKEN: ${{ env.gh_personal_access_token_mfc }}
+          SQUASH_HISTORY: true
+          PACKAGES_BRANCH: ${{ inputs.packages-branch }}
+          GIT_LFS: true
+          COLCON_DEFAULTS_FILE: repo/${{ inputs.colcon-defaults-file }}
+
+      - name: "Tar artifacts"
+        if: ${{ inputs.artifacts-upload-name != '' }}
+        run: tar -cvf apt_repo-nocuda.tar --transform s/apt_repo/apt_repo-nocuda/ apt_repo/
+
+      - name: "Share Debian packages with the CUDA-only job"
+        if: ${{ inputs.artifacts-upload-name != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ inputs.artifacts-upload-name }}
+          path: apt_repo-nocuda.tar
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 0

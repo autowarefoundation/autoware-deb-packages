@@ -14,54 +14,23 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  generate-deb-packages-aws:
-    name: "Build Debian packages for Autoware (Humble)"
-    runs-on: [self-hosted, Linux, X64, generate-deb-pkgs]
-    timeout-minutes: 5760
-    permissions:
-      deployments: write
-      contents: write
-      statuses: write
-      actions: write
-      checks: read
-    steps:
-      - name: "Remove unattended-upgrades"
-        run: sudo apt-get remove -y --purge unattended-upgrades
-      - name: "Clean up build environment"
-        run: rm -rfv $GITHUB_WORKSPACE/apt_repo $GITHUB_WORKSPACE/src $GITHUB_WORKSPACE/workspace $HOME/.cache/ccache $HOME/.cache/sbuild
-      - name: "Setup ROS"
-        uses: ros-tooling/setup-ros@v0.7
-      - name: "Check if packages should be pushed to the repo"
-        run: |
-          if [[ "${{ startsWith(github.ref, 'refs/heads/') && !startsWith(github.ref, 'refs/pull/')}}" == "true" ]]; then
-            echo "push_packages=true" >> $GITHUB_ENV
-            echo "gh_personal_access_token_mfc=${{ secrets.GH_PERSONAL_ACCESS_TOKEN_MFC }}" >> $GITHUB_ENV
-          else
-            echo "push_packages=false" >> $GITHUB_ENV
-            echo "gh_personal_access_token_mfc=" >> $GITHUB_ENV
-          fi
-      - name: "Build Debian packages (pushing packages to repository: ${{ env.push_packages }})"
-        uses: jspricke/ros-deb-builder-action@main
-        with:
-          ROSDEP_SOURCE: yaml https://s3.amazonaws.com/autonomoustuff-repo/autonomoustuff-public-humble.yaml
-          SBUILD_CONF: $extra_repositories = ["deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ jammy main"];
-          DEB_DISTRO: jammy
-          ROS_DISTRO: humble
-          REPOS_FILE: sources.repos
-          GITHUB_TOKEN: ${{ env.gh_personal_access_token_mfc }}
-          SQUASH_HISTORY: true
-          PACKAGES_BRANCH: jammy-humble-main
-          GIT_LFS: true
-          COLCON_DEFAULTS_FILE: colcon-skip-cuda.yml
+  generate-debian-packages:
+    name: "Generate Debian packages"
+    uses: ./.github/workflows/generate-deb-packages-aws-reusable.yaml
+    with:
+      colcon-defaults-file: colcon-skip-cuda.yml
+      packages-branch: jammy-humble-main
+      artifacts-upload-name: no-cuda-debian-packages
+    secrets:
+      gh-personal-access-token-mfc: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN_MFC }}
 
-      - name: "Tar artifacts"
-        run: tar -cvf apt_repo.tar apt_repo
-
-      - name: "Share Debian packages with the CUDA-only job"
-        uses: actions/upload-artifact@v4
-        with:
-          name: no-cuda-debian-packages
-          path: apt_repo.tar
-          if-no-files-found: error
-          retention-days: 1
-          compression-level: 0
+  generate-debian-packages-cuda:
+    name: "Generate CUDA Debian packages"
+    uses: ./.github/workflows/generate-deb-packages-aws-reusable.yaml
+    needs: generate-debian-packages
+    with:
+      colcon-defaults-file: colcon-only-cuda.yml
+      packages-branch: jammy-humble-main-cuda
+      artifacts-download-name: no-cuda-debian-packages
+    secrets:
+      gh-personal-access-token-mfc: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN_MFC }}
