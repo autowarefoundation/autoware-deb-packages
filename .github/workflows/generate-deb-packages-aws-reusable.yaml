@@ -59,7 +59,7 @@ jobs:
         run: tar -C ${{ runner.temp }} -xvf apt_repo-nocuda.tar
 
       - name: "Build Debian CUDA packages (pushing packages to repository: ${{ env.push_packages }})"
-        uses: jspricke/ros-deb-builder-action@main
+        uses: esteve/ros-deb-builder-action@tier4/main
         if: ${{ inputs.artifacts-download-name != '' }}
         with:
           ROSDEP_SOURCE: 'yaml https://s3.amazonaws.com/autonomoustuff-repo/autonomoustuff-public-humble.yaml\n
@@ -79,7 +79,7 @@ jobs:
           COLCON_DEFAULTS_FILE: repo/${{ inputs.colcon-defaults-file }}
 
       - name: "Build Debian non-CUDA packages (pushing packages to repository: ${{ env.push_packages }})"
-        uses: jspricke/ros-deb-builder-action@main
+        uses: esteve/ros-deb-builder-action@tier4/main
         if: ${{ inputs.artifacts-download-name == '' }}
         with:
           ROSDEP_SOURCE: 'yaml https://s3.amazonaws.com/autonomoustuff-repo/autonomoustuff-public-humble.yaml'
