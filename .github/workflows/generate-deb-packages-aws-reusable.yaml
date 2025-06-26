@@ -73,7 +73,7 @@ jobs:
           GITHUB_TOKEN: ${{ env.gh_personal_access_token_mfc }}
           SQUASH_HISTORY: true
           PACKAGES_BRANCH: ${{ inputs.packages-branch }}
-          GIT_LFS: true
+          GIT_LFS: false
           COLCON_DEFAULTS_FILE: repo/${{ inputs.colcon-defaults-file }}
 
       - name: "Build Debian non-CUDA packages (pushing packages to repository: ${{ env.push_packages }})"
@@ -90,7 +90,7 @@ jobs:
           GITHUB_TOKEN: ${{ env.gh_personal_access_token_mfc }}
           SQUASH_HISTORY: true
           PACKAGES_BRANCH: ${{ inputs.packages-branch }}
-          GIT_LFS: true
+          GIT_LFS: false
           COLCON_DEFAULTS_FILE: repo/${{ inputs.colcon-defaults-file }}
 
       - name: "Tar artifacts"
