@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-learning-based-vehicle-model
+Binary: ros-humble-autoware-learning-based-vehicle-model
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.17.41
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime Clement <maxime.clement@tier4.jp>
+Changed-By: Maxime Clement <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-learning-based-vehicle-model - autoware_learning_based_vehicle_model for simple_planning_simulat
+Changes:
+ ros-humble-autoware-learning-based-vehicle-model (0-2025.07.04.17.41) jammy; urgency=high
+Checksums-Sha1:
+ 759b659926dee8383c656ca866eccaf7f92e77f2 721638 ros-humble-autoware-learning-based-vehicle-model-dbgsym_0-2025.07.04.17.41_amd64.ddeb
+ 455b38613ee18ae84de5db5c750fec8edc64e254 12173 ros-humble-autoware-learning-based-vehicle-model_0-2025.07.04.17.41_amd64.buildinfo
+ a124e03af60cf572ea8f431e977bf87ea53ce80b 59344 ros-humble-autoware-learning-based-vehicle-model_0-2025.07.04.17.41_amd64.deb
+Checksums-Sha256:
+ 952eae397c88288af6d124ff8728a490cba4fc5800886aca4c74850c8b5e6bdb 721638 ros-humble-autoware-learning-based-vehicle-model-dbgsym_0-2025.07.04.17.41_amd64.ddeb
+ 08f4305f06cfa22070c315a8a3bbbb527153753984e4f171714e8df01e030640 12173 ros-humble-autoware-learning-based-vehicle-model_0-2025.07.04.17.41_amd64.buildinfo
+ ea78fbab8519da7a3bd0510beb4a35f0016c9a977202bbad3fede5a7333301c7 59344 ros-humble-autoware-learning-based-vehicle-model_0-2025.07.04.17.41_amd64.deb
+Files:
+ 2a61f1ac581cde3462ed994e6a9448cd 721638 debug optional ros-humble-autoware-learning-based-vehicle-model-dbgsym_0-2025.07.04.17.41_amd64.ddeb
+ 5f95795e579abbd563cb500b71cdbfda 12173 misc optional ros-humble-autoware-learning-based-vehicle-model_0-2025.07.04.17.41_amd64.buildinfo
+ 784069bf3574ddc9b5832d2d54bd0286 59344 misc optional ros-humble-autoware-learning-based-vehicle-model_0-2025.07.04.17.41_amd64.deb

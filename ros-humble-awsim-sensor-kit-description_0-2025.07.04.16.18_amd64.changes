@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-awsim-sensor-kit-description
+Binary: ros-humble-awsim-sensor-kit-description
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.16.18
+Distribution: jammy
+Urgency: high
+Maintainer: Piotr Jaroszek <piotr.jaroszek@robotec.ai>
+Changed-By: Piotr Jaroszek <piotr.jaroszek@robotec.ai>
+Description:
+ ros-humble-awsim-sensor-kit-description - The awsim_sensor_kit_description package
+Changes:
+ ros-humble-awsim-sensor-kit-description (0-2025.07.04.16.18) jammy; urgency=high
+ .
+   * chore: set all versions to 0.43.0 (#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>)
+   * feat(*_launch): move here (#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>)
+   * Contributors: Mete Fatih Cırıt
+   * chore: set all versions to 0.43.0 (#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>)
+   * feat(*_launch): move here (#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>)
+   * Contributors: Mete Fatih Cırıt
+Checksums-Sha1:
+ ce4eb9c2a4391c281a2e205381e54a6e0f55ce0a 10974 ros-humble-awsim-sensor-kit-description_0-2025.07.04.16.18_amd64.buildinfo
+ 45ba9bdc4e2cbe6f8261311e3ca670f5a5052167 7892 ros-humble-awsim-sensor-kit-description_0-2025.07.04.16.18_amd64.deb
+Checksums-Sha256:
+ 52f180be96a4077bdecebb19aeaf246e90dcf0179c8bbc489618a0848309ece9 10974 ros-humble-awsim-sensor-kit-description_0-2025.07.04.16.18_amd64.buildinfo
+ 37b00cddbfbc4dd7c6b5504433d19e33de45802deeb7c454606878efbbf15024 7892 ros-humble-awsim-sensor-kit-description_0-2025.07.04.16.18_amd64.deb
+Files:
+ e9a9a4d15ae0093d581562ee2a806f67 10974 misc optional ros-humble-awsim-sensor-kit-description_0-2025.07.04.16.18_amd64.buildinfo
+ 250c6eca1bbe288a078ec05febfdee72 7892 misc optional ros-humble-awsim-sensor-kit-description_0-2025.07.04.16.18_amd64.deb

@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-localization-evaluator
+Binary: ros-humble-autoware-localization-evaluator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.01.11
+Distribution: jammy
+Urgency: high
+Maintainer: Dominik Jargot <dominik.jargot@robotec.ai>
+Changed-By: Dominik Jargot <dominik.jargot@robotec.ai>
+Description:
+ ros-humble-autoware-localization-evaluator - localization evaluator ROS 2 node
+Changes:
+ ros-humble-autoware-localization-evaluator (0-2025.07.05.01.11) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * chore(localization, perception): remove koji minoda as maintainer from multiple packages (#10359 <https://github.com/autowarefoundation/autoware_universe/issues/10359>)
+     fix: remove Koji Minoda as maintainer from multiple package.xml files
+   * Contributors: Ryohsuke Mitsudome, Taekjin LEE
+Checksums-Sha1:
+ bdc01d309fdbb3f62c77cdc6a390eff9c968dda3 4183820 ros-humble-autoware-localization-evaluator-dbgsym_0-2025.07.05.01.11_amd64.ddeb
+ 034e6213ea7b0f16cf797007df999fc7fe33cdc6 41318 ros-humble-autoware-localization-evaluator_0-2025.07.05.01.11_amd64.buildinfo
+ 4f53244834d29cf061c4f9d9f434768ee2a86ed0 200726 ros-humble-autoware-localization-evaluator_0-2025.07.05.01.11_amd64.deb
+Checksums-Sha256:
+ b0d7bf305ace3339e50d0912eb76dd1b80f60dc67ca249f3a2a7e6f75e23ed62 4183820 ros-humble-autoware-localization-evaluator-dbgsym_0-2025.07.05.01.11_amd64.ddeb
+ d7236d7ede157c0d5fbd2087d58bf45b17f68533e7e84040f9cca7811e363563 41318 ros-humble-autoware-localization-evaluator_0-2025.07.05.01.11_amd64.buildinfo
+ 8bb6b5f728c43b7f8056dc4637684b7b292d518e767c618eb3e62a79bf31a352 200726 ros-humble-autoware-localization-evaluator_0-2025.07.05.01.11_amd64.deb
+Files:
+ 81fadffce538dd157bed8a28fc1e3d1c 4183820 debug optional ros-humble-autoware-localization-evaluator-dbgsym_0-2025.07.05.01.11_amd64.ddeb
+ 16d2fa51a1b9bbc2d3a2f35ca3c3380f 41318 misc optional ros-humble-autoware-localization-evaluator_0-2025.07.05.01.11_amd64.buildinfo
+ a1aaa9725af1ad9d9b04772dead3bd30 200726 misc optional ros-humble-autoware-localization-evaluator_0-2025.07.05.01.11_amd64.deb

@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-tier4-map-launch
+Binary: ros-humble-tier4-map-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.23.18
+Distribution: jammy
+Urgency: high
+Maintainer: Ryu Yamamoto <ryu.yamamoto@tier4.jp>
+Changed-By: Ryu Yamamoto <ryu.yamamoto@tier4.jp>
+Description:
+ ros-humble-tier4-map-launch - The tier4_map_launch package
+Changes:
+ ros-humble-tier4-map-launch (0-2025.07.04.23.18) jammy; urgency=high
+Checksums-Sha1:
+ 9c8c56afb838c000794e37ded47983c2ecf86c9d 10713 ros-humble-tier4-map-launch_0-2025.07.04.23.18_amd64.buildinfo
+ 23d04edfcf94d6460049a8a50c74821fb2e900e8 10254 ros-humble-tier4-map-launch_0-2025.07.04.23.18_amd64.deb
+Checksums-Sha256:
+ 2c5285292b4a704fbc0c5c4b93f57b2cda1bce994e0e90b5b1a0839108c4c8d0 10713 ros-humble-tier4-map-launch_0-2025.07.04.23.18_amd64.buildinfo
+ 0daa0c18631da6ec73cb7381fcec8f3e9f65822c05c96f2f654aa81356eb0839 10254 ros-humble-tier4-map-launch_0-2025.07.04.23.18_amd64.deb
+Files:
+ 040df39ab387cda769de70c1db23f623 10713 misc optional ros-humble-tier4-map-launch_0-2025.07.04.23.18_amd64.buildinfo
+ 35c80f9ba4cc3dbfc6b5d82413e9a003 10254 misc optional ros-humble-tier4-map-launch_0-2025.07.04.23.18_amd64.deb

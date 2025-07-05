@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-mrm-handler
+Binary: ros-humble-autoware-mrm-handler
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.01.33
+Distribution: jammy
+Urgency: high
+Maintainer: Makoto Kurihara <makoto.kurihara@tier4.jp>
+Changed-By: Makoto Kurihara <makoto.kurihara@tier4.jp>
+Description:
+ ros-humble-autoware-mrm-handler - The mrm_handler ROS 2 package
+Changes:
+ ros-humble-autoware-mrm-handler (0-2025.07.05.01.33) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat(mrm_handler): modify log level (#10425 <https://github.com/autowarefoundation/autoware_universe/issues/10425>)
+   * Contributors: Ryohsuke Mitsudome, Takagi, Isamu
+Checksums-Sha1:
+ b8f19f598323090487fc34d4608200ad1801523a 6759912 ros-humble-autoware-mrm-handler-dbgsym_0-2025.07.05.01.33_amd64.ddeb
+ aa946c2ca563a510b0513a90908d72b126d5ddca 41551 ros-humble-autoware-mrm-handler_0-2025.07.05.01.33_amd64.buildinfo
+ 2c98dae5525a0630ca1ada2b6a583668ade9584b 252148 ros-humble-autoware-mrm-handler_0-2025.07.05.01.33_amd64.deb
+Checksums-Sha256:
+ 0d94ceb08f728c40c1a25d0661b5d25f8a35b420b3a199ff57444c0544dbb8cd 6759912 ros-humble-autoware-mrm-handler-dbgsym_0-2025.07.05.01.33_amd64.ddeb
+ e632e6b436309838ae05ff3354d2798f3792442beabab787ec5bae66bf2afe34 41551 ros-humble-autoware-mrm-handler_0-2025.07.05.01.33_amd64.buildinfo
+ 89d3080e1cd08cbb7b387b49c41b249afd68728c32670994c8a04c319d7d661b 252148 ros-humble-autoware-mrm-handler_0-2025.07.05.01.33_amd64.deb
+Files:
+ 04e89103093db27dcd59ead2e5ae0e1d 6759912 debug optional ros-humble-autoware-mrm-handler-dbgsym_0-2025.07.05.01.33_amd64.ddeb
+ 68b1537da228ffcfc975d5bd23877ce8 41551 misc optional ros-humble-autoware-mrm-handler_0-2025.07.05.01.33_amd64.buildinfo
+ 4337bce23196be8c4927eb78dedff4cb 252148 misc optional ros-humble-autoware-mrm-handler_0-2025.07.05.01.33_amd64.deb

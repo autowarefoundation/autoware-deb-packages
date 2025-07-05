@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-mrm-emergency-stop-operator
+Binary: ros-humble-autoware-mrm-emergency-stop-operator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.01.28
+Distribution: jammy
+Urgency: high
+Maintainer: Makoto Kurihara <makoto.kurihara@tier4.jp>
+Changed-By: Makoto Kurihara <makoto.kurihara@tier4.jp>
+Description:
+ ros-humble-autoware-mrm-emergency-stop-operator - The MRM emergency stop operator package
+Changes:
+ ros-humble-autoware-mrm-emergency-stop-operator (0-2025.07.05.01.28) jammy; urgency=high
+Checksums-Sha1:
+ 0a532dcea6fc557892e3a20cbf493b1f1398fa2e 2665054 ros-humble-autoware-mrm-emergency-stop-operator-dbgsym_0-2025.07.05.01.28_amd64.ddeb
+ bd411f22e762ba580fa69cc42af27c3e48526300 41750 ros-humble-autoware-mrm-emergency-stop-operator_0-2025.07.05.01.28_amd64.buildinfo
+ 8daba1ded7d45d1799b3064b55611691b8dff128 140826 ros-humble-autoware-mrm-emergency-stop-operator_0-2025.07.05.01.28_amd64.deb
+Checksums-Sha256:
+ 0779bbff5307575b4b9f26e95eeb6a7eafe741f2e6ca3515693ab0c871bd8597 2665054 ros-humble-autoware-mrm-emergency-stop-operator-dbgsym_0-2025.07.05.01.28_amd64.ddeb
+ 458a07153588775bf2944b70972a8f46470a717af1d0e16ceec8d7c50d9fa4fb 41750 ros-humble-autoware-mrm-emergency-stop-operator_0-2025.07.05.01.28_amd64.buildinfo
+ 27e2ccbef5cd6f5033ffa287ed4744817361bf49b66951b413e404472a64d5bd 140826 ros-humble-autoware-mrm-emergency-stop-operator_0-2025.07.05.01.28_amd64.deb
+Files:
+ 14c4fd2997c31a6e07d67d1216c734c5 2665054 debug optional ros-humble-autoware-mrm-emergency-stop-operator-dbgsym_0-2025.07.05.01.28_amd64.ddeb
+ 843242cc816697ffa5d1e9522c0aadde 41750 misc optional ros-humble-autoware-mrm-emergency-stop-operator_0-2025.07.05.01.28_amd64.buildinfo
+ d8a680754bbf625d105c40fd0395d6f0 140826 misc optional ros-humble-autoware-mrm-emergency-stop-operator_0-2025.07.05.01.28_amd64.deb

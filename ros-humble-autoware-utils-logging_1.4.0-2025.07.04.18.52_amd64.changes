@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 22 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-utils-logging
+Binary: ros-humble-autoware-utils-logging
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.4.0-2025.07.04.18.52
+Distribution: jammy
+Urgency: high
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Changed-By: Jian Kang <egon.kang@autocore.ai>
+Description:
+ ros-humble-autoware-utils-logging - The autoware_utils_logging package
+Changes:
+ ros-humble-autoware-utils-logging (1.4.0-2025.07.04.18.52) jammy; urgency=high
+Checksums-Sha1:
+ 0238f5e9f3bce6c5e9893c24de15b67c90832082 392894 ros-humble-autoware-utils-logging-dbgsym_1.4.0-2025.07.04.18.52_amd64.ddeb
+ 8e6511a9420fc4ef67330b5d2664917a42ed9393 15906 ros-humble-autoware-utils-logging_1.4.0-2025.07.04.18.52_amd64.buildinfo
+ a54d35ca717ce605db4163bee99e8e75eb685b20 28712 ros-humble-autoware-utils-logging_1.4.0-2025.07.04.18.52_amd64.deb
+Checksums-Sha256:
+ 1c4d1b00da0e3c5f6c5f505f0de3e68c16f4afd9f4ec3e0f48b9e2fed34d54dc 392894 ros-humble-autoware-utils-logging-dbgsym_1.4.0-2025.07.04.18.52_amd64.ddeb
+ 7562b1f97e05f4c79d36fbaf1db768cadf9023d1b49b279ec33629d014522d3c 15906 ros-humble-autoware-utils-logging_1.4.0-2025.07.04.18.52_amd64.buildinfo
+ 7097c344d2d5ea29031055b5f356abb7434403f7d02ec244895c1d7b5780f3d1 28712 ros-humble-autoware-utils-logging_1.4.0-2025.07.04.18.52_amd64.deb
+Files:
+ 41259278b3ddc67e174c0e8e40cbba0d 392894 debug optional ros-humble-autoware-utils-logging-dbgsym_1.4.0-2025.07.04.18.52_amd64.ddeb
+ b16466a6d2e809463761c59e86e57d7f 15906 misc optional ros-humble-autoware-utils-logging_1.4.0-2025.07.04.18.52_amd64.buildinfo
+ 03bbec1bc509c0f071504b8c4ee0daf3 28712 misc optional ros-humble-autoware-utils-logging_1.4.0-2025.07.04.18.52_amd64.deb

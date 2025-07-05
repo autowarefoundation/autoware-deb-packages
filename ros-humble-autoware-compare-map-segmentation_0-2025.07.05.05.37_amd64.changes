@@ -1,0 +1,61 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-compare-map-segmentation
+Binary: ros-humble-autoware-compare-map-segmentation
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.05.37
+Distribution: jammy
+Urgency: high
+Maintainer: amc-nu <abrahammonrroy@yahoo.com>
+Changed-By: amc-nu <abrahammonrroy@yahoo.com>
+Description:
+ ros-humble-autoware-compare-map-segmentation - The ROS 2 autoware_compare_map_segmentation package
+Changes:
+ ros-humble-autoware-compare-map-segmentation (0-2025.07.05.05.37) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat(compare_map_segmentation): publish warning when pcl::voxelgrid failed to filter with large leaf size (#10381 <https://github.com/autowarefoundation/autoware_universe/issues/10381>)
+     * feat: add warn in pcl overflow with compare_map
+     chore: fix message length
+     feat: add sanity check into voxel based compare map
+     feat: add feasibility check function
+     * fix: update include paths for voxel_grid_map_loader in segmentation filters
+     * feat: add diagnostic status handling in VoxelGridMapLoader and related components
+     * feat: add diagnostic updater for voxel-based compare map filter and improve status reporting
+     * refactor: move isFeasibleWithPCLVoxelGrid function to VoxelGridMapLoader and streamline diagnostics handling
+     * feat: update diagnostic status handling in VoxelGridMapLoader and related components
+     * feat: enhance diagnostic status handling in voxel-based compare map filters
+     * style(pre-commit): autofix
+     * refactor: add comments for clarity on voxel number calculations and overflow checks
+     * Update perception/autoware_compare_map_segmentation/lib/voxel_grid_map_loader.cpp
+     Co-authored-by: badai nguyen  <mailto:94814556+badai-nguyen@users.noreply.github.com>
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: yoshiri <mailto:yoshiyoshidetteiu@gmail.com>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: badai nguyen <mailto:94814556+badai-nguyen@users.noreply.github.com>
+   * fix(autoware_compare_map_segmentation): missing includes (#10413 <https://github.com/autowarefoundation/autoware_universe/issues/10413>)
+     fix: missing include
+   * fix(compare_map_segmentation): last map update logic (#10351 <https://github.com/autowarefoundation/autoware_universe/issues/10351>)
+     fix(compare_map): logic
+   * fix(voxel_based_compare_map): temporary fix pointcloud transform lookup  (#10299 <https://github.com/autowarefoundation/autoware_universe/issues/10299>)
+     * fix(voxel_based_compare_map): temporary fix pointcloud transform lookup_time
+     * pre-commit
+     * chore: reduce timeout
+     * fix: misalignment when tranform back output
+     * fix: typo
+     ---------
+   * Contributors: Kenzo Lobos Tsunekawa, Ryohsuke Mitsudome, Shumpei Wakabayashi, Taekjin LEE, badai nguyen
+Checksums-Sha1:
+ 150dca84e6190a8250a72a1722728aa65deb2c74 15591528 ros-humble-autoware-compare-map-segmentation-dbgsym_0-2025.07.05.05.37_amd64.ddeb
+ 739a6b17748bc3f94663cee9dfe3110666b94261 49325 ros-humble-autoware-compare-map-segmentation_0-2025.07.05.05.37_amd64.buildinfo
+ ef4d39a3196ae36ed0c56dea92cc03eae6fd935e 308856 ros-humble-autoware-compare-map-segmentation_0-2025.07.05.05.37_amd64.deb
+Checksums-Sha256:
+ 119a96c5c8ede6dfdf9820d34e76673b371c59e6d38199583ba81c438cfbbefb 15591528 ros-humble-autoware-compare-map-segmentation-dbgsym_0-2025.07.05.05.37_amd64.ddeb
+ 5828d3929697c3737ecd8b400bb66c653ad404a0be4d39c7d5ae582e85c41ed8 49325 ros-humble-autoware-compare-map-segmentation_0-2025.07.05.05.37_amd64.buildinfo
+ bf62dafd449740bbcef4b4ab55e76ea18b1e53ea7db3ea1816f06a60a81cf485 308856 ros-humble-autoware-compare-map-segmentation_0-2025.07.05.05.37_amd64.deb
+Files:
+ 4351523670843dce697a3d72ad9c5112 15591528 debug optional ros-humble-autoware-compare-map-segmentation-dbgsym_0-2025.07.05.05.37_amd64.ddeb
+ f8ab9c69cb3dc395c24c874bce60c69d 49325 misc optional ros-humble-autoware-compare-map-segmentation_0-2025.07.05.05.37_amd64.buildinfo
+ 22eeb4ced6b63e00e29e5565e8f93653 308856 misc optional ros-humble-autoware-compare-map-segmentation_0-2025.07.05.05.37_amd64.deb

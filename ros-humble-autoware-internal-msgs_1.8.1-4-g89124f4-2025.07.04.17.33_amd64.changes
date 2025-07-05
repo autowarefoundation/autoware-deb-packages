@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Mon, 07 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-internal-msgs
+Binary: ros-humble-autoware-internal-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.8.1-4-g89124f4-2025.07.04.17.33
+Distribution: jammy
+Urgency: high
+Maintainer: Berkay Karaman <berkay@leodrive.ai>
+Changed-By: Berkay Karaman <berkay@leodrive.ai>
+Description:
+ ros-humble-autoware-internal-msgs - Autoware internal messages package.
+Changes:
+ ros-humble-autoware-internal-msgs (1.8.1-4-g89124f4-2025.07.04.17.33) jammy; urgency=high
+ .
+   * feat(autoware_internal_msgs): make autoware_internal_msgs metapackage (#57 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/57>)
+   * Contributors: Yutaka Kondo
+Checksums-Sha1:
+ 76405f70306ff3cdb88cbdb11f05e2d7ff27f2cf 264010 ros-humble-autoware-internal-msgs-dbgsym_1.8.1-4-g89124f4-2025.07.04.17.33_amd64.ddeb
+ a54b37bb38036434c24202aae133cf581e4c4c17 14848 ros-humble-autoware-internal-msgs_1.8.1-4-g89124f4-2025.07.04.17.33_amd64.buildinfo
+ 8db61b6a0f709fe9a3cd22d8a63b5ce2e79991e7 54146 ros-humble-autoware-internal-msgs_1.8.1-4-g89124f4-2025.07.04.17.33_amd64.deb
+Checksums-Sha256:
+ 84dc620faf103f86e1dcdaf72600e73a0cd672ecb52aea6fbc573623dbe43042 264010 ros-humble-autoware-internal-msgs-dbgsym_1.8.1-4-g89124f4-2025.07.04.17.33_amd64.ddeb
+ a1ceeb8abc77f98af6221d939ac50e05bc151dc1d64a54a1bcdf050dbff17194 14848 ros-humble-autoware-internal-msgs_1.8.1-4-g89124f4-2025.07.04.17.33_amd64.buildinfo
+ d6f23d473e0bb399cc9d374f3046c1bb444aedcd209c57327da2f8738c00425f 54146 ros-humble-autoware-internal-msgs_1.8.1-4-g89124f4-2025.07.04.17.33_amd64.deb
+Files:
+ e58bd8e0886792a0c56a5260f765dfcd 264010 debug optional ros-humble-autoware-internal-msgs-dbgsym_1.8.1-4-g89124f4-2025.07.04.17.33_amd64.ddeb
+ cf702f6dd8d190444108fff2d3ae898d 14848 misc optional ros-humble-autoware-internal-msgs_1.8.1-4-g89124f4-2025.07.04.17.33_amd64.buildinfo
+ 0a3ca2a82c6be975a498d6843d8435b2 54146 misc optional ros-humble-autoware-internal-msgs_1.8.1-4-g89124f4-2025.07.04.17.33_amd64.deb

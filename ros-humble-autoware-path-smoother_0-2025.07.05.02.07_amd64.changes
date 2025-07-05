@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-path-smoother
+Binary: ros-humble-autoware-path-smoother
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.02.07
+Distribution: jammy
+Urgency: high
+Maintainer: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Changed-By: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Description:
+ ros-humble-autoware-path-smoother - The autoware_path_smoother package
+Changes:
+ ros-humble-autoware-path-smoother (0-2025.07.05.02.07) jammy; urgency=high
+Checksums-Sha1:
+ 67a68de4b0edbdead69c68a9df9cabf9cb94de5a 5000618 ros-humble-autoware-path-smoother-dbgsym_0-2025.07.05.02.07_amd64.ddeb
+ 2918686363529d42c10d92bf7adcfaa9c1777746 44331 ros-humble-autoware-path-smoother_0-2025.07.05.02.07_amd64.buildinfo
+ 85a355de8856cd1170ff5193757222586144e50e 212470 ros-humble-autoware-path-smoother_0-2025.07.05.02.07_amd64.deb
+Checksums-Sha256:
+ fbd2bcef5326a679429254aac2f0729c0965d0c3040fb1aa3c5870af9778e488 5000618 ros-humble-autoware-path-smoother-dbgsym_0-2025.07.05.02.07_amd64.ddeb
+ 355f0819b64f2661187c29c1bb1b5d5ed4c7c1397cb739691e38f65d9f44f688 44331 ros-humble-autoware-path-smoother_0-2025.07.05.02.07_amd64.buildinfo
+ 9a60f115841d2780bb54603f32cc697b85d3d733d214cfacc2b8d19bd054b324 212470 ros-humble-autoware-path-smoother_0-2025.07.05.02.07_amd64.deb
+Files:
+ cfebf77e62b5148e74de4f20054623bb 5000618 debug optional ros-humble-autoware-path-smoother-dbgsym_0-2025.07.05.02.07_amd64.ddeb
+ 606b9d305aeb99ea024642704532d3d6 44331 misc optional ros-humble-autoware-path-smoother_0-2025.07.05.02.07_amd64.buildinfo
+ 1231c701194f15d3199bd17fa60ad7df 212470 misc optional ros-humble-autoware-path-smoother_0-2025.07.05.02.07_amd64.deb

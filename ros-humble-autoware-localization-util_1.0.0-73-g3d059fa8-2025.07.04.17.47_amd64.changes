@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-localization-util
+Binary: ros-humble-autoware-localization-util
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.17.47
+Distribution: jammy
+Urgency: high
+Maintainer: Xingang Liu <lxg19892021@gmail.com>
+Changed-By: Xingang Liu <lxg19892021@gmail.com>
+Description:
+ ros-humble-autoware-localization-util - The autoware_localization_util package
+Changes:
+ ros-humble-autoware-localization-util (1.0.0-73-g3d059fa8-2025.07.04.17.47) jammy; urgency=high
+ .
+   * test(autoware_localization_util): add tests (#308 <https://github.com/autowarefoundation/autoware_core/issues/308>)
+     * test(autoware_localization_util): add tests for missed lines
+     * style(pre-commit): autofix
+     * fix(autoware_localization_util): fix pre-commit failure
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: NorahXiong
+Checksums-Sha1:
+ 1b5a6eb9433f7ce555068f50e89ec0a1fb978e7f 3079006 ros-humble-autoware-localization-util-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.17.47_amd64.ddeb
+ 0c99b103b10b1cbc3cbdf424147f1b971541f275 16853 ros-humble-autoware-localization-util_1.0.0-73-g3d059fa8-2025.07.04.17.47_amd64.buildinfo
+ a5fbf8ecd6bbfa7b5d87ea44374dd168a26bd8a0 45806 ros-humble-autoware-localization-util_1.0.0-73-g3d059fa8-2025.07.04.17.47_amd64.deb
+Checksums-Sha256:
+ f1c1c2f14b7afbd92e3e1013ee1b07f4307a1042088382f2e35cc456cea003c3 3079006 ros-humble-autoware-localization-util-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.17.47_amd64.ddeb
+ 95e9579e156b9edcce13f5cfe0337ec57edae7b4050f75fb08ebd357a9d88924 16853 ros-humble-autoware-localization-util_1.0.0-73-g3d059fa8-2025.07.04.17.47_amd64.buildinfo
+ 5131561872df8612f1170c6fd363e499c0e1579debcdd891da17c2e4e5942f2d 45806 ros-humble-autoware-localization-util_1.0.0-73-g3d059fa8-2025.07.04.17.47_amd64.deb
+Files:
+ 8a4503a1a021a2aa6596eadd587cc980 3079006 debug optional ros-humble-autoware-localization-util-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.17.47_amd64.ddeb
+ c963d57a18263ae0b9a8a05881790bac 16853 misc optional ros-humble-autoware-localization-util_1.0.0-73-g3d059fa8-2025.07.04.17.47_amd64.buildinfo
+ ff631c8bac96c62d41a66a0ae9b7a82c 45806 misc optional ros-humble-autoware-localization-util_1.0.0-73-g3d059fa8-2025.07.04.17.47_amd64.deb

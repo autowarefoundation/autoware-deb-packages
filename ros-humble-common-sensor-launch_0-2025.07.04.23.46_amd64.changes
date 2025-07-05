@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-common-sensor-launch
+Binary: ros-humble-common-sensor-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.23.46
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-common-sensor-launch - The common_sensor_launch package
+Changes:
+ ros-humble-common-sensor-launch (0-2025.07.04.23.46) jammy; urgency=high
+ .
+   * chore: set all versions to 0.43.0 (#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>)
+   * feat(*_launch): move here (#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>)
+   * Contributors: Mete Fatih Cırıt
+Checksums-Sha1:
+ a9fa4df9271f70db59046b4168e09c4fecc38324 10616 ros-humble-common-sensor-launch_0-2025.07.04.23.46_amd64.buildinfo
+ 1dd0d2969642de531a64cbe5ca0515b234a69e98 16268 ros-humble-common-sensor-launch_0-2025.07.04.23.46_amd64.deb
+Checksums-Sha256:
+ 29c842f1ae3ea642a140111db4393e76e6ee72c00ffa96cab8c3d2a2520a0202 10616 ros-humble-common-sensor-launch_0-2025.07.04.23.46_amd64.buildinfo
+ dd68a6e2bba56daecdeb56d3c59c42a18c246aecf8df368f8f6d40c8dd14bc71 16268 ros-humble-common-sensor-launch_0-2025.07.04.23.46_amd64.deb
+Files:
+ 8bbdc08d2f75594fbd4bed341eb41ce8 10616 misc optional ros-humble-common-sensor-launch_0-2025.07.04.23.46_amd64.buildinfo
+ 1ffb126bd273ce19cd4a7b59aa9b62e2 16268 misc optional ros-humble-common-sensor-launch_0-2025.07.04.23.46_amd64.deb

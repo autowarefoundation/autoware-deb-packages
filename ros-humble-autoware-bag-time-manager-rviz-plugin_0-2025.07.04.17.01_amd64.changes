@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-bag-time-manager-rviz-plugin
+Binary: ros-humble-autoware-bag-time-manager-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.17.01
+Distribution: jammy
+Urgency: high
+Maintainer: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Changed-By: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-bag-time-manager-rviz-plugin - Rviz plugin to publish and control the ros bag
+Changes:
+ ros-humble-autoware-bag-time-manager-rviz-plugin (0-2025.07.04.17.01) jammy; urgency=high
+Checksums-Sha1:
+ 7a5c2fae5128030c322f8a609dc38b809adcf359 1185214 ros-humble-autoware-bag-time-manager-rviz-plugin-dbgsym_0-2025.07.04.17.01_amd64.ddeb
+ a762d6b42508cc5cbdd67d4fb6d7ed4a26996009 23606 ros-humble-autoware-bag-time-manager-rviz-plugin_0-2025.07.04.17.01_amd64.buildinfo
+ 7c568f7c6e769c013feccdff82ad74792ac3a1fb 45826 ros-humble-autoware-bag-time-manager-rviz-plugin_0-2025.07.04.17.01_amd64.deb
+Checksums-Sha256:
+ 4ce7d26318c56e97ad9057928b4754199c3186a59bf88d025e46a91088d1d682 1185214 ros-humble-autoware-bag-time-manager-rviz-plugin-dbgsym_0-2025.07.04.17.01_amd64.ddeb
+ 7e290faae1b36e59a5e56f3531183ba166ea0f5e10506c55d8c03c016bc6b6bc 23606 ros-humble-autoware-bag-time-manager-rviz-plugin_0-2025.07.04.17.01_amd64.buildinfo
+ b9de0b409c502c68e6e818df1dc627070d71f2c013f8cba98b0967477496c852 45826 ros-humble-autoware-bag-time-manager-rviz-plugin_0-2025.07.04.17.01_amd64.deb
+Files:
+ 75178329d92a2577a1cf241bb8266f63 1185214 debug optional ros-humble-autoware-bag-time-manager-rviz-plugin-dbgsym_0-2025.07.04.17.01_amd64.ddeb
+ ce36fbd7e1ee5c69d58735c6a762f0f2 23606 misc optional ros-humble-autoware-bag-time-manager-rviz-plugin_0-2025.07.04.17.01_amd64.buildinfo
+ a1f637d101953bdc5e86a330c68c494a 45826 misc optional ros-humble-autoware-bag-time-manager-rviz-plugin_0-2025.07.04.17.01_amd64.deb

@@ -1,0 +1,47 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-tracking-object-merger
+Binary: ros-humble-autoware-tracking-object-merger
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.09.02
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-tracking-object-merger - merge tracking object
+Changes:
+ ros-humble-autoware-tracking-object-merger (0-2025.07.05.09.02) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat(autoware_tracker_object_merger): add diagnostics (#10257 <https://github.com/autowarefoundation/autoware_universe/issues/10257>)
+     * add diagnostics
+     * style(pre-commit): autofix
+     * fix how to check as diag
+     * style(pre-commit): autofix
+     * delete unnecesary include row
+     * change the way to check time
+     * pre-commit
+     * chore
+     * fix warn msg
+     * change msg string to int
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * fix msg
+     * add unit
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+   * Contributors: Masato Saeki, Ryohsuke Mitsudome
+Checksums-Sha1:
+ 43948b67b5729877ecf2a06001bc7a315e98ee82 6497410 ros-humble-autoware-tracking-object-merger-dbgsym_0-2025.07.05.09.02_amd64.ddeb
+ 6183cf9db02d3b79c43be5be229e055842fec4c7 41848 ros-humble-autoware-tracking-object-merger_0-2025.07.05.09.02_amd64.buildinfo
+ 5f20f7a55280f00848f3def9f503984cfc4ca19f 281058 ros-humble-autoware-tracking-object-merger_0-2025.07.05.09.02_amd64.deb
+Checksums-Sha256:
+ baf173333c26d08ba1e75d9d4b185f9eebc2bfa1d3db03b6d713adbf9ac6ecbd 6497410 ros-humble-autoware-tracking-object-merger-dbgsym_0-2025.07.05.09.02_amd64.ddeb
+ 3dcb44295069e7a5621e20993f41c950cd833f6d8d613df6d62ec5344e6191a3 41848 ros-humble-autoware-tracking-object-merger_0-2025.07.05.09.02_amd64.buildinfo
+ 349a7a3b90e26beca4f844250d164aab91e5532d14a783fb1632269ce1b8aa3c 281058 ros-humble-autoware-tracking-object-merger_0-2025.07.05.09.02_amd64.deb
+Files:
+ 981b968ebb9c049bdb8a60a16923e3bf 6497410 debug optional ros-humble-autoware-tracking-object-merger-dbgsym_0-2025.07.05.09.02_amd64.ddeb
+ 0d6156c2734e5a1e68381c2ed72980f7 41848 misc optional ros-humble-autoware-tracking-object-merger_0-2025.07.05.09.02_amd64.buildinfo
+ 4523a0486ee99c9be946548882b5d257 281058 misc optional ros-humble-autoware-tracking-object-merger_0-2025.07.05.09.02_amd64.deb

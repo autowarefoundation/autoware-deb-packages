@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-overlay-rviz-plugin
+Binary: ros-humble-autoware-overlay-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.17.56
+Distribution: jammy
+Urgency: high
+Maintainer: Khalil Selyan <khalil@leodrive.ai>
+Changed-By: Khalil Selyan <khalil@leodrive.ai>
+Description:
+ ros-humble-autoware-overlay-rviz-plugin - RViz2 plugin for 2D overlays in the 3D view.
+Changes:
+ ros-humble-autoware-overlay-rviz-plugin (0-2025.07.04.17.56) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat(autoware_overlay_rviz_plugin)!: add static blinking option for turn_signal (#10319 <https://github.com/autowarefoundation/autoware_universe/issues/10319>)
+     * feat!(autoware_overlay_rviz_plugin): removed the blinking function of turn_signal
+     * add blinking mode
+     ---------
+   * Contributors: Ryohsuke Mitsudome, Yukinari Hisaki
+Checksums-Sha1:
+ 4b9eea7dc801be525aa3da9d9a1ad8dc56bdea88 8326188 ros-humble-autoware-overlay-rviz-plugin-dbgsym_0-2025.07.04.17.56_amd64.ddeb
+ 62107def1ad622f570297dd16328d0fedd715364 29850 ros-humble-autoware-overlay-rviz-plugin_0-2025.07.04.17.56_amd64.buildinfo
+ 0f47e30fbe426dcb5954ad15db6fff7bb547d9ce 576818 ros-humble-autoware-overlay-rviz-plugin_0-2025.07.04.17.56_amd64.deb
+Checksums-Sha256:
+ 6ed3f2f1f0a2e5b5f3eb114d40ad248ec24e1759e54d79a25ef77fc6e4b883d1 8326188 ros-humble-autoware-overlay-rviz-plugin-dbgsym_0-2025.07.04.17.56_amd64.ddeb
+ dee40e5b3079a59b79410f62822a5815950305756b475748b3ce092bde0afad9 29850 ros-humble-autoware-overlay-rviz-plugin_0-2025.07.04.17.56_amd64.buildinfo
+ 5208d04f7304ee91b8fdfa726c2fef99e99a6e882c96ac41f5a5067587add907 576818 ros-humble-autoware-overlay-rviz-plugin_0-2025.07.04.17.56_amd64.deb
+Files:
+ 481066a44f997a5197ab5f906b7ab701 8326188 debug optional ros-humble-autoware-overlay-rviz-plugin-dbgsym_0-2025.07.04.17.56_amd64.ddeb
+ 00c9736fe4edabe8f1183d801d83c849 29850 misc optional ros-humble-autoware-overlay-rviz-plugin_0-2025.07.04.17.56_amd64.buildinfo
+ 4ac0c6b2943b1e5bd90bdb72d7c8819d 576818 misc optional ros-humble-autoware-overlay-rviz-plugin_0-2025.07.04.17.56_amd64.deb

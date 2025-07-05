@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-path-avoidance-by-lane-change-module
+Binary: ros-humble-autoware-behavior-path-avoidance-by-lane-change-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.15.53
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-path-avoidance-by-lane-change-module - The behavior_path_avoidance_by_lane_change_module package
+Changes:
+ ros-humble-autoware-behavior-path-avoidance-by-lane-change-module (0-2025.07.05.15.53) jammy; urgency=high
+Checksums-Sha1:
+ 56de2d8c71969bf82f8f1b8cf5ba7f7825f93588 3961914 ros-humble-autoware-behavior-path-avoidance-by-lane-change-module-dbgsym_0-2025.07.05.15.53_amd64.ddeb
+ b7488f024267d97038786634e229518dca736d9c 50282 ros-humble-autoware-behavior-path-avoidance-by-lane-change-module_0-2025.07.05.15.53_amd64.buildinfo
+ c5e0e99efa4e36a2035cb26589244157352d584f 83534 ros-humble-autoware-behavior-path-avoidance-by-lane-change-module_0-2025.07.05.15.53_amd64.deb
+Checksums-Sha256:
+ c60e9de2cc7862b7ea540cfad1024d8006bce24075aabf07d2f98c7b048c76bd 3961914 ros-humble-autoware-behavior-path-avoidance-by-lane-change-module-dbgsym_0-2025.07.05.15.53_amd64.ddeb
+ f9fb4ca9c3614270532802a6b1c1627cbfe9eadc74ea9fdfe0dc9c5d6dc70a64 50282 ros-humble-autoware-behavior-path-avoidance-by-lane-change-module_0-2025.07.05.15.53_amd64.buildinfo
+ 45188ff382e576f460df7e04324e32093504b6bdcd3ef9d3b788f3cec2feb52c 83534 ros-humble-autoware-behavior-path-avoidance-by-lane-change-module_0-2025.07.05.15.53_amd64.deb
+Files:
+ b36265cf5bceafbb4dd8c77c04e70ae7 3961914 debug optional ros-humble-autoware-behavior-path-avoidance-by-lane-change-module-dbgsym_0-2025.07.05.15.53_amd64.ddeb
+ 588b54a522af580f489b1e697139e71f 50282 misc optional ros-humble-autoware-behavior-path-avoidance-by-lane-change-module_0-2025.07.05.15.53_amd64.buildinfo
+ 02c1929b62dc192830cdd8d27750d991 83534 misc optional ros-humble-autoware-behavior-path-avoidance-by-lane-change-module_0-2025.07.05.15.53_amd64.deb

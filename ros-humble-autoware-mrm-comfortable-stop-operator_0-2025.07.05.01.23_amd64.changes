@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-mrm-comfortable-stop-operator
+Binary: ros-humble-autoware-mrm-comfortable-stop-operator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.01.23
+Distribution: jammy
+Urgency: high
+Maintainer: Makoto Kurihara <makoto.kurihara@tier4.jp>
+Changed-By: Makoto Kurihara <makoto.kurihara@tier4.jp>
+Description:
+ ros-humble-autoware-mrm-comfortable-stop-operator - The MRM comfortable stop operator package
+Changes:
+ ros-humble-autoware-mrm-comfortable-stop-operator (0-2025.07.05.01.23) jammy; urgency=high
+Checksums-Sha1:
+ 0b73094e6abe36bbd3ce8b317aedd7b4d22af7a9 1529668 ros-humble-autoware-mrm-comfortable-stop-operator-dbgsym_0-2025.07.05.01.23_amd64.ddeb
+ 0a625f3b2ef78a4112761d4db795e1e4307f1f87 41697 ros-humble-autoware-mrm-comfortable-stop-operator_0-2025.07.05.01.23_amd64.buildinfo
+ 524f4cd1ce98c065fa0b03f9956cb26d08c5e6a7 92030 ros-humble-autoware-mrm-comfortable-stop-operator_0-2025.07.05.01.23_amd64.deb
+Checksums-Sha256:
+ c22a88b97e967b33ecafc10603cd970f4b514158a20b7869d44555de7840cb2e 1529668 ros-humble-autoware-mrm-comfortable-stop-operator-dbgsym_0-2025.07.05.01.23_amd64.ddeb
+ cd92a062f59434e99bca8374ebbf33b3f7216b9bb68a9a61e9c8fe67abc1e752 41697 ros-humble-autoware-mrm-comfortable-stop-operator_0-2025.07.05.01.23_amd64.buildinfo
+ 2b01c10768bbc5f965ab5f1aacf2544e7449fe2a784107955037449d44fabc7b 92030 ros-humble-autoware-mrm-comfortable-stop-operator_0-2025.07.05.01.23_amd64.deb
+Files:
+ 9cd2ba1bc3c06e93565dfe5c96d44fbe 1529668 debug optional ros-humble-autoware-mrm-comfortable-stop-operator-dbgsym_0-2025.07.05.01.23_amd64.ddeb
+ 6b41091e2901b43b76e3767e62932a28 41697 misc optional ros-humble-autoware-mrm-comfortable-stop-operator_0-2025.07.05.01.23_amd64.buildinfo
+ 12912dba4ddef811cd612284e0f5b3ce 92030 misc optional ros-humble-autoware-mrm-comfortable-stop-operator_0-2025.07.05.01.23_amd64.deb

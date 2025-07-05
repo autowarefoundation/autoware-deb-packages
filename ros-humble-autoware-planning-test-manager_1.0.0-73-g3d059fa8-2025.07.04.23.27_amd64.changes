@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-planning-test-manager
+Binary: ros-humble-autoware-planning-test-manager
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.23.27
+Distribution: jammy
+Urgency: high
+Maintainer: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Changed-By: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Description:
+ ros-humble-autoware-planning-test-manager - ROS 2 node for testing interface of the nodes in planning module
+Changes:
+ ros-humble-autoware-planning-test-manager (1.0.0-73-g3d059fa8-2025.07.04.23.27) jammy; urgency=high
+Checksums-Sha1:
+ 0ea86cd9e27f53d9f6447fc36032c0c76f3941cd 1757158 ros-humble-autoware-planning-test-manager-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.23.27_amd64.ddeb
+ d90331ef3817489f58a62307ab8347a70d203435 26407 ros-humble-autoware-planning-test-manager_1.0.0-73-g3d059fa8-2025.07.04.23.27_amd64.buildinfo
+ 7e4fc25b665315c03de73f70a627856612653044 85280 ros-humble-autoware-planning-test-manager_1.0.0-73-g3d059fa8-2025.07.04.23.27_amd64.deb
+Checksums-Sha256:
+ 41043ef46ab94d9fbd5f6874a29afe63499b8225d52f66520dd751e8409d3e4d 1757158 ros-humble-autoware-planning-test-manager-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.23.27_amd64.ddeb
+ df5aa1709d5e2d44fc77495ff6f6a9eb02132c563a393fb1b744d2d601c22161 26407 ros-humble-autoware-planning-test-manager_1.0.0-73-g3d059fa8-2025.07.04.23.27_amd64.buildinfo
+ e71c854beb99f603deca6833feee838d715d52f4264cf4529b08bad68444a384 85280 ros-humble-autoware-planning-test-manager_1.0.0-73-g3d059fa8-2025.07.04.23.27_amd64.deb
+Files:
+ 50e11963aa589edf9573379ad845464c 1757158 debug optional ros-humble-autoware-planning-test-manager-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.23.27_amd64.ddeb
+ 18507145b758c2747c8ff47ccff8c146 26407 misc optional ros-humble-autoware-planning-test-manager_1.0.0-73-g3d059fa8-2025.07.04.23.27_amd64.buildinfo
+ 724789916953472e5bee91330cfc7638 85280 misc optional ros-humble-autoware-planning-test-manager_1.0.0-73-g3d059fa8-2025.07.04.23.27_amd64.deb

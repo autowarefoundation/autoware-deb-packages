@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-tier4-adapi-rviz-plugin
+Binary: ros-humble-tier4-adapi-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.21.29
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-tier4-adapi-rviz-plugin - The autoware adapi rviz plugin package
+Changes:
+ ros-humble-tier4-adapi-rviz-plugin (0-2025.07.04.21.29) jammy; urgency=high
+Checksums-Sha1:
+ 81e5cd031f5fe906b70d1e1619dd5fef929237d1 6531020 ros-humble-tier4-adapi-rviz-plugin-dbgsym_0-2025.07.04.21.29_amd64.ddeb
+ 9c442f669dc052cd13d724adc9fd752fcd9bf06d 25051 ros-humble-tier4-adapi-rviz-plugin_0-2025.07.04.21.29_amd64.buildinfo
+ 32736c87936ff528b9847fc9468363ea40a8c272 231650 ros-humble-tier4-adapi-rviz-plugin_0-2025.07.04.21.29_amd64.deb
+Checksums-Sha256:
+ 160454db0402d11e4db261d72a7b3bc7e0b1314d48181fafd5f071b8dab427b9 6531020 ros-humble-tier4-adapi-rviz-plugin-dbgsym_0-2025.07.04.21.29_amd64.ddeb
+ 0e92815d063c55b5c276fad80087c1f9aaec0825b8f75a733b0b0a9ff4ff2835 25051 ros-humble-tier4-adapi-rviz-plugin_0-2025.07.04.21.29_amd64.buildinfo
+ f4d8cd0cfbbaafcdbb3c88a6aee698c78271cd854dffeb0b6a14784c070f3172 231650 ros-humble-tier4-adapi-rviz-plugin_0-2025.07.04.21.29_amd64.deb
+Files:
+ 6e2f456df1a52ad07ab06e7b9cb0e73c 6531020 debug optional ros-humble-tier4-adapi-rviz-plugin-dbgsym_0-2025.07.04.21.29_amd64.ddeb
+ a3443a0d890c1737de42acd06cbd9b29 25051 misc optional ros-humble-tier4-adapi-rviz-plugin_0-2025.07.04.21.29_amd64.buildinfo
+ c628f866283001cc8b47c99c0b73c3e1 231650 misc optional ros-humble-tier4-adapi-rviz-plugin_0-2025.07.04.21.29_amd64.deb

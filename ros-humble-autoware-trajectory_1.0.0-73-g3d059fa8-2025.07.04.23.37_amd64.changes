@@ -1,0 +1,73 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-trajectory
+Binary: ros-humble-autoware-trajectory
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.23.37
+Distribution: jammy
+Urgency: high
+Maintainer: Yukinari Hisaki <yukinari.hisaki.2@tier4.jp>
+Changed-By: Yukinari Hisaki <yukinari.hisaki.2@tier4.jp>
+Description:
+ ros-humble-autoware-trajectory - The autoware_trajectory package
+Changes:
+ ros-humble-autoware-trajectory (1.0.0-73-g3d059fa8-2025.07.04.23.37) jammy; urgency=high
+ .
+   * fix(autoware_trajectory): avoid nan in align_orientation_with_trajectory_direction (#398 <https://github.com/autowarefoundation/autoware_core/issues/398>)
+     * fix(autoware_trajectory): avoid nan in align_orientation_with_trajectory_direction
+     * tidy
+     * remove eps
+     ---------
+   * chore(autoware_trajectory): relax the warning condition of boundary check (#393 <https://github.com/autowarefoundation/autoware_core/issues/393>)
+     * chore(autoware_trajectory): relax the warning condition of boundary check
+     * tidy
+     ---------
+   * feat(trajectory): define distance threshold and refine restore() without API breakage(in experimental) (#376 <https://github.com/autowarefoundation/autoware_core/issues/376>)
+     * feat(trajectory): define distance threshold and refine restore
+     * fix spell
+     ---------
+   * feat(autoware_trajectory): add get_contained_lane_ids function (#369 <https://github.com/autowarefoundation/autoware_core/issues/369>)
+     * add get_contained_lane_ids
+     * add unit test
+     * remove assert
+     ---------
+   * feat(trajectory): add pretty_build() function for Planning/Control component node (#332 <https://github.com/autowarefoundation/autoware_core/issues/332>)
+   * refactor(autoware_trajectory)!: move everything to namespace experimetal (#371 <https://github.com/autowarefoundation/autoware_core/issues/371>)
+     refactor(autoware_trajectory)!: move everything to namespace experimental
+   * feat(trajectory): improve shift function and their documents (#337 <https://github.com/autowarefoundation/autoware_core/issues/337>)
+     * feat(trajectory): add populate function
+     * update curvature figure for approximation desc
+     * update align_orientation_with_trajectory_direction fig
+     * finished trajectory classes
+     * refactored shift
+     * add comment
+     * update error message
+     ---------
+   * fix(autoware_trajectory): fix base_addition callback to work when Trajectory is moved (#370 <https://github.com/autowarefoundation/autoware_core/issues/370>)
+   * fix(autoware_trajectory): check vector size check before accessing (#365 <https://github.com/autowarefoundation/autoware_core/issues/365>)
+     * fix(autoware_trajectory): check vector size check before accessing
+     * update
+     * minor fix
+     ---------
+     Co-authored-by: Mamoru Sobue <mailto:hilo.soblin@gmail.com>
+   * feat(autoware_trajectory): improve performance of get_underlying_base  (#298 <https://github.com/autowarefoundation/autoware_core/issues/298>)
+   * feat(trajectory): add API documentation for trajectory class, add some utillity (#295 <https://github.com/autowarefoundation/autoware_core/issues/295>)
+   * feat(trajectory): add API description, nomenclature, illustration, rename functions to align with nomenclature (#292 <https://github.com/autowarefoundation/autoware_core/issues/292>)
+     * feat(trajectory): add API description, nomenclature, illustration, rename functions to align with nomenclature
+     * resurrect get_internal_base
+     ---------
+   * chore: include iostream and link yaml-cpp for Jazzy (#351 <https://github.com/autowarefoundation/autoware_core/issues/351>)
+   * Contributors: Mamoru Sobue, Tim Clephas, Yukinari Hisaki
+Checksums-Sha1:
+ a44de6989369d32832177d74b24927addb556c84 2844210 ros-humble-autoware-trajectory-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.23.37_amd64.ddeb
+ b0666ad864cb6ec094ecfd265c1e3d88551e1cfe 28441 ros-humble-autoware-trajectory_1.0.0-73-g3d059fa8-2025.07.04.23.37_amd64.buildinfo
+ aea57c9e8dd4ec88e6f0fb55e8e08bb9dbfba4a3 100056 ros-humble-autoware-trajectory_1.0.0-73-g3d059fa8-2025.07.04.23.37_amd64.deb
+Checksums-Sha256:
+ 6e129855fcc562328a177183e25f554bd5a2ca9d97befe5017d095ea76d36a37 2844210 ros-humble-autoware-trajectory-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.23.37_amd64.ddeb
+ fd9dee6ec3eedffc2bdcefdb4151300a90a203bb0b04d757b5d7bc85415937e6 28441 ros-humble-autoware-trajectory_1.0.0-73-g3d059fa8-2025.07.04.23.37_amd64.buildinfo
+ 5918b32691c24f0a6e66cf05fce51f7990812f4f9053ca798dc121197e97f721 100056 ros-humble-autoware-trajectory_1.0.0-73-g3d059fa8-2025.07.04.23.37_amd64.deb
+Files:
+ a8bee36aecfbc04b8f73c0556e98f0de 2844210 debug optional ros-humble-autoware-trajectory-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.23.37_amd64.ddeb
+ 1cc7b86dee488b035768f64103eddf75 28441 misc optional ros-humble-autoware-trajectory_1.0.0-73-g3d059fa8-2025.07.04.23.37_amd64.buildinfo
+ c670255c132c41a69e0c23f1ee23d574 100056 misc optional ros-humble-autoware-trajectory_1.0.0-73-g3d059fa8-2025.07.04.23.37_amd64.deb

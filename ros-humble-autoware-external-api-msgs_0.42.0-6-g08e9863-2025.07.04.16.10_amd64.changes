@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 03 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-external-api-msgs
+Binary: ros-humble-autoware-external-api-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.42.0-6-g08e9863-2025.07.04.16.10
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-external-api-msgs - The autoware_external_api_msgs package
+Changes:
+ ros-humble-autoware-external-api-msgs (0.42.0-6-g08e9863-2025.07.04.16.10) jammy; urgency=high
+Checksums-Sha1:
+ 88c9a4636b352192ca9bb587cf05e937c3b06c3c 229422 ros-humble-autoware-external-api-msgs-dbgsym_0.42.0-6-g08e9863-2025.07.04.16.10_amd64.ddeb
+ a8b68cd2c5f39467b3a6b8a596bd072bda2a7182 14241 ros-humble-autoware-external-api-msgs_0.42.0-6-g08e9863-2025.07.04.16.10_amd64.buildinfo
+ 1c55131993afdc03cb3e92ee4efaed1b57505272 53412 ros-humble-autoware-external-api-msgs_0.42.0-6-g08e9863-2025.07.04.16.10_amd64.deb
+Checksums-Sha256:
+ deac1795d0c7a2c470d418fd3e31af11bd8985af27406e37eaddce5530a9261c 229422 ros-humble-autoware-external-api-msgs-dbgsym_0.42.0-6-g08e9863-2025.07.04.16.10_amd64.ddeb
+ 244bd6dac2ee4342cbd6b2bef448f69bd417e256ea68b27064cac495248966ff 14241 ros-humble-autoware-external-api-msgs_0.42.0-6-g08e9863-2025.07.04.16.10_amd64.buildinfo
+ 46b7fcc1998f45a7aa7aa951b314083a3686b6a917714289c2368bf86d877ad5 53412 ros-humble-autoware-external-api-msgs_0.42.0-6-g08e9863-2025.07.04.16.10_amd64.deb
+Files:
+ 6e7aef6f23c61454db74fc5a6c924897 229422 debug optional ros-humble-autoware-external-api-msgs-dbgsym_0.42.0-6-g08e9863-2025.07.04.16.10_amd64.ddeb
+ 93931affb5e86bb00c6cb8f4a3d565cc 14241 misc optional ros-humble-autoware-external-api-msgs_0.42.0-6-g08e9863-2025.07.04.16.10_amd64.buildinfo
+ 3b3b7126f6eafea9a2e10f0e746f0997 53412 misc optional ros-humble-autoware-external-api-msgs_0.42.0-6-g08e9863-2025.07.04.16.10_amd64.deb

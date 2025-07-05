@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-yabloc-monitor
+Binary: ros-humble-yabloc-monitor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.19.48
+Distribution: jammy
+Urgency: high
+Maintainer: Kento Yabuuchi <kento.yabuuchi.2@tier4.jp>
+Changed-By: Kento Yabuuchi <kento.yabuuchi.2@tier4.jp>
+Description:
+ ros-humble-yabloc-monitor - YabLoc monitor package
+Changes:
+ ros-humble-yabloc-monitor (0-2025.07.04.19.48) jammy; urgency=high
+Checksums-Sha1:
+ 81a1fc084acdc37e3571da73b40364a49195a670 2670010 ros-humble-yabloc-monitor-dbgsym_0-2025.07.04.19.48_amd64.ddeb
+ 696a9b5cb6fddf30eec6e72b79abf499b0869613 16297 ros-humble-yabloc-monitor_0-2025.07.04.19.48_amd64.buildinfo
+ 8a5a5ee392863d804990affa73994be0259ddcb9 133362 ros-humble-yabloc-monitor_0-2025.07.04.19.48_amd64.deb
+Checksums-Sha256:
+ 9379fa6853f141278505889faf5f02f31135595f441bb9420b41f7a45d8f6f3f 2670010 ros-humble-yabloc-monitor-dbgsym_0-2025.07.04.19.48_amd64.ddeb
+ 2e48440bf287a6e5c6af19f72f28f035139276bd01e8a5124785ff8537d31ea6 16297 ros-humble-yabloc-monitor_0-2025.07.04.19.48_amd64.buildinfo
+ 2d0fdae9b388aaa02e99a2eb18f9349490c79a6d0fb629179653f69602b3ba71 133362 ros-humble-yabloc-monitor_0-2025.07.04.19.48_amd64.deb
+Files:
+ 09a096d3acd111148e886d90f55c16d6 2670010 debug optional ros-humble-yabloc-monitor-dbgsym_0-2025.07.04.19.48_amd64.ddeb
+ ecf731906f6cbc68d2c27144dbb1b990 16297 misc optional ros-humble-yabloc-monitor_0-2025.07.04.19.48_amd64.buildinfo
+ 501081070a8bc7322b5869adbc46fe84 133362 misc optional ros-humble-yabloc-monitor_0-2025.07.04.19.48_amd64.deb

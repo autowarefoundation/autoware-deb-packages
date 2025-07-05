@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-awsim-labs-sensor-kit-launch
+Binary: ros-humble-awsim-labs-sensor-kit-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.09.31
+Distribution: jammy
+Urgency: high
+Maintainer: Piotr Jaroszek <piotr.jaroszek@robotec.ai>
+Changed-By: Piotr Jaroszek <piotr.jaroszek@robotec.ai>
+Description:
+ ros-humble-awsim-labs-sensor-kit-launch - The awsim_labs_sensor_kit_launch package
+Changes:
+ ros-humble-awsim-labs-sensor-kit-launch (0-2025.07.05.09.31) jammy; urgency=high
+ .
+   * feat: remove individual_params references (#1403 <https://github.com/autowarefoundation/autoware_launch/issues/1403>)
+   * chore(sensor_kit_launch): remove unused has_static_tf_only param (#1393 <https://github.com/autowarefoundation/autoware_launch/issues/1393>)
+   * chore: set all versions to 0.43.0 (#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>)
+   * feat(*_launch): move here (#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>)
+   * Contributors: Amadeusz Szymko, Mete Fatih Cırıt
+   * feat: remove individual_params references (#1403 <https://github.com/autowarefoundation/autoware_launch/issues/1403>)
+   * chore(sensor_kit_launch): remove unused has_static_tf_only param (#1393 <https://github.com/autowarefoundation/autoware_launch/issues/1393>)
+   * chore: set all versions to 0.43.0 (#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>)
+   * feat(*_launch): move here (#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>)
+   * Contributors: Amadeusz Szymko, Mete Fatih Cırıt
+Checksums-Sha1:
+ 0e4a9c5eeb16b2843836a2027a1ea09a3781a613 10653 ros-humble-awsim-labs-sensor-kit-launch_0-2025.07.05.09.31_amd64.buildinfo
+ 764cc49a0c5cce2ce502c936c97fb56cf46e6359 9124 ros-humble-awsim-labs-sensor-kit-launch_0-2025.07.05.09.31_amd64.deb
+Checksums-Sha256:
+ 8cd6bba1e79d30e0624c7e920028011f4e7f867c3d4f75cc6c5777527e5f266f 10653 ros-humble-awsim-labs-sensor-kit-launch_0-2025.07.05.09.31_amd64.buildinfo
+ 4bbb6852d19cf743b381b18dec07fa5caa0391c73bf1fa1a8ae31202c1a2ae55 9124 ros-humble-awsim-labs-sensor-kit-launch_0-2025.07.05.09.31_amd64.deb
+Files:
+ 3ad3e815c348486d82a3268270c3b87e 10653 misc optional ros-humble-awsim-labs-sensor-kit-launch_0-2025.07.05.09.31_amd64.buildinfo
+ 0ee79e05160694be5eec43bb8c129b33 9124 misc optional ros-humble-awsim-labs-sensor-kit-launch_0-2025.07.05.09.31_amd64.deb

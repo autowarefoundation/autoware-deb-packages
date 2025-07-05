@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-object-merger
+Binary: ros-humble-autoware-object-merger
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.01.45
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-object-merger - The autoware_object_merger package
+Changes:
+ ros-humble-autoware-object-merger (0-2025.07.05.01.45) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat(object_merger): add diagnostics warning for timeout when merging (#10283 <https://github.com/autowarefoundation/autoware_universe/issues/10283>)
+     * feat(object_merger): add diagnostics warning for timeout when merge messages are incomplete
+     * feat(object_merger): add parameters loading
+     * style(pre-commit): autofix
+     * feat(object_merger): add schema parameters
+     * feat(object_merger):  1. add initialization timeout check 2. handle for now() uninitialized problem in constructor  3. threshold tuned
+     * feat(object_merger): threshold modified and schema accordingly
+     * feat(object_merger): check both interval and elapsed time
+     * Update perception/autoware_object_merger/src/object_association_merger_node.cpp
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * Update perception/autoware_object_merger/src/object_association_merger_node.cpp
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * feat(object_merger): only update the message arrival timing in objectCallback
+     * feat(object_merger): checkstatus impl moved to diagcallback
+     * Update perception/autoware_object_merger/src/object_association_merger_node.cpp
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * Update perception/autoware_object_merger/src/object_association_merger_node.cpp
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+   * Contributors: Ryohsuke Mitsudome, lei.gu
+Checksums-Sha1:
+ fdc009f10fb5c782ac610dfb70c303122c86bb61 6890936 ros-humble-autoware-object-merger-dbgsym_0-2025.07.05.01.45_amd64.ddeb
+ 8e7b8b9268f24eb79c86592ae2cd78acc63d6ca4 41442 ros-humble-autoware-object-merger_0-2025.07.05.01.45_amd64.buildinfo
+ f32bc39e2594862bf6432c6a47e3742c32a11f77 296260 ros-humble-autoware-object-merger_0-2025.07.05.01.45_amd64.deb
+Checksums-Sha256:
+ ca02debe90d5e99646b7b9a4202fcedf8d82a924aea5c346a3630d2cdc0eb86d 6890936 ros-humble-autoware-object-merger-dbgsym_0-2025.07.05.01.45_amd64.ddeb
+ 156ed6f469115a44d295b38f9a086fc6fe816e3686fd2d1c87717e5d069c9e4f 41442 ros-humble-autoware-object-merger_0-2025.07.05.01.45_amd64.buildinfo
+ f353c184d7e29f275f959343cda1806c41806aa9d87308f989db51fad0fe4181 296260 ros-humble-autoware-object-merger_0-2025.07.05.01.45_amd64.deb
+Files:
+ 8ff04b6a7d9c01c9f14ee7546bd7f50a 6890936 debug optional ros-humble-autoware-object-merger-dbgsym_0-2025.07.05.01.45_amd64.ddeb
+ 54558ef8424b1666018b4f10494dbc46 41442 misc optional ros-humble-autoware-object-merger_0-2025.07.05.01.45_amd64.buildinfo
+ ef22877f4a1d0f41364cfb39ac212fb3 296260 misc optional ros-humble-autoware-object-merger_0-2025.07.05.01.45_amd64.deb

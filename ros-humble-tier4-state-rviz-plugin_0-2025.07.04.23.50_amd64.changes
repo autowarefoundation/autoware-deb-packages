@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-tier4-state-rviz-plugin
+Binary: ros-humble-tier4-state-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.23.50
+Distribution: jammy
+Urgency: high
+Maintainer: Hiroki OTA <hiroki.ota@tier4.jp>
+Changed-By: Hiroki OTA <hiroki.ota@tier4.jp>
+Description:
+ ros-humble-tier4-state-rviz-plugin - The autoware state rviz plugin package
+Changes:
+ ros-humble-tier4-state-rviz-plugin (0-2025.07.04.23.50) jammy; urgency=high
+Checksums-Sha1:
+ 3dcd62950ab71ffa067983bd164db3d05ef13b7b 12270358 ros-humble-tier4-state-rviz-plugin-dbgsym_0-2025.07.04.23.50_amd64.ddeb
+ fd1f3611becdd7844b38c25b9560945f96f4e748 24993 ros-humble-tier4-state-rviz-plugin_0-2025.07.04.23.50_amd64.buildinfo
+ 2ee48572579d947abe8acff062599dcf57de9665 380512 ros-humble-tier4-state-rviz-plugin_0-2025.07.04.23.50_amd64.deb
+Checksums-Sha256:
+ 714fc567c8ec5c7a8f4cebe4e84d27d4d6a0e77b834ad0882eb0384918a38efc 12270358 ros-humble-tier4-state-rviz-plugin-dbgsym_0-2025.07.04.23.50_amd64.ddeb
+ 77bfebfffed86d9220f5eadc3a35d2525f5168f47d1419c2bdd863eea4479020 24993 ros-humble-tier4-state-rviz-plugin_0-2025.07.04.23.50_amd64.buildinfo
+ 874550c2d317dfcba8d8dee3ea04cdefa0bb0657773bdb8f9d5acf2406bc54f5 380512 ros-humble-tier4-state-rviz-plugin_0-2025.07.04.23.50_amd64.deb
+Files:
+ 1b1aaa4fa05db9f25699dbc93313e464 12270358 debug optional ros-humble-tier4-state-rviz-plugin-dbgsym_0-2025.07.04.23.50_amd64.ddeb
+ e8c1a272a1e986b1be28e2cb28211fbb 24993 misc optional ros-humble-tier4-state-rviz-plugin_0-2025.07.04.23.50_amd64.buildinfo
+ 4ebdce7a853b2fff2770a6fb1d9480f6 380512 misc optional ros-humble-tier4-state-rviz-plugin_0-2025.07.04.23.50_amd64.deb

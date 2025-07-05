@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module
+Binary: ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.13.07
+Distribution: jammy
+Urgency: high
+Maintainer: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Changed-By: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module - The autoware_behavior_path_dynamic_obstacle_avoidance_module pack
+Changes:
+ ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module (0-2025.07.05.13.07) jammy; urgency=high
+Checksums-Sha1:
+ c13b5d52ad9293dda5ba9ef248df43ace989b617 6949576 ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module-dbgsym_0-2025.07.05.13.07_amd64.ddeb
+ 57ca4254d8b0c0c1af9b7be423711ee76cc178e1 50133 ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module_0-2025.07.05.13.07_amd64.buildinfo
+ aeae820f286eec176220b460efaef4bcd255fdf7 286682 ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module_0-2025.07.05.13.07_amd64.deb
+Checksums-Sha256:
+ 1544a13981991ab0e989a9e6161b3a45836d2bd29edc4d79962eba50bc7bbc3b 6949576 ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module-dbgsym_0-2025.07.05.13.07_amd64.ddeb
+ a8937d931c4cd53277170ccd023f2539e323e306285004780f0b789e695fc33a 50133 ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module_0-2025.07.05.13.07_amd64.buildinfo
+ 6f39dfdcc238a6dcb4dac6cea10cbd78005759fe79bba5f12492f25520ac5156 286682 ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module_0-2025.07.05.13.07_amd64.deb
+Files:
+ 2e164bbe9994e76f837f9c411d12efbb 6949576 debug optional ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module-dbgsym_0-2025.07.05.13.07_amd64.ddeb
+ 85e3a303b888d4f570054dd06d6793da 50133 misc optional ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module_0-2025.07.05.13.07_amd64.buildinfo
+ 42399fb34dd082336fe59fa27c37220c 286682 misc optional ros-humble-autoware-behavior-path-dynamic-obstacle-avoidance-module_0-2025.07.05.13.07_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-kinematic-evaluator
+Binary: ros-humble-autoware-kinematic-evaluator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.01.01
+Distribution: jammy
+Urgency: high
+Maintainer: Dominik Jargot <dominik.jargot@robotec.ai>
+Changed-By: Dominik Jargot <dominik.jargot@robotec.ai>
+Description:
+ ros-humble-autoware-kinematic-evaluator - kinematic evaluator ROS 2 node
+Changes:
+ ros-humble-autoware-kinematic-evaluator (0-2025.07.05.01.01) jammy; urgency=high
+Checksums-Sha1:
+ 8deac4a05f37435dda4fa678ae40308ce394db84 2703758 ros-humble-autoware-kinematic-evaluator-dbgsym_0-2025.07.05.01.01_amd64.ddeb
+ 278e86336b1afc93af7c9bfdc227b8765fa580b5 41291 ros-humble-autoware-kinematic-evaluator_0-2025.07.05.01.01_amd64.buildinfo
+ 48efa67405929886af22a955cbffc32dee44f8ff 139842 ros-humble-autoware-kinematic-evaluator_0-2025.07.05.01.01_amd64.deb
+Checksums-Sha256:
+ af15e061ed0352a87471d77b740565454aa72c2e4df2a60708a47e34631fab2b 2703758 ros-humble-autoware-kinematic-evaluator-dbgsym_0-2025.07.05.01.01_amd64.ddeb
+ d9e22f6c67b68ad18313a152031eac0700ba0133ab601a3c018fbdb5db0c0cfa 41291 ros-humble-autoware-kinematic-evaluator_0-2025.07.05.01.01_amd64.buildinfo
+ 4491f944b6598944c1e88a6c212ad52dc8385a030510bbcaf5897913bbf68575 139842 ros-humble-autoware-kinematic-evaluator_0-2025.07.05.01.01_amd64.deb
+Files:
+ 927a426a80ffe24ca3d1a2b6d86eaaff 2703758 debug optional ros-humble-autoware-kinematic-evaluator-dbgsym_0-2025.07.05.01.01_amd64.ddeb
+ 160a7f6f44f8dc708fdfaf164594fba7 41291 misc optional ros-humble-autoware-kinematic-evaluator_0-2025.07.05.01.01_amd64.buildinfo
+ af0ab4e7360d0b0b8adfdc254cd631f5 139842 misc optional ros-humble-autoware-kinematic-evaluator_0-2025.07.05.01.01_amd64.deb

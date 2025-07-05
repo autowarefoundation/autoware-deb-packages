@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-yabloc-pose-initializer
+Binary: ros-humble-yabloc-pose-initializer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.10.22
+Distribution: jammy
+Urgency: high
+Maintainer: Kento Yabuuchi <kento.yabuuchi.2@tier4.jp>
+Changed-By: Kento Yabuuchi <kento.yabuuchi.2@tier4.jp>
+Description:
+ ros-humble-yabloc-pose-initializer - The pose initializer
+Changes:
+ ros-humble-yabloc-pose-initializer (0-2025.07.05.10.22) jammy; urgency=high
+Checksums-Sha1:
+ 0aca42ba6617cd092f9cef54f1135102cec65cd5 5990454 ros-humble-yabloc-pose-initializer-dbgsym_0-2025.07.05.10.22_amd64.ddeb
+ c07ef3620f7df4b0d6d5931156f055eed6a0c6dd 47521 ros-humble-yabloc-pose-initializer_0-2025.07.05.10.22_amd64.buildinfo
+ b4c1b7bab76b137c15d409078c1f42fe86025216 193208 ros-humble-yabloc-pose-initializer_0-2025.07.05.10.22_amd64.deb
+Checksums-Sha256:
+ abd8f01463df3b7db97f4d1a52a7582e403d75d9a8a599b68d7693274507b107 5990454 ros-humble-yabloc-pose-initializer-dbgsym_0-2025.07.05.10.22_amd64.ddeb
+ 41d1d9ddc14d6be4761133d947c6e6329a4002cd9bc5a6d1a982208b61a4234b 47521 ros-humble-yabloc-pose-initializer_0-2025.07.05.10.22_amd64.buildinfo
+ 9333e99624a3562348360bd1e914210d77eb07665368de101b2364b24aee0e55 193208 ros-humble-yabloc-pose-initializer_0-2025.07.05.10.22_amd64.deb
+Files:
+ 7c591e2f9691f2a4cd02b96c6278072e 5990454 debug optional ros-humble-yabloc-pose-initializer-dbgsym_0-2025.07.05.10.22_amd64.ddeb
+ 20394b6dc675b9951587021f697f5362 47521 misc optional ros-humble-yabloc-pose-initializer_0-2025.07.05.10.22_amd64.buildinfo
+ 93737594537dbb06701c58ed715d66fd 193208 misc optional ros-humble-yabloc-pose-initializer_0-2025.07.05.10.22_amd64.deb

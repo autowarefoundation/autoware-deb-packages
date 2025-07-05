@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-signal-processing
+Binary: ros-humble-autoware-signal-processing
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.18.34
+Distribution: jammy
+Urgency: high
+Maintainer: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Changed-By: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Description:
+ ros-humble-autoware-signal-processing - The signal processing package
+Changes:
+ ros-humble-autoware-signal-processing (1.0.0-73-g3d059fa8-2025.07.04.18.34) jammy; urgency=high
+Checksums-Sha1:
+ 46ae63799ee05f59c213ac2f86bdbb428e23cedd 147392 ros-humble-autoware-signal-processing-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.18.34_amd64.ddeb
+ 80a051051dd29f78c5c61af600ee178453933ceb 15763 ros-humble-autoware-signal-processing_1.0.0-73-g3d059fa8-2025.07.04.18.34_amd64.buildinfo
+ 3b4555abc3fc69d93fd9ce548070603e107793d8 23512 ros-humble-autoware-signal-processing_1.0.0-73-g3d059fa8-2025.07.04.18.34_amd64.deb
+Checksums-Sha256:
+ d65f8c37ab0f74e8233f2c837b82da110adfaede5a058e99a26836fd4c1f9dba 147392 ros-humble-autoware-signal-processing-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.18.34_amd64.ddeb
+ 7b89ff52ab5997e0f6592f590aa255e68ef93fd877ad29306e7f7b8932f6d1b9 15763 ros-humble-autoware-signal-processing_1.0.0-73-g3d059fa8-2025.07.04.18.34_amd64.buildinfo
+ be6c1e5c78834ab020c3b6d77c178f87e2ec18c27ee8068655a4eebf09673e0e 23512 ros-humble-autoware-signal-processing_1.0.0-73-g3d059fa8-2025.07.04.18.34_amd64.deb
+Files:
+ 3972914c3171f525f3f4139bd01ee1b4 147392 debug optional ros-humble-autoware-signal-processing-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.18.34_amd64.ddeb
+ 2a4169744ae0cdaf0ab1c0760996fce5 15763 misc optional ros-humble-autoware-signal-processing_1.0.0-73-g3d059fa8-2025.07.04.18.34_amd64.buildinfo
+ bd5bff0358f1f6d75158a225ecf1bd50 23512 misc optional ros-humble-autoware-signal-processing_1.0.0-73-g3d059fa8-2025.07.04.18.34_amd64.deb

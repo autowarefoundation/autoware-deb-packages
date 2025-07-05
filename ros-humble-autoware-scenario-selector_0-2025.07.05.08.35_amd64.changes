@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-scenario-selector
+Binary: ros-humble-autoware-scenario-selector
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.08.35
+Distribution: jammy
+Urgency: high
+Maintainer: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Changed-By: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-scenario-selector - The autoware_scenario_selector ROS 2 package
+Changes:
+ ros-humble-autoware-scenario-selector (0-2025.07.05.08.35) jammy; urgency=high
+Checksums-Sha1:
+ e35718376adc2c96bc28dfc3117581a8cb9bea3c 8037942 ros-humble-autoware-scenario-selector-dbgsym_0-2025.07.05.08.35_amd64.ddeb
+ 65a820d75c49d677f984d4fba69f3bba55c1aac2 43499 ros-humble-autoware-scenario-selector_0-2025.07.05.08.35_amd64.buildinfo
+ fe66e83ee88d3c34157e6320d95fbd4e71e012cb 269024 ros-humble-autoware-scenario-selector_0-2025.07.05.08.35_amd64.deb
+Checksums-Sha256:
+ d86e11fa37ef396f2ec52b98976d29defb6a9d3b3f741b92d9a28202afdf0e6d 8037942 ros-humble-autoware-scenario-selector-dbgsym_0-2025.07.05.08.35_amd64.ddeb
+ dd962a43bbe761f72c152fc8228819ee00236198964836c2d2bd80c7b8981415 43499 ros-humble-autoware-scenario-selector_0-2025.07.05.08.35_amd64.buildinfo
+ 59b40faa26f5ddc86184f26ba3efab3c2726a909528269c024063f0482a22367 269024 ros-humble-autoware-scenario-selector_0-2025.07.05.08.35_amd64.deb
+Files:
+ 143dd29e3e93d14fabcb13f7a0f3030e 8037942 debug optional ros-humble-autoware-scenario-selector-dbgsym_0-2025.07.05.08.35_amd64.ddeb
+ ed0a709df58290118cb44dbd59d30ebc 43499 misc optional ros-humble-autoware-scenario-selector_0-2025.07.05.08.35_amd64.buildinfo
+ bf78506e7727a59b7f065e19e793f29a 269024 misc optional ros-humble-autoware-scenario-selector_0-2025.07.05.08.35_amd64.deb

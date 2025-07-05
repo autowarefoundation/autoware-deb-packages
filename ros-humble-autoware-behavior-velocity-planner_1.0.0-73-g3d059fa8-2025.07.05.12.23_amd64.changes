@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-planner
+Binary: ros-humble-autoware-behavior-velocity-planner
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.05.12.23
+Distribution: jammy
+Urgency: high
+Maintainer: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Changed-By: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-planner - The autoware_behavior_velocity_planner package
+Changes:
+ ros-humble-autoware-behavior-velocity-planner (1.0.0-73-g3d059fa8-2025.07.05.12.23) jammy; urgency=high
+Checksums-Sha1:
+ 2c2d37d96bd72908f82b7e33a0953ee83898b161 17774806 ros-humble-autoware-behavior-velocity-planner-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.12.23_amd64.ddeb
+ 5b3419610776dcc4c0401d9c03b8d678624c65d4 44728 ros-humble-autoware-behavior-velocity-planner_1.0.0-73-g3d059fa8-2025.07.05.12.23_amd64.buildinfo
+ 40a5d7416f791b4f306995c3bbaf88323c4663ed 475800 ros-humble-autoware-behavior-velocity-planner_1.0.0-73-g3d059fa8-2025.07.05.12.23_amd64.deb
+Checksums-Sha256:
+ 0246bf952790ab477b7c414e5bcb3ef1cc825f97e3059d77a461704a6e504e74 17774806 ros-humble-autoware-behavior-velocity-planner-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.12.23_amd64.ddeb
+ 94ae593b87ba602c444fcf9c6ed1108b6b383479f301dbc38a91bf3a8321eccb 44728 ros-humble-autoware-behavior-velocity-planner_1.0.0-73-g3d059fa8-2025.07.05.12.23_amd64.buildinfo
+ 961330373060cd1699b37c9485be67734605baf15f89633733b550574d71eb8d 475800 ros-humble-autoware-behavior-velocity-planner_1.0.0-73-g3d059fa8-2025.07.05.12.23_amd64.deb
+Files:
+ 776483a89bdf176e2c8d8e002043d274 17774806 debug optional ros-humble-autoware-behavior-velocity-planner-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.12.23_amd64.ddeb
+ 561a908927a50121a22899ad2a6fc92c 44728 misc optional ros-humble-autoware-behavior-velocity-planner_1.0.0-73-g3d059fa8-2025.07.05.12.23_amd64.buildinfo
+ 0bc99c918880b248686ca69728aa6b24 475800 misc optional ros-humble-autoware-behavior-velocity-planner_1.0.0-73-g3d059fa8-2025.07.05.12.23_amd64.deb

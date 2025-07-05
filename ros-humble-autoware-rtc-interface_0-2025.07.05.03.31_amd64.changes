@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-rtc-interface
+Binary: ros-humble-autoware-rtc-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.03.31
+Distribution: jammy
+Urgency: high
+Maintainer: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Changed-By: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Description:
+ ros-humble-autoware-rtc-interface - The autoware_rtc_interface package
+Changes:
+ ros-humble-autoware-rtc-interface (0-2025.07.05.03.31) jammy; urgency=high
+Checksums-Sha1:
+ 433fe422c7962257ae0dd503542d5166fc3bdf3b 1333240 ros-humble-autoware-rtc-interface-dbgsym_0-2025.07.05.03.31_amd64.ddeb
+ f2a3ad319dade272bac0b21371ddb578407938bc 42847 ros-humble-autoware-rtc-interface_0-2025.07.05.03.31_amd64.buildinfo
+ 0b7ff3d235bf2465fd3b8ee1bff592c68ab99dbb 85608 ros-humble-autoware-rtc-interface_0-2025.07.05.03.31_amd64.deb
+Checksums-Sha256:
+ 12a7d2586eefc575a1532c58b9655e48fbf48d8f82e1b800e787790da86f8d11 1333240 ros-humble-autoware-rtc-interface-dbgsym_0-2025.07.05.03.31_amd64.ddeb
+ c6826f06a80e0872155f3dac8506e0369eacf1b60d2811b2325134b79f0b0e33 42847 ros-humble-autoware-rtc-interface_0-2025.07.05.03.31_amd64.buildinfo
+ ec915fae34c1436d74cfc461b6f1dab59cf5df1eba7c319aa70853ba0b909d16 85608 ros-humble-autoware-rtc-interface_0-2025.07.05.03.31_amd64.deb
+Files:
+ d0d0c26d4bc1038980869bbfbd2b838e 1333240 debug optional ros-humble-autoware-rtc-interface-dbgsym_0-2025.07.05.03.31_amd64.ddeb
+ d513b3a49b1eacaede587c326b53471e 42847 misc optional ros-humble-autoware-rtc-interface_0-2025.07.05.03.31_amd64.buildinfo
+ 56cc37bb3a027627fa830e0959f13b8a 85608 misc optional ros-humble-autoware-rtc-interface_0-2025.07.05.03.31_amd64.deb

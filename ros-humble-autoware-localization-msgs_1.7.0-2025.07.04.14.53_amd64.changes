@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 21 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-localization-msgs
+Binary: ros-humble-autoware-localization-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.7.0-2025.07.04.14.53
+Distribution: jammy
+Urgency: high
+Maintainer: M. Fatih Cırıt <mfc@leodrive.ai>
+Changed-By: M. Fatih Cırıt <mfc@leodrive.ai>
+Description:
+ ros-humble-autoware-localization-msgs - Autoware localization messages package.
+Changes:
+ ros-humble-autoware-localization-msgs (1.7.0-2025.07.04.14.53) jammy; urgency=high
+Checksums-Sha1:
+ d92919b7c5a7d118efa52c0a32fc252e4836d1ce 169940 ros-humble-autoware-localization-msgs-dbgsym_1.7.0-2025.07.04.14.53_amd64.ddeb
+ 2a0d4a556199acafa19726642a69217e9c744798 14867 ros-humble-autoware-localization-msgs_1.7.0-2025.07.04.14.53_amd64.buildinfo
+ b6c1199e1a7c59f2c1724ea1bfdd12eb42498fd7 42186 ros-humble-autoware-localization-msgs_1.7.0-2025.07.04.14.53_amd64.deb
+Checksums-Sha256:
+ 8825e7fe047c0a14cfc1eb7bf72b9bc689e1e9150e5b89cb829185162d2f6e5d 169940 ros-humble-autoware-localization-msgs-dbgsym_1.7.0-2025.07.04.14.53_amd64.ddeb
+ c5ad961de0f6ef5b2871e367ae74d458c95b22593451bc0fe676053f4bc917cd 14867 ros-humble-autoware-localization-msgs_1.7.0-2025.07.04.14.53_amd64.buildinfo
+ 39239159425536f6f0630d1c110bceb1416328908b452388fbb8ec58ef971e26 42186 ros-humble-autoware-localization-msgs_1.7.0-2025.07.04.14.53_amd64.deb
+Files:
+ 963b0a1af3b05138e15207ddbfccb711 169940 debug optional ros-humble-autoware-localization-msgs-dbgsym_1.7.0-2025.07.04.14.53_amd64.ddeb
+ 69a366d3b0b1b52170176708aa782fd1 14867 misc optional ros-humble-autoware-localization-msgs_1.7.0-2025.07.04.14.53_amd64.buildinfo
+ fb229680fcf039f222fb233d4d46c74e 42186 misc optional ros-humble-autoware-localization-msgs_1.7.0-2025.07.04.14.53_amd64.deb

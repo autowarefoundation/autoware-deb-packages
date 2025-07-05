@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 15 Apr 2025 00:00:00 -0000
+Source: ros-humble-agnocast-e2e-test
+Binary: ros-humble-agnocast-e2e-test
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.1.0-2025.07.04.16.04
+Distribution: jammy
+Urgency: high
+Maintainer: Takahiro Ishikawa-Aso <sykwer@gmail.com>
+Changed-By: Takahiro Ishikawa-Aso <sykwer@gmail.com>
+Description:
+ ros-humble-agnocast-e2e-test - E2E test for Agnocast.
+Changes:
+ ros-humble-agnocast-e2e-test (2.1.0-2025.07.04.16.04) jammy; urgency=high
+Checksums-Sha1:
+ dee897854430e45de3f4cc1c388559760b0cfe79 4327850 ros-humble-agnocast-e2e-test-dbgsym_2.1.0-2025.07.04.16.04_amd64.ddeb
+ 809168a4bb3ac521ba09ef407a106b9124c3c211 14829 ros-humble-agnocast-e2e-test_2.1.0-2025.07.04.16.04_amd64.buildinfo
+ f033200d892210a0c2228f7c25e54c9365482556 174824 ros-humble-agnocast-e2e-test_2.1.0-2025.07.04.16.04_amd64.deb
+Checksums-Sha256:
+ 53b77bd3f0f32214ac48ceecc4400a8aca4fa72b58081556a9fb53d3922deb5c 4327850 ros-humble-agnocast-e2e-test-dbgsym_2.1.0-2025.07.04.16.04_amd64.ddeb
+ 112eb9acb720e638b77dedd3ee0e489f12de16647fd75485565ad08d45a19af6 14829 ros-humble-agnocast-e2e-test_2.1.0-2025.07.04.16.04_amd64.buildinfo
+ 8bd72688aaacbb3dafa23cbb12a50e522ec5daa2efd92b74685b4eb4d6264f1b 174824 ros-humble-agnocast-e2e-test_2.1.0-2025.07.04.16.04_amd64.deb
+Files:
+ 1b87a0fb69d5d65f9799ff5bd4fd569d 4327850 debug optional ros-humble-agnocast-e2e-test-dbgsym_2.1.0-2025.07.04.16.04_amd64.ddeb
+ a7035a25f1bb2a81e51b630256d77bb6 14829 misc optional ros-humble-agnocast-e2e-test_2.1.0-2025.07.04.16.04_amd64.buildinfo
+ c7c59b4c1e1bedb8711100309d3a3d4f 174824 misc optional ros-humble-agnocast-e2e-test_2.1.0-2025.07.04.16.04_amd64.deb

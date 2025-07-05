@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-scenario-simulator-v2-adapter
+Binary: ros-humble-autoware-scenario-simulator-v2-adapter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.18.32
+Distribution: jammy
+Urgency: high
+Maintainer: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Changed-By: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Description:
+ ros-humble-autoware-scenario-simulator-v2-adapter - Node for converting autoware's messages into UserDefinedValue mes
+Changes:
+ ros-humble-autoware-scenario-simulator-v2-adapter (0-2025.07.04.18.32) jammy; urgency=high
+Checksums-Sha1:
+ b4b219f7a9971b5fb62267eca377b93d0c7348d1 3003086 ros-humble-autoware-scenario-simulator-v2-adapter-dbgsym_0-2025.07.04.18.32_amd64.ddeb
+ 381d03950c6ba94be42c7df5b3da77cc8a554a69 16430 ros-humble-autoware-scenario-simulator-v2-adapter_0-2025.07.04.18.32_amd64.buildinfo
+ df3e152e1f1e022d21187209859053b8bfe5e7f2 169444 ros-humble-autoware-scenario-simulator-v2-adapter_0-2025.07.04.18.32_amd64.deb
+Checksums-Sha256:
+ 9c77cc82114f1d026cc7d68a7f159d814c8d68b42010760a3ce64ff8b99ae226 3003086 ros-humble-autoware-scenario-simulator-v2-adapter-dbgsym_0-2025.07.04.18.32_amd64.ddeb
+ 6689af4a06cf98bf3d99e75362eba99b69fb3cde28a16bb8bd5056e1380e0572 16430 ros-humble-autoware-scenario-simulator-v2-adapter_0-2025.07.04.18.32_amd64.buildinfo
+ b0a2021fdf51c1d6a07b95373b03b53961f158bfdcd2865ece53135383e07346 169444 ros-humble-autoware-scenario-simulator-v2-adapter_0-2025.07.04.18.32_amd64.deb
+Files:
+ e15794d5981c438360e03eb6a44f3d0a 3003086 debug optional ros-humble-autoware-scenario-simulator-v2-adapter-dbgsym_0-2025.07.04.18.32_amd64.ddeb
+ d5a5ac48d7a1c71cf186b58bd0936b38 16430 misc optional ros-humble-autoware-scenario-simulator-v2-adapter_0-2025.07.04.18.32_amd64.buildinfo
+ b08d6c70614428f1a60f004ab26d11ab 169444 misc optional ros-humble-autoware-scenario-simulator-v2-adapter_0-2025.07.04.18.32_amd64.deb

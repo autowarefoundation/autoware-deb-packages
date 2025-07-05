@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-detection-area-module
+Binary: ros-humble-autoware-behavior-velocity-detection-area-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.14.07
+Distribution: jammy
+Urgency: high
+Maintainer: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Changed-By: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-detection-area-module - The autoware_behavior_velocity_detection_area_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-detection-area-module (0-2025.07.05.14.07) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * fix(detection_area): integrate RTC feature (#10376 <https://github.com/autowarefoundation/autoware_universe/issues/10376>)
+   * Contributors: Ryohsuke Mitsudome, Satoshi OTA
+Checksums-Sha1:
+ 8616e14f10d0cb357da8156a6e2345582695a29b 4669474 ros-humble-autoware-behavior-velocity-detection-area-module-dbgsym_0-2025.07.05.14.07_amd64.ddeb
+ d8d564355847751e6a7683813b9748ba8b0f7d52 45092 ros-humble-autoware-behavior-velocity-detection-area-module_0-2025.07.05.14.07_amd64.buildinfo
+ 4ac3147d32e7de10d5e175ac1c4abf704d7e48da 51914 ros-humble-autoware-behavior-velocity-detection-area-module_0-2025.07.05.14.07_amd64.deb
+Checksums-Sha256:
+ 0a96284eb63ecd1571c259337b2faca35601bfd224259151d828a36831cdd65a 4669474 ros-humble-autoware-behavior-velocity-detection-area-module-dbgsym_0-2025.07.05.14.07_amd64.ddeb
+ fa914039cb0dc073341455ca77a1880fdfd4f1d6955743c77fd43fe48c680681 45092 ros-humble-autoware-behavior-velocity-detection-area-module_0-2025.07.05.14.07_amd64.buildinfo
+ c9dae840aa880510eb75c606c414d020bbe363c90052d34c3bf9dfba5a9efba9 51914 ros-humble-autoware-behavior-velocity-detection-area-module_0-2025.07.05.14.07_amd64.deb
+Files:
+ ee266caabaac1e0efe096b9190db1033 4669474 debug optional ros-humble-autoware-behavior-velocity-detection-area-module-dbgsym_0-2025.07.05.14.07_amd64.ddeb
+ 5cd49377f89ca56f1088da0f595d6064 45092 misc optional ros-humble-autoware-behavior-velocity-detection-area-module_0-2025.07.05.14.07_amd64.buildinfo
+ b64db3d0f7d21feb009f6127a4b4a199 51914 misc optional ros-humble-autoware-behavior-velocity-detection-area-module_0-2025.07.05.14.07_amd64.deb

@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Tue, 15 Apr 2025 00:00:00 -0000
+Source: ros-humble-agnocastlib
+Binary: ros-humble-agnocastlib
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.1.0-2025.07.04.14.39
+Distribution: jammy
+Urgency: high
+Maintainer: Takahiro Ishikawa-Aso <sykwer@gmail.com>
+Changed-By: Takahiro Ishikawa-Aso <sykwer@gmail.com>
+Description:
+ ros-humble-agnocastlib - True Zero Copy Communication Middleware for Unsized ROS 2 Message
+Changes:
+ ros-humble-agnocastlib (2.1.0-2025.07.04.14.39) jammy; urgency=high
+ .
+   * fix(agnocastlib): add O_EXCL for shm_open flag (#595 <https://github.com/tier4/agnocast/issues/595>)
+   * refactor(kmod): reorder ioctl command (#615 <https://github.com/tier4/agnocast/issues/615>)
+   * refactor(kmod): change command name to add_publisher/subscriber (#614 <https://github.com/tier4/agnocast/issues/614>)
+   * refactor(kmod): change command name from new_shm to add_process (#613 <https://github.com/tier4/agnocast/issues/613>)
+   * fix: do shm_unlink with daemon process for each ipc_ns (#602 <https://github.com/tier4/agnocast/issues/602>)
+   * fix(agnocastlib): close agnocast fd when exit (#610 <https://github.com/tier4/agnocast/issues/610>)
+   * fix(Publisher): workaround for only calling borrow_loaned_message() (#605 <https://github.com/tier4/agnocast/issues/605>)
+   * feat(TakeSubscription): add take_data (#598 <https://github.com/tier4/agnocast/issues/598>)
+Checksums-Sha1:
+ 77b971dc8c80c5c33baa38cd179901a94dc3e82e 1444856 ros-humble-agnocastlib-dbgsym_2.1.0-2025.07.04.14.39_amd64.ddeb
+ 64f6d5477e186d76107e6424f417c9cddbc7075d 16417 ros-humble-agnocastlib_2.1.0-2025.07.04.14.39_amd64.buildinfo
+ 9a1b50f8969b45fc3cba5eaca15cf566b930c54e 61814 ros-humble-agnocastlib_2.1.0-2025.07.04.14.39_amd64.deb
+Checksums-Sha256:
+ e495a62df82ec998e574de87356a28404fb7c24360d0162bbf5469f7c1734fde 1444856 ros-humble-agnocastlib-dbgsym_2.1.0-2025.07.04.14.39_amd64.ddeb
+ 58cb2e7a85815095c2f1af2fc7b5313d00a057127603814e989f12e569317fdf 16417 ros-humble-agnocastlib_2.1.0-2025.07.04.14.39_amd64.buildinfo
+ 79b1516710d5517edd276e1ed3a4df1c813505ea414c71527d3f6d0d85dd4aea 61814 ros-humble-agnocastlib_2.1.0-2025.07.04.14.39_amd64.deb
+Files:
+ c5328f821b0297b0afb6bd2a32848b67 1444856 debug optional ros-humble-agnocastlib-dbgsym_2.1.0-2025.07.04.14.39_amd64.ddeb
+ 8ab537b0023082a0d3ee0c0dd4f215c2 16417 misc optional ros-humble-agnocastlib_2.1.0-2025.07.04.14.39_amd64.buildinfo
+ 97d0871a6e99ccf66d7594fb37f95980 61814 misc optional ros-humble-agnocastlib_2.1.0-2025.07.04.14.39_amd64.deb

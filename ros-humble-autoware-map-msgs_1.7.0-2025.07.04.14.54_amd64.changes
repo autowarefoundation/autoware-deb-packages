@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 21 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-map-msgs
+Binary: ros-humble-autoware-map-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.7.0-2025.07.04.14.54
+Distribution: jammy
+Urgency: high
+Maintainer: kminoda <koji.minoda@tier4.jp>
+Changed-By: kminoda <koji.minoda@tier4.jp>
+Description:
+ ros-humble-autoware-map-msgs - Autoware map messages package.
+Changes:
+ ros-humble-autoware-map-msgs (1.7.0-2025.07.04.14.54) jammy; urgency=high
+Checksums-Sha1:
+ ed008064458a6322006118e6c5edb80486654a96 1376476 ros-humble-autoware-map-msgs-dbgsym_1.7.0-2025.07.04.14.54_amd64.ddeb
+ 355a62f93a9849048cb12cb5376f8c9bbcabada8 14981 ros-humble-autoware-map-msgs_1.7.0-2025.07.04.14.54_amd64.buildinfo
+ ec9093131c15547ad77e0917c6580662f1fed6a0 162936 ros-humble-autoware-map-msgs_1.7.0-2025.07.04.14.54_amd64.deb
+Checksums-Sha256:
+ 90c07f1b2920441a3dc46c7db92cdd28de04f0df0ce7d3745038aeb47b256bba 1376476 ros-humble-autoware-map-msgs-dbgsym_1.7.0-2025.07.04.14.54_amd64.ddeb
+ 6c243db9c3ca27cf58180e9c5713d2ca74488ffb2f215ed06f6cdab732a52172 14981 ros-humble-autoware-map-msgs_1.7.0-2025.07.04.14.54_amd64.buildinfo
+ 7c36e65e924d0b9f5d2a4e50e0a93f074c3739cb7dcdf022b50a76eeacd6ab66 162936 ros-humble-autoware-map-msgs_1.7.0-2025.07.04.14.54_amd64.deb
+Files:
+ 6a576a376c9d0226eb0a46c5c47d2d3b 1376476 debug optional ros-humble-autoware-map-msgs-dbgsym_1.7.0-2025.07.04.14.54_amd64.ddeb
+ ef63be11717cbc381db09096c13ba61b 14981 misc optional ros-humble-autoware-map-msgs_1.7.0-2025.07.04.14.54_amd64.buildinfo
+ b22ae552aac2f5c3ecb6eb0223afbe3f 162936 misc optional ros-humble-autoware-map-msgs_1.7.0-2025.07.04.14.54_amd64.deb

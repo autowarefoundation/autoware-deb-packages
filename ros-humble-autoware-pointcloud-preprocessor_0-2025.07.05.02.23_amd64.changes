@@ -1,0 +1,55 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-pointcloud-preprocessor
+Binary: ros-humble-autoware-pointcloud-preprocessor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.02.23
+Distribution: jammy
+Urgency: high
+Maintainer: amc-nu <abrahammonrroy@yahoo.com>
+Changed-By: amc-nu <abrahammonrroy@yahoo.com>
+Description:
+ ros-humble-autoware-pointcloud-preprocessor - The ROS 2 autoware_pointcloud_preprocessor package
+Changes:
+ ros-humble-autoware-pointcloud-preprocessor (0-2025.07.05.02.23) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * perf(autoware_pointcloud_preprocessor): introduce managed transform buffer with implicitly defined listener type (#9197 <https://github.com/autowarefoundation/autoware_universe/issues/9197>)
+     * feat(autoware_universe_utils): rework managed transform buffer
+     * feat(autoware_pointcloud_preprocessor): integrate Managed TF Buffer into pointcloud densifier
+     * chore: update repos
+     * chore(managed_transform_buffer): fix version
+     ---------
+     Co-authored-by: Kenzo Lobos-Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+   * fix(pointcloud_preprocessor): added missing includes (#10412 <https://github.com/autowarefoundation/autoware_universe/issues/10412>)
+     fix: added missing includes
+   * fix: missing dependency on tf2_sensor_msgs (#10400 <https://github.com/autowarefoundation/autoware_universe/issues/10400>)
+   * feat(autoware_pointcloud_preprocessor): add pointcloud_densifier package (#10226 <https://github.com/autowarefoundation/autoware_universe/issues/10226>)
+     * feat(autoware_pointcloud_preprocessor): add pointcloud_densifier package
+     * style(pre-commit): autofix
+     * fix(autoware_pointcloud_preprocessor): add header
+     * fix(autoware_pointcloud_preprocessor): add schema and fix debugger
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * fix(voxel_based_compare_map): temporary fix pointcloud transform lookup  (#10299 <https://github.com/autowarefoundation/autoware_universe/issues/10299>)
+     * fix(voxel_based_compare_map): temporary fix pointcloud transform lookup_time
+     * pre-commit
+     * chore: reduce timeout
+     * fix: misalignment when tranform back output
+     * fix: typo
+     ---------
+   * Contributors: Amadeusz Szymko, Kaan Çolak, Kenzo Lobos Tsunekawa, Ryohsuke Mitsudome, Tim Clephas, badai nguyen
+Checksums-Sha1:
+ c4c4622c9037bc944d4708f0363f862649463060 54665842 ros-humble-autoware-pointcloud-preprocessor-dbgsym_0-2025.07.05.02.23_amd64.ddeb
+ 91eb96c6da8c0c2bc805bdd2621b1d325c691269 48866 ros-humble-autoware-pointcloud-preprocessor_0-2025.07.05.02.23_amd64.buildinfo
+ 2de123b7e1d6a3080a5146847c9cc6c3723ea647 984094 ros-humble-autoware-pointcloud-preprocessor_0-2025.07.05.02.23_amd64.deb
+Checksums-Sha256:
+ aa77e72ca5fb581b3a6b5b6671f78a9c0fe7272b065e86003bf7bc573c4db8d0 54665842 ros-humble-autoware-pointcloud-preprocessor-dbgsym_0-2025.07.05.02.23_amd64.ddeb
+ aa578e6525fbb93335abbc403f93a54124c1c91930a0f6a368e7a5cd2f2d7508 48866 ros-humble-autoware-pointcloud-preprocessor_0-2025.07.05.02.23_amd64.buildinfo
+ 30a985c378740c961201f6587f5bc1f7918421e65060bf6cf1bfd812e22dfded 984094 ros-humble-autoware-pointcloud-preprocessor_0-2025.07.05.02.23_amd64.deb
+Files:
+ 5c3113ee8816a1e3622eb510685b0bc0 54665842 debug optional ros-humble-autoware-pointcloud-preprocessor-dbgsym_0-2025.07.05.02.23_amd64.ddeb
+ 862360246bfdaabb23f902fef37d5cd1 48866 misc optional ros-humble-autoware-pointcloud-preprocessor_0-2025.07.05.02.23_amd64.buildinfo
+ 14dc083cf5bb225e67d5d1abb01308fe 984094 misc optional ros-humble-autoware-pointcloud-preprocessor_0-2025.07.05.02.23_amd64.deb

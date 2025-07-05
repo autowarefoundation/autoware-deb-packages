@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-no-stopping-area-module
+Binary: ros-humble-autoware-behavior-velocity-no-stopping-area-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.14.21
+Distribution: jammy
+Urgency: high
+Maintainer: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Changed-By: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-no-stopping-area-module - The autoware_behavior_velocity_no_stopping_area_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-no-stopping-area-module (0-2025.07.05.14.21) jammy; urgency=high
+Checksums-Sha1:
+ 7d550e16e7e693972ebde341c25f721fcec02fc1 5125950 ros-humble-autoware-behavior-velocity-no-stopping-area-module-dbgsym_0-2025.07.05.14.21_amd64.ddeb
+ 6fb9658a0798a4a71b19d0653431b475c6bee69e 45110 ros-humble-autoware-behavior-velocity-no-stopping-area-module_0-2025.07.05.14.21_amd64.buildinfo
+ 65d69b53cd2f188b3458a2581fa28de7732f927f 99760 ros-humble-autoware-behavior-velocity-no-stopping-area-module_0-2025.07.05.14.21_amd64.deb
+Checksums-Sha256:
+ 9e6203cd0520c28c9e477cfd52f16a26bd8145a8b73481d4c2d4865aa9442fb7 5125950 ros-humble-autoware-behavior-velocity-no-stopping-area-module-dbgsym_0-2025.07.05.14.21_amd64.ddeb
+ 2c305367a00f8c151999aa1ede295bba9997bac02725c72ea119adf85eef1a82 45110 ros-humble-autoware-behavior-velocity-no-stopping-area-module_0-2025.07.05.14.21_amd64.buildinfo
+ f01e0f26c7481451947af18a6475ea9ff0a49ff236abb6e29001926f138b6ee1 99760 ros-humble-autoware-behavior-velocity-no-stopping-area-module_0-2025.07.05.14.21_amd64.deb
+Files:
+ 1dbe1a442d0771021a8635ddd60dda77 5125950 debug optional ros-humble-autoware-behavior-velocity-no-stopping-area-module-dbgsym_0-2025.07.05.14.21_amd64.ddeb
+ 7b5474f249b570d3664a0f0108f4ae88 45110 misc optional ros-humble-autoware-behavior-velocity-no-stopping-area-module_0-2025.07.05.14.21_amd64.buildinfo
+ 751032e352fd2f76f3996d0075d3dbd8 99760 misc optional ros-humble-autoware-behavior-velocity-no-stopping-area-module_0-2025.07.05.14.21_amd64.deb

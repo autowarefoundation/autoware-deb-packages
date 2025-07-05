@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-ground-segmentation
+Binary: ros-humble-autoware-ground-segmentation
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.06.40
+Distribution: jammy
+Urgency: high
+Maintainer: amc-nu <abrahammonrroy@yahoo.com>
+Changed-By: amc-nu <abrahammonrroy@yahoo.com>
+Description:
+ ros-humble-autoware-ground-segmentation - The ROS 2 autoware_ground_segmentation package
+Changes:
+ ros-humble-autoware-ground-segmentation (0-2025.07.05.06.40) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * refactor(ground_segmentation): rework parameter (#8988 <https://github.com/autowarefoundation/autoware_universe/issues/8988>)
+   * perf(autoware_pointcloud_preprocessor): introduce managed transform buffer with implicitly defined listener type (#9197 <https://github.com/autowarefoundation/autoware_universe/issues/9197>)
+     * feat(autoware_universe_utils): rework managed transform buffer
+     * feat(autoware_pointcloud_preprocessor): integrate Managed TF Buffer into pointcloud densifier
+     * chore: update repos
+     * chore(managed_transform_buffer): fix version
+     ---------
+     Co-authored-by: Kenzo Lobos-Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+   * Contributors: Amadeusz Szymko, Prakash Kannaiah, Ryohsuke Mitsudome
+Checksums-Sha1:
+ 0174e0618c2a1f5749a2cae999f62b03340a2e5b 10980112 ros-humble-autoware-ground-segmentation-dbgsym_0-2025.07.05.06.40_amd64.ddeb
+ 1c0f5eaeef5b81164537d1f712c325f56d817a03 48367 ros-humble-autoware-ground-segmentation_0-2025.07.05.06.40_amd64.buildinfo
+ 2b25eef8b7b6c53b0fc15c9f65365adc3ea2be7d 802058 ros-humble-autoware-ground-segmentation_0-2025.07.05.06.40_amd64.deb
+Checksums-Sha256:
+ ffa99ad64d94b47691b019ee2b487a79f8416cef5a421cfc8bbe2d7c6db9a58a 10980112 ros-humble-autoware-ground-segmentation-dbgsym_0-2025.07.05.06.40_amd64.ddeb
+ 96802d1d05fd7e65234789caf35b7973931585fe012d6b72454ea423cd3ad132 48367 ros-humble-autoware-ground-segmentation_0-2025.07.05.06.40_amd64.buildinfo
+ 13c2f26086836aeccd0967cda3dc0621bd804d4a1e8f24523f5fc4559fe5ca4f 802058 ros-humble-autoware-ground-segmentation_0-2025.07.05.06.40_amd64.deb
+Files:
+ b236ccbcbdc5616109e2a7e3d6d989db 10980112 debug optional ros-humble-autoware-ground-segmentation-dbgsym_0-2025.07.05.06.40_amd64.ddeb
+ 219601359c011c79eb6bfed902ecd7e3 48367 misc optional ros-humble-autoware-ground-segmentation_0-2025.07.05.06.40_amd64.buildinfo
+ 29d4582307953167a3f6bf291c4547b9 802058 misc optional ros-humble-autoware-ground-segmentation_0-2025.07.05.06.40_amd64.deb

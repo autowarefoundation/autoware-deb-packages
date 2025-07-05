@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sun, 20 Mar 2022 00:00:00 -0000
+Source: ros-humble-boost-serial-driver
+Binary: ros-humble-boost-serial-driver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.16.19
+Distribution: jammy
+Urgency: high
+Maintainer: Joshua Whitley <whitleysoftwareservices@gmail.com>
+Changed-By: Joshua Whitley <whitleysoftwareservices@gmail.com>
+Description:
+ ros-humble-boost-serial-driver - A template class and associated utilities which encapsulate basic
+Changes:
+ ros-humble-boost-serial-driver (0-2025.07.04.16.19) jammy; urgency=high
+ .
+   * Disable broken test.
+   * Fix linter errors.
+   * Contributors: WhitleySoftwareServices
+Checksums-Sha1:
+ 94c44bbe40faed63f40dfdab26ee558d44fc1b9a 3156974 ros-humble-boost-serial-driver-dbgsym_0-2025.07.04.16.19_amd64.ddeb
+ fdae690a6d9f2d04062b445349568d83737c7731 16959 ros-humble-boost-serial-driver_0-2025.07.04.16.19_amd64.buildinfo
+ 0bdb2c4fda3b789edf741cd92e3577e06f16641b 171814 ros-humble-boost-serial-driver_0-2025.07.04.16.19_amd64.deb
+Checksums-Sha256:
+ 1212d02642e70b820a87d5fe343f9f5e434cff7cf668b0ae591f621fe0ecb62e 3156974 ros-humble-boost-serial-driver-dbgsym_0-2025.07.04.16.19_amd64.ddeb
+ 3e7e59b6b4af3eb60b6a310b8bf279eaf83bcb0c609c99eec957c4c90f9d4ee5 16959 ros-humble-boost-serial-driver_0-2025.07.04.16.19_amd64.buildinfo
+ 6a707cd268a5b7eceff6374fd458f9853726502a51e648b22220269f9895d596 171814 ros-humble-boost-serial-driver_0-2025.07.04.16.19_amd64.deb
+Files:
+ ad517d1d46f975a5f70fee6852552464 3156974 debug optional ros-humble-boost-serial-driver-dbgsym_0-2025.07.04.16.19_amd64.ddeb
+ 30c4da82fb77fc0038cabb086a513861 16959 misc optional ros-humble-boost-serial-driver_0-2025.07.04.16.19_amd64.buildinfo
+ 12e8911e7fb8713c0c139b9bb536cbe9 171814 misc optional ros-humble-boost-serial-driver_0-2025.07.04.16.19_amd64.deb

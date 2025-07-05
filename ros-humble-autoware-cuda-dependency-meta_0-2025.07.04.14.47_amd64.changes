@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-cuda-dependency-meta
+Binary: ros-humble-autoware-cuda-dependency-meta
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.14.47
+Distribution: jammy
+Urgency: high
+Maintainer: Esteve Fernandez <esteve.fernandez@tier4.jp>
+Changed-By: Esteve Fernandez <esteve.fernandez@tier4.jp>
+Description:
+ ros-humble-autoware-cuda-dependency-meta - Virtual package that provides an empty cuda stub package
+Changes:
+ ros-humble-autoware-cuda-dependency-meta (0-2025.07.04.14.47) jammy; urgency=high
+Checksums-Sha1:
+ d98a5d29bb6f4181445a59f20ae60c3e0d0fd739 9375 ros-humble-autoware-cuda-dependency-meta_0-2025.07.04.14.47_amd64.buildinfo
+ f5b4db85e963b0beff43e058abef3a3525734e14 5072 ros-humble-autoware-cuda-dependency-meta_0-2025.07.04.14.47_amd64.deb
+Checksums-Sha256:
+ 70a01647727652c0c808fee0380b2328d6b185f2f7b048cdd2fde07f964baabf 9375 ros-humble-autoware-cuda-dependency-meta_0-2025.07.04.14.47_amd64.buildinfo
+ 109887667ec61912d94f6c568e3365d29130cd9efff05caf3e80f5558b362b67 5072 ros-humble-autoware-cuda-dependency-meta_0-2025.07.04.14.47_amd64.deb
+Files:
+ 8a0e81b16f87f256d338656a5fc8cadb 9375 misc optional ros-humble-autoware-cuda-dependency-meta_0-2025.07.04.14.47_amd64.buildinfo
+ 25f49921e7434b7c0030fef102987ad0 5072 misc optional ros-humble-autoware-cuda-dependency-meta_0-2025.07.04.14.47_amd64.deb

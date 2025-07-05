@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-cluster-merger
+Binary: ros-humble-autoware-cluster-merger
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.23.55
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-cluster-merger - The ROS 2 cluster merger package
+Changes:
+ ros-humble-autoware-cluster-merger (0-2025.07.04.23.55) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat(autoware_cluster_merger): created Schema file and updated ReadME file for parameters settings (#9977 <https://github.com/autowarefoundation/autoware_universe/issues/9977>)
+     * feat: Created Schema file and updated ReadME file for parameters settings
+     * style(pre-commit): autofix
+     * Update README.md
+     Updated readme file
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: badai nguyen <mailto:94814556+badai-nguyen@users.noreply.github.com>
+   * Contributors: Ryohsuke Mitsudome, Vishal Chauhan
+Checksums-Sha1:
+ 19eb6ea1ccf421674648a8d7594382c20a862b31 4190658 ros-humble-autoware-cluster-merger-dbgsym_0-2025.07.04.23.55_amd64.ddeb
+ 049f3a9cc9ae76793db3ec8b845c886ab499923f 43029 ros-humble-autoware-cluster-merger_0-2025.07.04.23.55_amd64.buildinfo
+ 590855c91393ffc8fa6d78c937d86d1c6c377f69 192230 ros-humble-autoware-cluster-merger_0-2025.07.04.23.55_amd64.deb
+Checksums-Sha256:
+ eedffce04b17f20d9112e1b6634694ad2ad9ee6afe693597323f744b2e610f49 4190658 ros-humble-autoware-cluster-merger-dbgsym_0-2025.07.04.23.55_amd64.ddeb
+ a4fbc40a313dd24ed9376b4abc9676b3166d67dada244d17b964736a778ffaee 43029 ros-humble-autoware-cluster-merger_0-2025.07.04.23.55_amd64.buildinfo
+ 4058a0230ccbe4da42f7059ede2966c6128bb5a395ab765863ae157cd4697d37 192230 ros-humble-autoware-cluster-merger_0-2025.07.04.23.55_amd64.deb
+Files:
+ 667a5df7c4db24a9ca691f600cddfc96 4190658 debug optional ros-humble-autoware-cluster-merger-dbgsym_0-2025.07.04.23.55_amd64.ddeb
+ 3a0e9a59ce5eca98cdb21bc7ab382579 43029 misc optional ros-humble-autoware-cluster-merger_0-2025.07.04.23.55_amd64.buildinfo
+ ed564542b5b7e625ac075fa6ec7aa046 192230 misc optional ros-humble-autoware-cluster-merger_0-2025.07.04.23.55_amd64.deb

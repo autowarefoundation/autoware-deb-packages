@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-awsim-labs-vehicle-launch
+Binary: ros-humble-awsim-labs-vehicle-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.15.04
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-awsim-labs-vehicle-launch - The awsim_labs_vehicle_launch package
+Changes:
+ ros-humble-awsim-labs-vehicle-launch (0-2025.07.04.15.04) jammy; urgency=high
+ .
+   * chore: set all versions to 0.43.0 (#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>)
+   * feat(*_launch): move here (#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>)
+   * Contributors: Mete Fatih Cırıt
+   * chore: set all versions to 0.43.0 (#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>)
+   * feat(*_launch): move here (#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>)
+   * Contributors: Mete Fatih Cırıt
+   * chore: set all versions to 0.43.0 (#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>)
+   * feat(*_launch): move here (#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>)
+   * Contributors: Mete Fatih Cırıt
+   * chore: set all versions to 0.43.0 (#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>)
+   * feat(*_launch): move here (#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>)
+   * Contributors: Mete Fatih Cırıt
+   * chore: set all versions to 0.43.0 (#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>)
+   * feat(*_launch): move here (#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>)
+   * Contributors: Mete Fatih Cırıt
+Checksums-Sha1:
+ d84a5f593a1208ab2a1544db067bb1e2586241aa 9756 ros-humble-awsim-labs-vehicle-launch_0-2025.07.04.15.04_amd64.buildinfo
+ a23d9fc35ae90edaef7d4589e23dcd4032d8052a 7410 ros-humble-awsim-labs-vehicle-launch_0-2025.07.04.15.04_amd64.deb
+Checksums-Sha256:
+ 3f42efde51470aeeedff130d820b49e50f7de19646f7d0e9f95a06bf3d769336 9756 ros-humble-awsim-labs-vehicle-launch_0-2025.07.04.15.04_amd64.buildinfo
+ 3bb0f116e1a94725ded6507103d4268d5da3ae6d1218a412fb0f6d53bd8dc429 7410 ros-humble-awsim-labs-vehicle-launch_0-2025.07.04.15.04_amd64.deb
+Files:
+ 65e6270f17990c9d82cdc5f11d94ceb1 9756 misc optional ros-humble-awsim-labs-vehicle-launch_0-2025.07.04.15.04_amd64.buildinfo
+ b4c122fc785421a12677005a122f8eb5 7410 misc optional ros-humble-awsim-labs-vehicle-launch_0-2025.07.04.15.04_amd64.deb

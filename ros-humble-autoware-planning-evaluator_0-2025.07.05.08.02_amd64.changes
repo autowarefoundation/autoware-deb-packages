@@ -1,0 +1,55 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-planning-evaluator
+Binary: ros-humble-autoware-planning-evaluator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.08.02
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime CLEMENT <maxime.clement@tier4.jp>
+Changed-By: Maxime CLEMENT <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-planning-evaluator - ROS 2 node for evaluating planners
+Changes:
+ ros-humble-autoware-planning-evaluator (0-2025.07.05.08.02) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * chore(autoware_planning_evaluator): record goal_stop_deviation only when ego stop (#10429 <https://github.com/autowarefoundation/autoware_universe/issues/10429>)
+     * record modified_goal related output_metric only when the ego stop close to goal
+     * change vel thr
+     * pre-commit
+     ---------
+   * feat(autoware_planning_evaluator): refactor planning_evaluator for new metrics (#10368 <https://github.com/autowarefoundation/autoware_universe/issues/10368>)
+     * tmp save.
+     * tmp save.
+     * WIP add accumulator-based metrics.
+     * pre-commit
+     * add unit test.
+     * pre-commit
+     * fix cppcheck
+     * update readme.
+     * pre-commit
+     * polish readme.
+     * pre-commit
+     * change count to size_t
+     * update config.
+     * publish count.
+     * fix stop decision bug
+     * update parameters.
+     * fix typo
+     ---------
+     Co-authored-by: t4-adc <mailto:grp-rd-1-adc-admin@tier4.jp>
+   * Contributors: Kem (TiankuiXian), Ryohsuke Mitsudome
+Checksums-Sha1:
+ 6c2121c0e9f3ff410f5d989eca78b694a7b74113 13569428 ros-humble-autoware-planning-evaluator-dbgsym_0-2025.07.05.08.02_amd64.ddeb
+ 4ebdb27b305f519b6488df4ea549cba866d76810 43327 ros-humble-autoware-planning-evaluator_0-2025.07.05.08.02_amd64.buildinfo
+ 1e0eb21bcb7b8658cab40555efdb14c5c46d3dc1 402322 ros-humble-autoware-planning-evaluator_0-2025.07.05.08.02_amd64.deb
+Checksums-Sha256:
+ 8fc35efc74ccad958059b8c118550706ddb648655969a33833c593fef55c2cd3 13569428 ros-humble-autoware-planning-evaluator-dbgsym_0-2025.07.05.08.02_amd64.ddeb
+ c33ae79baefa42eaf483885af9a37477e82afafd30b9bd2ea83c342302c012a7 43327 ros-humble-autoware-planning-evaluator_0-2025.07.05.08.02_amd64.buildinfo
+ 0d26dd86c1095e48bef130f65326e7acea8c76723796b7e747a2b15ca5858bb7 402322 ros-humble-autoware-planning-evaluator_0-2025.07.05.08.02_amd64.deb
+Files:
+ 496f91704d20a0377ddc71cb44c43583 13569428 debug optional ros-humble-autoware-planning-evaluator-dbgsym_0-2025.07.05.08.02_amd64.ddeb
+ 5dee864568c28c648794fc58dc21b0cc 43327 misc optional ros-humble-autoware-planning-evaluator_0-2025.07.05.08.02_amd64.buildinfo
+ 09b02e57ca5361028ea2b9dc08e8fb7e 402322 misc optional ros-humble-autoware-planning-evaluator_0-2025.07.05.08.02_amd64.deb

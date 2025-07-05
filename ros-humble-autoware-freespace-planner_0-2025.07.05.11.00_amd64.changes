@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-freespace-planner
+Binary: ros-humble-autoware-freespace-planner
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.11.00
+Distribution: jammy
+Urgency: high
+Maintainer: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Changed-By: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Description:
+ ros-humble-autoware-freespace-planner - The autoware_freespace_planner package
+Changes:
+ ros-humble-autoware-freespace-planner (0-2025.07.05.11.00) jammy; urgency=high
+Checksums-Sha1:
+ 315d575e78fb14dd7c60ea572f304e07ec62dc5b 6166226 ros-humble-autoware-freespace-planner-dbgsym_0-2025.07.05.11.00_amd64.ddeb
+ 17c62b77602d78fdb6d00c321af1ea22cd746b40 44278 ros-humble-autoware-freespace-planner_0-2025.07.05.11.00_amd64.buildinfo
+ dcbfee4fdae644c69c68adeae61f0cf63c42c732 235574 ros-humble-autoware-freespace-planner_0-2025.07.05.11.00_amd64.deb
+Checksums-Sha256:
+ 24cc16bf2a886686ea356f85d4323688730018f6e1567c80221ced151fc82a6b 6166226 ros-humble-autoware-freespace-planner-dbgsym_0-2025.07.05.11.00_amd64.ddeb
+ 619caff776df34da465bb744325fd4176ca221a869a804b4c2c2fe28e75acad2 44278 ros-humble-autoware-freespace-planner_0-2025.07.05.11.00_amd64.buildinfo
+ 8e961328bd3a535d771bd9ab7776cc3c8440632b868f1cc2adabd917ddb5886c 235574 ros-humble-autoware-freespace-planner_0-2025.07.05.11.00_amd64.deb
+Files:
+ eb257e0beb3af1c0beedf6696707b01a 6166226 debug optional ros-humble-autoware-freespace-planner-dbgsym_0-2025.07.05.11.00_amd64.ddeb
+ 0b042a28f79b9f5f94ab20fd55a68cce 44278 misc optional ros-humble-autoware-freespace-planner_0-2025.07.05.11.00_amd64.buildinfo
+ 4dca73509cd0d5943b189fbf173cf000 235574 misc optional ros-humble-autoware-freespace-planner_0-2025.07.05.11.00_amd64.deb

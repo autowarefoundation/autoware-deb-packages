@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-traffic-light-occlusion-predictor
+Binary: ros-humble-autoware-traffic-light-occlusion-predictor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.04.15
+Distribution: jammy
+Urgency: high
+Maintainer: Tao Zhong <tao.zhong@tier4.jp>
+Changed-By: Tao Zhong <tao.zhong@tier4.jp>
+Description:
+ ros-humble-autoware-traffic-light-occlusion-predictor - The autoware_traffic_light_occlusion_predictor package
+Changes:
+ ros-humble-autoware-traffic-light-occlusion-predictor (0-2025.07.05.04.15) jammy; urgency=high
+Checksums-Sha1:
+ 22a149f93b26a0cb95eb8239613e027ff283fadd 8726648 ros-humble-autoware-traffic-light-occlusion-predictor-dbgsym_0-2025.07.05.04.15_amd64.ddeb
+ 158fcb345d66c7040874523f931d402a56c4e1e2 46603 ros-humble-autoware-traffic-light-occlusion-predictor_0-2025.07.05.04.15_amd64.buildinfo
+ 3585ff4a5d8ac5a6a5cf36f9ec94e3f031df4d00 236688 ros-humble-autoware-traffic-light-occlusion-predictor_0-2025.07.05.04.15_amd64.deb
+Checksums-Sha256:
+ eb5ec86d21ca8926919ef152fd4501efaefec9d1e81aada85962a328d24c32cf 8726648 ros-humble-autoware-traffic-light-occlusion-predictor-dbgsym_0-2025.07.05.04.15_amd64.ddeb
+ 29633606dfbe7e6d3e4362c0fd1f14afbb78fed4a8adb9027b7a2be9fbd0d1aa 46603 ros-humble-autoware-traffic-light-occlusion-predictor_0-2025.07.05.04.15_amd64.buildinfo
+ 0b3a3372cf707b990eb21cff3ed6ab9f71147155ede700a5d0f1937a806095f5 236688 ros-humble-autoware-traffic-light-occlusion-predictor_0-2025.07.05.04.15_amd64.deb
+Files:
+ ec1c82f15751a716173e17969f6e804d 8726648 debug optional ros-humble-autoware-traffic-light-occlusion-predictor-dbgsym_0-2025.07.05.04.15_amd64.ddeb
+ 193813ede732a34a4682dac8f6bec5fb 46603 misc optional ros-humble-autoware-traffic-light-occlusion-predictor_0-2025.07.05.04.15_amd64.buildinfo
+ cdc3b981a811c91ccefc2ea85cbed25c 236688 misc optional ros-humble-autoware-traffic-light-occlusion-predictor_0-2025.07.05.04.15_amd64.deb

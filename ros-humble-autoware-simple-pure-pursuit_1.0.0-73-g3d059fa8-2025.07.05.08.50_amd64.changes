@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-simple-pure-pursuit
+Binary: ros-humble-autoware-simple-pure-pursuit
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.05.08.50
+Distribution: jammy
+Urgency: high
+Maintainer: Yuki Takagi <yuki.takagi@tier4.jp>
+Changed-By: Yuki Takagi <yuki.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-simple-pure-pursuit - The autoware_simple_pure_pursuit package
+Changes:
+ ros-humble-autoware-simple-pure-pursuit (1.0.0-73-g3d059fa8-2025.07.05.08.50) jammy; urgency=high
+Checksums-Sha1:
+ 3da6df9c247d04703a527789e51895370966340e 3197214 ros-humble-autoware-simple-pure-pursuit-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.08.50_amd64.ddeb
+ 559926c5c75d0f42270543e242cb070b235f5e9f 43324 ros-humble-autoware-simple-pure-pursuit_1.0.0-73-g3d059fa8-2025.07.05.08.50_amd64.buildinfo
+ 668fce905e5ebba324c3ac3fc3c17bcc272ea5ce 145812 ros-humble-autoware-simple-pure-pursuit_1.0.0-73-g3d059fa8-2025.07.05.08.50_amd64.deb
+Checksums-Sha256:
+ 03f1e54ab5421bc9dd587003c14d028a08d3e9eeca15e1760c3fc812441794c9 3197214 ros-humble-autoware-simple-pure-pursuit-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.08.50_amd64.ddeb
+ eac1fd4ffa0d2fac93e4b3f807cbf0c0cd5d8d50ee6e8800c616ed7aab5ba6ee 43324 ros-humble-autoware-simple-pure-pursuit_1.0.0-73-g3d059fa8-2025.07.05.08.50_amd64.buildinfo
+ d77dce7fcd15064f7cea55b2347edb3bde5c7e4b60fd8ab016ce093a44c01af4 145812 ros-humble-autoware-simple-pure-pursuit_1.0.0-73-g3d059fa8-2025.07.05.08.50_amd64.deb
+Files:
+ 1d60446997b1c2f93c21fe32097dc7d8 3197214 debug optional ros-humble-autoware-simple-pure-pursuit-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.08.50_amd64.ddeb
+ 59ec1b6cedef9dcc42cbd52256147014 43324 misc optional ros-humble-autoware-simple-pure-pursuit_1.0.0-73-g3d059fa8-2025.07.05.08.50_amd64.buildinfo
+ 6687a9a08410bad5636d9de7f1ad564d 145812 misc optional ros-humble-autoware-simple-pure-pursuit_1.0.0-73-g3d059fa8-2025.07.05.08.50_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-diagnostic-graph-aggregator
+Binary: ros-humble-autoware-diagnostic-graph-aggregator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.17.14
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-diagnostic-graph-aggregator - The diagnostic_graph_aggregator package
+Changes:
+ ros-humble-autoware-diagnostic-graph-aggregator (0-2025.07.04.17.14) jammy; urgency=high
+Checksums-Sha1:
+ 106545436da030b45078725bba85f92125622c19 5360140 ros-humble-autoware-diagnostic-graph-aggregator-dbgsym_0-2025.07.04.17.14_amd64.ddeb
+ fde2844b65271fa1401f7803b6ddf652e19717b8 16352 ros-humble-autoware-diagnostic-graph-aggregator_0-2025.07.04.17.14_amd64.buildinfo
+ d850496365a773cf073369a60e29cc96a80d5be3 241298 ros-humble-autoware-diagnostic-graph-aggregator_0-2025.07.04.17.14_amd64.deb
+Checksums-Sha256:
+ f2a32ea5b172f177bd4c5b2115817d82295c0fe45db1e8ccadfce7b9a4e579af 5360140 ros-humble-autoware-diagnostic-graph-aggregator-dbgsym_0-2025.07.04.17.14_amd64.ddeb
+ bf6b7435ab62f09ce1cb23c2c9355506caf8e2a1cf9fc7c6dbd602881c9383f0 16352 ros-humble-autoware-diagnostic-graph-aggregator_0-2025.07.04.17.14_amd64.buildinfo
+ 493d2e5dac37cbf9bcc8be53f51e21387343804d20d2b1dc4c3c7a67b368ed87 241298 ros-humble-autoware-diagnostic-graph-aggregator_0-2025.07.04.17.14_amd64.deb
+Files:
+ 0d5d9fec5004c813efa1d8e6cb3646f6 5360140 debug optional ros-humble-autoware-diagnostic-graph-aggregator-dbgsym_0-2025.07.04.17.14_amd64.ddeb
+ 8a235b0e40a71dd276ab233a84c2e5a7 16352 misc optional ros-humble-autoware-diagnostic-graph-aggregator_0-2025.07.04.17.14_amd64.buildinfo
+ 5d010d2d50622b0194f6f052f96e4ba7 241298 misc optional ros-humble-autoware-diagnostic-graph-aggregator_0-2025.07.04.17.14_amd64.deb

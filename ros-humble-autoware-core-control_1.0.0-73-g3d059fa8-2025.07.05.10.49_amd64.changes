@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-core-control
+Binary: ros-humble-autoware-core-control
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.05.10.49
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-autoware-core-control - The autoware_core_control package
+Changes:
+ ros-humble-autoware-core-control (1.0.0-73-g3d059fa8-2025.07.05.10.49) jammy; urgency=high
+Checksums-Sha1:
+ 0a853cdee4f6b6d12211d8a02d0d15a472a556bc 10803 ros-humble-autoware-core-control_1.0.0-73-g3d059fa8-2025.07.05.10.49_amd64.buildinfo
+ 69604baf27f517b996def4837b297d2076d16f0c 5646 ros-humble-autoware-core-control_1.0.0-73-g3d059fa8-2025.07.05.10.49_amd64.deb
+Checksums-Sha256:
+ a455c32396ffdf6ba1a4f4ef3aa58a7fefd04539bd51a43759bd162045ca39c0 10803 ros-humble-autoware-core-control_1.0.0-73-g3d059fa8-2025.07.05.10.49_amd64.buildinfo
+ 72ba005fd522748dd0261fc0fdc16af39018c19d715228b0e668cbe571f4b4df 5646 ros-humble-autoware-core-control_1.0.0-73-g3d059fa8-2025.07.05.10.49_amd64.deb
+Files:
+ f26504cb5efc732ff779654e15ce0089 10803 misc optional ros-humble-autoware-core-control_1.0.0-73-g3d059fa8-2025.07.05.10.49_amd64.buildinfo
+ 6a97a274545bbb493c270d56c78396a6 5646 misc optional ros-humble-autoware-core-control_1.0.0-73-g3d059fa8-2025.07.05.10.49_amd64.deb

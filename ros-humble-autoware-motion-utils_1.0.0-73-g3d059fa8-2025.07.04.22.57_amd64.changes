@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-motion-utils
+Binary: ros-humble-autoware-motion-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.22.57
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-motion-utils - The autoware_motion_utils package
+Changes:
+ ros-humble-autoware-motion-utils (1.0.0-73-g3d059fa8-2025.07.04.22.57) jammy; urgency=high
+ .
+   * fix(autoware_path_optimizer): incorrect application of input velocity due to badly mapping output trajectory to input trajectory (#355 <https://github.com/autowarefoundation/autoware_core/issues/355>)
+     * changes to avoid improper mapping
+     * Update common/autoware_motion_utils/include/autoware/motion_utils/trajectory/trajectory.hpp
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * refactor(autoware_motion_utils): rewrite using modern C++ without API breakage (#348 <https://github.com/autowarefoundation/autoware_core/issues/348>)
+   * Contributors: Arjun Jagdish Ram, Yutaka Kondo
+Checksums-Sha1:
+ f092da146f5cac8d33ed1614f4a5764841333732 4195086 ros-humble-autoware-motion-utils-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.22.57_amd64.ddeb
+ 8092516c9b5afd105ff43ce29e380af8afa55855 18479 ros-humble-autoware-motion-utils_1.0.0-73-g3d059fa8-2025.07.04.22.57_amd64.buildinfo
+ 1e9a3a39d88d82a4906cf06365cefa59cd5e57d6 234386 ros-humble-autoware-motion-utils_1.0.0-73-g3d059fa8-2025.07.04.22.57_amd64.deb
+Checksums-Sha256:
+ bd25c474ece1ddd58c430b01968aa0040ab8eb27a23d2104aaa0a5f408fb426f 4195086 ros-humble-autoware-motion-utils-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.22.57_amd64.ddeb
+ edfa145b83b2553b28be29db31bdabf6b2313cf30f6771fc36e1cd1c1d71230d 18479 ros-humble-autoware-motion-utils_1.0.0-73-g3d059fa8-2025.07.04.22.57_amd64.buildinfo
+ e380b6de5206de88ab0d208dab2bd09b43288776a2c46945b7902e40ead73fb7 234386 ros-humble-autoware-motion-utils_1.0.0-73-g3d059fa8-2025.07.04.22.57_amd64.deb
+Files:
+ 1fb9d519a6fd029188d039245c142e17 4195086 debug optional ros-humble-autoware-motion-utils-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.22.57_amd64.ddeb
+ 7e4ada11f9b166dcb45e2fbda8e76a17 18479 misc optional ros-humble-autoware-motion-utils_1.0.0-73-g3d059fa8-2025.07.04.22.57_amd64.buildinfo
+ 1a255ad3c435cc815cfea95674653f83 234386 misc optional ros-humble-autoware-motion-utils_1.0.0-73-g3d059fa8-2025.07.04.22.57_amd64.deb

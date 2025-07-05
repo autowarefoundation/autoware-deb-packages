@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-ndt-scan-matcher
+Binary: ros-humble-autoware-ndt-scan-matcher
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.23.20
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-ndt-scan-matcher - The autoware_ndt_scan_matcher package
+Changes:
+ ros-humble-autoware-ndt-scan-matcher (0-2025.07.04.23.20) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat(ndt_scan_matcher): applied THROTTLE to frequent logs (#10430 <https://github.com/autowarefoundation/autoware_universe/issues/10430>)
+   * Contributors: Ryohsuke Mitsudome, RyuYamamoto
+Checksums-Sha1:
+ bfb3f1e8d175b8d326edb66fda31f46408208c63 14682266 ros-humble-autoware-ndt-scan-matcher-dbgsym_0-2025.07.04.23.20_amd64.ddeb
+ dfaaea89a7323eef8e59c04418d683afe0412a6d 41336 ros-humble-autoware-ndt-scan-matcher_0-2025.07.04.23.20_amd64.buildinfo
+ 27e1408e47fab07567b521d5d0e3fa47add2bd75 359326 ros-humble-autoware-ndt-scan-matcher_0-2025.07.04.23.20_amd64.deb
+Checksums-Sha256:
+ 83730eabe35cd9d6d55d6bc597b87e223d9cbd34ff2b440bba2fc036b564cd8d 14682266 ros-humble-autoware-ndt-scan-matcher-dbgsym_0-2025.07.04.23.20_amd64.ddeb
+ 236447d729d4fc936fa12f8864c98ca25b42ed4d98dfd36869cd134c1cfbaea7 41336 ros-humble-autoware-ndt-scan-matcher_0-2025.07.04.23.20_amd64.buildinfo
+ 42e4a7ae9c599644d4f9785c9b00fea84bc1b6756cc7cec66461822676e1fe10 359326 ros-humble-autoware-ndt-scan-matcher_0-2025.07.04.23.20_amd64.deb
+Files:
+ e8c85c243ed93ee6ed0df929faa09924 14682266 debug optional ros-humble-autoware-ndt-scan-matcher-dbgsym_0-2025.07.04.23.20_amd64.ddeb
+ 80c2a2eee64d7d979e575dfdffeecf11 41336 misc optional ros-humble-autoware-ndt-scan-matcher_0-2025.07.04.23.20_amd64.buildinfo
+ 15e31c83520dfeb0db94f751397d9baf 359326 misc optional ros-humble-autoware-ndt-scan-matcher_0-2025.07.04.23.20_amd64.deb

@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Tue, 22 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-utils-tf
+Binary: ros-humble-autoware-utils-tf
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.4.0-2025.07.04.22.26
+Distribution: jammy
+Urgency: high
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Changed-By: Jian Kang <egon.kang@autocore.ai>
+Description:
+ ros-humble-autoware-utils-tf - The autoware_utils_tf package
+Changes:
+ ros-humble-autoware-utils-tf (1.4.0-2025.07.04.22.26) jammy; urgency=high
+Checksums-Sha1:
+ 5dc31ef17b16043ff787eb3a921375b0ed83d3ae 17353 ros-humble-autoware-utils-tf_1.4.0-2025.07.04.22.26_amd64.buildinfo
+ 460716ebf7a9e6ea54914ac1ba23b7690010f62f 7886 ros-humble-autoware-utils-tf_1.4.0-2025.07.04.22.26_amd64.deb
+Checksums-Sha256:
+ 0da223b24d8244e81c2bf9e75b43001ea08b2dc28a3fe94c99d588db5ac33be5 17353 ros-humble-autoware-utils-tf_1.4.0-2025.07.04.22.26_amd64.buildinfo
+ 83813624c79c5f3917015aa68113a0aeae97c804069591c0152e5a052c1fab16 7886 ros-humble-autoware-utils-tf_1.4.0-2025.07.04.22.26_amd64.deb
+Files:
+ d531c2f0e85e40f21afcc4393802a54c 17353 misc optional ros-humble-autoware-utils-tf_1.4.0-2025.07.04.22.26_amd64.buildinfo
+ ec5d1bd679bd8195243176129fcb1087 7886 misc optional ros-humble-autoware-utils-tf_1.4.0-2025.07.04.22.26_amd64.deb

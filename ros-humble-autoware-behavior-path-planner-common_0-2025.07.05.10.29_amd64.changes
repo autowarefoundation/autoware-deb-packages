@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-path-planner-common
+Binary: ros-humble-autoware-behavior-path-planner-common
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.10.29
+Distribution: jammy
+Urgency: high
+Maintainer: Zulfaqar Azmi <zulfaqar.azmi@tier4.jp>
+Changed-By: Zulfaqar Azmi <zulfaqar.azmi@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-path-planner-common - The autoware_behavior_path_planner_common package
+Changes:
+ ros-humble-autoware-behavior-path-planner-common (0-2025.07.05.10.29) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat(start/goal_planner): use common max steer angle parameter from vehicle_info (#10321 <https://github.com/autowarefoundation/autoware_universe/issues/10321>)
+     * fix(autoware_behavior_path_start_planner_module): update parameter name for geometric pull out max steer angle
+     * fix(docs): update unit for max_steer_angle_margin_scale in README
+     * fix dead link
+     ---------
+   * fix(behavior_path_planner, behavior_static_obstacle_avoidance_module): crash during goal changes (#10205 <https://github.com/autowarefoundation/autoware_universe/issues/10205>)
+     * fix(behavior_path_planner, behavior_static_obstacle_avoidance_module): empty path handling
+     * style(pre-commit): autofix
+     * refactor: use optional
+     * fix: std
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * fix(goal_planner): use precise distance to objects for sorting candidate paths (#10296 <https://github.com/autowarefoundation/autoware_universe/issues/10296>)
+     * fix(goal_planner): use precise distance to objects for sorting candidate paths
+     * shortest_distance_from_ego_footprint_to_objects_on_path
+     * improve doxygen
+     update docs
+     * fix build
+     ---------
+   * Contributors: Kosuke Takeuchi, Kyoichi Sugahara, Ryohsuke Mitsudome, Shumpei Wakabayashi
+Checksums-Sha1:
+ 43509c86ae3d71b05b5af18c3587a66f84cb2bfd 18445514 ros-humble-autoware-behavior-path-planner-common-dbgsym_0-2025.07.05.10.29_amd64.ddeb
+ f95dac386f6cda0c6bd11ff63134b6b638b34105 44796 ros-humble-autoware-behavior-path-planner-common_0-2025.07.05.10.29_amd64.buildinfo
+ d4869acecdb6ae75747cabc8e6b7ed03c34f8e2e 600304 ros-humble-autoware-behavior-path-planner-common_0-2025.07.05.10.29_amd64.deb
+Checksums-Sha256:
+ fb3a3638a7673580e9e0380dd6279f8379a5fcbd5524b33d3c552e5c2d7ce535 18445514 ros-humble-autoware-behavior-path-planner-common-dbgsym_0-2025.07.05.10.29_amd64.ddeb
+ 8ff3bf3aef60d67cb60efbcac216f149cd3586d1a394ef65cd2f9b83ef01a464 44796 ros-humble-autoware-behavior-path-planner-common_0-2025.07.05.10.29_amd64.buildinfo
+ 8a3b3a11c0149f4d50e35a86c3fa48d7e4a121d951c8a753b7ba51d56b88b958 600304 ros-humble-autoware-behavior-path-planner-common_0-2025.07.05.10.29_amd64.deb
+Files:
+ f4308a87cb6eb4b10080f3a2b1e0d577 18445514 debug optional ros-humble-autoware-behavior-path-planner-common-dbgsym_0-2025.07.05.10.29_amd64.ddeb
+ b1eed79020737ea14a434ecf55eca806 44796 misc optional ros-humble-autoware-behavior-path-planner-common_0-2025.07.05.10.29_amd64.buildinfo
+ a202a4570235c9098e16ddb982fe2a65 600304 misc optional ros-humble-autoware-behavior-path-planner-common_0-2025.07.05.10.29_amd64.deb

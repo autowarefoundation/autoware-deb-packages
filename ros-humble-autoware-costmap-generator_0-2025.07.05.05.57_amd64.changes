@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-costmap-generator
+Binary: ros-humble-autoware-costmap-generator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.05.57
+Distribution: jammy
+Urgency: high
+Maintainer: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Changed-By: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Description:
+ ros-humble-autoware-costmap-generator - The autoware_costmap_generator package
+Changes:
+ ros-humble-autoware-costmap-generator (0-2025.07.05.05.57) jammy; urgency=high
+Checksums-Sha1:
+ 2a3b98d3e3ac8b9ebc2e430014b7b96d22c056f5 8937018 ros-humble-autoware-costmap-generator-dbgsym_0-2025.07.05.05.57_amd64.ddeb
+ 784011e2366679e3340dadb56c2ceb63642294b4 48241 ros-humble-autoware-costmap-generator_0-2025.07.05.05.57_amd64.buildinfo
+ 71782d4910d06685c380e14452d4cee8fc0aa6fc 311678 ros-humble-autoware-costmap-generator_0-2025.07.05.05.57_amd64.deb
+Checksums-Sha256:
+ c5d92562ae3e9ab56d92cc2ea15405f95aff1d416455d7ed4be3ee4b5836ee04 8937018 ros-humble-autoware-costmap-generator-dbgsym_0-2025.07.05.05.57_amd64.ddeb
+ fda03d427c555ef4997f4330f3017a2ee2fc54359a022ce551add0a12932ff34 48241 ros-humble-autoware-costmap-generator_0-2025.07.05.05.57_amd64.buildinfo
+ f328ae91906a3e8acc32fee08deb2e6c8975f8cb1fd4f621d9129124af63b84f 311678 ros-humble-autoware-costmap-generator_0-2025.07.05.05.57_amd64.deb
+Files:
+ f9b0a4a7735be507555948e7f1edc7ac 8937018 debug optional ros-humble-autoware-costmap-generator-dbgsym_0-2025.07.05.05.57_amd64.ddeb
+ 2642085b98fadd5fef2e5e0f4059b804 48241 misc optional ros-humble-autoware-costmap-generator_0-2025.07.05.05.57_amd64.buildinfo
+ 56cfbe8c08abb1a27920b0074ce53b77 311678 misc optional ros-humble-autoware-costmap-generator_0-2025.07.05.05.57_amd64.deb

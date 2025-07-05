@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-traffic-light-recognition-marker-publisher
+Binary: ros-humble-autoware-traffic-light-recognition-marker-publisher
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.04.21
+Distribution: jammy
+Urgency: high
+Maintainer: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Changed-By: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Description:
+ ros-humble-autoware-traffic-light-recognition-marker-publisher - The autoware_traffic_light_recognition_marker_publisher package
+Changes:
+ ros-humble-autoware-traffic-light-recognition-marker-publisher (0-2025.07.05.04.21) jammy; urgency=high
+Checksums-Sha1:
+ 9cb5a91f65c50e689964da86c8764f658329d0ab 4128732 ros-humble-autoware-traffic-light-recognition-marker-publisher-dbgsym_0-2025.07.05.04.21_amd64.ddeb
+ cadecb42413e9f14884c96e8ef8e816dacd52052 42641 ros-humble-autoware-traffic-light-recognition-marker-publisher_0-2025.07.05.04.21_amd64.buildinfo
+ a3bd6ef909b325ddd784cd296d7bc5405e4e4968 149886 ros-humble-autoware-traffic-light-recognition-marker-publisher_0-2025.07.05.04.21_amd64.deb
+Checksums-Sha256:
+ edcf6577b7a445b61b1f63f27372de403d61e9f814e283d918f5b74cb2101713 4128732 ros-humble-autoware-traffic-light-recognition-marker-publisher-dbgsym_0-2025.07.05.04.21_amd64.ddeb
+ ee1326c56b7902c04adcfa5bc3932c2310840c304c8763f1e72d7905deaebce1 42641 ros-humble-autoware-traffic-light-recognition-marker-publisher_0-2025.07.05.04.21_amd64.buildinfo
+ 9074e9531b0a24f25a9e8d5cc2c1bb374387d9082145ce231b2a992b9591ade9 149886 ros-humble-autoware-traffic-light-recognition-marker-publisher_0-2025.07.05.04.21_amd64.deb
+Files:
+ ac4f7b600248ee140ea18b0598983ca1 4128732 debug optional ros-humble-autoware-traffic-light-recognition-marker-publisher-dbgsym_0-2025.07.05.04.21_amd64.ddeb
+ 78ae0bb73e73da803e02337b0a4f34a3 42641 misc optional ros-humble-autoware-traffic-light-recognition-marker-publisher_0-2025.07.05.04.21_amd64.buildinfo
+ 8c9e3d08f28e3fdd6c27554c7bc90aeb 149886 misc optional ros-humble-autoware-traffic-light-recognition-marker-publisher_0-2025.07.05.04.21_amd64.deb

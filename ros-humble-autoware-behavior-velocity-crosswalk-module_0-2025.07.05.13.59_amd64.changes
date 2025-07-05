@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-crosswalk-module
+Binary: ros-humble-autoware-behavior-velocity-crosswalk-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.13.59
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-crosswalk-module - The autoware_behavior_velocity_crosswalk_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-crosswalk-module (0-2025.07.05.13.59) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat(crosswalk_module): consider objects on crosswalk when pedestrian traffic light is red (#10332 <https://github.com/autowarefoundation/autoware_universe/issues/10332>)
+   * Contributors: Mehmet Dogru, Ryohsuke Mitsudome
+Checksums-Sha1:
+ 1cf728973884003095f0b76dbbc44d33bd6cb849 9076922 ros-humble-autoware-behavior-velocity-crosswalk-module-dbgsym_0-2025.07.05.13.59_amd64.ddeb
+ b53d1c0fd54bfdfe0d0577f75bc0875c47a6ff77 49610 ros-humble-autoware-behavior-velocity-crosswalk-module_0-2025.07.05.13.59_amd64.buildinfo
+ 2e1932a4fb1197a3e803f227e7fa17fdcc620b12 362740 ros-humble-autoware-behavior-velocity-crosswalk-module_0-2025.07.05.13.59_amd64.deb
+Checksums-Sha256:
+ 0090f6c50a2c5e446c2de0769db234667d09bf21104415ddf874fd9ad8b6198f 9076922 ros-humble-autoware-behavior-velocity-crosswalk-module-dbgsym_0-2025.07.05.13.59_amd64.ddeb
+ 64348f241ed07a94c98bd7367998993cd3005d570a69bf18011def53b2db0f60 49610 ros-humble-autoware-behavior-velocity-crosswalk-module_0-2025.07.05.13.59_amd64.buildinfo
+ 540365aa95705cc1b6b7594bfa224e7e5b5f7ebdd28e3bad054c1208b69bd73b 362740 ros-humble-autoware-behavior-velocity-crosswalk-module_0-2025.07.05.13.59_amd64.deb
+Files:
+ d054529ea32b0bb5007702c3848a10b6 9076922 debug optional ros-humble-autoware-behavior-velocity-crosswalk-module-dbgsym_0-2025.07.05.13.59_amd64.ddeb
+ 9bf33558c86e1c2203e60fff533065c6 49610 misc optional ros-humble-autoware-behavior-velocity-crosswalk-module_0-2025.07.05.13.59_amd64.buildinfo
+ 85f83148d96f3ed952f2b045edc7e9b7 362740 misc optional ros-humble-autoware-behavior-velocity-crosswalk-module_0-2025.07.05.13.59_amd64.deb

@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-route-handler
+Binary: ros-humble-autoware-route-handler
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.05.03.26
+Distribution: jammy
+Urgency: high
+Maintainer: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Changed-By: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Description:
+ ros-humble-autoware-route-handler - The route_handling package
+Changes:
+ ros-humble-autoware-route-handler (1.0.0-73-g3d059fa8-2025.07.05.03.26) jammy; urgency=high
+ .
+   * feat(route_handler): use a cost metric to select start lane (#357 <https://github.com/autowarefoundation/autoware_core/issues/357>)
+     * feat(route_handler): use a cost metric to select start lane
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Mert Çolak
+Checksums-Sha1:
+ b726aa0efb8493647fa4ba92e125ea8b5d208937 2076858 ros-humble-autoware-route-handler-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.03.26_amd64.ddeb
+ 7719d36b413b4418038a5d7a463b287ccd4531ae 42899 ros-humble-autoware-route-handler_1.0.0-73-g3d059fa8-2025.07.05.03.26_amd64.buildinfo
+ 8fa15a6d0a194c5aff21053405e67cf4db0bba5d 90558 ros-humble-autoware-route-handler_1.0.0-73-g3d059fa8-2025.07.05.03.26_amd64.deb
+Checksums-Sha256:
+ b9a9ffc8651fb44d81da2b8595920d97e590d75f3d1371af92f83eb82d0306ae 2076858 ros-humble-autoware-route-handler-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.03.26_amd64.ddeb
+ be8e7886bff796284bc7901bf0fdb79edbffdd8ee3e43b788c566c6d14df72ed 42899 ros-humble-autoware-route-handler_1.0.0-73-g3d059fa8-2025.07.05.03.26_amd64.buildinfo
+ ab619d5151fc4e2b596917fe557aca5f4be7e21d84dc043ad2466233cebe8bd7 90558 ros-humble-autoware-route-handler_1.0.0-73-g3d059fa8-2025.07.05.03.26_amd64.deb
+Files:
+ 40b27b44a52ccf15531b8d2d3af3caf1 2076858 debug optional ros-humble-autoware-route-handler-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.03.26_amd64.ddeb
+ c253ced370d06e003f24a16e547ed54b 42899 misc optional ros-humble-autoware-route-handler_1.0.0-73-g3d059fa8-2025.07.05.03.26_amd64.buildinfo
+ 2c396efb9f030fefa595d89e24756efd 90558 misc optional ros-humble-autoware-route-handler_1.0.0-73-g3d059fa8-2025.07.05.03.26_amd64.deb

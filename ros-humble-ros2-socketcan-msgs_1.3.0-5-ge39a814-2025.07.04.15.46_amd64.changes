@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Tue, 16 Jul 2024 00:00:00 -0000
+Source: ros-humble-ros2-socketcan-msgs
+Binary: ros-humble-ros2-socketcan-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.3.0-5-ge39a814-2025.07.04.15.46
+Distribution: jammy
+Urgency: high
+Maintainer: Josh Whitley <josh@electrifiedautonomy.com>
+Changed-By: Josh Whitley <josh@electrifiedautonomy.com>
+Description:
+ ros-humble-ros2-socketcan-msgs - Messages for SocketCAN
+Changes:
+ ros-humble-ros2-socketcan-msgs (1.3.0-5-ge39a814-2025.07.04.15.46) jammy; urgency=high
+ .
+   * Jazzy release
+Checksums-Sha1:
+ e3309f3f2b3edeb9e29bb3d444afca15a344782f 171512 ros-humble-ros2-socketcan-msgs-dbgsym_1.3.0-5-ge39a814-2025.07.04.15.46_amd64.ddeb
+ 7824c90f81d5cc9030729bb673189cb3aa234507 14821 ros-humble-ros2-socketcan-msgs_1.3.0-5-ge39a814-2025.07.04.15.46_amd64.buildinfo
+ c6ee28fa0218d519246e0e4fa805a706db2333dc 44478 ros-humble-ros2-socketcan-msgs_1.3.0-5-ge39a814-2025.07.04.15.46_amd64.deb
+Checksums-Sha256:
+ 4c974e7c5afd3e189e2b4ea4958ad602a166b7bdfa0d7b87fe7cce5cf64436d0 171512 ros-humble-ros2-socketcan-msgs-dbgsym_1.3.0-5-ge39a814-2025.07.04.15.46_amd64.ddeb
+ 3197c3b5b206e0321fc53ae3d63b758569f74a110abfb86e399330f9b82dfc48 14821 ros-humble-ros2-socketcan-msgs_1.3.0-5-ge39a814-2025.07.04.15.46_amd64.buildinfo
+ dbba57f162a3fb286b9ce3eae0445c717450342747ac2e5cac1846d1b9ed0bd9 44478 ros-humble-ros2-socketcan-msgs_1.3.0-5-ge39a814-2025.07.04.15.46_amd64.deb
+Files:
+ b37a9cac5a3094d458c941989abfa1c6 171512 debug optional ros-humble-ros2-socketcan-msgs-dbgsym_1.3.0-5-ge39a814-2025.07.04.15.46_amd64.ddeb
+ 4aaff8403968e1da4e78283aab4c748a 14821 misc optional ros-humble-ros2-socketcan-msgs_1.3.0-5-ge39a814-2025.07.04.15.46_amd64.buildinfo
+ 30dc821d156f6da38408003b8abc76d0 44478 misc optional ros-humble-ros2-socketcan-msgs_1.3.0-5-ge39a814-2025.07.04.15.46_amd64.deb

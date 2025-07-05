@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-sampler-common
+Binary: ros-humble-autoware-sampler-common
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.03.37
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime CLEMENT <maxime.clement@tier4.jp>
+Changed-By: Maxime CLEMENT <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-sampler-common - Common classes and functions for sampling based planners
+Changes:
+ ros-humble-autoware-sampler-common (0-2025.07.05.03.37) jammy; urgency=high
+Checksums-Sha1:
+ b5632ac51277e6cd36dec4ee5593254a5a19fcea 973406 ros-humble-autoware-sampler-common-dbgsym_0-2025.07.05.03.37_amd64.ddeb
+ 41c862a9d3a0424e8db1f36cfb479fc19d508063 41316 ros-humble-autoware-sampler-common_0-2025.07.05.03.37_amd64.buildinfo
+ f2ebcf4fbe27a7acffeda229a1298a425397295d 46490 ros-humble-autoware-sampler-common_0-2025.07.05.03.37_amd64.deb
+Checksums-Sha256:
+ 84ec0549b4b113ecf95a6bdb7c7e7ab9050826b9703358dd7747be0437a67467 973406 ros-humble-autoware-sampler-common-dbgsym_0-2025.07.05.03.37_amd64.ddeb
+ 3fc2f39f8896b58118f484c128bc0392d713543750f7aec1fb958a64d0b900c4 41316 ros-humble-autoware-sampler-common_0-2025.07.05.03.37_amd64.buildinfo
+ 5feb12addb6d4a5fd7b2155676f1d49460debf48a10f39fb31aa591c33e19fdd 46490 ros-humble-autoware-sampler-common_0-2025.07.05.03.37_amd64.deb
+Files:
+ 121484796d289524320c7f5d7ef0e7d4 973406 debug optional ros-humble-autoware-sampler-common-dbgsym_0-2025.07.05.03.37_amd64.ddeb
+ 14c4a394f4f13f6137d4f5c187431f5f 41316 misc optional ros-humble-autoware-sampler-common_0-2025.07.05.03.37_amd64.buildinfo
+ c8e899341d2d0beed15ec079355b093a 46490 misc optional ros-humble-autoware-sampler-common_0-2025.07.05.03.37_amd64.deb

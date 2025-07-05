@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-fault-injection
+Binary: ros-humble-autoware-fault-injection
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.00.23
+Distribution: jammy
+Urgency: high
+Maintainer: Keisuke Shima <keisuke.shima@tier4.jp>
+Changed-By: Keisuke Shima <keisuke.shima@tier4.jp>
+Description:
+ ros-humble-autoware-fault-injection - The fault_injection package
+Changes:
+ ros-humble-autoware-fault-injection (0-2025.07.05.00.23) jammy; urgency=high
+Checksums-Sha1:
+ 4e78a3589cea961414ff0f112c69ccfe26af87b9 2599282 ros-humble-autoware-fault-injection-dbgsym_0-2025.07.05.00.23_amd64.ddeb
+ 66e07885eb932044f64b3b2d85d03d49ba6ac8c5 42100 ros-humble-autoware-fault-injection_0-2025.07.05.00.23_amd64.buildinfo
+ d4f49eb1968b8e1fdf7a8feec7b37c9b90e379fe 141478 ros-humble-autoware-fault-injection_0-2025.07.05.00.23_amd64.deb
+Checksums-Sha256:
+ f8cd3b22cca7c9486adc78842bca19581cf0d70ec17fab477f3cf93127f977d2 2599282 ros-humble-autoware-fault-injection-dbgsym_0-2025.07.05.00.23_amd64.ddeb
+ b5dec73b906f8de7c25abe076e687ada381c88f53bc09ae1c795b2bf17d694d8 42100 ros-humble-autoware-fault-injection_0-2025.07.05.00.23_amd64.buildinfo
+ da27ef31fc134bab66cb6cb5493e6c73ce84d13fc353a6e4bfc5278bd27ac1a5 141478 ros-humble-autoware-fault-injection_0-2025.07.05.00.23_amd64.deb
+Files:
+ 724ef46c17d2f105480ab8d8d9a4c8dd 2599282 debug optional ros-humble-autoware-fault-injection-dbgsym_0-2025.07.05.00.23_amd64.ddeb
+ b992225af51f9dc2dd33f6f47f4cb512 42100 misc optional ros-humble-autoware-fault-injection_0-2025.07.05.00.23_amd64.buildinfo
+ 29ec4115a2862595b39995392baa16ff 141478 misc optional ros-humble-autoware-fault-injection_0-2025.07.05.00.23_amd64.deb

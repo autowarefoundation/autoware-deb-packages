@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-traffic-light-utils
+Binary: ros-humble-autoware-traffic-light-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.20.51
+Distribution: jammy
+Urgency: high
+Maintainer: Kotaro Uetake <kotaro.uetake@tier4.jp>
+Changed-By: Kotaro Uetake <kotaro.uetake@tier4.jp>
+Description:
+ ros-humble-autoware-traffic-light-utils - The autoware_traffic_light_utils package
+Changes:
+ ros-humble-autoware-traffic-light-utils (0-2025.07.04.20.51) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * chore(perception): code owner revision (#10358 <https://github.com/autowarefoundation/autoware_universe/issues/10358>)
+     * feat: add Masato Saeki and Taekjin Lee as maintainer to multiple package.xml files
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Ryohsuke Mitsudome, Taekjin LEE
+Checksums-Sha1:
+ c10ccfdc82c5ab7372631ab3626c67b1fa2a6d9e 224270 ros-humble-autoware-traffic-light-utils-dbgsym_0-2025.07.04.20.51_amd64.ddeb
+ b3ceff63fbb01b0f5abf9276ad6da21ea5ab73e5 25007 ros-humble-autoware-traffic-light-utils_0-2025.07.04.20.51_amd64.buildinfo
+ c5c393069161e2445d62b42908822b815c5cc41c 15936 ros-humble-autoware-traffic-light-utils_0-2025.07.04.20.51_amd64.deb
+Checksums-Sha256:
+ 036c1cda67dd3aaa49da0a87c564e3a9188990d7e4d22f2f07b9923eaa65f9d8 224270 ros-humble-autoware-traffic-light-utils-dbgsym_0-2025.07.04.20.51_amd64.ddeb
+ 1af41126f19d00d56bd6e81b29197813d745724aaaf9a879723480593c0f13db 25007 ros-humble-autoware-traffic-light-utils_0-2025.07.04.20.51_amd64.buildinfo
+ 52ba149744663648b391f931af0ea4e3d4cef697a92b27ebde58535b2773f02b 15936 ros-humble-autoware-traffic-light-utils_0-2025.07.04.20.51_amd64.deb
+Files:
+ 704608f45d86421eda7b259093d71861 224270 debug optional ros-humble-autoware-traffic-light-utils-dbgsym_0-2025.07.04.20.51_amd64.ddeb
+ 413418f2f7353bc8e6a55244da6e7741 25007 misc optional ros-humble-autoware-traffic-light-utils_0-2025.07.04.20.51_amd64.buildinfo
+ 240d467715e1a7fecce6f3aa28dd977e 15936 misc optional ros-humble-autoware-traffic-light-utils_0-2025.07.04.20.51_amd64.deb

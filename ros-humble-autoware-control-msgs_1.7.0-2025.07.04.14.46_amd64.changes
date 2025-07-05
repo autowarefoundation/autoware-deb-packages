@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 21 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-control-msgs
+Binary: ros-humble-autoware-control-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.7.0-2025.07.04.14.46
+Distribution: jammy
+Urgency: high
+Maintainer: M. Fatih Cırıt <mfc@leodrive.ai>
+Changed-By: M. Fatih Cırıt <mfc@leodrive.ai>
+Description:
+ ros-humble-autoware-control-msgs - Autoware control messages package.
+Changes:
+ ros-humble-autoware-control-msgs (1.7.0-2025.07.04.14.46) jammy; urgency=high
+Checksums-Sha1:
+ 68630fabee74eacc8753ba910c5cb0ae30577633 325086 ros-humble-autoware-control-msgs-dbgsym_1.7.0-2025.07.04.14.46_amd64.ddeb
+ c6718c3dcaa6db56536a84107545827cf748a38b 14707 ros-humble-autoware-control-msgs_1.7.0-2025.07.04.14.46_amd64.buildinfo
+ 7663c4c61e97fcd7f826009553c68eff1992fa10 63928 ros-humble-autoware-control-msgs_1.7.0-2025.07.04.14.46_amd64.deb
+Checksums-Sha256:
+ a567aff5b5b688ca970711cc668d3983b7864f21489fdf7c933154fb45a91dcd 325086 ros-humble-autoware-control-msgs-dbgsym_1.7.0-2025.07.04.14.46_amd64.ddeb
+ afc7ebfd05b847f44b0daa0ff15519933bd942315e769e4b7e429cbfe1d95342 14707 ros-humble-autoware-control-msgs_1.7.0-2025.07.04.14.46_amd64.buildinfo
+ cc8ae0e3d82db8245ac6a2d3a5e8f7df11a374f138b430f0991f5a2ec871305a 63928 ros-humble-autoware-control-msgs_1.7.0-2025.07.04.14.46_amd64.deb
+Files:
+ d09fa4f237cd542c49212fb38cb36573 325086 debug optional ros-humble-autoware-control-msgs-dbgsym_1.7.0-2025.07.04.14.46_amd64.ddeb
+ 8c46f13cd1a11d44b553414d56820ba1 14707 misc optional ros-humble-autoware-control-msgs_1.7.0-2025.07.04.14.46_amd64.buildinfo
+ 7d5e69ed08fef3e51a44ba97a8b1a543 63928 misc optional ros-humble-autoware-control-msgs_1.7.0-2025.07.04.14.46_amd64.deb

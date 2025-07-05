@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-tier4-planning-factor-rviz-plugin
+Binary: ros-humble-tier4-planning-factor-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.09.45
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-tier4-planning-factor-rviz-plugin - The tier4_planning_factor_rviz_plugin package
+Changes:
+ ros-humble-tier4-planning-factor-rviz-plugin (0-2025.07.05.09.45) jammy; urgency=high
+Checksums-Sha1:
+ c75afe9e12e9ba175a568c0681c5e999171ff879 2448052 ros-humble-tier4-planning-factor-rviz-plugin-dbgsym_0-2025.07.05.09.45_amd64.ddeb
+ 8cb103db4a4dccc18517cfff26f7b5ba86c3bf69 43913 ros-humble-tier4-planning-factor-rviz-plugin_0-2025.07.05.09.45_amd64.buildinfo
+ 82e3a61f72245c193178a7cc1bae7974af8e7f4e 132726 ros-humble-tier4-planning-factor-rviz-plugin_0-2025.07.05.09.45_amd64.deb
+Checksums-Sha256:
+ 20db81045682ed7ec33203f960db06cb7c4efabf7dea47d8cb912486eb9e7bf3 2448052 ros-humble-tier4-planning-factor-rviz-plugin-dbgsym_0-2025.07.05.09.45_amd64.ddeb
+ f1885d1c02c0b285adb13799540a189f974890ee6478ecb28d3424acf675e878 43913 ros-humble-tier4-planning-factor-rviz-plugin_0-2025.07.05.09.45_amd64.buildinfo
+ f294b18ab9c822d4803f76ab0c00f983e008c47c35eb8c350fa9b3f1a9bf7cb4 132726 ros-humble-tier4-planning-factor-rviz-plugin_0-2025.07.05.09.45_amd64.deb
+Files:
+ 94c83ebd8cac99791af63348837dbb9d 2448052 debug optional ros-humble-tier4-planning-factor-rviz-plugin-dbgsym_0-2025.07.05.09.45_amd64.ddeb
+ bedc31652278b0d2a2e237fc824d4078 43913 misc optional ros-humble-tier4-planning-factor-rviz-plugin_0-2025.07.05.09.45_amd64.buildinfo
+ 5de9b0c362846d2c408f1ef2b31abe81 132726 misc optional ros-humble-tier4-planning-factor-rviz-plugin_0-2025.07.05.09.45_amd64.deb

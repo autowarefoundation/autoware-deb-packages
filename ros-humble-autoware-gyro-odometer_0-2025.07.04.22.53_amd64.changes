@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-gyro-odometer
+Binary: ros-humble-autoware-gyro-odometer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.22.53
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-gyro-odometer - The autoware_gyro_odometer package as a ROS 2 node
+Changes:
+ ros-humble-autoware-gyro-odometer (0-2025.07.04.22.53) jammy; urgency=high
+Checksums-Sha1:
+ 876ae6356e0e3c4562dffdbd4bc168659c08c53e 3436554 ros-humble-autoware-gyro-odometer-dbgsym_0-2025.07.04.22.53_amd64.ddeb
+ 8bfcf6e443746022da34c70b93a8ff550817cce5 18261 ros-humble-autoware-gyro-odometer_0-2025.07.04.22.53_amd64.buildinfo
+ e96f1fdaee77aea356df9eb01a014af7c2e43a77 160884 ros-humble-autoware-gyro-odometer_0-2025.07.04.22.53_amd64.deb
+Checksums-Sha256:
+ 67901e5e07017b7a88f814f61db6c9da21644ac08a7c086ddca144a39ed4e80f 3436554 ros-humble-autoware-gyro-odometer-dbgsym_0-2025.07.04.22.53_amd64.ddeb
+ 604dbe7bdc2ce3765fbfd9bb258183f3ca8e2b14573d075bd55d557277a3c40d 18261 ros-humble-autoware-gyro-odometer_0-2025.07.04.22.53_amd64.buildinfo
+ 9a9f97fd1c7a969e9eb5844c63a4ac55f448e79d8c344b3468cd24d4aa84bb5f 160884 ros-humble-autoware-gyro-odometer_0-2025.07.04.22.53_amd64.deb
+Files:
+ 9fe90f32a3a0e0c8f2d0239506697be9 3436554 debug optional ros-humble-autoware-gyro-odometer-dbgsym_0-2025.07.04.22.53_amd64.ddeb
+ 7346978ef7f1c2c564dc15540a0806c8 18261 misc optional ros-humble-autoware-gyro-odometer_0-2025.07.04.22.53_amd64.buildinfo
+ db1f155f60e99441752c339df1fb5454 160884 misc optional ros-humble-autoware-gyro-odometer_0-2025.07.04.22.53_amd64.deb

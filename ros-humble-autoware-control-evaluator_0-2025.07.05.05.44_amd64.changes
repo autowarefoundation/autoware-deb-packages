@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-control-evaluator
+Binary: ros-humble-autoware-control-evaluator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.05.44
+Distribution: jammy
+Urgency: high
+Maintainer: Daniel SANCHEZ <daniel.sanchez@tier4.jp>
+Changed-By: Daniel SANCHEZ <daniel.sanchez@tier4.jp>
+Description:
+ ros-humble-autoware-control-evaluator - ROS 2 node for evaluating control
+Changes:
+ ros-humble-autoware-control-evaluator (0-2025.07.05.05.44) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * fix(control_evaluator): fix bugs about output_metrics (#10433 <https://github.com/autowarefoundation/autoware_universe/issues/10433>)
+     * add val,acc,jark to metrics
+     * accumulate goal metrics only when stop at goal
+     * fix bug of stop-related metrics
+     * fix unit test.
+     ---------
+   * Contributors: Kem (TiankuiXian), Ryohsuke Mitsudome
+Checksums-Sha1:
+ 7e60090e2e0e5cacfb21dbd25a6e659b57dcdfe2 11031768 ros-humble-autoware-control-evaluator-dbgsym_0-2025.07.05.05.44_amd64.ddeb
+ d276c475e83e240e2fde70af3314240decc45f5f 43508 ros-humble-autoware-control-evaluator_0-2025.07.05.05.44_amd64.buildinfo
+ b561950537dce6a7e45dc860826e85a8166a822e 356146 ros-humble-autoware-control-evaluator_0-2025.07.05.05.44_amd64.deb
+Checksums-Sha256:
+ e6e2b62323a7c4aa3333164068d010661b03155847bf807f175e50cb79235800 11031768 ros-humble-autoware-control-evaluator-dbgsym_0-2025.07.05.05.44_amd64.ddeb
+ bcfd96dbbf4ab1177a63eef69e248f523ff9380642700b82de2d6c09e1b110c5 43508 ros-humble-autoware-control-evaluator_0-2025.07.05.05.44_amd64.buildinfo
+ d222a9357ebb03fce59181cdd2ba183f33e7fbc01fba16068849f124540e648c 356146 ros-humble-autoware-control-evaluator_0-2025.07.05.05.44_amd64.deb
+Files:
+ b7f113ca99c27f6a01d16a9c54da814f 11031768 debug optional ros-humble-autoware-control-evaluator-dbgsym_0-2025.07.05.05.44_amd64.ddeb
+ 882cc46a7050ee1df3b87d2225e7acb1 43508 misc optional ros-humble-autoware-control-evaluator_0-2025.07.05.05.44_amd64.buildinfo
+ 59be0e9b1eb80ce6cf087516624c55d0 356146 misc optional ros-humble-autoware-control-evaluator_0-2025.07.05.05.44_amd64.deb

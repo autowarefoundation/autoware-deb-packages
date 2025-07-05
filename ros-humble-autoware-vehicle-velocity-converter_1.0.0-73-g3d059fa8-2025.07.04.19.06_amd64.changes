@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-vehicle-velocity-converter
+Binary: ros-humble-autoware-vehicle-velocity-converter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.19.06
+Distribution: jammy
+Urgency: high
+Maintainer: Ryu Yamamoto <ryu.yamamoto@tier4.jp>
+Changed-By: Ryu Yamamoto <ryu.yamamoto@tier4.jp>
+Description:
+ ros-humble-autoware-vehicle-velocity-converter - The autoware_vehicle_velocity_converter package
+Changes:
+ ros-humble-autoware-vehicle-velocity-converter (1.0.0-73-g3d059fa8-2025.07.04.19.06) jammy; urgency=high
+Checksums-Sha1:
+ 44dce413c2caff116e37a8b2505ed1479567bf1e 2349466 ros-humble-autoware-vehicle-velocity-converter-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.19.06_amd64.ddeb
+ aa39a518f023b6742fad2b263cf59c6dca0a80c5 16381 ros-humble-autoware-vehicle-velocity-converter_1.0.0-73-g3d059fa8-2025.07.04.19.06_amd64.buildinfo
+ 1bac94f5a454de5379da009185f199c9d07bffaf 118774 ros-humble-autoware-vehicle-velocity-converter_1.0.0-73-g3d059fa8-2025.07.04.19.06_amd64.deb
+Checksums-Sha256:
+ c7168fc889eb679e0568f21a0f764894d6430a605f57397efef974f2c2a51d03 2349466 ros-humble-autoware-vehicle-velocity-converter-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.19.06_amd64.ddeb
+ 077b3a31da55fcfbf5e8bfe6d797f5c3db02cfbc259ffdc17b68b24aa97af076 16381 ros-humble-autoware-vehicle-velocity-converter_1.0.0-73-g3d059fa8-2025.07.04.19.06_amd64.buildinfo
+ 3fef7e10e0b3eff4b25f67dfe0ebb5d03698f6e034d72d5d324f4d7dadbc44ca 118774 ros-humble-autoware-vehicle-velocity-converter_1.0.0-73-g3d059fa8-2025.07.04.19.06_amd64.deb
+Files:
+ ca3d0151fbc788f39f3e1f99729158cf 2349466 debug optional ros-humble-autoware-vehicle-velocity-converter-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.19.06_amd64.ddeb
+ 1b6bf0a7be6b648966e428200ec0bda5 16381 misc optional ros-humble-autoware-vehicle-velocity-converter_1.0.0-73-g3d059fa8-2025.07.04.19.06_amd64.buildinfo
+ caa565a210e74d22679edcf993342f71 118774 misc optional ros-humble-autoware-vehicle-velocity-converter_1.0.0-73-g3d059fa8-2025.07.04.19.06_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-twist2accel
+Binary: ros-humble-autoware-twist2accel
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.21.00
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-twist2accel - The acceleration estimation package
+Changes:
+ ros-humble-autoware-twist2accel (1.0.0-73-g3d059fa8-2025.07.04.21.00) jammy; urgency=high
+Checksums-Sha1:
+ 945c0336cea239726994417a244aa26a255e5a9d 3130738 ros-humble-autoware-twist2accel-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.21.00_amd64.ddeb
+ bd9742c0b25249ed427570741c1bec11ac5f7e6f 16247 ros-humble-autoware-twist2accel_1.0.0-73-g3d059fa8-2025.07.04.21.00_amd64.buildinfo
+ c55e0b2f591b3f8e52650ecaac03556bb314b6e9 142224 ros-humble-autoware-twist2accel_1.0.0-73-g3d059fa8-2025.07.04.21.00_amd64.deb
+Checksums-Sha256:
+ b4d5b32c15f2abf8750692a01683657aae7853d15f0fbbed1098f679694d3a52 3130738 ros-humble-autoware-twist2accel-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.21.00_amd64.ddeb
+ bbc6388be88aef430f2ecb867091c0f14a239cfe15ac2b07ea9ccd83d0e90929 16247 ros-humble-autoware-twist2accel_1.0.0-73-g3d059fa8-2025.07.04.21.00_amd64.buildinfo
+ 751048718383320f6fa8486c14757f6af24a1053749f3a7fc4b77924a8fa65e8 142224 ros-humble-autoware-twist2accel_1.0.0-73-g3d059fa8-2025.07.04.21.00_amd64.deb
+Files:
+ 6dc9b2db13cdb66a8a0b7fa909d706a2 3130738 debug optional ros-humble-autoware-twist2accel-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.21.00_amd64.ddeb
+ 25492c3c09fc970eda47ba1b59fb99ad 16247 misc optional ros-humble-autoware-twist2accel_1.0.0-73-g3d059fa8-2025.07.04.21.00_amd64.buildinfo
+ f5d8271b72ad4d34a44e1f12a43ad01b 142224 misc optional ros-humble-autoware-twist2accel_1.0.0-73-g3d059fa8-2025.07.04.21.00_amd64.deb

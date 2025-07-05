@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-adapi-specs
+Binary: ros-humble-autoware-adapi-specs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.16.57
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-adapi-specs - The autoware_adapi_specs package
+Changes:
+ ros-humble-autoware-adapi-specs (0-2025.07.04.16.57) jammy; urgency=high
+Checksums-Sha1:
+ 6a0465256bffb83f001cfcebd87de0b5ccdceb11 10730 ros-humble-autoware-adapi-specs_0-2025.07.04.16.57_amd64.buildinfo
+ 4c3019dfa4c1a3fd88a4a7d18d07c31a060d773e 9782 ros-humble-autoware-adapi-specs_0-2025.07.04.16.57_amd64.deb
+Checksums-Sha256:
+ fa5dde2e1a34d2e9684489a70f72dada47d7052cb65fba6aaa961d132a16be4b 10730 ros-humble-autoware-adapi-specs_0-2025.07.04.16.57_amd64.buildinfo
+ 6fb941b86381ad85da344dce94be471b2a4e0112497cd061ab8e5681b68d231d 9782 ros-humble-autoware-adapi-specs_0-2025.07.04.16.57_amd64.deb
+Files:
+ 4e98c0699237811eea137c243f19de32 10730 misc optional ros-humble-autoware-adapi-specs_0-2025.07.04.16.57_amd64.buildinfo
+ 6666a1e75f25c11080d61b3af1af6343 9782 misc optional ros-humble-autoware-adapi-specs_0-2025.07.04.16.57_amd64.deb

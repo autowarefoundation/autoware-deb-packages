@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-universe-utils
+Binary: ros-humble-autoware-universe-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.04.33
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-universe-utils - The autoware_universe_utils package
+Changes:
+ ros-humble-autoware-universe-utils (0-2025.07.05.04.33) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat(autoware_universe_utils): add intersect and getPoint for Point2d type (#10443 <https://github.com/autowarefoundation/autoware_universe/issues/10443>)
+   * perf(autoware_pointcloud_preprocessor): introduce managed transform buffer with implicitly defined listener type (#9197 <https://github.com/autowarefoundation/autoware_universe/issues/9197>)
+     * feat(autoware_universe_utils): rework managed transform buffer
+     * feat(autoware_pointcloud_preprocessor): integrate Managed TF Buffer into pointcloud densifier
+     * chore: update repos
+     * chore(managed_transform_buffer): fix version
+     ---------
+     Co-authored-by: Kenzo Lobos-Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+   * Contributors: Amadeusz Szymko, Maxime CLEMENT, Ryohsuke Mitsudome
+Checksums-Sha1:
+ 0b5afe46942ed83ef8b15d5a661db31591514937 4514754 ros-humble-autoware-universe-utils-dbgsym_0-2025.07.05.04.33_amd64.ddeb
+ b80fdc035e4bb6435a9e773ee2cdb0c834fa0787 41455 ros-humble-autoware-universe-utils_0-2025.07.05.04.33_amd64.buildinfo
+ 4814a61c1115cfb7e3f87911c11da12172cd2152 325438 ros-humble-autoware-universe-utils_0-2025.07.05.04.33_amd64.deb
+Checksums-Sha256:
+ 115bd64cc1f8693934ff6078088212eede2dda908300b8e54fc9f1eb0e996dc0 4514754 ros-humble-autoware-universe-utils-dbgsym_0-2025.07.05.04.33_amd64.ddeb
+ 358689b3c807b8069095ecef47ee4ef2813e5d38f17389cd816e832011930345 41455 ros-humble-autoware-universe-utils_0-2025.07.05.04.33_amd64.buildinfo
+ b66cd9652a5670285ae380a077e980c29868051dd6cf7509a2161c088867826b 325438 ros-humble-autoware-universe-utils_0-2025.07.05.04.33_amd64.deb
+Files:
+ 280286944b5b02de2ad152ce3a96c942 4514754 debug optional ros-humble-autoware-universe-utils-dbgsym_0-2025.07.05.04.33_amd64.ddeb
+ b4dd7e3e3e739114a394a87ce6344150 41455 misc optional ros-humble-autoware-universe-utils_0-2025.07.05.04.33_amd64.buildinfo
+ 1e0cac161b4da1dcd5e86cd677a44e5b 325438 misc optional ros-humble-autoware-universe-utils_0-2025.07.05.04.33_amd64.deb

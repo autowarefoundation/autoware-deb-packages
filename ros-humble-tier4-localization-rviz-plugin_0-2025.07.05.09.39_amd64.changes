@@ -1,0 +1,45 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-tier4-localization-rviz-plugin
+Binary: ros-humble-tier4-localization-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.09.39
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-tier4-localization-rviz-plugin - The tier4_localization_rviz_plugin package
+Changes:
+ ros-humble-tier4-localization-rviz-plugin (0-2025.07.05.09.39) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat(tier4_localization_rviz_plugin): add colored_pose_with_covariance_history (#10271 <https://github.com/autowarefoundation/autoware_universe/issues/10271>)
+     * feat: add colored pose with covariance history
+     * fix: CMakeLists library name
+     * fix: transplant mistake
+     * fix: segmentation fault
+     * style(pre-commit): autofix
+     * fix: visualization
+     * style(pre-commit): autofix
+     * fix: include ci error
+     * fix: bug that occurred when re-enabling
+     * fix: copyright year
+     * feat: less (than min), greater (than max) value's color property
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Kazu, Ryohsuke Mitsudome
+Checksums-Sha1:
+ 21e8a9ad0a95dbca135486c28d4366728cae6672 8809434 ros-humble-tier4-localization-rviz-plugin-dbgsym_0-2025.07.05.09.39_amd64.ddeb
+ 03ac86976e10e73b12cd4f1a4486e19d8b490854 43473 ros-humble-tier4-localization-rviz-plugin_0-2025.07.05.09.39_amd64.buildinfo
+ 0a435c000a4ae5c46cd1bd480ad29b096763793b 245010 ros-humble-tier4-localization-rviz-plugin_0-2025.07.05.09.39_amd64.deb
+Checksums-Sha256:
+ c41f18df3a6e41c71314e632d834e93b9c85631d10ad20c1dfbc41758b38e4c9 8809434 ros-humble-tier4-localization-rviz-plugin-dbgsym_0-2025.07.05.09.39_amd64.ddeb
+ 873522e7d71bf263b0a11a5b1b9c8995af8f52331920db64236ad7ee009b16f2 43473 ros-humble-tier4-localization-rviz-plugin_0-2025.07.05.09.39_amd64.buildinfo
+ 4a32c2cce3217441faf77d2dd7bd28f185b92093f84b0f9ff8d8f02f8454e75f 245010 ros-humble-tier4-localization-rviz-plugin_0-2025.07.05.09.39_amd64.deb
+Files:
+ 7b452b780469bcbd410f7f1d1ba3b8f8 8809434 debug optional ros-humble-tier4-localization-rviz-plugin-dbgsym_0-2025.07.05.09.39_amd64.ddeb
+ 31c955d14c9d2ef675f12656db50b1e9 43473 misc optional ros-humble-tier4-localization-rviz-plugin_0-2025.07.05.09.39_amd64.buildinfo
+ be0a3f97dfca3dc85bd1fca3bddccc2b 245010 misc optional ros-humble-tier4-localization-rviz-plugin_0-2025.07.05.09.39_amd64.deb

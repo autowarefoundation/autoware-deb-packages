@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-mission-planner-universe
+Binary: ros-humble-autoware-mission-planner-universe
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.07.08
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-mission-planner-universe - The autoware_mission_planner_universe package
+Changes:
+ ros-humble-autoware-mission-planner-universe (0-2025.07.05.07.08) jammy; urgency=high
+Checksums-Sha1:
+ 7a97cfa228df814d7d84f2511a069b1441319f67 19990318 ros-humble-autoware-mission-planner-universe-dbgsym_0-2025.07.05.07.08_amd64.ddeb
+ a0d894579b3c2888f8e332645f1301128cd484e1 43451 ros-humble-autoware-mission-planner-universe_0-2025.07.05.07.08_amd64.buildinfo
+ db8ed599d601f029b0c28ccbd896d3f025d136d6 656852 ros-humble-autoware-mission-planner-universe_0-2025.07.05.07.08_amd64.deb
+Checksums-Sha256:
+ ba10093f109754d12c1cba10668df4e18b2a31fcb8cea2a218f1eaa6c3d09c24 19990318 ros-humble-autoware-mission-planner-universe-dbgsym_0-2025.07.05.07.08_amd64.ddeb
+ dc4afc848e947a596f18ecc0ae18f120d7c7c0cb10df39794bfb02b595584ac9 43451 ros-humble-autoware-mission-planner-universe_0-2025.07.05.07.08_amd64.buildinfo
+ 5ddf46dae0738826f87682acf04291ad04634747e8bc4f553188376be0f2a501 656852 ros-humble-autoware-mission-planner-universe_0-2025.07.05.07.08_amd64.deb
+Files:
+ 7376f034a865ac2594513ef157833b34 19990318 debug optional ros-humble-autoware-mission-planner-universe-dbgsym_0-2025.07.05.07.08_amd64.ddeb
+ e095da1dfac4323e48960078d538e515 43451 misc optional ros-humble-autoware-mission-planner-universe_0-2025.07.05.07.08_amd64.buildinfo
+ e377a6ed0678d3157f7acf9a20721aef 656852 misc optional ros-humble-autoware-mission-planner-universe_0-2025.07.05.07.08_amd64.deb

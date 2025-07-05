@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-mpc-lateral-controller
+Binary: ros-humble-autoware-mpc-lateral-controller
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.11.06
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-mpc-lateral-controller - MPC-based lateral controller
+Changes:
+ ros-humble-autoware-mpc-lateral-controller (0-2025.07.05.11.06) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * fix(control): apply THROTTLE to frequent log (#10418 <https://github.com/autowarefoundation/autoware_universe/issues/10418>)
+     * fix(control): apply THROTTLE to frequent log
+     * fix
+     * fix
+     * fix
+     * fix
+     ---------
+   * refactor(mpc_lateral_controller): rework parameter (#8935 <https://github.com/autowarefoundation/autoware_universe/issues/8935>)
+   * Contributors: Prakash Kannaiah, Ryohsuke Mitsudome, Takayuki Murooka
+Checksums-Sha1:
+ 5f7a42aebb339285f9c96ec89b6cb211d50962ca 7212068 ros-humble-autoware-mpc-lateral-controller-dbgsym_0-2025.07.05.11.06_amd64.ddeb
+ 2d61c627d1da24ddb58ba4b7ab86a11d0b150329 42150 ros-humble-autoware-mpc-lateral-controller_0-2025.07.05.11.06_amd64.buildinfo
+ f76c2ec9be1d23c06ed984fe1e398207f2a19cae 199140 ros-humble-autoware-mpc-lateral-controller_0-2025.07.05.11.06_amd64.deb
+Checksums-Sha256:
+ fd83cad7b0ed034d251b1f6cb3f7639ce51e6239c6cfeb2eeeb0fe8dcca7b1cb 7212068 ros-humble-autoware-mpc-lateral-controller-dbgsym_0-2025.07.05.11.06_amd64.ddeb
+ 88e2e7d7987214cb9180d36cc26c0616dc9b3ac91ad58693682f8cadb27e34be 42150 ros-humble-autoware-mpc-lateral-controller_0-2025.07.05.11.06_amd64.buildinfo
+ c34a88c813b1ef91d3a4236365f1cf11c87e094cb053ca8e547ed4d027d5cefe 199140 ros-humble-autoware-mpc-lateral-controller_0-2025.07.05.11.06_amd64.deb
+Files:
+ 4f45e51dab18250f1a94b48061533089 7212068 debug optional ros-humble-autoware-mpc-lateral-controller-dbgsym_0-2025.07.05.11.06_amd64.ddeb
+ de41818992ee93f55a92c2d42a77d83c 42150 misc optional ros-humble-autoware-mpc-lateral-controller_0-2025.07.05.11.06_amd64.buildinfo
+ 910f0f35776411abf9af96ea265abe76 199140 misc optional ros-humble-autoware-mpc-lateral-controller_0-2025.07.05.11.06_amd64.deb

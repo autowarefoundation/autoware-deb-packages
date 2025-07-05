@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-tier4-control-launch
+Binary: ros-humble-tier4-control-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.15.47
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-tier4-control-launch - The tier4_control_launch package
+Changes:
+ ros-humble-tier4-control-launch (0-2025.07.05.15.47) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat(control_validator)!: add acceleration check (#10326 <https://github.com/autowarefoundation/autoware_universe/issues/10326>)
+   * Contributors: Ryohsuke Mitsudome, Yuki TAKAGI
+Checksums-Sha1:
+ d69cc50ae3cc21e4e180fc668393e05ebc90b342 10733 ros-humble-tier4-control-launch_0-2025.07.05.15.47_amd64.buildinfo
+ e7882995839481bbbab13768007d0ef8727d6241 17218 ros-humble-tier4-control-launch_0-2025.07.05.15.47_amd64.deb
+Checksums-Sha256:
+ 9e7411c93b2feb4b26c2beaf57a3730862fe65466198e789bfed6c702f17e411 10733 ros-humble-tier4-control-launch_0-2025.07.05.15.47_amd64.buildinfo
+ 78c42952a7f2c5689ca0977c83825b53d8b64fbfbfb27454f5530b958295cee3 17218 ros-humble-tier4-control-launch_0-2025.07.05.15.47_amd64.deb
+Files:
+ c09fd1e6a935bcab90b77cd8ce16f340 10733 misc optional ros-humble-tier4-control-launch_0-2025.07.05.15.47_amd64.buildinfo
+ 6848d1f142ef2eb3d6a3ef14d4bf8ce6 17218 misc optional ros-humble-tier4-control-launch_0-2025.07.05.15.47_amd64.deb

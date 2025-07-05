@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-speed-bump-module
+Binary: ros-humble-autoware-behavior-velocity-speed-bump-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.12.37
+Distribution: jammy
+Urgency: high
+Maintainer: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Changed-By: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-speed-bump-module - The autoware_behavior_velocity_speed_bump_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-speed-bump-module (0-2025.07.05.12.37) jammy; urgency=high
+Checksums-Sha1:
+ f5fade28ab23462b9a1865e032ef234f59427eb9 3618402 ros-humble-autoware-behavior-velocity-speed-bump-module-dbgsym_0-2025.07.05.12.37_amd64.ddeb
+ 6faea76f776d3b61d599aec7fd0dd205be9369c0 44693 ros-humble-autoware-behavior-velocity-speed-bump-module_0-2025.07.05.12.37_amd64.buildinfo
+ bd5f083e3b487c0ba0b33f7961480cec13844f70 68624 ros-humble-autoware-behavior-velocity-speed-bump-module_0-2025.07.05.12.37_amd64.deb
+Checksums-Sha256:
+ a99a32a0c4a244128cb4e532144958410f905a935e88d2c0efad536b208c1b35 3618402 ros-humble-autoware-behavior-velocity-speed-bump-module-dbgsym_0-2025.07.05.12.37_amd64.ddeb
+ cfec16a994a514ed5e70ddcd8ecec8793faf0cb9fbee3feb850523a0585ccb65 44693 ros-humble-autoware-behavior-velocity-speed-bump-module_0-2025.07.05.12.37_amd64.buildinfo
+ ca9359fd5eb6923312c3900eca63a43e41bad7a0790e3583b1a080271b7c6d74 68624 ros-humble-autoware-behavior-velocity-speed-bump-module_0-2025.07.05.12.37_amd64.deb
+Files:
+ 95d08953423b191d30d529df9bf50e3b 3618402 debug optional ros-humble-autoware-behavior-velocity-speed-bump-module-dbgsym_0-2025.07.05.12.37_amd64.ddeb
+ ae5946e826e156edc6075c1fd5187127 44693 misc optional ros-humble-autoware-behavior-velocity-speed-bump-module_0-2025.07.05.12.37_amd64.buildinfo
+ cb02422bd00af1609703d3c1ae287236 68624 misc optional ros-humble-autoware-behavior-velocity-speed-bump-module_0-2025.07.05.12.37_amd64.deb

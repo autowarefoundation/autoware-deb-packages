@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-external-velocity-limit-selector
+Binary: ros-humble-autoware-external-velocity-limit-selector
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.17.26
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-external-velocity-limit-selector - The autoware_external_velocity_limit_selector ROS 2 package
+Changes:
+ ros-humble-autoware-external-velocity-limit-selector (0-2025.07.04.17.26) jammy; urgency=high
+Checksums-Sha1:
+ 00fa46d15fd88b60580e80e3b1dbdde52a5c42c4 3396864 ros-humble-autoware-external-velocity-limit-selector-dbgsym_0-2025.07.04.17.26_amd64.ddeb
+ 5f3a24091ccd0b9bf0c39f592224d4f41604e730 18335 ros-humble-autoware-external-velocity-limit-selector_0-2025.07.04.17.26_amd64.buildinfo
+ d00d0891fa23cd3dfe747f3e74fa09e77028c5b3 163186 ros-humble-autoware-external-velocity-limit-selector_0-2025.07.04.17.26_amd64.deb
+Checksums-Sha256:
+ 964d26b171693102c700711f554ef811fd576543401a8f7989737737e8a811fd 3396864 ros-humble-autoware-external-velocity-limit-selector-dbgsym_0-2025.07.04.17.26_amd64.ddeb
+ 5b9a79fd60b55c448eea7566ed8a2210267c669eb181b774a691ef8ff0576400 18335 ros-humble-autoware-external-velocity-limit-selector_0-2025.07.04.17.26_amd64.buildinfo
+ df11924c01cb4101a93fe7b0ed4fdd551f9b5b2a76e3c477725cc1245e15392c 163186 ros-humble-autoware-external-velocity-limit-selector_0-2025.07.04.17.26_amd64.deb
+Files:
+ e93c099164940034b6c658a889706d84 3396864 debug optional ros-humble-autoware-external-velocity-limit-selector-dbgsym_0-2025.07.04.17.26_amd64.ddeb
+ 4f827bca253abf7a74a921bd9ceb1ea6 18335 misc optional ros-humble-autoware-external-velocity-limit-selector_0-2025.07.04.17.26_amd64.buildinfo
+ 36340e6e526e6f7316952e2974d2e668 163186 misc optional ros-humble-autoware-external-velocity-limit-selector_0-2025.07.04.17.26_amd64.deb

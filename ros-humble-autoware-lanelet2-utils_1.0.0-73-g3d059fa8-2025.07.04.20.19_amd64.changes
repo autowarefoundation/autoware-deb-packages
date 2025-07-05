@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-lanelet2-utils
+Binary: ros-humble-autoware-lanelet2-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.20.19
+Distribution: jammy
+Urgency: high
+Maintainer: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Changed-By: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Description:
+ ros-humble-autoware-lanelet2-utils - The autoware_lanelet2_utils package
+Changes:
+ ros-humble-autoware-lanelet2-utils (1.0.0-73-g3d059fa8-2025.07.04.20.19) jammy; urgency=high
+ .
+   * refactor(autoware_lanelet2_utils)!: move everything to namespace experimental (#372 <https://github.com/autowarefoundation/autoware_core/issues/372>)
+   * refactor(autoware_lanelet2_utils): rewrite using modern C++ without API breakage (#347 <https://github.com/autowarefoundation/autoware_core/issues/347>)
+     * refactor using modern c++
+     * precommit
+     * fix
+     * fix
+     * precommit
+     * use std::strcmp
+     * precommit
+     * Revert "refactor using modern c++"
+     This reverts commit 3f7e4953c08f5237dc3bc75db3d896cc9c0640a3.
+     ---------
+   * Contributors: Mamoru Sobue, Yutaka Kondo
+Checksums-Sha1:
+ 4bb0ca29e1ef1cc94ee9d1964d3d1d5b28cb6196 1330892 ros-humble-autoware-lanelet2-utils-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.20.19_amd64.ddeb
+ 0d5014df961202a1fb494fddbd8e8bbb72f89228 26393 ros-humble-autoware-lanelet2-utils_1.0.0-73-g3d059fa8-2025.07.04.20.19_amd64.buildinfo
+ 0c6cdc4d2bf990e2eb5a5fbf82c180aa2d1478dc 86646 ros-humble-autoware-lanelet2-utils_1.0.0-73-g3d059fa8-2025.07.04.20.19_amd64.deb
+Checksums-Sha256:
+ aedb328994765bb8af484b1bb6a2c304256d51c2f11f1fae2e9cd0dfe22d71f8 1330892 ros-humble-autoware-lanelet2-utils-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.20.19_amd64.ddeb
+ e6ac5c15de1449557a4a081a8b7c561e6c3829dbcbf60047399b658f95311158 26393 ros-humble-autoware-lanelet2-utils_1.0.0-73-g3d059fa8-2025.07.04.20.19_amd64.buildinfo
+ 66e26efbe2a902f94878411846a180682f09a15cc48d6946cf9ed93235e0d48f 86646 ros-humble-autoware-lanelet2-utils_1.0.0-73-g3d059fa8-2025.07.04.20.19_amd64.deb
+Files:
+ 83944ffe3a2c95b154f5144cf8c8fa2f 1330892 debug optional ros-humble-autoware-lanelet2-utils-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.20.19_amd64.ddeb
+ e9b18a7348626b880a071b647f05e0b5 26393 misc optional ros-humble-autoware-lanelet2-utils_1.0.0-73-g3d059fa8-2025.07.04.20.19_amd64.buildinfo
+ 0678e4dddf1b8b0cc29c07a14952ba0f 86646 misc optional ros-humble-autoware-lanelet2-utils_1.0.0-73-g3d059fa8-2025.07.04.20.19_amd64.deb

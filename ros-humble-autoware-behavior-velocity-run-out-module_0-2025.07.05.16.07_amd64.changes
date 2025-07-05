@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-run-out-module
+Binary: ros-humble-autoware-behavior-velocity-run-out-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.16.07
+Distribution: jammy
+Urgency: high
+Maintainer: Tomohito Ando <tomohito.ando@tier4.jp>
+Changed-By: Tomohito Ando <tomohito.ando@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-run-out-module - The autoware_behavior_velocity_run_out_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-run-out-module (0-2025.07.05.16.07) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * fix(planning): apply THROTTLE to frequent log (#10419 <https://github.com/autowarefoundation/autoware_universe/issues/10419>)
+   * Contributors: Ryohsuke Mitsudome, Takayuki Murooka
+Checksums-Sha1:
+ d7ab6f243e989c1a57947e96a49c1524e77e77fa 11780646 ros-humble-autoware-behavior-velocity-run-out-module-dbgsym_0-2025.07.05.16.07_amd64.ddeb
+ d5a884671fd52be9eef54417216a4c5956a1bd65 49762 ros-humble-autoware-behavior-velocity-run-out-module_0-2025.07.05.16.07_amd64.buildinfo
+ 6efbc4c32748efde1d6a42352865e342b574116d 294262 ros-humble-autoware-behavior-velocity-run-out-module_0-2025.07.05.16.07_amd64.deb
+Checksums-Sha256:
+ 9df6d2273b726ca67745e659224b1a4390c9660fb744459c894240268f2172d3 11780646 ros-humble-autoware-behavior-velocity-run-out-module-dbgsym_0-2025.07.05.16.07_amd64.ddeb
+ 81fac5a170b8f1b4c6cfdb1c29b09e5222c35e7793f441e9c2c67733d939cb43 49762 ros-humble-autoware-behavior-velocity-run-out-module_0-2025.07.05.16.07_amd64.buildinfo
+ 8210ba8962d99f645765b0e950753b9bae92e90f7fc9fbedb8563c84237ee74f 294262 ros-humble-autoware-behavior-velocity-run-out-module_0-2025.07.05.16.07_amd64.deb
+Files:
+ a1201023ce0bc92dddb4169f0db3645d 11780646 debug optional ros-humble-autoware-behavior-velocity-run-out-module-dbgsym_0-2025.07.05.16.07_amd64.ddeb
+ 593ce52674bd2960b523a2346cbe6713 49762 misc optional ros-humble-autoware-behavior-velocity-run-out-module_0-2025.07.05.16.07_amd64.buildinfo
+ d432dec5102998dad3019b58c79ec049 294262 misc optional ros-humble-autoware-behavior-velocity-run-out-module_0-2025.07.05.16.07_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 15 Apr 2025 00:00:00 -0000
+Source: ros-humble-agnocast-sample-application
+Binary: ros-humble-agnocast-sample-application
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.1.0-2025.07.04.16.06
+Distribution: jammy
+Urgency: high
+Maintainer: Takahiro Ishikawa-Aso <sykwer@gmail.com>
+Changed-By: Takahiro Ishikawa-Aso <sykwer@gmail.com>
+Description:
+ ros-humble-agnocast-sample-application - A sample application for Agnocast.
+Changes:
+ ros-humble-agnocast-sample-application (2.1.0-2025.07.04.16.06) jammy; urgency=high
+Checksums-Sha1:
+ 8d5caa489f62415f6c2b13de1a778acc374008a4 1469632 ros-humble-agnocast-sample-application-dbgsym_2.1.0-2025.07.04.16.06_amd64.ddeb
+ 809e82e24899e295dd1c8bb5d5bd60523aff5307 16680 ros-humble-agnocast-sample-application_2.1.0-2025.07.04.16.06_amd64.buildinfo
+ 2fcb1c6b25c4fa759ea0cc3f832a54c14cc28c0f 77918 ros-humble-agnocast-sample-application_2.1.0-2025.07.04.16.06_amd64.deb
+Checksums-Sha256:
+ 414a5be389c5f0d6a6e99f1ae7e32d069efde639dd58237ecb8865da36776ae3 1469632 ros-humble-agnocast-sample-application-dbgsym_2.1.0-2025.07.04.16.06_amd64.ddeb
+ beddadc5aea98e50d7f0b716c970609ae1ace1df8367b3ae6cbf01b8a8d54965 16680 ros-humble-agnocast-sample-application_2.1.0-2025.07.04.16.06_amd64.buildinfo
+ 4afcff638dea485e7114f9a1cf1b03a86e31f4390ababe700d07c3eec1a097fb 77918 ros-humble-agnocast-sample-application_2.1.0-2025.07.04.16.06_amd64.deb
+Files:
+ c409be90168c5afe20406a61a036a15f 1469632 debug optional ros-humble-agnocast-sample-application-dbgsym_2.1.0-2025.07.04.16.06_amd64.ddeb
+ 3101998e3e9853404ba6f57ef3b62d0b 16680 misc optional ros-humble-agnocast-sample-application_2.1.0-2025.07.04.16.06_amd64.buildinfo
+ b517fea8358c06bd36d31e2f07a18bb6 77918 misc optional ros-humble-agnocast-sample-application_2.1.0-2025.07.04.16.06_amd64.deb

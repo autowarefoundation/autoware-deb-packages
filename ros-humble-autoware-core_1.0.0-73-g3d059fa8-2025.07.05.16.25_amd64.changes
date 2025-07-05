@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-core
+Binary: ros-humble-autoware-core
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.05.16.25
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-autoware-core - The autoware_core package
+Changes:
+ ros-humble-autoware-core (1.0.0-73-g3d059fa8-2025.07.05.16.25) jammy; urgency=high
+Checksums-Sha1:
+ a91b7cade1ee319b43d6ba4b52a6c87ba4f3b109 10763 ros-humble-autoware-core_1.0.0-73-g3d059fa8-2025.07.05.16.25_amd64.buildinfo
+ e13a5e8924e22230410f0fe2bbedbeff2fc06243 8692 ros-humble-autoware-core_1.0.0-73-g3d059fa8-2025.07.05.16.25_amd64.deb
+Checksums-Sha256:
+ 47da56bc65bcb68f617c7cc6cf13357b958033965764cbed1d4a21f007c4d183 10763 ros-humble-autoware-core_1.0.0-73-g3d059fa8-2025.07.05.16.25_amd64.buildinfo
+ 3cb2347dae1a1f4dc89da5d6f56fb9735d2b2e350b3cabaf50256dae9237df51 8692 ros-humble-autoware-core_1.0.0-73-g3d059fa8-2025.07.05.16.25_amd64.deb
+Files:
+ 5a5b04fd92aa0cb00e8f4083c45da315 10763 misc optional ros-humble-autoware-core_1.0.0-73-g3d059fa8-2025.07.05.16.25_amd64.buildinfo
+ 12122e62aaadb972845cffa875eb4eef 8692 misc optional ros-humble-autoware-core_1.0.0-73-g3d059fa8-2025.07.05.16.25_amd64.deb

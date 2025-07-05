@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-planner-common
+Binary: ros-humble-autoware-behavior-velocity-planner-common
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.05.10.36
+Distribution: jammy
+Urgency: high
+Maintainer: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Changed-By: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-planner-common - The autoware_behavior_velocity_planner_common package
+Changes:
+ ros-humble-autoware-behavior-velocity-planner-common (1.0.0-73-g3d059fa8-2025.07.05.10.36) jammy; urgency=high
+Checksums-Sha1:
+ 6efccadeaf17ed6226dfbc1d8597fc49f301243c 5355730 ros-humble-autoware-behavior-velocity-planner-common-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.10.36_amd64.ddeb
+ 0ca7a0fa117a21789524767b15a2abb8eccdf480 44575 ros-humble-autoware-behavior-velocity-planner-common_1.0.0-73-g3d059fa8-2025.07.05.10.36_amd64.buildinfo
+ 306c725ce0d2b2ccb4cc5ee97e2aedeb8bc31d16 134080 ros-humble-autoware-behavior-velocity-planner-common_1.0.0-73-g3d059fa8-2025.07.05.10.36_amd64.deb
+Checksums-Sha256:
+ a4911498c9dd213feddb9b1a752ce9c4074bd240a1b869d1acf7024a765526b9 5355730 ros-humble-autoware-behavior-velocity-planner-common-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.10.36_amd64.ddeb
+ f1005f1be96bb20bf025d497d8a2a6a81bd68cf3db5a7d40f0e4d4f91ef7a503 44575 ros-humble-autoware-behavior-velocity-planner-common_1.0.0-73-g3d059fa8-2025.07.05.10.36_amd64.buildinfo
+ 89aeec0582b244da22963c6a939a3eb54dc4ccebbdac27432028db15301c0cd0 134080 ros-humble-autoware-behavior-velocity-planner-common_1.0.0-73-g3d059fa8-2025.07.05.10.36_amd64.deb
+Files:
+ a04a5a0eba3000295effd771be6444a8 5355730 debug optional ros-humble-autoware-behavior-velocity-planner-common-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.10.36_amd64.ddeb
+ 8d67d634bdc69d7a1e7e5f879c1cf5d9 44575 misc optional ros-humble-autoware-behavior-velocity-planner-common_1.0.0-73-g3d059fa8-2025.07.05.10.36_amd64.buildinfo
+ 4859729321488342eef7a09f52b47bc1 134080 misc optional ros-humble-autoware-behavior-velocity-planner-common_1.0.0-73-g3d059fa8-2025.07.05.10.36_amd64.deb

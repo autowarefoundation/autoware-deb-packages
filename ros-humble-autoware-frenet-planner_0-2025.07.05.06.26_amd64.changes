@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-frenet-planner
+Binary: ros-humble-autoware-frenet-planner
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.06.26
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime CLEMENT <maxime.clement@tier4.jp>
+Changed-By: Maxime CLEMENT <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-frenet-planner - The autoware_frenet_planner package for trajectory generation in
+Changes:
+ ros-humble-autoware-frenet-planner (0-2025.07.05.06.26) jammy; urgency=high
+Checksums-Sha1:
+ 4511985e91cd315cd1ed6676d8f178e98cb65046 1994706 ros-humble-autoware-frenet-planner-dbgsym_0-2025.07.05.06.26_amd64.ddeb
+ 64763fb8ed419518097278a955e90026cab9a7e4 41436 ros-humble-autoware-frenet-planner_0-2025.07.05.06.26_amd64.buildinfo
+ df0d1e7a8ab73a6562a8e291cd785398276cfee0 34790 ros-humble-autoware-frenet-planner_0-2025.07.05.06.26_amd64.deb
+Checksums-Sha256:
+ b9c9deef7013e4e0ca5c2c8e8039edff67d4579bbc62f0a708451708fe11f232 1994706 ros-humble-autoware-frenet-planner-dbgsym_0-2025.07.05.06.26_amd64.ddeb
+ 66385ec70e9b3bdd0ae0ca092c4d6e09b7e9b2267f2b48f297b6ed515302e6ac 41436 ros-humble-autoware-frenet-planner_0-2025.07.05.06.26_amd64.buildinfo
+ 8224cda838be41401af505caebe2e5384edfc19a535db65dd23fc58f31e25aa9 34790 ros-humble-autoware-frenet-planner_0-2025.07.05.06.26_amd64.deb
+Files:
+ 9d7551aaed87a8d2d60fd33caf7d9ba3 1994706 debug optional ros-humble-autoware-frenet-planner-dbgsym_0-2025.07.05.06.26_amd64.ddeb
+ b0a50612f37fd70d5dd1828439b7413e 41436 misc optional ros-humble-autoware-frenet-planner_0-2025.07.05.06.26_amd64.buildinfo
+ 6d131b4240aeb82816664f1f89513fd3 34790 misc optional ros-humble-autoware-frenet-planner_0-2025.07.05.06.26_amd64.deb

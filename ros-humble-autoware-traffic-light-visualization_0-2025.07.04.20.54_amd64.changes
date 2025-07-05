@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-traffic-light-visualization
+Binary: ros-humble-autoware-traffic-light-visualization
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.20.54
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-traffic-light-visualization - The autoware_traffic_light_visualization package
+Changes:
+ ros-humble-autoware-traffic-light-visualization (0-2025.07.04.20.54) jammy; urgency=high
+Checksums-Sha1:
+ dce1ffa3ce0787cf175bf435cea5d76851d02561 8825680 ros-humble-autoware-traffic-light-visualization-dbgsym_0-2025.07.04.20.54_amd64.ddeb
+ e0c083e7d9f7609473f013950d884c8f43f3b835 35755 ros-humble-autoware-traffic-light-visualization_0-2025.07.04.20.54_amd64.buildinfo
+ 92896dd344ecda32870803b69d81864968626432 2429836 ros-humble-autoware-traffic-light-visualization_0-2025.07.04.20.54_amd64.deb
+Checksums-Sha256:
+ 484c87eedc049b983eedfbbc9ff76b9a2941252becf5277e7cf8079ca62093f9 8825680 ros-humble-autoware-traffic-light-visualization-dbgsym_0-2025.07.04.20.54_amd64.ddeb
+ 8cddd6632bff3f96ded1b3da19f3803fee845ddb0487b61f0fbf8881c7e0e098 35755 ros-humble-autoware-traffic-light-visualization_0-2025.07.04.20.54_amd64.buildinfo
+ c1bd93627ebb6f1c3ea0499a11c4a86075a3c2e4ecfd7ad7cb591aae77cafb8f 2429836 ros-humble-autoware-traffic-light-visualization_0-2025.07.04.20.54_amd64.deb
+Files:
+ d994210963772b681e5b299fe9d3f353 8825680 debug optional ros-humble-autoware-traffic-light-visualization-dbgsym_0-2025.07.04.20.54_amd64.ddeb
+ 8eda8578ec59db6c802a47df217992f0 35755 misc optional ros-humble-autoware-traffic-light-visualization_0-2025.07.04.20.54_amd64.buildinfo
+ 4d65d8837753bff4cce161e9df73ce9e 2429836 misc optional ros-humble-autoware-traffic-light-visualization_0-2025.07.04.20.54_amd64.deb

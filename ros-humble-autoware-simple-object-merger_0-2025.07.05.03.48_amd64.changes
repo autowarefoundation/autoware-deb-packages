@@ -1,0 +1,55 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-simple-object-merger
+Binary: ros-humble-autoware-simple-object-merger
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.03.48
+Distribution: jammy
+Urgency: high
+Maintainer: Sathshi Tanaka <satoshi.tanaka@tier4.jp>
+Changed-By: Sathshi Tanaka <satoshi.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-simple-object-merger - autoware_simple_object_merger
+Changes:
+ ros-humble-autoware-simple-object-merger (0-2025.07.05.03.48) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * fix(simple_object_merger): add approximatefilter (#10462 <https://github.com/autowarefoundation/autoware_universe/issues/10462>)
+     * fix(simple_object_merger): add approximatefilter
+     * Update perception/autoware_simple_object_merger/src/simple_object_merger_node.cpp
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * Update perception/autoware_simple_object_merger/src/simple_object_merger_node.cpp
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * Update perception/autoware_simple_object_merger/src/simple_object_merger_node.cpp
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * Update perception/autoware_simple_object_merger/src/simple_object_merger_node.cpp
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * Update perception/autoware_simple_object_merger/src/simple_object_merger_node.hpp
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     ---------
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+   * feat: reduce warn log frequency (#10414 <https://github.com/autowarefoundation/autoware_universe/issues/10414>)
+     * feat: limit warning message frequency to 3.0 sec
+     * refactor: use THROTTLE ERROR macro
+     fix: reduce code complexity
+     ---------
+     Co-authored-by: Jian Kang <mailto:jian.kang@tier4.jp>
+   * chore(perception): code owner revision (#10358 <https://github.com/autowarefoundation/autoware_universe/issues/10358>)
+     * feat: add Masato Saeki and Taekjin Lee as maintainer to multiple package.xml files
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Kang, Ryohsuke Mitsudome, Taekjin LEE, badai nguyen
+Checksums-Sha1:
+ fd41d668c26dbb9a9797c9fcd70a03c772763c41 3292504 ros-humble-autoware-simple-object-merger-dbgsym_0-2025.07.05.03.48_amd64.ddeb
+ 91a83223b505498348d579768181dc7e51bac8e0 41300 ros-humble-autoware-simple-object-merger_0-2025.07.05.03.48_amd64.buildinfo
+ 6ae4b92802f87e0dd664b70987ffe24577b22512 177152 ros-humble-autoware-simple-object-merger_0-2025.07.05.03.48_amd64.deb
+Checksums-Sha256:
+ a7afbdf77ebf9bf6c2252583d2f7d88e9c92d30a6d6650e2895a468f1cf8e695 3292504 ros-humble-autoware-simple-object-merger-dbgsym_0-2025.07.05.03.48_amd64.ddeb
+ 938b2177f4a7c7da98540b3ff3f642c06327feb320247d6e07eb246c91c2d27b 41300 ros-humble-autoware-simple-object-merger_0-2025.07.05.03.48_amd64.buildinfo
+ c0b779ef7c2940ec0e0dacb7524bc464bc7be697505f89f9ecc98d711ba3c989 177152 ros-humble-autoware-simple-object-merger_0-2025.07.05.03.48_amd64.deb
+Files:
+ 0027d039e3e51d0fe8e35d76811b67dc 3292504 debug optional ros-humble-autoware-simple-object-merger-dbgsym_0-2025.07.05.03.48_amd64.ddeb
+ 91d9ada74fa4da6e0dc2cfb7332e5434 41300 misc optional ros-humble-autoware-simple-object-merger_0-2025.07.05.03.48_amd64.buildinfo
+ 1f40af9e5ed8a97bad154ef3d8c8f88c 177152 misc optional ros-humble-autoware-simple-object-merger_0-2025.07.05.03.48_amd64.deb

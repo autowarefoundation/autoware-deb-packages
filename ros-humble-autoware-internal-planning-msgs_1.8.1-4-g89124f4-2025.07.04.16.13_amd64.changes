@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 07 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-internal-planning-msgs
+Binary: ros-humble-autoware-internal-planning-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.8.1-4-g89124f4-2025.07.04.16.13
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-internal-planning-msgs - The autoware_internal_planning_msgs package
+Changes:
+ ros-humble-autoware-internal-planning-msgs (1.8.1-4-g89124f4-2025.07.04.16.13) jammy; urgency=high
+Checksums-Sha1:
+ 01d87f68da8e56723086d711e1070a4e9ca8876b 1569386 ros-humble-autoware-internal-planning-msgs-dbgsym_1.8.1-4-g89124f4-2025.07.04.16.13_amd64.ddeb
+ 1de5d7a0cfcb5fa1e14fcff1cf2991e053b24cf1 15326 ros-humble-autoware-internal-planning-msgs_1.8.1-4-g89124f4-2025.07.04.16.13_amd64.buildinfo
+ 0d16ecc2defd87d041d75318a1293e934e6203c3 185866 ros-humble-autoware-internal-planning-msgs_1.8.1-4-g89124f4-2025.07.04.16.13_amd64.deb
+Checksums-Sha256:
+ 8f3d5778da8f168bba7522d32db5233377b38b9c768dd2f858635171b8b4784e 1569386 ros-humble-autoware-internal-planning-msgs-dbgsym_1.8.1-4-g89124f4-2025.07.04.16.13_amd64.ddeb
+ 0925338c52a246e4b423620d714173741cd5e6d59e3fd8751a064d438309fd46 15326 ros-humble-autoware-internal-planning-msgs_1.8.1-4-g89124f4-2025.07.04.16.13_amd64.buildinfo
+ 766256e1ebd48d7e927ee8532e9dcb55a075aca7a25f36e9a61ed713806fdfc9 185866 ros-humble-autoware-internal-planning-msgs_1.8.1-4-g89124f4-2025.07.04.16.13_amd64.deb
+Files:
+ 784ce1272ba95921570b90f58aea53ba 1569386 debug optional ros-humble-autoware-internal-planning-msgs-dbgsym_1.8.1-4-g89124f4-2025.07.04.16.13_amd64.ddeb
+ 65e5b192a72321c241a6753621fe7727 15326 misc optional ros-humble-autoware-internal-planning-msgs_1.8.1-4-g89124f4-2025.07.04.16.13_amd64.buildinfo
+ f8c5f839641c9629ab45672f6cd65dc6 185866 misc optional ros-humble-autoware-internal-planning-msgs_1.8.1-4-g89124f4-2025.07.04.16.13_amd64.deb

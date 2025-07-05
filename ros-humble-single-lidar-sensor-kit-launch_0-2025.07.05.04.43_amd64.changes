@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-single-lidar-sensor-kit-launch
+Binary: ros-humble-single-lidar-sensor-kit-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.04.43
+Distribution: jammy
+Urgency: high
+Maintainer: beginning.fan <beginning.fan@autocore.ai>
+Changed-By: beginning.fan <beginning.fan@autocore.ai>
+Description:
+ ros-humble-single-lidar-sensor-kit-launch - The single_lidar_sensor_kit_launch package
+Changes:
+ ros-humble-single-lidar-sensor-kit-launch (0-2025.07.05.04.43) jammy; urgency=high
+ .
+   * chore: set all versions to 0.43.0 (#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>)
+   * feat(*_launch): move here (#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>)
+   * Contributors: Mete Fatih Cırıt
+   * chore: set all versions to 0.43.0 (#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>)
+   * feat(*_launch): move here (#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>)
+   * Contributors: Mete Fatih Cırıt
+Checksums-Sha1:
+ f7e47b7686b44b0a39353f6ec77df8a699edbe36 10663 ros-humble-single-lidar-sensor-kit-launch_0-2025.07.05.04.43_amd64.buildinfo
+ b19d3e3d629b57a7b10acb78acef2848ff59218e 6824 ros-humble-single-lidar-sensor-kit-launch_0-2025.07.05.04.43_amd64.deb
+Checksums-Sha256:
+ 5e28e4f399aeab7f7557640615eeb08774d5fbb5f2538af5e29bbc1c4c1d80d6 10663 ros-humble-single-lidar-sensor-kit-launch_0-2025.07.05.04.43_amd64.buildinfo
+ 6b14c2663e41301d8f72a704fd9c7cbf799b612637d4c2ca235276f4bdf82da4 6824 ros-humble-single-lidar-sensor-kit-launch_0-2025.07.05.04.43_amd64.deb
+Files:
+ 3e4368853500276aed7806d37edd2f07 10663 misc optional ros-humble-single-lidar-sensor-kit-launch_0-2025.07.05.04.43_amd64.buildinfo
+ 36788c6ad1206769bc7e3e4d8f9b6e44 6824 misc optional ros-humble-single-lidar-sensor-kit-launch_0-2025.07.05.04.43_amd64.deb

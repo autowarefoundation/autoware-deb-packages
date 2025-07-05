@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-adapi-adaptors
+Binary: ros-humble-autoware-adapi-adaptors
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.21.42
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-adapi-adaptors - The adapi_adaptors package
+Changes:
+ ros-humble-autoware-adapi-adaptors (0-2025.07.04.21.42) jammy; urgency=high
+Checksums-Sha1:
+ 0db52a38f745526a5ca3f84d85c5b7fab5e6c8b2 5518938 ros-humble-autoware-adapi-adaptors-dbgsym_0-2025.07.04.21.42_amd64.ddeb
+ 4284eca08c29c80b926903fcd50fd92d6ef11a52 41420 ros-humble-autoware-adapi-adaptors_0-2025.07.04.21.42_amd64.buildinfo
+ 592de4a4760d7b81eb9621d229b3c2dd052326f1 203008 ros-humble-autoware-adapi-adaptors_0-2025.07.04.21.42_amd64.deb
+Checksums-Sha256:
+ b74dc4a86f355515b57dabcb2ff2226669dd19f60ba2fb0ff768fe09a9715745 5518938 ros-humble-autoware-adapi-adaptors-dbgsym_0-2025.07.04.21.42_amd64.ddeb
+ 5ebb74f752d47688eeb12c36c53ba3016298e1780d59a533783f9c32374211ae 41420 ros-humble-autoware-adapi-adaptors_0-2025.07.04.21.42_amd64.buildinfo
+ 3b06d92e5d8768f3ab6c0c1672ef48f91ec5a09567736ea7d0cd902098058852 203008 ros-humble-autoware-adapi-adaptors_0-2025.07.04.21.42_amd64.deb
+Files:
+ 0dcd8bf0c310e7316c13c1473b311c57 5518938 debug optional ros-humble-autoware-adapi-adaptors-dbgsym_0-2025.07.04.21.42_amd64.ddeb
+ a57e619e4ea5d9e64179389a03dea7dc 41420 misc optional ros-humble-autoware-adapi-adaptors_0-2025.07.04.21.42_amd64.buildinfo
+ 149e4aff52bae6f1e260b69e2d3d78c1 203008 misc optional ros-humble-autoware-adapi-adaptors_0-2025.07.04.21.42_amd64.deb

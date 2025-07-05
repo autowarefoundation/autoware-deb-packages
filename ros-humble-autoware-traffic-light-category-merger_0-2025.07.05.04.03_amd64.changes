@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-traffic-light-category-merger
+Binary: ros-humble-autoware-traffic-light-category-merger
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.04.03
+Distribution: jammy
+Urgency: high
+Maintainer: Yoshi Ri <yoshi.ri@tier4.jp>
+Changed-By: Yoshi Ri <yoshi.ri@tier4.jp>
+Description:
+ ros-humble-autoware-traffic-light-category-merger - The ROS 2 autoware_traffic_light_category_merger package
+Changes:
+ ros-humble-autoware-traffic-light-category-merger (0-2025.07.05.04.03) jammy; urgency=high
+Checksums-Sha1:
+ 39500a9cf4f0cc6df81c859139b3402ba079f5da 3011002 ros-humble-autoware-traffic-light-category-merger-dbgsym_0-2025.07.05.04.03_amd64.ddeb
+ 85acf06178dfbbadacd41b24bb63b8e421726acb 42216 ros-humble-autoware-traffic-light-category-merger_0-2025.07.05.04.03_amd64.buildinfo
+ 55e07cee54db6ad9965e1b430ac72e2252afe5dd 158354 ros-humble-autoware-traffic-light-category-merger_0-2025.07.05.04.03_amd64.deb
+Checksums-Sha256:
+ 2bc9d622c58aaf40683a31c4acb26cb69ce0f42edc0cfa6a27867ae0410c95ec 3011002 ros-humble-autoware-traffic-light-category-merger-dbgsym_0-2025.07.05.04.03_amd64.ddeb
+ b03462f4c5c47acf0abe2ec7f2b45242f9f731b82bd332c8dd830c78b25fc0bc 42216 ros-humble-autoware-traffic-light-category-merger_0-2025.07.05.04.03_amd64.buildinfo
+ 2d0be426e371f40bf16bc9fe45dc010bfb215a09a3bf5ad7dbaf8d60068622fe 158354 ros-humble-autoware-traffic-light-category-merger_0-2025.07.05.04.03_amd64.deb
+Files:
+ 749a255017838af14ff8619d4a31612e 3011002 debug optional ros-humble-autoware-traffic-light-category-merger-dbgsym_0-2025.07.05.04.03_amd64.ddeb
+ c724eada42f190ee4e7b133923796940 42216 misc optional ros-humble-autoware-traffic-light-category-merger_0-2025.07.05.04.03_amd64.buildinfo
+ 3156999e5cf8dcf16ebdb7adaedf9080 158354 misc optional ros-humble-autoware-traffic-light-category-merger_0-2025.07.05.04.03_amd64.deb

@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-core-localization
+Binary: ros-humble-autoware-core-localization
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.22.44
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-autoware-core-localization - The autoware_core_localization package
+Changes:
+ ros-humble-autoware-core-localization (1.0.0-73-g3d059fa8-2025.07.04.22.44) jammy; urgency=high
+Checksums-Sha1:
+ 4c3fadcb66f3890d8f863ef62fd8ddb821920d25 10828 ros-humble-autoware-core-localization_1.0.0-73-g3d059fa8-2025.07.04.22.44_amd64.buildinfo
+ f64d4c8677c134226e04139312087c53e6d4bb73 6682 ros-humble-autoware-core-localization_1.0.0-73-g3d059fa8-2025.07.04.22.44_amd64.deb
+Checksums-Sha256:
+ 7b037ea1b7a4d4964aafa5dbdffa6171f6029016208f593ded62577b2c23933f 10828 ros-humble-autoware-core-localization_1.0.0-73-g3d059fa8-2025.07.04.22.44_amd64.buildinfo
+ 7e6c60023bcea1068ca53cb38592622171fbfcfb5a67cc37ed2659e8fa379588 6682 ros-humble-autoware-core-localization_1.0.0-73-g3d059fa8-2025.07.04.22.44_amd64.deb
+Files:
+ 3850002f0e1ee613adc6abad8eb58651 10828 misc optional ros-humble-autoware-core-localization_1.0.0-73-g3d059fa8-2025.07.04.22.44_amd64.buildinfo
+ 3b0496e634f1d28ab26f3b493e506213 6682 misc optional ros-humble-autoware-core-localization_1.0.0-73-g3d059fa8-2025.07.04.22.44_amd64.deb

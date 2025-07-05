@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-lanelet2-map-visualizer
+Binary: ros-humble-autoware-lanelet2-map-visualizer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.20.16
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-lanelet2-map-visualizer - The autoware_lanelet2_map_visualizer package
+Changes:
+ ros-humble-autoware-lanelet2-map-visualizer (0-2025.07.04.20.16) jammy; urgency=high
+Checksums-Sha1:
+ 64e34a43073d8189159cfeef1d59c6854747682e 3305164 ros-humble-autoware-lanelet2-map-visualizer-dbgsym_0-2025.07.04.20.16_amd64.ddeb
+ aa48b792e95761f869e0d2372e581e6bb759e9b0 24904 ros-humble-autoware-lanelet2-map-visualizer_0-2025.07.04.20.16_amd64.buildinfo
+ 51914ca953b428ac0a765f0ed600ca198fd9e36e 136134 ros-humble-autoware-lanelet2-map-visualizer_0-2025.07.04.20.16_amd64.deb
+Checksums-Sha256:
+ 014d667cbd5981b1ef64cdf163da0e72cb46c58d668945659aa8e46976ba57b2 3305164 ros-humble-autoware-lanelet2-map-visualizer-dbgsym_0-2025.07.04.20.16_amd64.ddeb
+ b99c0321dcfcfa36d6207a02aa069d7278d483efd9268d14cc9b7d33f212e770 24904 ros-humble-autoware-lanelet2-map-visualizer_0-2025.07.04.20.16_amd64.buildinfo
+ 83f0b8953d4ad1e44bec3c8fb67647096e83b94808b6a03f9fa07d31c5975ba9 136134 ros-humble-autoware-lanelet2-map-visualizer_0-2025.07.04.20.16_amd64.deb
+Files:
+ 8858a959c436980d08e3f0239da2ba95 3305164 debug optional ros-humble-autoware-lanelet2-map-visualizer-dbgsym_0-2025.07.04.20.16_amd64.ddeb
+ a1d89d0cb849cac1dfd402aea61cfabd 24904 misc optional ros-humble-autoware-lanelet2-map-visualizer_0-2025.07.04.20.16_amd64.buildinfo
+ f1d5dbc39bad9271623b70604985cd67 136134 misc optional ros-humble-autoware-lanelet2-map-visualizer_0-2025.07.04.20.16_amd64.deb

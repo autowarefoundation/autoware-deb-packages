@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-sample-sensor-kit-description
+Binary: ros-humble-sample-sensor-kit-description
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.16.40
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-sample-sensor-kit-description - The sample_sensor_kit_description package
+Changes:
+ ros-humble-sample-sensor-kit-description (0-2025.07.04.16.40) jammy; urgency=high
+ .
+   * feat: remove individual_params references (#1403 <https://github.com/autowarefoundation/autoware_launch/issues/1403>)
+   * chore: set all versions to 0.43.0 (#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>)
+   * feat(*_launch): move here (#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>)
+   * Contributors: Mete Fatih Cırıt
+Checksums-Sha1:
+ 9f25afe1dcaedc200e2561bd6cc97594b0ca7c83 10982 ros-humble-sample-sensor-kit-description_0-2025.07.04.16.40_amd64.buildinfo
+ 74f3c792f952db5ee080e1bb7a79f85e0c1cfd7f 13636 ros-humble-sample-sensor-kit-description_0-2025.07.04.16.40_amd64.deb
+Checksums-Sha256:
+ a4fc4eb6769b5452d84e971963678bbc4453d6d534fa675ac76ebad8e4c3b4ec 10982 ros-humble-sample-sensor-kit-description_0-2025.07.04.16.40_amd64.buildinfo
+ b130667e503fc796bd43eeef7ce5c77cb649e4e3cdb1dd1ade7296d146a762c5 13636 ros-humble-sample-sensor-kit-description_0-2025.07.04.16.40_amd64.deb
+Files:
+ 90990a38ff1e29a0d2aa14a2e8fd3164 10982 misc optional ros-humble-sample-sensor-kit-description_0-2025.07.04.16.40_amd64.buildinfo
+ 98e4b5f935e44ada0d06cfc398d615aa 13636 misc optional ros-humble-sample-sensor-kit-description_0-2025.07.04.16.40_amd64.deb

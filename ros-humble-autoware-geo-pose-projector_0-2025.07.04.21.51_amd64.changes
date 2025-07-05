@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-geo-pose-projector
+Binary: ros-humble-autoware-geo-pose-projector
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.21.51
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-geo-pose-projector - The autoware_geo_pose_projector package
+Changes:
+ ros-humble-autoware-geo-pose-projector (0-2025.07.04.21.51) jammy; urgency=high
+Checksums-Sha1:
+ 20215b11c1da6d358499707e98615cb24b43a8be 3283502 ros-humble-autoware-geo-pose-projector-dbgsym_0-2025.07.04.21.51_amd64.ddeb
+ 21a11586c0c26dcba17e2a1e0995ffdc8c6968a1 25848 ros-humble-autoware-geo-pose-projector_0-2025.07.04.21.51_amd64.buildinfo
+ b9ea78f6c5c63e1ae0bf4b0371e6e755ce96ea99 150082 ros-humble-autoware-geo-pose-projector_0-2025.07.04.21.51_amd64.deb
+Checksums-Sha256:
+ caa3e89e45327a69ffa90bbc3912c19c5964c28e13f331f0f2f6298e717edd54 3283502 ros-humble-autoware-geo-pose-projector-dbgsym_0-2025.07.04.21.51_amd64.ddeb
+ 3df5666a3f9348fbd235c11c45a8f93a599fb5a6a5140c2c01ef09566a931801 25848 ros-humble-autoware-geo-pose-projector_0-2025.07.04.21.51_amd64.buildinfo
+ cea62f3dc20bd3f90deed9f55fe9315b76ab99967c885f35568c19e21759e185 150082 ros-humble-autoware-geo-pose-projector_0-2025.07.04.21.51_amd64.deb
+Files:
+ 90f3229dec5745e2ad3163d69ed254d2 3283502 debug optional ros-humble-autoware-geo-pose-projector-dbgsym_0-2025.07.04.21.51_amd64.ddeb
+ b2b6692c631492a0069780fd026beaeb 25848 misc optional ros-humble-autoware-geo-pose-projector_0-2025.07.04.21.51_amd64.buildinfo
+ 9931381e9ed6f217f868e98dc22d58ef 150082 misc optional ros-humble-autoware-geo-pose-projector_0-2025.07.04.21.51_amd64.deb

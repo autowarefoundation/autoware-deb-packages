@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-topic-relay-controller
+Binary: ros-humble-autoware-topic-relay-controller
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.18.45
+Distribution: jammy
+Urgency: high
+Maintainer: Makoto Kurihara <makoto.kurihara@tier4.jp>
+Changed-By: Makoto Kurihara <makoto.kurihara@tier4.jp>
+Description:
+ ros-humble-autoware-topic-relay-controller - The topic_relay_controller ROS 2 package
+Changes:
+ ros-humble-autoware-topic-relay-controller (0-2025.07.04.18.45) jammy; urgency=high
+Checksums-Sha1:
+ f6d65dd3be0da52762dfdaf4a60329d7e5703821 2606354 ros-humble-autoware-topic-relay-controller-dbgsym_0-2025.07.04.18.45_amd64.ddeb
+ 810c0e4f4c46123bda64f4db0ac9ef4b8d3bdc6c 16348 ros-humble-autoware-topic-relay-controller_0-2025.07.04.18.45_amd64.buildinfo
+ 27fee6b2d7f91c1ae03bdc4a7f6cc599c2d30894 136682 ros-humble-autoware-topic-relay-controller_0-2025.07.04.18.45_amd64.deb
+Checksums-Sha256:
+ efb7cc612fa13a620a1a57319a6d6ea857d20c3315508ea8511ccd82d7d58d00 2606354 ros-humble-autoware-topic-relay-controller-dbgsym_0-2025.07.04.18.45_amd64.ddeb
+ 81199595d5a533e7f22d94c03da8d434ac49b23d698643c21f9b4740297ebeb1 16348 ros-humble-autoware-topic-relay-controller_0-2025.07.04.18.45_amd64.buildinfo
+ 8b9508ae8fba4eeaada7d7b6d1a9e84d080366a0187425d555b1cb73e889df67 136682 ros-humble-autoware-topic-relay-controller_0-2025.07.04.18.45_amd64.deb
+Files:
+ 0e6f47f40a719f076ab1d8e0bc05ad66 2606354 debug optional ros-humble-autoware-topic-relay-controller-dbgsym_0-2025.07.04.18.45_amd64.ddeb
+ 0468918e9938a931f7fbee067d890f95 16348 misc optional ros-humble-autoware-topic-relay-controller_0-2025.07.04.18.45_amd64.buildinfo
+ eb7717d5e2830a804cd97991fc5a7c08 136682 misc optional ros-humble-autoware-topic-relay-controller_0-2025.07.04.18.45_amd64.deb

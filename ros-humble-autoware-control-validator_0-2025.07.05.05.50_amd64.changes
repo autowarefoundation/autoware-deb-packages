@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-control-validator
+Binary: ros-humble-autoware-control-validator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.05.50
+Distribution: jammy
+Urgency: high
+Maintainer: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Changed-By: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Description:
+ ros-humble-autoware-control-validator - ros node for autoware_control_validator
+Changes:
+ ros-humble-autoware-control-validator (0-2025.07.05.05.50) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat(control_validator): add over run estimation feature (#10422 <https://github.com/autowarefoundation/autoware_universe/issues/10422>)
+   * refactor(control validaor): refactor control_validator (#10363 <https://github.com/autowarefoundation/autoware_universe/issues/10363>)
+   * fix(control_validator): memory-related crash when processing large trajectories (#10372 <https://github.com/autowarefoundation/autoware_universe/issues/10372>)
+     * fix(control_validator): momory
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * fix(control validator): combine callback functions to fix error count increment bug (#10355 <https://github.com/autowarefoundation/autoware_universe/issues/10355>)
+   * fix(control_validator): fix sign miss and add code test (#10341 <https://github.com/autowarefoundation/autoware_universe/issues/10341>)
+   * feat(control_validator)!: add acceleration check (#10326 <https://github.com/autowarefoundation/autoware_universe/issues/10326>)
+   * Contributors: Ryohsuke Mitsudome, Shumpei Wakabayashi, Yuki TAKAGI
+Checksums-Sha1:
+ 73011d2c3d24f8049250d54d0f3cfc7fa30252a4 6353562 ros-humble-autoware-control-validator-dbgsym_0-2025.07.05.05.50_amd64.ddeb
+ 47fed048c77417fb61219566c94d215d8fe1c3b7 43404 ros-humble-autoware-control-validator_0-2025.07.05.05.50_amd64.buildinfo
+ 06ba395ba8ebd2b10ab091996204b31f54fe9021 293530 ros-humble-autoware-control-validator_0-2025.07.05.05.50_amd64.deb
+Checksums-Sha256:
+ a1d8d4174c0b6b0e265efa2bb07d5772ef5de90f003d857e48c30dd40588875a 6353562 ros-humble-autoware-control-validator-dbgsym_0-2025.07.05.05.50_amd64.ddeb
+ b766e720137c8886a7155ac3146c0526d78716915fecbc6a5bc5e8cf8dff9788 43404 ros-humble-autoware-control-validator_0-2025.07.05.05.50_amd64.buildinfo
+ 6ea5fcfb0820bfefc2d2977d3ff18fa56649f4209ccedc60dd3bef9183335d7b 293530 ros-humble-autoware-control-validator_0-2025.07.05.05.50_amd64.deb
+Files:
+ e36190d796c0396aa93a714cba81beec 6353562 debug optional ros-humble-autoware-control-validator-dbgsym_0-2025.07.05.05.50_amd64.ddeb
+ 46a6450c320e2c2f4a60933297ff8563 43404 misc optional ros-humble-autoware-control-validator_0-2025.07.05.05.50_amd64.buildinfo
+ 8804961932fbbeb72fa98474b7e0f72e 293530 misc optional ros-humble-autoware-control-validator_0-2025.07.05.05.50_amd64.deb

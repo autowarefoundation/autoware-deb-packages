@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-core-perception
+Binary: ros-humble-autoware-core-perception
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.20.03
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-autoware-core-perception - The autoware_core_perception package
+Changes:
+ ros-humble-autoware-core-perception (1.0.0-73-g3d059fa8-2025.07.04.20.03) jammy; urgency=high
+Checksums-Sha1:
+ 3e12275c712b5ea2dd6d47c0d15904f9f339c728 10818 ros-humble-autoware-core-perception_1.0.0-73-g3d059fa8-2025.07.04.20.03_amd64.buildinfo
+ a567ea974c6f065a868362ffa68b314887fc69e5 5886 ros-humble-autoware-core-perception_1.0.0-73-g3d059fa8-2025.07.04.20.03_amd64.deb
+Checksums-Sha256:
+ d0f9adaf486a30497cd41653088a9a3aba8aba9c56c26ccf1cb08d5757b0c67a 10818 ros-humble-autoware-core-perception_1.0.0-73-g3d059fa8-2025.07.04.20.03_amd64.buildinfo
+ e29ff6961089d3f9f5d2d84b1f19e63e0898b355283d9c0ad0a00dc8cd5ef788 5886 ros-humble-autoware-core-perception_1.0.0-73-g3d059fa8-2025.07.04.20.03_amd64.deb
+Files:
+ 4aaf6b4555718539ce3a2425df30db2c 10818 misc optional ros-humble-autoware-core-perception_1.0.0-73-g3d059fa8-2025.07.04.20.03_amd64.buildinfo
+ 887684c5967c262beb6c3876f49daf7b 5886 misc optional ros-humble-autoware-core-perception_1.0.0-73-g3d059fa8-2025.07.04.20.03_amd64.deb

@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-common-awsim-labs-sensor-launch
+Binary: ros-humble-common-awsim-labs-sensor-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.16.25
+Distribution: jammy
+Urgency: high
+Maintainer: Piotr Jaroszek <piotr.jaroszek@robotec.ai>
+Changed-By: Piotr Jaroszek <piotr.jaroszek@robotec.ai>
+Description:
+ ros-humble-common-awsim-labs-sensor-launch - The common_sensor_launch package
+Changes:
+ ros-humble-common-awsim-labs-sensor-launch (0-2025.07.04.16.25) jammy; urgency=high
+ .
+   * chore: set all versions to 0.43.0 (#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>)
+   * feat(*_launch): move here (#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>)
+   * Contributors: Mete Fatih Cırıt
+   * chore: set all versions to 0.43.0 (#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>)
+   * feat(*_launch): move here (#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>)
+   * Contributors: Mete Fatih Cırıt
+Checksums-Sha1:
+ a0d2b2cd8d7d4d7c1003e0838c283081bf9385cf 10668 ros-humble-common-awsim-labs-sensor-launch_0-2025.07.04.16.25_amd64.buildinfo
+ 190d88721f6dc5be45fd436a89c7dec2de92ba8a 8418 ros-humble-common-awsim-labs-sensor-launch_0-2025.07.04.16.25_amd64.deb
+Checksums-Sha256:
+ 399664839fb198cc2bdae3a3c8c11fb9891149a6bee92368b68aa65910448355 10668 ros-humble-common-awsim-labs-sensor-launch_0-2025.07.04.16.25_amd64.buildinfo
+ f4f42de4f80b8d977c9a5c40e981a3766a3d0daff6cd14865e2116e6d491038d 8418 ros-humble-common-awsim-labs-sensor-launch_0-2025.07.04.16.25_amd64.deb
+Files:
+ 9ed3423c34ad699229b5fdaee33b3ac3 10668 misc optional ros-humble-common-awsim-labs-sensor-launch_0-2025.07.04.16.25_amd64.buildinfo
+ a6d08ff25029836f07fdb2a28bd6e1ff 8418 misc optional ros-humble-common-awsim-labs-sensor-launch_0-2025.07.04.16.25_amd64.deb

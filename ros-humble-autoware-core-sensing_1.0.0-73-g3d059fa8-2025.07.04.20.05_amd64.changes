@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-core-sensing
+Binary: ros-humble-autoware-core-sensing
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.20.05
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-autoware-core-sensing - The autoware_core_sensing package
+Changes:
+ ros-humble-autoware-core-sensing (1.0.0-73-g3d059fa8-2025.07.04.20.05) jammy; urgency=high
+Checksums-Sha1:
+ 48ac379e99532e36b8334ef9b12aae3fe3b1782c 10803 ros-humble-autoware-core-sensing_1.0.0-73-g3d059fa8-2025.07.04.20.05_amd64.buildinfo
+ a5f1293e4c832915c8bf9ff9f2a306f99cabe899 5358 ros-humble-autoware-core-sensing_1.0.0-73-g3d059fa8-2025.07.04.20.05_amd64.deb
+Checksums-Sha256:
+ ce7ef1202c1f9147303348b7e83adbc7a7563807c1723bc2575d205367388449 10803 ros-humble-autoware-core-sensing_1.0.0-73-g3d059fa8-2025.07.04.20.05_amd64.buildinfo
+ dbee652eaf34136f5020af5b8ef83ed6c09e51b5796ded5a92673e1e21db1ca1 5358 ros-humble-autoware-core-sensing_1.0.0-73-g3d059fa8-2025.07.04.20.05_amd64.deb
+Files:
+ ec144c3d68882796c60a6512766e2b7d 10803 misc optional ros-humble-autoware-core-sensing_1.0.0-73-g3d059fa8-2025.07.04.20.05_amd64.buildinfo
+ 5fc73f183b3ba63b4d59f5b59078694d 5358 misc optional ros-humble-autoware-core-sensing_1.0.0-73-g3d059fa8-2025.07.04.20.05_amd64.deb

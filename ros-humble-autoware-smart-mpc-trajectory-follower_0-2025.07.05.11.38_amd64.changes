@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-smart-mpc-trajectory-follower
+Binary: ros-humble-autoware-smart-mpc-trajectory-follower
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.11.38
+Distribution: jammy
+Urgency: high
+Maintainer: Masayuki Aino <masayuki.aino@proxima-ai-tech.com>
+Changed-By: Masayuki Aino <masayuki.aino@proxima-ai-tech.com>
+Description:
+ ros-humble-autoware-smart-mpc-trajectory-follower - Nodes to follow a trajectory by generating control commands using
+Changes:
+ ros-humble-autoware-smart-mpc-trajectory-follower (0-2025.07.05.11.38) jammy; urgency=high
+Checksums-Sha1:
+ f439216d74449995b017bba65bd95f6882c00558 46829 ros-humble-autoware-smart-mpc-trajectory-follower_0-2025.07.05.11.38_amd64.buildinfo
+ cbd27c77c9e926a70f317a6d333e10d0ba57fa59 2437754 ros-humble-autoware-smart-mpc-trajectory-follower_0-2025.07.05.11.38_amd64.deb
+Checksums-Sha256:
+ 0740e96b5eadca51b6bd9eaab9b8203cb869db319c35274a7bc47cb6a78272c7 46829 ros-humble-autoware-smart-mpc-trajectory-follower_0-2025.07.05.11.38_amd64.buildinfo
+ c39ec3581940e769023b0678c212989a0ce38bbf969681e8ef28b7a16c72431b 2437754 ros-humble-autoware-smart-mpc-trajectory-follower_0-2025.07.05.11.38_amd64.deb
+Files:
+ baede4710a5c0dfbd1b85bb16a0ab749 46829 misc optional ros-humble-autoware-smart-mpc-trajectory-follower_0-2025.07.05.11.38_amd64.buildinfo
+ 22e529925d84dc59a75fc7f21540cbf0 2437754 misc optional ros-humble-autoware-smart-mpc-trajectory-follower_0-2025.07.05.11.38_amd64.deb

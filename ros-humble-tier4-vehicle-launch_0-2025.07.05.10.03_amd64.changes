@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-tier4-vehicle-launch
+Binary: ros-humble-tier4-vehicle-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.10.03
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-tier4-vehicle-launch - The tier4_vehicle_launch package
+Changes:
+ ros-humble-tier4-vehicle-launch (0-2025.07.05.10.03) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * docs(tier4_vehicle_launch): update individual_params reference in readme (#10442 <https://github.com/autowarefoundation/autoware_universe/issues/10442>)
+   * Contributors: Mete Fatih Cırıt, Ryohsuke Mitsudome
+Checksums-Sha1:
+ cc46a6859f73c490c41202f0db492c2f3acbd855 10730 ros-humble-tier4-vehicle-launch_0-2025.07.05.10.03_amd64.buildinfo
+ 44c2343e2f86cd0fd4a1b0de501f7473d392b44a 7862 ros-humble-tier4-vehicle-launch_0-2025.07.05.10.03_amd64.deb
+Checksums-Sha256:
+ 80517f89bc10ac77741647496df56227afb65cf73c71bb3c129a12fdb61f83c7 10730 ros-humble-tier4-vehicle-launch_0-2025.07.05.10.03_amd64.buildinfo
+ a7734aa9c4fbdeb532bd224794a843b4041d32817c10052b16ea4129d1a9db0d 7862 ros-humble-tier4-vehicle-launch_0-2025.07.05.10.03_amd64.deb
+Files:
+ 2fdd6e44848704211dcbd85da56641af 10730 misc optional ros-humble-tier4-vehicle-launch_0-2025.07.05.10.03_amd64.buildinfo
+ 3b14ccfc0bb5a5860195631b3893eec7 7862 misc optional ros-humble-tier4-vehicle-launch_0-2025.07.05.10.03_amd64.deb

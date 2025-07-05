@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-obstacle-stop-planner
+Binary: ros-humble-autoware-obstacle-stop-planner
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.07.30
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-obstacle-stop-planner - The autoware_obstacle_stop_planner package
+Changes:
+ ros-humble-autoware-obstacle-stop-planner (0-2025.07.05.07.30) jammy; urgency=high
+Checksums-Sha1:
+ fece36ad1f9195ccc8e7b9966703003768a78f4c 12250698 ros-humble-autoware-obstacle-stop-planner-dbgsym_0-2025.07.05.07.30_amd64.ddeb
+ 5f1d898f480c91afe48be4fed1816ff0d66dbd1a 43711 ros-humble-autoware-obstacle-stop-planner_0-2025.07.05.07.30_amd64.buildinfo
+ 91c16e78601a7235f30255fe6b5ee05ba65f0e7d 464728 ros-humble-autoware-obstacle-stop-planner_0-2025.07.05.07.30_amd64.deb
+Checksums-Sha256:
+ 43ea0c1ef2371162a97d3b80701e9c11fe14dba487557699f9878a61e1898c90 12250698 ros-humble-autoware-obstacle-stop-planner-dbgsym_0-2025.07.05.07.30_amd64.ddeb
+ cbaf833f3692be6fcbf70aa9e661772e8457c7efc93e9dc46459c158416f181e 43711 ros-humble-autoware-obstacle-stop-planner_0-2025.07.05.07.30_amd64.buildinfo
+ 0d4f263d310e3191d41ab9659ce45a713f42c237a0040bc28f8252faec802842 464728 ros-humble-autoware-obstacle-stop-planner_0-2025.07.05.07.30_amd64.deb
+Files:
+ 96086a1129f50568094f8a85aeb5f1d1 12250698 debug optional ros-humble-autoware-obstacle-stop-planner-dbgsym_0-2025.07.05.07.30_amd64.ddeb
+ 42dc585c0938fb2fadd594180e4f51b2 43711 misc optional ros-humble-autoware-obstacle-stop-planner_0-2025.07.05.07.30_amd64.buildinfo
+ 217903e4f4b6644df123a3bfcd9aa82a 464728 misc optional ros-humble-autoware-obstacle-stop-planner_0-2025.07.05.07.30_amd64.deb

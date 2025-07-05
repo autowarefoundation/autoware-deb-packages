@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-tier4-system-launch
+Binary: ros-humble-tier4-system-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.10.00
+Distribution: jammy
+Urgency: high
+Maintainer: Fumihito Ito <fumihito.ito@tier4.jp>
+Changed-By: Fumihito Ito <fumihito.ito@tier4.jp>
+Description:
+ ros-humble-tier4-system-launch - The tier4_system_launch package
+Changes:
+ ros-humble-tier4-system-launch (0-2025.07.05.10.00) jammy; urgency=high
+Checksums-Sha1:
+ ad78c5dbdfd38ad526dbd8c5829ad31a070881e2 10728 ros-humble-tier4-system-launch_0-2025.07.05.10.00_amd64.buildinfo
+ 583b69cf13ad40c555488ae77fa0361dad8455e1 15312 ros-humble-tier4-system-launch_0-2025.07.05.10.00_amd64.deb
+Checksums-Sha256:
+ 276244d149160c1d5c08eccfb2728c34d39ac8ebd85ac9886cbb6cf19aeeea84 10728 ros-humble-tier4-system-launch_0-2025.07.05.10.00_amd64.buildinfo
+ e4e95b75345a49fb21cc7ec73f62e9e68ef2bcecc9fc01acd060770b4b9d0628 15312 ros-humble-tier4-system-launch_0-2025.07.05.10.00_amd64.deb
+Files:
+ c27765d7b4ddfa59584c896ce67c602f 10728 misc optional ros-humble-tier4-system-launch_0-2025.07.05.10.00_amd64.buildinfo
+ 5d9cbece152f303f20220da82829bf61 15312 misc optional ros-humble-tier4-system-launch_0-2025.07.05.10.00_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-vehicle-door-simulator
+Binary: ros-humble-autoware-vehicle-door-simulator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.19.04
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-vehicle-door-simulator - The vehicle_door_simulator package
+Changes:
+ ros-humble-autoware-vehicle-door-simulator (0-2025.07.04.19.04) jammy; urgency=high
+Checksums-Sha1:
+ 461d31666f3c9ad08135b5b83c80b49379ccbc55 1117316 ros-humble-autoware-vehicle-door-simulator-dbgsym_0-2025.07.04.19.04_amd64.ddeb
+ 41a927919852cb831bc983cb78f0f0afecb6a380 15880 ros-humble-autoware-vehicle-door-simulator_0-2025.07.04.19.04_amd64.buildinfo
+ f8738c2b13d60b94659739fce1df50c024027e0b 61482 ros-humble-autoware-vehicle-door-simulator_0-2025.07.04.19.04_amd64.deb
+Checksums-Sha256:
+ f59e5082f50177cd95143518644e08c3bd3d562f440171060e73178b87f57731 1117316 ros-humble-autoware-vehicle-door-simulator-dbgsym_0-2025.07.04.19.04_amd64.ddeb
+ ac5c88fc066229fd5712aa311dc378274fca78001c9616934dac1bd325cfc8b0 15880 ros-humble-autoware-vehicle-door-simulator_0-2025.07.04.19.04_amd64.buildinfo
+ cd9751782fe1e88efb3ad35b382ecd7e499477798808e98790eca6fb4cf222e3 61482 ros-humble-autoware-vehicle-door-simulator_0-2025.07.04.19.04_amd64.deb
+Files:
+ 74a9ceca43dcbe76db88e4afbfd9f2af 1117316 debug optional ros-humble-autoware-vehicle-door-simulator-dbgsym_0-2025.07.04.19.04_amd64.ddeb
+ 5ff429f867443540eb9f0bbac47dbc68 15880 misc optional ros-humble-autoware-vehicle-door-simulator_0-2025.07.04.19.04_amd64.buildinfo
+ 7a52398c62f6621d56c011bc1a3ca5a1 61482 misc optional ros-humble-autoware-vehicle-door-simulator_0-2025.07.04.19.04_amd64.deb

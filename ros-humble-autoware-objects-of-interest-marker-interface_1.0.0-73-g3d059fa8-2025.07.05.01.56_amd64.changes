@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-objects-of-interest-marker-interface
+Binary: ros-humble-autoware-objects-of-interest-marker-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.05.01.56
+Distribution: jammy
+Urgency: high
+Maintainer: Xingang Liu <lxg19892021@gmail.com>
+Changed-By: Xingang Liu <lxg19892021@gmail.com>
+Description:
+ ros-humble-autoware-objects-of-interest-marker-interface - The autoware_objects_of_interest_marker_interface package
+Changes:
+ ros-humble-autoware-objects-of-interest-marker-interface (1.0.0-73-g3d059fa8-2025.07.05.01.56) jammy; urgency=high
+Checksums-Sha1:
+ d1edcb02d03fe10e2ce1bb3c2168647fa57b5a6d 927720 ros-humble-autoware-objects-of-interest-marker-interface-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.01.56_amd64.ddeb
+ 972c3ac92d8d11d8f4ad75bdb99fd64c4c385053 41440 ros-humble-autoware-objects-of-interest-marker-interface_1.0.0-73-g3d059fa8-2025.07.05.01.56_amd64.buildinfo
+ be311a7799b3c307952518b31bc981ee045a4418 56620 ros-humble-autoware-objects-of-interest-marker-interface_1.0.0-73-g3d059fa8-2025.07.05.01.56_amd64.deb
+Checksums-Sha256:
+ 23d5b13e879f5a5e8514eefb90a9e5fc734954f5de8c1aa39adb92e1d70e7f40 927720 ros-humble-autoware-objects-of-interest-marker-interface-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.01.56_amd64.ddeb
+ ff2d6f8f33f475c6378da085fc9d070af1ae96e01f5bb209689678831b4cec42 41440 ros-humble-autoware-objects-of-interest-marker-interface_1.0.0-73-g3d059fa8-2025.07.05.01.56_amd64.buildinfo
+ a2a62b55b47061c0cab5928b0248ebcac7f242ac04c1f6629b4287ea8009cea5 56620 ros-humble-autoware-objects-of-interest-marker-interface_1.0.0-73-g3d059fa8-2025.07.05.01.56_amd64.deb
+Files:
+ 4b4325b072411cfe0cd58465b4e8fd8f 927720 debug optional ros-humble-autoware-objects-of-interest-marker-interface-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.01.56_amd64.ddeb
+ 5568d67a848e330ef4273d3d8cd3c001 41440 misc optional ros-humble-autoware-objects-of-interest-marker-interface_1.0.0-73-g3d059fa8-2025.07.05.01.56_amd64.buildinfo
+ 99f71cc6a1aee46259c48f80474e9b7a 56620 misc optional ros-humble-autoware-objects-of-interest-marker-interface_1.0.0-73-g3d059fa8-2025.07.05.01.56_amd64.deb

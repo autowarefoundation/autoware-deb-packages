@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-yabloc-common
+Binary: ros-humble-yabloc-common
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.04.58
+Distribution: jammy
+Urgency: high
+Maintainer: Kento Yabuuchi <kento.yabuuchi.2@tier4.jp>
+Changed-By: Kento Yabuuchi <kento.yabuuchi.2@tier4.jp>
+Description:
+ ros-humble-yabloc-common - YabLoc common library
+Changes:
+ ros-humble-yabloc-common (0-2025.07.05.04.58) jammy; urgency=high
+Checksums-Sha1:
+ da7ad60adc6bb0fe0fcddc7735a27fe8c9cb62e9 11539816 ros-humble-yabloc-common-dbgsym_0-2025.07.05.04.58_amd64.ddeb
+ 426e61d67419d4fee85d0f6ad9e4640721efa3b0 47308 ros-humble-yabloc-common_0-2025.07.05.04.58_amd64.buildinfo
+ 94e3e46c161d31db976f164f894cb74a9cbd8cde 274044 ros-humble-yabloc-common_0-2025.07.05.04.58_amd64.deb
+Checksums-Sha256:
+ bf97e2be78e55477c9c87d61173c1181e04c0c6ca06d4938c8a0d2aea6a3de5a 11539816 ros-humble-yabloc-common-dbgsym_0-2025.07.05.04.58_amd64.ddeb
+ 9d96a6c3bc18a55ae70cccd6809caab5e750e4cc8140217fdceb278db7a167e1 47308 ros-humble-yabloc-common_0-2025.07.05.04.58_amd64.buildinfo
+ 96dc60a90cbd86ded314e7c954f0a86be3a4d676a867e96b3f576f9255318b37 274044 ros-humble-yabloc-common_0-2025.07.05.04.58_amd64.deb
+Files:
+ 0c1f5757b42ccf2e87912cb5b6835eba 11539816 debug optional ros-humble-yabloc-common-dbgsym_0-2025.07.05.04.58_amd64.ddeb
+ f3c5436c51ab8301ddfa67980e48f0b1 47308 misc optional ros-humble-yabloc-common_0-2025.07.05.04.58_amd64.buildinfo
+ de16b818c4b2fd30a5fd238d9c324239 274044 misc optional ros-humble-yabloc-common_0-2025.07.05.04.58_amd64.deb

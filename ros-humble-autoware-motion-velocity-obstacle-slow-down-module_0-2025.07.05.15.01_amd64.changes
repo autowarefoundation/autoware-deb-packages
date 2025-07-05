@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-motion-velocity-obstacle-slow-down-module
+Binary: ros-humble-autoware-motion-velocity-obstacle-slow-down-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.15.01
+Distribution: jammy
+Urgency: high
+Maintainer: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Changed-By: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Description:
+ ros-humble-autoware-motion-velocity-obstacle-slow-down-module - obstacle slow down feature in motion_velocity_planner
+Changes:
+ ros-humble-autoware-motion-velocity-obstacle-slow-down-module (0-2025.07.05.15.01) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * chore(motion_velocity_planner): move common and node packages to core (#10367 <https://github.com/autowarefoundation/autoware_universe/issues/10367>)
+   * fix(motion_velocity_obstacle_xxx_module): fix debug topic name (#10322 <https://github.com/autowarefoundation/autoware_universe/issues/10322>)
+   * fix(motion_velocity_planner): remove Metric messages (#10342 <https://github.com/autowarefoundation/autoware_universe/issues/10342>)
+   * Contributors: Maxime CLEMENT, Ryohsuke Mitsudome, Takayuki Murooka
+Checksums-Sha1:
+ f15c7e57933a00b201c9841ec6a8bec8e6868b5f 5160388 ros-humble-autoware-motion-velocity-obstacle-slow-down-module-dbgsym_0-2025.07.05.15.01_amd64.ddeb
+ e2bcbaed40efa914cb5132bd144d5e26cd8ef65d 45010 ros-humble-autoware-motion-velocity-obstacle-slow-down-module_0-2025.07.05.15.01_amd64.buildinfo
+ 547f2ea9ab15f00408049f7fa3d32bc124d6ac1e 200576 ros-humble-autoware-motion-velocity-obstacle-slow-down-module_0-2025.07.05.15.01_amd64.deb
+Checksums-Sha256:
+ 06392ea73e94f344d3a301b62be6b090f4ec118070b7ea2882fb7adcab8b9f0f 5160388 ros-humble-autoware-motion-velocity-obstacle-slow-down-module-dbgsym_0-2025.07.05.15.01_amd64.ddeb
+ 5bf8b49ba6b14a8368baebcfb47f1894c69bca35c4f98b7ecb39f0c80971cb87 45010 ros-humble-autoware-motion-velocity-obstacle-slow-down-module_0-2025.07.05.15.01_amd64.buildinfo
+ cf0df28244f4c1ae9b9d70f7a6f13c9ea590c4ed2dfcca4ba85b0144454821b8 200576 ros-humble-autoware-motion-velocity-obstacle-slow-down-module_0-2025.07.05.15.01_amd64.deb
+Files:
+ 07d2798103f2147b5475deb2f7ce53cc 5160388 debug optional ros-humble-autoware-motion-velocity-obstacle-slow-down-module-dbgsym_0-2025.07.05.15.01_amd64.ddeb
+ 30cab235994c43a08421444fcfee8a6f 45010 misc optional ros-humble-autoware-motion-velocity-obstacle-slow-down-module_0-2025.07.05.15.01_amd64.buildinfo
+ d77fde734bb4a6f62db434a536361139 200576 misc optional ros-humble-autoware-motion-velocity-obstacle-slow-down-module_0-2025.07.05.15.01_amd64.deb

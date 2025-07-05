@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module
+Binary: ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.14.48
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime Clement <maxime.clement@tier4.jp>
+Changed-By: Maxime Clement <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module - dynamic_obstacle_stop module to stop ego when in the immediate pa
+Changes:
+ ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module (0-2025.07.05.14.48) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * fix(pred_path_checker,dyn_obstacle_stop): use output of removeOverlaps (#10375 <https://github.com/autowarefoundation/autoware_universe/issues/10375>)
+   * chore(motion_velocity_planner): move common and node packages to core (#10367 <https://github.com/autowarefoundation/autoware_universe/issues/10367>)
+   * Contributors: Maxime CLEMENT, Ryohsuke Mitsudome
+Checksums-Sha1:
+ 19df497cf4f38d34973f7c9067a1abfe6532a552 4438972 ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module-dbgsym_0-2025.07.05.14.48_amd64.ddeb
+ c982bb785691dcdaa3dfffb03f88a1464ab26daf 44957 ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module_0-2025.07.05.14.48_amd64.buildinfo
+ f6ab36e23fc7f8e5c16f33e20bbee446f7113257 145392 ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module_0-2025.07.05.14.48_amd64.deb
+Checksums-Sha256:
+ 25f472dbf0623d625960e051086c93fa986655618d73970a1c8c1a51e8b78ab5 4438972 ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module-dbgsym_0-2025.07.05.14.48_amd64.ddeb
+ 112f1c53b2cbc832eb90d20a828c3d8ab39ebf6f256c99b861bd443aeb6ed406 44957 ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module_0-2025.07.05.14.48_amd64.buildinfo
+ d2f099070c898f7ac018e07a01c77e7db9806eb205c840c711b00b1e70da4687 145392 ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module_0-2025.07.05.14.48_amd64.deb
+Files:
+ 749b8499f626ba1e4b632851ad7a6e23 4438972 debug optional ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module-dbgsym_0-2025.07.05.14.48_amd64.ddeb
+ 12628cbea3fd2726e71a67d506ebaac8 44957 misc optional ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module_0-2025.07.05.14.48_amd64.buildinfo
+ 98a64750c330537e6c65c4cbe95afcd9 145392 misc optional ros-humble-autoware-motion-velocity-dynamic-obstacle-stop-module_0-2025.07.05.14.48_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-hazard-status-converter
+Binary: ros-humble-autoware-hazard-status-converter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.00.39
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-hazard-status-converter - The autoware_hazard_status_converter package
+Changes:
+ ros-humble-autoware-hazard-status-converter (0-2025.07.05.00.39) jammy; urgency=high
+Checksums-Sha1:
+ 4d924a4bbca3f76d6f46e756e1187482828b1968 2524256 ros-humble-autoware-hazard-status-converter-dbgsym_0-2025.07.05.00.39_amd64.ddeb
+ 0f5013ecbc3e6bf5f47ebafa659c8d87504e3570 41726 ros-humble-autoware-hazard-status-converter_0-2025.07.05.00.39_amd64.buildinfo
+ 1567ed514941acf725021a464b351f30d3b581d1 123524 ros-humble-autoware-hazard-status-converter_0-2025.07.05.00.39_amd64.deb
+Checksums-Sha256:
+ 3697108a8fdb5ac52cdb45fbec118fc9c6b9ba4e1403a8a382d91fe873c71bb4 2524256 ros-humble-autoware-hazard-status-converter-dbgsym_0-2025.07.05.00.39_amd64.ddeb
+ 189661585d37d02db143d55c631f69b51ace5e3723c3a27bb3261db10a2d19bb 41726 ros-humble-autoware-hazard-status-converter_0-2025.07.05.00.39_amd64.buildinfo
+ b4cc2a98338354bc2f4dfe2bf1dec0c52f169651fbbb90549900ec736e087d55 123524 ros-humble-autoware-hazard-status-converter_0-2025.07.05.00.39_amd64.deb
+Files:
+ f2572a69bb584264cf66ae9436f4d2ad 2524256 debug optional ros-humble-autoware-hazard-status-converter-dbgsym_0-2025.07.05.00.39_amd64.ddeb
+ c1b13327663cfe5508f7bb5a7312eaca 41726 misc optional ros-humble-autoware-hazard-status-converter_0-2025.07.05.00.39_amd64.buildinfo
+ ba2bcc65d1b3b562a0087f199a3dbc36 123524 misc optional ros-humble-autoware-hazard-status-converter_0-2025.07.05.00.39_amd64.deb

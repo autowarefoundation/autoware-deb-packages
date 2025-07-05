@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-interpolation
+Binary: ros-humble-autoware-interpolation
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.21.58
+Distribution: jammy
+Urgency: high
+Maintainer: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Changed-By: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Description:
+ ros-humble-autoware-interpolation - The spline interpolation package
+Changes:
+ ros-humble-autoware-interpolation (1.0.0-73-g3d059fa8-2025.07.04.21.58) jammy; urgency=high
+ .
+   * refactor(interpolation): use autoware_utils_* instead of autoware_utils (#382 <https://github.com/autowarefoundation/autoware_core/issues/382>)
+     feat(interpolation): use split autoware utils
+   * fix(autoware_path_optimizer): incorrect application of input velocity due to badly mapping output trajectory to input trajectory (#355 <https://github.com/autowarefoundation/autoware_core/issues/355>)
+     * changes to avoid improper mapping
+     * Update common/autoware_motion_utils/include/autoware/motion_utils/trajectory/trajectory.hpp
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * Contributors: Arjun Jagdish Ram, Takagi, Isamu
+Checksums-Sha1:
+ a8273234e9396666ea1d8c7c703f23257ceb0df8 736822 ros-humble-autoware-interpolation-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.21.58_amd64.ddeb
+ 30724e7c10aed9980d577fe446668e67423515f2 17901 ros-humble-autoware-interpolation_1.0.0-73-g3d059fa8-2025.07.04.21.58_amd64.buildinfo
+ 7485432aaebfe179d8bc5aefe0d9d461e927a157 30468 ros-humble-autoware-interpolation_1.0.0-73-g3d059fa8-2025.07.04.21.58_amd64.deb
+Checksums-Sha256:
+ 217d2ec71e71406cc9033d88dab72fe1d6196f3821db8c07296b5a65872c895d 736822 ros-humble-autoware-interpolation-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.21.58_amd64.ddeb
+ 80b651e1198ee28f1d1d380b7c707e487d4df338b600a35a020a565d373c78ca 17901 ros-humble-autoware-interpolation_1.0.0-73-g3d059fa8-2025.07.04.21.58_amd64.buildinfo
+ 477012411058f8241e6af554ab4b77ade78d6478eb72b79244d52b661458c3a3 30468 ros-humble-autoware-interpolation_1.0.0-73-g3d059fa8-2025.07.04.21.58_amd64.deb
+Files:
+ db5f76bb128d8667d9db866e911ef8d5 736822 debug optional ros-humble-autoware-interpolation-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.21.58_amd64.ddeb
+ 86374173b77bd1a6f79d693aff66d205 17901 misc optional ros-humble-autoware-interpolation_1.0.0-73-g3d059fa8-2025.07.04.21.58_amd64.buildinfo
+ 1c24f70981ca6d03add596966c31b89e 30468 misc optional ros-humble-autoware-interpolation_1.0.0-73-g3d059fa8-2025.07.04.21.58_amd64.deb

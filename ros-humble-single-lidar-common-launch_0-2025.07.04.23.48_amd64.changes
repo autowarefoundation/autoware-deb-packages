@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-single-lidar-common-launch
+Binary: ros-humble-single-lidar-common-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.23.48
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-single-lidar-common-launch - The single_lidar_common_launch package
+Changes:
+ ros-humble-single-lidar-common-launch (0-2025.07.04.23.48) jammy; urgency=high
+ .
+   * chore: set all versions to 0.43.0 (#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>)
+   * feat(*_launch): move here (#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>)
+   * Contributors: Mete Fatih Cırıt
+   * chore: set all versions to 0.43.0 (#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>)
+   * feat(*_launch): move here (#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>)
+   * Contributors: Mete Fatih Cırıt
+Checksums-Sha1:
+ fbcb66ecf6c58a4dc43dd3c3fbffbbbb6bda4f6e 10643 ros-humble-single-lidar-common-launch_0-2025.07.04.23.48_amd64.buildinfo
+ c04174a2bab0e3136d15010bfcb69f2958c4ba65 9504 ros-humble-single-lidar-common-launch_0-2025.07.04.23.48_amd64.deb
+Checksums-Sha256:
+ b7abe5ee75d7ff3239cf26a09c084c029ba5e3408405e458dc917d466b09452f 10643 ros-humble-single-lidar-common-launch_0-2025.07.04.23.48_amd64.buildinfo
+ fbf172d1d897a42c52344d79edb2e74cd6f43ad142bb4dbedb9dfb99cbd7b01b 9504 ros-humble-single-lidar-common-launch_0-2025.07.04.23.48_amd64.deb
+Files:
+ e819196c39c1f4f2fa8c237c39749b86 10643 misc optional ros-humble-single-lidar-common-launch_0-2025.07.04.23.48_amd64.buildinfo
+ 70d7b55f8ced0fed77068ac4ebc5fee5 9504 misc optional ros-humble-single-lidar-common-launch_0-2025.07.04.23.48_amd64.deb

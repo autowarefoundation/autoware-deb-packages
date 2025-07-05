@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-object-velocity-splitter
+Binary: ros-humble-autoware-object-velocity-splitter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.01.51
+Distribution: jammy
+Urgency: high
+Maintainer: Sathshi Tanaka <satoshi.tanaka@tier4.jp>
+Changed-By: Sathshi Tanaka <satoshi.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-object-velocity-splitter - autoware_object_velocity_splitter
+Changes:
+ ros-humble-autoware-object-velocity-splitter (0-2025.07.05.01.51) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * chore(perception): code owner revision (#10358 <https://github.com/autowarefoundation/autoware_universe/issues/10358>)
+     * feat: add Masato Saeki and Taekjin Lee as maintainer to multiple package.xml files
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Ryohsuke Mitsudome, Taekjin LEE
+Checksums-Sha1:
+ b5a568e16655bfeee6c43550996bcc2f52ece4ef 2454122 ros-humble-autoware-object-velocity-splitter-dbgsym_0-2025.07.05.01.51_amd64.ddeb
+ d7f0e528c766b2b3b15227dbd17fd12c9d06dc53 41336 ros-humble-autoware-object-velocity-splitter_0-2025.07.05.01.51_amd64.buildinfo
+ e4f8c5776311dc99cf39c3813b836514d84cf17a 123038 ros-humble-autoware-object-velocity-splitter_0-2025.07.05.01.51_amd64.deb
+Checksums-Sha256:
+ 1f395ff3efc179a3037a624400cf41921d7aa07d6ab1aeac1f2fc63e8309c39a 2454122 ros-humble-autoware-object-velocity-splitter-dbgsym_0-2025.07.05.01.51_amd64.ddeb
+ 1180966348eea7eb0252a92413ddc84a6244217bb4a9f8254190efae44c333c2 41336 ros-humble-autoware-object-velocity-splitter_0-2025.07.05.01.51_amd64.buildinfo
+ 76a558cafe1574383f1c747f0a22413bf00fe507e97e3561626a0fa2f5fb4075 123038 ros-humble-autoware-object-velocity-splitter_0-2025.07.05.01.51_amd64.deb
+Files:
+ a2b02446449c2068afd045a911d13339 2454122 debug optional ros-humble-autoware-object-velocity-splitter-dbgsym_0-2025.07.05.01.51_amd64.ddeb
+ cb1e3442f8f7436d6d5dda204cd6dd45 41336 misc optional ros-humble-autoware-object-velocity-splitter_0-2025.07.05.01.51_amd64.buildinfo
+ eb320e10fcba37204235ef991ef78942 123038 misc optional ros-humble-autoware-object-velocity-splitter_0-2025.07.05.01.51_amd64.deb

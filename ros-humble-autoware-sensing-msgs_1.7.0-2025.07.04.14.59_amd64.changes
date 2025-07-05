@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 21 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-sensing-msgs
+Binary: ros-humble-autoware-sensing-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.7.0-2025.07.04.14.59
+Distribution: jammy
+Urgency: high
+Maintainer: Yutaka Kondo <yutaka.kondo@tier4.jp>
+Changed-By: Yutaka Kondo <yutaka.kondo@tier4.jp>
+Description:
+ ros-humble-autoware-sensing-msgs - Autoware sensing messages package.
+Changes:
+ ros-humble-autoware-sensing-msgs (1.7.0-2025.07.04.14.59) jammy; urgency=high
+ .
+   * feat(autoware_sensing_msgs): implement the proposed universal radar messages (#120 <https://github.com/autowarefoundation/autoware_msgs/issues/120>)
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     Co-authored-by: Mete Fatih Cırıt <mailto:xmfcx@users.noreply.github.com>
+   * Contributors: Kenzo Lobos Tsunekawa
+Checksums-Sha1:
+ 193342810cd25b57e42a33834720fcaab15634d1 680084 ros-humble-autoware-sensing-msgs-dbgsym_1.7.0-2025.07.04.14.59_amd64.ddeb
+ 1f1901f79d61822c9c2350173a4940aaabebf3a2 14825 ros-humble-autoware-sensing-msgs_1.7.0-2025.07.04.14.59_amd64.buildinfo
+ fdf5d9408c5d258d3797f9f8d34e33554f424d72 106670 ros-humble-autoware-sensing-msgs_1.7.0-2025.07.04.14.59_amd64.deb
+Checksums-Sha256:
+ b70993bbf2ee7b5b014023f2d588d1a93796d34de3780791026d92a75e519ac5 680084 ros-humble-autoware-sensing-msgs-dbgsym_1.7.0-2025.07.04.14.59_amd64.ddeb
+ 33f8192343c17b045ddc426565a45067ebc49a8e3a289039a201869a66071c42 14825 ros-humble-autoware-sensing-msgs_1.7.0-2025.07.04.14.59_amd64.buildinfo
+ 8ce8ee719fd1287d22f289c1f34832f17cc1de0ecadaabcbfed83f2539560e53 106670 ros-humble-autoware-sensing-msgs_1.7.0-2025.07.04.14.59_amd64.deb
+Files:
+ 6fb0c293ad22c67fd3210b94840427d2 680084 debug optional ros-humble-autoware-sensing-msgs-dbgsym_1.7.0-2025.07.04.14.59_amd64.ddeb
+ 483761fdc796318601b113d7331e0b0d 14825 misc optional ros-humble-autoware-sensing-msgs_1.7.0-2025.07.04.14.59_amd64.buildinfo
+ 0fb52b97388029006bf5b1640699eccf 106670 misc optional ros-humble-autoware-sensing-msgs_1.7.0-2025.07.04.14.59_amd64.deb

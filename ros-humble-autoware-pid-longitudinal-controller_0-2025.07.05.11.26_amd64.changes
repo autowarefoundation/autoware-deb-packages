@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-pid-longitudinal-controller
+Binary: ros-humble-autoware-pid-longitudinal-controller
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.11.26
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-pid-longitudinal-controller - PID-based longitudinal controller
+Changes:
+ ros-humble-autoware-pid-longitudinal-controller (0-2025.07.05.11.26) jammy; urgency=high
+Checksums-Sha1:
+ 0da046b2aac726ba6a0a01a6e2cf88fc141d43ea 1516902 ros-humble-autoware-pid-longitudinal-controller-dbgsym_0-2025.07.05.11.26_amd64.ddeb
+ aa262450c7f50e593fd512f66392e822e10ebb7f 42195 ros-humble-autoware-pid-longitudinal-controller_0-2025.07.05.11.26_amd64.buildinfo
+ 5056cae01241a065ac09af07cedf5679603fe541 109692 ros-humble-autoware-pid-longitudinal-controller_0-2025.07.05.11.26_amd64.deb
+Checksums-Sha256:
+ 8735efe11574317d7ad47a96369e4a4efcd9f2f0daaf2554c74baa193616f312 1516902 ros-humble-autoware-pid-longitudinal-controller-dbgsym_0-2025.07.05.11.26_amd64.ddeb
+ 14656a9e3b0f445a3b0d8bff5b2f1f0a10586797dc9912320a3faf839e9a2ecd 42195 ros-humble-autoware-pid-longitudinal-controller_0-2025.07.05.11.26_amd64.buildinfo
+ fa87071ee6f6f5a2a79d2d7abad67bfd1df9411f4878eefb9db16bb4ea262ae3 109692 ros-humble-autoware-pid-longitudinal-controller_0-2025.07.05.11.26_amd64.deb
+Files:
+ b9b82f371b3af07c73edd7c3bfc5ecd4 1516902 debug optional ros-humble-autoware-pid-longitudinal-controller-dbgsym_0-2025.07.05.11.26_amd64.ddeb
+ fe69cce64e40d575d9f9d8498d86a24c 42195 misc optional ros-humble-autoware-pid-longitudinal-controller_0-2025.07.05.11.26_amd64.buildinfo
+ 1f773388ea24feb31fafcae8d144138d 109692 misc optional ros-humble-autoware-pid-longitudinal-controller_0-2025.07.05.11.26_amd64.deb

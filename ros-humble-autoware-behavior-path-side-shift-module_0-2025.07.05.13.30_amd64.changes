@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-path-side-shift-module
+Binary: ros-humble-autoware-behavior-path-side-shift-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.13.30
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-path-side-shift-module - The autoware_behavior_path_side_shift_module package
+Changes:
+ ros-humble-autoware-behavior-path-side-shift-module (0-2025.07.05.13.30) jammy; urgency=high
+Checksums-Sha1:
+ b456f0e70b848080761fd3dc1759a340c208f8b8 2983582 ros-humble-autoware-behavior-path-side-shift-module-dbgsym_0-2025.07.05.13.30_amd64.ddeb
+ 280931e67b2d990ca3af65538be74ca9051ab1b7 49986 ros-humble-autoware-behavior-path-side-shift-module_0-2025.07.05.13.30_amd64.buildinfo
+ 7ad068a9bb6504681020f7b91aa2b432db4a32ff 62876 ros-humble-autoware-behavior-path-side-shift-module_0-2025.07.05.13.30_amd64.deb
+Checksums-Sha256:
+ a44b107e94b6f8dd5012a72e8f4cfcac4e7a581c93cb3cc4a2ffbe6595b637d9 2983582 ros-humble-autoware-behavior-path-side-shift-module-dbgsym_0-2025.07.05.13.30_amd64.ddeb
+ 552d57bc7da35aec5e2426408da9074bcd43117c1d6b5cb05e7191d35b0d71cd 49986 ros-humble-autoware-behavior-path-side-shift-module_0-2025.07.05.13.30_amd64.buildinfo
+ da20065aee0c998a2d87b78f084db8c13158265db1e254bf63080bd736b87b45 62876 ros-humble-autoware-behavior-path-side-shift-module_0-2025.07.05.13.30_amd64.deb
+Files:
+ 3f6c7d089b84b5e8911c5c039874ae14 2983582 debug optional ros-humble-autoware-behavior-path-side-shift-module-dbgsym_0-2025.07.05.13.30_amd64.ddeb
+ 4a3bf81311269e6a0228aaaac9390964 49986 misc optional ros-humble-autoware-behavior-path-side-shift-module_0-2025.07.05.13.30_amd64.buildinfo
+ 40ca71dcd9b1268fb681ac8833519212 62876 misc optional ros-humble-autoware-behavior-path-side-shift-module_0-2025.07.05.13.30_amd64.deb

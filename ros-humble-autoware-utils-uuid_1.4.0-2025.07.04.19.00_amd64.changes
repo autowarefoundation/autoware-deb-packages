@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Tue, 22 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-utils-uuid
+Binary: ros-humble-autoware-utils-uuid
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.4.0-2025.07.04.19.00
+Distribution: jammy
+Urgency: high
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Changed-By: Jian Kang <egon.kang@autocore.ai>
+Description:
+ ros-humble-autoware-utils-uuid - The autoware_utils_uuid package
+Changes:
+ ros-humble-autoware-utils-uuid (1.4.0-2025.07.04.19.00) jammy; urgency=high
+Checksums-Sha1:
+ 26a6dfec4ee18e87477f39b7218186ad799135fe 13644 ros-humble-autoware-utils-uuid_1.4.0-2025.07.04.19.00_amd64.buildinfo
+ b84d0cc967a7ba1c76b282bfcf10747e9d8295d4 7360 ros-humble-autoware-utils-uuid_1.4.0-2025.07.04.19.00_amd64.deb
+Checksums-Sha256:
+ 9a8f1fb5735066a0ce199c631f89e0d5b8b6ebb2bba853aff78cc8df951b32cb 13644 ros-humble-autoware-utils-uuid_1.4.0-2025.07.04.19.00_amd64.buildinfo
+ 65caf6e64bd392147b0a88657266b878aeeaae47302c61af31a7fbaa0584d0c4 7360 ros-humble-autoware-utils-uuid_1.4.0-2025.07.04.19.00_amd64.deb
+Files:
+ f7a05dbe30cc01a4886cad3ace0a208d 13644 misc optional ros-humble-autoware-utils-uuid_1.4.0-2025.07.04.19.00_amd64.buildinfo
+ f34e3669eb7b9fbf7ad53135b3adf459 7360 misc optional ros-humble-autoware-utils-uuid_1.4.0-2025.07.04.19.00_amd64.deb

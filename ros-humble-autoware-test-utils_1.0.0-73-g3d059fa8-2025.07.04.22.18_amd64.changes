@@ -1,0 +1,50 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-test-utils
+Binary: ros-humble-autoware-test-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.22.18
+Distribution: jammy
+Urgency: high
+Maintainer: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Changed-By: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Description:
+ ros-humble-autoware-test-utils - ROS 2 node for testing interface of the nodes in planning module
+Changes:
+ ros-humble-autoware-test-utils (1.0.0-73-g3d059fa8-2025.07.04.22.18) jammy; urgency=high
+ .
+   * test(path_generator): add tests for path cut feature (#268 <https://github.com/autowarefoundation/autoware_core/issues/268>)
+     * add map for test
+     * add overpass map
+     * refactor & enhance base test class
+     * add tests
+     * style(pre-commit): autofix
+     * fix year created
+     Co-authored-by: Kosuke Takeuchi <mailto:kosuke.tnp@gmail.com>
+     * anonymize test map
+     * style(pre-commit): autofix
+     * add test map info to README
+     * style(pre-commit): autofix
+     * make tests work with autoware_trajectory
+     * include necessary header
+     * fix test case
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Kosuke Takeuchi <mailto:kosuke.tnp@gmail.com>
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * chore: include iostream and link yaml-cpp for Jazzy (#351 <https://github.com/autowarefoundation/autoware_core/issues/351>)
+   * Contributors: Mitsuhiro Sakamoto, Tim Clephas
+Checksums-Sha1:
+ 4ae0d683eae5b395f353940883bd222c2591758e 11849190 ros-humble-autoware-test-utils-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.22.18_amd64.ddeb
+ b7cab6f798042f813bd729862c6e1cc11683861d 27895 ros-humble-autoware-test-utils_1.0.0-73-g3d059fa8-2025.07.04.22.18_amd64.buildinfo
+ 7f01a34b1c171b1e0a1fda470936bd60c6b993d4 16741132 ros-humble-autoware-test-utils_1.0.0-73-g3d059fa8-2025.07.04.22.18_amd64.deb
+Checksums-Sha256:
+ 9267dd70bc2aa57e220e8c5e55712a4e39acc679e299b2910ee8686556688685 11849190 ros-humble-autoware-test-utils-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.22.18_amd64.ddeb
+ 2cb777ea4903e5e7378e786b4a249aee20de90c2ce69b7dc30a969e66246155f 27895 ros-humble-autoware-test-utils_1.0.0-73-g3d059fa8-2025.07.04.22.18_amd64.buildinfo
+ 47ab9505be787d24a075db2bbf68fec87eb549c1db8d96d6ac356780c27ae0d3 16741132 ros-humble-autoware-test-utils_1.0.0-73-g3d059fa8-2025.07.04.22.18_amd64.deb
+Files:
+ 83f2745c836b4d2949c279557a95c2a9 11849190 debug optional ros-humble-autoware-test-utils-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.22.18_amd64.ddeb
+ 2c3c9412368f515cd69601b101a5cdd1 27895 misc optional ros-humble-autoware-test-utils_1.0.0-73-g3d059fa8-2025.07.04.22.18_amd64.buildinfo
+ 1e82e1f066c560609fbf12d9fd28a03e 16741132 misc optional ros-humble-autoware-test-utils_1.0.0-73-g3d059fa8-2025.07.04.22.18_amd64.deb

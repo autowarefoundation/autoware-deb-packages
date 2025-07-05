@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Tue, 08 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-cmake
+Binary: ros-humble-autoware-cmake
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.2-2025.07.04.16.08
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-autoware-cmake - CMake scripts for Autoware
+Changes:
+ ros-humble-autoware-cmake (1.0.2-2025.07.04.16.08) jammy; urgency=high
+ .
+   * fix(autoware_package.cmake): workaround to avoid missing tinyxml2::tinyxml2 (#24 <https://github.com/autowarefoundation/autoware_cmake/issues/24>)
+     * add tinyxml2 workaround
+     * move
+     ---------
+   * Contributors: Yutaka Kondo
+Checksums-Sha1:
+ 11ae088ef5f01287731486172ad30c2996b1b075 10599 ros-humble-autoware-cmake_1.0.2-2025.07.04.16.08_amd64.buildinfo
+ 8163624562c8a315f34fa2dddda23f772968faf7 7460 ros-humble-autoware-cmake_1.0.2-2025.07.04.16.08_amd64.deb
+Checksums-Sha256:
+ 2feeb053d7420db4f55661d27fe6154256fc84fdcaf776c74d36c9c17da0310c 10599 ros-humble-autoware-cmake_1.0.2-2025.07.04.16.08_amd64.buildinfo
+ 4dca264a557bea484fbf031506e03b032df2fdf4f693f4bac51d7337450e7305 7460 ros-humble-autoware-cmake_1.0.2-2025.07.04.16.08_amd64.deb
+Files:
+ 0cbfe9baa434b0051f360230f63d6e63 10599 misc optional ros-humble-autoware-cmake_1.0.2-2025.07.04.16.08_amd64.buildinfo
+ ff8e8f2854b3515b1320165896ec1b83 7460 misc optional ros-humble-autoware-cmake_1.0.2-2025.07.04.16.08_amd64.deb

@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-sample-sensor-kit-launch
+Binary: ros-humble-sample-sensor-kit-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.09.36
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-sample-sensor-kit-launch - The sample_sensor_kit_launch package
+Changes:
+ ros-humble-sample-sensor-kit-launch (0-2025.07.05.09.36) jammy; urgency=high
+ .
+   * feat: remove individual_params references (#1403 <https://github.com/autowarefoundation/autoware_launch/issues/1403>)
+   * chore(sensor_kit_launch): remove unused has_static_tf_only param (#1393 <https://github.com/autowarefoundation/autoware_launch/issues/1393>)
+   * chore: set all versions to 0.43.0 (#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>)
+   * feat(*_launch): move here (#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>)
+   * Contributors: Amadeusz Szymko, Mete Fatih Cırıt
+Checksums-Sha1:
+ f3d6fa00465e1ba8bc14af301cf49256e0a76c6d 10636 ros-humble-sample-sensor-kit-launch_0-2025.07.05.09.36_amd64.buildinfo
+ d77f1d82554fdaabd90e2bcba58bf5b56673a432 17030 ros-humble-sample-sensor-kit-launch_0-2025.07.05.09.36_amd64.deb
+Checksums-Sha256:
+ 9d9c25693bd8298e9e89864301b8188f233c6d62cd4f345bf61eb376ddb22014 10636 ros-humble-sample-sensor-kit-launch_0-2025.07.05.09.36_amd64.buildinfo
+ 0c22c5924860289261a075909c8e13f14a5a6de45d35d8c6a5bf9160be2a6b13 17030 ros-humble-sample-sensor-kit-launch_0-2025.07.05.09.36_amd64.deb
+Files:
+ 7ed74842cba7a44b08a89f7d0008afad 10636 misc optional ros-humble-sample-sensor-kit-launch_0-2025.07.05.09.36_amd64.buildinfo
+ 9cc6f2756bed9a38adbc3637d2d63264 17030 misc optional ros-humble-sample-sensor-kit-launch_0-2025.07.05.09.36_amd64.deb

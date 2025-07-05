@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-testing
+Binary: ros-humble-autoware-testing
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.18.42
+Distribution: jammy
+Urgency: high
+Maintainer: Adam Dabrowski <adam.dabrowski@robotec.ai>
+Changed-By: Adam Dabrowski <adam.dabrowski@robotec.ai>
+Description:
+ ros-humble-autoware-testing - Tools for handling standard tests based on ros_testing
+Changes:
+ ros-humble-autoware-testing (1.0.0-73-g3d059fa8-2025.07.04.18.42) jammy; urgency=high
+Checksums-Sha1:
+ 6128a73036bdd9ab89bb1ba3f0d059722f503030 15825 ros-humble-autoware-testing_1.0.0-73-g3d059fa8-2025.07.04.18.42_amd64.buildinfo
+ 176663818350fb9478e638ca25fe3e474c1ac481 7138 ros-humble-autoware-testing_1.0.0-73-g3d059fa8-2025.07.04.18.42_amd64.deb
+Checksums-Sha256:
+ e422ca8be98ee2d693fa3794fd7efc07d7056b93027a91ff01da3cd1aa715d0d 15825 ros-humble-autoware-testing_1.0.0-73-g3d059fa8-2025.07.04.18.42_amd64.buildinfo
+ 724894cdd91883c851e096837511e3d95ff4cb778cc36bf0cace333a57ea28e8 7138 ros-humble-autoware-testing_1.0.0-73-g3d059fa8-2025.07.04.18.42_amd64.deb
+Files:
+ ccfedab2d56f005bc107a347729d478a 15825 misc optional ros-humble-autoware-testing_1.0.0-73-g3d059fa8-2025.07.04.18.42_amd64.buildinfo
+ bc1165d67398950627a982e1a418ae94 7138 misc optional ros-humble-autoware-testing_1.0.0-73-g3d059fa8-2025.07.04.18.42_amd64.deb

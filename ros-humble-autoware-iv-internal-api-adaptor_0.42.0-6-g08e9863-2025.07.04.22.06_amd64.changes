@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 03 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-iv-internal-api-adaptor
+Binary: ros-humble-autoware-iv-internal-api-adaptor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.42.0-6-g08e9863-2025.07.04.22.06
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-iv-internal-api-adaptor - The autoware_iv_internal_api_adaptor package
+Changes:
+ ros-humble-autoware-iv-internal-api-adaptor (0.42.0-6-g08e9863-2025.07.04.22.06) jammy; urgency=high
+ .
+   * feat!: replace tier4_planning_msgs/VelocityLimit to autoware_internal_planning_msgs/VelocityLimit (#136 <https://github.com/tier4/tier4_ad_api_adaptor/issues/136>)
+   * Contributors: Ryohsuke Mitsudome
+Checksums-Sha1:
+ 2e0e2f16025f1d94d96273cc26298ba7e7de9ce3 10849032 ros-humble-autoware-iv-internal-api-adaptor-dbgsym_0.42.0-6-g08e9863-2025.07.04.22.06_amd64.ddeb
+ 89f858d7da7e58e577d5cdbbf634ef965f8893ec 17643 ros-humble-autoware-iv-internal-api-adaptor_0.42.0-6-g08e9863-2025.07.04.22.06_amd64.buildinfo
+ 37fb9b8df43a59213f6e13d5cb9aef90a35839ad 347712 ros-humble-autoware-iv-internal-api-adaptor_0.42.0-6-g08e9863-2025.07.04.22.06_amd64.deb
+Checksums-Sha256:
+ 14c4c740401cc44a54c7fb322f7d8924b9e9525d96415d08e3c09f183472118f 10849032 ros-humble-autoware-iv-internal-api-adaptor-dbgsym_0.42.0-6-g08e9863-2025.07.04.22.06_amd64.ddeb
+ 4d6be92a7988505fed38a9893f65eadccfba33692bf1bb18f2ea2f801991e45a 17643 ros-humble-autoware-iv-internal-api-adaptor_0.42.0-6-g08e9863-2025.07.04.22.06_amd64.buildinfo
+ cf04e10ea706927a026024ec5da00cc772226e719ab309cd726eb30911fdd5d6 347712 ros-humble-autoware-iv-internal-api-adaptor_0.42.0-6-g08e9863-2025.07.04.22.06_amd64.deb
+Files:
+ 86760609cd7fb9cda51b453aee180dde 10849032 debug optional ros-humble-autoware-iv-internal-api-adaptor-dbgsym_0.42.0-6-g08e9863-2025.07.04.22.06_amd64.ddeb
+ e2ce7e56848200e41400c633118160dd 17643 misc optional ros-humble-autoware-iv-internal-api-adaptor_0.42.0-6-g08e9863-2025.07.04.22.06_amd64.buildinfo
+ 01c906607a6589cc7a5a4b3358ce49ba 347712 misc optional ros-humble-autoware-iv-internal-api-adaptor_0.42.0-6-g08e9863-2025.07.04.22.06_amd64.deb

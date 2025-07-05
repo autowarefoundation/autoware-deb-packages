@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-obstacle-cruise-planner
+Binary: ros-humble-autoware-obstacle-cruise-planner
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.07.22
+Distribution: jammy
+Urgency: high
+Maintainer: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Changed-By: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Description:
+ ros-humble-autoware-obstacle-cruise-planner - The autoware_obstacle_cruise_planner package
+Changes:
+ ros-humble-autoware-obstacle-cruise-planner (0-2025.07.05.07.22) jammy; urgency=high
+Checksums-Sha1:
+ d2d35665fa49c4aa3ecef56dce99359f867346ba 16128144 ros-humble-autoware-obstacle-cruise-planner-dbgsym_0-2025.07.05.07.22_amd64.ddeb
+ 19009a86c31aad956f9b4b6575b0b5dd23dee552 44120 ros-humble-autoware-obstacle-cruise-planner_0-2025.07.05.07.22_amd64.buildinfo
+ 473cb9e8c46da911cf7cf557567843312eacced8 567666 ros-humble-autoware-obstacle-cruise-planner_0-2025.07.05.07.22_amd64.deb
+Checksums-Sha256:
+ 34efa00222a4292bfc40298cc28933807fb97bc37a9b7cfe6f9c7de8507feac9 16128144 ros-humble-autoware-obstacle-cruise-planner-dbgsym_0-2025.07.05.07.22_amd64.ddeb
+ 34e197ebbe170a07f69f287f8b53fbc9b3b94bec92d0de96e24ff9c48aee7f46 44120 ros-humble-autoware-obstacle-cruise-planner_0-2025.07.05.07.22_amd64.buildinfo
+ f1eb7416e82dd0bf5ee6271606703e2a4ff1963f3ce35ead89e2de8c448b4f7f 567666 ros-humble-autoware-obstacle-cruise-planner_0-2025.07.05.07.22_amd64.deb
+Files:
+ ca1131337c0fbb6e8941a50ad6c2f537 16128144 debug optional ros-humble-autoware-obstacle-cruise-planner-dbgsym_0-2025.07.05.07.22_amd64.ddeb
+ 08beb5a1a0cdf7180f7bac56dad08a41 44120 misc optional ros-humble-autoware-obstacle-cruise-planner_0-2025.07.05.07.22_amd64.buildinfo
+ bfff296132eaaaf58c06fa50c2f3c10e 567666 misc optional ros-humble-autoware-obstacle-cruise-planner_0-2025.07.05.07.22_amd64.deb

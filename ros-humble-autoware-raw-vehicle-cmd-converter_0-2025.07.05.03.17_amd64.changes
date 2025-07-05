@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-raw-vehicle-cmd-converter
+Binary: ros-humble-autoware-raw-vehicle-cmd-converter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.03.17
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-raw-vehicle-cmd-converter - The autoware_raw_vehicle_cmd_converter package
+Changes:
+ ros-humble-autoware-raw-vehicle-cmd-converter (0-2025.07.05.03.17) jammy; urgency=high
+Checksums-Sha1:
+ b3d246695faa5d27f8136c220fb6b2212a9b884d 7550372 ros-humble-autoware-raw-vehicle-cmd-converter-dbgsym_0-2025.07.05.03.17_amd64.ddeb
+ b8f89191f64291e097f8437772988298233a55aa 41893 ros-humble-autoware-raw-vehicle-cmd-converter_0-2025.07.05.03.17_amd64.buildinfo
+ 9fa59c61586f419f7c6ac1a07955599dfc1f9e0a 283288 ros-humble-autoware-raw-vehicle-cmd-converter_0-2025.07.05.03.17_amd64.deb
+Checksums-Sha256:
+ 1e5ffc1a77333407616b6dec2932f216d527e83ff237407b33024583595952fb 7550372 ros-humble-autoware-raw-vehicle-cmd-converter-dbgsym_0-2025.07.05.03.17_amd64.ddeb
+ 6127b48d399d53d1d7348611c6d36d9c4e967aa2ff158910ddb54e7567051572 41893 ros-humble-autoware-raw-vehicle-cmd-converter_0-2025.07.05.03.17_amd64.buildinfo
+ 4a787be76a0aa82fe7737d6e1478ac4ab68687aad27e7b8372a793913c3faa1b 283288 ros-humble-autoware-raw-vehicle-cmd-converter_0-2025.07.05.03.17_amd64.deb
+Files:
+ 41c7da8caed12b393e6d26ac9f7005da 7550372 debug optional ros-humble-autoware-raw-vehicle-cmd-converter-dbgsym_0-2025.07.05.03.17_amd64.ddeb
+ d77d51aa229654574f594d301ba7545b 41893 misc optional ros-humble-autoware-raw-vehicle-cmd-converter_0-2025.07.05.03.17_amd64.buildinfo
+ 66d28301cb4a296f9cdaf2e954db086b 283288 misc optional ros-humble-autoware-raw-vehicle-cmd-converter_0-2025.07.05.03.17_amd64.deb

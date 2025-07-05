@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-pcl-extensions
+Binary: ros-humble-autoware-pcl-extensions
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.18.00
+Distribution: jammy
+Urgency: high
+Maintainer: Ryu Yamamoto <ryu.yamamoto@tier4.jp>
+Changed-By: Ryu Yamamoto <ryu.yamamoto@tier4.jp>
+Description:
+ ros-humble-autoware-pcl-extensions - The autoware_pcl_extensions package
+Changes:
+ ros-humble-autoware-pcl-extensions (0-2025.07.04.18.00) jammy; urgency=high
+Checksums-Sha1:
+ 2dbb95b0fa58ee2ac13b0049f101af897f8b065c 5340174 ros-humble-autoware-pcl-extensions-dbgsym_0-2025.07.04.18.00_amd64.ddeb
+ 17fd8b04afd03eb614aa71bd41634ff47e70f0b7 34183 ros-humble-autoware-pcl-extensions_0-2025.07.04.18.00_amd64.buildinfo
+ 6459779628bdbc6dee0a2c41a581c9fe5e0b1e6e 121344 ros-humble-autoware-pcl-extensions_0-2025.07.04.18.00_amd64.deb
+Checksums-Sha256:
+ 054a0d46fdf80a8ba8f4510dddd7a674da4988e6f0cb60b7af4aa4bfef9a48b0 5340174 ros-humble-autoware-pcl-extensions-dbgsym_0-2025.07.04.18.00_amd64.ddeb
+ 08ccb53243de7f14fe50a82b56c5ef457155eb3ded660e399c81e1ddee35b4b3 34183 ros-humble-autoware-pcl-extensions_0-2025.07.04.18.00_amd64.buildinfo
+ 7ffac1dd97a39c3b3e565817ae1da8770ae81641863f04de8f1b1e4262cc4023 121344 ros-humble-autoware-pcl-extensions_0-2025.07.04.18.00_amd64.deb
+Files:
+ beb67ff14c0dede7b2ea82c7f1c0f2cb 5340174 debug optional ros-humble-autoware-pcl-extensions-dbgsym_0-2025.07.04.18.00_amd64.ddeb
+ a680fb3157a7cd81978996304b0359f2 34183 misc optional ros-humble-autoware-pcl-extensions_0-2025.07.04.18.00_amd64.buildinfo
+ 7b18ac59b0b39b52222a284e5dd0bb36 121344 misc optional ros-humble-autoware-pcl-extensions_0-2025.07.04.18.00_amd64.deb

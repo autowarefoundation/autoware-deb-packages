@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-virtual-traffic-light-module
+Binary: ros-humble-autoware-behavior-velocity-virtual-traffic-light-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.14.40
+Distribution: jammy
+Urgency: high
+Maintainer: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Changed-By: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-virtual-traffic-light-module - The autoware_behavior_velocity_virtual_traffic_light_module packa
+Changes:
+ ros-humble-autoware-behavior-velocity-virtual-traffic-light-module (0-2025.07.05.14.40) jammy; urgency=high
+Checksums-Sha1:
+ 9b37a8291e2af987cad1535b93ca2ed511062a00 6377502 ros-humble-autoware-behavior-velocity-virtual-traffic-light-module-dbgsym_0-2025.07.05.14.40_amd64.ddeb
+ 60571d34764b7aac5b5a5b8c513865bb0bf4a92f 45056 ros-humble-autoware-behavior-velocity-virtual-traffic-light-module_0-2025.07.05.14.40_amd64.buildinfo
+ 995fd1c99298a7ecd6c00de404ad7f85ce60eaad 210622 ros-humble-autoware-behavior-velocity-virtual-traffic-light-module_0-2025.07.05.14.40_amd64.deb
+Checksums-Sha256:
+ 61c3e5e3e3b7fc65f3db1cb1240e617a504e40772dc34eeeffe8019711dad856 6377502 ros-humble-autoware-behavior-velocity-virtual-traffic-light-module-dbgsym_0-2025.07.05.14.40_amd64.ddeb
+ 7ae531a2d654195d9a36c10eee7f32b34eeba06c2b54b6d35d9c75100b554345 45056 ros-humble-autoware-behavior-velocity-virtual-traffic-light-module_0-2025.07.05.14.40_amd64.buildinfo
+ 38c1b868c351e0384f1781ff1619d44b850e53cb8741de8f8fc87446386b5bef 210622 ros-humble-autoware-behavior-velocity-virtual-traffic-light-module_0-2025.07.05.14.40_amd64.deb
+Files:
+ b10504244c8c4edf8049d1238b50ff04 6377502 debug optional ros-humble-autoware-behavior-velocity-virtual-traffic-light-module-dbgsym_0-2025.07.05.14.40_amd64.ddeb
+ 3be7c7d43498a65c4b4f6ccd641e85c3 45056 misc optional ros-humble-autoware-behavior-velocity-virtual-traffic-light-module_0-2025.07.05.14.40_amd64.buildinfo
+ 2ecaa3a7fc1b66dd83a4e1b3520892da 210622 misc optional ros-humble-autoware-behavior-velocity-virtual-traffic-light-module_0-2025.07.05.14.40_amd64.deb

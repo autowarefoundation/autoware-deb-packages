@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-default-adapi
+Binary: ros-humble-autoware-default-adapi
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.10.52
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-default-adapi - The autoware_default_adapi package
+Changes:
+ ros-humble-autoware-default-adapi (0-2025.07.05.10.52) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * fix: add missing exec_depend (#10404 <https://github.com/autowarefoundation/autoware_universe/issues/10404>)
+     * fix missing exec depend
+     * remove fixed depend
+     * remove the removed dependency
+     ---------
+   * feat(autoware_default_adapi): release adapi v1.8.0 (#10380 <https://github.com/autowarefoundation/autoware_universe/issues/10380>)
+   * feat: manual control (#10354 <https://github.com/autowarefoundation/autoware_universe/issues/10354>)
+     * feat(default_adapi): add manual control
+     * add conversion
+     * update selector
+     * update selector depends
+     * update converter
+     * modify heartbeat name
+     * update launch
+     * update api
+     * fix pedal callback
+     * done todo
+     * apply message rename
+     * fix test
+     * fix message type and qos
+     * fix steering_tire_velocity
+     * fix for clang-tidy
+     ---------
+   * feat(autoware_default_adapi): disable sample web server (#10327 <https://github.com/autowarefoundation/autoware_universe/issues/10327>)
+     * feat(autoware_default_adapi): disable sample web server
+     * fix unused inport
+     ---------
+   * feat(autoware_default_adapi): log autoware state change (#10364 <https://github.com/autowarefoundation/autoware_universe/issues/10364>)
+   * Contributors: Ryohsuke Mitsudome, Takagi, Isamu
+Checksums-Sha1:
+ c730ab202686cb86161babf72f60ccaec5f7c6b6 39352548 ros-humble-autoware-default-adapi-dbgsym_0-2025.07.05.10.52_amd64.ddeb
+ 463f6123b6b9497bd8b89eeb3034dca4f81b7dd6 44163 ros-humble-autoware-default-adapi_0-2025.07.05.10.52_amd64.buildinfo
+ 6d1a568445669593f47d1733d4aba790f7695643 1005588 ros-humble-autoware-default-adapi_0-2025.07.05.10.52_amd64.deb
+Checksums-Sha256:
+ 43f711dbc4715faf881bd2bcdbb459579bb4d90dff3fec0274b89f54d7f7050c 39352548 ros-humble-autoware-default-adapi-dbgsym_0-2025.07.05.10.52_amd64.ddeb
+ a423160aa66500fd4aa3930db6b13b10852227beff014bd3e8647c90271330f2 44163 ros-humble-autoware-default-adapi_0-2025.07.05.10.52_amd64.buildinfo
+ fa715ff663fa1cee06830b47fdd88417615df53ad14e4ab3fa0c64a2e5811ed0 1005588 ros-humble-autoware-default-adapi_0-2025.07.05.10.52_amd64.deb
+Files:
+ dc28f4107d9ce6cdbea59b8af9404228 39352548 debug optional ros-humble-autoware-default-adapi-dbgsym_0-2025.07.05.10.52_amd64.ddeb
+ 57170a901f195df4afa23cf63249bc42 44163 misc optional ros-humble-autoware-default-adapi_0-2025.07.05.10.52_amd64.buildinfo
+ 26776e13541114df27a1d74282ee531b 1005588 misc optional ros-humble-autoware-default-adapi_0-2025.07.05.10.52_amd64.deb

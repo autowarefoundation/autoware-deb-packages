@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-vehicle-info-utils
+Binary: ros-humble-autoware-vehicle-info-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.05.04.38
+Distribution: jammy
+Urgency: high
+Maintainer: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Changed-By: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-vehicle-info-utils - The autoware_vehicle_info_utils package
+Changes:
+ ros-humble-autoware-vehicle-info-utils (1.0.0-73-g3d059fa8-2025.07.05.04.38) jammy; urgency=high
+ .
+   * refactor(autoware_vehicle_info_utils): rewrite using modern C++ without API breakage (#343 <https://github.com/autowarefoundation/autoware_core/issues/343>)
+   * Contributors: Yutaka Kondo
+Checksums-Sha1:
+ 87ee3634195758d5ed082a442290e48eb8f14c3d 336356 ros-humble-autoware-vehicle-info-utils-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.04.38_amd64.ddeb
+ d77bebc1265938930f47f728ba6e00bbaf2eb0e4 41395 ros-humble-autoware-vehicle-info-utils_1.0.0-73-g3d059fa8-2025.07.05.04.38_amd64.buildinfo
+ 67f048e96f0b9cfc8bb2dca217274b0298dfd932 22194 ros-humble-autoware-vehicle-info-utils_1.0.0-73-g3d059fa8-2025.07.05.04.38_amd64.deb
+Checksums-Sha256:
+ e917fdf65a07ecfa76cf582cb2bad80e20483852c67ad4dd40ff5eed198ae796 336356 ros-humble-autoware-vehicle-info-utils-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.04.38_amd64.ddeb
+ 4aae1404e2d060aa3fbab87ecdffc3ae2b4aaf650c39fc6708b4c621f7648696 41395 ros-humble-autoware-vehicle-info-utils_1.0.0-73-g3d059fa8-2025.07.05.04.38_amd64.buildinfo
+ 06f074fa4090d3ec12b6373775412283e18ab773148a4478ab8b20459a6be04c 22194 ros-humble-autoware-vehicle-info-utils_1.0.0-73-g3d059fa8-2025.07.05.04.38_amd64.deb
+Files:
+ 0b5fb6dabf01d6b8737d13d3b328d3d0 336356 debug optional ros-humble-autoware-vehicle-info-utils-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.04.38_amd64.ddeb
+ c4e1a978bae6e75cd635d8a544fac72c 41395 misc optional ros-humble-autoware-vehicle-info-utils_1.0.0-73-g3d059fa8-2025.07.05.04.38_amd64.buildinfo
+ 4a3a5b9c5a8e69608fc9549197a42d04 22194 misc optional ros-humble-autoware-vehicle-info-utils_1.0.0-73-g3d059fa8-2025.07.05.04.38_amd64.deb

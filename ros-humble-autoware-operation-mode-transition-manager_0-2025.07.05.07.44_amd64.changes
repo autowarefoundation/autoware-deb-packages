@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-operation-mode-transition-manager
+Binary: ros-humble-autoware-operation-mode-transition-manager
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.07.44
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-operation-mode-transition-manager - The operation_mode_transition_manager package
+Changes:
+ ros-humble-autoware-operation-mode-transition-manager (0-2025.07.05.07.44) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * fix(control): apply THROTTLE to frequent log (#10418 <https://github.com/autowarefoundation/autoware_universe/issues/10418>)
+     * fix(control): apply THROTTLE to frequent log
+     * fix
+     * fix
+     * fix
+     * fix
+     ---------
+   * Contributors: Ryohsuke Mitsudome, Takayuki Murooka
+Checksums-Sha1:
+ 68c1e59bed91e78cc7b63753c30c1fbe2012761b 10011256 ros-humble-autoware-operation-mode-transition-manager-dbgsym_0-2025.07.05.07.44_amd64.ddeb
+ 7b0c52e1984bf1ddb523f6727da85db210015452 42684 ros-humble-autoware-operation-mode-transition-manager_0-2025.07.05.07.44_amd64.buildinfo
+ 8e9821872f4584ef53d23e5c1e4faa034d96517a 370906 ros-humble-autoware-operation-mode-transition-manager_0-2025.07.05.07.44_amd64.deb
+Checksums-Sha256:
+ 41b0b98ad64a77a14c86fe9dd7580229c51171405f43c470c2d184d00bd3081a 10011256 ros-humble-autoware-operation-mode-transition-manager-dbgsym_0-2025.07.05.07.44_amd64.ddeb
+ a6930222d1002ae2128b74d6bb99b30e82a20b971cd28eded5dd4b5bb3605aa1 42684 ros-humble-autoware-operation-mode-transition-manager_0-2025.07.05.07.44_amd64.buildinfo
+ 5b5700d80c282b921167a9f2d410b9539a2a510a729e069a5a4a9dadfa87fc25 370906 ros-humble-autoware-operation-mode-transition-manager_0-2025.07.05.07.44_amd64.deb
+Files:
+ 95147cfb732e233d9569ea9266f78cd2 10011256 debug optional ros-humble-autoware-operation-mode-transition-manager-dbgsym_0-2025.07.05.07.44_amd64.ddeb
+ b441adb311090d01814dbba53090aaeb 42684 misc optional ros-humble-autoware-operation-mode-transition-manager_0-2025.07.05.07.44_amd64.buildinfo
+ 39dcdc798d9271b5f14ca51f8a3266a7 370906 misc optional ros-humble-autoware-operation-mode-transition-manager_0-2025.07.05.07.44_amd64.deb

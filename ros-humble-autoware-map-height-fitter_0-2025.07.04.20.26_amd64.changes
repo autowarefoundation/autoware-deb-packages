@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-map-height-fitter
+Binary: ros-humble-autoware-map-height-fitter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.20.26
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-map-height-fitter - The autoware_map_height_fitter package
+Changes:
+ ros-humble-autoware-map-height-fitter (0-2025.07.04.20.26) jammy; urgency=high
+Checksums-Sha1:
+ cffb8cfd6cd5036e4af4b4855a78b2ca477ff2d5 4798228 ros-humble-autoware-map-height-fitter-dbgsym_0-2025.07.04.20.26_amd64.ddeb
+ 3eece9cc0915c1fc920b9f422cb2caa65ecc4b37 40992 ros-humble-autoware-map-height-fitter_0-2025.07.04.20.26_amd64.buildinfo
+ 0e59b342a3f4d475ed7ea39f845dee01cae77c11 171450 ros-humble-autoware-map-height-fitter_0-2025.07.04.20.26_amd64.deb
+Checksums-Sha256:
+ 3ded6f686a4cf699058e68ddad32d31a1a5f15ab3e5a1b1c993863281006e6e1 4798228 ros-humble-autoware-map-height-fitter-dbgsym_0-2025.07.04.20.26_amd64.ddeb
+ 75d588de089d185b4e5681f1f7c65dc2ca4fd8dea6ef83f13d07bb7fc75bdedd 40992 ros-humble-autoware-map-height-fitter_0-2025.07.04.20.26_amd64.buildinfo
+ c6b717a2d0765d5cfc68cc5b297aab66f7db53828e792c82abac9c3cb5ca6cb9 171450 ros-humble-autoware-map-height-fitter_0-2025.07.04.20.26_amd64.deb
+Files:
+ 78c6c8c731085edd30101af65d6d2586 4798228 debug optional ros-humble-autoware-map-height-fitter-dbgsym_0-2025.07.04.20.26_amd64.ddeb
+ c0fc1dff347c9adc8657c35424ae8a3d 40992 misc optional ros-humble-autoware-map-height-fitter_0-2025.07.04.20.26_amd64.buildinfo
+ fdbfacfbc4bff7136f033ffbc7dcf583 171450 misc optional ros-humble-autoware-map-height-fitter_0-2025.07.04.20.26_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-path-sampling-planner-module
+Binary: ros-humble-autoware-behavior-path-sampling-planner-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.12.03
+Distribution: jammy
+Urgency: high
+Maintainer: Daniel Sanchez <daniel.sanchez@tier4.jp>
+Changed-By: Daniel Sanchez <daniel.sanchez@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-path-sampling-planner-module - The autoware_behavior_path_sampling_planner_module package
+Changes:
+ ros-humble-autoware-behavior-path-sampling-planner-module (0-2025.07.05.12.03) jammy; urgency=high
+Checksums-Sha1:
+ 50b3d25e7897085e8dbc89292163e4c6f10eff58 4579686 ros-humble-autoware-behavior-path-sampling-planner-module-dbgsym_0-2025.07.05.12.03_amd64.ddeb
+ cd9e009facec03d72597cd0c5c6af3affe11e66b 45636 ros-humble-autoware-behavior-path-sampling-planner-module_0-2025.07.05.12.03_amd64.buildinfo
+ 52e6c4141865f968d64bd654ed1b48ecc2e711b9 131386 ros-humble-autoware-behavior-path-sampling-planner-module_0-2025.07.05.12.03_amd64.deb
+Checksums-Sha256:
+ 31e79e24b4b6df41bd1b3f9aaca8ea62ac879fb7b7b4b77f82c75bc5f391a70a 4579686 ros-humble-autoware-behavior-path-sampling-planner-module-dbgsym_0-2025.07.05.12.03_amd64.ddeb
+ a04ea9f938185b94ca7f38690a1debf2480db5c0b9af47b527e96e7a789fb3e8 45636 ros-humble-autoware-behavior-path-sampling-planner-module_0-2025.07.05.12.03_amd64.buildinfo
+ 6df992db11e5e992caddb25493a3cc95ca930de5d2cad3f9ee770ebb6ef078b4 131386 ros-humble-autoware-behavior-path-sampling-planner-module_0-2025.07.05.12.03_amd64.deb
+Files:
+ 9925e2e71c6fc834a6939b1d9ce84ae1 4579686 debug optional ros-humble-autoware-behavior-path-sampling-planner-module-dbgsym_0-2025.07.05.12.03_amd64.ddeb
+ 68e1ce6c0dc6360c7e995f1752d8719a 45636 misc optional ros-humble-autoware-behavior-path-sampling-planner-module_0-2025.07.05.12.03_amd64.buildinfo
+ e58a0da9ce832b771c3a6c393e219af5 131386 misc optional ros-humble-autoware-behavior-path-sampling-planner-module_0-2025.07.05.12.03_amd64.deb

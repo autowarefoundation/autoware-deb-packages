@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 21 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-perception-msgs
+Binary: ros-humble-autoware-perception-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.7.0-2025.07.04.14.56
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-perception-msgs - Autoware perception messages package.
+Changes:
+ ros-humble-autoware-perception-msgs (1.7.0-2025.07.04.14.56) jammy; urgency=high
+ .
+   * feat(autoware_sensing_msgs): implement the proposed universal radar messages (#120 <https://github.com/autowarefoundation/autoware_msgs/issues/120>)
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     Co-authored-by: Mete Fatih Cırıt <mailto:xmfcx@users.noreply.github.com>
+   * Contributors: Kenzo Lobos Tsunekawa
+Checksums-Sha1:
+ a0d3e916239129ed3161c8ed7c7d08fc28b49ff9 1636450 ros-humble-autoware-perception-msgs-dbgsym_1.7.0-2025.07.04.14.56_amd64.ddeb
+ 9f6f1845f01ff97f89902784b3f91bd9c3551fe2 14924 ros-humble-autoware-perception-msgs_1.7.0-2025.07.04.14.56_amd64.buildinfo
+ d1b009436151f3879da2a216dcf76e40fe2ab573 173232 ros-humble-autoware-perception-msgs_1.7.0-2025.07.04.14.56_amd64.deb
+Checksums-Sha256:
+ 2dd67c3ce65ce9467d25e925c0e9c6bbb29ec68fccb13b415900d7dc233e6962 1636450 ros-humble-autoware-perception-msgs-dbgsym_1.7.0-2025.07.04.14.56_amd64.ddeb
+ 45b86c8eaec4d246401934ad5fc542515ca87148828ef8c226b7729a89153f19 14924 ros-humble-autoware-perception-msgs_1.7.0-2025.07.04.14.56_amd64.buildinfo
+ 652120fd51fa9cd23ef20a9ff63c48b7bab98f0a54caf1ae0b2d197aaa8da025 173232 ros-humble-autoware-perception-msgs_1.7.0-2025.07.04.14.56_amd64.deb
+Files:
+ 835be48b97062d04adadb2bfeae43f33 1636450 debug optional ros-humble-autoware-perception-msgs-dbgsym_1.7.0-2025.07.04.14.56_amd64.ddeb
+ 9800bd52a81dc942f09e5ce72fef37e2 14924 misc optional ros-humble-autoware-perception-msgs_1.7.0-2025.07.04.14.56_amd64.buildinfo
+ b4f8688aad354505b7bdd09722a39573 173232 misc optional ros-humble-autoware-perception-msgs_1.7.0-2025.07.04.14.56_amd64.deb

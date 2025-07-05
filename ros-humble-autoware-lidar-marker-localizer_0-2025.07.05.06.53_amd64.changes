@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-lidar-marker-localizer
+Binary: ros-humble-autoware-lidar-marker-localizer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.06.53
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-lidar-marker-localizer - The autoware_lidar_marker_localizer package
+Changes:
+ ros-humble-autoware-lidar-marker-localizer (0-2025.07.05.06.53) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * fix(lidar_marker_localizer): fix typo in launch file (#10405 <https://github.com/autowarefoundation/autoware_universe/issues/10405>)
+     fix typo
+   * Contributors: Ryohsuke Mitsudome, Yamato Ando
+Checksums-Sha1:
+ 2197e7422d2c60e8cdf50802c1e6548e57ded0c0 7624990 ros-humble-autoware-lidar-marker-localizer-dbgsym_0-2025.07.05.06.53_amd64.ddeb
+ 27393dc2d9bfca763f0b8051399e89d1e52d06e0 42927 ros-humble-autoware-lidar-marker-localizer_0-2025.07.05.06.53_amd64.buildinfo
+ 649edce0f080bec3751ebaf8be2c8ca1de8020df 274918 ros-humble-autoware-lidar-marker-localizer_0-2025.07.05.06.53_amd64.deb
+Checksums-Sha256:
+ c907fd4dd30e16172a23a38bdfd5deca4ed1fc7b0468e9fb3ea4e9f9aab0615c 7624990 ros-humble-autoware-lidar-marker-localizer-dbgsym_0-2025.07.05.06.53_amd64.ddeb
+ b4dba3b2a6d5036f2827dd58fd04ee70d2be3e8759ab1a9a19cfe270fdce8312 42927 ros-humble-autoware-lidar-marker-localizer_0-2025.07.05.06.53_amd64.buildinfo
+ 00c9d1f438e183c4b9f4c6bd9a1e92dcb4422be488c1bb35d02530c775070a79 274918 ros-humble-autoware-lidar-marker-localizer_0-2025.07.05.06.53_amd64.deb
+Files:
+ f2ed4898342b8d4152ef795dfcf23c5d 7624990 debug optional ros-humble-autoware-lidar-marker-localizer-dbgsym_0-2025.07.05.06.53_amd64.ddeb
+ a6a389a5f0d861c310a987f4dbf1c536 42927 misc optional ros-humble-autoware-lidar-marker-localizer_0-2025.07.05.06.53_amd64.buildinfo
+ e8007b93b58d85af4191f9df1c5ef292 274918 misc optional ros-humble-autoware-lidar-marker-localizer_0-2025.07.05.06.53_amd64.deb

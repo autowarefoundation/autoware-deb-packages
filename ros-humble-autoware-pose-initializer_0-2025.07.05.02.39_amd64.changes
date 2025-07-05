@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-pose-initializer
+Binary: ros-humble-autoware-pose-initializer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.02.39
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-pose-initializer - The autoware_pose_initializer package
+Changes:
+ ros-humble-autoware-pose-initializer (0-2025.07.05.02.39) jammy; urgency=high
+Checksums-Sha1:
+ 3775f07b8f9f38ee77c6af37acd76ab10ad9ccd3 5269112 ros-humble-autoware-pose-initializer-dbgsym_0-2025.07.05.02.39_amd64.ddeb
+ 599fc0d809dad881f8195e57ac854fc8bf02f4db 43387 ros-humble-autoware-pose-initializer_0-2025.07.05.02.39_amd64.buildinfo
+ 96cadfbbd793cd9a7dc3311e5c5200b3e6321da5 199288 ros-humble-autoware-pose-initializer_0-2025.07.05.02.39_amd64.deb
+Checksums-Sha256:
+ 5a229c025b9787dd3f0de886cd60241e0017809809e69c0eb497fb798de3bac4 5269112 ros-humble-autoware-pose-initializer-dbgsym_0-2025.07.05.02.39_amd64.ddeb
+ edb1baa2ca7002d1d655877c2468d52f22eb299810e724dd8a59cee5d108bcc9 43387 ros-humble-autoware-pose-initializer_0-2025.07.05.02.39_amd64.buildinfo
+ 68d55e109ad72ff33906c2a19feb2a296a951b0e186bdd523162400d3f09e97f 199288 ros-humble-autoware-pose-initializer_0-2025.07.05.02.39_amd64.deb
+Files:
+ f29b96fe6dbab77662da7132edd2a08f 5269112 debug optional ros-humble-autoware-pose-initializer-dbgsym_0-2025.07.05.02.39_amd64.ddeb
+ 036fab0a15a72e324ae082a61edd22b2 43387 misc optional ros-humble-autoware-pose-initializer_0-2025.07.05.02.39_amd64.buildinfo
+ 37dcff319ef7484f13324d75b41284f2 199288 misc optional ros-humble-autoware-pose-initializer_0-2025.07.05.02.39_amd64.deb

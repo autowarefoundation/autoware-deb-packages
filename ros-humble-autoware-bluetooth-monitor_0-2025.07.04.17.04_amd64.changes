@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-bluetooth-monitor
+Binary: ros-humble-autoware-bluetooth-monitor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.17.04
+Distribution: jammy
+Urgency: high
+Maintainer: Fumihito Ito <fumihito.ito@tier4.jp>
+Changed-By: Fumihito Ito <fumihito.ito@tier4.jp>
+Description:
+ ros-humble-autoware-bluetooth-monitor - Bluetooth alive monitoring
+Changes:
+ ros-humble-autoware-bluetooth-monitor (0-2025.07.04.17.04) jammy; urgency=high
+Checksums-Sha1:
+ ec7f3a7aebfe5f5b45575e9ef936728e4ec5247e 3684268 ros-humble-autoware-bluetooth-monitor-dbgsym_0-2025.07.04.17.04_amd64.ddeb
+ 3eb986f87e3dee2487204e2cff02a5c9252c9ad9 16635 ros-humble-autoware-bluetooth-monitor_0-2025.07.04.17.04_amd64.buildinfo
+ 56f773c5c1ce67cddf94442a544e399562b3893d 234698 ros-humble-autoware-bluetooth-monitor_0-2025.07.04.17.04_amd64.deb
+Checksums-Sha256:
+ defe651592d2103085a8f0901658b833027fc31fd93e35d3d4fdd776376bada4 3684268 ros-humble-autoware-bluetooth-monitor-dbgsym_0-2025.07.04.17.04_amd64.ddeb
+ a374d6667b436561b6f73bdf4a958e176de6a25a9b83d574836005748c4f9e0f 16635 ros-humble-autoware-bluetooth-monitor_0-2025.07.04.17.04_amd64.buildinfo
+ aa8baf65e877ae06344b9f52ac7505e2ed4d46cabddfec0b6b110cfeef2c1da5 234698 ros-humble-autoware-bluetooth-monitor_0-2025.07.04.17.04_amd64.deb
+Files:
+ 7bc34e99424113e17f849f1626285d29 3684268 debug optional ros-humble-autoware-bluetooth-monitor-dbgsym_0-2025.07.04.17.04_amd64.ddeb
+ 88d4f97a9c2598b771df125ac7812825 16635 misc optional ros-humble-autoware-bluetooth-monitor_0-2025.07.04.17.04_amd64.buildinfo
+ e932d4ee0ffc112dceb6df400657e59c 234698 misc optional ros-humble-autoware-bluetooth-monitor_0-2025.07.04.17.04_amd64.deb

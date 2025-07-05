@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-path-external-request-lane-change-module
+Binary: ros-humble-autoware-behavior-path-external-request-lane-change-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.16.00
+Distribution: jammy
+Urgency: high
+Maintainer: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Changed-By: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-path-external-request-lane-change-module - The autoware_behavior_path_external_request_lane_change_module pa
+Changes:
+ ros-humble-autoware-behavior-path-external-request-lane-change-module (0-2025.07.05.16.00) jammy; urgency=high
+Checksums-Sha1:
+ 2d8d20935b77563b78c06469d355402bfc53d5f3 2517080 ros-humble-autoware-behavior-path-external-request-lane-change-module-dbgsym_0-2025.07.05.16.00_amd64.ddeb
+ 13c6bea5a687f49b8255792497350d8643f1fa46 50226 ros-humble-autoware-behavior-path-external-request-lane-change-module_0-2025.07.05.16.00_amd64.buildinfo
+ 5b6b7bcc44833d8d570e18d10fe5fb43cc35617b 31070 ros-humble-autoware-behavior-path-external-request-lane-change-module_0-2025.07.05.16.00_amd64.deb
+Checksums-Sha256:
+ 31c037ef2a624217a167496112f94cb91c7388398b50f47b1cecea38c2bc9147 2517080 ros-humble-autoware-behavior-path-external-request-lane-change-module-dbgsym_0-2025.07.05.16.00_amd64.ddeb
+ 41a5357319326b8df39a1aad1cc92d302b05ff7b79ca84ff6c68d10d3bff7be2 50226 ros-humble-autoware-behavior-path-external-request-lane-change-module_0-2025.07.05.16.00_amd64.buildinfo
+ 2c6479f5400e0f253085b8c88461ebc0b684ea2fd5c0d86201edd83e7bd97882 31070 ros-humble-autoware-behavior-path-external-request-lane-change-module_0-2025.07.05.16.00_amd64.deb
+Files:
+ 577fb97c8cf92c4fac097e8beedb3f88 2517080 debug optional ros-humble-autoware-behavior-path-external-request-lane-change-module-dbgsym_0-2025.07.05.16.00_amd64.ddeb
+ f395b9916fb306e315f585ebb1d2fb4e 50226 misc optional ros-humble-autoware-behavior-path-external-request-lane-change-module_0-2025.07.05.16.00_amd64.buildinfo
+ eb164e74900d1fc2f4ad58f78a442382 31070 misc optional ros-humble-autoware-behavior-path-external-request-lane-change-module_0-2025.07.05.16.00_amd64.deb

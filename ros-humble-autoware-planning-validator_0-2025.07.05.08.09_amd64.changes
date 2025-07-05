@@ -1,0 +1,60 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-planning-validator
+Binary: ros-humble-autoware-planning-validator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.08.09
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-planning-validator - ros node for autoware_planning_validator
+Changes:
+ ros-humble-autoware-planning-validator (0-2025.07.05.08.09) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * build(autoware_planning_validator): fix missing angles dependency (#10479 <https://github.com/autowarefoundation/autoware_universe/issues/10479>)
+   * refactor(planning_validator): separate validation check for steering and steering rate (#10438 <https://github.com/autowarefoundation/autoware_universe/issues/10438>)
+     * feat(planning_validator): refactor steering validation parameters and add steering_rate check
+     * fix(planning_validator): enable validity checks by default and initialize parameters
+     * feat(planning_validator): add steering rate validation parameters to README
+     * feat(planning_validator): add steering rate validity checks to node options
+     ---------
+   * chore(autoware_planning_validator): add new maintainers to planning_validator (#10421 <https://github.com/autowarefoundation/autoware_universe/issues/10421>)
+     (autoware_planning_validator): add new maintainers to package.xml
+   * fix(planning): apply THROTTLE to frequent log (#10419 <https://github.com/autowarefoundation/autoware_universe/issues/10419>)
+   * refactor(planning_validator): restructure planning validator configuration (#10401 <https://github.com/autowarefoundation/autoware_universe/issues/10401>)
+     * refactor planning validator parameters
+     * check enable flag for all validity checks
+     * add missing parameters
+     * add debug markers and clean up code
+     * update planning validator readme
+     * update planning validator test
+     * properly set is_critical_error_ flag for all checks
+     * Update planning/autoware_planning_validator/include/autoware/planning_validator/parameters.hpp
+     Co-authored-by: Satoshi OTA <mailto:44889564+satoshi-ota@users.noreply.github.com>
+     * run pre-commit checks
+     * fix cherry-pick errors
+     * remove unnecessary cherry-pick changes
+     ---------
+     Co-authored-by: Satoshi OTA <mailto:44889564+satoshi-ota@users.noreply.github.com>
+   * feat(planning_validator): improve lateral acc calculation (#10385 <https://github.com/autowarefoundation/autoware_universe/issues/10385>)
+     * feat: add functions to calculate interval distance and lateral acceleration
+     * refactor: rename array parameters to vector for clarity
+     * fix: simplify lateral acceleration calculation using std::hypot
+     ---------
+   * Contributors: Esteve Fernandez, Kyoichi Sugahara, Ryohsuke Mitsudome, Takayuki Murooka, mkquda
+Checksums-Sha1:
+ 2ce6efa296a3b467a4e80429a39a432c2362f5e7 8376070 ros-humble-autoware-planning-validator-dbgsym_0-2025.07.05.08.09_amd64.ddeb
+ 43868fb9cda904d1cd743ee54801bc5526a08b1f 43632 ros-humble-autoware-planning-validator_0-2025.07.05.08.09_amd64.buildinfo
+ 8ba75cd28e128aef2cb58d65e336e3a78f8273d0 376616 ros-humble-autoware-planning-validator_0-2025.07.05.08.09_amd64.deb
+Checksums-Sha256:
+ 0f50ae6eb2317d72cddfa2764ca022340d26cbf7733c3b490c796a8152ae417f 8376070 ros-humble-autoware-planning-validator-dbgsym_0-2025.07.05.08.09_amd64.ddeb
+ 3a2e2b6e3ce4ded5d8422eb1eeab1f9dea35e13bf339f17dc98525f40ebcdd86 43632 ros-humble-autoware-planning-validator_0-2025.07.05.08.09_amd64.buildinfo
+ 7e2f549ed65ca80b13ae4132e33c2d7892c32a0c5edc9f949ac96d8fa99ec809 376616 ros-humble-autoware-planning-validator_0-2025.07.05.08.09_amd64.deb
+Files:
+ b4a7d096ffa9047c37999d26ba1eb324 8376070 debug optional ros-humble-autoware-planning-validator-dbgsym_0-2025.07.05.08.09_amd64.ddeb
+ 17e613d2e1cf3cfe7f595c5560187488 43632 misc optional ros-humble-autoware-planning-validator_0-2025.07.05.08.09_amd64.buildinfo
+ fd548605b84d3580adb0d1d6b17d634e 376616 misc optional ros-humble-autoware-planning-validator_0-2025.07.05.08.09_amd64.deb

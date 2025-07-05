@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-core-planning
+Binary: ros-humble-autoware-core-planning
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.05.16.22
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-autoware-core-planning - The autoware_core_planning package
+Changes:
+ ros-humble-autoware-core-planning (1.0.0-73-g3d059fa8-2025.07.05.16.22) jammy; urgency=high
+Checksums-Sha1:
+ 61d3631e9e99b3c01cab3749a622775d0f7bf06c 10811 ros-humble-autoware-core-planning_1.0.0-73-g3d059fa8-2025.07.05.16.22_amd64.buildinfo
+ 7d0a98867dd19e90a33569ae1003bc0591474299 11090 ros-humble-autoware-core-planning_1.0.0-73-g3d059fa8-2025.07.05.16.22_amd64.deb
+Checksums-Sha256:
+ 08580e27bf9e685f21f6416d7473d4a99ca183859ae66054ec0508960257eb22 10811 ros-humble-autoware-core-planning_1.0.0-73-g3d059fa8-2025.07.05.16.22_amd64.buildinfo
+ e7663e0e49d0075ed372b5f5014810cd4520d07e449996af99fddbba02311170 11090 ros-humble-autoware-core-planning_1.0.0-73-g3d059fa8-2025.07.05.16.22_amd64.deb
+Files:
+ d6578df5bba0bc21aabcc641b0a889ef 10811 misc optional ros-humble-autoware-core-planning_1.0.0-73-g3d059fa8-2025.07.05.16.22_amd64.buildinfo
+ 9d018cc4409f99774069f61a51678aa3 11090 misc optional ros-humble-autoware-core-planning_1.0.0-73-g3d059fa8-2025.07.05.16.22_amd64.deb

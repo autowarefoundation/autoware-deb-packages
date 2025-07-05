@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-predicted-path-checker
+Binary: ros-humble-autoware-predicted-path-checker
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.08.16
+Distribution: jammy
+Urgency: high
+Maintainer: Berkay Karaman <berkay@leodrive.ai>
+Changed-By: Berkay Karaman <berkay@leodrive.ai>
+Description:
+ ros-humble-autoware-predicted-path-checker - The predicted_path_checker package
+Changes:
+ ros-humble-autoware-predicted-path-checker (0-2025.07.05.08.16) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * fix(pred_path_checker,dyn_obstacle_stop): use output of removeOverlaps (#10375 <https://github.com/autowarefoundation/autoware_universe/issues/10375>)
+   * Contributors: Maxime CLEMENT, Ryohsuke Mitsudome
+Checksums-Sha1:
+ 8a302e948a249e65715f5e029d58c2b0909791cf 9173236 ros-humble-autoware-predicted-path-checker-dbgsym_0-2025.07.05.08.16_amd64.ddeb
+ b126eadbf870ccb48e7ebde555bdac8a4e99b2cc 42528 ros-humble-autoware-predicted-path-checker_0-2025.07.05.08.16_amd64.buildinfo
+ 782615bd727259f323a969d867cf7815fbb519e0 336618 ros-humble-autoware-predicted-path-checker_0-2025.07.05.08.16_amd64.deb
+Checksums-Sha256:
+ b90a01ba2330187c11fdb5ff8f26aea29c070fd0d730801dbf8b60575758a530 9173236 ros-humble-autoware-predicted-path-checker-dbgsym_0-2025.07.05.08.16_amd64.ddeb
+ 72c6bb5bb8f1f5e55e4eab2cdb399f18d5e579bb5e564b81bc9a204e02959ddd 42528 ros-humble-autoware-predicted-path-checker_0-2025.07.05.08.16_amd64.buildinfo
+ ff54a723301bca1de44c0f8fa06fd3efd0ea96bcfd3b44e6623ea07f1aa112b7 336618 ros-humble-autoware-predicted-path-checker_0-2025.07.05.08.16_amd64.deb
+Files:
+ d66325e0fb11f3f2aca9e990ca344f1e 9173236 debug optional ros-humble-autoware-predicted-path-checker-dbgsym_0-2025.07.05.08.16_amd64.ddeb
+ a03e16bc8f9ba8b80ab3b0ed82de4613 42528 misc optional ros-humble-autoware-predicted-path-checker_0-2025.07.05.08.16_amd64.buildinfo
+ 60188a604882ae0730f406da7ca0f2eb 336618 misc optional ros-humble-autoware-predicted-path-checker_0-2025.07.05.08.16_amd64.deb

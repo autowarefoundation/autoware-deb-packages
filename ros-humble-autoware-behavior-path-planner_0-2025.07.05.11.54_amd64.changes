@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-path-planner
+Binary: ros-humble-autoware-behavior-path-planner
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.11.54
+Distribution: jammy
+Urgency: high
+Maintainer: Zulfaqar Azmi <zulfaqar.azmi@tier4.jp>
+Changed-By: Zulfaqar Azmi <zulfaqar.azmi@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-path-planner - The behavior_path_planner package
+Changes:
+ ros-humble-autoware-behavior-path-planner (0-2025.07.05.11.54) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * fix(behavior_path_planner, behavior_static_obstacle_avoidance_module): crash during goal changes (#10205 <https://github.com/autowarefoundation/autoware_universe/issues/10205>)
+     * fix(behavior_path_planner, behavior_static_obstacle_avoidance_module): empty path handling
+     * style(pre-commit): autofix
+     * refactor: use optional
+     * fix: std
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Ryohsuke Mitsudome, Shumpei Wakabayashi
+Checksums-Sha1:
+ 97d1358d9c8b2135e0729f24741c30397ff8f98a 20201264 ros-humble-autoware-behavior-path-planner-dbgsym_0-2025.07.05.11.54_amd64.ddeb
+ 6546c42c432e362d568000f869a1b7c0513ec4af 49835 ros-humble-autoware-behavior-path-planner_0-2025.07.05.11.54_amd64.buildinfo
+ 503b4dbbffa956f86602e7e68cfbde270b2ca382 618496 ros-humble-autoware-behavior-path-planner_0-2025.07.05.11.54_amd64.deb
+Checksums-Sha256:
+ b960f625344943c59470af4eb96405de731750f3e242bd9a519e59cc9d3f4af2 20201264 ros-humble-autoware-behavior-path-planner-dbgsym_0-2025.07.05.11.54_amd64.ddeb
+ 91fddfe7671506c1ea4b595bd8aa2af4145a6ed1d4d50ca0584f2a3d067e3df0 49835 ros-humble-autoware-behavior-path-planner_0-2025.07.05.11.54_amd64.buildinfo
+ 20be34381fae9ee338156b9f9d9693ddf7d96e23ec650f8b4060fe1c4dc240ce 618496 ros-humble-autoware-behavior-path-planner_0-2025.07.05.11.54_amd64.deb
+Files:
+ 2775c6282d5a3eed98f8b45575a61b52 20201264 debug optional ros-humble-autoware-behavior-path-planner-dbgsym_0-2025.07.05.11.54_amd64.ddeb
+ aa15fd462be52808d9a519720db62f88 49835 misc optional ros-humble-autoware-behavior-path-planner_0-2025.07.05.11.54_amd64.buildinfo
+ f4761c481ac151a179ae264288156b7a 618496 misc optional ros-humble-autoware-behavior-path-planner_0-2025.07.05.11.54_amd64.deb

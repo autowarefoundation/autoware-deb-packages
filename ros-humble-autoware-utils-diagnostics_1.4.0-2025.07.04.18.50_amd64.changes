@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 22 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-utils-diagnostics
+Binary: ros-humble-autoware-utils-diagnostics
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.4.0-2025.07.04.18.50
+Distribution: jammy
+Urgency: high
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Changed-By: Jian Kang <egon.kang@autocore.ai>
+Description:
+ ros-humble-autoware-utils-diagnostics - The autoware_utils_diagnostics package
+Changes:
+ ros-humble-autoware-utils-diagnostics (1.4.0-2025.07.04.18.50) jammy; urgency=high
+Checksums-Sha1:
+ f5b993a96742ce9829f24fed02ca935f0006641b 762210 ros-humble-autoware-utils-diagnostics-dbgsym_1.4.0-2025.07.04.18.50_amd64.ddeb
+ ee93804761b9b694d412dd97013dae3ee9b1d56b 15659 ros-humble-autoware-utils-diagnostics_1.4.0-2025.07.04.18.50_amd64.buildinfo
+ 829690f5bfc1a96138c60b721c6a2af699619733 51236 ros-humble-autoware-utils-diagnostics_1.4.0-2025.07.04.18.50_amd64.deb
+Checksums-Sha256:
+ 536d3c5658e81922191394b57b230597f2cd2d7ea5a60074066addb63aed94f1 762210 ros-humble-autoware-utils-diagnostics-dbgsym_1.4.0-2025.07.04.18.50_amd64.ddeb
+ 425d413f1f244444336705c0a4fff51cd6d6ff1639142140b4c40e538066b2fb 15659 ros-humble-autoware-utils-diagnostics_1.4.0-2025.07.04.18.50_amd64.buildinfo
+ fe217bc12415634e76d7dddd38bfb3035c4146ee833906bd5799e55739e580c8 51236 ros-humble-autoware-utils-diagnostics_1.4.0-2025.07.04.18.50_amd64.deb
+Files:
+ a2f440c4a7e33b9f00c252d8773ae1c7 762210 debug optional ros-humble-autoware-utils-diagnostics-dbgsym_1.4.0-2025.07.04.18.50_amd64.ddeb
+ 940cb9767ecee6b5d395564a878927da 15659 misc optional ros-humble-autoware-utils-diagnostics_1.4.0-2025.07.04.18.50_amd64.buildinfo
+ 2fcab19281a36740eaba3055fffe1b08 51236 misc optional ros-humble-autoware-utils-diagnostics_1.4.0-2025.07.04.18.50_amd64.deb

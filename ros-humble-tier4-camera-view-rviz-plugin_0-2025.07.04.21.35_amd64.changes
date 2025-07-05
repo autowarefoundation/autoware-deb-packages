@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-tier4-camera-view-rviz-plugin
+Binary: ros-humble-tier4-camera-view-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.21.35
+Distribution: jammy
+Urgency: high
+Maintainer: Yuxuan Liu <uken.ryu@tier4.jp>
+Changed-By: Yuxuan Liu <uken.ryu@tier4.jp>
+Description:
+ ros-humble-tier4-camera-view-rviz-plugin - The autoware camera view rviz plugin package
+Changes:
+ ros-humble-tier4-camera-view-rviz-plugin (0-2025.07.04.21.35) jammy; urgency=high
+Checksums-Sha1:
+ 9bc5db86c50681c7f02ea3e7d8e3ff12730272eb 873688 ros-humble-tier4-camera-view-rviz-plugin-dbgsym_0-2025.07.04.21.35_amd64.ddeb
+ bbad3c59c3a0680b4b985657ec6488f3130864f1 24743 ros-humble-tier4-camera-view-rviz-plugin_0-2025.07.04.21.35_amd64.buildinfo
+ 484730f40a7742ab687fdd429483d77db343e616 35638 ros-humble-tier4-camera-view-rviz-plugin_0-2025.07.04.21.35_amd64.deb
+Checksums-Sha256:
+ fd6e82a0711be4ab313cd07f085238525481d2fd8f2fbd62fccd135e7c72ddc1 873688 ros-humble-tier4-camera-view-rviz-plugin-dbgsym_0-2025.07.04.21.35_amd64.ddeb
+ 22355830f08e3eed178b6f25a359208c23c753d61eabee280c5a4bee2480a618 24743 ros-humble-tier4-camera-view-rviz-plugin_0-2025.07.04.21.35_amd64.buildinfo
+ 7aa2de6012bc94ad0c77d8d6dfe3b15ee64134ea90f868f08c13b0840142dd4e 35638 ros-humble-tier4-camera-view-rviz-plugin_0-2025.07.04.21.35_amd64.deb
+Files:
+ 37e42229cf4f7200536439b2231785c9 873688 debug optional ros-humble-tier4-camera-view-rviz-plugin-dbgsym_0-2025.07.04.21.35_amd64.ddeb
+ 156d61d41c213199b98e651c7436254d 24743 misc optional ros-humble-tier4-camera-view-rviz-plugin_0-2025.07.04.21.35_amd64.buildinfo
+ e67bd5828245f071744952994d408ecf 35638 misc optional ros-humble-tier4-camera-view-rviz-plugin_0-2025.07.04.21.35_amd64.deb

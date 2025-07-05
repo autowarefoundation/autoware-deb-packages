@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-stop-line-module
+Binary: ros-humble-autoware-behavior-velocity-stop-line-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.05.14.27
+Distribution: jammy
+Urgency: high
+Maintainer: Yukinari Hisaki <yukinari.hisaki.2@tier4.jp>
+Changed-By: Yukinari Hisaki <yukinari.hisaki.2@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-stop-line-module - The autoware_behavior_velocity_stop_line_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-stop-line-module (1.0.0-73-g3d059fa8-2025.07.05.14.27) jammy; urgency=high
+ .
+   * refactor(autoware_trajectory)!: move everything to namespace experimetal (#371 <https://github.com/autowarefoundation/autoware_core/issues/371>)
+     refactor(autoware_trajectory)!: move everything to namespace experimental
+   * Contributors: Mamoru Sobue
+Checksums-Sha1:
+ 0020aa93e6c5420142a72ccaf9ce4dcc905a26c7 3079734 ros-humble-autoware-behavior-velocity-stop-line-module-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.14.27_amd64.ddeb
+ 259a18352164bd31d98d3df9c7a630fbe9d60486 45022 ros-humble-autoware-behavior-velocity-stop-line-module_1.0.0-73-g3d059fa8-2025.07.05.14.27_amd64.buildinfo
+ 4aed69ab77d3a07b5dc825b12d9161e58a2a5402 41898 ros-humble-autoware-behavior-velocity-stop-line-module_1.0.0-73-g3d059fa8-2025.07.05.14.27_amd64.deb
+Checksums-Sha256:
+ 7272ef6e98a7ee8ae1cb48e0a665265d6a17a249547fa0a8c4602d26afb790b9 3079734 ros-humble-autoware-behavior-velocity-stop-line-module-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.14.27_amd64.ddeb
+ 3d59d96b20fcee1429789268603368bef5cafbe36e0c0c25510090c8d46d2a5e 45022 ros-humble-autoware-behavior-velocity-stop-line-module_1.0.0-73-g3d059fa8-2025.07.05.14.27_amd64.buildinfo
+ b9add94b2b672ec822c9159ef6b436c867e0b53bedc107a3e689a6988eb3a511 41898 ros-humble-autoware-behavior-velocity-stop-line-module_1.0.0-73-g3d059fa8-2025.07.05.14.27_amd64.deb
+Files:
+ 4ae49ef0f1c5bf1a43444c90ace337e1 3079734 debug optional ros-humble-autoware-behavior-velocity-stop-line-module-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.14.27_amd64.ddeb
+ e18eccb26570787d7673d1f01c86921e 45022 misc optional ros-humble-autoware-behavior-velocity-stop-line-module_1.0.0-73-g3d059fa8-2025.07.05.14.27_amd64.buildinfo
+ d58433973a878c105c4eba33992d3d71 41898 misc optional ros-humble-autoware-behavior-velocity-stop-line-module_1.0.0-73-g3d059fa8-2025.07.05.14.27_amd64.deb

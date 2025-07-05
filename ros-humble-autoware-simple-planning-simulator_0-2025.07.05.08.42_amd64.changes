@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-simple-planning-simulator
+Binary: ros-humble-autoware-simple-planning-simulator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.08.42
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-simple-planning-simulator - simple_planning_simulator as a ROS 2 node
+Changes:
+ ros-humble-autoware-simple-planning-simulator (0-2025.07.05.08.42) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * fix(simple_planning_simulator): fix a small turn_signal bug (#10386 <https://github.com/autowarefoundation/autoware_universe/issues/10386>)
+     * fix turn bug
+     * pre-commit
+     ---------
+   * Contributors: Kem (TiankuiXian), Ryohsuke Mitsudome
+Checksums-Sha1:
+ 0a2f04c874e9cd935091c2f9eed978b9ac594cd9 14545016 ros-humble-autoware-simple-planning-simulator-dbgsym_0-2025.07.05.08.42_amd64.ddeb
+ 1203dafd47b0729fa22205f77e4b4f2d0571c1a9 43424 ros-humble-autoware-simple-planning-simulator_0-2025.07.05.08.42_amd64.buildinfo
+ bf7412c4b5badf27bd621d554f797004500f412c 487484 ros-humble-autoware-simple-planning-simulator_0-2025.07.05.08.42_amd64.deb
+Checksums-Sha256:
+ c59b76de9c0a51cdda91d1c5cd4df77f34f456399b4c429f323dfff2a9494a5b 14545016 ros-humble-autoware-simple-planning-simulator-dbgsym_0-2025.07.05.08.42_amd64.ddeb
+ adf6489477645fba675b569dbb3a2c382e7fc30126c905ecd2f5fc0c9e8380fb 43424 ros-humble-autoware-simple-planning-simulator_0-2025.07.05.08.42_amd64.buildinfo
+ b13e56dfecf490a741e3aad9691d9345258cae9d2adfb1238778e58b05f8761b 487484 ros-humble-autoware-simple-planning-simulator_0-2025.07.05.08.42_amd64.deb
+Files:
+ 18b8f8847190fc298480df2b3ad8a84d 14545016 debug optional ros-humble-autoware-simple-planning-simulator-dbgsym_0-2025.07.05.08.42_amd64.ddeb
+ 56eb85d7fdc1f4a23536ec7cf924e089 43424 misc optional ros-humble-autoware-simple-planning-simulator_0-2025.07.05.08.42_amd64.buildinfo
+ 4194cf14d254db6b6a2949b5f94ba951 487484 misc optional ros-humble-autoware-simple-planning-simulator_0-2025.07.05.08.42_amd64.deb

@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 03 Apr 2025 00:00:00 -0000
+Source: ros-humble-awapi-awiv-adapter
+Binary: ros-humble-awapi-awiv-adapter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.42.0-6-g08e9863-2025.07.04.22.28
+Distribution: jammy
+Urgency: high
+Maintainer: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Changed-By: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Description:
+ ros-humble-awapi-awiv-adapter - The awapi_awiv_adapter package
+Changes:
+ ros-humble-awapi-awiv-adapter (0.42.0-6-g08e9863-2025.07.04.22.28) jammy; urgency=high
+ .
+   * feat(awapi_awiv_adapter): use glog (#137 <https://github.com/tier4/tier4_ad_api_adaptor/issues/137>)
+   * feat!: replace tier4_planning_msgs/VelocityLimit to autoware_internal_planning_msgs/VelocityLimit (#136 <https://github.com/tier4/tier4_ad_api_adaptor/issues/136>)
+   * Contributors: Ryohsuke Mitsudome, Takagi, Isamu
+Checksums-Sha1:
+ df8dc3907ddca1fb2719bbd7444d704bb473c193 22010422 ros-humble-awapi-awiv-adapter-dbgsym_0.42.0-6-g08e9863-2025.07.04.22.28_amd64.ddeb
+ 459a56f432303a7d2118bd82b9c0ba3680298a7a 18850 ros-humble-awapi-awiv-adapter_0.42.0-6-g08e9863-2025.07.04.22.28_amd64.buildinfo
+ 479fa17ad19bf5f1d4c99cd5936dd8f5afd7a22f 491082 ros-humble-awapi-awiv-adapter_0.42.0-6-g08e9863-2025.07.04.22.28_amd64.deb
+Checksums-Sha256:
+ 1c2e3cc54ef5a6a6dcfacfe8cf44f9ae00f86e651786d9c80583b2c01fa3ad43 22010422 ros-humble-awapi-awiv-adapter-dbgsym_0.42.0-6-g08e9863-2025.07.04.22.28_amd64.ddeb
+ f6118a71e34d8413d5339ac9380add277273edd10cd570909c124c4fb9d99334 18850 ros-humble-awapi-awiv-adapter_0.42.0-6-g08e9863-2025.07.04.22.28_amd64.buildinfo
+ 396a488c474863b13e66d225877ca8a58d21b087e98a4090d3a9a81ef4fc1da0 491082 ros-humble-awapi-awiv-adapter_0.42.0-6-g08e9863-2025.07.04.22.28_amd64.deb
+Files:
+ fb5159ee29c6eb877054c7d3c31030c5 22010422 debug optional ros-humble-awapi-awiv-adapter-dbgsym_0.42.0-6-g08e9863-2025.07.04.22.28_amd64.ddeb
+ 757482ca120f50ddc5f21d401a1650f7 18850 misc optional ros-humble-awapi-awiv-adapter_0.42.0-6-g08e9863-2025.07.04.22.28_amd64.buildinfo
+ e54db8065ac26f4da3bd7ef7b113c1b6 491082 misc optional ros-humble-awapi-awiv-adapter_0.42.0-6-g08e9863-2025.07.04.22.28_amd64.deb

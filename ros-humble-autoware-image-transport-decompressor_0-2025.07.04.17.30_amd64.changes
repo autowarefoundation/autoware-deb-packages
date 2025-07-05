@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-image-transport-decompressor
+Binary: ros-humble-autoware-image-transport-decompressor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.17.30
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-image-transport-decompressor - The image_transport_decompressor package
+Changes:
+ ros-humble-autoware-image-transport-decompressor (0-2025.07.04.17.30) jammy; urgency=high
+Checksums-Sha1:
+ 0f8edf3cc1bdde20aec6f24e99f2b31dfb06a35a 2426666 ros-humble-autoware-image-transport-decompressor-dbgsym_0-2025.07.04.17.30_amd64.ddeb
+ 0fc3d0c5a5cad89a89c56af4ac8b62b6a00ea4a7 27812 ros-humble-autoware-image-transport-decompressor_0-2025.07.04.17.30_amd64.buildinfo
+ 03330acdd3cecc4cb6e6e3e1bec7cf8b45f55bf0 122584 ros-humble-autoware-image-transport-decompressor_0-2025.07.04.17.30_amd64.deb
+Checksums-Sha256:
+ 341fa73ff4299768bb6a0036298a7f6d014dff115336556054a18ac5b6e98f19 2426666 ros-humble-autoware-image-transport-decompressor-dbgsym_0-2025.07.04.17.30_amd64.ddeb
+ 25e5141d7a8d5c5154268ac0aa0a5a06bb2a3b3fc5e7499e06f53f16b5cd0708 27812 ros-humble-autoware-image-transport-decompressor_0-2025.07.04.17.30_amd64.buildinfo
+ 69e372f12a523214cd99f6380b0788480f9cfa10d7c3394dcf58bafa05c19fbe 122584 ros-humble-autoware-image-transport-decompressor_0-2025.07.04.17.30_amd64.deb
+Files:
+ 44d67ea1cec83135f9c8f25be75f8ada 2426666 debug optional ros-humble-autoware-image-transport-decompressor-dbgsym_0-2025.07.04.17.30_amd64.ddeb
+ aea5abe2faeaee915d9a130c3ba1809e 27812 misc optional ros-humble-autoware-image-transport-decompressor_0-2025.07.04.17.30_amd64.buildinfo
+ 81aba6372af2ea22a71b6464bb5c99ba 122584 misc optional ros-humble-autoware-image-transport-decompressor_0-2025.07.04.17.30_amd64.deb

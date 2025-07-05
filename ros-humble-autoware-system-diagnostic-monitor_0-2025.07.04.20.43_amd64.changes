@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-system-diagnostic-monitor
+Binary: ros-humble-autoware-system-diagnostic-monitor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.20.43
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-system-diagnostic-monitor - The autoware_system_diagnostic_monitor package
+Changes:
+ ros-humble-autoware-system-diagnostic-monitor (0-2025.07.04.20.43) jammy; urgency=high
+Checksums-Sha1:
+ 1fb40446862b6beba36db89711fa65bc726e9556 10803 ros-humble-autoware-system-diagnostic-monitor_0-2025.07.04.20.43_amd64.buildinfo
+ 1a1301ed4945f3dd3930e38c3acefe51d7253000 10484 ros-humble-autoware-system-diagnostic-monitor_0-2025.07.04.20.43_amd64.deb
+Checksums-Sha256:
+ d8f12dc566182307ea47d1eda96d515e3b8374066384cc8bc3faae09435f1485 10803 ros-humble-autoware-system-diagnostic-monitor_0-2025.07.04.20.43_amd64.buildinfo
+ a6da0ff712c7ec6826392a542eff7618a7d49df268aaaf2ca4b485201e3e3b60 10484 ros-humble-autoware-system-diagnostic-monitor_0-2025.07.04.20.43_amd64.deb
+Files:
+ be1ebda1e1fd2b5e06c8da99c99a8e2b 10803 misc optional ros-humble-autoware-system-diagnostic-monitor_0-2025.07.04.20.43_amd64.buildinfo
+ 87143963203f36ee8621710c447483ce 10484 misc optional ros-humble-autoware-system-diagnostic-monitor_0-2025.07.04.20.43_amd64.deb

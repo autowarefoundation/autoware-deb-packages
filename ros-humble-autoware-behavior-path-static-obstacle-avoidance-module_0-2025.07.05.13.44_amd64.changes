@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-path-static-obstacle-avoidance-module
+Binary: ros-humble-autoware-behavior-path-static-obstacle-avoidance-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.13.44
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-path-static-obstacle-avoidance-module - The autoware_behavior_path_static_obstacle_avoidance_module packa
+Changes:
+ ros-humble-autoware-behavior-path-static-obstacle-avoidance-module (0-2025.07.05.13.44) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat(static_obstacle_avoidance): return original lane automatically (#10231 <https://github.com/autowarefoundation/autoware_universe/issues/10231>)
+   * fix(behavior_path_planner): apply THROTTLE to frequent log (#10417 <https://github.com/autowarefoundation/autoware_universe/issues/10417>)
+   * fix(behavior_path_planner, behavior_static_obstacle_avoidance_module): crash during goal changes (#10205 <https://github.com/autowarefoundation/autoware_universe/issues/10205>)
+     * fix(behavior_path_planner, behavior_static_obstacle_avoidance_module): empty path handling
+     * style(pre-commit): autofix
+     * refactor: use optional
+     * fix: std
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Ryohsuke Mitsudome, Satoshi OTA, Shumpei Wakabayashi, Takayuki Murooka
+Checksums-Sha1:
+ 9bc6366dfba577d8a11af66b6a355d84d611baa7 11385452 ros-humble-autoware-behavior-path-static-obstacle-avoidance-module-dbgsym_0-2025.07.05.13.44_amd64.ddeb
+ 000ff3c9654bcfc4a4936b52e78b908bb954a9d0 50127 ros-humble-autoware-behavior-path-static-obstacle-avoidance-module_0-2025.07.05.13.44_amd64.buildinfo
+ f40ad1556005a9b6524818f69e3ceedc05ca2d0c 443482 ros-humble-autoware-behavior-path-static-obstacle-avoidance-module_0-2025.07.05.13.44_amd64.deb
+Checksums-Sha256:
+ 7e29ff17523f3f8b189cd26f1e6388f860668c3ee51564df5229588f6a0da63d 11385452 ros-humble-autoware-behavior-path-static-obstacle-avoidance-module-dbgsym_0-2025.07.05.13.44_amd64.ddeb
+ 5aba9dc29304cb8f7d8f8ba9c8605c74d3383ff14d59d6fef2cdc910c9c3d6dc 50127 ros-humble-autoware-behavior-path-static-obstacle-avoidance-module_0-2025.07.05.13.44_amd64.buildinfo
+ 3078b894ba7f91c0a24fdece530cc8281b5cd9b68afb4653a6ddd607126e930e 443482 ros-humble-autoware-behavior-path-static-obstacle-avoidance-module_0-2025.07.05.13.44_amd64.deb
+Files:
+ acb0df03eccd8238ccaed58b26d70986 11385452 debug optional ros-humble-autoware-behavior-path-static-obstacle-avoidance-module-dbgsym_0-2025.07.05.13.44_amd64.ddeb
+ 5c69292907a3aec67b21ea51e5874fb3 50127 misc optional ros-humble-autoware-behavior-path-static-obstacle-avoidance-module_0-2025.07.05.13.44_amd64.buildinfo
+ 288b63ce49471158004cd16004059018 443482 misc optional ros-humble-autoware-behavior-path-static-obstacle-avoidance-module_0-2025.07.05.13.44_amd64.deb

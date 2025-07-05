@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-trajectory-follower-base
+Binary: ros-humble-autoware-trajectory-follower-base
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.09.08
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-trajectory-follower-base - Library for generating lateral and longitudinal controls followin
+Changes:
+ ros-humble-autoware-trajectory-follower-base (0-2025.07.05.09.08) jammy; urgency=high
+Checksums-Sha1:
+ ff4de4fff6377106c0e18f0d6b721fb9beaf2573 52708 ros-humble-autoware-trajectory-follower-base-dbgsym_0-2025.07.05.09.08_amd64.ddeb
+ 63d749d1fb003d8c3081687598b0468c128e85b2 42089 ros-humble-autoware-trajectory-follower-base_0-2025.07.05.09.08_amd64.buildinfo
+ e74a986a187aec7190998671906dd699c8f8d9af 13148 ros-humble-autoware-trajectory-follower-base_0-2025.07.05.09.08_amd64.deb
+Checksums-Sha256:
+ 0aff95f82bcd5120e789ffa2bf960acab7ffcba383dae4f66d0e401f72ca16af 52708 ros-humble-autoware-trajectory-follower-base-dbgsym_0-2025.07.05.09.08_amd64.ddeb
+ 143dd8d0d5e0d9fd05ad57a749d378fdd3235553a1d1b7badc1490893f49a6b1 42089 ros-humble-autoware-trajectory-follower-base_0-2025.07.05.09.08_amd64.buildinfo
+ e04a6ba8f8e074cb122440dc2136553311696bbd1e1874c6fa1a947c12a96706 13148 ros-humble-autoware-trajectory-follower-base_0-2025.07.05.09.08_amd64.deb
+Files:
+ 4f7407904736fa31b1d9fc95a39e487f 52708 debug optional ros-humble-autoware-trajectory-follower-base-dbgsym_0-2025.07.05.09.08_amd64.ddeb
+ 7a6f018274967a7178dff6090fd51598 42089 misc optional ros-humble-autoware-trajectory-follower-base_0-2025.07.05.09.08_amd64.buildinfo
+ 64f5e655c4589745826f4e89bdcbf4b2 13148 misc optional ros-humble-autoware-trajectory-follower-base_0-2025.07.05.09.08_amd64.deb

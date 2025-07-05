@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 25 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-lanelet2-extension-python
+Binary: ros-humble-autoware-lanelet2-extension-python
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.7.1-2025.07.04.20.12
+Distribution: jammy
+Urgency: high
+Maintainer: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Changed-By: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Description:
+ ros-humble-autoware-lanelet2-extension-python - The autoware_lanelet2_extension_python package contains Python bi
+Changes:
+ ros-humble-autoware-lanelet2-extension-python (0.7.1-2025.07.04.20.12) jammy; urgency=high
+Checksums-Sha1:
+ a7c7a3c1e4a5779eade8ea2582523f4590263234 4352734 ros-humble-autoware-lanelet2-extension-python-dbgsym_0.7.1-2025.07.04.20.12_amd64.ddeb
+ e3b70e0eaf3f15120dc3661957bcb5034956a481 24291 ros-humble-autoware-lanelet2-extension-python_0.7.1-2025.07.04.20.12_amd64.buildinfo
+ d4f3222d7447ee25fa2b9e3e5419b5975e4f0088 197140 ros-humble-autoware-lanelet2-extension-python_0.7.1-2025.07.04.20.12_amd64.deb
+Checksums-Sha256:
+ a1cf792fe820a227dc3ce3691995f8213a824aff81543f207d4d08ad2fd60641 4352734 ros-humble-autoware-lanelet2-extension-python-dbgsym_0.7.1-2025.07.04.20.12_amd64.ddeb
+ fb75e818dce7ba38cadc08bbe4bc6581459e21ca3c9ea32cbf2240f2f973514a 24291 ros-humble-autoware-lanelet2-extension-python_0.7.1-2025.07.04.20.12_amd64.buildinfo
+ 16eac211a9b97ff8a6dc6c739ba4604ca9029e731af83ef493a01506a7b47521 197140 ros-humble-autoware-lanelet2-extension-python_0.7.1-2025.07.04.20.12_amd64.deb
+Files:
+ f70ef93f9ca4a0af650ba2a2ab904588 4352734 debug optional ros-humble-autoware-lanelet2-extension-python-dbgsym_0.7.1-2025.07.04.20.12_amd64.ddeb
+ 42f95be4aa6fbac3e21b723b758ec357 24291 misc optional ros-humble-autoware-lanelet2-extension-python_0.7.1-2025.07.04.20.12_amd64.buildinfo
+ 342cb4403adebfef6deb3cfb3e962249 197140 misc optional ros-humble-autoware-lanelet2-extension-python_0.7.1-2025.07.04.20.12_amd64.deb

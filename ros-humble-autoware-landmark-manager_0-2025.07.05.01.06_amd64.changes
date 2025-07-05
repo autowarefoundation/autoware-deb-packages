@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-landmark-manager
+Binary: ros-humble-autoware-landmark-manager
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.01.06
+Distribution: jammy
+Urgency: high
+Maintainer: Shintaro Sakoda <shintaro.sakoda@tier4.jp>
+Changed-By: Shintaro Sakoda <shintaro.sakoda@tier4.jp>
+Description:
+ ros-humble-autoware-landmark-manager - The autoware_landmark_manager package
+Changes:
+ ros-humble-autoware-landmark-manager (0-2025.07.05.01.06) jammy; urgency=high
+Checksums-Sha1:
+ 850332545c37567a08ec446813cef44acddc6a4a 1670908 ros-humble-autoware-landmark-manager-dbgsym_0-2025.07.05.01.06_amd64.ddeb
+ 566252cb3183ba78daf235ab3943af65f8f190c9 41699 ros-humble-autoware-landmark-manager_0-2025.07.05.01.06_amd64.buildinfo
+ 107fb68a6911bff939e1624cc073619509040af0 23246 ros-humble-autoware-landmark-manager_0-2025.07.05.01.06_amd64.deb
+Checksums-Sha256:
+ 1c9be1ab9c143be739019706c0edce9c025cececc619b7b1ecb606816e0a1dd1 1670908 ros-humble-autoware-landmark-manager-dbgsym_0-2025.07.05.01.06_amd64.ddeb
+ 90f5025888761390ffa9523b546f25c41f687e12369f709c03ef131c41868a7c 41699 ros-humble-autoware-landmark-manager_0-2025.07.05.01.06_amd64.buildinfo
+ ce5b4bca1fecee8b89a06363e3b3ab26ad0f288036517dc9da2936cd6df3ba08 23246 ros-humble-autoware-landmark-manager_0-2025.07.05.01.06_amd64.deb
+Files:
+ 27fac1f0a52dc2843b6128a3bc7f645f 1670908 debug optional ros-humble-autoware-landmark-manager-dbgsym_0-2025.07.05.01.06_amd64.ddeb
+ de8e99b4d4d2e007374babe717c5adc4 41699 misc optional ros-humble-autoware-landmark-manager_0-2025.07.05.01.06_amd64.buildinfo
+ 0cd59147ee1915c0ef45740834b6126c 23246 misc optional ros-humble-autoware-landmark-manager_0-2025.07.05.01.06_amd64.deb

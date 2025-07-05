@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-osqp-interface
+Binary: ros-humble-autoware-osqp-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.17.54
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime CLEMENT <maxime.clement@tier4.jp>
+Changed-By: Maxime CLEMENT <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-osqp-interface - Interface for the OSQP solver
+Changes:
+ ros-humble-autoware-osqp-interface (1.0.0-73-g3d059fa8-2025.07.04.17.54) jammy; urgency=high
+Checksums-Sha1:
+ 7858125b6e7fa00f03127a252caf1a3da20f6e77 330096 ros-humble-autoware-osqp-interface-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.17.54_amd64.ddeb
+ fceb3ddb5586f297e0f3cb41fb825f1d4cb1c16b 16109 ros-humble-autoware-osqp-interface_1.0.0-73-g3d059fa8-2025.07.04.17.54_amd64.buildinfo
+ bc0dda19758b05707c756b80a39e2ab12e0836b2 26706 ros-humble-autoware-osqp-interface_1.0.0-73-g3d059fa8-2025.07.04.17.54_amd64.deb
+Checksums-Sha256:
+ 37a72cfa6d20d8e9c71e42235df348dd98121e30216883313d58cb72452408da 330096 ros-humble-autoware-osqp-interface-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.17.54_amd64.ddeb
+ 7d67a35ece2d50d0bac477da1b6076fb82d72f42a2631bafe1ee6f6727d09dc9 16109 ros-humble-autoware-osqp-interface_1.0.0-73-g3d059fa8-2025.07.04.17.54_amd64.buildinfo
+ 9e96d2bf712883db61d3a0f754544e4295173154235cdffaf68af288af565ff6 26706 ros-humble-autoware-osqp-interface_1.0.0-73-g3d059fa8-2025.07.04.17.54_amd64.deb
+Files:
+ a1e465cf9126d27c2d036f3383a70603 330096 debug optional ros-humble-autoware-osqp-interface-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.17.54_amd64.ddeb
+ f623fb2fa08fd226c4eeaf7de77047c6 16109 misc optional ros-humble-autoware-osqp-interface_1.0.0-73-g3d059fa8-2025.07.04.17.54_amd64.buildinfo
+ eeaecf90c3bbb11e1a25706f27dcd700 26706 misc optional ros-humble-autoware-osqp-interface_1.0.0-73-g3d059fa8-2025.07.04.17.54_amd64.deb

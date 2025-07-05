@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-lane-departure-checker
+Binary: ros-humble-autoware-lane-departure-checker
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.06.47
+Distribution: jammy
+Urgency: high
+Maintainer: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Changed-By: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Description:
+ ros-humble-autoware-lane-departure-checker - The autoware_lane_departure_checker package
+Changes:
+ ros-humble-autoware-lane-departure-checker (0-2025.07.05.06.47) jammy; urgency=high
+Checksums-Sha1:
+ 21c4b54ffb49f9f48023562bb7804555106d5149 12701540 ros-humble-autoware-lane-departure-checker-dbgsym_0-2025.07.05.06.47_amd64.ddeb
+ b53fc906dfd54c17e4e707705ec4b6c4f057f400 43232 ros-humble-autoware-lane-departure-checker_0-2025.07.05.06.47_amd64.buildinfo
+ 96f1adb34f9885b2f31de9d4831f4931355ca438 479824 ros-humble-autoware-lane-departure-checker_0-2025.07.05.06.47_amd64.deb
+Checksums-Sha256:
+ ebfc9d94fc5e7a57ebfca68f7aa99bef8e91a991b79ceb69c6aa08f199dbf7a0 12701540 ros-humble-autoware-lane-departure-checker-dbgsym_0-2025.07.05.06.47_amd64.ddeb
+ ee2567bd67f34a5dadec4a115604d8b0d513105df921094f7a07fa34ebe52fb4 43232 ros-humble-autoware-lane-departure-checker_0-2025.07.05.06.47_amd64.buildinfo
+ acd8cfc902d790def92640c0492b6e9642b89426692a1db24552f0cc543e0428 479824 ros-humble-autoware-lane-departure-checker_0-2025.07.05.06.47_amd64.deb
+Files:
+ 99534ac74c13e3689aa046231e8037e3 12701540 debug optional ros-humble-autoware-lane-departure-checker-dbgsym_0-2025.07.05.06.47_amd64.ddeb
+ e042111bf1f7dd3ed0721957377ff299 43232 misc optional ros-humble-autoware-lane-departure-checker_0-2025.07.05.06.47_amd64.buildinfo
+ 0aceba3ff33135ce44692ec0f52908ea 479824 misc optional ros-humble-autoware-lane-departure-checker_0-2025.07.05.06.47_amd64.deb

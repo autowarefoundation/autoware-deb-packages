@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 07 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-internal-metric-msgs
+Binary: ros-humble-autoware-internal-metric-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.8.1-4-g89124f4-2025.07.04.14.51
+Distribution: jammy
+Urgency: high
+Maintainer: Temkei Kem <temkei.kem@tier4.jp>
+Changed-By: Temkei Kem <temkei.kem@tier4.jp>
+Description:
+ ros-humble-autoware-internal-metric-msgs - The autoware_internal_metric_msgs package
+Changes:
+ ros-humble-autoware-internal-metric-msgs (1.8.1-4-g89124f4-2025.07.04.14.51) jammy; urgency=high
+Checksums-Sha1:
+ 7e2e73462d29f41d8ef02ada637c0390e15e96f0 260192 ros-humble-autoware-internal-metric-msgs-dbgsym_1.8.1-4-g89124f4-2025.07.04.14.51_amd64.ddeb
+ 477bfb709c802f9727f27299ebdcaac23769cb28 14856 ros-humble-autoware-internal-metric-msgs_1.8.1-4-g89124f4-2025.07.04.14.51_amd64.buildinfo
+ 78ee406b775d0e16a1c04e94cfe0f9e7879fe122 51256 ros-humble-autoware-internal-metric-msgs_1.8.1-4-g89124f4-2025.07.04.14.51_amd64.deb
+Checksums-Sha256:
+ 9af90ddac0620db19ac1d7a9584537743aa101c24e9d6ec6425bad364e00fc1b 260192 ros-humble-autoware-internal-metric-msgs-dbgsym_1.8.1-4-g89124f4-2025.07.04.14.51_amd64.ddeb
+ a879908e49827891e94b0c19712da3117e4b3b9656bb1af7f1ec78efb596601b 14856 ros-humble-autoware-internal-metric-msgs_1.8.1-4-g89124f4-2025.07.04.14.51_amd64.buildinfo
+ e4eb9a411e972f71b6f3edc2c5672e7604d0c6c0a138f1fa12c8db7e69e77f42 51256 ros-humble-autoware-internal-metric-msgs_1.8.1-4-g89124f4-2025.07.04.14.51_amd64.deb
+Files:
+ 5021dd7a3afb09331505cfc4b85bc449 260192 debug optional ros-humble-autoware-internal-metric-msgs-dbgsym_1.8.1-4-g89124f4-2025.07.04.14.51_amd64.ddeb
+ 749ad5551e5f288c9dde9aaa98c8a124 14856 misc optional ros-humble-autoware-internal-metric-msgs_1.8.1-4-g89124f4-2025.07.04.14.51_amd64.buildinfo
+ d2ddff4f2e1b0ece140a19dbebb8913e 51256 misc optional ros-humble-autoware-internal-metric-msgs_1.8.1-4-g89124f4-2025.07.04.14.51_amd64.deb

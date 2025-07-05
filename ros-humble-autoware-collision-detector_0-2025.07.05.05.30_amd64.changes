@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-collision-detector
+Binary: ros-humble-autoware-collision-detector
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.05.30
+Distribution: jammy
+Urgency: high
+Maintainer: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Changed-By: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Description:
+ ros-humble-autoware-collision-detector - The collision_detector package
+Changes:
+ ros-humble-autoware-collision-detector (0-2025.07.05.05.30) jammy; urgency=high
+Checksums-Sha1:
+ 58a04bf9aad335104221f1b70873ded7f1cd6c2c 7259050 ros-humble-autoware-collision-detector-dbgsym_0-2025.07.05.05.30_amd64.ddeb
+ 6c4c620cffab9408a5f5f662d8ff522dfdf3dc88 41622 ros-humble-autoware-collision-detector_0-2025.07.05.05.30_amd64.buildinfo
+ 3fe4e8d2bf7639712d350a9d0c0eeec0fe4a418b 264178 ros-humble-autoware-collision-detector_0-2025.07.05.05.30_amd64.deb
+Checksums-Sha256:
+ b9d3f9f418c2e9d606fa7f670a404bc0c2eaa1f3078c8adec92f664f84611157 7259050 ros-humble-autoware-collision-detector-dbgsym_0-2025.07.05.05.30_amd64.ddeb
+ 6dcfcf0227d636f89c992286f6fbf8e97926b2eb17c3e4bd67d8ac3fd9f98a60 41622 ros-humble-autoware-collision-detector_0-2025.07.05.05.30_amd64.buildinfo
+ 187da3933f49460928428d450935d332bab08d57dfb9b772e65ee9318b99fb97 264178 ros-humble-autoware-collision-detector_0-2025.07.05.05.30_amd64.deb
+Files:
+ 8017edb737fbd0f2aa0e01d77d458374 7259050 debug optional ros-humble-autoware-collision-detector-dbgsym_0-2025.07.05.05.30_amd64.ddeb
+ b1ac83502e662bb3a43c2a5cdaf6f94a 41622 misc optional ros-humble-autoware-collision-detector_0-2025.07.05.05.30_amd64.buildinfo
+ 3f1eb47c884e32c64c17e27e69b8e1b1 264178 misc optional ros-humble-autoware-collision-detector_0-2025.07.05.05.30_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-planning-factor-interface
+Binary: ros-humble-autoware-planning-factor-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.05.02.12
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-planning-factor-interface - The autoware_planning_factor_interface package
+Changes:
+ ros-humble-autoware-planning-factor-interface (1.0.0-73-g3d059fa8-2025.07.05.02.12) jammy; urgency=high
+Checksums-Sha1:
+ 8353b0d6129ffdad2079b231287f36b1070a5ef3 277780 ros-humble-autoware-planning-factor-interface-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.02.12_amd64.ddeb
+ ab86271308a1d2bc420ef4a8a133b0c771162b81 41871 ros-humble-autoware-planning-factor-interface_1.0.0-73-g3d059fa8-2025.07.05.02.12_amd64.buildinfo
+ 4e384e04db3c7928bb1ca85e41e905b6d97ae172 20246 ros-humble-autoware-planning-factor-interface_1.0.0-73-g3d059fa8-2025.07.05.02.12_amd64.deb
+Checksums-Sha256:
+ 53ede97d086a43587fbd47c93f4b63f348b4dea6e4c197083d022f8d2a1bdd2e 277780 ros-humble-autoware-planning-factor-interface-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.02.12_amd64.ddeb
+ 6909f409514be983eb4f32f1d4dc520d68ac7e8baca0ec8dbed1a369d2615a61 41871 ros-humble-autoware-planning-factor-interface_1.0.0-73-g3d059fa8-2025.07.05.02.12_amd64.buildinfo
+ f3be69929bb9d43557c25bf0fa7f9081d76f4728c6f1e9d773e8e3a047c3a79e 20246 ros-humble-autoware-planning-factor-interface_1.0.0-73-g3d059fa8-2025.07.05.02.12_amd64.deb
+Files:
+ 167bc06e7fafbc97347b554bb6cd155f 277780 debug optional ros-humble-autoware-planning-factor-interface-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.02.12_amd64.ddeb
+ b9b251921fc56217765595c94255a67a 41871 misc optional ros-humble-autoware-planning-factor-interface_1.0.0-73-g3d059fa8-2025.07.05.02.12_amd64.buildinfo
+ 82d3e909bfbb73a676b65ee2468aaab5 20246 misc optional ros-humble-autoware-planning-factor-interface_1.0.0-73-g3d059fa8-2025.07.05.02.12_amd64.deb

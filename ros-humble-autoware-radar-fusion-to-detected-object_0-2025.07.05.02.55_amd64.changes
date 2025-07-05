@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-radar-fusion-to-detected-object
+Binary: ros-humble-autoware-radar-fusion-to-detected-object
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.02.55
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Tanaka <satoshi.tanaka@tier4.jp>
+Changed-By: Satoshi Tanaka <satoshi.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-radar-fusion-to-detected-object - autoware_radar_fusion_to_detected_object
+Changes:
+ ros-humble-autoware-radar-fusion-to-detected-object (0-2025.07.05.02.55) jammy; urgency=high
+Checksums-Sha1:
+ 0e9849280de3d511b91defb008b87d8aab38b45d 3507488 ros-humble-autoware-radar-fusion-to-detected-object-dbgsym_0-2025.07.05.02.55_amd64.ddeb
+ 09aeea4b5285ea192c14c6e7030c1982d32ca5b0 42308 ros-humble-autoware-radar-fusion-to-detected-object_0-2025.07.05.02.55_amd64.buildinfo
+ 6f117e90fc53b9350aee8e81e9013a0b18e10813 175544 ros-humble-autoware-radar-fusion-to-detected-object_0-2025.07.05.02.55_amd64.deb
+Checksums-Sha256:
+ cb04542726c783f4c94e88ba27be2b5be08100308b93f8fa5d97e5242885bb77 3507488 ros-humble-autoware-radar-fusion-to-detected-object-dbgsym_0-2025.07.05.02.55_amd64.ddeb
+ d4edf33f3bc5a7ff64a5eb063e927efffd01024a85a3580f258dcd4e4d899742 42308 ros-humble-autoware-radar-fusion-to-detected-object_0-2025.07.05.02.55_amd64.buildinfo
+ 49b0b0885d09d72ca03ab99974612ae8f457e007d3aa683ea5932ef1ccb59edf 175544 ros-humble-autoware-radar-fusion-to-detected-object_0-2025.07.05.02.55_amd64.deb
+Files:
+ 2dd924b5a039f089c90287812ef138ac 3507488 debug optional ros-humble-autoware-radar-fusion-to-detected-object-dbgsym_0-2025.07.05.02.55_amd64.ddeb
+ 12de74a224d06230eb65367f98c6b0ff 42308 misc optional ros-humble-autoware-radar-fusion-to-detected-object_0-2025.07.05.02.55_amd64.buildinfo
+ 91e3dee68f77e8f45b9be409f8f5dde7 175544 misc optional ros-humble-autoware-radar-fusion-to-detected-object_0-2025.07.05.02.55_amd64.deb

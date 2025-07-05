@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-rtc-interface
+Binary: ros-humble-autoware-behavior-velocity-rtc-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.12.31
+Distribution: jammy
+Urgency: high
+Maintainer: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Changed-By: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-rtc-interface - The autoware_behavior_velocity_rtc_interface package
+Changes:
+ ros-humble-autoware-behavior-velocity-rtc-interface (0-2025.07.05.12.31) jammy; urgency=high
+Checksums-Sha1:
+ c29a52dc89052337c5be63b1e70f5070170538cc 2551418 ros-humble-autoware-behavior-velocity-rtc-interface-dbgsym_0-2025.07.05.12.31_amd64.ddeb
+ 5e9061e17e8119a6be567d399f82c68c3b09627b 44737 ros-humble-autoware-behavior-velocity-rtc-interface_0-2025.07.05.12.31_amd64.buildinfo
+ fdb46db1631fe6c3f123898ea7df7d260af22a85 90040 ros-humble-autoware-behavior-velocity-rtc-interface_0-2025.07.05.12.31_amd64.deb
+Checksums-Sha256:
+ ed65b5e29b79e29570bef437c46a44427b55f6a64088107f9d04df7050affcf5 2551418 ros-humble-autoware-behavior-velocity-rtc-interface-dbgsym_0-2025.07.05.12.31_amd64.ddeb
+ aa02c5c01a2699a6c512246e70ce356b4accf167d41434edfd61d957a3128928 44737 ros-humble-autoware-behavior-velocity-rtc-interface_0-2025.07.05.12.31_amd64.buildinfo
+ 390f373257871a4df633888ed4eabcab81bb88edc4457bc719bde68f0434ec38 90040 ros-humble-autoware-behavior-velocity-rtc-interface_0-2025.07.05.12.31_amd64.deb
+Files:
+ 8f1af73f986a8691f77bc4d4d3a43436 2551418 debug optional ros-humble-autoware-behavior-velocity-rtc-interface-dbgsym_0-2025.07.05.12.31_amd64.ddeb
+ 3ff1aa39769297fa71ee87dd72826086 44737 misc optional ros-humble-autoware-behavior-velocity-rtc-interface_0-2025.07.05.12.31_amd64.buildinfo
+ f52a6b960d663efe813ae9554a61c80b 90040 misc optional ros-humble-autoware-behavior-velocity-rtc-interface_0-2025.07.05.12.31_amd64.deb

@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Fri, 25 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-lanelet2-extension
+Binary: ros-humble-autoware-lanelet2-extension
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.7.1-2025.07.04.17.37
+Distribution: jammy
+Urgency: high
+Maintainer: mitsudome-r <ryohsuke.mitsudome@tier4.jp>
+Changed-By: mitsudome-r <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-autoware-lanelet2-extension - The autoware_lanelet2_extension package contains libraries to han
+Changes:
+ ros-humble-autoware-lanelet2-extension (0.7.1-2025.07.04.17.37) jammy; urgency=high
+ .
+   * ci(pre-commit): autoupdate (#55 <https://github.com/autowarefoundation/autoware_lanelet2_extension/issues/55>)
+     * ci(pre-commit): autoupdate
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: github-actions <mailto:github-actions@github.com>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix(autoware_lanelet2_extension): not use obsolete header (#63 <https://github.com/autowarefoundation/autoware_lanelet2_extension/issues/63>)
+     * Update query.cpp
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Yutaka Kondo, awf-autoware-bot[bot]
+Checksums-Sha1:
+ 4cd74cef1e487c676af43d41d22062dd642fa372 15212496 ros-humble-autoware-lanelet2-extension-dbgsym_0.7.1-2025.07.04.17.37_amd64.ddeb
+ 737ef53526371aceb2c7f327f236f8a7eb4e0b69 24031 ros-humble-autoware-lanelet2-extension_0.7.1-2025.07.04.17.37_amd64.buildinfo
+ ed718122948e6c93d5c2fe562a2bea4b5f4b01cd 409352 ros-humble-autoware-lanelet2-extension_0.7.1-2025.07.04.17.37_amd64.deb
+Checksums-Sha256:
+ 769d2e7a0be7f87ee0ba1928619f968027db79de76aca7886634e0700996207d 15212496 ros-humble-autoware-lanelet2-extension-dbgsym_0.7.1-2025.07.04.17.37_amd64.ddeb
+ 5ea8105dfb78929e12455962e75f58492108b99d4910e8da8e4af232405b394d 24031 ros-humble-autoware-lanelet2-extension_0.7.1-2025.07.04.17.37_amd64.buildinfo
+ 9805f033d1e53cd748b7873f04b18323d9f274d4114d7546b548f874d7bffdc8 409352 ros-humble-autoware-lanelet2-extension_0.7.1-2025.07.04.17.37_amd64.deb
+Files:
+ 2b40bedafb8ae160a16c9df6b5b7972e 15212496 debug optional ros-humble-autoware-lanelet2-extension-dbgsym_0.7.1-2025.07.04.17.37_amd64.ddeb
+ 1377b372485722cf2323aaf3adb0ea12 24031 misc optional ros-humble-autoware-lanelet2-extension_0.7.1-2025.07.04.17.37_amd64.buildinfo
+ 942307043d54a801a15bc2d79e44a20b 409352 misc optional ros-humble-autoware-lanelet2-extension_0.7.1-2025.07.04.17.37_amd64.deb

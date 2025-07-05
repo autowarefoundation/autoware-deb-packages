@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-occupancy-grid-map-outlier-filter
+Binary: ros-humble-autoware-occupancy-grid-map-outlier-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.07.37
+Distribution: jammy
+Urgency: high
+Maintainer: amc-nu <abrahammonrroy@yahoo.com>
+Changed-By: amc-nu <abrahammonrroy@yahoo.com>
+Description:
+ ros-humble-autoware-occupancy-grid-map-outlier-filter - The ROS 2 occupancy_grid_map_outlier_filter package
+Changes:
+ ros-humble-autoware-occupancy-grid-map-outlier-filter (0-2025.07.05.07.37) jammy; urgency=high
+Checksums-Sha1:
+ 91b5e7371b89c4a6ae4288bdd260b3578ccc5054 5558204 ros-humble-autoware-occupancy-grid-map-outlier-filter-dbgsym_0-2025.07.05.07.37_amd64.ddeb
+ 9dd204b12114e232e6f071f74d677832587e2539 48328 ros-humble-autoware-occupancy-grid-map-outlier-filter_0-2025.07.05.07.37_amd64.buildinfo
+ 1fe6057233c5391ae6c948bdf35583f485b82916 195040 ros-humble-autoware-occupancy-grid-map-outlier-filter_0-2025.07.05.07.37_amd64.deb
+Checksums-Sha256:
+ 775fc337553d6dea7bc12acda6244c5d0b62c7feffebf7b0bd0def97bd8a6fbd 5558204 ros-humble-autoware-occupancy-grid-map-outlier-filter-dbgsym_0-2025.07.05.07.37_amd64.ddeb
+ 3b997651da6798172f682f093a06b7fa5b7e1fc9de3ad23ba6a37739173a44d0 48328 ros-humble-autoware-occupancy-grid-map-outlier-filter_0-2025.07.05.07.37_amd64.buildinfo
+ b41629bb8d388e314d6a1234c67844e59049b2f990d7501582740ba1c4027fef 195040 ros-humble-autoware-occupancy-grid-map-outlier-filter_0-2025.07.05.07.37_amd64.deb
+Files:
+ de4e1830c1d5c7818ca4a90edd541bbc 5558204 debug optional ros-humble-autoware-occupancy-grid-map-outlier-filter-dbgsym_0-2025.07.05.07.37_amd64.ddeb
+ 901099600bc8c8d1f04c232f7833ba91 48328 misc optional ros-humble-autoware-occupancy-grid-map-outlier-filter_0-2025.07.05.07.37_amd64.buildinfo
+ ff12d974bd64e8601a874b1f6bb0dbbb 195040 misc optional ros-humble-autoware-occupancy-grid-map-outlier-filter_0-2025.07.05.07.37_amd64.deb

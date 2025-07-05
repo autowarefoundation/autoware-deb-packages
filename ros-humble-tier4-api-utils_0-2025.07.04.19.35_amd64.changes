@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-tier4-api-utils
+Binary: ros-humble-tier4-api-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.19.35
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-tier4-api-utils - The tier4_api_utils package
+Changes:
+ ros-humble-tier4-api-utils (0-2025.07.04.19.35) jammy; urgency=high
+Checksums-Sha1:
+ 6f7a92fc78cb058138b113705e370749b7f8cc01 15216 ros-humble-tier4-api-utils_0-2025.07.04.19.35_amd64.buildinfo
+ 35eb05b9e4948da845e30f84c01f25c6dc230b62 9776 ros-humble-tier4-api-utils_0-2025.07.04.19.35_amd64.deb
+Checksums-Sha256:
+ 2873a67e536a77e0b961d4fc3b3da1f3f0e82875d7bb08d80592003a979494f3 15216 ros-humble-tier4-api-utils_0-2025.07.04.19.35_amd64.buildinfo
+ 54b4f3f262e81b4a3dd7e9506382a830480155147c902ee8d282242c2c09602b 9776 ros-humble-tier4-api-utils_0-2025.07.04.19.35_amd64.deb
+Files:
+ 0c7a0b1eda5c3eaee13c2a67f741a416 15216 misc optional ros-humble-tier4-api-utils_0-2025.07.04.19.35_amd64.buildinfo
+ 627d9723ffc4c729121c8259be4e9b89 9776 misc optional ros-humble-tier4-api-utils_0-2025.07.04.19.35_amd64.deb

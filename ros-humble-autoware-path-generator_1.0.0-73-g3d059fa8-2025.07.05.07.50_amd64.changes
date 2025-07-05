@@ -1,0 +1,86 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-path-generator
+Binary: ros-humble-autoware-path-generator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.05.07.50
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-path-generator - The autoware_path_generator package
+Changes:
+ ros-humble-autoware-path-generator (1.0.0-73-g3d059fa8-2025.07.05.07.50) jammy; urgency=high
+ .
+   * fix(path_generator): set both lane IDs to point on border of adjacent lanes (#384 <https://github.com/autowarefoundation/autoware_core/issues/384>)
+     set both lane IDs to point on border of adjacent lanes
+   * feat(path_generator): move generate_path public (#380 <https://github.com/autowarefoundation/autoware_core/issues/380>)
+     * feat(path_generator): move generate_path public
+     * style(pre-commit): autofix
+     * fix pre-commit
+     * fix test include path
+     ---------
+     Co-authored-by: t4-adc <mailto:grp-rd-1-adc-admin@tier4.jp>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * refactor(autoware_trajectory)!: move everything to namespace experimetal (#371 <https://github.com/autowarefoundation/autoware_core/issues/371>)
+     refactor(autoware_trajectory)!: move everything to namespace experimental
+   * test(path_generator): add tests for path cut feature (#268 <https://github.com/autowarefoundation/autoware_core/issues/268>)
+     * add map for test
+     * add overpass map
+     * refactor & enhance base test class
+     * add tests
+     * style(pre-commit): autofix
+     * fix year created
+     Co-authored-by: Kosuke Takeuchi <mailto:kosuke.tnp@gmail.com>
+     * anonymize test map
+     * style(pre-commit): autofix
+     * add test map info to README
+     * style(pre-commit): autofix
+     * make tests work with autoware_trajectory
+     * include necessary header
+     * fix test case
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Kosuke Takeuchi <mailto:kosuke.tnp@gmail.com>
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix(path_generator): deal with unintended input (#336 <https://github.com/autowarefoundation/autoware_core/issues/336>)
+     * prevent segfault
+     * fix self-intersection search range
+     * define behavior for unintended input
+     * prevent segfault
+     * check builder output instead of input size
+     ---------
+   * refactor(path_generator): avoid using fixed-size array (#353 <https://github.com/autowarefoundation/autoware_core/issues/353>)
+     * avoid using fixed-size array
+     * include necessary headers
+     * avoid capturing structured bindings in lambdas
+     ---------
+   * docs(path_generator): add description of path cut & turn signal feature (#359 <https://github.com/autowarefoundation/autoware_core/issues/359>)
+     * add diagrams of path cut feature
+     * add diagrams of turn signal feature
+     * update parameter list
+     * update README
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * fix(path_generator): avoid shortcuts at overlaps (#352 <https://github.com/autowarefoundation/autoware_core/issues/352>)
+     * track current lane to avoid shortcut
+     * add constraints for current lane search
+     ---------
+   * feat(autoware_path_generator): use autoware_trajectory for cropping bounds (#349 <https://github.com/autowarefoundation/autoware_core/issues/349>)
+   * Contributors: Kazunori-Nakajima, Mamoru Sobue, Mitsuhiro Sakamoto, Yukinari Hisaki
+Checksums-Sha1:
+ 3fa4f70d3588c08b9b99de8184b03b02e57e48d3 7329838 ros-humble-autoware-path-generator-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.07.50_amd64.ddeb
+ c468e6a6213e7faab9892fdaf0f3411ff92c32ff 44269 ros-humble-autoware-path-generator_1.0.0-73-g3d059fa8-2025.07.05.07.50_amd64.buildinfo
+ 98e1defd3754e87f4936d95750da1205ad8d6408 283018 ros-humble-autoware-path-generator_1.0.0-73-g3d059fa8-2025.07.05.07.50_amd64.deb
+Checksums-Sha256:
+ db6be02ad6c97c018b90d64ec90aedad6dd82ec480c9de915a0b201ed6d57c00 7329838 ros-humble-autoware-path-generator-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.07.50_amd64.ddeb
+ 532402dd2b86dbcb8614a77f80faa15daf9079e94332fc77220585d42fd499e4 44269 ros-humble-autoware-path-generator_1.0.0-73-g3d059fa8-2025.07.05.07.50_amd64.buildinfo
+ 6c06b4654e3c64d19913c2960ed09b23f45d0a1c03a9251680eeefb0991227c6 283018 ros-humble-autoware-path-generator_1.0.0-73-g3d059fa8-2025.07.05.07.50_amd64.deb
+Files:
+ c05ef9ea087fa06357c3fae2819eda9c 7329838 debug optional ros-humble-autoware-path-generator-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.07.50_amd64.ddeb
+ 4450baab7cb7fae4edb986ddf2c1fc8c 44269 misc optional ros-humble-autoware-path-generator_1.0.0-73-g3d059fa8-2025.07.05.07.50_amd64.buildinfo
+ c35e3f6e66fd9f36553c80a5141ab8b2 283018 misc optional ros-humble-autoware-path-generator_1.0.0-73-g3d059fa8-2025.07.05.07.50_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-ekf-localizer
+Binary: ros-humble-autoware-ekf-localizer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.21.47
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-ekf-localizer - The autoware_ekf_localizer package
+Changes:
+ ros-humble-autoware-ekf-localizer (1.0.0-73-g3d059fa8-2025.07.04.21.47) jammy; urgency=high
+Checksums-Sha1:
+ 51e04ba79c9c90e7b8c56ea90919de042538f42f 6227700 ros-humble-autoware-ekf-localizer-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.21.47_amd64.ddeb
+ 0a49f7445d7882b390be437ca113f95f68e623e0 19246 ros-humble-autoware-ekf-localizer_1.0.0-73-g3d059fa8-2025.07.04.21.47_amd64.buildinfo
+ 721b0cc5153d887c167ed5976df32d5b9c874221 250470 ros-humble-autoware-ekf-localizer_1.0.0-73-g3d059fa8-2025.07.04.21.47_amd64.deb
+Checksums-Sha256:
+ ac66450c8bad742af10e7a78fc35396f695ea15387489abe6716467161e657e4 6227700 ros-humble-autoware-ekf-localizer-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.21.47_amd64.ddeb
+ 0e094795a19ed36a1e75bc26f610b2c41c3d7e2e6fdbd2cd5487a85cad1196eb 19246 ros-humble-autoware-ekf-localizer_1.0.0-73-g3d059fa8-2025.07.04.21.47_amd64.buildinfo
+ 3cc23a7139e6cbc4abb63322a89a73e2956d415e573868e11f5fb68ffd378403 250470 ros-humble-autoware-ekf-localizer_1.0.0-73-g3d059fa8-2025.07.04.21.47_amd64.deb
+Files:
+ d5d7f3425295c3c2655fabf899755a81 6227700 debug optional ros-humble-autoware-ekf-localizer-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.21.47_amd64.ddeb
+ 3e4e62c5fd35940f8b790d0fb5fef64c 19246 misc optional ros-humble-autoware-ekf-localizer_1.0.0-73-g3d059fa8-2025.07.04.21.47_amd64.buildinfo
+ a70c5f3ae21007a1332e53cfa4894c22 250470 misc optional ros-humble-autoware-ekf-localizer_1.0.0-73-g3d059fa8-2025.07.04.21.47_amd64.deb

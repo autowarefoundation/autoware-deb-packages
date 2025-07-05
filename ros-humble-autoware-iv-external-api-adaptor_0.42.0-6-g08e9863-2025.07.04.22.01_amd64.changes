@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 03 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-iv-external-api-adaptor
+Binary: ros-humble-autoware-iv-external-api-adaptor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.42.0-6-g08e9863-2025.07.04.22.01
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-iv-external-api-adaptor - The autoware_iv_external_api_adaptor package
+Changes:
+ ros-humble-autoware-iv-external-api-adaptor (0.42.0-6-g08e9863-2025.07.04.22.01) jammy; urgency=high
+Checksums-Sha1:
+ dbcf15ecead9c223ab18a9e816aed234571329ea 33600496 ros-humble-autoware-iv-external-api-adaptor-dbgsym_0.42.0-6-g08e9863-2025.07.04.22.01_amd64.ddeb
+ ba98c515153c2a810443322cbf4bbd34c38b55ae 18227 ros-humble-autoware-iv-external-api-adaptor_0.42.0-6-g08e9863-2025.07.04.22.01_amd64.buildinfo
+ b5d05e60453e73e332a44c02a87846717826888c 862126 ros-humble-autoware-iv-external-api-adaptor_0.42.0-6-g08e9863-2025.07.04.22.01_amd64.deb
+Checksums-Sha256:
+ b75835a72d322cb9c33be161e476f0ecb0809d528f1d02888d33ac6aeff010a0 33600496 ros-humble-autoware-iv-external-api-adaptor-dbgsym_0.42.0-6-g08e9863-2025.07.04.22.01_amd64.ddeb
+ 665327900cde30d0fe08eba73f29035bc96207a367fd08323b34e7004f31cabd 18227 ros-humble-autoware-iv-external-api-adaptor_0.42.0-6-g08e9863-2025.07.04.22.01_amd64.buildinfo
+ e60bf07bb6a2ed907b9709b3f911dec67df410a9cd4da717265abbe082150f1f 862126 ros-humble-autoware-iv-external-api-adaptor_0.42.0-6-g08e9863-2025.07.04.22.01_amd64.deb
+Files:
+ 65999de6b737422730d6104f0277b737 33600496 debug optional ros-humble-autoware-iv-external-api-adaptor-dbgsym_0.42.0-6-g08e9863-2025.07.04.22.01_amd64.ddeb
+ 1eb54fc403d450be8d7298c8cb9d7a19 18227 misc optional ros-humble-autoware-iv-external-api-adaptor_0.42.0-6-g08e9863-2025.07.04.22.01_amd64.buildinfo
+ 70804cdaa897ec1500df83e4220b1650 862126 misc optional ros-humble-autoware-iv-external-api-adaptor_0.42.0-6-g08e9863-2025.07.04.22.01_amd64.deb

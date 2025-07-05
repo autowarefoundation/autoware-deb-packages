@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-awsim-labs-sensor-kit-description
+Binary: ros-humble-awsim-labs-sensor-kit-description
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.16.17
+Distribution: jammy
+Urgency: high
+Maintainer: Piotr Jaroszek <piotr.jaroszek@robotec.ai>
+Changed-By: Piotr Jaroszek <piotr.jaroszek@robotec.ai>
+Description:
+ ros-humble-awsim-labs-sensor-kit-description - The awsim_labs_sensor_kit_description package
+Changes:
+ ros-humble-awsim-labs-sensor-kit-description (0-2025.07.04.16.17) jammy; urgency=high
+ .
+   * feat: remove individual_params references (#1403 <https://github.com/autowarefoundation/autoware_launch/issues/1403>)
+   * chore: set all versions to 0.43.0 (#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>)
+   * feat(*_launch): move here (#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>)
+   * Contributors: Mete Fatih Cırıt
+   * feat: remove individual_params references (#1403 <https://github.com/autowarefoundation/autoware_launch/issues/1403>)
+   * chore: set all versions to 0.43.0 (#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>)
+   * feat(*_launch): move here (#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>)
+   * Contributors: Mete Fatih Cırıt
+Checksums-Sha1:
+ f03d3981dad720289e5461278fb606bbd5b01413 10999 ros-humble-awsim-labs-sensor-kit-description_0-2025.07.04.16.17_amd64.buildinfo
+ 0a2a2f681ebf5f4bbf840a18f1583f4d8ac5f5bf 7980 ros-humble-awsim-labs-sensor-kit-description_0-2025.07.04.16.17_amd64.deb
+Checksums-Sha256:
+ af9de24db87f1809417314ceda4a00331e69ac724dd736d16f702ef06f9d4fe4 10999 ros-humble-awsim-labs-sensor-kit-description_0-2025.07.04.16.17_amd64.buildinfo
+ 06991a6d7fdef90e881bede6a1221c0b5ae2d6d6c054fb4ff9cde42f0d43c937 7980 ros-humble-awsim-labs-sensor-kit-description_0-2025.07.04.16.17_amd64.deb
+Files:
+ a03d2c23260ab2b81538d525e0792e22 10999 misc optional ros-humble-awsim-labs-sensor-kit-description_0-2025.07.04.16.17_amd64.buildinfo
+ 304e8bde5c9aff7f5f1f602a4034d6e7 7980 misc optional ros-humble-awsim-labs-sensor-kit-description_0-2025.07.04.16.17_amd64.deb

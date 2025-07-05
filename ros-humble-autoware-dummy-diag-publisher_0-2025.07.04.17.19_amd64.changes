@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-dummy-diag-publisher
+Binary: ros-humble-autoware-dummy-diag-publisher
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.17.19
+Distribution: jammy
+Urgency: high
+Maintainer: Fumihito Ito <fumihito.ito@tier4.jp>
+Changed-By: Fumihito Ito <fumihito.ito@tier4.jp>
+Description:
+ ros-humble-autoware-dummy-diag-publisher - The dummy_diag_publisher ROS 2 package
+Changes:
+ ros-humble-autoware-dummy-diag-publisher (0-2025.07.04.17.19) jammy; urgency=high
+Checksums-Sha1:
+ 92cb7bb9ab8bc6d7643bb09994ac4e9e81d838ad 1577700 ros-humble-autoware-dummy-diag-publisher-dbgsym_0-2025.07.04.17.19_amd64.ddeb
+ a26e4543c6a3bf980d97336956d395000aa151c5 16009 ros-humble-autoware-dummy-diag-publisher_0-2025.07.04.17.19_amd64.buildinfo
+ f4c790ca701bc5a3919bfb8342bae32a776cbb48 120490 ros-humble-autoware-dummy-diag-publisher_0-2025.07.04.17.19_amd64.deb
+Checksums-Sha256:
+ 8fa10d8c459efcf37a135789cccb55a05f6ab766d3749f1d1b090e8de3073798 1577700 ros-humble-autoware-dummy-diag-publisher-dbgsym_0-2025.07.04.17.19_amd64.ddeb
+ e8f47ac5e610f56968213f346753c03951d2edd23a5eb5d5db10d3db9fe7f361 16009 ros-humble-autoware-dummy-diag-publisher_0-2025.07.04.17.19_amd64.buildinfo
+ bcb9a68e5dd7fc0c5ad33ad589181c1254bae00c5a6bfaa70c6197aaeefd25fc 120490 ros-humble-autoware-dummy-diag-publisher_0-2025.07.04.17.19_amd64.deb
+Files:
+ a0e86d77b21d7c83440cfa98b1c74d61 1577700 debug optional ros-humble-autoware-dummy-diag-publisher-dbgsym_0-2025.07.04.17.19_amd64.ddeb
+ 77bdf7a473a7b692562244b87c050efa 16009 misc optional ros-humble-autoware-dummy-diag-publisher_0-2025.07.04.17.19_amd64.buildinfo
+ cde0b20b7b6b1c65049f8023aa045d2c 120490 misc optional ros-humble-autoware-dummy-diag-publisher_0-2025.07.04.17.19_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-motion-velocity-obstacle-stop-module
+Binary: ros-humble-autoware-motion-velocity-obstacle-stop-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.05.15.08
+Distribution: jammy
+Urgency: high
+Maintainer: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Changed-By: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Description:
+ ros-humble-autoware-motion-velocity-obstacle-stop-module - obstacle stop feature in motion_velocity_planner
+Changes:
+ ros-humble-autoware-motion-velocity-obstacle-stop-module (1.0.0-73-g3d059fa8-2025.07.05.15.08) jammy; urgency=high
+Checksums-Sha1:
+ 3de21c4cbc1e22ff6db835bb7ba16c4f9e466155 4051284 ros-humble-autoware-motion-velocity-obstacle-stop-module-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.15.08_amd64.ddeb
+ 84bd558e7a16f06ef98a8c2330d9e6421f390a36 45004 ros-humble-autoware-motion-velocity-obstacle-stop-module_1.0.0-73-g3d059fa8-2025.07.05.15.08_amd64.buildinfo
+ 727b009cfaf40ef8a9a98726a1c6d60ffe4f61f1 140432 ros-humble-autoware-motion-velocity-obstacle-stop-module_1.0.0-73-g3d059fa8-2025.07.05.15.08_amd64.deb
+Checksums-Sha256:
+ 2d42f729225748530b8e35bf2afbe5c0f91c69e0c3a43acab6bfd9f8d5717b18 4051284 ros-humble-autoware-motion-velocity-obstacle-stop-module-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.15.08_amd64.ddeb
+ 4368211836ecf49a19417514e750f20a8ed2ca12ef0b581e1a6045e6bea015e3 45004 ros-humble-autoware-motion-velocity-obstacle-stop-module_1.0.0-73-g3d059fa8-2025.07.05.15.08_amd64.buildinfo
+ 023a5b61a13c707e38b6ff95cc6ddbbc1e16cfb3bee46a722ccb0beec7ea10a1 140432 ros-humble-autoware-motion-velocity-obstacle-stop-module_1.0.0-73-g3d059fa8-2025.07.05.15.08_amd64.deb
+Files:
+ 679f320c4bb4eef01032f05ac26a26e4 4051284 debug optional ros-humble-autoware-motion-velocity-obstacle-stop-module-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.15.08_amd64.ddeb
+ 7abb56634dbfa943862bb32a5250ad17 45004 misc optional ros-humble-autoware-motion-velocity-obstacle-stop-module_1.0.0-73-g3d059fa8-2025.07.05.15.08_amd64.buildinfo
+ f8940695f302a8352ac26ab7384fb644 140432 misc optional ros-humble-autoware-motion-velocity-obstacle-stop-module_1.0.0-73-g3d059fa8-2025.07.05.15.08_amd64.deb

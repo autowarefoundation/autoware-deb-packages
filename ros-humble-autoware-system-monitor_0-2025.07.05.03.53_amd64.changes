@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-system-monitor
+Binary: ros-humble-autoware-system-monitor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.03.53
+Distribution: jammy
+Urgency: high
+Maintainer: Fumihito Ito <fumihito.ito@tier4.jp>
+Changed-By: Fumihito Ito <fumihito.ito@tier4.jp>
+Description:
+ ros-humble-autoware-system-monitor - The system_monitor package
+Changes:
+ ros-humble-autoware-system-monitor (0-2025.07.05.03.53) jammy; urgency=high
+Checksums-Sha1:
+ d33694ebe4f2b3a97f0d83aea267ea53d79f848c 19736226 ros-humble-autoware-system-monitor-dbgsym_0-2025.07.05.03.53_amd64.ddeb
+ 1acb916ab879fbb51bf66dc57cc3e40678a7bc69 41456 ros-humble-autoware-system-monitor_0-2025.07.05.03.53_amd64.buildinfo
+ 2726dd3bce6172667873e362dbdeb6fc91393897 801884 ros-humble-autoware-system-monitor_0-2025.07.05.03.53_amd64.deb
+Checksums-Sha256:
+ bbd2cb2e73f081ec40e0720947c131fc69de2caf15bddb7c1ec7bc700ced0ac6 19736226 ros-humble-autoware-system-monitor-dbgsym_0-2025.07.05.03.53_amd64.ddeb
+ b116838f4a3618a436ae16abaa7577b58c8e964711c37dc59942906ac219cfb8 41456 ros-humble-autoware-system-monitor_0-2025.07.05.03.53_amd64.buildinfo
+ cc6903250ab254d0ff14ef3da9140d7f3f5bfae0124344c8428fe3f513b1d51f 801884 ros-humble-autoware-system-monitor_0-2025.07.05.03.53_amd64.deb
+Files:
+ bdeb884c4733e57c32e15a128e8adbee 19736226 debug optional ros-humble-autoware-system-monitor-dbgsym_0-2025.07.05.03.53_amd64.ddeb
+ 81211940420f081e7a9e41761e4b9fa0 41456 misc optional ros-humble-autoware-system-monitor_0-2025.07.05.03.53_amd64.buildinfo
+ c9245b96c6410411b2aaff7162753b16 801884 misc optional ros-humble-autoware-system-monitor_0-2025.07.05.03.53_amd64.deb

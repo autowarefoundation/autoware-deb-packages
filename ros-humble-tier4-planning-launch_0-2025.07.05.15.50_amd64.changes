@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-tier4-planning-launch
+Binary: ros-humble-tier4-planning-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.15.50
+Distribution: jammy
+Urgency: high
+Maintainer: Zulfaqar Azmi <zulfaqar.azmi@tier4.jp>
+Changed-By: Zulfaqar Azmi <zulfaqar.azmi@tier4.jp>
+Description:
+ ros-humble-tier4-planning-launch - The tier4_planning_launch package
+Changes:
+ ros-humble-tier4-planning-launch (0-2025.07.05.15.50) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * chore(motion_velocity_planner): move common and node packages to core (#10367 <https://github.com/autowarefoundation/autoware_universe/issues/10367>)
+   * Contributors: Maxime CLEMENT, Ryohsuke Mitsudome
+Checksums-Sha1:
+ ba6dfd4a4feff3137b1ac38f20e4cf5bd47d47bb 10738 ros-humble-tier4-planning-launch_0-2025.07.05.15.50_amd64.buildinfo
+ 4283c69ab5c59e3e435074945e6d2539f685c344 34650 ros-humble-tier4-planning-launch_0-2025.07.05.15.50_amd64.deb
+Checksums-Sha256:
+ 78ed14a65c409c89ce024596f4bb21e1756a62738498cde5f9b8e95b88a98b6f 10738 ros-humble-tier4-planning-launch_0-2025.07.05.15.50_amd64.buildinfo
+ d1dca85891012b4acaa6006f2c0bb1dcb9377b0f1739af5bd1bdea774ea411a3 34650 ros-humble-tier4-planning-launch_0-2025.07.05.15.50_amd64.deb
+Files:
+ 9026945d4aec2bbab4e723b6815af02c 10738 misc optional ros-humble-tier4-planning-launch_0-2025.07.05.15.50_amd64.buildinfo
+ 68afd3ba4307a89ce1c19d51b0bada95 34650 misc optional ros-humble-tier4-planning-launch_0-2025.07.05.15.50_amd64.deb

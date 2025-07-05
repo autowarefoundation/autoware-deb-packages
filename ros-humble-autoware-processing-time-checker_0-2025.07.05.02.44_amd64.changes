@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-processing-time-checker
+Binary: ros-humble-autoware-processing-time-checker
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.02.44
+Distribution: jammy
+Urgency: high
+Maintainer: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Changed-By: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Description:
+ ros-humble-autoware-processing-time-checker - A package to find out nodes with common names
+Changes:
+ ros-humble-autoware-processing-time-checker (0-2025.07.05.02.44) jammy; urgency=high
+Checksums-Sha1:
+ 673af5a2c992f8cce38a871c01a5d57615395e8d 2790386 ros-humble-autoware-processing-time-checker-dbgsym_0-2025.07.05.02.44_amd64.ddeb
+ 17a0c35f206ce288f9e7833b91bfa2e291db9d7c 42279 ros-humble-autoware-processing-time-checker_0-2025.07.05.02.44_amd64.buildinfo
+ c8dba721c3345506d8baaaef22a10cd14ffb5ecc 143138 ros-humble-autoware-processing-time-checker_0-2025.07.05.02.44_amd64.deb
+Checksums-Sha256:
+ 3221e01c180e0563cca4f653654fcff58e52ea2caf313af1c7fdd3dd8d2ed256 2790386 ros-humble-autoware-processing-time-checker-dbgsym_0-2025.07.05.02.44_amd64.ddeb
+ a9ff372dc97fd272edd391b6540c3bab74cba7a2f5ec389199f210fd6d6743d9 42279 ros-humble-autoware-processing-time-checker_0-2025.07.05.02.44_amd64.buildinfo
+ 9ced53e1ee9535509fd7f961ea943d9e557b5bef7e4c285d247b7718c90a26c3 143138 ros-humble-autoware-processing-time-checker_0-2025.07.05.02.44_amd64.deb
+Files:
+ 99f4db1fef0536d624ba7ec335114d04 2790386 debug optional ros-humble-autoware-processing-time-checker-dbgsym_0-2025.07.05.02.44_amd64.ddeb
+ 484efc6b1094dd1ce11bc2ebd7b86a13 42279 misc optional ros-humble-autoware-processing-time-checker_0-2025.07.05.02.44_amd64.buildinfo
+ 8ebdd42bdbe52d68eccd8a3e56dc9360 143138 misc optional ros-humble-autoware-processing-time-checker_0-2025.07.05.02.44_amd64.deb

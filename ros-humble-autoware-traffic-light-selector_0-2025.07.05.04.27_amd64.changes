@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-traffic-light-selector
+Binary: ros-humble-autoware-traffic-light-selector
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.04.27
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-traffic-light-selector - The ROS 2 autoware_traffic_light_selector package
+Changes:
+ ros-humble-autoware-traffic-light-selector (0-2025.07.05.04.27) jammy; urgency=high
+Checksums-Sha1:
+ 08280ed6e2c6fd17746a26ee1f333e9c1c35b0c7 5131440 ros-humble-autoware-traffic-light-selector-dbgsym_0-2025.07.05.04.27_amd64.ddeb
+ ade954157a673b54804bded2d1e2a4a91ddfafcf 41392 ros-humble-autoware-traffic-light-selector_0-2025.07.05.04.27_amd64.buildinfo
+ de473beef25c9cc3c3e64ae4f10ea39a1953b060 221990 ros-humble-autoware-traffic-light-selector_0-2025.07.05.04.27_amd64.deb
+Checksums-Sha256:
+ 7475d5c15409533c20f2ac1e604bf16e1f79622027e9b96d851e2b7fae81d2c3 5131440 ros-humble-autoware-traffic-light-selector-dbgsym_0-2025.07.05.04.27_amd64.ddeb
+ 0decf51d1953e59e43bf87c8f63a652e12f65f291c69e344773dada1da3235a3 41392 ros-humble-autoware-traffic-light-selector_0-2025.07.05.04.27_amd64.buildinfo
+ 7a0d343cff10f4d3184c1fc7d0faf8ad3c147e06f2b0ed59ba6df0cde706bec6 221990 ros-humble-autoware-traffic-light-selector_0-2025.07.05.04.27_amd64.deb
+Files:
+ a21c38df7315bff2dad32fbc9e8101b4 5131440 debug optional ros-humble-autoware-traffic-light-selector-dbgsym_0-2025.07.05.04.27_amd64.ddeb
+ 6dc28f0a5609fb3107a8fa1adb3af128 41392 misc optional ros-humble-autoware-traffic-light-selector_0-2025.07.05.04.27_amd64.buildinfo
+ eb7be797b970272dec5d3639220af3c0 221990 misc optional ros-humble-autoware-traffic-light-selector_0-2025.07.05.04.27_amd64.deb

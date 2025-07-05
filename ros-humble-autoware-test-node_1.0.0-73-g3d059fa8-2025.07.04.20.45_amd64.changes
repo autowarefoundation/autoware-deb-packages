@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-test-node
+Binary: ros-humble-autoware-test-node
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.20.45
+Distribution: jammy
+Urgency: high
+Maintainer: Mete Fatih Cırıt <mfc@autoware.org>
+Changed-By: Mete Fatih Cırıt <mfc@autoware.org>
+Description:
+ ros-humble-autoware-test-node - Test package for Autoware Node.
+Changes:
+ ros-humble-autoware-test-node (1.0.0-73-g3d059fa8-2025.07.04.20.45) jammy; urgency=high
+Checksums-Sha1:
+ e0a1321af70ee9fa2755b85d3b4cfba9f15c04bf 501098 ros-humble-autoware-test-node-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.20.45_amd64.ddeb
+ 0a0c647800ef470888a68557de467378e3963589 15183 ros-humble-autoware-test-node_1.0.0-73-g3d059fa8-2025.07.04.20.45_amd64.buildinfo
+ a3fad82b7851584a61d4c207620eaa198d1960e1 29666 ros-humble-autoware-test-node_1.0.0-73-g3d059fa8-2025.07.04.20.45_amd64.deb
+Checksums-Sha256:
+ 706de7c03f96fef63ad6870ddd766f1ff611e4845f16b6c4ddcf185129e302c4 501098 ros-humble-autoware-test-node-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.20.45_amd64.ddeb
+ f99ccb929c888971995fa9e3026d4de38abbda61820ff075f8e20247b32db24b 15183 ros-humble-autoware-test-node_1.0.0-73-g3d059fa8-2025.07.04.20.45_amd64.buildinfo
+ 53c1a76c4a73f83402bca279af4654e20660a83a6d14e1eda18922b0d156d303 29666 ros-humble-autoware-test-node_1.0.0-73-g3d059fa8-2025.07.04.20.45_amd64.deb
+Files:
+ 4280af7dd6a53ea10f9719bbcc7f5ebd 501098 debug optional ros-humble-autoware-test-node-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.20.45_amd64.ddeb
+ eebe29a0ca38bd1d22ddaf97818cec12 15183 misc optional ros-humble-autoware-test-node_1.0.0-73-g3d059fa8-2025.07.04.20.45_amd64.buildinfo
+ 8a3b5d908fe19ddd93735e938e224419 29666 misc optional ros-humble-autoware-test-node_1.0.0-73-g3d059fa8-2025.07.04.20.45_amd64.deb

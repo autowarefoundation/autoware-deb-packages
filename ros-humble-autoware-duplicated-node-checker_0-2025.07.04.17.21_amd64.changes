@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-duplicated-node-checker
+Binary: ros-humble-autoware-duplicated-node-checker
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.17.21
+Distribution: jammy
+Urgency: high
+Maintainer: Shumpei Wakabayashi <shumpei.wakabayashi@tier4.jp>
+Changed-By: Shumpei Wakabayashi <shumpei.wakabayashi@tier4.jp>
+Description:
+ ros-humble-autoware-duplicated-node-checker - A package to find out nodes with common names
+Changes:
+ ros-humble-autoware-duplicated-node-checker (0-2025.07.04.17.21) jammy; urgency=high
+Checksums-Sha1:
+ 6ad5abd21306f3653f0b6803e69767a9a467226b 1270040 ros-humble-autoware-duplicated-node-checker-dbgsym_0-2025.07.04.17.21_amd64.ddeb
+ 434706e49e0e4360aa62b89859441117110d8798 17304 ros-humble-autoware-duplicated-node-checker_0-2025.07.04.17.21_amd64.buildinfo
+ 21a7f779e82e69e110f4e11465654f37545d41fb 76320 ros-humble-autoware-duplicated-node-checker_0-2025.07.04.17.21_amd64.deb
+Checksums-Sha256:
+ 18e233066057f455d07b20ebf895440a0e4a7be8298094a6f7274a7fda154d67 1270040 ros-humble-autoware-duplicated-node-checker-dbgsym_0-2025.07.04.17.21_amd64.ddeb
+ b3289463a6f7fbbfa42b78a7ddf79806d9477f3c4da37c411e50f55f55fbd5ba 17304 ros-humble-autoware-duplicated-node-checker_0-2025.07.04.17.21_amd64.buildinfo
+ 85003ceccf6e1b6350ebaa4deb79200149fec70dd58871df03e0ee07fe97ac08 76320 ros-humble-autoware-duplicated-node-checker_0-2025.07.04.17.21_amd64.deb
+Files:
+ 9d67a7d5bfe4ea086027fde8da27b41c 1270040 debug optional ros-humble-autoware-duplicated-node-checker-dbgsym_0-2025.07.04.17.21_amd64.ddeb
+ f6104e2b556c7dbb2ee5667c0b71532d 17304 misc optional ros-humble-autoware-duplicated-node-checker_0-2025.07.04.17.21_amd64.buildinfo
+ d435092e3be00bddbc12bc3c73b106a1 76320 misc optional ros-humble-autoware-duplicated-node-checker_0-2025.07.04.17.21_amd64.deb

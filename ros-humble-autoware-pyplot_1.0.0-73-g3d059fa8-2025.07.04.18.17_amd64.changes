@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-pyplot
+Binary: ros-humble-autoware-pyplot
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.18.17
+Distribution: jammy
+Urgency: high
+Maintainer: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Changed-By: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Description:
+ ros-humble-autoware-pyplot - C++ interface for matplotlib based on pybind11
+Changes:
+ ros-humble-autoware-pyplot (1.0.0-73-g3d059fa8-2025.07.04.18.17) jammy; urgency=high
+ .
+   * feat(trajectory): add API description, nomenclature, illustration, rename functions to align with nomenclature (#292 <https://github.com/autowarefoundation/autoware_core/issues/292>)
+     * feat(trajectory): add API description, nomenclature, illustration, rename functions to align with nomenclature
+     * resurrect get_internal_base
+     ---------
+   * Contributors: Mamoru Sobue
+Checksums-Sha1:
+ 708d8a91b3f530098db20caae58b776f5e93fb4e 14278 ros-humble-autoware-pyplot_1.0.0-73-g3d059fa8-2025.07.04.18.17_amd64.buildinfo
+ 6fd07b5e29b5028fbbd7a138380f5c1d56bd2fc6 127786 ros-humble-autoware-pyplot_1.0.0-73-g3d059fa8-2025.07.04.18.17_amd64.deb
+Checksums-Sha256:
+ c3ae150096626e8e6b066774ec170cfedc5d2014f2748c8cc5dc2c5f6e865bed 14278 ros-humble-autoware-pyplot_1.0.0-73-g3d059fa8-2025.07.04.18.17_amd64.buildinfo
+ 41e48585995474641dbed10dfc9452328f1f00fd3571f51dc6cd7f8bf625fe50 127786 ros-humble-autoware-pyplot_1.0.0-73-g3d059fa8-2025.07.04.18.17_amd64.deb
+Files:
+ 060637003b1fa2333a1363758ede54e2 14278 misc optional ros-humble-autoware-pyplot_1.0.0-73-g3d059fa8-2025.07.04.18.17_amd64.buildinfo
+ bdd6dd17bf11865cc47f35b2bf8af570 127786 misc optional ros-humble-autoware-pyplot_1.0.0-73-g3d059fa8-2025.07.04.18.17_amd64.deb

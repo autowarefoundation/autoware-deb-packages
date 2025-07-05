@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 07 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-internal-perception-msgs
+Binary: ros-humble-autoware-internal-perception-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.8.1-4-g89124f4-2025.07.04.16.11
+Distribution: jammy
+Urgency: high
+Maintainer: M. Fatih Cırıt <mfc@leodrive.ai>
+Changed-By: M. Fatih Cırıt <mfc@leodrive.ai>
+Description:
+ ros-humble-autoware-internal-perception-msgs - Autoware internal perception messages package.
+Changes:
+ ros-humble-autoware-internal-perception-msgs (1.8.1-4-g89124f4-2025.07.04.16.11) jammy; urgency=high
+Checksums-Sha1:
+ 2f06f46046cd4a68d3c8484399bc2facecae07e6 179336 ros-humble-autoware-internal-perception-msgs-dbgsym_1.8.1-4-g89124f4-2025.07.04.16.11_amd64.ddeb
+ 117ef326eb1f059ea75035148f4e7be683d07a0b 15205 ros-humble-autoware-internal-perception-msgs_1.8.1-4-g89124f4-2025.07.04.16.11_amd64.buildinfo
+ 0afb3540b2263c69637cf7d79432ca36d25e425f 42992 ros-humble-autoware-internal-perception-msgs_1.8.1-4-g89124f4-2025.07.04.16.11_amd64.deb
+Checksums-Sha256:
+ e68fa55f6106cfb18095a13ee1a3ffc4650f42931f251687b70e1994c697f71c 179336 ros-humble-autoware-internal-perception-msgs-dbgsym_1.8.1-4-g89124f4-2025.07.04.16.11_amd64.ddeb
+ d0c6fbef98aa98c0c88b2d79dfe2dfdb9a6abf26dca45487ec5c900721f105dd 15205 ros-humble-autoware-internal-perception-msgs_1.8.1-4-g89124f4-2025.07.04.16.11_amd64.buildinfo
+ 72768affb21f72e3bed3f1fa5f66fa04f490890f63b6038f3b7b557d6c84b605 42992 ros-humble-autoware-internal-perception-msgs_1.8.1-4-g89124f4-2025.07.04.16.11_amd64.deb
+Files:
+ 33f0a900e5cf552d7c28f2bf4d0c9bbf 179336 debug optional ros-humble-autoware-internal-perception-msgs-dbgsym_1.8.1-4-g89124f4-2025.07.04.16.11_amd64.ddeb
+ 4cc6134b31af1139777a9ef0c1ab88fd 15205 misc optional ros-humble-autoware-internal-perception-msgs_1.8.1-4-g89124f4-2025.07.04.16.11_amd64.buildinfo
+ 7c5977481678f9ea048467ce7e37dd94 42992 misc optional ros-humble-autoware-internal-perception-msgs_1.8.1-4-g89124f4-2025.07.04.16.11_amd64.deb

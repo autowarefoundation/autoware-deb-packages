@@ -1,0 +1,47 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-external-cmd-selector
+Binary: ros-humble-autoware-external-cmd-selector
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.17.23
+Distribution: jammy
+Urgency: high
+Maintainer: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Changed-By: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-external-cmd-selector - The autoware_external_cmd_selector package
+Changes:
+ ros-humble-autoware-external-cmd-selector (0-2025.07.04.17.23) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat: manual control (#10354 <https://github.com/autowarefoundation/autoware_universe/issues/10354>)
+     * feat(default_adapi): add manual control
+     * add conversion
+     * update selector
+     * update selector depends
+     * update converter
+     * modify heartbeat name
+     * update launch
+     * update api
+     * fix pedal callback
+     * done todo
+     * apply message rename
+     * fix test
+     * fix message type and qos
+     * fix steering_tire_velocity
+     * fix for clang-tidy
+     ---------
+   * Contributors: Ryohsuke Mitsudome, Takagi, Isamu
+Checksums-Sha1:
+ 988def44cdb2f9aa585110a905178514e4acf683 6976398 ros-humble-autoware-external-cmd-selector-dbgsym_0-2025.07.04.17.23_amd64.ddeb
+ 4f10a24eeeddfa2133ead30494c583c8e991495b 16965 ros-humble-autoware-external-cmd-selector_0-2025.07.04.17.23_amd64.buildinfo
+ 668e9e45d9e44fba79fead4495b70bce71aee50c 254634 ros-humble-autoware-external-cmd-selector_0-2025.07.04.17.23_amd64.deb
+Checksums-Sha256:
+ 028ea60b8dc1c9f2f5370af59d8efdf74720e556c320fca058cdf2a17b3e0459 6976398 ros-humble-autoware-external-cmd-selector-dbgsym_0-2025.07.04.17.23_amd64.ddeb
+ 188feaf8de8980e5220c58507980e237be8a95384fc0a57daf41f2361281dbf9 16965 ros-humble-autoware-external-cmd-selector_0-2025.07.04.17.23_amd64.buildinfo
+ 24d70ecd7714f40dfe8578920dca730c62851437055af1150690f922d7f9eab3 254634 ros-humble-autoware-external-cmd-selector_0-2025.07.04.17.23_amd64.deb
+Files:
+ 0d51c8e0e5e0534a2add976723adca15 6976398 debug optional ros-humble-autoware-external-cmd-selector-dbgsym_0-2025.07.04.17.23_amd64.ddeb
+ 2e5ee38e73f105c488494225d6b5d250 16965 misc optional ros-humble-autoware-external-cmd-selector_0-2025.07.04.17.23_amd64.buildinfo
+ 4b6ea3da5aec557ddbed9dcded6eb9a8 254634 misc optional ros-humble-autoware-external-cmd-selector_0-2025.07.04.17.23_amd64.deb

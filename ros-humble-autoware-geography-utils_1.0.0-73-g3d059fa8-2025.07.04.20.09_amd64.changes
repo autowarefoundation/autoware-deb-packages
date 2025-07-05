@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-geography-utils
+Binary: ros-humble-autoware-geography-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.20.09
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-geography-utils - The autoware_geography_utils package
+Changes:
+ ros-humble-autoware-geography-utils (1.0.0-73-g3d059fa8-2025.07.04.20.09) jammy; urgency=high
+ .
+   * feat(map_projection_loader): add scale_factor and remove altitude (#340 <https://github.com/autowarefoundation/autoware_core/issues/340>)
+   * refactor(autoware_geography_utils): rewrite using modern C++ without API breakage (#345 <https://github.com/autowarefoundation/autoware_core/issues/345>)
+     * refactor using modern c++
+     * precommit
+     * revert
+     * remove nodiscard
+     * precommit
+     ---------
+   * Contributors: Yamato Ando, Yutaka Kondo
+Checksums-Sha1:
+ aa3f02abecdbe9fb70f4ff6572782c84d2c51461 187514 ros-humble-autoware-geography-utils-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.20.09_amd64.ddeb
+ 2ef45168931c9048f2150382a2be651bd3d91865 24945 ros-humble-autoware-geography-utils_1.0.0-73-g3d059fa8-2025.07.04.20.09_amd64.buildinfo
+ 45ffa58b71b43c77b04228b5b19ddac2d09318ec 19188 ros-humble-autoware-geography-utils_1.0.0-73-g3d059fa8-2025.07.04.20.09_amd64.deb
+Checksums-Sha256:
+ 6359352fa1c1b0f4f1c9c4682346cb666f4dfb1a1d1a4efc97aeeb1a5769e18b 187514 ros-humble-autoware-geography-utils-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.20.09_amd64.ddeb
+ 9766626c78287e95e472ebe5949b43bf2e1960782067329710c6f87812bcb212 24945 ros-humble-autoware-geography-utils_1.0.0-73-g3d059fa8-2025.07.04.20.09_amd64.buildinfo
+ 633873d01d4d0c50ed7b26061b47f764cf79d3ff32e69bed7ecfcbb15fd01f49 19188 ros-humble-autoware-geography-utils_1.0.0-73-g3d059fa8-2025.07.04.20.09_amd64.deb
+Files:
+ 0035ec3ab6d1fe65fda4a2be92ac0851 187514 debug optional ros-humble-autoware-geography-utils-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.20.09_amd64.ddeb
+ 2c08dc1da356f3695a56ecc0f60d952f 24945 misc optional ros-humble-autoware-geography-utils_1.0.0-73-g3d059fa8-2025.07.04.20.09_amd64.buildinfo
+ aafc748802f30fbf202ff6bcb06149b6 19188 misc optional ros-humble-autoware-geography-utils_1.0.0-73-g3d059fa8-2025.07.04.20.09_amd64.deb

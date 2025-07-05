@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 21 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-vehicle-msgs
+Binary: ros-humble-autoware-vehicle-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.7.0-2025.07.04.16.15
+Distribution: jammy
+Urgency: high
+Maintainer: Apex.AI, Inc. <beginning.fan@autocore.ai>
+Changed-By: Apex.AI, Inc. <beginning.fan@autocore.ai>
+Description:
+ ros-humble-autoware-vehicle-msgs - Interfaces between core Autoware vehicle components
+Changes:
+ ros-humble-autoware-vehicle-msgs (1.7.0-2025.07.04.16.15) jammy; urgency=high
+Checksums-Sha1:
+ aa08b18153c556f81bc174e63c848d35164bc20a 632628 ros-humble-autoware-vehicle-msgs-dbgsym_1.7.0-2025.07.04.16.15_amd64.ddeb
+ 6ec6b82f1fa00d519d844791b761cd8cb8164d9d 15015 ros-humble-autoware-vehicle-msgs_1.7.0-2025.07.04.16.15_amd64.buildinfo
+ 980363cef7aae0235c5a3ea2662a804893e9fbe8 99312 ros-humble-autoware-vehicle-msgs_1.7.0-2025.07.04.16.15_amd64.deb
+Checksums-Sha256:
+ 51bbf7719c042584080889f27b5478d44b27b32f6e08f8f88f4d38fa7d23fd17 632628 ros-humble-autoware-vehicle-msgs-dbgsym_1.7.0-2025.07.04.16.15_amd64.ddeb
+ bec7cf7171cb55c1013f97aa51df0f8fd206af8799afa230bebe8c721ecc0c7e 15015 ros-humble-autoware-vehicle-msgs_1.7.0-2025.07.04.16.15_amd64.buildinfo
+ 58022f6175fff67018f812419e0c243b41b45796fec3f19404e44d698b6ab1c4 99312 ros-humble-autoware-vehicle-msgs_1.7.0-2025.07.04.16.15_amd64.deb
+Files:
+ 4295be09d4a58a1716a8a7e0bf161d8b 632628 debug optional ros-humble-autoware-vehicle-msgs-dbgsym_1.7.0-2025.07.04.16.15_amd64.ddeb
+ 712d0369f865af61fa6b8b1445c24aff 15015 misc optional ros-humble-autoware-vehicle-msgs_1.7.0-2025.07.04.16.15_amd64.buildinfo
+ ebefb15a90eb591029b9439869502e5b 99312 misc optional ros-humble-autoware-vehicle-msgs_1.7.0-2025.07.04.16.15_amd64.deb

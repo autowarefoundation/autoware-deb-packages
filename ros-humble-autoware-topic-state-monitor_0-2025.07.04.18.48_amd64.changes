@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-topic-state-monitor
+Binary: ros-humble-autoware-topic-state-monitor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.18.48
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-autoware-topic-state-monitor - The autoware_topic_state_monitor package
+Changes:
+ ros-humble-autoware-topic-state-monitor (0-2025.07.04.18.48) jammy; urgency=high
+Checksums-Sha1:
+ b71f450b5cc6afbf2f815601d9000243dbac85a1 2693938 ros-humble-autoware-topic-state-monitor-dbgsym_0-2025.07.04.18.48_amd64.ddeb
+ 7e38890a0deb514f72fd0f6d40d985d4431a231b 16480 ros-humble-autoware-topic-state-monitor_0-2025.07.04.18.48_amd64.buildinfo
+ 81f1d440872572b7eb06b9629c7ba83761b3be2d 149208 ros-humble-autoware-topic-state-monitor_0-2025.07.04.18.48_amd64.deb
+Checksums-Sha256:
+ 55a46bb4b391742ed6160e4b6e76e5bd246e87d1e96a3634cbffd619173d1c73 2693938 ros-humble-autoware-topic-state-monitor-dbgsym_0-2025.07.04.18.48_amd64.ddeb
+ 8a769097818bbba4ca5a7ca87148f2d2b264468b2318a95d32279e753275929d 16480 ros-humble-autoware-topic-state-monitor_0-2025.07.04.18.48_amd64.buildinfo
+ d86294150774a5623d86bdb5982f534b8d81205ed5e53433fb25eb404e060b60 149208 ros-humble-autoware-topic-state-monitor_0-2025.07.04.18.48_amd64.deb
+Files:
+ 868a7477129b53a82da8e7f34179de0f 2693938 debug optional ros-humble-autoware-topic-state-monitor-dbgsym_0-2025.07.04.18.48_amd64.ddeb
+ 67d3783e97688b0c3a663aee22a1ebb2 16480 misc optional ros-humble-autoware-topic-state-monitor_0-2025.07.04.18.48_amd64.buildinfo
+ fca6e61126c44311605d4d5dc41ba312 149208 misc optional ros-humble-autoware-topic-state-monitor_0-2025.07.04.18.48_amd64.deb

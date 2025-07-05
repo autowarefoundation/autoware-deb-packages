@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-no-drivable-lane-module
+Binary: ros-humble-autoware-behavior-velocity-no-drivable-lane-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.12.10
+Distribution: jammy
+Urgency: high
+Maintainer: Ahmed Ebrahim <ahmed.ebrahim@leodrive.ai>
+Changed-By: Ahmed Ebrahim <ahmed.ebrahim@leodrive.ai>
+Description:
+ ros-humble-autoware-behavior-velocity-no-drivable-lane-module - The autoware_behavior_velocity_no_drivable_lane_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-no-drivable-lane-module (0-2025.07.05.12.10) jammy; urgency=high
+Checksums-Sha1:
+ 628a086b0a84ac46c6e8a4169d279fa403f3415c 3605048 ros-humble-autoware-behavior-velocity-no-drivable-lane-module-dbgsym_0-2025.07.05.12.10_amd64.ddeb
+ 2bf96f76f34f83cfa804afcb262518d81c2916c2 44747 ros-humble-autoware-behavior-velocity-no-drivable-lane-module_0-2025.07.05.12.10_amd64.buildinfo
+ 248dcd3e3fa4d1e6fbce16042bf58f1c3c1ea629 73694 ros-humble-autoware-behavior-velocity-no-drivable-lane-module_0-2025.07.05.12.10_amd64.deb
+Checksums-Sha256:
+ c2569fe5324943419f118aa8923bbb25b9ef1833cca609ef1656aa1a01aa9357 3605048 ros-humble-autoware-behavior-velocity-no-drivable-lane-module-dbgsym_0-2025.07.05.12.10_amd64.ddeb
+ ac848814b610b894d92a8a6004df2596ffafee5837aaf8338882f744aa7be824 44747 ros-humble-autoware-behavior-velocity-no-drivable-lane-module_0-2025.07.05.12.10_amd64.buildinfo
+ f4ad11c6a330d06d05b80485fb688c8b0a7b2434dd462bf349897df2b5f2166a 73694 ros-humble-autoware-behavior-velocity-no-drivable-lane-module_0-2025.07.05.12.10_amd64.deb
+Files:
+ 650743e706cfaa39523cf08d3d1bf149 3605048 debug optional ros-humble-autoware-behavior-velocity-no-drivable-lane-module-dbgsym_0-2025.07.05.12.10_amd64.ddeb
+ d0276ec5743716190a9c7d342ba3062f 44747 misc optional ros-humble-autoware-behavior-velocity-no-drivable-lane-module_0-2025.07.05.12.10_amd64.buildinfo
+ 25f26cf6fab2abde04ba09b273dca097 73694 misc optional ros-humble-autoware-behavior-velocity-no-drivable-lane-module_0-2025.07.05.12.10_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 15 Apr 2025 00:00:00 -0000
+Source: ros-humble-agnocast-sample-interfaces
+Binary: ros-humble-agnocast-sample-interfaces
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.1.0-2025.07.04.14.38
+Distribution: jammy
+Urgency: high
+Maintainer: Takahiro Ishikawa-Aso <sykwer@gmail.com>
+Changed-By: Takahiro Ishikawa-Aso <sykwer@gmail.com>
+Description:
+ ros-humble-agnocast-sample-interfaces - Sample interfaces for the Agnocast sample application.
+Changes:
+ ros-humble-agnocast-sample-interfaces (2.1.0-2025.07.04.14.38) jammy; urgency=high
+Checksums-Sha1:
+ b4da21f239b26ed94b836aff2022361454684831 221706 ros-humble-agnocast-sample-interfaces-dbgsym_2.1.0-2025.07.04.14.38_amd64.ddeb
+ 8f099cffc4ee53b23d825be4a6b502a0b9ca5f8f 14554 ros-humble-agnocast-sample-interfaces_2.1.0-2025.07.04.14.38_amd64.buildinfo
+ ba2952e8b97985740b33f2bf5f0e574c0abae559 49560 ros-humble-agnocast-sample-interfaces_2.1.0-2025.07.04.14.38_amd64.deb
+Checksums-Sha256:
+ 653a1d6b3b73f42a5e1d4556aee2218ca19a81d901637f88168be33c14d1ebcf 221706 ros-humble-agnocast-sample-interfaces-dbgsym_2.1.0-2025.07.04.14.38_amd64.ddeb
+ ecff7e3da02b9b99cbca540e948b8facdff62fe0c60ac01c72f122268c8349b5 14554 ros-humble-agnocast-sample-interfaces_2.1.0-2025.07.04.14.38_amd64.buildinfo
+ 358c87bf6341ae1f0cae242a70b5cdcdb490be65efa63fdfbb25cb58bbb53730 49560 ros-humble-agnocast-sample-interfaces_2.1.0-2025.07.04.14.38_amd64.deb
+Files:
+ ea9427bb2458b9cb0b85c8a16a3806eb 221706 debug optional ros-humble-agnocast-sample-interfaces-dbgsym_2.1.0-2025.07.04.14.38_amd64.ddeb
+ 65b5ae6b6bf38085086a042e3dfd03e1 14554 misc optional ros-humble-agnocast-sample-interfaces_2.1.0-2025.07.04.14.38_amd64.buildinfo
+ c905df218518d67c2b652ca98ca82385 49560 misc optional ros-humble-agnocast-sample-interfaces_2.1.0-2025.07.04.14.38_amd64.deb

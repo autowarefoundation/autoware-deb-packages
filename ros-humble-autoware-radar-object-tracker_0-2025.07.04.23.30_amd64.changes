@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-radar-object-tracker
+Binary: ros-humble-autoware-radar-object-tracker
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.23.30
+Distribution: jammy
+Urgency: high
+Maintainer: Yoshi Ri <yoshi.ri@tier4.jp>
+Changed-By: Yoshi Ri <yoshi.ri@tier4.jp>
+Description:
+ ros-humble-autoware-radar-object-tracker - Do tracking radar object
+Changes:
+ ros-humble-autoware-radar-object-tracker (0-2025.07.04.23.30) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * build(autoware_radar_object_tracker): fix missing diagnostic_updater dependency (#10480 <https://github.com/autowarefoundation/autoware_universe/issues/10480>)
+   * fix(radar_object_tracker): add required headers (#10463 <https://github.com/autowarefoundation/autoware_universe/issues/10463>)
+   * feat(radar_object_tracker): add diagnostics for checking radar input status (#10432 <https://github.com/autowarefoundation/autoware_universe/issues/10432>)
+     * add diagnostics
+     * style(pre-commit): autofix
+     * Update perception/autoware_radar_object_tracker/src/radar_object_tracker_node.cpp
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * Update perception/autoware_radar_object_tracker/src/radar_object_tracker_node.hpp
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * Update perception/autoware_radar_object_tracker/src/radar_object_tracker_node.cpp
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * Update perception/autoware_radar_object_tracker/src/radar_object_tracker_node.cpp
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * Update perception/autoware_radar_object_tracker/config/radar_object_tracker.param.yaml
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * Update perception/autoware_radar_object_tracker/config/radar_object_tracker.param.yaml
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * fix var name
+     * change callback param name
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+   * Contributors: Esteve Fernandez, Masaki Baba, Ryohsuke Mitsudome, Takagi, Isamu
+Checksums-Sha1:
+ 1126309eca55dda132f99c8c8b8ada85d49272dc 12608030 ros-humble-autoware-radar-object-tracker-dbgsym_0-2025.07.04.23.30_amd64.ddeb
+ 8004c17fa14ea2c7db196e5c81bda2569add75fb 41923 ros-humble-autoware-radar-object-tracker_0-2025.07.04.23.30_amd64.buildinfo
+ eaae9749b110e40e00529d2793ee8c0d6f780092 367936 ros-humble-autoware-radar-object-tracker_0-2025.07.04.23.30_amd64.deb
+Checksums-Sha256:
+ a96c999c9c4876cc1c0a2241730f173a3026cbe34183466f0709c38194c3b0b4 12608030 ros-humble-autoware-radar-object-tracker-dbgsym_0-2025.07.04.23.30_amd64.ddeb
+ 3c5bef9a4902582ec25856f1c1630e43b4c6a02d6995811725fd8f8026b10ee0 41923 ros-humble-autoware-radar-object-tracker_0-2025.07.04.23.30_amd64.buildinfo
+ 26c39676dfa0eef437a2c13d2379429f08170547f4ad5fd419b949132dd37ab4 367936 ros-humble-autoware-radar-object-tracker_0-2025.07.04.23.30_amd64.deb
+Files:
+ d4ce8355ae6644adf2e3c11d25232bd4 12608030 debug optional ros-humble-autoware-radar-object-tracker-dbgsym_0-2025.07.04.23.30_amd64.ddeb
+ 8e426235703e93ed7a1e43218ee5afe9 41923 misc optional ros-humble-autoware-radar-object-tracker_0-2025.07.04.23.30_amd64.buildinfo
+ a265bbbe58be904efd7e076433b555e8 367936 misc optional ros-humble-autoware-radar-object-tracker_0-2025.07.04.23.30_amd64.deb

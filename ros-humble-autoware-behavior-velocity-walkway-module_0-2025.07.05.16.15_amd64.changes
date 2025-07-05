@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-walkway-module
+Binary: ros-humble-autoware-behavior-velocity-walkway-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.16.15
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-walkway-module - The autoware_behavior_velocity_walkway_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-walkway-module (0-2025.07.05.16.15) jammy; urgency=high
+Checksums-Sha1:
+ 5343d47dbec723c12bf2e3b6c30ad46b8e4d7cda 3629456 ros-humble-autoware-behavior-velocity-walkway-module-dbgsym_0-2025.07.05.16.15_amd64.ddeb
+ 32279645ef0421d7b9362f488c0fa2a89a505785 49669 ros-humble-autoware-behavior-velocity-walkway-module_0-2025.07.05.16.15_amd64.buildinfo
+ d82714d8b931626944a66c5b43d5a24c568df83a 49920 ros-humble-autoware-behavior-velocity-walkway-module_0-2025.07.05.16.15_amd64.deb
+Checksums-Sha256:
+ 190d66d7eb74f8bd3381ccab35fc8393aa43f45aab698a9d397b8fc90240e0ea 3629456 ros-humble-autoware-behavior-velocity-walkway-module-dbgsym_0-2025.07.05.16.15_amd64.ddeb
+ 1c557de96bb90c06945357e0d1de962cfa147006016502ed6e0888d1256c8d17 49669 ros-humble-autoware-behavior-velocity-walkway-module_0-2025.07.05.16.15_amd64.buildinfo
+ 158a9a2cdb9aac06f14477115f4e9e0da1b96e0da7c95a60e36d6eec059d4285 49920 ros-humble-autoware-behavior-velocity-walkway-module_0-2025.07.05.16.15_amd64.deb
+Files:
+ 88194fcb4ab28ac928623b213ecb92a6 3629456 debug optional ros-humble-autoware-behavior-velocity-walkway-module-dbgsym_0-2025.07.05.16.15_amd64.ddeb
+ bd53f9dd91ae80d2c3a5f321720afba3 49669 misc optional ros-humble-autoware-behavior-velocity-walkway-module_0-2025.07.05.16.15_amd64.buildinfo
+ d59b243d25aa68046e2d45403651552f 49920 misc optional ros-humble-autoware-behavior-velocity-walkway-module_0-2025.07.05.16.15_amd64.deb

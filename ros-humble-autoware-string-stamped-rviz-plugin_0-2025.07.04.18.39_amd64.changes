@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-string-stamped-rviz-plugin
+Binary: ros-humble-autoware-string-stamped-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.18.39
+Distribution: jammy
+Urgency: high
+Maintainer: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Changed-By: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Description:
+ ros-humble-autoware-string-stamped-rviz-plugin - RViz2 plugin for 2D overlays in the 3D view.
+Changes:
+ ros-humble-autoware-string-stamped-rviz-plugin (0-2025.07.04.18.39) jammy; urgency=high
+Checksums-Sha1:
+ 1f661bf225eca2073c49826ef603b53f69bfcf26 3477616 ros-humble-autoware-string-stamped-rviz-plugin-dbgsym_0-2025.07.04.18.39_amd64.ddeb
+ db48178d8ff3cb869eeadc4bb0e498644360584d 23600 ros-humble-autoware-string-stamped-rviz-plugin_0-2025.07.04.18.39_amd64.buildinfo
+ ea7673990023790293295816d1dbbb1b4f812f0b 115754 ros-humble-autoware-string-stamped-rviz-plugin_0-2025.07.04.18.39_amd64.deb
+Checksums-Sha256:
+ c14e45f37d0a983d8b6ff1feb43e638daea1fb29a152f793acec930814499a26 3477616 ros-humble-autoware-string-stamped-rviz-plugin-dbgsym_0-2025.07.04.18.39_amd64.ddeb
+ beaa86cb730f662e412b3e798408c4e46ff27cb5675cb71782148722698ef376 23600 ros-humble-autoware-string-stamped-rviz-plugin_0-2025.07.04.18.39_amd64.buildinfo
+ 3cc6eb85af1adf71a4036f05ab2edc5e0215a0deeb81795cc6b883f3c563f19d 115754 ros-humble-autoware-string-stamped-rviz-plugin_0-2025.07.04.18.39_amd64.deb
+Files:
+ ec6229f844c5c2afed673652fb62b973 3477616 debug optional ros-humble-autoware-string-stamped-rviz-plugin-dbgsym_0-2025.07.04.18.39_amd64.ddeb
+ 88381e010c9f50cd855be154a966b466 23600 misc optional ros-humble-autoware-string-stamped-rviz-plugin_0-2025.07.04.18.39_amd64.buildinfo
+ 884dcd244e0c05e2fe27f50821d55f6a 115754 misc optional ros-humble-autoware-string-stamped-rviz-plugin_0-2025.07.04.18.39_amd64.deb

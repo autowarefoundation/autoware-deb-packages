@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Tue, 15 Apr 2025 00:00:00 -0000
+Source: ros-humble-ros2agnocast
+Binary: ros-humble-ros2agnocast
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.1.0-2025.07.04.16.37
+Distribution: jammy
+Urgency: high
+Maintainer: Takahiro Ishikawa-Aso <sykwer@gmail.com>
+Changed-By: Takahiro Ishikawa-Aso <sykwer@gmail.com>
+Description:
+ ros-humble-ros2agnocast - The ROS 2 command line tool extension for Agnocast.
+Changes:
+ ros-humble-ros2agnocast (2.1.0-2025.07.04.16.37) jammy; urgency=high
+Checksums-Sha1:
+ 7dbd54465cf996e57dd8db88e33a256bb315b3c1 6723 ros-humble-ros2agnocast_2.1.0-2025.07.04.16.37_amd64.buildinfo
+ e2ca4d3acf1bd3793e037fdbef4593a7594303c6 9844 ros-humble-ros2agnocast_2.1.0-2025.07.04.16.37_amd64.deb
+Checksums-Sha256:
+ 0db38e4201303a81989451fc949f5fc56433d798d5298f8240ca226329472655 6723 ros-humble-ros2agnocast_2.1.0-2025.07.04.16.37_amd64.buildinfo
+ 5a6406c5668b98a29d3e3861656367bf593d81e502ad62a34c840797087210b7 9844 ros-humble-ros2agnocast_2.1.0-2025.07.04.16.37_amd64.deb
+Files:
+ d2c20085cb71849611bb2dd4f77f4932 6723 misc optional ros-humble-ros2agnocast_2.1.0-2025.07.04.16.37_amd64.buildinfo
+ 904e91a9a58c3c6fbde1de5ceac4cdf6 9844 misc optional ros-humble-ros2agnocast_2.1.0-2025.07.04.16.37_amd64.deb

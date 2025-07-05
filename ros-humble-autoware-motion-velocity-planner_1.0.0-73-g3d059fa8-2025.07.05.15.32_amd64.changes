@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-motion-velocity-planner
+Binary: ros-humble-autoware-motion-velocity-planner
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.05.15.32
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime Clement <maxime.clement@tier4.jp>
+Changed-By: Maxime Clement <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-motion-velocity-planner - Node of the motion_velocity_planner
+Changes:
+ ros-humble-autoware-motion-velocity-planner (1.0.0-73-g3d059fa8-2025.07.05.15.32) jammy; urgency=high
+Checksums-Sha1:
+ 7263aeae631b34476dd95fad0492e98317970ce6 14713440 ros-humble-autoware-motion-velocity-planner-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.15.32_amd64.ddeb
+ 209a4a5d151d2693a3f562e105c0dba8b970126c 45022 ros-humble-autoware-motion-velocity-planner_1.0.0-73-g3d059fa8-2025.07.05.15.32_amd64.buildinfo
+ 1ee85b4a01e5f657023c0bd76de25b403861ad57 446888 ros-humble-autoware-motion-velocity-planner_1.0.0-73-g3d059fa8-2025.07.05.15.32_amd64.deb
+Checksums-Sha256:
+ e241fa7fd4912e4290f128ea813019f833b0af367e1d9f850ed8c54591dd5177 14713440 ros-humble-autoware-motion-velocity-planner-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.15.32_amd64.ddeb
+ d1bd281ace159f0c9aaa866055abf88912ba777025d0815a8d71f303333a4e24 45022 ros-humble-autoware-motion-velocity-planner_1.0.0-73-g3d059fa8-2025.07.05.15.32_amd64.buildinfo
+ 268152179f0e7d932ead7e42b41fb14077aee4279dc0b53e998b59616ca9ebda 446888 ros-humble-autoware-motion-velocity-planner_1.0.0-73-g3d059fa8-2025.07.05.15.32_amd64.deb
+Files:
+ 6665ea369bd97611c957a71fbbb0c374 14713440 debug optional ros-humble-autoware-motion-velocity-planner-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.15.32_amd64.ddeb
+ 7891800a08d7fd091c09f07d1ef59a14 45022 misc optional ros-humble-autoware-motion-velocity-planner_1.0.0-73-g3d059fa8-2025.07.05.15.32_amd64.buildinfo
+ 8de3974e023ea0aa42124e3a67897617 446888 misc optional ros-humble-autoware-motion-velocity-planner_1.0.0-73-g3d059fa8-2025.07.05.15.32_amd64.deb

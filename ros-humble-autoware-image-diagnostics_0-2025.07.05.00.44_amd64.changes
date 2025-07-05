@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-image-diagnostics
+Binary: ros-humble-autoware-image-diagnostics
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.00.44
+Distribution: jammy
+Urgency: high
+Maintainer: Dai Nguyen <dai.nguyen@tier4.jp>
+Changed-By: Dai Nguyen <dai.nguyen@tier4.jp>
+Description:
+ ros-humble-autoware-image-diagnostics - The autoware_image_diagnostics package
+Changes:
+ ros-humble-autoware-image-diagnostics (0-2025.07.05.00.44) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * chore(perception): code owner revision (#10358 <https://github.com/autowarefoundation/autoware_universe/issues/10358>)
+     * feat: add Masato Saeki and Taekjin Lee as maintainer to multiple package.xml files
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Ryohsuke Mitsudome, Taekjin LEE
+Checksums-Sha1:
+ 1c0ef297da4b4c4add4a7766ec7626488d7a61a1 2813040 ros-humble-autoware-image-diagnostics-dbgsym_0-2025.07.05.00.44_amd64.ddeb
+ 149a9e16c0403956d463627c25354284fabf4474 45289 ros-humble-autoware-image-diagnostics_0-2025.07.05.00.44_amd64.buildinfo
+ c4322a572637da7619f590b64ca7913219fac6c7 146418 ros-humble-autoware-image-diagnostics_0-2025.07.05.00.44_amd64.deb
+Checksums-Sha256:
+ 23912a04dd097def395cc5c14224a87efff0d827386aea5d60e6708603e0fda5 2813040 ros-humble-autoware-image-diagnostics-dbgsym_0-2025.07.05.00.44_amd64.ddeb
+ e5b6c9a3c60cf088e4fb74fcb3ca27b68967323054f28907ea62ba4c32e28e2b 45289 ros-humble-autoware-image-diagnostics_0-2025.07.05.00.44_amd64.buildinfo
+ decce7e17c51a1765402cdac152161273c5a4fc0f610ee6abfb5f77510fd5b15 146418 ros-humble-autoware-image-diagnostics_0-2025.07.05.00.44_amd64.deb
+Files:
+ 63394890a67428f400519fcf8952643c 2813040 debug optional ros-humble-autoware-image-diagnostics-dbgsym_0-2025.07.05.00.44_amd64.ddeb
+ 6acf4a09d25b79fe832361189563d870 45289 misc optional ros-humble-autoware-image-diagnostics_0-2025.07.05.00.44_amd64.buildinfo
+ 0613c217f32b78d422b5033794f61b02 146418 misc optional ros-humble-autoware-image-diagnostics_0-2025.07.05.00.44_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-localization-error-monitor
+Binary: ros-humble-autoware-localization-error-monitor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.20.23
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-localization-error-monitor - ros node for monitoring localization error
+Changes:
+ ros-humble-autoware-localization-error-monitor (0-2025.07.04.20.23) jammy; urgency=high
+Checksums-Sha1:
+ 308f1fe383a08ac18b93e748c85afee10e25f9eb 2466112 ros-humble-autoware-localization-error-monitor-dbgsym_0-2025.07.04.20.23_amd64.ddeb
+ e1192f9f75cc896d3439e7616d1b6e10383c2080 17718 ros-humble-autoware-localization-error-monitor_0-2025.07.04.20.23_amd64.buildinfo
+ 417ed94af40bee5bedeee2a1a813fa2a8a6c80c7 121584 ros-humble-autoware-localization-error-monitor_0-2025.07.04.20.23_amd64.deb
+Checksums-Sha256:
+ a7c936f081eba457dcb8a055d34dfab09b15e806cf4df9ac588cabda84ea7ada 2466112 ros-humble-autoware-localization-error-monitor-dbgsym_0-2025.07.04.20.23_amd64.ddeb
+ 7552a9f9fdc38e490526453f1ab7ab11d151ae26fd81c05709f70bb12a4cc6e5 17718 ros-humble-autoware-localization-error-monitor_0-2025.07.04.20.23_amd64.buildinfo
+ 2155e3b2dceec34e71e0a3820e7c1b2259332409b8f83aac5b6970f135d682e0 121584 ros-humble-autoware-localization-error-monitor_0-2025.07.04.20.23_amd64.deb
+Files:
+ 9ca66cf9d587cae8b8cb8ba945352384 2466112 debug optional ros-humble-autoware-localization-error-monitor-dbgsym_0-2025.07.04.20.23_amd64.ddeb
+ b2e0f8fa00a0099c39717c8f3f37af2e 17718 misc optional ros-humble-autoware-localization-error-monitor_0-2025.07.04.20.23_amd64.buildinfo
+ 414664a71bbc455eca6f0cab27ac66ee 121584 misc optional ros-humble-autoware-localization-error-monitor_0-2025.07.04.20.23_amd64.deb

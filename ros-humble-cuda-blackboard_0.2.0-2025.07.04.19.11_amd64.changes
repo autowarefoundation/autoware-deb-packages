@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 17 Mar 2025 00:00:00 -0000
+Source: ros-humble-cuda-blackboard
+Binary: ros-humble-cuda-blackboard
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.0-2025.07.04.19.11
+Distribution: jammy
+Urgency: high
+Maintainer: Kenzo Lobos-Tsunekawa <kenzo.lobos@tier4.jp>
+Changed-By: Kenzo Lobos-Tsunekawa <kenzo.lobos@tier4.jp>
+Description:
+ ros-humble-cuda-blackboard - The cuda_blackboard package
+Changes:
+ ros-humble-cuda-blackboard (0.2.0-2025.07.04.19.11) jammy; urgency=high
+ .
+   * Initial release
+   * Contributors: Kenzo Lobos-Tsunekawa
+Checksums-Sha1:
+ 14eb0cc68ce9a2161c53a43965a7ad40bfe0f89c 26497 ros-humble-cuda-blackboard_0.2.0-2025.07.04.19.11_amd64.buildinfo
+ 3312a1d2689bfceeed204197777bd4f6f8e7f21e 1266 ros-humble-cuda-blackboard_0.2.0-2025.07.04.19.11_amd64.deb
+Checksums-Sha256:
+ b370b1b2d28fcd7871c568fd03197616fb3472cb89b5ee375eb6bd003e26bef0 26497 ros-humble-cuda-blackboard_0.2.0-2025.07.04.19.11_amd64.buildinfo
+ b673b940512ccdbfa64877a3592e87e9acd7f9d7cec74f0f7e1d1926f5c45496 1266 ros-humble-cuda-blackboard_0.2.0-2025.07.04.19.11_amd64.deb
+Files:
+ dc87ff7b9b3819bfb0ee512617776983 26497 misc optional ros-humble-cuda-blackboard_0.2.0-2025.07.04.19.11_amd64.buildinfo
+ fcab6bc3291f628fcc43708c7687799b 1266 misc optional ros-humble-cuda-blackboard_0.2.0-2025.07.04.19.11_amd64.deb

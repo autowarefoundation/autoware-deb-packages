@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-crosswalk-traffic-light-estimator
+Binary: ros-humble-autoware-crosswalk-traffic-light-estimator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.00.00
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-crosswalk-traffic-light-estimator - The autoware_crosswalk_traffic_light_estimator package
+Changes:
+ ros-humble-autoware-crosswalk-traffic-light-estimator (0-2025.07.05.00.00) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * fix(autoware_crosswalk_traffic_light_estimator): add process that guard access to empty elements (#10281 <https://github.com/autowarefoundation/autoware_universe/issues/10281>)
+     * fix(autoware_crosswalk_traffic_light_estimator) : add process that guard access to empty elements.
+     * fix for linter
+     ---------
+   * Contributors: Ryohsuke Mitsudome, k-hazama-esol
+Checksums-Sha1:
+ fb41404acbd7fd979b7c8874acfa58dd73d75493 6344134 ros-humble-autoware-crosswalk-traffic-light-estimator-dbgsym_0-2025.07.05.00.00_amd64.ddeb
+ 0b7e7df5311fc438744002399e2887f6a2d41fd4 42634 ros-humble-autoware-crosswalk-traffic-light-estimator_0-2025.07.05.00.00_amd64.buildinfo
+ a5b4e289f6a0bf5fc35dd171888a6d45487290e6 243100 ros-humble-autoware-crosswalk-traffic-light-estimator_0-2025.07.05.00.00_amd64.deb
+Checksums-Sha256:
+ 4026bdd85dbde3395b7cfda762ab49436b0abf7b40a14f51af197c50ae749891 6344134 ros-humble-autoware-crosswalk-traffic-light-estimator-dbgsym_0-2025.07.05.00.00_amd64.ddeb
+ 8e349e42cdf2362755401eb49ef5dd875a41c38908222326d0e3dcbeb05b6749 42634 ros-humble-autoware-crosswalk-traffic-light-estimator_0-2025.07.05.00.00_amd64.buildinfo
+ e2087d10185da7eb2a241ff2452f3ad3c538eca11e28de148a012cef3f05a42b 243100 ros-humble-autoware-crosswalk-traffic-light-estimator_0-2025.07.05.00.00_amd64.deb
+Files:
+ e4fb7caee1a678a8a80fdfd08b77546c 6344134 debug optional ros-humble-autoware-crosswalk-traffic-light-estimator-dbgsym_0-2025.07.05.00.00_amd64.ddeb
+ 2ad51ed29bc31360d48ba1e901f80554 42634 misc optional ros-humble-autoware-crosswalk-traffic-light-estimator_0-2025.07.05.00.00_amd64.buildinfo
+ 82f1ec344bcbb89535d59c5cc1d81d21 243100 misc optional ros-humble-autoware-crosswalk-traffic-light-estimator_0-2025.07.05.00.00_amd64.deb

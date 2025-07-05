@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-core-map
+Binary: ros-humble-autoware-core-map
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.22.46
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-autoware-core-map - The autoware_core_map package
+Changes:
+ ros-humble-autoware-core-map (1.0.0-73-g3d059fa8-2025.07.04.22.46) jammy; urgency=high
+Checksums-Sha1:
+ 4c79029d6485e892dda8f145af460154cd838280 10783 ros-humble-autoware-core-map_1.0.0-73-g3d059fa8-2025.07.04.22.46_amd64.buildinfo
+ fd93f01ead0f6a0ee4ec233b51a675817a623379 5766 ros-humble-autoware-core-map_1.0.0-73-g3d059fa8-2025.07.04.22.46_amd64.deb
+Checksums-Sha256:
+ f8a4f2125f1d784bfdb9108b8bc7afa307ea7e5df8d097f6dfeed9d6f7fe7ee2 10783 ros-humble-autoware-core-map_1.0.0-73-g3d059fa8-2025.07.04.22.46_amd64.buildinfo
+ 19d2a24ac94a3221b19a946c811d5e50b62fe77174dc18ecd68c3f7ccc273d74 5766 ros-humble-autoware-core-map_1.0.0-73-g3d059fa8-2025.07.04.22.46_amd64.deb
+Files:
+ 1936388b16e03d0c1fa77d96ab0f59eb 10783 misc optional ros-humble-autoware-core-map_1.0.0-73-g3d059fa8-2025.07.04.22.46_amd64.buildinfo
+ 10c356a33f655cdcf6a407250314cb67 5766 misc optional ros-humble-autoware-core-map_1.0.0-73-g3d059fa8-2025.07.04.22.46_amd64.deb

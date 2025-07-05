@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Tue, 22 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-utils-pcl
+Binary: ros-humble-autoware-utils-pcl
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.4.0-2025.07.04.23.12
+Distribution: jammy
+Urgency: high
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Changed-By: Jian Kang <egon.kang@autocore.ai>
+Description:
+ ros-humble-autoware-utils-pcl - The autoware_utils_pcl package
+Changes:
+ ros-humble-autoware-utils-pcl (1.4.0-2025.07.04.23.12) jammy; urgency=high
+ .
+   * test(autoware_utils): port unit tests from autoware.universe (#28 <https://github.com/autowarefoundation/autoware_utils/issues/28>)
+   * feat: remove managed transform buffer (#41 <https://github.com/autowarefoundation/autoware_utils/issues/41>)
+   * Contributors: Amadeusz Szymko, storrrrrrrrm
+Checksums-Sha1:
+ 521625541b4bec765a4eff01dd5d86671a0d15f3 39704 ros-humble-autoware-utils-pcl_1.4.0-2025.07.04.23.12_amd64.buildinfo
+ 178aede97b52cd746f65723f2e16a258854c2ead 7964 ros-humble-autoware-utils-pcl_1.4.0-2025.07.04.23.12_amd64.deb
+Checksums-Sha256:
+ ec62a2313b287d095a87fe4c91837ace0ea40eaa0dc9069c0df4836d42d8e000 39704 ros-humble-autoware-utils-pcl_1.4.0-2025.07.04.23.12_amd64.buildinfo
+ 908ac41757f101f8ea00b25e0fdcafc4567ebc14e02aea3e5b75cc6441898894 7964 ros-humble-autoware-utils-pcl_1.4.0-2025.07.04.23.12_amd64.deb
+Files:
+ 324c2a38b638774a712ed9d3947cabe7 39704 misc optional ros-humble-autoware-utils-pcl_1.4.0-2025.07.04.23.12_amd64.buildinfo
+ bee26526537c5aef116ab1535921b5c7 7964 misc optional ros-humble-autoware-utils-pcl_1.4.0-2025.07.04.23.12_amd64.deb

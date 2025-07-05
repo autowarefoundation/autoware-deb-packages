@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-perception-online-evaluator
+Binary: ros-humble-autoware-perception-online-evaluator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.07.57
+Distribution: jammy
+Urgency: high
+Maintainer: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Changed-By: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Description:
+ ros-humble-autoware-perception-online-evaluator - ROS 2 node for evaluating perception
+Changes:
+ ros-humble-autoware-perception-online-evaluator (0-2025.07.05.07.57) jammy; urgency=high
+Checksums-Sha1:
+ e2b66985da7a2c1b24c4aed0ef1059674a601d1d 4619516 ros-humble-autoware-perception-online-evaluator-dbgsym_0-2025.07.05.07.57_amd64.ddeb
+ 42399dc65b578b35dcddd9c4a6c03754513989cc 43269 ros-humble-autoware-perception-online-evaluator_0-2025.07.05.07.57_amd64.buildinfo
+ 797b2a917ac57bffe3a0c6ed426ce5d01ef37119 206716 ros-humble-autoware-perception-online-evaluator_0-2025.07.05.07.57_amd64.deb
+Checksums-Sha256:
+ cc36f177752cd1c8f8f5d81afceb86fbbceb0e251cd0766eb064d76325133b3a 4619516 ros-humble-autoware-perception-online-evaluator-dbgsym_0-2025.07.05.07.57_amd64.ddeb
+ 1347716d98165c6818b66179b597b3c82c266763dc71e3911a8a6f366c0e48e8 43269 ros-humble-autoware-perception-online-evaluator_0-2025.07.05.07.57_amd64.buildinfo
+ f216f9e8ae670de4a397230112a1048c843f796acc549c03d8695b89e7d3ffde 206716 ros-humble-autoware-perception-online-evaluator_0-2025.07.05.07.57_amd64.deb
+Files:
+ 40db220c5bd6739b8dc981313b4a178f 4619516 debug optional ros-humble-autoware-perception-online-evaluator-dbgsym_0-2025.07.05.07.57_amd64.ddeb
+ 2e0456ca84a44dd01d0a44678a341000 43269 misc optional ros-humble-autoware-perception-online-evaluator_0-2025.07.05.07.57_amd64.buildinfo
+ 55cc21306ae91bb10d5847033ac8d570 206716 misc optional ros-humble-autoware-perception-online-evaluator_0-2025.07.05.07.57_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 15 Apr 2025 00:00:00 -0000
+Source: ros-humble-agnocast-ioctl-wrapper
+Binary: ros-humble-agnocast-ioctl-wrapper
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.1.0-2025.07.04.14.37
+Distribution: jammy
+Urgency: high
+Maintainer: Takahiro Ishikawa-Aso <sykwer@gmail.com>
+Changed-By: Takahiro Ishikawa-Aso <sykwer@gmail.com>
+Description:
+ ros-humble-agnocast-ioctl-wrapper - The wrapper of ioctl for command line tool extension for Agnocast
+Changes:
+ ros-humble-agnocast-ioctl-wrapper (2.1.0-2025.07.04.14.37) jammy; urgency=high
+Checksums-Sha1:
+ 97113b94609a0d696e98ecd234049559ae888bd9 273976 ros-humble-agnocast-ioctl-wrapper-dbgsym_2.1.0-2025.07.04.14.37_amd64.ddeb
+ 3d8b385069f78b5e7e8bc2e465e263855a47e31d 14471 ros-humble-agnocast-ioctl-wrapper_2.1.0-2025.07.04.14.37_amd64.buildinfo
+ 619ed1539da491313fba0ab2492caebb62fb5bcd 17012 ros-humble-agnocast-ioctl-wrapper_2.1.0-2025.07.04.14.37_amd64.deb
+Checksums-Sha256:
+ 5291d2b4e4b225f9b6765966c13536dc31d14e584ed24008069a616d47ac565c 273976 ros-humble-agnocast-ioctl-wrapper-dbgsym_2.1.0-2025.07.04.14.37_amd64.ddeb
+ 294f7f773c233cdf7a68c4ca8e06765712ceb98b8426e87fa8dbd64ccb399e4a 14471 ros-humble-agnocast-ioctl-wrapper_2.1.0-2025.07.04.14.37_amd64.buildinfo
+ 4d2dcd4a64f6c572f6ff4c040579615b47f3edebededbd33a6771b01b38f7aa4 17012 ros-humble-agnocast-ioctl-wrapper_2.1.0-2025.07.04.14.37_amd64.deb
+Files:
+ 88ee6181e47b35f3bcb093a3ebb7e061 273976 debug optional ros-humble-agnocast-ioctl-wrapper-dbgsym_2.1.0-2025.07.04.14.37_amd64.ddeb
+ b1cfdeed421249050d73e5108208018a 14471 misc optional ros-humble-agnocast-ioctl-wrapper_2.1.0-2025.07.04.14.37_amd64.buildinfo
+ 8038fbaba8e06ea2b844dc402190cc71 17012 misc optional ros-humble-agnocast-ioctl-wrapper_2.1.0-2025.07.04.14.37_amd64.deb

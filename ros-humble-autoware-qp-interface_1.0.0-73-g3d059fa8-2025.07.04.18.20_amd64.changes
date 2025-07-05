@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-qp-interface
+Binary: ros-humble-autoware-qp-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.18.20
+Distribution: jammy
+Urgency: high
+Maintainer: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Changed-By: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Description:
+ ros-humble-autoware-qp-interface - Interface for the QP solvers
+Changes:
+ ros-humble-autoware-qp-interface (1.0.0-73-g3d059fa8-2025.07.04.18.20) jammy; urgency=high
+Checksums-Sha1:
+ 591954b1bdd6ecc30d5ae25a7f722a27f75aecef 3220716 ros-humble-autoware-qp-interface-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.18.20_amd64.ddeb
+ 80831a00222863dbe5de4eade7ff7c53e29312e4 16654 ros-humble-autoware-qp-interface_1.0.0-73-g3d059fa8-2025.07.04.18.20_amd64.buildinfo
+ 3c81cc6a8e009404576d5acff453851efe8c93d6 105592 ros-humble-autoware-qp-interface_1.0.0-73-g3d059fa8-2025.07.04.18.20_amd64.deb
+Checksums-Sha256:
+ 620434a420c680468b2b30fdc7ec8d1edf2305d8f2283ba6c4a7fbb1e090e11e 3220716 ros-humble-autoware-qp-interface-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.18.20_amd64.ddeb
+ b5238abebe4e89876a76ea1861439da50f686d44f1fe54b8d6009823cd798be9 16654 ros-humble-autoware-qp-interface_1.0.0-73-g3d059fa8-2025.07.04.18.20_amd64.buildinfo
+ 30c0dd4960d58bb03cd2d48b70956edbc713d217b0a72df9abcc6175ebfbe3d1 105592 ros-humble-autoware-qp-interface_1.0.0-73-g3d059fa8-2025.07.04.18.20_amd64.deb
+Files:
+ f0ef7bb5c7330c1549c05e2908ddadfb 3220716 debug optional ros-humble-autoware-qp-interface-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.18.20_amd64.ddeb
+ f8ff8a42034a7fa7660838a7e8088358 16654 misc optional ros-humble-autoware-qp-interface_1.0.0-73-g3d059fa8-2025.07.04.18.20_amd64.buildinfo
+ 92001ff0995cd705995a66325fcd5432 105592 misc optional ros-humble-autoware-qp-interface_1.0.0-73-g3d059fa8-2025.07.04.18.20_amd64.deb

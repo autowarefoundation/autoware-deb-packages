@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-path-lane-change-module
+Binary: ros-humble-autoware-behavior-path-lane-change-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.13.22
+Distribution: jammy
+Urgency: high
+Maintainer: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Changed-By: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-path-lane-change-module - The autoware_behavior_path_lane_change_module package
+Changes:
+ ros-humble-autoware-behavior-path-lane-change-module (0-2025.07.05.13.22) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * fix(lane_change): set safety factor properly (#10308 <https://github.com/autowarefoundation/autoware_universe/issues/10308>)
+   * Contributors: Ryohsuke Mitsudome, Satoshi OTA
+Checksums-Sha1:
+ 03402a3f20608ab396509080c8773412a35b819f 10759656 ros-humble-autoware-behavior-path-lane-change-module-dbgsym_0-2025.07.05.13.22_amd64.ddeb
+ 9e56856e6cf18781c0b985e6e247c4c06d2f9942 50001 ros-humble-autoware-behavior-path-lane-change-module_0-2025.07.05.13.22_amd64.buildinfo
+ f359759a7b1b02a9ae8e31bc8f05ba483f75058b 407420 ros-humble-autoware-behavior-path-lane-change-module_0-2025.07.05.13.22_amd64.deb
+Checksums-Sha256:
+ a760a9e91389176ee5a3e963c62f7e94375c677b4b5bb5cf4826dde81e58aeee 10759656 ros-humble-autoware-behavior-path-lane-change-module-dbgsym_0-2025.07.05.13.22_amd64.ddeb
+ 81d982f9dac340e1c3bb4a03de9aaf4f248ab072af9939baeb4398adec42795c 50001 ros-humble-autoware-behavior-path-lane-change-module_0-2025.07.05.13.22_amd64.buildinfo
+ 0b9da490224c40491ee14e8bd110f969f7d99dd8c91beef77408d00849d9eef7 407420 ros-humble-autoware-behavior-path-lane-change-module_0-2025.07.05.13.22_amd64.deb
+Files:
+ eb54677b3e7d9068c46a65c29de893e9 10759656 debug optional ros-humble-autoware-behavior-path-lane-change-module-dbgsym_0-2025.07.05.13.22_amd64.ddeb
+ f751ba72c4c97ca0eb3a43fa2c2787e2 50001 misc optional ros-humble-autoware-behavior-path-lane-change-module_0-2025.07.05.13.22_amd64.buildinfo
+ f9d9fd1b63883d625591313cace947d6 407420 misc optional ros-humble-autoware-behavior-path-lane-change-module_0-2025.07.05.13.22_amd64.deb

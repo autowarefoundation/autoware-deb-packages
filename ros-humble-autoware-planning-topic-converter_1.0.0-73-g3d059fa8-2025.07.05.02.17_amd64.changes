@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-planning-topic-converter
+Binary: ros-humble-autoware-planning-topic-converter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.05.02.17
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi OTA <satoshi.ota@tier4.jp>
+Changed-By: Satoshi OTA <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-planning-topic-converter - The autoware_planning_topic_converter package
+Changes:
+ ros-humble-autoware-planning-topic-converter (1.0.0-73-g3d059fa8-2025.07.05.02.17) jammy; urgency=high
+Checksums-Sha1:
+ 304bfa4b01e9f6d1e281e41cf78cafafb5cb9cda 2452714 ros-humble-autoware-planning-topic-converter-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.02.17_amd64.ddeb
+ 4ed5321bc2a0d919e9abe6d2af54da19d7678b6d 41751 ros-humble-autoware-planning-topic-converter_1.0.0-73-g3d059fa8-2025.07.05.02.17_amd64.buildinfo
+ 09e83930a8489b188057b89ebfdd010a1e538468 120408 ros-humble-autoware-planning-topic-converter_1.0.0-73-g3d059fa8-2025.07.05.02.17_amd64.deb
+Checksums-Sha256:
+ 4c31c7e1ab286a63163a39880b3f57c75f8ee6e0da2d7797630a2cf0698b7010 2452714 ros-humble-autoware-planning-topic-converter-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.02.17_amd64.ddeb
+ 67cd16a5794ec2fe2a4b6f5d234dbe1c73bd6e25270b44f3dbfda21e4a01d88a 41751 ros-humble-autoware-planning-topic-converter_1.0.0-73-g3d059fa8-2025.07.05.02.17_amd64.buildinfo
+ 7c7970b2fa8b7e179438dd4c92eea591db0b9fa938679f612103af392379b047 120408 ros-humble-autoware-planning-topic-converter_1.0.0-73-g3d059fa8-2025.07.05.02.17_amd64.deb
+Files:
+ 32c760e54d3f89df411a27fb4b7d67cd 2452714 debug optional ros-humble-autoware-planning-topic-converter-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.02.17_amd64.ddeb
+ 735f5799e65fdd16c18f4c5b005a9944 41751 misc optional ros-humble-autoware-planning-topic-converter_1.0.0-73-g3d059fa8-2025.07.05.02.17_amd64.buildinfo
+ cf46d316b208b22d846ab598c7c043b9 120408 misc optional ros-humble-autoware-planning-topic-converter_1.0.0-73-g3d059fa8-2025.07.05.02.17_amd64.deb

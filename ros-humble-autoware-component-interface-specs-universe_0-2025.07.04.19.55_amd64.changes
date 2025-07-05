@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-component-interface-specs-universe
+Binary: ros-humble-autoware-component-interface-specs-universe
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.19.55
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-component-interface-specs-universe - The autoware_component_interface_specs_universe package
+Changes:
+ ros-humble-autoware-component-interface-specs-universe (0-2025.07.04.19.55) jammy; urgency=high
+Checksums-Sha1:
+ 5b1868fcfe1ac75de520d6c81aea5587ab691902 16355 ros-humble-autoware-component-interface-specs-universe_0-2025.07.04.19.55_amd64.buildinfo
+ 82d42e7e32236e9a68d9f2f171d3a0b697d7b2fd 9684 ros-humble-autoware-component-interface-specs-universe_0-2025.07.04.19.55_amd64.deb
+Checksums-Sha256:
+ ffb7550aa59e49a3c35f28c53a2f0363cfb324c0648113b7244d49d1e9870d6a 16355 ros-humble-autoware-component-interface-specs-universe_0-2025.07.04.19.55_amd64.buildinfo
+ 9610578670ad791f4548162d5fab56a78fdaaa3b9074be2c031c0c49cfdbab14 9684 ros-humble-autoware-component-interface-specs-universe_0-2025.07.04.19.55_amd64.deb
+Files:
+ ccbf0f068b3d95f62811dbdd27707ada 16355 misc optional ros-humble-autoware-component-interface-specs-universe_0-2025.07.04.19.55_amd64.buildinfo
+ 4e93d08d54ffca84ab40935a6f153ff7 9684 misc optional ros-humble-autoware-component-interface-specs-universe_0-2025.07.04.19.55_amd64.deb

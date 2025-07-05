@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-object-recognition-utils
+Binary: ros-humble-autoware-object-recognition-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.23.00
+Distribution: jammy
+Urgency: high
+Maintainer: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Changed-By: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Description:
+ ros-humble-autoware-object-recognition-utils - The autoware_object_recognition_utils package
+Changes:
+ ros-humble-autoware-object-recognition-utils (1.0.0-73-g3d059fa8-2025.07.04.23.00) jammy; urgency=high
+ .
+   * refactor(autoware_object_recognition_utils): use autoware_utils_* instead of autoware_utils (#385 <https://github.com/autowarefoundation/autoware_core/issues/385>)
+     use autoware_utils_*
+   * Contributors: Yutaka Kondo
+Checksums-Sha1:
+ 1f9ae5f4a303133ea09df944e061408c25c890d1 178526 ros-humble-autoware-object-recognition-utils-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.23.00_amd64.ddeb
+ 95017d6aaa4ef98192b816b8e6f09a7be71adfd5 40358 ros-humble-autoware-object-recognition-utils_1.0.0-73-g3d059fa8-2025.07.04.23.00_amd64.buildinfo
+ 2db873602fb728c8cd7074a68fd7969ed7389a49 22124 ros-humble-autoware-object-recognition-utils_1.0.0-73-g3d059fa8-2025.07.04.23.00_amd64.deb
+Checksums-Sha256:
+ 509d3a1ef2eca5dffad5ca2770340731f0c0fec8129d55a7623158e712afb155 178526 ros-humble-autoware-object-recognition-utils-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.23.00_amd64.ddeb
+ 0a0aba4413282ecfa005b666d4640861d8367a2a8d16a7cc6637e766087aefae 40358 ros-humble-autoware-object-recognition-utils_1.0.0-73-g3d059fa8-2025.07.04.23.00_amd64.buildinfo
+ 6dccc591e625ef8d271d405077e020bcf1ea0f9b830732d6fcf093ed204bd2f3 22124 ros-humble-autoware-object-recognition-utils_1.0.0-73-g3d059fa8-2025.07.04.23.00_amd64.deb
+Files:
+ 0030eca025ac8700f9854391c5e171ab 178526 debug optional ros-humble-autoware-object-recognition-utils-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.23.00_amd64.ddeb
+ 91e21af8bba95b3f3b78fede1055b56f 40358 misc optional ros-humble-autoware-object-recognition-utils_1.0.0-73-g3d059fa8-2025.07.04.23.00_amd64.buildinfo
+ e273683d692139ecf56e19a50f4e53c6 22124 misc optional ros-humble-autoware-object-recognition-utils_1.0.0-73-g3d059fa8-2025.07.04.23.00_amd64.deb

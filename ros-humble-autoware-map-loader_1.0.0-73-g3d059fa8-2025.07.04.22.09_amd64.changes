@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-map-loader
+Binary: ros-humble-autoware-map-loader
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.22.09
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-map-loader - The autoware_map_loader package
+Changes:
+ ros-humble-autoware-map-loader (1.0.0-73-g3d059fa8-2025.07.04.22.09) jammy; urgency=high
+ .
+   * feat(component_interface_specs): use template type in get_qos function (#364 <https://github.com/autowarefoundation/autoware_core/issues/364>)
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * feat(map_loader): add the explanation of handling use_waypoints (#342 <https://github.com/autowarefoundation/autoware_core/issues/342>)
+   * Contributors: Takagi, Isamu, Takayuki Murooka
+Checksums-Sha1:
+ aa813a1c553164b55a3233995db70630c2ab1bbf 7934186 ros-humble-autoware-map-loader-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.22.09_amd64.ddeb
+ a61467963c9f4c18c6932fb1e9c19487dc235141 42126 ros-humble-autoware-map-loader_1.0.0-73-g3d059fa8-2025.07.04.22.09_amd64.buildinfo
+ eb8d105103ffcf6bf2e4fe1dea58eb63f9490e00 225410 ros-humble-autoware-map-loader_1.0.0-73-g3d059fa8-2025.07.04.22.09_amd64.deb
+Checksums-Sha256:
+ df0cbec545b52a995b20fa8521cffa36e1e869fe04aee5384af952f8c6d4a2e2 7934186 ros-humble-autoware-map-loader-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.22.09_amd64.ddeb
+ 677c31f2caeeda4331dfed78dadb1312a7a8dc64dda2fd6a4da21e3cbfae7aee 42126 ros-humble-autoware-map-loader_1.0.0-73-g3d059fa8-2025.07.04.22.09_amd64.buildinfo
+ fd196de60fd92c89527662d4494ce94397535e217533724dc5d05e1e03bffcdf 225410 ros-humble-autoware-map-loader_1.0.0-73-g3d059fa8-2025.07.04.22.09_amd64.deb
+Files:
+ 859b22c03356427fa106fccf5a2cd030 7934186 debug optional ros-humble-autoware-map-loader-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.22.09_amd64.ddeb
+ 2e0246e73b99806ee1101b928e42c95b 42126 misc optional ros-humble-autoware-map-loader_1.0.0-73-g3d059fa8-2025.07.04.22.09_amd64.buildinfo
+ 980c3f1ddbf4687384483bfc2b2d4445 225410 misc optional ros-humble-autoware-map-loader_1.0.0-73-g3d059fa8-2025.07.04.22.09_amd64.deb

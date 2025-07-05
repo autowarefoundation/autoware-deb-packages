@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-point-types
+Binary: ros-humble-autoware-point-types
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.18.08
+Distribution: jammy
+Urgency: high
+Maintainer: David Wong <david.wong@tier4.jp>
+Changed-By: David Wong <david.wong@tier4.jp>
+Description:
+ ros-humble-autoware-point-types - The point types definition to use point_cloud_msg_wrapper
+Changes:
+ ros-humble-autoware-point-types (1.0.0-73-g3d059fa8-2025.07.04.18.08) jammy; urgency=high
+Checksums-Sha1:
+ 8b24fe7fa3ba5c30622b325ea249aeec4b966c04 39237 ros-humble-autoware-point-types_1.0.0-73-g3d059fa8-2025.07.04.18.08_amd64.buildinfo
+ 8124d2e867f3de6631c38bc339110d263b9e9678 9626 ros-humble-autoware-point-types_1.0.0-73-g3d059fa8-2025.07.04.18.08_amd64.deb
+Checksums-Sha256:
+ b331733be069c622988566cb152db7ccd4759fbae9f23d1583ce4c4b9b191198 39237 ros-humble-autoware-point-types_1.0.0-73-g3d059fa8-2025.07.04.18.08_amd64.buildinfo
+ 2afda5f84573457f05f6310f937f820a9e21da79520c128188cad04d6a98307e 9626 ros-humble-autoware-point-types_1.0.0-73-g3d059fa8-2025.07.04.18.08_amd64.deb
+Files:
+ 8dde44309318beb23bbf806f888efe71 39237 misc optional ros-humble-autoware-point-types_1.0.0-73-g3d059fa8-2025.07.04.18.08_amd64.buildinfo
+ 90c0945ea00ae66257213b7b786c088f 9626 misc optional ros-humble-autoware-point-types_1.0.0-73-g3d059fa8-2025.07.04.18.08_amd64.deb

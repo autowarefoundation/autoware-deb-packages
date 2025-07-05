@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-trajectory-follower-node
+Binary: ros-humble-autoware-trajectory-follower-node
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.12.56
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-trajectory-follower-node - Nodes to follow a trajectory by generating control commands separ
+Changes:
+ ros-humble-autoware-trajectory-follower-node (0-2025.07.05.12.56) jammy; urgency=high
+Checksums-Sha1:
+ 917a93f2d991033f1e5a1569c90c1b65241bde86 9734556 ros-humble-autoware-trajectory-follower-node-dbgsym_0-2025.07.05.12.56_amd64.ddeb
+ 68c23af3c1015be818848936405e21432562ea52 43282 ros-humble-autoware-trajectory-follower-node_0-2025.07.05.12.56_amd64.buildinfo
+ a1134e471d3c9aa55ba280330a5ed683fb68a566 352226 ros-humble-autoware-trajectory-follower-node_0-2025.07.05.12.56_amd64.deb
+Checksums-Sha256:
+ 155bf074130afb5451e9d178f9d5c73980653cbe2bf5f5406ce110d8b22329c1 9734556 ros-humble-autoware-trajectory-follower-node-dbgsym_0-2025.07.05.12.56_amd64.ddeb
+ 2a80bf596dee2072c85191f94c25536b9b904b882f02acf63ef6c897dbab5674 43282 ros-humble-autoware-trajectory-follower-node_0-2025.07.05.12.56_amd64.buildinfo
+ 9b0940361b4d1b016af6e73d6c102ada10a41fdaad675477533837f904fb6937 352226 ros-humble-autoware-trajectory-follower-node_0-2025.07.05.12.56_amd64.deb
+Files:
+ 7f43acd72d0793f2697432e86929ce31 9734556 debug optional ros-humble-autoware-trajectory-follower-node-dbgsym_0-2025.07.05.12.56_amd64.ddeb
+ e9f11733bc889ace72f18bcbc192d9fe 43282 misc optional ros-humble-autoware-trajectory-follower-node_0-2025.07.05.12.56_amd64.buildinfo
+ 80e1f790683b243e45b426e63a02c971 352226 misc optional ros-humble-autoware-trajectory-follower-node_0-2025.07.05.12.56_amd64.deb

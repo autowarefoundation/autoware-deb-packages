@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-dummy-infrastructure
+Binary: ros-humble-autoware-dummy-infrastructure
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.00.11
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-autoware-dummy-infrastructure - autoware_dummy_infrastructure
+Changes:
+ ros-humble-autoware-dummy-infrastructure (0-2025.07.05.00.11) jammy; urgency=high
+Checksums-Sha1:
+ 29a29701aa2922d90d9b9cf59b2892948f3012ea 4185964 ros-humble-autoware-dummy-infrastructure-dbgsym_0-2025.07.05.00.11_amd64.ddeb
+ 4d3f3439efa6061548fb45aac5bc6e337ea469d5 41367 ros-humble-autoware-dummy-infrastructure_0-2025.07.05.00.11_amd64.buildinfo
+ 690903239d039deb0548d0d7258390348bd0d758 183614 ros-humble-autoware-dummy-infrastructure_0-2025.07.05.00.11_amd64.deb
+Checksums-Sha256:
+ 30245c24791ae7d0c7a6454b03734362b42e986868deecab2924bb9e4f8fe5b5 4185964 ros-humble-autoware-dummy-infrastructure-dbgsym_0-2025.07.05.00.11_amd64.ddeb
+ f04f983d6540ce880bab9222bca59e3c113f411d79b10a2e2fdd0da7d41115a4 41367 ros-humble-autoware-dummy-infrastructure_0-2025.07.05.00.11_amd64.buildinfo
+ 31155827c55743cb9248be0aff3ca79775bd215808cb8600bb38b45734e45d40 183614 ros-humble-autoware-dummy-infrastructure_0-2025.07.05.00.11_amd64.deb
+Files:
+ fbd55d8a49a04ed446f620250da9e409 4185964 debug optional ros-humble-autoware-dummy-infrastructure-dbgsym_0-2025.07.05.00.11_amd64.ddeb
+ fbae657279a6eadeaae41dca839f888a 41367 misc optional ros-humble-autoware-dummy-infrastructure_0-2025.07.05.00.11_amd64.buildinfo
+ 66dd35d60384bff29e964ce165514c90 183614 misc optional ros-humble-autoware-dummy-infrastructure_0-2025.07.05.00.11_amd64.deb

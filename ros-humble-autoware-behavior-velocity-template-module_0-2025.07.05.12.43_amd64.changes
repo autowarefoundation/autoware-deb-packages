@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-template-module
+Binary: ros-humble-autoware-behavior-velocity-template-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.12.43
+Distribution: jammy
+Urgency: high
+Maintainer: Daniel Sanchez <daniel.sanchez@tier4.jp>
+Changed-By: Daniel Sanchez <daniel.sanchez@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-template-module - The autoware_behavior_velocity_template_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-template-module (0-2025.07.05.12.43) jammy; urgency=high
+Checksums-Sha1:
+ 4819fdc2210b51e5ce81b7fec562d2fd810ccd3c 2695974 ros-humble-autoware-behavior-velocity-template-module-dbgsym_0-2025.07.05.12.43_amd64.ddeb
+ 42cc79267af8d26d944bd6efc961a9c0f728b3ed 44675 ros-humble-autoware-behavior-velocity-template-module_0-2025.07.05.12.43_amd64.buildinfo
+ d9520fbf2f839e4691d773b7d0657c87c37746ed 24658 ros-humble-autoware-behavior-velocity-template-module_0-2025.07.05.12.43_amd64.deb
+Checksums-Sha256:
+ 3ed999a586073524bfcc36095d03825228f6baa02b95410f8733ff38e0f895a1 2695974 ros-humble-autoware-behavior-velocity-template-module-dbgsym_0-2025.07.05.12.43_amd64.ddeb
+ af755148ab6ec3d5b2f442df20e1c4a3678a65f274708de1437ba09bfe2baee7 44675 ros-humble-autoware-behavior-velocity-template-module_0-2025.07.05.12.43_amd64.buildinfo
+ 7ea15977d01dd4f22f6493b56f7624a34f7461879177f2a7d5a111e3b48a756e 24658 ros-humble-autoware-behavior-velocity-template-module_0-2025.07.05.12.43_amd64.deb
+Files:
+ b57c9618e1a8b1a319f4afd9396534a5 2695974 debug optional ros-humble-autoware-behavior-velocity-template-module-dbgsym_0-2025.07.05.12.43_amd64.ddeb
+ c79583eb3a1b5605e806cdd74f14ef79 44675 misc optional ros-humble-autoware-behavior-velocity-template-module_0-2025.07.05.12.43_amd64.buildinfo
+ 84da42895a6d5ede6d3176f10e4c8eb5 24658 misc optional ros-humble-autoware-behavior-velocity-template-module_0-2025.07.05.12.43_amd64.deb

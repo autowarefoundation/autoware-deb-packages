@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-map-projection-loader
+Binary: ros-humble-autoware-map-projection-loader
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.20.31
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-map-projection-loader - autoware_map_projection_loader package as a ROS 2 node
+Changes:
+ ros-humble-autoware-map-projection-loader (1.0.0-73-g3d059fa8-2025.07.04.20.31) jammy; urgency=high
+ .
+   * feat(component_interface_specs): use template type in get_qos function (#364 <https://github.com/autowarefoundation/autoware_core/issues/364>)
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * feat(map_projection_loader): add scale_factor and remove altitude (#340 <https://github.com/autowarefoundation/autoware_core/issues/340>)
+   * Contributors: Takagi, Isamu, Yamato Ando
+Checksums-Sha1:
+ 5706b31c50e2805fceffe071140d58413d7b9db0 2038210 ros-humble-autoware-map-projection-loader-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.20.31_amd64.ddeb
+ e04ce23bb43afaf25f62257b5725c8ee6c091983 26145 ros-humble-autoware-map-projection-loader_1.0.0-73-g3d059fa8-2025.07.04.20.31_amd64.buildinfo
+ 919940f71561a6958537e5fbe75e05f6b8b3e2c3 79044 ros-humble-autoware-map-projection-loader_1.0.0-73-g3d059fa8-2025.07.04.20.31_amd64.deb
+Checksums-Sha256:
+ 536e71ba55b1e1e1e42dab3611e44fc9f2dd9b9d692a5cdbf4a50cbade0839ea 2038210 ros-humble-autoware-map-projection-loader-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.20.31_amd64.ddeb
+ 78c42d280ecbca90caa91f26060e0bff9249814eb17ae43aa80d7b9daf7aeccc 26145 ros-humble-autoware-map-projection-loader_1.0.0-73-g3d059fa8-2025.07.04.20.31_amd64.buildinfo
+ 1d17eec882fa1fc0569238238f322d03186f1c8e3f13bb7f103aebe017b82100 79044 ros-humble-autoware-map-projection-loader_1.0.0-73-g3d059fa8-2025.07.04.20.31_amd64.deb
+Files:
+ 07bd135e23812d66fd9d07917f1fd782 2038210 debug optional ros-humble-autoware-map-projection-loader-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.20.31_amd64.ddeb
+ 62f13961db25ad562f9c12651c7605ec 26145 misc optional ros-humble-autoware-map-projection-loader_1.0.0-73-g3d059fa8-2025.07.04.20.31_amd64.buildinfo
+ 830c31022464881cbd7e45e8f35a7044 79044 misc optional ros-humble-autoware-map-projection-loader_1.0.0-73-g3d059fa8-2025.07.04.20.31_amd64.deb

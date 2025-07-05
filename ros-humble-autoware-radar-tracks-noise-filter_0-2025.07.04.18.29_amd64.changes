@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-radar-tracks-noise-filter
+Binary: ros-humble-autoware-radar-tracks-noise-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.18.29
+Distribution: jammy
+Urgency: high
+Maintainer: Sathshi Tanaka <satoshi.tanaka@tier4.jp>
+Changed-By: Sathshi Tanaka <satoshi.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-radar-tracks-noise-filter - autoware_radar_tracks_noise_filter
+Changes:
+ ros-humble-autoware-radar-tracks-noise-filter (0-2025.07.04.18.29) jammy; urgency=high
+Checksums-Sha1:
+ 61e79303d022a7c10cb80a752a0accdc6b5b0de1 2362190 ros-humble-autoware-radar-tracks-noise-filter-dbgsym_0-2025.07.04.18.29_amd64.ddeb
+ d61a0f328f61dba7c203204fddbbeb5ce70846a1 16190 ros-humble-autoware-radar-tracks-noise-filter_0-2025.07.04.18.29_amd64.buildinfo
+ c307b77e04edd8940a22bebdccfb8a0c1d640c2c 122722 ros-humble-autoware-radar-tracks-noise-filter_0-2025.07.04.18.29_amd64.deb
+Checksums-Sha256:
+ 039df9c95e11ed0f5613e5bf0ec5c6f2a274350951f3cfbbae9e26cd1075ab7b 2362190 ros-humble-autoware-radar-tracks-noise-filter-dbgsym_0-2025.07.04.18.29_amd64.ddeb
+ c7e543d9ae6a8d1977786dab1bb078c176f65c24430f897aacfb51aed73bb671 16190 ros-humble-autoware-radar-tracks-noise-filter_0-2025.07.04.18.29_amd64.buildinfo
+ 093a28d58766d918d6afe7de1472fffc6bad2eff1b7b0f9788ccb32c97a93a67 122722 ros-humble-autoware-radar-tracks-noise-filter_0-2025.07.04.18.29_amd64.deb
+Files:
+ 4aaee1d522cc2981bf09eaaa4fc2fa10 2362190 debug optional ros-humble-autoware-radar-tracks-noise-filter-dbgsym_0-2025.07.04.18.29_amd64.ddeb
+ 7943025a045672d7d22ac58f13c89234 16190 misc optional ros-humble-autoware-radar-tracks-noise-filter_0-2025.07.04.18.29_amd64.buildinfo
+ 9d4e9eb1639970b4439e1ce5755878c9 122722 misc optional ros-humble-autoware-radar-tracks-noise-filter_0-2025.07.04.18.29_amd64.deb

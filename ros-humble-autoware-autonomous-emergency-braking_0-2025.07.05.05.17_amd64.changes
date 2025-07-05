@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-autonomous-emergency-braking
+Binary: ros-humble-autoware-autonomous-emergency-braking
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.05.17
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-autonomous-emergency-braking - Autonomous Emergency Braking package as a ROS 2 node
+Changes:
+ ros-humble-autoware-autonomous-emergency-braking (0-2025.07.05.05.17) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat(autoware_autonomous_emergency_braking): created Schema file and updated ReadME file for parameters setting (#10002 <https://github.com/autowarefoundation/autoware_universe/issues/10002>)
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+   * Contributors: Ryohsuke Mitsudome, Vishal Chauhan
+Checksums-Sha1:
+ 3134f6d1aba655522522303d19b231552d69ee8f 15726428 ros-humble-autoware-autonomous-emergency-braking-dbgsym_0-2025.07.05.05.17_amd64.ddeb
+ cd825a07d155484491d07cc0a179acd7e5a2f693 43560 ros-humble-autoware-autonomous-emergency-braking_0-2025.07.05.05.17_amd64.buildinfo
+ 0895d6d294eb4199175aed2124e7280265d9de9d 403532 ros-humble-autoware-autonomous-emergency-braking_0-2025.07.05.05.17_amd64.deb
+Checksums-Sha256:
+ 588bce605efecf69627c2fd9c0c4b75ab7b42544e6dfd651e8d0f082af716498 15726428 ros-humble-autoware-autonomous-emergency-braking-dbgsym_0-2025.07.05.05.17_amd64.ddeb
+ 532aa8d5470d23cdf648f2be55200b5b410396146feb9d368dff6ec39e6cf21e 43560 ros-humble-autoware-autonomous-emergency-braking_0-2025.07.05.05.17_amd64.buildinfo
+ 53c443c16a8316fc1be2a1d95364fcc6b3847f7b45c5080d24ef43545d2073b2 403532 ros-humble-autoware-autonomous-emergency-braking_0-2025.07.05.05.17_amd64.deb
+Files:
+ 7d13640fa8e720a8af6c3aec1d71c90c 15726428 debug optional ros-humble-autoware-autonomous-emergency-braking-dbgsym_0-2025.07.05.05.17_amd64.ddeb
+ 09cbda94c9cbc720d2171350e7f0a264 43560 misc optional ros-humble-autoware-autonomous-emergency-braking_0-2025.07.05.05.17_amd64.buildinfo
+ 1f44c3f9baaf51b35fb525f1480d8144 403532 misc optional ros-humble-autoware-autonomous-emergency-braking_0-2025.07.05.05.17_amd64.deb

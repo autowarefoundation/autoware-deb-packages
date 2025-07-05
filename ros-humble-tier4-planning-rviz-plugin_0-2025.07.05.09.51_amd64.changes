@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-tier4-planning-rviz-plugin
+Binary: ros-humble-tier4-planning-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.09.51
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-tier4-planning-rviz-plugin - The tier4_planning_rviz_plugin package
+Changes:
+ ros-humble-tier4-planning-rviz-plugin (0-2025.07.05.09.51) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat(tier4_planning_rviz_plugin): add time from start text to Trajectory (#10370 <https://github.com/autowarefoundation/autoware_universe/issues/10370>)
+   * Contributors: Maxime CLEMENT, Ryohsuke Mitsudome
+Checksums-Sha1:
+ 79d0c901d40ac4e11f9d8a3744e89bd71b8f775c 10728748 ros-humble-tier4-planning-rviz-plugin-dbgsym_0-2025.07.05.09.51_amd64.ddeb
+ b8a0b8c9d3815d218e7bd53e107675e4f9bbb9f5 43853 ros-humble-tier4-planning-rviz-plugin_0-2025.07.05.09.51_amd64.buildinfo
+ 828109e8b18db7abff234cb65790af7b8590872e 332480 ros-humble-tier4-planning-rviz-plugin_0-2025.07.05.09.51_amd64.deb
+Checksums-Sha256:
+ 96cd4acd42fd0f57b75d210811f4025a61c0d692679d767b5b6e268912339642 10728748 ros-humble-tier4-planning-rviz-plugin-dbgsym_0-2025.07.05.09.51_amd64.ddeb
+ 12bd710c98063608d22ff6e858c7293bbc43192629a48de7494c7d3d26916bd5 43853 ros-humble-tier4-planning-rviz-plugin_0-2025.07.05.09.51_amd64.buildinfo
+ 2e24cbe05251abf94faa1ade61fc189dc3042ad08998dcb835d415816cc91a1e 332480 ros-humble-tier4-planning-rviz-plugin_0-2025.07.05.09.51_amd64.deb
+Files:
+ bca465d963d66ca83b10a681c421a3bd 10728748 debug optional ros-humble-tier4-planning-rviz-plugin-dbgsym_0-2025.07.05.09.51_amd64.ddeb
+ 6e946040aca2100fe8e4b617d3ff4e48 43853 misc optional ros-humble-tier4-planning-rviz-plugin_0-2025.07.05.09.51_amd64.buildinfo
+ b761621568f3dd5cc3742b2507837bc2 332480 misc optional ros-humble-tier4-planning-rviz-plugin_0-2025.07.05.09.51_amd64.deb

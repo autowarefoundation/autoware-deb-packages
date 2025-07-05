@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-sample-vehicle-launch
+Binary: ros-humble-sample-vehicle-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.15.50
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-sample-vehicle-launch - The sample_vehicle_launch package
+Changes:
+ ros-humble-sample-vehicle-launch (0-2025.07.04.15.50) jammy; urgency=high
+ .
+   * chore: set all versions to 0.43.0 (#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>)
+   * feat(*_launch): move here (#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>)
+   * Contributors: Mete Fatih Cırıt
+   * chore: set all versions to 0.43.0 (#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>)
+   * feat(*_launch): move here (#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>)
+   * Contributors: Mete Fatih Cırıt
+   * chore: set all versions to 0.43.0 (#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>)
+   * feat(*_launch): move here (#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>)
+   * Contributors: Mete Fatih Cırıt
+   * chore: set all versions to 0.43.0 (#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>)
+   * feat(*_launch): move here (#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>)
+   * Contributors: Mete Fatih Cırıt
+   * chore: set all versions to 0.43.0 (#1384 <https://github.com/autowarefoundation/autoware_launch/issues/1384>)
+   * feat(*_launch): move here (#1369 <https://github.com/autowarefoundation/autoware_launch/issues/1369>)
+   * Contributors: Mete Fatih Cırıt
+Checksums-Sha1:
+ b2d246cfe14d2a19fefc4d934287088c590e94fb 9736 ros-humble-sample-vehicle-launch_0-2025.07.04.15.50_amd64.buildinfo
+ 5d79cf7e7e9402cbf68a4ebf9b62ce8e54f2b39f 5152 ros-humble-sample-vehicle-launch_0-2025.07.04.15.50_amd64.deb
+Checksums-Sha256:
+ 4eb676e49fbb754a27d4b84473a4f7a911c57eaa885a61e6a5c76e26dfde2b8f 9736 ros-humble-sample-vehicle-launch_0-2025.07.04.15.50_amd64.buildinfo
+ 077cdaef2f6610b4452ec463f492cad7753c363a92d68a1bb2a17b2a6989e8a0 5152 ros-humble-sample-vehicle-launch_0-2025.07.04.15.50_amd64.deb
+Files:
+ a58b7621610fee19c04c7f8a208e24a5 9736 misc optional ros-humble-sample-vehicle-launch_0-2025.07.04.15.50_amd64.buildinfo
+ d550f7368cc0d9aaaceb339b9735c700 5152 misc optional ros-humble-sample-vehicle-launch_0-2025.07.04.15.50_amd64.deb

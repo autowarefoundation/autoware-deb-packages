@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 22 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-utils-system
+Binary: ros-humble-autoware-utils-system
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.4.0-2025.07.04.18.58
+Distribution: jammy
+Urgency: high
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Changed-By: Jian Kang <egon.kang@autocore.ai>
+Description:
+ ros-humble-autoware-utils-system - The autoware_utils_system package
+Changes:
+ ros-humble-autoware-utils-system (1.4.0-2025.07.04.18.58) jammy; urgency=high
+Checksums-Sha1:
+ 22ccc90dc8a3a7bb62b2f7c697e4f68871bfe791 166244 ros-humble-autoware-utils-system-dbgsym_1.4.0-2025.07.04.18.58_amd64.ddeb
+ c74a2dfec24be28438d0edc2c834055b3aab47eb 15492 ros-humble-autoware-utils-system_1.4.0-2025.07.04.18.58_amd64.buildinfo
+ 2c5eb0f24d11a22aea3f612204580f83288fdc4c 14172 ros-humble-autoware-utils-system_1.4.0-2025.07.04.18.58_amd64.deb
+Checksums-Sha256:
+ 162669e0d85c1cc1c073ec5e2210d1221b7ae65a26c98721b2cce2405d2b6dd8 166244 ros-humble-autoware-utils-system-dbgsym_1.4.0-2025.07.04.18.58_amd64.ddeb
+ ce666af76990d882256182dad3d5294c2ce882c38c04b416fa685ec0e21ff753 15492 ros-humble-autoware-utils-system_1.4.0-2025.07.04.18.58_amd64.buildinfo
+ 17f61ca1fb42a746cad82edecc274258a62ac16ee7995ab1ed730b6d749b5ba9 14172 ros-humble-autoware-utils-system_1.4.0-2025.07.04.18.58_amd64.deb
+Files:
+ fc4f729bd1cf23918ba56c8637978fe8 166244 debug optional ros-humble-autoware-utils-system-dbgsym_1.4.0-2025.07.04.18.58_amd64.ddeb
+ a1cd50fa0459a615678c24fd9c886f34 15492 misc optional ros-humble-autoware-utils-system_1.4.0-2025.07.04.18.58_amd64.buildinfo
+ e862d659ded69fd82b5c377410bcc277 14172 misc optional ros-humble-autoware-utils-system_1.4.0-2025.07.04.18.58_amd64.deb

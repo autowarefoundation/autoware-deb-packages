@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-radar-tracks-msgs-converter
+Binary: ros-humble-autoware-radar-tracks-msgs-converter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.03.11
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Tanaka <satoshi.tanaka@tier4.jp>
+Changed-By: Satoshi Tanaka <satoshi.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-radar-tracks-msgs-converter - autoware_radar_tracks_msgs_converter
+Changes:
+ ros-humble-autoware-radar-tracks-msgs-converter (0-2025.07.05.03.11) jammy; urgency=high
+Checksums-Sha1:
+ ab6f7f7814621c2561ea44235cd80203911492ba 3553496 ros-humble-autoware-radar-tracks-msgs-converter-dbgsym_0-2025.07.05.03.11_amd64.ddeb
+ aacdaee589e99715f68084d1bab41c6ad4f702bc 41492 ros-humble-autoware-radar-tracks-msgs-converter_0-2025.07.05.03.11_amd64.buildinfo
+ c8685cd8d6b9163e4f4d384f083dfd40e46c3a5d 162572 ros-humble-autoware-radar-tracks-msgs-converter_0-2025.07.05.03.11_amd64.deb
+Checksums-Sha256:
+ ae98d2a373fcd5456df793101b6acf76f265aa12579f7bd8d74f84dad7830a13 3553496 ros-humble-autoware-radar-tracks-msgs-converter-dbgsym_0-2025.07.05.03.11_amd64.ddeb
+ 885e9cc8eaf8830c760646f999d70fc3c7b3a31b29772ad4ea09413738ea8280 41492 ros-humble-autoware-radar-tracks-msgs-converter_0-2025.07.05.03.11_amd64.buildinfo
+ 87d9f3d7f4b310684df30ff7a8ed38db1487a4be507c47d353bbca0d649f7e2d 162572 ros-humble-autoware-radar-tracks-msgs-converter_0-2025.07.05.03.11_amd64.deb
+Files:
+ b191c205c90d4b6e89aae2d0ee682802 3553496 debug optional ros-humble-autoware-radar-tracks-msgs-converter-dbgsym_0-2025.07.05.03.11_amd64.ddeb
+ c82bbf6e96b123c9e7622bdb64fde576 41492 misc optional ros-humble-autoware-radar-tracks-msgs-converter_0-2025.07.05.03.11_amd64.buildinfo
+ f8e1a1bdb9f29a9af8ee6198174740f8 162572 misc optional ros-humble-autoware-radar-tracks-msgs-converter_0-2025.07.05.03.11_amd64.deb

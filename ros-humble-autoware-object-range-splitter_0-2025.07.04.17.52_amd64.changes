@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-object-range-splitter
+Binary: ros-humble-autoware-object-range-splitter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.17.52
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-object-range-splitter - The autoware_object_range_splitter package
+Changes:
+ ros-humble-autoware-object-range-splitter (0-2025.07.04.17.52) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * chore(perception): code owner revision (#10358 <https://github.com/autowarefoundation/autoware_universe/issues/10358>)
+     * feat: add Masato Saeki and Taekjin Lee as maintainer to multiple package.xml files
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Ryohsuke Mitsudome, Taekjin LEE
+Checksums-Sha1:
+ 31462c84792edb37c89bc5758164629f15f089d5 2374834 ros-humble-autoware-object-range-splitter-dbgsym_0-2025.07.04.17.52_amd64.ddeb
+ b11d18993589b20769388b7d3f0f6f8db30b246f 16096 ros-humble-autoware-object-range-splitter_0-2025.07.04.17.52_amd64.buildinfo
+ ea936cc01e92752c76e1b006a5ecf43b8f95e032 120708 ros-humble-autoware-object-range-splitter_0-2025.07.04.17.52_amd64.deb
+Checksums-Sha256:
+ cd1f042453879b8ed3e159470d15faeda397ba69306fd52e24a2a4ed4c4350e4 2374834 ros-humble-autoware-object-range-splitter-dbgsym_0-2025.07.04.17.52_amd64.ddeb
+ 0d45d5f2bfd7625607d05c8a22cd29afa3a9b59d54fd8a7280bc034bfa67067b 16096 ros-humble-autoware-object-range-splitter_0-2025.07.04.17.52_amd64.buildinfo
+ 68d391c0c5b014abaad0fbdbb3a1dacdb06a3daa4231611cfef236606a1805e0 120708 ros-humble-autoware-object-range-splitter_0-2025.07.04.17.52_amd64.deb
+Files:
+ 3050924119de9529284521d93f5ebf21 2374834 debug optional ros-humble-autoware-object-range-splitter-dbgsym_0-2025.07.04.17.52_amd64.ddeb
+ cc0e07bf7d6a2510ebab237ab73888e1 16096 misc optional ros-humble-autoware-object-range-splitter_0-2025.07.04.17.52_amd64.buildinfo
+ 25adff057d5210cce94c6aaa80073156 120708 misc optional ros-humble-autoware-object-range-splitter_0-2025.07.04.17.52_amd64.deb

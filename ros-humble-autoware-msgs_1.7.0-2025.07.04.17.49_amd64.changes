@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Mon, 21 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-msgs
+Binary: ros-humble-autoware-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.7.0-2025.07.04.17.49
+Distribution: jammy
+Urgency: high
+Maintainer: M. Fatih Cırıt <mfc@autoware.org>
+Changed-By: M. Fatih Cırıt <mfc@autoware.org>
+Description:
+ ros-humble-autoware-msgs - Meta package for the autoware_msgs packages
+Changes:
+ ros-humble-autoware-msgs (1.7.0-2025.07.04.17.49) jammy; urgency=high
+Checksums-Sha1:
+ 7a581e775c28150cf0c2a71a48ab7a115477870b 9311 ros-humble-autoware-msgs_1.7.0-2025.07.04.17.49_amd64.buildinfo
+ b328604d2ed7271cea9152eb81de14c15d90e591 5292 ros-humble-autoware-msgs_1.7.0-2025.07.04.17.49_amd64.deb
+Checksums-Sha256:
+ 4d3f161d6dabd78843396cf1f579cd859f6a914bc7a6fbe2c316ab3c872f5481 9311 ros-humble-autoware-msgs_1.7.0-2025.07.04.17.49_amd64.buildinfo
+ 816236703d6021cfc09d6a5053755cec316ffcfe00300512106f1a62d03377a6 5292 ros-humble-autoware-msgs_1.7.0-2025.07.04.17.49_amd64.deb
+Files:
+ 76db6808d5966d597e92160ca8b07740 9311 misc optional ros-humble-autoware-msgs_1.7.0-2025.07.04.17.49_amd64.buildinfo
+ ff87624b03dba70bc02b84340b2f1e58 5292 misc optional ros-humble-autoware-msgs_1.7.0-2025.07.04.17.49_amd64.deb

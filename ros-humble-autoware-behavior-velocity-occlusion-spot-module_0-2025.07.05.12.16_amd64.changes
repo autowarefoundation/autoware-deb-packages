@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-occlusion-spot-module
+Binary: ros-humble-autoware-behavior-velocity-occlusion-spot-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.12.16
+Distribution: jammy
+Urgency: high
+Maintainer: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Changed-By: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-occlusion-spot-module - The autoware_behavior_velocity_occlusion_spot_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-occlusion-spot-module (0-2025.07.05.12.16) jammy; urgency=high
+Checksums-Sha1:
+ bb17d8303c98f02c40118e9646286a2e89997087 6183532 ros-humble-autoware-behavior-velocity-occlusion-spot-module-dbgsym_0-2025.07.05.12.16_amd64.ddeb
+ 080fc5134cef67e1e321a57c5dba49a53987ec89 49292 ros-humble-autoware-behavior-velocity-occlusion-spot-module_0-2025.07.05.12.16_amd64.buildinfo
+ 0e46ba88f1ac392283aded07a38e5611cb376de2 139418 ros-humble-autoware-behavior-velocity-occlusion-spot-module_0-2025.07.05.12.16_amd64.deb
+Checksums-Sha256:
+ adc99e709d05d2d970c8b0701625e4456495f070e4aefe236d498e4a2f94b4d8 6183532 ros-humble-autoware-behavior-velocity-occlusion-spot-module-dbgsym_0-2025.07.05.12.16_amd64.ddeb
+ ccd1f133aab38de13932f7f18f7bedf8a14793e29be08c5b864e976a1473f0a9 49292 ros-humble-autoware-behavior-velocity-occlusion-spot-module_0-2025.07.05.12.16_amd64.buildinfo
+ 01cbb31507ef1354c2ef0f0fd0afe7e281699e0683b4d3fff5d29856f8a958d8 139418 ros-humble-autoware-behavior-velocity-occlusion-spot-module_0-2025.07.05.12.16_amd64.deb
+Files:
+ e2fc68b083303f71a2f019fb808d175c 6183532 debug optional ros-humble-autoware-behavior-velocity-occlusion-spot-module-dbgsym_0-2025.07.05.12.16_amd64.ddeb
+ 0592f6407758d21210f3eec8233fb79b 49292 misc optional ros-humble-autoware-behavior-velocity-occlusion-spot-module_0-2025.07.05.12.16_amd64.buildinfo
+ ae2a122bf9b696746dae45e824bb290e 139418 misc optional ros-humble-autoware-behavior-velocity-occlusion-spot-module_0-2025.07.05.12.16_amd64.deb

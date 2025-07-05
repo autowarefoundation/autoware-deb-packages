@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 22 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-utils-math
+Binary: ros-humble-autoware-utils-math
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.4.0-2025.07.04.18.54
+Distribution: jammy
+Urgency: high
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Changed-By: Jian Kang <egon.kang@autocore.ai>
+Description:
+ ros-humble-autoware-utils-math - The autoware_utils_math package
+Changes:
+ ros-humble-autoware-utils-math (1.4.0-2025.07.04.18.54) jammy; urgency=high
+Checksums-Sha1:
+ 99eb0884a0090ceb03cf12e9a31a00f487dd4474 7260 ros-humble-autoware-utils-math-dbgsym_1.4.0-2025.07.04.18.54_amd64.ddeb
+ 1ba5d22562b507de42ae5a512d6b792604d87a41 11158 ros-humble-autoware-utils-math_1.4.0-2025.07.04.18.54_amd64.buildinfo
+ 1b04dfa1f2ba7fafcd21da7a8505737312b4a75f 117624 ros-humble-autoware-utils-math_1.4.0-2025.07.04.18.54_amd64.deb
+Checksums-Sha256:
+ 8a2c69c2e27cce34e00a7765950d30850aaf9f8c53e69b959098fa130154a394 7260 ros-humble-autoware-utils-math-dbgsym_1.4.0-2025.07.04.18.54_amd64.ddeb
+ 90e7977eb6171c68f4797ea22308b3dc04920c81b4931a1d4b8c36c53f1fa646 11158 ros-humble-autoware-utils-math_1.4.0-2025.07.04.18.54_amd64.buildinfo
+ de5c595552faddf855f63dfd8d7d7b6e2b8d12c8bbb4178865d51f2c5f844f98 117624 ros-humble-autoware-utils-math_1.4.0-2025.07.04.18.54_amd64.deb
+Files:
+ 1c80a35847c2fb99fa84d90e0a3ee541 7260 debug optional ros-humble-autoware-utils-math-dbgsym_1.4.0-2025.07.04.18.54_amd64.ddeb
+ 12e26b6000236256bbeda940982a0c63 11158 misc optional ros-humble-autoware-utils-math_1.4.0-2025.07.04.18.54_amd64.buildinfo
+ 978b05c1d9c6f8dba7aee7474a562fef 117624 misc optional ros-humble-autoware-utils-math_1.4.0-2025.07.04.18.54_amd64.deb

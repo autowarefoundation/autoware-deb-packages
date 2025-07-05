@@ -1,0 +1,46 @@
+Format: 1.8
+Date: Tue, 22 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-utils-debug
+Binary: ros-humble-autoware-utils-debug
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.4.0-2025.07.04.21.03
+Distribution: jammy
+Urgency: high
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Changed-By: Jian Kang <egon.kang@autocore.ai>
+Description:
+ ros-humble-autoware-utils-debug - The autoware_utils_debug package
+Changes:
+ ros-humble-autoware-utils-debug (1.4.0-2025.07.04.21.03) jammy; urgency=high
+ .
+   * chore: sync files (#61 <https://github.com/autowarefoundation/autoware_utils/issues/61>)
+     * chore: sync files
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: github-actions <mailto:github-actions@github.com>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * ci(pre-commit): quarterly autoupdate (#60 <https://github.com/autowarefoundation/autoware_utils/issues/60>)
+     * ci(pre-commit): quarterly autoupdate
+     updates:
+     - [github.com/igorshubovych/markdownlint-cli: v0.43.0 → v0.44.0](https://github.com/igorshubovych/markdownlint-cli/compare/v0.43.0...v0.44.0)
+     - [github.com/adrienverge/yamllint: v1.35.1 → v1.37.0](https://github.com/adrienverge/yamllint/compare/v1.35.1...v1.37.0)
+     - [github.com/scop/pre-commit-shfmt: v3.10.0-2 → v3.11.0-1](https://github.com/scop/pre-commit-shfmt/compare/v3.10.0-2...v3.11.0-1)
+     - [github.com/pycqa/isort: 5.13.2 → 6.0.1](https://github.com/pycqa/isort/compare/5.13.2...6.0.1)
+     - [github.com/psf/black: 24.10.0 → 25.1.0](https://github.com/psf/black/compare/24.10.0...25.1.0)
+     - [github.com/pre-commit/mirrors-clang-format: v19.1.6 → v20.1.0](https://github.com/pre-commit/mirrors-clang-format/compare/v19.1.6...v20.1.0)
+     - [github.com/cpplint/cpplint: 2.0.0 → 2.0.1](https://github.com/cpplint/cpplint/compare/2.0.0...2.0.1)
+     - [github.com/python-jsonschema/check-jsonschema: 0.30.0 → 0.32.1](https://github.com/python-jsonschema/check-jsonschema/compare/0.30.0...0.32.1)
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: awf-autoware-bot[bot], pre-commit-ci[bot]
+Checksums-Sha1:
+ b0398c7f9b4c6272d221906968ad1f25482740b1 16027 ros-humble-autoware-utils-debug_1.4.0-2025.07.04.21.03_amd64.buildinfo
+ 0285f8c2af63405f2b5084c63f291289b8821990 415102 ros-humble-autoware-utils-debug_1.4.0-2025.07.04.21.03_amd64.deb
+Checksums-Sha256:
+ bf5d48b291db9202e7354de6094c330ac34cfd2a8d7c51fc2c14300906007a2c 16027 ros-humble-autoware-utils-debug_1.4.0-2025.07.04.21.03_amd64.buildinfo
+ 44a75a79e6cdc73eb5773aaed2b350ae7a41d3e130c78ffce43ebed6713f3bcc 415102 ros-humble-autoware-utils-debug_1.4.0-2025.07.04.21.03_amd64.deb
+Files:
+ c3ccb6fb15193f72183f2d5b1a9b56c2 16027 misc optional ros-humble-autoware-utils-debug_1.4.0-2025.07.04.21.03_amd64.buildinfo
+ 971256feaa68f0b1afe4e277f1e9b96d 415102 misc optional ros-humble-autoware-utils-debug_1.4.0-2025.07.04.21.03_amd64.deb

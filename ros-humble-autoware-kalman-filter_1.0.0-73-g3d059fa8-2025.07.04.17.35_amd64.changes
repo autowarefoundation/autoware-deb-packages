@@ -1,0 +1,47 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-kalman-filter
+Binary: ros-humble-autoware-kalman-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.17.35
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-kalman-filter - The kalman filter package
+Changes:
+ ros-humble-autoware-kalman-filter (1.0.0-73-g3d059fa8-2025.07.04.17.35) jammy; urgency=high
+ .
+   * fix(autoware_kalman_filter): fixed clang-tidy error (#379 <https://github.com/autowarefoundation/autoware_core/issues/379>)
+     * fix(autoware_kalman_filter): fixed clang-tidy error
+     * remove comment
+     ---------
+   * refactor(autoware_kalman_filter): rewrite using modern C++ without API breakage (#346 <https://github.com/autowarefoundation/autoware_core/issues/346>)
+     * refactor using modern c++
+     * remove ctor/dtor
+     * precommit
+     * use eigen methods
+     * Update common/autoware_kalman_filter/include/autoware/kalman_filter/kalman_filter.hpp
+     ---------
+   * chore(autoware_kalman_filter): add maintainer (#381 <https://github.com/autowarefoundation/autoware_core/issues/381>)
+     * chore(autoware_kalman_filter): add maintainer
+     * removed the maintainer with an invalid email address.
+     * added members of the Localization / Mapping team as maintainers.
+     * removed the duplicate entry.
+     * fixed the deletion as the wrong entry was removed
+     ---------
+   * Contributors: RyuYamamoto, Yutaka Kondo
+Checksums-Sha1:
+ ae06b40fdb3e52b181073d3fa9f4be6a56cc2abc 2363822 ros-humble-autoware-kalman-filter-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.17.35_amd64.ddeb
+ 37527b952bd6e16743c72b95cd573ebd05b75d36 11861 ros-humble-autoware-kalman-filter_1.0.0-73-g3d059fa8-2025.07.04.17.35_amd64.buildinfo
+ 1aed66e9312a81df8d6d42e508a5598472c47db7 52222 ros-humble-autoware-kalman-filter_1.0.0-73-g3d059fa8-2025.07.04.17.35_amd64.deb
+Checksums-Sha256:
+ 5e26d7163bf38712e492e085e4a363443b64c1e7230513c163d4cfb02f080d66 2363822 ros-humble-autoware-kalman-filter-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.17.35_amd64.ddeb
+ 6d0a1b04811a9114447e852e6aec02413668f0f22483038aa89372aea65aac95 11861 ros-humble-autoware-kalman-filter_1.0.0-73-g3d059fa8-2025.07.04.17.35_amd64.buildinfo
+ d4fa1a1916e051007e9913a967db3d553708643aec124c45729291ce89278a0f 52222 ros-humble-autoware-kalman-filter_1.0.0-73-g3d059fa8-2025.07.04.17.35_amd64.deb
+Files:
+ af3392f70c40ed6d191aebaf5ccd39f8 2363822 debug optional ros-humble-autoware-kalman-filter-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.17.35_amd64.ddeb
+ 984eaf1fbcae1bfc309548d548347915 11861 misc optional ros-humble-autoware-kalman-filter_1.0.0-73-g3d059fa8-2025.07.04.17.35_amd64.buildinfo
+ 89d47bce97058089b5ff37497cb6fdb6 52222 misc optional ros-humble-autoware-kalman-filter_1.0.0-73-g3d059fa8-2025.07.04.17.35_amd64.deb

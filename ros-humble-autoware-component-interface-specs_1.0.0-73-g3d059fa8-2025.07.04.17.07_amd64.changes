@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-component-interface-specs
+Binary: ros-humble-autoware-component-interface-specs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.17.07
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-component-interface-specs - The autoware_component_interface_specs package
+Changes:
+ ros-humble-autoware-component-interface-specs (1.0.0-73-g3d059fa8-2025.07.04.17.07) jammy; urgency=high
+ .
+   * feat(component_interface_specs): use template type in get_qos function (#364 <https://github.com/autowarefoundation/autoware_core/issues/364>)
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * docs(autoware_component_interface_specs): fix README.md (#363 <https://github.com/autowarefoundation/autoware_core/issues/363>)
+   * Contributors: Takagi, Isamu, Yutaka Kondo
+Checksums-Sha1:
+ a48e861d227b508f6ac5ec478e969af9c6cebbf1 15898 ros-humble-autoware-component-interface-specs_1.0.0-73-g3d059fa8-2025.07.04.17.07_amd64.buildinfo
+ 62f749c6b55a9072d1581f17c2ee8a0d577a2a9b 8574 ros-humble-autoware-component-interface-specs_1.0.0-73-g3d059fa8-2025.07.04.17.07_amd64.deb
+Checksums-Sha256:
+ a8b2c2c1563eeb4b98400254faae3e4bd36271216bb25fc27507af1940368c7e 15898 ros-humble-autoware-component-interface-specs_1.0.0-73-g3d059fa8-2025.07.04.17.07_amd64.buildinfo
+ 67af051dabee8bab704ee21c82d673d78bcc45c26dc238e6a2c6d7f7f693110d 8574 ros-humble-autoware-component-interface-specs_1.0.0-73-g3d059fa8-2025.07.04.17.07_amd64.deb
+Files:
+ ea127ddb0cecc00bdbe85cd381d2c226 15898 misc optional ros-humble-autoware-component-interface-specs_1.0.0-73-g3d059fa8-2025.07.04.17.07_amd64.buildinfo
+ 1f540cd88f39df748837966413452573 8574 misc optional ros-humble-autoware-component-interface-specs_1.0.0-73-g3d059fa8-2025.07.04.17.07_amd64.deb

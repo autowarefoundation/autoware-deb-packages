@@ -1,0 +1,88 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-multi-object-tracker
+Binary: ros-humble-autoware-multi-object-tracker
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.01.39
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-multi-object-tracker - The ROS 2 autoware_multi_object_tracker package
+Changes:
+ ros-humble-autoware-multi-object-tracker (0-2025.07.05.01.39) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat(multi object tracker): tracker overlap threshold (#10456 <https://github.com/autowarefoundation/autoware_universe/issues/10456>)
+     * preparation
+     * feat(autoware_multi_object_tracker): enhance matrix initialization and add debug logging for tracker removal
+     * refactor(autoware_multi_object_tracker): replace vector matrices with Eigen matrices in AssociatorConfig
+     * feat(autoware_multi_object_tracker): integrate max distance matrix for tracker removal logic
+     * refactor(autoware_multi_object_tracker): remove debug logging for tracker removal process
+     * style(pre-commit): autofix
+     * refactor(autoware_multi_object_tracker): remove unused string include in association.cpp
+     * refactor(autoware_multi_object_tracker): remove commented debug logging in association.cpp
+     * refactor(autoware_multi_object_tracker): remove distance_threshold parameter and update related configurations
+     * refactor(multi_object_tracker_node): change Eigen::Map to use const for matrix initialization
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * fix(multi_object_tracker): add required headers (#10461 <https://github.com/autowarefoundation/autoware_universe/issues/10461>)
+   * fix(autoware_multi_object_tracker): fix bicycle renovation vector dimension (#10449 <https://github.com/autowarefoundation/autoware_universe/issues/10449>)
+     fix a bug in updateStatePoseVel
+   * feat(autoware_multi_object_tracker): implement time keeper (#10431 <https://github.com/autowarefoundation/autoware_universe/issues/10431>)
+     * feat(multi_object_tracker): integrate ScopedTimeTrack for detailed processing time tracking
+     * feat(multi_object_tracker): add parameter for detailed processing time publishing
+     ---------
+   * feat(autoware_multi_object_tracker): vehicle's ego frame as a parameter (#10428 <https://github.com/autowarefoundation/autoware_universe/issues/10428>)
+   * feat(multi_object_tracker): add diagnostics warning when extrapolation time exceeds limit with latency guarantee enabled (#10301 <https://github.com/autowarefoundation/autoware_universe/issues/10301>)
+     * feat(multi_object_tracker): add diagnostics warning when extrapolation time exceeds limit with latency guarantee enabled
+     * feat(multi_object_tracker): handled  the case last_updated_time_ initialized as 0
+     * feat(multi_object_tracker): refactored to give better structure
+     diagnostic force updated when published
+     * style(pre-commit): autofix
+     * feat(multi_object_tracker): add published tracker count check
+     * style(pre-commit): autofix
+     * feat(multi_object_tracker): fix checkAllTiming  complexity
+     * style(pre-commit): autofix
+     * feat(multi_object_tracker): check consecutive warning duration
+     * style(pre-commit): autofix
+     * feat(multi_object_tracker): diag messages updated
+     * feat(multi_object_tracker): diag messages updated
+     * style(pre-commit): autofix
+     * style(pre-commit): autofix
+     * feat(multi_object_tracker): messages fix
+     ---------
+     Co-authored-by: lei.gu <mailto:lei.gu@tier4.jp>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * feat(autoware_multi_object_tracker): update overlapped tracker removing process in multi obj tracker  (#10347 <https://github.com/autowarefoundation/autoware_universe/issues/10347>)
+     Update overlapped tracker removing process
+     Co-authored-by: Taekjin LEE <mailto:taekjin.lee@tier4.jp>
+   * feat(autoware_multi_object_tracker): selective update per channel (#10277 <https://github.com/autowarefoundation/autoware_universe/issues/10277>)
+     * refactor(bicycle_motion_model): implement exponential decay for slip angle in state prediction
+     * Revert "refactor(multi_object_tracker): simplify input channel configuration by removing trust flags and consolidating parameters"
+     This reverts commit c5155ef2e978b411955ace35f412bbf76c96f354.
+     * refactor(multi_object_tracker): update measure function signatures to include InputChannel parameter
+     * refactor(multi_object_tracker): add updateStatePoseVel method to BicycleMotionModel and update measurement logic in VehicleTracker
+     * refactor(multi_object_tracker): update measureWithPose method to include InputChannel parameter and adjust related logic
+     * refactor(multi_object_tracker): remove BicycleTracker and update references to use VehicleTracker
+     * refactor(bicycle_tracker): add tracking_offset to adjust object position based on motion model
+     * refactor(multi_object_tracker): remove BicycleTracker and replace with VehicleTracker in relevant classes
+     * refactor(input_channels): disable trust flags for extension and orientation in radar configurations
+     * refactor(input_channels): restructure flags for input channel properties
+     * refactor(input_channels): remove 'flags' from required properties in schema
+     ---------
+   * Contributors: Amadeusz Szymko, Ryohsuke Mitsudome, TadaKazuto, Taekjin LEE, Takagi, Isamu, lei.gu
+Checksums-Sha1:
+ 7bffe44a50e5b3cf5e9d19545f648fe826bb1e14 14936316 ros-humble-autoware-multi-object-tracker-dbgsym_0-2025.07.05.01.39_amd64.ddeb
+ ca70789bad57cbfd6bbd4df110f5377669d6cb4d 41705 ros-humble-autoware-multi-object-tracker_0-2025.07.05.01.39_amd64.buildinfo
+ 785ee8ef421b8838b440890e4f03eaa8fad7cd49 411388 ros-humble-autoware-multi-object-tracker_0-2025.07.05.01.39_amd64.deb
+Checksums-Sha256:
+ 755d7c7616c2946e3cf6286825c894ed80d02453c3512927e693f20dea1585c4 14936316 ros-humble-autoware-multi-object-tracker-dbgsym_0-2025.07.05.01.39_amd64.ddeb
+ 67c576ea0fffc1271faba38264962acb88f55fa0e4a19d68886513175b243da8 41705 ros-humble-autoware-multi-object-tracker_0-2025.07.05.01.39_amd64.buildinfo
+ 9cc89ee8c4cbcad367b9b0764f5055af3c669a77164bce1d0b6962180d74b140 411388 ros-humble-autoware-multi-object-tracker_0-2025.07.05.01.39_amd64.deb
+Files:
+ 83a70466d2e2ed6d666b12b142d5a126 14936316 debug optional ros-humble-autoware-multi-object-tracker-dbgsym_0-2025.07.05.01.39_amd64.ddeb
+ 1fae1a31f2c9b315a72b000198428f3c 41705 misc optional ros-humble-autoware-multi-object-tracker_0-2025.07.05.01.39_amd64.buildinfo
+ ff63f7c49a9e536ed09f1942caff50cf 411388 misc optional ros-humble-autoware-multi-object-tracker_0-2025.07.05.01.39_amd64.deb

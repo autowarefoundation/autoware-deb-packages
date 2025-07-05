@@ -1,0 +1,91 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-motion-velocity-out-of-lane-module
+Binary: ros-humble-autoware-motion-velocity-out-of-lane-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.15.25
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime Clement <maxime.clement@tier4.jp>
+Changed-By: Maxime Clement <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-motion-velocity-out-of-lane-module - The motion_velocity_out_of_lane_module package
+Changes:
+ ros-humble-autoware-motion-velocity-out-of-lane-module (0-2025.07.05.15.25) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat(out_of_lane): implement min duration to activate stop action (#10448 <https://github.com/autowarefoundation/autoware_universe/issues/10448>)
+     * chore(sync-files.yaml): not synchronize github-release.yaml (#1776 <https://github.com/autowarefoundation/autoware_universe/issues/1776>)
+     not sync github-release
+     * chore(sync-files.yaml): not synchronize github-release.yaml (#1776 <https://github.com/autowarefoundation/autoware_universe/issues/1776>)
+     not sync github-release
+     * maintain a buffer of slowdown poses and use nearest one
+     * fix duration check condition
+     * implement stop pose activation time buffer
+     * refactor code to avoid reduce loops
+     * fix logic
+     * use different ttc threshold value once stop decision is made
+     * rename parameter
+     * Revert "chore(sync-files.yaml): not synchronize github-release.yaml (#1776 <https://github.com/autowarefoundation/autoware_universe/issues/1776>)"
+     This reverts commit 871a8540ade845c7c9a193029d407b411a4d685b.
+     * Revert "chore(sync-files.yaml): not synchronize github-release.yaml (#1776 <https://github.com/autowarefoundation/autoware_universe/issues/1776>)"
+     This reverts commit 871a8540ade845c7c9a193029d407b411a4d685b.
+     * fix logic to get nearest slowdown pose
+     * fix merge errors
+     * chore(sync-files.yaml): not synchronize github-release.yaml (#1776 <https://github.com/autowarefoundation/autoware_universe/issues/1776>)
+     not sync github-release
+     * maintain a buffer of slowdown poses and use nearest one
+     * fix duration check condition
+     * rename parameter
+     * Revert "chore(sync-files.yaml): not synchronize github-release.yaml (#1776 <https://github.com/autowarefoundation/autoware_universe/issues/1776>)"
+     This reverts commit 871a8540ade845c7c9a193029d407b411a4d685b.
+     * fix logic to get nearest slowdown pose
+     * initialize struct member
+     * remove obsolete lanelet selection logic
+     * chore(sync-files.yaml): not synchronize github-release.yaml (#1776 <https://github.com/autowarefoundation/autoware_universe/issues/1776>)
+     not sync github-release
+     * use different ttc threshold value once stop decision is made
+     * fix format
+     * Revert "chore(sync-files.yaml): not synchronize github-release.yaml (#1776 <https://github.com/autowarefoundation/autoware_universe/issues/1776>)"
+     This reverts commit 871a8540ade845c7c9a193029d407b411a4d685b.
+     * fix spelling
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+     Co-authored-by: GitHub Action <mailto:action@github.com>
+   * feat(out_of_lane): add ttc threshold for releasing stop decision (#10447 <https://github.com/autowarefoundation/autoware_universe/issues/10447>)
+     * chore(sync-files.yaml): not synchronize github-release.yaml (#1776 <https://github.com/autowarefoundation/autoware_universe/issues/1776>)
+     not sync github-release
+     * use different ttc threshold value once stop decision is made
+     * fix format
+     * Revert "chore(sync-files.yaml): not synchronize github-release.yaml (#1776 <https://github.com/autowarefoundation/autoware_universe/issues/1776>)"
+     This reverts commit 871a8540ade845c7c9a193029d407b411a4d685b.
+     * fix spelling
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * feat(out_of_lane): revise logic for using previous stop pose (#10446 <https://github.com/autowarefoundation/autoware_universe/issues/10446>)
+     * chore(sync-files.yaml): not synchronize github-release.yaml (#1776 <https://github.com/autowarefoundation/autoware_universe/issues/1776>)
+     not sync github-release
+     * maintain a buffer of slowdown poses and use nearest one
+     * fix duration check condition
+     * rename parameter
+     * Revert "chore(sync-files.yaml): not synchronize github-release.yaml (#1776 <https://github.com/autowarefoundation/autoware_universe/issues/1776>)"
+     This reverts commit 871a8540ade845c7c9a193029d407b411a4d685b.
+     * fix logic to get nearest slowdown pose
+     * initialize struct member
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * chore(motion_velocity_planner): move common and node packages to core (#10367 <https://github.com/autowarefoundation/autoware_universe/issues/10367>)
+   * Contributors: Maxime CLEMENT, Ryohsuke Mitsudome, mkquda
+Checksums-Sha1:
+ 8d89fe0d60add75d0b796ff49fe1b08d19f04a73 11828146 ros-humble-autoware-motion-velocity-out-of-lane-module-dbgsym_0-2025.07.05.15.25_amd64.ddeb
+ 15afada4228a5628f158943198565aa027ddb40d 45009 ros-humble-autoware-motion-velocity-out-of-lane-module_0-2025.07.05.15.25_amd64.buildinfo
+ 1e0f32a83e54fd4151d0aab33daf51e12c5abc99 337980 ros-humble-autoware-motion-velocity-out-of-lane-module_0-2025.07.05.15.25_amd64.deb
+Checksums-Sha256:
+ e318f22f8b79a41dd3c41a9726f7a8782da9da126ab4c846b532afe9ffaf18af 11828146 ros-humble-autoware-motion-velocity-out-of-lane-module-dbgsym_0-2025.07.05.15.25_amd64.ddeb
+ db1cca3c5c390cd494ee7472f8768fcaf058691ccc0630123621bdbedde6e800 45009 ros-humble-autoware-motion-velocity-out-of-lane-module_0-2025.07.05.15.25_amd64.buildinfo
+ 15ef8f475cea9d83fa7f09d9e600ee54c4ff6fa38667776536474d28616ba511 337980 ros-humble-autoware-motion-velocity-out-of-lane-module_0-2025.07.05.15.25_amd64.deb
+Files:
+ 7cb6575da4fc0673d2b26200219603ac 11828146 debug optional ros-humble-autoware-motion-velocity-out-of-lane-module-dbgsym_0-2025.07.05.15.25_amd64.ddeb
+ 405db942f55b9dcda7e446d6fbbfd23c 45009 misc optional ros-humble-autoware-motion-velocity-out-of-lane-module_0-2025.07.05.15.25_amd64.buildinfo
+ c5f93de6a01afa051ce609f40ed26d83 337980 misc optional ros-humble-autoware-motion-velocity-out-of-lane-module_0-2025.07.05.15.25_amd64.deb

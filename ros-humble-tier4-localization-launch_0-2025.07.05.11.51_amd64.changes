@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-tier4-localization-launch
+Binary: ros-humble-tier4-localization-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.11.51
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-tier4-localization-launch - The tier4_localization_launch package
+Changes:
+ ros-humble-tier4-localization-launch (0-2025.07.05.11.51) jammy; urgency=high
+Checksums-Sha1:
+ a8c76b515788673abd35bac2a04e02f36a8fd87e 10758 ros-humble-tier4-localization-launch_0-2025.07.05.11.51_amd64.buildinfo
+ 14a329e9859eeded2777c1c4961c6ec3374f68cb 26716 ros-humble-tier4-localization-launch_0-2025.07.05.11.51_amd64.deb
+Checksums-Sha256:
+ a7752df16a08cab2b8838bfcfce83ff5b43679c53cc4da3f8e2b3a4e7f947021 10758 ros-humble-tier4-localization-launch_0-2025.07.05.11.51_amd64.buildinfo
+ 8fa9a316f54c5efa5eac9be6c9637f359a553ab54e56078941188e2d2b3a827a 26716 ros-humble-tier4-localization-launch_0-2025.07.05.11.51_amd64.deb
+Files:
+ c2272df3e3c5be99d2ededd59df65dd1 10758 misc optional ros-humble-tier4-localization-launch_0-2025.07.05.11.51_amd64.buildinfo
+ f06bad7684e9b5c7137007b64f1243f3 26716 misc optional ros-humble-tier4-localization-launch_0-2025.07.05.11.51_amd64.deb

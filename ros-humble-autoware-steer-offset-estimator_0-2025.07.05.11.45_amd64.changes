@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-steer-offset-estimator
+Binary: ros-humble-autoware-steer-offset-estimator
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.11.45
+Distribution: jammy
+Urgency: high
+Maintainer: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Changed-By: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Description:
+ ros-humble-autoware-steer-offset-estimator - The steer_offset_estimator
+Changes:
+ ros-humble-autoware-steer-offset-estimator (0-2025.07.05.11.45) jammy; urgency=high
+Checksums-Sha1:
+ f38b318020d83cb16f25615b1fb8ca9e49a5b3ec 3431666 ros-humble-autoware-steer-offset-estimator-dbgsym_0-2025.07.05.11.45_amd64.ddeb
+ 6d7d6454b3c6e787ab0bc87761e0098d0a509a67 41532 ros-humble-autoware-steer-offset-estimator_0-2025.07.05.11.45_amd64.buildinfo
+ ef32a1027c3d4747e41be1a0ed2527b9a1c624de 162664 ros-humble-autoware-steer-offset-estimator_0-2025.07.05.11.45_amd64.deb
+Checksums-Sha256:
+ 7973330309bee6950214f58fb70fc36a6819ee7cdeae7f337c603b6c98075be8 3431666 ros-humble-autoware-steer-offset-estimator-dbgsym_0-2025.07.05.11.45_amd64.ddeb
+ ac74b0193dd7fe2d2460815849029a1a8df23b48171aeb9defafff54c630d887 41532 ros-humble-autoware-steer-offset-estimator_0-2025.07.05.11.45_amd64.buildinfo
+ 0c7354f73a508f4900406c0f0c39094a87f8f3953efdd699fc2d0feddc1e00ac 162664 ros-humble-autoware-steer-offset-estimator_0-2025.07.05.11.45_amd64.deb
+Files:
+ 09c9e4eaf61336997e2c44aed8e7c91f 3431666 debug optional ros-humble-autoware-steer-offset-estimator-dbgsym_0-2025.07.05.11.45_amd64.ddeb
+ 2f1091e470e387d4a8717d9bbada4002 41532 misc optional ros-humble-autoware-steer-offset-estimator_0-2025.07.05.11.45_amd64.buildinfo
+ f9ac31b8eb67166557db17269794af8c 162664 misc optional ros-humble-autoware-steer-offset-estimator_0-2025.07.05.11.45_amd64.deb

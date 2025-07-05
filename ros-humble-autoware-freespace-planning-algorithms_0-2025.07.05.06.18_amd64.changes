@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-freespace-planning-algorithms
+Binary: ros-humble-autoware-freespace-planning-algorithms
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.06.18
+Distribution: jammy
+Urgency: high
+Maintainer: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Changed-By: Kosuke Takeuchi <kosuke.takeuchi@tier4.jp>
+Description:
+ ros-humble-autoware-freespace-planning-algorithms - The autoware_freespace_planning_algorithms package
+Changes:
+ ros-humble-autoware-freespace-planning-algorithms (0-2025.07.05.06.18) jammy; urgency=high
+Checksums-Sha1:
+ ad8f478190a3d7fa4f5ddb20ab0ae4927111a268 1300870 ros-humble-autoware-freespace-planning-algorithms-dbgsym_0-2025.07.05.06.18_amd64.ddeb
+ 0b179ca0bff48b469ea5080bd9a762601e67fc3f 42039 ros-humble-autoware-freespace-planning-algorithms_0-2025.07.05.06.18_amd64.buildinfo
+ 94b0cfddf1b7b2a59c323bf7588e740f481faed6 167236 ros-humble-autoware-freespace-planning-algorithms_0-2025.07.05.06.18_amd64.deb
+Checksums-Sha256:
+ dd442d4cde25751726911bd7200b1b8d1847b4d98537f482a7a4c6c089a5a55a 1300870 ros-humble-autoware-freespace-planning-algorithms-dbgsym_0-2025.07.05.06.18_amd64.ddeb
+ 8f64bb93d725dfa798735067b7f68421fb9d587cbe48df5ddfe7d0a13a2429de 42039 ros-humble-autoware-freespace-planning-algorithms_0-2025.07.05.06.18_amd64.buildinfo
+ 477e049ba90a4f57633cbe4058a29506ee22b903d415b92723201caff724a2a0 167236 ros-humble-autoware-freespace-planning-algorithms_0-2025.07.05.06.18_amd64.deb
+Files:
+ 42ecbb0c3bbd149859c95414d5414417 1300870 debug optional ros-humble-autoware-freespace-planning-algorithms-dbgsym_0-2025.07.05.06.18_amd64.ddeb
+ 630f6048ebbcaea30b5f39fcddccffa1 42039 misc optional ros-humble-autoware-freespace-planning-algorithms_0-2025.07.05.06.18_amd64.buildinfo
+ 9c1b58b616352896aa290f89a30017e4 167236 misc optional ros-humble-autoware-freespace-planning-algorithms_0-2025.07.05.06.18_amd64.deb

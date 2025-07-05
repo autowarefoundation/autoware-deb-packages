@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Tue, 22 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-utils-rclcpp
+Binary: ros-humble-autoware-utils-rclcpp
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.4.0-2025.07.04.18.56
+Distribution: jammy
+Urgency: high
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Changed-By: Jian Kang <egon.kang@autocore.ai>
+Description:
+ ros-humble-autoware-utils-rclcpp - The autoware_utils_rclcpp package
+Changes:
+ ros-humble-autoware-utils-rclcpp (1.4.0-2025.07.04.18.56) jammy; urgency=high
+Checksums-Sha1:
+ f1652adb87d4ae27331e6686c87668597c02b0a5 15064 ros-humble-autoware-utils-rclcpp_1.4.0-2025.07.04.18.56_amd64.buildinfo
+ 56ed84c99226b09f5cc61a2b7ed0c5830a809743 8896 ros-humble-autoware-utils-rclcpp_1.4.0-2025.07.04.18.56_amd64.deb
+Checksums-Sha256:
+ 5bcc430f6af906f183aa89a231ecd005b6bb3f0f752b33d69199da5611d879c9 15064 ros-humble-autoware-utils-rclcpp_1.4.0-2025.07.04.18.56_amd64.buildinfo
+ 578aabf373a10aaaeffc2f8619796ee7f144471f7645d161c0d49b7b048b4510 8896 ros-humble-autoware-utils-rclcpp_1.4.0-2025.07.04.18.56_amd64.deb
+Files:
+ ff02da67453c32020ccd7ed0d627d75c 15064 misc optional ros-humble-autoware-utils-rclcpp_1.4.0-2025.07.04.18.56_amd64.buildinfo
+ ad37da19ed7f31464931bde770ada3e2 8896 misc optional ros-humble-autoware-utils-rclcpp_1.4.0-2025.07.04.18.56_amd64.deb

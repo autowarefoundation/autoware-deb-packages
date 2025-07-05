@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-tier4-traffic-light-rviz-plugin
+Binary: ros-humble-tier4-traffic-light-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.21.38
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi OTA <satoshi.ota@tier4.jp>
+Changed-By: Satoshi OTA <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-tier4-traffic-light-rviz-plugin - The autoware state rviz plugin package
+Changes:
+ ros-humble-tier4-traffic-light-rviz-plugin (0-2025.07.04.21.38) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * fix(build_depends_humble.repos): update autoware_cmake to address #10410 <https://github.com/autowarefoundation/autoware_universe/issues/10410> (#10416 <https://github.com/autowarefoundation/autoware_universe/issues/10416>)
+     * remove todo
+     * update autoware_cmake
+     ---------
+   * Contributors: Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ db217cbe128c3315cfe44dcb180c06769fa2f122 3324436 ros-humble-tier4-traffic-light-rviz-plugin-dbgsym_0-2025.07.04.21.38_amd64.ddeb
+ 9c2c762ce353a56f7a8402f62d3bc8ff06c56e7f 30988 ros-humble-tier4-traffic-light-rviz-plugin_0-2025.07.04.21.38_amd64.buildinfo
+ a7f99e8c2e13e570bfcf6f044d54726e2380b5bc 142214 ros-humble-tier4-traffic-light-rviz-plugin_0-2025.07.04.21.38_amd64.deb
+Checksums-Sha256:
+ c8ad74a8dc2994c696056e0c1da1cc8e97c8dfcc708e43c6529b4b6b7b230a63 3324436 ros-humble-tier4-traffic-light-rviz-plugin-dbgsym_0-2025.07.04.21.38_amd64.ddeb
+ ca1ad0e29567c27650086bc4835dd35e24fca1d4de1512cd123c9074beb17baa 30988 ros-humble-tier4-traffic-light-rviz-plugin_0-2025.07.04.21.38_amd64.buildinfo
+ 7aaeca667410a2dfd066e1bc380f2436b9fdc05464bc565f1be250a26c8adf1b 142214 ros-humble-tier4-traffic-light-rviz-plugin_0-2025.07.04.21.38_amd64.deb
+Files:
+ f23deef2d4c2eab347d7c1ca9315c236 3324436 debug optional ros-humble-tier4-traffic-light-rviz-plugin-dbgsym_0-2025.07.04.21.38_amd64.ddeb
+ c41679083f5d317c80f940e6f95e4673 30988 misc optional ros-humble-tier4-traffic-light-rviz-plugin_0-2025.07.04.21.38_amd64.buildinfo
+ c6334cc9b2aed286eae21d546a5e6117 142214 misc optional ros-humble-tier4-traffic-light-rviz-plugin_0-2025.07.04.21.38_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-stop-filter
+Binary: ros-humble-autoware-stop-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.18.36
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-stop-filter - The stop filter package
+Changes:
+ ros-humble-autoware-stop-filter (1.0.0-73-g3d059fa8-2025.07.04.18.36) jammy; urgency=high
+Checksums-Sha1:
+ e91ef3ceb369d67a2d88f9ee431358a3144809f3 2424130 ros-humble-autoware-stop-filter-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.18.36_amd64.ddeb
+ c3db890176198bb9a0832b581c714c9133e69823 16168 ros-humble-autoware-stop-filter_1.0.0-73-g3d059fa8-2025.07.04.18.36_amd64.buildinfo
+ 3293f5025af018124a56cadfc66400238e02cfe9 123278 ros-humble-autoware-stop-filter_1.0.0-73-g3d059fa8-2025.07.04.18.36_amd64.deb
+Checksums-Sha256:
+ e0e5d962213c66f684e7ec29dcfcc303fa1030b7baabb0027d24620d5901d078 2424130 ros-humble-autoware-stop-filter-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.18.36_amd64.ddeb
+ 310cef10c05e5cf9e7e0fc2a7f02da4678e2ce2c54f5f6924dba54ef705e8421 16168 ros-humble-autoware-stop-filter_1.0.0-73-g3d059fa8-2025.07.04.18.36_amd64.buildinfo
+ 209f1bb99cb07392b099dc12b8ca2eb00729fd00878f170f685af38501666f55 123278 ros-humble-autoware-stop-filter_1.0.0-73-g3d059fa8-2025.07.04.18.36_amd64.deb
+Files:
+ a6a6eebead923cb1a7b0d1c1aea16b5e 2424130 debug optional ros-humble-autoware-stop-filter-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.18.36_amd64.ddeb
+ e338ce257d5f28cf0e250c81231fb0c9 16168 misc optional ros-humble-autoware-stop-filter_1.0.0-73-g3d059fa8-2025.07.04.18.36_amd64.buildinfo
+ d1841e96c379b781394661707789d451 123278 misc optional ros-humble-autoware-stop-filter_1.0.0-73-g3d059fa8-2025.07.04.18.36_amd64.deb

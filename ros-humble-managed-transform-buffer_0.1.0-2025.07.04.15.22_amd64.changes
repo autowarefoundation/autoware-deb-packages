@@ -1,0 +1,71 @@
+Format: 1.8
+Date: Thu, 10 Apr 2025 00:00:00 -0000
+Source: ros-humble-managed-transform-buffer
+Binary: ros-humble-managed-transform-buffer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.1.0-2025.07.04.15.22
+Distribution: jammy
+Urgency: high
+Maintainer: Amadeusz Szymko <amadeusz.szymko.2@tier4.jp>
+Changed-By: Amadeusz Szymko <amadeusz.szymko.2@tier4.jp>
+Description:
+ ros-humble-managed-transform-buffer - The managed_transform_buffer package
+Changes:
+ ros-humble-managed-transform-buffer (0.1.0-2025.07.04.15.22) jammy; urgency=high
+ .
+   * fix: simplified get transform handling  (#18 <https://github.com/autowarefoundation/ManagedTransformBuffer/issues/18>)
+     * fix: sync for get_transfrom function redefinition
+     * style: use camel case
+     * style: remove redundant cast
+     * style: snake case for logger name
+     * style: destructor definition in header
+     * style: remove unused ptr declaration
+     * style: snake case for lambda function
+     * style: keep provider as ref
+     * fix: simplified get transform handling
+     * style: improve error logging
+     * fix: empty input cloud is not an error
+     * fix: empty input cloud is not an error (2)
+     ---------
+   * feat: assign requested stamp for static transforms (#16 <https://github.com/autowarefoundation/ManagedTransformBuffer/issues/16>)
+   * perf: stop appending TF tree if already dynamic listener & fix logging (#13 <https://github.com/autowarefoundation/ManagedTransformBuffer/issues/13>)
+   * feat: extend API with PCL point clouds & eigen matrix and affine transformation (#12 <https://github.com/autowarefoundation/ManagedTransformBuffer/issues/12>)
+   * feat: remove unnecessary async calls (#11 <https://github.com/autowarefoundation/ManagedTransformBuffer/issues/11>)
+   * feat: rework mutexes (#10 <https://github.com/autowarefoundation/ManagedTransformBuffer/issues/10>)
+   * feat: const func & fix typos (#9 <https://github.com/autowarefoundation/ManagedTransformBuffer/issues/9>)
+   * [pre-commit.ci] pre-commit autoupdate (#8 <https://github.com/autowarefoundation/ManagedTransformBuffer/issues/8>)
+     * [pre-commit.ci] pre-commit autoupdate
+     updates:
+     - [github.com/pre-commit/pre-commit-hooks: v4.6.0 → v5.0.0](https://github.com/pre-commit/pre-commit-hooks/compare/v4.6.0...v5.0.0)
+     - [github.com/igorshubovych/markdownlint-cli: v0.41.0 → v0.44.0](https://github.com/igorshubovych/markdownlint-cli/compare/v0.41.0...v0.44.0)
+     - [github.com/scop/pre-commit-shfmt: v3.9.0-1 → v3.10.0-2](https://github.com/scop/pre-commit-shfmt/compare/v3.9.0-1...v3.10.0-2)
+     - [github.com/pycqa/isort: 5.13.2 → 6.0.1](https://github.com/pycqa/isort/compare/5.13.2...6.0.1)
+     - [github.com/psf/black: 24.8.0 → 25.1.0](https://github.com/psf/black/compare/24.8.0...25.1.0)
+     - [github.com/pre-commit/mirrors-clang-format: v18.1.8 → v19.1.7](https://github.com/pre-commit/mirrors-clang-format/compare/v18.1.8...v19.1.7)
+     - [github.com/cpplint/cpplint: 1.6.1 → 2.0.0](https://github.com/cpplint/cpplint/compare/1.6.1...2.0.0)
+     - [github.com/python-jsonschema/check-jsonschema: 0.29.2 → 0.31.2](https://github.com/python-jsonschema/check-jsonschema/compare/0.29.2...0.31.2)
+     * style: add missing headers
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Amadeusz Szymko <mailto:amadeusz.szymko.2@tier4.jp>
+   * feat: rework constructor, expand API, improve logging, fix sync (#7 <https://github.com/autowarefoundation/ManagedTransformBuffer/issues/7>)
+   * perf: use single TF listener & add singleton (#5 <https://github.com/autowarefoundation/ManagedTransformBuffer/issues/5>)
+     * feat: reduce impl to single temp listener
+     * feat: use singleton pattern
+     * fix: typo
+     ---------
+   * init commit
+   * Contributors: Amadeusz Szymko, pre-commit-ci[bot]
+Checksums-Sha1:
+ 06ac98412c974c303c1967d2316ecdf1126fb391 3242558 ros-humble-managed-transform-buffer-dbgsym_0.1.0-2025.07.04.15.22_amd64.ddeb
+ 7334703c6d6c84e430fa62dac13a42cb1aa16ceb 38737 ros-humble-managed-transform-buffer_0.1.0-2025.07.04.15.22_amd64.buildinfo
+ f76395af92e99d4ecbeca009d9e0f1c1d88e9bb2 150452 ros-humble-managed-transform-buffer_0.1.0-2025.07.04.15.22_amd64.deb
+Checksums-Sha256:
+ b96e9b1846edb1233a4bd1422486a47a84e3ad6a4f87ca13261e2357ede1c5a7 3242558 ros-humble-managed-transform-buffer-dbgsym_0.1.0-2025.07.04.15.22_amd64.ddeb
+ 76444104473cbca99ceafab9c16e7d7ce5815496e4875248555a090b497d3216 38737 ros-humble-managed-transform-buffer_0.1.0-2025.07.04.15.22_amd64.buildinfo
+ 498bc8d7a48f1a2859ab0936ad39986e679b09716b7a02d22f56d58c77ee81c6 150452 ros-humble-managed-transform-buffer_0.1.0-2025.07.04.15.22_amd64.deb
+Files:
+ f9af44135fda9d887a6e7aaec52903a5 3242558 debug optional ros-humble-managed-transform-buffer-dbgsym_0.1.0-2025.07.04.15.22_amd64.ddeb
+ 3bfa40f9b4da26dfd0a56e4c82a19e8c 38737 misc optional ros-humble-managed-transform-buffer_0.1.0-2025.07.04.15.22_amd64.buildinfo
+ 7939bccef972ca6eb185726ddbd78afb 150452 misc optional ros-humble-managed-transform-buffer_0.1.0-2025.07.04.15.22_amd64.deb

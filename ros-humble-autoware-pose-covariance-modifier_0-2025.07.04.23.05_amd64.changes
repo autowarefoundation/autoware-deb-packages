@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-pose-covariance-modifier
+Binary: ros-humble-autoware-pose-covariance-modifier
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.23.05
+Distribution: jammy
+Urgency: high
+Maintainer: Melike Tanrikulu <melike@leodrive.ai>
+Changed-By: Melike Tanrikulu <melike@leodrive.ai>
+Description:
+ ros-humble-autoware-pose-covariance-modifier - Add a description.
+Changes:
+ ros-humble-autoware-pose-covariance-modifier (0-2025.07.04.23.05) jammy; urgency=high
+Checksums-Sha1:
+ fbf3470ff92a27643d8e0ab146ec8b6009c66b08 2578956 ros-humble-autoware-pose-covariance-modifier-dbgsym_0-2025.07.04.23.05_amd64.ddeb
+ 11ef198836ac1800ffe43612a10e1f6a36948dd7 17178 ros-humble-autoware-pose-covariance-modifier_0-2025.07.04.23.05_amd64.buildinfo
+ 2687efb345543cad4ebd1422d157750c96039e92 136402 ros-humble-autoware-pose-covariance-modifier_0-2025.07.04.23.05_amd64.deb
+Checksums-Sha256:
+ 4b0097ae9c546cc96d52e7982e10293d456370141fc93c345406ffdf3f391965 2578956 ros-humble-autoware-pose-covariance-modifier-dbgsym_0-2025.07.04.23.05_amd64.ddeb
+ 824b2f1debb7e103f2cb4f959a9ebd3e00233489a5da4aa2770a9bbbf1254da1 17178 ros-humble-autoware-pose-covariance-modifier_0-2025.07.04.23.05_amd64.buildinfo
+ 83a43e216994119407292ec93aaf9fcd55cec39763963e18a8ea956d14c581b3 136402 ros-humble-autoware-pose-covariance-modifier_0-2025.07.04.23.05_amd64.deb
+Files:
+ c0ed10c93e112e519779122c5d30795a 2578956 debug optional ros-humble-autoware-pose-covariance-modifier-dbgsym_0-2025.07.04.23.05_amd64.ddeb
+ 878f25d918d5459bdc4bea7551056af2 17178 misc optional ros-humble-autoware-pose-covariance-modifier_0-2025.07.04.23.05_amd64.buildinfo
+ 3037e861433e35b7c80f81315a3282b3 136402 misc optional ros-humble-autoware-pose-covariance-modifier_0-2025.07.04.23.05_amd64.deb

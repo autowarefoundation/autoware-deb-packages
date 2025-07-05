@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-velodyne-monitor
+Binary: ros-humble-autoware-velodyne-monitor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.19.08
+Distribution: jammy
+Urgency: high
+Maintainer: Fumihito Ito <fumihito.ito@tier4.jp>
+Changed-By: Fumihito Ito <fumihito.ito@tier4.jp>
+Description:
+ ros-humble-autoware-velodyne-monitor - The autoware_velodyne_monitor package
+Changes:
+ ros-humble-autoware-velodyne-monitor (0-2025.07.04.19.08) jammy; urgency=high
+Checksums-Sha1:
+ 000e1df9e98bf8684334daf4cc1570cc2ba9a909 2388570 ros-humble-autoware-velodyne-monitor-dbgsym_0-2025.07.04.19.08_amd64.ddeb
+ d30c4f15c5c0e551bae7cbfc8750fff6520d047d 17849 ros-humble-autoware-velodyne-monitor_0-2025.07.04.19.08_amd64.buildinfo
+ f57eeb8cb3231fcbe3277b461db421e63f8969b0 135802 ros-humble-autoware-velodyne-monitor_0-2025.07.04.19.08_amd64.deb
+Checksums-Sha256:
+ 14ab2e266789101ffd4c00c684fc104ea6ff5d9059c5430b2785d778f8049696 2388570 ros-humble-autoware-velodyne-monitor-dbgsym_0-2025.07.04.19.08_amd64.ddeb
+ 15c6ec0317dab3f27fdfcaabfe8d3a126e2e0f49f2eafc436b556daf2747e4cb 17849 ros-humble-autoware-velodyne-monitor_0-2025.07.04.19.08_amd64.buildinfo
+ 9bbbbb6f7a60cd8ba78abbaeb4a6462f75f44b96ec255eedb64cab536f0c909e 135802 ros-humble-autoware-velodyne-monitor_0-2025.07.04.19.08_amd64.deb
+Files:
+ 97ce839b29d403664e99854aa8cdda7e 2388570 debug optional ros-humble-autoware-velodyne-monitor-dbgsym_0-2025.07.04.19.08_amd64.ddeb
+ a8130e25e6003e550d25bcae013bb9cf 17849 misc optional ros-humble-autoware-velodyne-monitor_0-2025.07.04.19.08_amd64.buildinfo
+ 4a5c50e11eeba3a31db95fcf22dc63d1 135802 misc optional ros-humble-autoware-velodyne-monitor_0-2025.07.04.19.08_amd64.deb

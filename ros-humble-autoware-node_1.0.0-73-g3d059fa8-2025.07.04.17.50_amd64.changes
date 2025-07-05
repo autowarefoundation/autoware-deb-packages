@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-node
+Binary: ros-humble-autoware-node
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.17.50
+Distribution: jammy
+Urgency: high
+Maintainer: Mete Fatih Cırıt <mfc@autoware.org>
+Changed-By: Mete Fatih Cırıt <mfc@autoware.org>
+Description:
+ ros-humble-autoware-node - Autoware Node is an Autoware Core package designed to provide a b
+Changes:
+ ros-humble-autoware-node (1.0.0-73-g3d059fa8-2025.07.04.17.50) jammy; urgency=high
+Checksums-Sha1:
+ df30f316e36667729bd8e4b32d55437f6a308d91 138594 ros-humble-autoware-node-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.17.50_amd64.ddeb
+ ec5f9c445ec0eea69a6c04e2ba2615e751bb81e4 15511 ros-humble-autoware-node_1.0.0-73-g3d059fa8-2025.07.04.17.50_amd64.buildinfo
+ 66556ed680cbce4d1deccc1f4bd123737dd16b0c 12112 ros-humble-autoware-node_1.0.0-73-g3d059fa8-2025.07.04.17.50_amd64.deb
+Checksums-Sha256:
+ af7184279274cf0e4628b7f75b091c64eadd0752a93434a760289e1f0167b671 138594 ros-humble-autoware-node-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.17.50_amd64.ddeb
+ 6536064e4fb5774c194f0dc6340ad8564c0d400c0765d8a2d2cae7bbfe75e678 15511 ros-humble-autoware-node_1.0.0-73-g3d059fa8-2025.07.04.17.50_amd64.buildinfo
+ 77e06f17c65945bfd55aef09e4d55bc63e989c254c2084be2175515c2d26b62e 12112 ros-humble-autoware-node_1.0.0-73-g3d059fa8-2025.07.04.17.50_amd64.deb
+Files:
+ c6a8b7501bd098892f68b36a31dd6e79 138594 debug optional ros-humble-autoware-node-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.17.50_amd64.ddeb
+ 2d9784cffa992a4ee124348e11727162 15511 misc optional ros-humble-autoware-node_1.0.0-73-g3d059fa8-2025.07.04.17.50_amd64.buildinfo
+ bbd6c68459867b424e32e46aa9a99295 12112 misc optional ros-humble-autoware-node_1.0.0-73-g3d059fa8-2025.07.04.17.50_amd64.deb

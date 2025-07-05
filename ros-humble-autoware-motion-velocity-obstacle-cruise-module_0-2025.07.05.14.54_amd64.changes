@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-motion-velocity-obstacle-cruise-module
+Binary: ros-humble-autoware-motion-velocity-obstacle-cruise-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.14.54
+Distribution: jammy
+Urgency: high
+Maintainer: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Changed-By: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Description:
+ ros-humble-autoware-motion-velocity-obstacle-cruise-module - obstacle cruise feature in motion_velocity_planner
+Changes:
+ ros-humble-autoware-motion-velocity-obstacle-cruise-module (0-2025.07.05.14.54) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * chore(motion_velocity_planner): move common and node packages to core (#10367 <https://github.com/autowarefoundation/autoware_universe/issues/10367>)
+   * fix(motion_velocity_obstacle_xxx_module): fix debug topic name (#10322 <https://github.com/autowarefoundation/autoware_universe/issues/10322>)
+   * fix(motion_velocity_planner): remove Metric messages (#10342 <https://github.com/autowarefoundation/autoware_universe/issues/10342>)
+   * Contributors: Maxime CLEMENT, Ryohsuke Mitsudome, Takayuki Murooka
+Checksums-Sha1:
+ f8761a3a87dd87305b51f078cc3619dead7f2d81 6864648 ros-humble-autoware-motion-velocity-obstacle-cruise-module-dbgsym_0-2025.07.05.14.54_amd64.ddeb
+ f22d5af9ff5c0de7f1ba511793c1c69f8a17a56a 44983 ros-humble-autoware-motion-velocity-obstacle-cruise-module_0-2025.07.05.14.54_amd64.buildinfo
+ b2aadd95cc5eb06680300ba3f5b4cb4a6743c9c8 211954 ros-humble-autoware-motion-velocity-obstacle-cruise-module_0-2025.07.05.14.54_amd64.deb
+Checksums-Sha256:
+ 3b5c341e0cec98eeb194cdccc8ebb8b9840d49358a5cb4b11759a62d42c69e0b 6864648 ros-humble-autoware-motion-velocity-obstacle-cruise-module-dbgsym_0-2025.07.05.14.54_amd64.ddeb
+ 2fb69263b9e3c18916a7a68538af1ec7ea21c41bbf1993dda43a7b914584be3f 44983 ros-humble-autoware-motion-velocity-obstacle-cruise-module_0-2025.07.05.14.54_amd64.buildinfo
+ e9c29b8ba7ff35f09ecbb553f0b526d387d42ed88038eda86bb0f886acd72ddd 211954 ros-humble-autoware-motion-velocity-obstacle-cruise-module_0-2025.07.05.14.54_amd64.deb
+Files:
+ 994f20c1de25886f9e97097b690b5791 6864648 debug optional ros-humble-autoware-motion-velocity-obstacle-cruise-module-dbgsym_0-2025.07.05.14.54_amd64.ddeb
+ e3d8a3377019c332885e274c5480d2e9 44983 misc optional ros-humble-autoware-motion-velocity-obstacle-cruise-module_0-2025.07.05.14.54_amd64.buildinfo
+ 48ae2fcebc86fe2e254cfe3b49950c0a 211954 misc optional ros-humble-autoware-motion-velocity-obstacle-cruise-module_0-2025.07.05.14.54_amd64.deb

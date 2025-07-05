@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-traffic-light-arbiter
+Binary: ros-humble-autoware-traffic-light-arbiter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.23.08
+Distribution: jammy
+Urgency: high
+Maintainer: Kenzo Lobos-Tsunekawa <kenzo.lobos@tier4.jp>
+Changed-By: Kenzo Lobos-Tsunekawa <kenzo.lobos@tier4.jp>
+Description:
+ ros-humble-autoware-traffic-light-arbiter - The autoware_traffic_light_arbiter package
+Changes:
+ ros-humble-autoware-traffic-light-arbiter (0-2025.07.04.23.08) jammy; urgency=high
+Checksums-Sha1:
+ f75449dcc7ab6dc3b93156386f454fe23a2d62f9 4473808 ros-humble-autoware-traffic-light-arbiter-dbgsym_0-2025.07.04.23.08_amd64.ddeb
+ 16da2177bbe640a0f41f124179879eebedc07421 25700 ros-humble-autoware-traffic-light-arbiter_0-2025.07.04.23.08_amd64.buildinfo
+ c6317cb31810c9bf90525d7a0bd16de20946a5cf 165436 ros-humble-autoware-traffic-light-arbiter_0-2025.07.04.23.08_amd64.deb
+Checksums-Sha256:
+ 53d3a0e42cd3b48390cef6060e05c3bc92bf3067c1cc2665b3896af4ba912f1c 4473808 ros-humble-autoware-traffic-light-arbiter-dbgsym_0-2025.07.04.23.08_amd64.ddeb
+ fdcec23a3d6c9414bce6e429e57bd48def6f268dde27a18834be6d71120b87d1 25700 ros-humble-autoware-traffic-light-arbiter_0-2025.07.04.23.08_amd64.buildinfo
+ 0b0b35540f30b64eeb33e7e24471ea2ae607362c8d60d709a98f7413e34d2805 165436 ros-humble-autoware-traffic-light-arbiter_0-2025.07.04.23.08_amd64.deb
+Files:
+ ffd35b37b34566c77ed56c4a6355639e 4473808 debug optional ros-humble-autoware-traffic-light-arbiter-dbgsym_0-2025.07.04.23.08_amd64.ddeb
+ 749f6865d248a5ea3e6cd0ad677896a2 25700 misc optional ros-humble-autoware-traffic-light-arbiter_0-2025.07.04.23.08_amd64.buildinfo
+ c7bdbb1bf1d11530f222f5ea2884cf5f 165436 misc optional ros-humble-autoware-traffic-light-arbiter_0-2025.07.04.23.08_amd64.deb

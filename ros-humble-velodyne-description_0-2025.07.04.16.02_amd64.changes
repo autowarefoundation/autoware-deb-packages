@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 27 Dec 2021 00:00:00 -0000
+Source: ros-humble-velodyne-description
+Binary: ros-humble-velodyne-description
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.16.02
+Distribution: jammy
+Urgency: high
+Maintainer: Kevin Hallenbeck <khallenbeck@dataspeedinc.com>
+Changed-By: Kevin Hallenbeck <khallenbeck@dataspeedinc.com>
+Description:
+ ros-humble-velodyne-description - URDF and meshes describing Velodyne laser scanners.
+Changes:
+ ros-humble-velodyne-description (0-2025.07.04.16.02) jammy; urgency=high
+ .
+   * Adds tf_prefix SDF parameter
+   * Contributors: Micho Radovnikovich
+Checksums-Sha1:
+ b38229f532fdd5fd309d08cf82f7499088d5b628 9336 ros-humble-velodyne-description_0-2025.07.04.16.02_amd64.buildinfo
+ 612030a4341f36ea13e8472e26aa3c268cb92f68 222550 ros-humble-velodyne-description_0-2025.07.04.16.02_amd64.deb
+Checksums-Sha256:
+ 9ed944bedde9158b76ed73d51e7c0aa1378d2f419ff4976b788ec372fdcfba36 9336 ros-humble-velodyne-description_0-2025.07.04.16.02_amd64.buildinfo
+ f52514ee090e411687f3ce579a2bfb490c87c95b93f69705c3f4ce153ee59798 222550 ros-humble-velodyne-description_0-2025.07.04.16.02_amd64.deb
+Files:
+ c0aa048b71b03552801c8c73d5933053 9336 misc optional ros-humble-velodyne-description_0-2025.07.04.16.02_amd64.buildinfo
+ 30f7bacfd1472053460cfb10abf10006 222550 misc optional ros-humble-velodyne-description_0-2025.07.04.16.02_amd64.deb

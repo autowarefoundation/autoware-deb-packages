@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-carla-interface
+Binary: ros-humble-autoware-carla-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.19.53
+Distribution: jammy
+Urgency: high
+Maintainer: Muhammad Raditya GIOVANNI <mradityagio@gmail.com>
+Changed-By: Muhammad Raditya GIOVANNI <mradityagio@gmail.com>
+Description:
+ ros-humble-autoware-carla-interface - The carla autoware bridge package
+Changes:
+ ros-humble-autoware-carla-interface (0-2025.07.04.19.53) jammy; urgency=high
+Checksums-Sha1:
+ 5b472d466c06758d727f1eedd339d622f604066f 17438 ros-humble-autoware-carla-interface_0-2025.07.04.19.53_amd64.buildinfo
+ dd4e6bc64d3b6501b499f0798e1322c226a9dea1 40588 ros-humble-autoware-carla-interface_0-2025.07.04.19.53_amd64.deb
+Checksums-Sha256:
+ 4b38004e544077d6c944bf0a0303212957be62421b27e2ed53bb62cbd1fa3314 17438 ros-humble-autoware-carla-interface_0-2025.07.04.19.53_amd64.buildinfo
+ 383d412a81181165dd217d66a1944442c621f88291537da2019983485897494b 40588 ros-humble-autoware-carla-interface_0-2025.07.04.19.53_amd64.deb
+Files:
+ 2dc3c7b75752552586e819365222a937 17438 misc optional ros-humble-autoware-carla-interface_0-2025.07.04.19.53_amd64.buildinfo
+ dc2fc11e1a218f095fd54a7a20879c01 40588 misc optional ros-humble-autoware-carla-interface_0-2025.07.04.19.53_amd64.deb

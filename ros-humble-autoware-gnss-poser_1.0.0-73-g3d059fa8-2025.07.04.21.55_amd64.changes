@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-gnss-poser
+Binary: ros-humble-autoware-gnss-poser
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.04.21.55
+Distribution: jammy
+Urgency: high
+Maintainer: Xingang Liu <lxg19892021@gmail.com>
+Changed-By: Xingang Liu <lxg19892021@gmail.com>
+Description:
+ ros-humble-autoware-gnss-poser - The ROS 2 autoware_gnss_poser package
+Changes:
+ ros-humble-autoware-gnss-poser (1.0.0-73-g3d059fa8-2025.07.04.21.55) jammy; urgency=high
+Checksums-Sha1:
+ 5c83c4062cc5ea045c6cbdc4de2bc5d466850d4e 4283692 ros-humble-autoware-gnss-poser-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.21.55_amd64.ddeb
+ d3e1e5554a7554127eb97bc3d304df2fd9c660e9 25128 ros-humble-autoware-gnss-poser_1.0.0-73-g3d059fa8-2025.07.04.21.55_amd64.buildinfo
+ cd2d3b22bc5296660fc7b050deb54b5862d98bdb 187012 ros-humble-autoware-gnss-poser_1.0.0-73-g3d059fa8-2025.07.04.21.55_amd64.deb
+Checksums-Sha256:
+ 8ac25a301039dd5dd3106eb47c4988db93b7c8273df91268a335497390a42750 4283692 ros-humble-autoware-gnss-poser-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.21.55_amd64.ddeb
+ d96d76d2b92ffc3eb385d84c6bc527f2704a936c81562a4c8685adc9fd94d122 25128 ros-humble-autoware-gnss-poser_1.0.0-73-g3d059fa8-2025.07.04.21.55_amd64.buildinfo
+ 1c91f8a2e1171efba5d994a1b9de91d3da5c933320391ecda9d25ca0b4fd3430 187012 ros-humble-autoware-gnss-poser_1.0.0-73-g3d059fa8-2025.07.04.21.55_amd64.deb
+Files:
+ 347314d8d85eecca66f43fa9e5be5201 4283692 debug optional ros-humble-autoware-gnss-poser-dbgsym_1.0.0-73-g3d059fa8-2025.07.04.21.55_amd64.ddeb
+ a1c438c4dfb8152c2a9e75202a870f9c 25128 misc optional ros-humble-autoware-gnss-poser_1.0.0-73-g3d059fa8-2025.07.04.21.55_amd64.buildinfo
+ c7dac9f6b88ba662f274b8a285764e7e 187012 misc optional ros-humble-autoware-gnss-poser_1.0.0-73-g3d059fa8-2025.07.04.21.55_amd64.deb

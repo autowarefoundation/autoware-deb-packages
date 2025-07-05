@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-behavior-velocity-intersection-module
+Binary: ros-humble-autoware-behavior-velocity-intersection-module
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.14.13
+Distribution: jammy
+Urgency: high
+Maintainer: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Changed-By: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Description:
+ ros-humble-autoware-behavior-velocity-intersection-module - The autoware_behavior_velocity_intersection_module package
+Changes:
+ ros-humble-autoware-behavior-velocity-intersection-module (0-2025.07.05.14.13) jammy; urgency=high
+Checksums-Sha1:
+ 0c69f563ccff0c558b3d3c935cf08797b23181c6 14916512 ros-humble-autoware-behavior-velocity-intersection-module-dbgsym_0-2025.07.05.14.13_amd64.ddeb
+ def6fb1b6eee1c8a01fb4bb791f2fa50ff6ae973 48927 ros-humble-autoware-behavior-velocity-intersection-module_0-2025.07.05.14.13_amd64.buildinfo
+ 8045b093f39795a3e70226081da0c2f91746dc59 385240 ros-humble-autoware-behavior-velocity-intersection-module_0-2025.07.05.14.13_amd64.deb
+Checksums-Sha256:
+ bcd0f2f88ed90bb47ead1a877c97a4e41f9ebd2c5b77fd78b6db1b7783fc9e63 14916512 ros-humble-autoware-behavior-velocity-intersection-module-dbgsym_0-2025.07.05.14.13_amd64.ddeb
+ 8a354e2a54961e502117a9db911f609bae68a3112eaf39cb5f7a3932afca8b99 48927 ros-humble-autoware-behavior-velocity-intersection-module_0-2025.07.05.14.13_amd64.buildinfo
+ 7973f4c96b1b3449801092c00d5ac1749cb27830402a005b95d27376a9bea69c 385240 ros-humble-autoware-behavior-velocity-intersection-module_0-2025.07.05.14.13_amd64.deb
+Files:
+ afb5ae2b7cdf7b816398d15d6aec0b85 14916512 debug optional ros-humble-autoware-behavior-velocity-intersection-module-dbgsym_0-2025.07.05.14.13_amd64.ddeb
+ 851e9c7d03b117376735390fc755b942 48927 misc optional ros-humble-autoware-behavior-velocity-intersection-module_0-2025.07.05.14.13_amd64.buildinfo
+ 916ec399894c4739e263877d4a0b73f6 385240 misc optional ros-humble-autoware-behavior-velocity-intersection-module_0-2025.07.05.14.13_amd64.deb

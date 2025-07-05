@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-imu-corrector
+Binary: ros-humble-autoware-imu-corrector
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.00.50
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-imu-corrector - The ROS 2 autoware_imu_corrector package
+Changes:
+ ros-humble-autoware-imu-corrector (0-2025.07.05.00.50) jammy; urgency=high
+Checksums-Sha1:
+ 950d42a6265329ea7b5725a128b3be6cbfdb6ccd 5917466 ros-humble-autoware-imu-corrector-dbgsym_0-2025.07.05.00.50_amd64.ddeb
+ 1d8a2878dfe8e452f2b56ad94fe8cfd1b462a659 41302 ros-humble-autoware-imu-corrector_0-2025.07.05.00.50_amd64.buildinfo
+ d44e0103dde72aa1be91441da494ef12113f5cc2 242594 ros-humble-autoware-imu-corrector_0-2025.07.05.00.50_amd64.deb
+Checksums-Sha256:
+ 2baf513135e0c5f78be89099a42235451b5376505806e296d79ce3eb35f32072 5917466 ros-humble-autoware-imu-corrector-dbgsym_0-2025.07.05.00.50_amd64.ddeb
+ f3ae76ba9737db4b3db14c3a515ce10a27a2783f6c23442c4f3a5e5b101960cd 41302 ros-humble-autoware-imu-corrector_0-2025.07.05.00.50_amd64.buildinfo
+ b7c15d821e03bc8571047ea683a8cfb5dbf13e491bfc21c92f12e6d34bf3960d 242594 ros-humble-autoware-imu-corrector_0-2025.07.05.00.50_amd64.deb
+Files:
+ 3bf68109d87c87d5a2e1982d90e2b322 5917466 debug optional ros-humble-autoware-imu-corrector-dbgsym_0-2025.07.05.00.50_amd64.ddeb
+ 118bc9b8d918baf6f2f97a9841b74466 41302 misc optional ros-humble-autoware-imu-corrector_0-2025.07.05.00.50_amd64.buildinfo
+ cc68c504ef636562ba65d7bdf671f7d4 242594 misc optional ros-humble-autoware-imu-corrector_0-2025.07.05.00.50_amd64.deb

@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-adapi-visualizers
+Binary: ros-humble-autoware-adapi-visualizers
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.16.07
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-humble-autoware-adapi-visualizers - The adapi_visualizers package
+Changes:
+ ros-humble-autoware-adapi-visualizers (0-2025.07.04.16.07) jammy; urgency=high
+Checksums-Sha1:
+ 1dfb967efac76dd79c9c433e4c5fba0289b4d98d 7483 ros-humble-autoware-adapi-visualizers_0-2025.07.04.16.07_amd64.buildinfo
+ e21a9ab00f93a3c9401657f2cf0a68e3b0a00ad0 8548 ros-humble-autoware-adapi-visualizers_0-2025.07.04.16.07_amd64.deb
+Checksums-Sha256:
+ e8ba1045a8d5edfb88fa4ea1071d501cb7ed21d1dcb64eabbd569f3609fe1702 7483 ros-humble-autoware-adapi-visualizers_0-2025.07.04.16.07_amd64.buildinfo
+ 011520eff92c919d23cd5da2cd1c286a8ad62a38445e31b7b77ee42bb53f8076 8548 ros-humble-autoware-adapi-visualizers_0-2025.07.04.16.07_amd64.deb
+Files:
+ 2fce464d3c5a1fe0b9df97bbf8d0e07b 7483 misc optional ros-humble-autoware-adapi-visualizers_0-2025.07.04.16.07_amd64.buildinfo
+ 98ea2310f852bdf50afa21016d8ae89f 8548 misc optional ros-humble-autoware-adapi-visualizers_0-2025.07.04.16.07_amd64.deb

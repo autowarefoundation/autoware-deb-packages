@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-surround-obstacle-checker
+Binary: ros-humble-autoware-surround-obstacle-checker
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.08.55
+Distribution: jammy
+Urgency: high
+Maintainer: Satoshi Ota <satoshi.ota@tier4.jp>
+Changed-By: Satoshi Ota <satoshi.ota@tier4.jp>
+Description:
+ ros-humble-autoware-surround-obstacle-checker - The autoware_surround_obstacle_checker package
+Changes:
+ ros-humble-autoware-surround-obstacle-checker (0-2025.07.05.08.55) jammy; urgency=high
+Checksums-Sha1:
+ 02b0bd0171f19c5e7ba8c29f749b4cf1fbe40b10 8074438 ros-humble-autoware-surround-obstacle-checker-dbgsym_0-2025.07.05.08.55_amd64.ddeb
+ aaa8b340633d23898777d87aa950fd2c80d54ac0 44336 ros-humble-autoware-surround-obstacle-checker_0-2025.07.05.08.55_amd64.buildinfo
+ 54c2b239d468cb8cb998088f67ba997c9c7f67c2 303936 ros-humble-autoware-surround-obstacle-checker_0-2025.07.05.08.55_amd64.deb
+Checksums-Sha256:
+ 130ee90867349b82ba6de0337548cd3b63c7762b8c440efc342477c17624e778 8074438 ros-humble-autoware-surround-obstacle-checker-dbgsym_0-2025.07.05.08.55_amd64.ddeb
+ 90d26b61f5c5c005b6a415f2ac922a43f78be4cbc7ed1096f77837f611e5f266 44336 ros-humble-autoware-surround-obstacle-checker_0-2025.07.05.08.55_amd64.buildinfo
+ 09b1dd2c588a010738bb9340a42c734f9c04bb42e824167a41f44c7fa6164576 303936 ros-humble-autoware-surround-obstacle-checker_0-2025.07.05.08.55_amd64.deb
+Files:
+ adc2a7eaef5dc17015055904d0b8b807 8074438 debug optional ros-humble-autoware-surround-obstacle-checker-dbgsym_0-2025.07.05.08.55_amd64.ddeb
+ bbbda1b4e6d306859ea2a83a7501aa40 44336 misc optional ros-humble-autoware-surround-obstacle-checker_0-2025.07.05.08.55_amd64.buildinfo
+ 68c0371eef1da7acf9fe44474a683ba9 303936 misc optional ros-humble-autoware-surround-obstacle-checker_0-2025.07.05.08.55_amd64.deb

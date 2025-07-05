@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-path-sampler
+Binary: ros-humble-autoware-path-sampler
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.11.20
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime CLEMENT <maxime.clement@tier4.jp>
+Changed-By: Maxime CLEMENT <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-path-sampler - Package for the sampling-based path planner
+Changes:
+ ros-humble-autoware-path-sampler (0-2025.07.05.11.20) jammy; urgency=high
+Checksums-Sha1:
+ f05c13b6072c1e5bfbe104198a5c0832fb0ac852 6260128 ros-humble-autoware-path-sampler-dbgsym_0-2025.07.05.11.20_amd64.ddeb
+ 246f9b13c12bb7f462cbf411bfe28b2b470264c2 42889 ros-humble-autoware-path-sampler_0-2025.07.05.11.20_amd64.buildinfo
+ 6c6312ad3a901646a9c599ad92cc27bfc77f374c 228184 ros-humble-autoware-path-sampler_0-2025.07.05.11.20_amd64.deb
+Checksums-Sha256:
+ 98d063d3590f0d872f2db191b91ac321ad85a576fc852ab5ddeb2357f198d479 6260128 ros-humble-autoware-path-sampler-dbgsym_0-2025.07.05.11.20_amd64.ddeb
+ 7ddde1ee13d6b8e64213feb857ef8a59f599c2786e5d20b6586584238464aab9 42889 ros-humble-autoware-path-sampler_0-2025.07.05.11.20_amd64.buildinfo
+ cb2056e5b42fec1754f9a03c61dd09e2cf54d9885174c0560e0250a66788752d 228184 ros-humble-autoware-path-sampler_0-2025.07.05.11.20_amd64.deb
+Files:
+ 94c4bd0141ef84710595df8669e53457 6260128 debug optional ros-humble-autoware-path-sampler-dbgsym_0-2025.07.05.11.20_amd64.ddeb
+ 30a2820b72d7e19439a4a7dd6be35d57 42889 misc optional ros-humble-autoware-path-sampler_0-2025.07.05.11.20_amd64.buildinfo
+ 7dccf24b22e36890a789e8b4d6629b4f 228184 misc optional ros-humble-autoware-path-sampler_0-2025.07.05.11.20_amd64.deb

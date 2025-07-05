@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Thu, 01 May 2025 00:00:00 -0000
+Source: ros-humble-autoware-ground-filter
+Binary: ros-humble-autoware-ground-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-73-g3d059fa8-2025.07.05.06.34
+Distribution: jammy
+Urgency: high
+Maintainer: amc-nu <abrahammonrroy@yahoo.com>
+Changed-By: amc-nu <abrahammonrroy@yahoo.com>
+Description:
+ ros-humble-autoware-ground-filter - The ROS 2 autoware_ground_filter package
+Changes:
+ ros-humble-autoware-ground-filter (1.0.0-73-g3d059fa8-2025.07.05.06.34) jammy; urgency=high
+ .
+   * feat(autoware_utils): remove managed transform buffer (#360 <https://github.com/autowarefoundation/autoware_core/issues/360>)
+     * feat(autoware_utils): remove managed transform buffer
+     * fix(autoware_ground_filter): redundant inclusion
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * Contributors: Amadeusz Szymko
+Checksums-Sha1:
+ c568957b1f3912409c58eeee4050256dbeecef15 6920678 ros-humble-autoware-ground-filter-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.06.34_amd64.ddeb
+ 07ea7ae9bfcb2a7793bb1fa6911b6aa1ff2710e1 41706 ros-humble-autoware-ground-filter_1.0.0-73-g3d059fa8-2025.07.05.06.34_amd64.buildinfo
+ fe386667f9a43fec929dcd2c05e0ec036456bf19 294820 ros-humble-autoware-ground-filter_1.0.0-73-g3d059fa8-2025.07.05.06.34_amd64.deb
+Checksums-Sha256:
+ 8bffa820a33f05dc1eddb69fc5d28f274e447109ca08388ab3ae23f136294705 6920678 ros-humble-autoware-ground-filter-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.06.34_amd64.ddeb
+ 7edbe1b70cbbb2a40b5ef840ad967aa7ac8beed2d92536f962f26d0f271abdd8 41706 ros-humble-autoware-ground-filter_1.0.0-73-g3d059fa8-2025.07.05.06.34_amd64.buildinfo
+ cb6c0715e2600a641c24cbf49c2c04a1b74bd422218ef39c170bf729b84498f5 294820 ros-humble-autoware-ground-filter_1.0.0-73-g3d059fa8-2025.07.05.06.34_amd64.deb
+Files:
+ b5636090c51a1a45931137fca3f98a78 6920678 debug optional ros-humble-autoware-ground-filter-dbgsym_1.0.0-73-g3d059fa8-2025.07.05.06.34_amd64.ddeb
+ 36f830c5a1ef848d7ae2737ad5818093 41706 misc optional ros-humble-autoware-ground-filter_1.0.0-73-g3d059fa8-2025.07.05.06.34_amd64.buildinfo
+ d51554baee5a637828b479d415ee521c 294820 misc optional ros-humble-autoware-ground-filter_1.0.0-73-g3d059fa8-2025.07.05.06.34_amd64.deb

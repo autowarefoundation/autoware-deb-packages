@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-pose-instability-detector
+Binary: ros-humble-autoware-pose-instability-detector
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.22.15
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-autoware-pose-instability-detector - The autoware_pose_instability_detector package
+Changes:
+ ros-humble-autoware-pose-instability-detector (0-2025.07.04.22.15) jammy; urgency=high
+Checksums-Sha1:
+ ee059db84edb1d8876453605b811bc152434ee66 3437596 ros-humble-autoware-pose-instability-detector-dbgsym_0-2025.07.04.22.15_amd64.ddeb
+ 384d949f6509bf87a16a1a16a7cd50f3d2e5d769 17395 ros-humble-autoware-pose-instability-detector_0-2025.07.04.22.15_amd64.buildinfo
+ 73d1610d01920a2f96e92090b7df5132e4f5bb78 162696 ros-humble-autoware-pose-instability-detector_0-2025.07.04.22.15_amd64.deb
+Checksums-Sha256:
+ c648489b285713281c829cd6c089a07ff7b929ea5bb865374076ffe6a3e3cffe 3437596 ros-humble-autoware-pose-instability-detector-dbgsym_0-2025.07.04.22.15_amd64.ddeb
+ bc14708f0b4ac0eaf177cc0c981a9e4396dc3ccfa82ccb1163221b7378cdb110 17395 ros-humble-autoware-pose-instability-detector_0-2025.07.04.22.15_amd64.buildinfo
+ 7d7a5e28ea5cf96ebf101bb13daedd1aa6f7318d4e5cd02b0bf462cb4c74bad1 162696 ros-humble-autoware-pose-instability-detector_0-2025.07.04.22.15_amd64.deb
+Files:
+ 56f6a67dc2bd5643d6ea15e1ab9e59bb 3437596 debug optional ros-humble-autoware-pose-instability-detector-dbgsym_0-2025.07.04.22.15_amd64.ddeb
+ f8bdfe11a8aef846969a76f85bff5e8a 17395 misc optional ros-humble-autoware-pose-instability-detector_0-2025.07.04.22.15_amd64.buildinfo
+ d46455e618d402434409ce855981df15 162696 misc optional ros-humble-autoware-pose-instability-detector_0-2025.07.04.22.15_amd64.deb

@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Tue, 08 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-lint-common
+Binary: ros-humble-autoware-lint-common
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.2-2025.07.04.14.52
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-humble-autoware-lint-common - The list of commonly used linters in Autoware
+Changes:
+ ros-humble-autoware-lint-common (1.0.2-2025.07.04.14.52) jammy; urgency=high
+Checksums-Sha1:
+ 9fc01527ab362b6af750d32a7f13a392fa579963 8455 ros-humble-autoware-lint-common_1.0.2-2025.07.04.14.52_amd64.buildinfo
+ cc2b9812f5ad1504ae4cdd1c4536f4dbcd51c291 6232 ros-humble-autoware-lint-common_1.0.2-2025.07.04.14.52_amd64.deb
+Checksums-Sha256:
+ 8629e7f0cb4eea8ca239be1b03d359bfbe28914109aea7d0107f6c59954d0e25 8455 ros-humble-autoware-lint-common_1.0.2-2025.07.04.14.52_amd64.buildinfo
+ 32ecfcf118e21f76df9ada5c79c778b6c61e8e23241eb13901039022f3b07f89 6232 ros-humble-autoware-lint-common_1.0.2-2025.07.04.14.52_amd64.deb
+Files:
+ 529573180e9c9302f0bd42c96c57a759 8455 misc optional ros-humble-autoware-lint-common_1.0.2-2025.07.04.14.52_amd64.buildinfo
+ 83d5487848e13b45601a2ce305eac10e 6232 misc optional ros-humble-autoware-lint-common_1.0.2-2025.07.04.14.52_amd64.deb

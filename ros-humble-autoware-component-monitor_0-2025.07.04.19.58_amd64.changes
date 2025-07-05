@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-component-monitor
+Binary: ros-humble-autoware-component-monitor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.04.19.58
+Distribution: jammy
+Urgency: high
+Maintainer: Mehmet Emin Başoğlu <memin@leodrive.ai>
+Changed-By: Mehmet Emin Başoğlu <memin@leodrive.ai>
+Description:
+ ros-humble-autoware-component-monitor - A ROS 2 package to monitor system usage of component containers.
+Changes:
+ ros-humble-autoware-component-monitor (0-2025.07.04.19.58) jammy; urgency=high
+Checksums-Sha1:
+ f0df7745690cb843ba7857310d5081c679c0deee 1803936 ros-humble-autoware-component-monitor-dbgsym_0-2025.07.04.19.58_amd64.ddeb
+ 140a5d95ec07fa55afa3173c33877bdd17707ca3 16970 ros-humble-autoware-component-monitor_0-2025.07.04.19.58_amd64.buildinfo
+ 3b36bec9a086b6a3ed5676ff2a5bde2dea00fae0 104644 ros-humble-autoware-component-monitor_0-2025.07.04.19.58_amd64.deb
+Checksums-Sha256:
+ 6b2c4eab04c6a7870f76bdf5dad47d6163074c329b7abbc782f9786a21cc9ebf 1803936 ros-humble-autoware-component-monitor-dbgsym_0-2025.07.04.19.58_amd64.ddeb
+ c1ffbf7380cf744879212e887d7185f4d21b74955aeca987cae70b090df1f34f 16970 ros-humble-autoware-component-monitor_0-2025.07.04.19.58_amd64.buildinfo
+ 6459e04272b3295fa4285bffd8f9c0210db8dd31f172caf7bd12239c5601ee40 104644 ros-humble-autoware-component-monitor_0-2025.07.04.19.58_amd64.deb
+Files:
+ 71467f716b618d16c3f106981d1a96dd 1803936 debug optional ros-humble-autoware-component-monitor-dbgsym_0-2025.07.04.19.58_amd64.ddeb
+ ad314d3ec9b70537337ca1908a0f2c73 16970 misc optional ros-humble-autoware-component-monitor_0-2025.07.04.19.58_amd64.buildinfo
+ 939a4ec295508f02a0d94a779005258c 104644 misc optional ros-humble-autoware-component-monitor_0-2025.07.04.19.58_amd64.deb

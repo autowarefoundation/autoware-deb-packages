@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-bezier-sampler
+Binary: ros-humble-autoware-bezier-sampler
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.05.25
+Distribution: jammy
+Urgency: high
+Maintainer: Maxime CLEMENT <maxime.clement@tier4.jp>
+Changed-By: Maxime CLEMENT <maxime.clement@tier4.jp>
+Description:
+ ros-humble-autoware-bezier-sampler - Package to sample trajectories using Bézier curves
+Changes:
+ ros-humble-autoware-bezier-sampler (0-2025.07.05.05.25) jammy; urgency=high
+Checksums-Sha1:
+ c48930fa80752e54af885e7750862a2b4064d369 1051696 ros-humble-autoware-bezier-sampler-dbgsym_0-2025.07.05.05.25_amd64.ddeb
+ b44622b218e3abe305ae7786cf78d6ce5ade5389 41379 ros-humble-autoware-bezier-sampler_0-2025.07.05.05.25_amd64.buildinfo
+ 55b71c07e7c4a9ead30e9b668a62b7febb3bad17 19378 ros-humble-autoware-bezier-sampler_0-2025.07.05.05.25_amd64.deb
+Checksums-Sha256:
+ 245939e8b053929fe17628c4ce2b760340b408ab03a01a70b0cdd7fcfb508c97 1051696 ros-humble-autoware-bezier-sampler-dbgsym_0-2025.07.05.05.25_amd64.ddeb
+ 89f1861fadc45070df6721702ef137ecdb9448e8128f93e08e276d25bc029891 41379 ros-humble-autoware-bezier-sampler_0-2025.07.05.05.25_amd64.buildinfo
+ 6b2155bba23d90aecfe69c221114f9c4a323b96b59cce4b3e00af837274859c2 19378 ros-humble-autoware-bezier-sampler_0-2025.07.05.05.25_amd64.deb
+Files:
+ 79f17177f089fda75ff4b47f01897377 1051696 debug optional ros-humble-autoware-bezier-sampler-dbgsym_0-2025.07.05.05.25_amd64.ddeb
+ ca12a6f765ed21aa197a8c23862e1700 41379 misc optional ros-humble-autoware-bezier-sampler_0-2025.07.05.05.25_amd64.buildinfo
+ e0cf6f3f9b7993ddc44078e5e86ad80c 19378 misc optional ros-humble-autoware-bezier-sampler_0-2025.07.05.05.25_amd64.deb

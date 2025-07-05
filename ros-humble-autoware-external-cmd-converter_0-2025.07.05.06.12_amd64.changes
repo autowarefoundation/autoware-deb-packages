@@ -1,0 +1,47 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-external-cmd-converter
+Binary: ros-humble-autoware-external-cmd-converter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.06.12
+Distribution: jammy
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-humble-autoware-external-cmd-converter - The autoware_external_cmd_converter package
+Changes:
+ ros-humble-autoware-external-cmd-converter (0-2025.07.05.06.12) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat: manual control (#10354 <https://github.com/autowarefoundation/autoware_universe/issues/10354>)
+     * feat(default_adapi): add manual control
+     * add conversion
+     * update selector
+     * update selector depends
+     * update converter
+     * modify heartbeat name
+     * update launch
+     * update api
+     * fix pedal callback
+     * done todo
+     * apply message rename
+     * fix test
+     * fix message type and qos
+     * fix steering_tire_velocity
+     * fix for clang-tidy
+     ---------
+   * Contributors: Ryohsuke Mitsudome, Takagi, Isamu
+Checksums-Sha1:
+ 88b10d5b4e0dc5ad8afc4e974d2f4deb4a51f238 6400132 ros-humble-autoware-external-cmd-converter-dbgsym_0-2025.07.05.06.12_amd64.ddeb
+ 103a0bc333a46b3edf327b77daaf1d19e80b5c63 43424 ros-humble-autoware-external-cmd-converter_0-2025.07.05.06.12_amd64.buildinfo
+ 2dfde466a0d8d4ec5b52e4ad58635f52b71b95d2 242970 ros-humble-autoware-external-cmd-converter_0-2025.07.05.06.12_amd64.deb
+Checksums-Sha256:
+ 718088f26a818148fb5440920aefdc4752835a7f8a2daeb04a765eb4c5ae28a1 6400132 ros-humble-autoware-external-cmd-converter-dbgsym_0-2025.07.05.06.12_amd64.ddeb
+ e448647938195d52b13205118964d77eafdd9be0b3d6ee1007f64f138eeb83bc 43424 ros-humble-autoware-external-cmd-converter_0-2025.07.05.06.12_amd64.buildinfo
+ 3722afcb5c37700a846591d49343edc2311adcb3a7c17c7bedd0dd50993b697f 242970 ros-humble-autoware-external-cmd-converter_0-2025.07.05.06.12_amd64.deb
+Files:
+ f5b717b5018edd28d1da5255738acfa6 6400132 debug optional ros-humble-autoware-external-cmd-converter-dbgsym_0-2025.07.05.06.12_amd64.ddeb
+ 08825d2428690519269ac6797b262904 43424 misc optional ros-humble-autoware-external-cmd-converter_0-2025.07.05.06.12_amd64.buildinfo
+ 3fe411beefec9703f3cc87f37d571236 242970 misc optional ros-humble-autoware-external-cmd-converter_0-2025.07.05.06.12_amd64.deb

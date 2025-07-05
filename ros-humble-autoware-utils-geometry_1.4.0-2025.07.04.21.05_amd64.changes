@@ -1,0 +1,62 @@
+Format: 1.8
+Date: Tue, 22 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-utils-geometry
+Binary: ros-humble-autoware-utils-geometry
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.4.0-2025.07.04.21.05
+Distribution: jammy
+Urgency: high
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Changed-By: Jian Kang <egon.kang@autocore.ai>
+Description:
+ ros-humble-autoware-utils-geometry - The autoware_utils_geometry package
+Changes:
+ ros-humble-autoware-utils-geometry (1.4.0-2025.07.04.21.05) jammy; urgency=high
+ .
+   * chore: sync files (#61 <https://github.com/autowarefoundation/autoware_utils/issues/61>)
+     * chore: sync files
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: github-actions <mailto:github-actions@github.com>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * feat(autoware_utils_geometry): resolve jazzy maybe-uninitialized (#63 <https://github.com/autowarefoundation/autoware_utils/issues/63>)
+     feat(autoware_geometry_utils): resolve maybe-uninitizlied error in jazzy
+   * ci(pre-commit): quarterly autoupdate (#60 <https://github.com/autowarefoundation/autoware_utils/issues/60>)
+     * ci(pre-commit): quarterly autoupdate
+     updates:
+     - [github.com/igorshubovych/markdownlint-cli: v0.43.0 → v0.44.0](https://github.com/igorshubovych/markdownlint-cli/compare/v0.43.0...v0.44.0)
+     - [github.com/adrienverge/yamllint: v1.35.1 → v1.37.0](https://github.com/adrienverge/yamllint/compare/v1.35.1...v1.37.0)
+     - [github.com/scop/pre-commit-shfmt: v3.10.0-2 → v3.11.0-1](https://github.com/scop/pre-commit-shfmt/compare/v3.10.0-2...v3.11.0-1)
+     - [github.com/pycqa/isort: 5.13.2 → 6.0.1](https://github.com/pycqa/isort/compare/5.13.2...6.0.1)
+     - [github.com/psf/black: 24.10.0 → 25.1.0](https://github.com/psf/black/compare/24.10.0...25.1.0)
+     - [github.com/pre-commit/mirrors-clang-format: v19.1.6 → v20.1.0](https://github.com/pre-commit/mirrors-clang-format/compare/v19.1.6...v20.1.0)
+     - [github.com/cpplint/cpplint: 2.0.0 → 2.0.1](https://github.com/cpplint/cpplint/compare/2.0.0...2.0.1)
+     - [github.com/python-jsonschema/check-jsonschema: 0.30.0 → 0.32.1](https://github.com/python-jsonschema/check-jsonschema/compare/0.30.0...0.32.1)
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * fix(autoware_utils_geometry): fix procedure to check if point is on edge (#56 <https://github.com/autowarefoundation/autoware_utils/issues/56>)
+     * fix procedure to check if point is on edge
+     * add test cases
+     ---------
+   * fix: convex_full header not found (#62 <https://github.com/autowarefoundation/autoware_utils/issues/62>)
+   * test(autoware_utils): port unit tests from autoware.universe (#28 <https://github.com/autowarefoundation/autoware_utils/issues/28>)
+   * fix: boost convex_hull for newer boost versions (#58 <https://github.com/autowarefoundation/autoware_utils/issues/58>)
+     * Fix boost convex_hull for newer boost versions
+     * Specify the distros for searchability
+     * Use boost version for explicity
+     ---------
+   * Contributors: Mitsuhiro Sakamoto, Takagi, Isamu, Tim Clephas, awf-autoware-bot[bot], pre-commit-ci[bot], storrrrrrrrm
+Checksums-Sha1:
+ 15d4dfc91baf3ef6e94f7dcd853fff43f8b592d9 2638452 ros-humble-autoware-utils-geometry-dbgsym_1.4.0-2025.07.04.21.05_amd64.ddeb
+ 865c6b548e8c06a1e158e349e650a42d2c0be7ef 17823 ros-humble-autoware-utils-geometry_1.4.0-2025.07.04.21.05_amd64.buildinfo
+ ce20cafa95e4bea65592e5e4c8d145ffc76a41fa 126262 ros-humble-autoware-utils-geometry_1.4.0-2025.07.04.21.05_amd64.deb
+Checksums-Sha256:
+ 2e09f5fd8fd3eb79f99d08e906aa6d8c7f616ac60c8bf72630a8537e9c1963fd 2638452 ros-humble-autoware-utils-geometry-dbgsym_1.4.0-2025.07.04.21.05_amd64.ddeb
+ b6996b780e5bd144d2d1642994400fe0e02d038b159d7cf9fdc4bbe8158e8c70 17823 ros-humble-autoware-utils-geometry_1.4.0-2025.07.04.21.05_amd64.buildinfo
+ c9c897bd80ba6d6e8f9c6e25876ea94171c38523e2343b4875f10a01132457e9 126262 ros-humble-autoware-utils-geometry_1.4.0-2025.07.04.21.05_amd64.deb
+Files:
+ 77a9d23d91ff24e23e8e2fa51e500149 2638452 debug optional ros-humble-autoware-utils-geometry-dbgsym_1.4.0-2025.07.04.21.05_amd64.ddeb
+ a03f48c4aa8a75062e82aafe0d693068 17823 misc optional ros-humble-autoware-utils-geometry_1.4.0-2025.07.04.21.05_amd64.buildinfo
+ 4aec9285543e5eb252f9830a12a88b3a 126262 misc optional ros-humble-autoware-utils-geometry_1.4.0-2025.07.04.21.05_amd64.deb
