@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-dummy-perception-publisher
+Binary: ros-humble-autoware-dummy-perception-publisher
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.17.24
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-dummy-perception-publisher - The autoware_dummy_perception_publisher package
+Changes:
+ ros-humble-autoware-dummy-perception-publisher (0-2025.07.05.17.24) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * fix: add missing exec_depend (#10404 <https://github.com/autowarefoundation/autoware_universe/issues/10404>)
+     * fix missing exec depend
+     * remove fixed depend
+     * remove the removed dependency
+     ---------
+   * Contributors: Ryohsuke Mitsudome, Takagi, Isamu
+Checksums-Sha1:
+ e7abb8757a9ee41b45617b3f166e062254d11d8b 4615262 ros-humble-autoware-dummy-perception-publisher-dbgsym_0-2025.07.05.17.24_amd64.ddeb
+ 8dfc3b29906324187e64f42b470fdc2a1a3816dc 41574 ros-humble-autoware-dummy-perception-publisher_0-2025.07.05.17.24_amd64.buildinfo
+ 17d21539007ec382777070009a550494d90cf8c9 192632 ros-humble-autoware-dummy-perception-publisher_0-2025.07.05.17.24_amd64.deb
+Checksums-Sha256:
+ 349e2ca605bd67dc1ba563cbdc92bf3c0afee2faedab08dad296d7b6e6c242af 4615262 ros-humble-autoware-dummy-perception-publisher-dbgsym_0-2025.07.05.17.24_amd64.ddeb
+ 8feaf593b9338da93144608dc31bcc3c4118787121d172acccbfbc42536a074f 41574 ros-humble-autoware-dummy-perception-publisher_0-2025.07.05.17.24_amd64.buildinfo
+ decc0ba48583038bb15b75c0e48e6b28915d0af578bbd8358854cb8a2f9209e7 192632 ros-humble-autoware-dummy-perception-publisher_0-2025.07.05.17.24_amd64.deb
+Files:
+ 48da8b4c10584c9a71e987fdccfe9e1e 4615262 debug optional ros-humble-autoware-dummy-perception-publisher-dbgsym_0-2025.07.05.17.24_amd64.ddeb
+ 7807212e77f09d0e20cf4d6fa52c9bec 41574 misc optional ros-humble-autoware-dummy-perception-publisher_0-2025.07.05.17.24_amd64.buildinfo
+ 1a31363fac40a496dde025be833952fd 192632 misc optional ros-humble-autoware-dummy-perception-publisher_0-2025.07.05.17.24_amd64.deb

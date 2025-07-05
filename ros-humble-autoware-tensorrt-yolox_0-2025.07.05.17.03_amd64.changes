@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-tensorrt-yolox
+Binary: ros-humble-autoware-tensorrt-yolox
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.17.03
+Distribution: jammy
+Urgency: high
+Maintainer: Dan Umeda <dan.umeda@tier4.jp>
+Changed-By: Dan Umeda <dan.umeda@tier4.jp>
+Description:
+ ros-humble-autoware-tensorrt-yolox - tensorrt library implementation for yolox
+Changes:
+ ros-humble-autoware-tensorrt-yolox (0-2025.07.05.17.03) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat(tensorrt_yolox): add autoware_utils packages (#10460 <https://github.com/autowarefoundation/autoware_universe/issues/10460>)
+     Co-authored-by: t4-adc <mailto:grp-rd-1-adc-admin@tier4.jp>
+   * fix(autoware_tensorrt_yolox): explicitly install shared library (#10454 <https://github.com/autowarefoundation/autoware_universe/issues/10454>)
+   * Contributors: Kazunori-Nakajima, Manato Hirabayashi, Ryohsuke Mitsudome
+Checksums-Sha1:
+ ed84083ed64c7d24b2f4a404bd4470e878d41ba6 45490 ros-humble-autoware-tensorrt-yolox_0-2025.07.05.17.03_amd64.buildinfo
+ f44dbd6c8ede3deb62df92d5e824a65cccaf1c61 4176 ros-humble-autoware-tensorrt-yolox_0-2025.07.05.17.03_amd64.deb
+Checksums-Sha256:
+ c7dfe55dfb5d69aa957a28c839b0515ff0df3d769257792323c7138a564f734e 45490 ros-humble-autoware-tensorrt-yolox_0-2025.07.05.17.03_amd64.buildinfo
+ 1a72862ae5a8124f4192837efbe93575b5ed4a0036c1ad6d879d14d8e03b785f 4176 ros-humble-autoware-tensorrt-yolox_0-2025.07.05.17.03_amd64.deb
+Files:
+ 491304df9c59fb8f33762818533cfc29 45490 misc optional ros-humble-autoware-tensorrt-yolox_0-2025.07.05.17.03_amd64.buildinfo
+ 781ecf4ecd7771e0d5c9a5c71ed3b84c 4176 misc optional ros-humble-autoware-tensorrt-yolox_0-2025.07.05.17.03_amd64.deb

@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-shape-estimation
+Binary: ros-humble-autoware-shape-estimation
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.16.58
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-shape-estimation - This package implements a shape estimation algorithm as a ROS 2 n
+Changes:
+ ros-humble-autoware-shape-estimation (0-2025.07.05.16.58) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * chore(perception): code owner revision (#10358 <https://github.com/autowarefoundation/autoware_universe/issues/10358>)
+     * feat: add Masato Saeki and Taekjin Lee as maintainer to multiple package.xml files
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Ryohsuke Mitsudome, Taekjin LEE
+Checksums-Sha1:
+ f9277672719a2917b06ae3defd73bf3d7554996b 5631844 ros-humble-autoware-shape-estimation-dbgsym_0-2025.07.05.16.58_amd64.ddeb
+ a05644111891a76119115bb4b41428b1210d3942 46990 ros-humble-autoware-shape-estimation_0-2025.07.05.16.58_amd64.buildinfo
+ e0418c5a45e2bbce37e655e92602b14300c36c54 172908 ros-humble-autoware-shape-estimation_0-2025.07.05.16.58_amd64.deb
+Checksums-Sha256:
+ 6fe083bec5ed1c7c9131a336b5c9a6770bb819dc5b1899760243c18e932b9aaa 5631844 ros-humble-autoware-shape-estimation-dbgsym_0-2025.07.05.16.58_amd64.ddeb
+ 9830fab8677e5c30e1b282f9e12e4a19402cc510123627bcb9cd868f81818082 46990 ros-humble-autoware-shape-estimation_0-2025.07.05.16.58_amd64.buildinfo
+ 56b0f34cab47493c405a9a4d6a802847160cfcc08617df17f8d6137ad4277799 172908 ros-humble-autoware-shape-estimation_0-2025.07.05.16.58_amd64.deb
+Files:
+ 86141653ae6d41244dcea35b0d615331 5631844 debug optional ros-humble-autoware-shape-estimation-dbgsym_0-2025.07.05.16.58_amd64.ddeb
+ 3831b83c2fa9935bd7d4b659cc818aa5 46990 misc optional ros-humble-autoware-shape-estimation_0-2025.07.05.16.58_amd64.buildinfo
+ 4ba7091bd26d354d08b657c5d35286d5 172908 misc optional ros-humble-autoware-shape-estimation_0-2025.07.05.16.58_amd64.deb

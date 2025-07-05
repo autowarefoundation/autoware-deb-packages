@@ -1,0 +1,92 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-bevfusion
+Binary: ros-humble-autoware-bevfusion
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.17.11
+Distribution: jammy
+Urgency: high
+Maintainer: Kenzo Lobos-Tsunekawa <kenzo.lobos@tier4.jp>
+Changed-By: Kenzo Lobos-Tsunekawa <kenzo.lobos@tier4.jp>
+Description:
+ ros-humble-autoware-bevfusion - The autoware_bevfusion package
+Changes:
+ ros-humble-autoware-bevfusion (0-2025.07.05.17.11) jammy; urgency=high
+ .
+   * chore: match all package versions
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat(autoware_tensorrt_plugins): created a package for tensorrt extensions (#10445 <https://github.com/autowarefoundation/autoware_universe/issues/10445>)
+     * feat: moved the plugins in bevfusion to a separate package since some of them will be reused
+     * doc: doc regarding the plugins and the supported ops
+     * chore: wrong upper cases
+     * chore: wrong quotes
+     * chore: fixed docs
+     ---------
+   * chore(autoware_bevfusion): add maintainer (#10444 <https://github.com/autowarefoundation/autoware_universe/issues/10444>)
+   * feat(autoware_bevfusion): implementation of bevfusion using tensorrt (#10024 <https://github.com/autowarefoundation/autoware_universe/issues/10024>)
+     * feat: moved from personal repository https://github.com/knzo25/bevfusion_ros2
+     * feat: added fp16 support. it is faster than centerpoint !
+     * chore: spells and ci/cd
+     * chore: more ci/cd
+     * chore: and yet more spells
+     * chore: more spells
+     * chore: updated the schema
+     * chore: reverted unintented change
+     * chore: added documentation
+     * chore: updated copyrights
+     * chore: ci/cd fixes
+     * chore: missed on transfusion mention in bevfusion
+     * chore: removed another mention of transfusion in the launchers
+     * chore: re enabled the standard paths for the ml models
+     * chore: replaced stream references to pass by value
+     * feat: updated bevfusion to follow https://github.com/autowarefoundation/autoware_universe/pull/9595
+     * chore: removed unused headers
+     * chore: updated cases
+     * chore: replaced the layout check in the package for the one in the autoware_point_types package
+     * chore: added meta dep
+     * fix: bug in the camera mask
+     * chore: avoided tmp objects through proper use of emplace
+     * chore: replaced nested namespaces for concatenated ones
+     * chore: made the operator a const one
+     * chore: replaced the use of boost optionals for std ones
+     * chore: added a check for empty pointclouds
+     * chore: logging macros did not require stream
+     * chore: addressed better a border condition
+     * chore: added a check for empty sweep points (can happen when individual sweeps are bigger than the buffer's capacity)
+     * chore: removed unused headers
+     * chore: replaced the computation of the number of blocks in a kernel since it was quite bad taste
+     * chore: removed unused variables from the kernel
+     * chore: forgot to apply the changes to the kernel call
+     * chore: deleted comments
+     * chore: deleted unused variable
+     * chore: added autos
+     * chore: missing period
+     * chore: improved logging
+     * Update perception/autoware_lidar_bevfusion/lib/bevfusion_trt.cpp
+     Co-authored-by: Amadeusz Szymko <mailto:amadeuszszymko@gmail.com>
+     * chore: changed the name of the package from autoware_lidar_bevfusion to autoware_bevfusion since the model has both lidar and camera_lidar modalities
+     * feat: added final config files and launchers
+     * doc: finished documentation
+     * chore: updated schemas
+     * fix: schemas
+     * fix: due to how schemas work, changed the names
+     * Update perception/autoware_bevfusion/README.md
+     Co-authored-by: Amadeusz Szymko <mailto:amadeuszszymko@gmail.com>
+     * fix: broken link
+     * chore: removed simlinks since the schema implementation matches the base name against a wildcard
+     * fix: forgot mkdown
+     * feat: added oss links
+     ---------
+     Co-authored-by: Amadeusz Szymko <mailto:amadeusz.szymko.2@tier4.jp>
+     Co-authored-by: Amadeusz Szymko <mailto:amadeuszszymko@gmail.com>
+   * Contributors: Amadeusz Szymko, Kenzo Lobos Tsunekawa, Ryohsuke Mitsudome
+Checksums-Sha1:
+ 8db77f6314a52aafea50fe10b264a16379d48f07 45931 ros-humble-autoware-bevfusion_0-2025.07.05.17.11_amd64.buildinfo
+ f38ede5db2bd145721a172264e35166fd3ec412e 16436 ros-humble-autoware-bevfusion_0-2025.07.05.17.11_amd64.deb
+Checksums-Sha256:
+ 5ff7a7f436b415391d359d0120ec85042c8c345a50363a645cd5dba847f3e7df 45931 ros-humble-autoware-bevfusion_0-2025.07.05.17.11_amd64.buildinfo
+ e47fd319a61c75b9fa5de6291531b3aa3eba988fd66288c675bb746a8c3e7482 16436 ros-humble-autoware-bevfusion_0-2025.07.05.17.11_amd64.deb
+Files:
+ b9e8536c1acb56e75f70089df989f324 45931 misc optional ros-humble-autoware-bevfusion_0-2025.07.05.17.11_amd64.buildinfo
+ 81e0eae5a2f4c8fae3714ff39901f6d0 16436 misc optional ros-humble-autoware-bevfusion_0-2025.07.05.17.11_amd64.deb

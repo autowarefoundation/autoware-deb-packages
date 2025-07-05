@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-tensorrt-plugins
+Binary: ros-humble-autoware-tensorrt-plugins
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.16.44
+Distribution: jammy
+Urgency: high
+Maintainer: Kenzo Lobos-Tsunekawa <kenzo.lobos@tier4.jp>
+Changed-By: Kenzo Lobos-Tsunekawa <kenzo.lobos@tier4.jp>
+Description:
+ ros-humble-autoware-tensorrt-plugins - The autoware_tensorrt_plugins package
+Changes:
+ ros-humble-autoware-tensorrt-plugins (0-2025.07.05.16.44) jammy; urgency=high
+ .
+   * chore: match all package versions
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat(autoware_tensorrt_plugins): created a package for tensorrt extensions (#10445 <https://github.com/autowarefoundation/autoware_universe/issues/10445>)
+     * feat: moved the plugins in bevfusion to a separate package since some of them will be reused
+     * doc: doc regarding the plugins and the supported ops
+     * chore: wrong upper cases
+     * chore: wrong quotes
+     * chore: fixed docs
+     ---------
+   * Contributors: Kenzo Lobos Tsunekawa, Ryohsuke Mitsudome
+Checksums-Sha1:
+ 285237951faa9a7dd7d2d3abd72b25ed97c1d43c 11285 ros-humble-autoware-tensorrt-plugins_0-2025.07.05.16.44_amd64.buildinfo
+ a323bcbae03cfa7bfc13f5dd45d8385e5c778f31 1512 ros-humble-autoware-tensorrt-plugins_0-2025.07.05.16.44_amd64.deb
+Checksums-Sha256:
+ 85f23e3bb03f526188683036ad0bdca22be764aafba0999579fae79a4e209055 11285 ros-humble-autoware-tensorrt-plugins_0-2025.07.05.16.44_amd64.buildinfo
+ 1275d863de84be3b8032d8205fed27b928187fcf7de2f68076885cacc608f22e 1512 ros-humble-autoware-tensorrt-plugins_0-2025.07.05.16.44_amd64.deb
+Files:
+ f593605999cc7257bd0a30bcbad6f89e 11285 misc optional ros-humble-autoware-tensorrt-plugins_0-2025.07.05.16.44_amd64.buildinfo
+ fcf28e822a5cf89196b5a58f98b5f446 1512 misc optional ros-humble-autoware-tensorrt-plugins_0-2025.07.05.16.44_amd64.deb

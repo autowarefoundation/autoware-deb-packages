@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-reaction-analyzer
+Binary: ros-humble-reaction-analyzer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.18.04
+Distribution: jammy
+Urgency: high
+Maintainer: Berkay Karaman <berkay@leodrive.ai>
+Changed-By: Berkay Karaman <berkay@leodrive.ai>
+Description:
+ ros-humble-reaction-analyzer - Analyzer that measures reaction times of the nodes
+Changes:
+ ros-humble-reaction-analyzer (0-2025.07.05.18.04) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * fix: add missing exec_depend (#10404 <https://github.com/autowarefoundation/autoware_universe/issues/10404>)
+     * fix missing exec depend
+     * remove fixed depend
+     * remove the removed dependency
+     ---------
+   * Contributors: Ryohsuke Mitsudome, Takagi, Isamu
+Checksums-Sha1:
+ 5fbcb020489f2d5e684b83f7d32f7621cf1502ae 21624574 ros-humble-reaction-analyzer-dbgsym_0-2025.07.05.18.04_amd64.ddeb
+ a4b8006949ff15292bae0c4fab7527d4c9fdc8f5 42995 ros-humble-reaction-analyzer_0-2025.07.05.18.04_amd64.buildinfo
+ cea98fb5db2f19f07d36ac8d50e236fe6bb2bdef 625050 ros-humble-reaction-analyzer_0-2025.07.05.18.04_amd64.deb
+Checksums-Sha256:
+ c39baaa8b72e4acee3896321c84d5eb3b830089a3a05b4578af85253fc728a9e 21624574 ros-humble-reaction-analyzer-dbgsym_0-2025.07.05.18.04_amd64.ddeb
+ 755b1a0a3a24031319e6e51e94e5cd57d653168e588f34f86ff2010cc78e4e4b 42995 ros-humble-reaction-analyzer_0-2025.07.05.18.04_amd64.buildinfo
+ 5985f4a1e6a1f4b90d92ea934c2b875a559a75c0af69ea773d260f026555df89 625050 ros-humble-reaction-analyzer_0-2025.07.05.18.04_amd64.deb
+Files:
+ b570fbf14e6ba4237330286dea813bab 21624574 debug optional ros-humble-reaction-analyzer-dbgsym_0-2025.07.05.18.04_amd64.ddeb
+ d717b2272f95803cc584143e802135f3 42995 misc optional ros-humble-reaction-analyzer_0-2025.07.05.18.04_amd64.buildinfo
+ 7258431397d60c1d4df21bdc8c5d9f13 625050 misc optional ros-humble-reaction-analyzer_0-2025.07.05.18.04_amd64.deb

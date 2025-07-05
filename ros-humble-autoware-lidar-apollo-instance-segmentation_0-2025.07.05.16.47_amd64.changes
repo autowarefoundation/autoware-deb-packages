@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-lidar-apollo-instance-segmentation
+Binary: ros-humble-autoware-lidar-apollo-instance-segmentation
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.16.47
+Distribution: jammy
+Urgency: high
+Maintainer: Yoshi Ri <yoshi.ri@tier4.jp>
+Changed-By: Yoshi Ri <yoshi.ri@tier4.jp>
+Description:
+ ros-humble-autoware-lidar-apollo-instance-segmentation - autoware_lidar_apollo_instance_segmentation
+Changes:
+ ros-humble-autoware-lidar-apollo-instance-segmentation (0-2025.07.05.16.47) jammy; urgency=high
+Checksums-Sha1:
+ f6d35f3b8672a96592fd9ee0c60983435da5367b 41840 ros-humble-autoware-lidar-apollo-instance-segmentation_0-2025.07.05.16.47_amd64.buildinfo
+ eaf0ef17e73dd3e2977bdf302f83fd792af9edea 7810 ros-humble-autoware-lidar-apollo-instance-segmentation_0-2025.07.05.16.47_amd64.deb
+Checksums-Sha256:
+ 95698a7ddd4281acd89945d234f9a79c7e170d8cc99e30104233ce14017594f0 41840 ros-humble-autoware-lidar-apollo-instance-segmentation_0-2025.07.05.16.47_amd64.buildinfo
+ 1c4663c748ab7d982dbd1367fb7ffa11e308f524e5c5909951306d67f507c140 7810 ros-humble-autoware-lidar-apollo-instance-segmentation_0-2025.07.05.16.47_amd64.deb
+Files:
+ c9314884421d31f7029d01a10845e5f8 41840 misc optional ros-humble-autoware-lidar-apollo-instance-segmentation_0-2025.07.05.16.47_amd64.buildinfo
+ f381a1380551579ca4548ebdd90791c1 7810 misc optional ros-humble-autoware-lidar-apollo-instance-segmentation_0-2025.07.05.16.47_amd64.deb

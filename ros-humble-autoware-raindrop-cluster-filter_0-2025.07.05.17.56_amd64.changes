@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-raindrop-cluster-filter
+Binary: ros-humble-autoware-raindrop-cluster-filter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.17.56
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-raindrop-cluster-filter - The ROS 2 filter cluster package
+Changes:
+ ros-humble-autoware-raindrop-cluster-filter (0-2025.07.05.17.56) jammy; urgency=high
+Checksums-Sha1:
+ 0ceaa21e61143bc456419249c4dfe5d44edbe73f 3165974 ros-humble-autoware-raindrop-cluster-filter-dbgsym_0-2025.07.05.17.56_amd64.ddeb
+ d3afc0375af9d95bcbad8c929e40ed1fba554f21 51802 ros-humble-autoware-raindrop-cluster-filter_0-2025.07.05.17.56_amd64.buildinfo
+ 02b50e9d6340faecd1b248815f30dbf7d26cd78a 135200 ros-humble-autoware-raindrop-cluster-filter_0-2025.07.05.17.56_amd64.deb
+Checksums-Sha256:
+ 4b410511db14a30ac62e24390f5c8d6f0327e58df66897a4460eef0230019819 3165974 ros-humble-autoware-raindrop-cluster-filter-dbgsym_0-2025.07.05.17.56_amd64.ddeb
+ e0ad21a7b97b8ad5796f89a1cdd13d148d9d1a57c69f4a4e1c33e14251d332bf 51802 ros-humble-autoware-raindrop-cluster-filter_0-2025.07.05.17.56_amd64.buildinfo
+ eba6ff6138ac4e4106bc442742077e43dadc2469149b32988aff60241522ea36 135200 ros-humble-autoware-raindrop-cluster-filter_0-2025.07.05.17.56_amd64.deb
+Files:
+ 33f4616cd2bdb34351d5ea7c58b29ed8 3165974 debug optional ros-humble-autoware-raindrop-cluster-filter-dbgsym_0-2025.07.05.17.56_amd64.ddeb
+ d6a623e2727da3ad4fa4e6094832552b 51802 misc optional ros-humble-autoware-raindrop-cluster-filter_0-2025.07.05.17.56_amd64.buildinfo
+ 53c0b175f5c151d9ac648d75b697306d 135200 misc optional ros-humble-autoware-raindrop-cluster-filter_0-2025.07.05.17.56_amd64.deb

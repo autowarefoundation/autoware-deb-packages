@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-detected-object-validation
+Binary: ros-humble-autoware-detected-object-validation
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.17.47
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-detected-object-validation - The ROS 2 detected_object_validation package
+Changes:
+ ros-humble-autoware-detected-object-validation (0-2025.07.05.17.47) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat: reduce warn log frequency (#10414 <https://github.com/autowarefoundation/autoware_universe/issues/10414>)
+     * feat: limit warning message frequency to 3.0 sec
+     * refactor: use THROTTLE ERROR macro
+     fix: reduce code complexity
+     ---------
+     Co-authored-by: Jian Kang <mailto:jian.kang@tier4.jp>
+   * Contributors: Kang, Ryohsuke Mitsudome
+Checksums-Sha1:
+ b0df9b6dc5af71ca401cf70295f9416937f8a9bb 22740444 ros-humble-autoware-detected-object-validation-dbgsym_0-2025.07.05.17.47_amd64.ddeb
+ 8b70d6ecb39f5bca7718132f7e78a0942bd959f3 46856 ros-humble-autoware-detected-object-validation_0-2025.07.05.17.47_amd64.buildinfo
+ f5dd73f2aa88fee56a76fabc69b86747fec29a3c 674846 ros-humble-autoware-detected-object-validation_0-2025.07.05.17.47_amd64.deb
+Checksums-Sha256:
+ 8bfbd0ab2dd6320461124b907e031c2257cea0e00e1e984298faf735b482a526 22740444 ros-humble-autoware-detected-object-validation-dbgsym_0-2025.07.05.17.47_amd64.ddeb
+ d102d2f7f6dc4de3649b3eee2a3cda39c9bf00a48f2c39eb4e227a74f4d07b60 46856 ros-humble-autoware-detected-object-validation_0-2025.07.05.17.47_amd64.buildinfo
+ f1f013d2e20008c323bfbe8f98fd841431b7af6a50dac25c386e84161fb19277 674846 ros-humble-autoware-detected-object-validation_0-2025.07.05.17.47_amd64.deb
+Files:
+ 4059739e4a1af58b0e5dfe05d3babd6e 22740444 debug optional ros-humble-autoware-detected-object-validation-dbgsym_0-2025.07.05.17.47_amd64.ddeb
+ d316f5ea94e19a85950e12e744c9c837 46856 misc optional ros-humble-autoware-detected-object-validation_0-2025.07.05.17.47_amd64.buildinfo
+ ffcc45df059a51d9f70b92ff27c74ed8 674846 misc optional ros-humble-autoware-detected-object-validation_0-2025.07.05.17.47_amd64.deb

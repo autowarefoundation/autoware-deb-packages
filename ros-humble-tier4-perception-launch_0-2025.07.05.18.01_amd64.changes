@@ -1,0 +1,71 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-tier4-perception-launch
+Binary: ros-humble-tier4-perception-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.18.01
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-tier4-perception-launch - The tier4_perception_launch package
+Changes:
+ ros-humble-tier4-perception-launch (0-2025.07.05.18.01) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat(perception_launch): add common param path for transfusion (#10434 <https://github.com/autowarefoundation/autoware_universe/issues/10434>)
+     add common_param_path
+     Co-authored-by: Taekjin LEE <mailto:taekjin.lee@tier4.jp>
+   * fix: add missing exec_depend (#10404 <https://github.com/autowarefoundation/autoware_universe/issues/10404>)
+     * fix missing exec depend
+     * remove fixed depend
+     * remove the removed dependency
+     ---------
+   * feat(perception_launch): add common param file (#10396 <https://github.com/autowarefoundation/autoware_universe/issues/10396>)
+     add common param
+   * fix: add irregular object detector pipeline (#10369 <https://github.com/autowarefoundation/autoware_universe/issues/10369>)
+     * feat: add small unknown object detector pipeline
+     * chore: rename param
+     * refactor: camera lidar detector launch.xml
+     * chore: change default fusion camera ids
+     * fix: camera_lidar_detector launch
+     * fix: update rois_timestamp_offsets param name
+     * chore: pre-commit
+     * fix: spelling
+     * separete unknown pipeline
+     * style(pre-commit): autofix
+     * fix: sync param
+     * fix: change to simple object merger
+     * fix: fusion param
+     * refactor: change file name
+     * refactor: rename topic and ns
+     * chore: unify naming
+     * refactor cameara lidar merger
+     * fix: camera_lidar_radar merger
+     * style(pre-commit): autofix
+     * refactor: image_topic_name
+     * refactor: param path update
+     * fix: irregular object switch
+     * fix: missing param
+     * fix: missing param
+     * fix: move roi_pointcloud_fusion out of container
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * chore(perception): code owner revision (#10358 <https://github.com/autowarefoundation/autoware_universe/issues/10358>)
+     * feat: add Masato Saeki and Taekjin Lee as maintainer to multiple package.xml files
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * fix(roi_pointcloud_fusion): merge into pointcloud container (#10334 <https://github.com/autowarefoundation/autoware_universe/issues/10334>)
+   * Contributors: Masaki Baba, Ryohsuke Mitsudome, Taekjin LEE, Takagi, Isamu, badai nguyen
+Checksums-Sha1:
+ 5dbb939e1110f78bacdf5e5bc68610219c177d4d 10748 ros-humble-tier4-perception-launch_0-2025.07.05.18.01_amd64.buildinfo
+ 783032d1f9cc021318faa46f786dc110ad1fa68a 44584 ros-humble-tier4-perception-launch_0-2025.07.05.18.01_amd64.deb
+Checksums-Sha256:
+ 391028e5b935a5757753d3f2dce2bb083d2b7ec9af1f531eddd90d87397c25d7 10748 ros-humble-tier4-perception-launch_0-2025.07.05.18.01_amd64.buildinfo
+ 971ff9854c5475488ad8eea25bd80d112e4d3d0aedbc0e86fb0be4ad6dae9c9a 44584 ros-humble-tier4-perception-launch_0-2025.07.05.18.01_amd64.deb
+Files:
+ 9726a692b35bfd76798af3b3ed4896b3 10748 misc optional ros-humble-tier4-perception-launch_0-2025.07.05.18.01_amd64.buildinfo
+ 5af543f96883adedcab835d3e2f08148 44584 misc optional ros-humble-tier4-perception-launch_0-2025.07.05.18.01_amd64.deb

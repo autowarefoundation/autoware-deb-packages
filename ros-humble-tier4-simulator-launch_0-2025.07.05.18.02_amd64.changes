@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-tier4-simulator-launch
+Binary: ros-humble-tier4-simulator-launch
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.18.02
+Distribution: jammy
+Urgency: high
+Maintainer: Keisuke Shima <keisuke.shima@tier4.jp>
+Changed-By: Keisuke Shima <keisuke.shima@tier4.jp>
+Description:
+ ros-humble-tier4-simulator-launch - The tier4_simulator_launch package
+Changes:
+ ros-humble-tier4-simulator-launch (0-2025.07.05.18.02) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat(tier4_simulator_launch): remove exec_depend on autoware_launch (#10415 <https://github.com/autowarefoundation/autoware_universe/issues/10415>)
+   * Contributors: Ryohsuke Mitsudome, Takagi, Isamu
+Checksums-Sha1:
+ 0819e74a3fef8196dfdb8a97a5646438905f5e0f 10743 ros-humble-tier4-simulator-launch_0-2025.07.05.18.02_amd64.buildinfo
+ 262d6fa3c655c09c3875a1045341fdb8333beace 14514 ros-humble-tier4-simulator-launch_0-2025.07.05.18.02_amd64.deb
+Checksums-Sha256:
+ 7a71f7117d74011e3fbb61e715873cc18fc4ff16203956c8f4f6434cc6850312 10743 ros-humble-tier4-simulator-launch_0-2025.07.05.18.02_amd64.buildinfo
+ 3fb61a9aaf61d7c511816d0d5fc2c35cc28ea30fdc23101d509ab56db12199a3 14514 ros-humble-tier4-simulator-launch_0-2025.07.05.18.02_amd64.deb
+Files:
+ 3b5ebefbb908e1a5cd1d9373d937c883 10743 misc optional ros-humble-tier4-simulator-launch_0-2025.07.05.18.02_amd64.buildinfo
+ e012a55e966684f913fa780ebccc1a0f 14514 misc optional ros-humble-tier4-simulator-launch_0-2025.07.05.18.02_amd64.deb

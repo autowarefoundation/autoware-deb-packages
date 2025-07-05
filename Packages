@@ -1,0 +1,600 @@
+Package: ros-humble-autoware-bevfusion
+Architecture: amd64
+Version: 0-2025.07.05.17.11
+Priority: optional
+Section: misc
+Maintainer: Kenzo Lobos-Tsunekawa <kenzo.lobos@tier4.jp>
+Installed-Size: 111
+Depends: ros-humble-autoware-cuda-dependency-meta, ros-humble-autoware-cuda-utils, ros-humble-autoware-image-transport-decompressor, ros-humble-autoware-object-recognition-utils, ros-humble-autoware-perception-msgs, ros-humble-autoware-point-types, ros-humble-autoware-tensorrt-common, ros-humble-autoware-tensorrt-plugins, ros-humble-autoware-universe-utils, ros-humble-cuda-blackboard, ros-humble-launch-ros, ros-humble-pcl-ros, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-tf2-eigen, ros-humble-tf2-geometry-msgs, ros-humble-tf2-sensor-msgs
+Filename: ./ros-humble-autoware-bevfusion_0-2025.07.05.17.11_amd64.deb
+Size: 16436
+MD5sum: 81e0eae5a2f4c8fae3714ff39901f6d0
+SHA1: f38ede5db2bd145721a172264e35166fd3ec412e
+SHA256: e47fd319a61c75b9fa5de6291531b3aa3eba988fd66288c675bb746a8c3e7482
+SHA512: 9221aac626bb69654ee4cb18ee6bd4e25c412d47e8763640e761dc2a4e10eaffff7b0512be4176e7b0c7df783264c4122db452054b8d7341843881167b5f8db7
+Description: The autoware_bevfusion package
+
+Package: ros-humble-autoware-bytetrack-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2025.07.05.16.38
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-autoware-bytetrack
+Maintainer: Manato HIRABAYASHI <manato.hirabayashi@tier4.jp>
+Installed-Size: 8888
+Depends: ros-humble-autoware-bytetrack (= 0-2025.07.05.16.38)
+Filename: ./ros-humble-autoware-bytetrack-dbgsym_0-2025.07.05.16.38_amd64.ddeb
+Size: 7775390
+MD5sum: 668f5764f52bb8f448405672d3710b4a
+SHA1: e1f7477bee02f71e70b07db23cc681fd0abbfc6f
+SHA256: a19b3b5e576632c20ace74a932c1ffebed5e14ba4056509ff9995b875b6496ea
+SHA512: b0b14471a686a805961a45e1f6f681d5fc21474824cfea9eb362217575a4f347dd83cf503ad8638fc3dacfd7cff717b6bb40e10a4e614dbe25edb7ee0b78f5f5
+Description: debug symbols for ros-humble-autoware-bytetrack
+Build-Ids: 0909bc799916a214658ca24e162487c5ce8c4c9c 3a97d7a62b670ee02bf091e73877d223ef8f734e 9957851b15131e7a4d75328b86ba5fc58f061a0f a9a875a9ba3fea58cf4848db4f77f257643b3874 e3dd5bcd6bccb2ae6f6d2e0b7bbd151558dc83cb e4cdd5bb91dc836798c5078acc6d045233882a61
+
+Package: ros-humble-autoware-bytetrack
+Architecture: amd64
+Version: 0-2025.07.05.16.38
+Priority: optional
+Section: misc
+Maintainer: Manato HIRABAYASHI <manato.hirabayashi@tier4.jp>
+Installed-Size: 1639
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-highgui4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libopencv-stitching4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libboost-system-dev, libeigen3-dev, libopencv-dev, libyaml-cpp-dev, ros-humble-autoware-cuda-dependency-meta, ros-humble-autoware-cuda-utils, ros-humble-autoware-kalman-filter, ros-humble-autoware-perception-msgs, ros-humble-autoware-tensorrt-common, ros-humble-cudnn-cmake-module, ros-humble-cv-bridge, ros-humble-image-transport, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-tensorrt-cmake-module, ros-humble-tier4-perception-msgs
+Filename: ./ros-humble-autoware-bytetrack_0-2025.07.05.16.38_amd64.deb
+Size: 302140
+MD5sum: 456723536e8c22af53a4518844e4d65c
+SHA1: 12777faba7ee3da1b2bbded8fa255388be7f0de0
+SHA256: c38d070eed96c65499c86a0ead891dd14efe859d8859d86a0e09a1526c30d79a
+SHA512: eaa2cfb8c0c344c6397c532511ae20134bb3e6d908ec0690280ee31be5698064937ca8523554c087da5624628bcdb97c211eb3ffadc75bb454bdb1567c6648ca
+Description: ByteTrack implementation ported toward Autoware
+
+Package: ros-humble-autoware-cuda-pointcloud-preprocessor
+Architecture: amd64
+Version: 0-2025.07.05.17.15
+Priority: optional
+Section: misc
+Maintainer: Kenzo Lobos-Tsunekawa <kenzo.lobos@tier4.jp>
+Installed-Size: 9
+Depends: ros-humble-autoware-cuda-dependency-meta, ros-humble-autoware-point-types, ros-humble-autoware-pointcloud-preprocessor, ros-humble-autoware-universe-utils, ros-humble-cuda-blackboard, ros-humble-diagnostic-msgs, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-tf2, ros-humble-tf2-msgs, ros-humble-tier4-debug-msgs
+Filename: ./ros-humble-autoware-cuda-pointcloud-preprocessor_0-2025.07.05.17.15_amd64.deb
+Size: 2654
+MD5sum: 49ecf160c5f791f9bbc6c01e2a55feb7
+SHA1: d3302e1cfd2680416aa2d483f0c4365356fd79de
+SHA256: dad5492507d772cd41fd8a2fa8c78a9160319d01cd12081e49ea97804c73350b
+SHA512: 43a3646f642d2376d991f52ff7c66891cac194104caf81aad7ad30c25b629809e1699f86303e92ae5d022726820573ce4164e59cdee07df3c9722a2c7e01d622
+Description: autoware_cuda_pointcloud_preprocessor
+
+Package: ros-humble-autoware-cuda-utils
+Architecture: amd64
+Version: 0-2025.07.05.16.38
+Priority: optional
+Section: misc
+Maintainer: Manato Hirabayashi <manato.hirabayashi@tier4.jp>
+Installed-Size: 10
+Depends: ros-humble-autoware-cuda-dependency-meta
+Filename: ./ros-humble-autoware-cuda-utils_0-2025.07.05.16.38_amd64.deb
+Size: 3188
+MD5sum: 27d8fb152747490dc503721f2e670535
+SHA1: 4c6f5d24d322df8fd488f596729935f9680ff5ee
+SHA256: fb8a96777f4c252135e59a9fda6d73d673d0c188d9694f7f8960bc4271341cf1
+SHA512: 9cad17b2f48d234b97cb0407d794086c24bae165f32410a7d26ac1e619170df6aaf072d1a16af43b91531d828d2294dfbe3c5adc323cf105144baddc75c2316b
+Description: cuda utility library
+
+Package: ros-humble-autoware-detected-object-validation-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2025.07.05.17.47
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-autoware-detected-object-validation
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Installed-Size: 25679
+Depends: ros-humble-autoware-detected-object-validation (= 0-2025.07.05.17.47)
+Filename: ./ros-humble-autoware-detected-object-validation-dbgsym_0-2025.07.05.17.47_amd64.ddeb
+Size: 22740444
+MD5sum: 4059739e4a1af58b0e5dfe05d3babd6e
+SHA1: b0df9b6dc5af71ca401cf70295f9416937f8a9bb
+SHA256: 8bfbd0ab2dd6320461124b907e031c2257cea0e00e1e984298faf735b482a526
+SHA512: 1de9a69af2620985b460347d05770871a84d571e4048547dad7f9597c918af3b68f437cacf61b10ce5eda88ae492fe1b5e95f3b43efa3f583b48aef5fd220ec4
+Description: debug symbols for ros-humble-autoware-detected-object-validation
+Build-Ids: 017515b67756c53ce5f1fdd718f492a465492f19 65586551e96c5a64c9637be1e88ac8efb1cce8e4 681e056d354a29e8fb68c945d11ee4a394e4496e c0c07074e1a9a6ec7ba8ff3e013d54075e885434 c182705ecbce91debdca37e378bda2fe3e03ee05 df050f5a7042d0605319c4e58e7207e332dfe959 e2b7a739e2ef2b6a0a2faf7ed309a1f326a72e2b effee80f035fb587a1e824d74abd90b284e1c173
+
+Package: ros-humble-autoware-detected-object-validation
+Architecture: amd64
+Version: 0-2025.07.05.17.47
+Priority: optional
+Section: misc
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Installed-Size: 3933
+Depends: libc6 (>= 2.35), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-highgui4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libopencv-stitching4.5d (>= 4.5.4+dfsg), libpcl-common1.12 (>= 1.12.1+dfsg), libpcl-filters1.12 (>= 1.12.1+dfsg), libpcl-search1.12 (>= 1.12.1+dfsg), libstdc++6 (>= 11), ros-humble-lanelet2-core, ros-humble-autoware-lanelet2-extension, ros-humble-autoware-map-msgs, ros-humble-autoware-object-recognition-utils, ros-humble-autoware-perception-msgs, ros-humble-autoware-probabilistic-occupancy-grid-map, ros-humble-autoware-test-utils, ros-humble-autoware-utils, ros-humble-message-filters, ros-humble-nav-msgs, ros-humble-pcl-conversions, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros
+Filename: ./ros-humble-autoware-detected-object-validation_0-2025.07.05.17.47_amd64.deb
+Size: 674846
+MD5sum: ffcc45df059a51d9f70b92ff27c74ed8
+SHA1: f5dd73f2aa88fee56a76fabc69b86747fec29a3c
+SHA256: f1f013d2e20008c323bfbe8f98fd841431b7af6a50dac25c386e84161fb19277
+SHA512: e3d31339b5ad3fa921a92f2226105107c86beadf161e8f2e0c40e6b2f32f9bb5d6b425a46de9669fb36166820e9989b0fcf62c01d3b9fbddfc969b3d65a754b8
+Description: The ROS 2 detected_object_validation package
+
+Package: ros-humble-autoware-detection-by-tracker-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2025.07.05.17.19
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-autoware-detection-by-tracker
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Installed-Size: 8092
+Depends: ros-humble-autoware-detection-by-tracker (= 0-2025.07.05.17.19)
+Filename: ./ros-humble-autoware-detection-by-tracker-dbgsym_0-2025.07.05.17.19_amd64.ddeb
+Size: 7362720
+MD5sum: 4690f19d6a088985f4f437a87978d480
+SHA1: d77b104d7ad2bfec2f227c3c07fb2d584be30202
+SHA256: f0227f9d7575faa14079bb88f6d7292fe5c1e05b3cbd401fd61081f29d8f6946
+SHA512: 0a7689444495c6a6b382ec86bf959e0ce94e19b792392393c515e3d2ee46f72c85ec5c9a58ffd1608c7117f92096b047ba4234c60a073ff8495aa78977675be2
+Description: debug symbols for ros-humble-autoware-detection-by-tracker
+Build-Ids: 55dc2053ac60037326f9c2050bbed1fe82f73691 b372ec2ff20c8a19110b69de27a7531f2181d018
+
+Package: ros-humble-autoware-detection-by-tracker
+Architecture: amd64
+Version: 0-2025.07.05.17.19
+Priority: optional
+Section: misc
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Installed-Size: 1194
+Depends: libc6 (>= 2.35), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libpcl-common1.12 (>= 1.12.1+dfsg), libpcl-filters1.12 (>= 1.12.1+dfsg), libstdc++6 (>= 11), libeigen3-dev, ros-humble-autoware-euclidean-cluster, ros-humble-autoware-object-recognition-utils, ros-humble-autoware-shape-estimation, ros-humble-autoware-utils, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-tf2, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros, ros-humble-tier4-perception-msgs
+Filename: ./ros-humble-autoware-detection-by-tracker_0-2025.07.05.17.19_amd64.deb
+Size: 283450
+MD5sum: 8d6af38cc8b98d3f24969b39ad962e1e
+SHA1: ebb636961195ab77a0a189e200f63928d830af28
+SHA256: 99fe95898a4f7d2bb90f3dc5038aee2fdd5438a00a3f3f2f99f4fc2761729cd8
+SHA512: 6380d29c98a7d78e2c6fcea07d4d5596ae86e58f2bf5d165210f6b291d2905bc8a47ff72e1ae78dfa6cbc5ab28b8f3b14050b97e3ccf618398c1841fb5fa2cdd
+Description: The ROS 2 autoware_detection_by_tracker package
+
+Package: ros-humble-autoware-dummy-perception-publisher-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2025.07.05.17.24
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-autoware-dummy-perception-publisher
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Installed-Size: 5102
+Depends: ros-humble-autoware-dummy-perception-publisher (= 0-2025.07.05.17.24)
+Filename: ./ros-humble-autoware-dummy-perception-publisher-dbgsym_0-2025.07.05.17.24_amd64.ddeb
+Size: 4615262
+MD5sum: 48da8b4c10584c9a71e987fdccfe9e1e
+SHA1: e7abb8757a9ee41b45617b3f166e062254d11d8b
+SHA256: 349e2ca605bd67dc1ba563cbdc92bf3c0afee2faedab08dad296d7b6e6c242af
+SHA512: be73b808489812fd6da2531306d3fe272e5ec7cb862a11b5215bd773fed646fc0ea49da523e560159dfd04e4deb099dd66455c9ce0f5b5f46c51a2289d8884bd
+Description: debug symbols for ros-humble-autoware-dummy-perception-publisher
+Build-Ids: 035959c47bcdc08d38eec226af75c56211bef533 6a9d9bcb165b361fbeee62978ac0ff5c792b0887 7c2a7b02107efbb9e54394d96f555628ead56e92
+
+Package: ros-humble-autoware-dummy-perception-publisher
+Architecture: amd64
+Version: 0-2025.07.05.17.24
+Priority: optional
+Section: misc
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Installed-Size: 691
+Depends: libc6 (>= 2.35), libgcc-s1 (>= 3.3.1), libpcl-common1.12 (>= 1.12.1+dfsg), libpcl-filters1.12 (>= 1.12.1+dfsg), libstdc++6 (>= 11), libpcl-dev, ros-humble-autoware-detected-object-feature-remover, ros-humble-autoware-perception-msgs, ros-humble-autoware-shape-estimation, ros-humble-autoware-utils, ros-humble-pcl-conversions, ros-humble-rclcpp, ros-humble-rosidl-default-runtime, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-tf2, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros, ros-humble-tier4-perception-msgs, ros-humble-tier4-simulation-msgs
+Filename: ./ros-humble-autoware-dummy-perception-publisher_0-2025.07.05.17.24_amd64.deb
+Size: 192632
+MD5sum: 1a31363fac40a496dde025be833952fd
+SHA1: 17d21539007ec382777070009a550494d90cf8c9
+SHA256: decc0ba48583038bb15b75c0e48e6b28915d0af578bbd8358854cb8a2f9209e7
+SHA512: 135c11d2ef6031ef977db99a90a45de87aea40dddcaf95c5fbb3dd35ae359695c8b6011e9694cd5832ba7eaf0fab6cd4dee11ad90bc05f30742372a08a5afec0
+Description: The autoware_dummy_perception_publisher package
+
+Package: ros-humble-autoware-image-projection-based-fusion-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2025.07.05.17.32
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-autoware-image-projection-based-fusion
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Installed-Size: 21023
+Depends: ros-humble-autoware-image-projection-based-fusion (= 0-2025.07.05.17.32)
+Filename: ./ros-humble-autoware-image-projection-based-fusion-dbgsym_0-2025.07.05.17.32_amd64.ddeb
+Size: 18504050
+MD5sum: de3e22ed113b69744cbd984d10264e75
+SHA1: 65c321aec589b0589ad01295845987fc656301d1
+SHA256: b488ca6256d0ca528fd177f52ddc82fe55d7bdfdd6def15fa141de0876f948bf
+SHA512: ddb83326f754dc1515c33736c9bb76170ad1da8ab8764d856438e4d957482b35aeec4b80e843475afd8b94ade7723557a7bcb7ba98f2a42d806e12519fd15971
+Description: debug symbols for ros-humble-autoware-image-projection-based-fusion
+Build-Ids: 13862df201e6ef8e9a4e6173c2b61def27866fbe 7d5785596b7cbac05f142d13f61a01b9e9c64f75 bec8e9db0a8c2b9d4ba948724a5bc3079e934475 d3575b08178b45b63f0a3df7f9b1ca42d47b3cfb f4a55955dd01e98c6060bd768c2e9cd4132772b8
+
+Package: ros-humble-autoware-image-projection-based-fusion
+Architecture: amd64
+Version: 0-2025.07.05.17.32
+Priority: optional
+Section: misc
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Installed-Size: 3145
+Depends: libc6 (>= 2.35), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libopencv-stitching4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), ros-humble-autoware-cuda-dependency-meta, ros-humble-autoware-euclidean-cluster, ros-humble-autoware-internal-debug-msgs, ros-humble-autoware-lidar-centerpoint, ros-humble-autoware-object-recognition-utils, ros-humble-autoware-perception-msgs, ros-humble-autoware-point-types, ros-humble-autoware-utils, ros-humble-cv-bridge, ros-humble-diagnostic-msgs, ros-humble-diagnostic-updater, ros-humble-image-geometry, ros-humble-image-transport, ros-humble-message-filters, ros-humble-perception-utils, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-tf2-eigen, ros-humble-tf2-ros, ros-humble-tf2-sensor-msgs, ros-humble-tier4-perception-msgs
+Filename: ./ros-humble-autoware-image-projection-based-fusion_0-2025.07.05.17.32_amd64.deb
+Size: 475608
+MD5sum: 5e913a52c26139164451dde8f5f4412c
+SHA1: 86499d2596a3da69908b10bc25e44a8ccae0c5e7
+SHA256: 80daaafa0ba1debdff9838c2a4374e427becca8bd910253352c1e605ed1a202b
+SHA512: daf6402bccf2b8c85833db3c9329ead5a78f7eefac7bad94c726a26e4e5f5c09a1a252cbf8c17776df04eddf2c46c17d537316b0286bb3d8e09aa5a570f0b5b6
+Description: The autoware_image_projection_based_fusion package
+
+Package: ros-humble-autoware-launch
+Architecture: amd64
+Version: 0-2025.07.05.18.03
+Priority: optional
+Section: misc
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Installed-Size: 1766
+Depends: python3-bson, python3-tornado, ros-humble-autoware-adapi-adaptors, ros-humble-autoware-global-parameter-loader, ros-humble-rviz2, ros-humble-tier4-autoware-api-launch, ros-humble-tier4-control-launch, ros-humble-tier4-localization-launch, ros-humble-tier4-map-launch, ros-humble-tier4-perception-launch, ros-humble-tier4-planning-launch, ros-humble-tier4-sensing-launch, ros-humble-tier4-simulator-launch, ros-humble-tier4-system-launch, ros-humble-tier4-vehicle-launch
+Filename: ./ros-humble-autoware-launch_0-2025.07.05.18.03_amd64.deb
+Size: 167364
+MD5sum: ab53b5f58b80957d29bd9a17f787ce6f
+SHA1: fcb882aab62fdb1b9737d0e41eeb012fa3f425a8
+SHA256: c36650d3a60bde3c17035faf32280c3757dc1f96406a1344a7a39a22e9085823
+SHA512: bcd7c79f5b25ab5c59aa83c0bb5243eeadd5ac302281e150d186d19c8113e19dc8056afc6da0281abd8751ff63a1c86b117b82a0005d2b5101b5958a34b68e2f
+Description: The autoware_launch package
+
+Package: ros-humble-autoware-lidar-apollo-instance-segmentation
+Architecture: amd64
+Version: 0-2025.07.05.16.47
+Priority: optional
+Section: misc
+Maintainer: Yoshi Ri <yoshi.ri@tier4.jp>
+Installed-Size: 46
+Depends: libpcl-dev, ros-humble-autoware-cuda-dependency-meta, ros-humble-autoware-cuda-utils, ros-humble-autoware-internal-debug-msgs, ros-humble-autoware-perception-msgs, ros-humble-autoware-tensorrt-common, ros-humble-autoware-utils, ros-humble-pcl-conversions, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-tf2-eigen, ros-humble-tier4-perception-msgs
+Filename: ./ros-humble-autoware-lidar-apollo-instance-segmentation_0-2025.07.05.16.47_amd64.deb
+Size: 7810
+MD5sum: f381a1380551579ca4548ebdd90791c1
+SHA1: eaf0ef17e73dd3e2977bdf302f83fd792af9edea
+SHA256: 1c4663c748ab7d982dbd1367fb7ffa11e308f524e5c5909951306d67f507c140
+SHA512: ed149f08f6bc36e48ff20246ea908494f71266c3a9cb84afebef1af99668f423d6c7b5ba4b4790b88dd11a9405c467c4e0b71cee86f60e233c02b506d77cc3d0
+Description: autoware_lidar_apollo_instance_segmentation
+
+Package: ros-humble-autoware-lidar-centerpoint
+Architecture: amd64
+Version: 0-2025.07.05.16.50
+Priority: optional
+Section: misc
+Maintainer: Kenzo Lobos-Tsunekawa <kenzo.lobos@tier4.jp>
+Installed-Size: 102
+Depends: ros-humble-autoware-cuda-dependency-meta, ros-humble-autoware-object-recognition-utils, ros-humble-autoware-perception-msgs, ros-humble-autoware-tensorrt-common, ros-humble-autoware-utils, ros-humble-cuda-blackboard, ros-humble-pcl-ros, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-tf2-eigen, ros-humble-tf2-geometry-msgs, ros-humble-tf2-sensor-msgs
+Filename: ./ros-humble-autoware-lidar-centerpoint_0-2025.07.05.16.50_amd64.deb
+Size: 17942
+MD5sum: 35aaaba2e74fe74301ba9db222b21359
+SHA1: 1a258da37001f62869ac8b8b1aef6d946d3ff507
+SHA256: c863234c7543859d4c85f79cf8fa4f1ef429cdf8bcadb7b4083fac0639dd0a2b
+SHA512: e579b4135fca9b723c53ff45c9b77512c1b0cf81c01906db55ca44d15346c0b1563e6366ac5102a154efdb5ddbad076180fbdc66d2bdb4780ca2b4d8fddfe358
+Description: The autoware_lidar_centerpoint package
+
+Package: ros-humble-autoware-lidar-transfusion
+Architecture: amd64
+Version: 0-2025.07.05.16.54
+Priority: optional
+Section: misc
+Maintainer: Amadeusz Szymko <amadeusz.szymko.2@tier4.jp>
+Installed-Size: 107
+Depends: ros-humble-autoware-cuda-dependency-meta, ros-humble-autoware-object-recognition-utils, ros-humble-autoware-perception-msgs, ros-humble-autoware-point-types, ros-humble-autoware-tensorrt-common, ros-humble-autoware-utils, ros-humble-cuda-blackboard, ros-humble-launch-ros, ros-humble-pcl-ros, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-tf2-eigen, ros-humble-tf2-geometry-msgs, ros-humble-tf2-sensor-msgs
+Filename: ./ros-humble-autoware-lidar-transfusion_0-2025.07.05.16.54_amd64.deb
+Size: 17792
+MD5sum: f20d0316f0e8455256f21b2afcbb222c
+SHA1: 3c8efdc9a9f85a234a67aea82cfc629574576c5a
+SHA256: e5ed61efc43e6fb82b33ac9edf0364dfcc45c92b86cb0298df9e18322a30d006
+SHA512: f8f50b27d48ff5430e28a44662425b7ab396d7c0106b3d593e83e0e03617cca92147ed9028feb954e66547a2235b0259705c9edbae721cc402b30d5f77c9875b
+Description: The lidar_transfusion package
+
+Package: ros-humble-autoware-probabilistic-occupancy-grid-map-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2025.07.05.17.38
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-autoware-probabilistic-occupancy-grid-map
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Installed-Size: 8511
+Depends: ros-humble-autoware-probabilistic-occupancy-grid-map (= 0-2025.07.05.17.38)
+Filename: ./ros-humble-autoware-probabilistic-occupancy-grid-map-dbgsym_0-2025.07.05.17.38_amd64.ddeb
+Size: 7825802
+MD5sum: 23855df00e5419385c03a2d1002b6481
+SHA1: 2384339dc6c177d42095ca584d416246a8b404d0
+SHA256: 8903aabedca6d717d573e874113036dc194a923cc66af42ce67e0653d72fd2f7
+SHA512: 39ef1ed36133e95cd460525d80105ffb80eb5403f9a256d61c1a66df2daccdf81bf95bd7034559c9b3cb1a3bad5596b102f2b3fd795944bea635032ba24cd72a
+Description: debug symbols for ros-humble-autoware-probabilistic-occupancy-grid-map
+Build-Ids: a2a0cdc98b3aa5d1a7a24047eb78ac60cd95e36a b64b4cd4f576666a1a42947ca296d75f85576feb c960efcf6cd981a02f8091fac1563ead08861d53
+
+Package: ros-humble-autoware-probabilistic-occupancy-grid-map
+Architecture: amd64
+Version: 0-2025.07.05.17.38
+Priority: optional
+Section: misc
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Installed-Size: 1294
+Depends: libc6 (>= 2.35), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libpcl-common1.12 (>= 1.12.1+dfsg), libstdc++6 (>= 11), ros-humble-autoware-cuda-dependency-meta, ros-humble-autoware-cuda-utils, ros-humble-autoware-pointcloud-preprocessor, ros-humble-autoware-utils, ros-humble-grid-map-costmap-2d, ros-humble-grid-map-msgs, ros-humble-grid-map-ros, ros-humble-laser-geometry, ros-humble-message-filters, ros-humble-nav-msgs, ros-humble-nav2-costmap-2d, ros-humble-pcl-ros, ros-humble-pointcloud-to-laserscan, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-tf2-eigen, ros-humble-tf2-ros, ros-humble-tf2-sensor-msgs
+Filename: ./ros-humble-autoware-probabilistic-occupancy-grid-map_0-2025.07.05.17.38_amd64.deb
+Size: 237650
+MD5sum: b4e55668b84cdd2432c6d92ba6c1109c
+SHA1: 18ac2484a5f1d170f1e968eaa0db07ee994773a5
+SHA256: 3d0535e0f1a0a029b0278c2fec2bfd103c07364431a652e88873f032ba81a878
+SHA512: 4d6ce7104697d9e95b929c58a528ca107f8cbc4f06d8c05499fa9463348fed135ece7b6745aa83825f449efb3ae76699b7c32e37babaf726e3495c39fc885afd
+Description: generate probabilistic occupancy grid map
+
+Package: ros-humble-autoware-raindrop-cluster-filter-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2025.07.05.17.56
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-autoware-raindrop-cluster-filter
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Installed-Size: 3560
+Depends: ros-humble-autoware-raindrop-cluster-filter (= 0-2025.07.05.17.56)
+Filename: ./ros-humble-autoware-raindrop-cluster-filter-dbgsym_0-2025.07.05.17.56_amd64.ddeb
+Size: 3165974
+MD5sum: 33f4616cd2bdb34351d5ea7c58b29ed8
+SHA1: 0ceaa21e61143bc456419249c4dfe5d44edbe73f
+SHA256: 4b410511db14a30ac62e24390f5c8d6f0327e58df66897a4460eef0230019819
+SHA512: 35d67defe314f1a3f1a01cfb4114e8f7802fe870ef14e4e68cf76789305d9464c31e31764a5a249e251787c755580feb98bcfa0de8096ac983c1f0d07ef5a408
+Description: debug symbols for ros-humble-autoware-raindrop-cluster-filter
+Build-Ids: 2af697d9c0c696986bedefe34264f81e95b9bee9 b4a74af7d24088b5185bbe21c061475e0664e178
+
+Package: ros-humble-autoware-raindrop-cluster-filter
+Architecture: amd64
+Version: 0-2025.07.05.17.56
+Priority: optional
+Section: misc
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Installed-Size: 625
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-autoware-detected-object-validation, ros-humble-autoware-lanelet2-extension, ros-humble-autoware-perception-msgs, ros-humble-autoware-point-types, ros-humble-autoware-utils, ros-humble-message-filters, ros-humble-nav-msgs, ros-humble-pcl-conversions, ros-humble-pcl-ros, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-tf2, ros-humble-tf2-eigen, ros-humble-tf2-ros, ros-humble-tier4-perception-msgs
+Filename: ./ros-humble-autoware-raindrop-cluster-filter_0-2025.07.05.17.56_amd64.deb
+Size: 135200
+MD5sum: 53c0b175f5c151d9ac648d75b697306d
+SHA1: 02b50e9d6340faecd1b248815f30dbf7d26cd78a
+SHA256: eba6ff6138ac4e4106bc442742077e43dadc2469149b32988aff60241522ea36
+SHA512: 9b29849d9d88c29cb9970520a025ed57613bad7b88057ac82067b0e54613470ac6191ef86aca1d81ebcd3ad9c32b328fe72af2f99851656927cb8cf7a5181545
+Description: The ROS 2 filter cluster package
+
+Package: ros-humble-autoware-shape-estimation-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2025.07.05.16.58
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-autoware-shape-estimation
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Installed-Size: 6043
+Depends: ros-humble-autoware-shape-estimation (= 0-2025.07.05.16.58)
+Filename: ./ros-humble-autoware-shape-estimation-dbgsym_0-2025.07.05.16.58_amd64.ddeb
+Size: 5631844
+MD5sum: 86141653ae6d41244dcea35b0d615331
+SHA1: f9277672719a2917b06ae3defd73bf3d7554996b
+SHA256: 6fe083bec5ed1c7c9131a336b5c9a6770bb819dc5b1899760243c18e932b9aaa
+SHA512: 0f157e720f1aa12f4329e42b0b817ca0b0ca1f2c425a1acaed01110c1fd00bcf4cfa4db34856c3bed7518ea530ac5ddcbdc915eb93ec367f3cf98a3b32b35cbb
+Description: debug symbols for ros-humble-autoware-shape-estimation
+Build-Ids: 54e66486d8f8c2ff999e3a8242546639418216ef 75f2a10e9f9b793b38d426d41493ceb45f610e4e a38707bdc1f7e8994b481ccaed3f6f786cdc336b
+
+Package: ros-humble-autoware-shape-estimation
+Architecture: amd64
+Version: 0-2025.07.05.16.58
+Priority: optional
+Section: misc
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Installed-Size: 789
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libpcl-common1.12 (>= 1.12.1+dfsg), libstdc++6 (>= 11), libeigen3-dev, libopencv-dev, libpcl-dev, ros-humble-autoware-cuda-dependency-meta, ros-humble-autoware-cuda-utils, ros-humble-autoware-perception-msgs, ros-humble-autoware-tensorrt-common, ros-humble-autoware-utils, ros-humble-cudnn-cmake-module, ros-humble-pcl-conversions, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-tensorrt-cmake-module, ros-humble-tf2, ros-humble-tf2-eigen, ros-humble-tf2-geometry-msgs, ros-humble-tier4-perception-msgs
+Filename: ./ros-humble-autoware-shape-estimation_0-2025.07.05.16.58_amd64.deb
+Size: 172908
+MD5sum: 4ba7091bd26d354d08b657c5d35286d5
+SHA1: e0418c5a45e2bbce37e655e92602b14300c36c54
+SHA256: 56b0f34cab47493c405a9a4d6a802847160cfcc08617df17f8d6137ad4277799
+SHA512: ceb2e9f5824b2d6719eee7ee5ab0194e2cda8e50c5f9f7a3b7dd1ce4a9402d68302de36b62bceb3ecec8ce1c32240d1e269bd09c3f1b38f0244ef85688e1e760
+Description: This package implements a shape estimation algorithm as a ROS 2 node
+
+Package: ros-humble-autoware-tensorrt-classifier
+Architecture: amd64
+Version: 0-2025.07.05.16.42
+Priority: optional
+Section: misc
+Maintainer: Kotaro Uetake <kotaro.uetake@tier4.jp>
+Installed-Size: 9
+Depends: libopencv-dev, ros-humble-autoware-cuda-dependency-meta, ros-humble-autoware-cuda-utils, ros-humble-autoware-tensorrt-common, ros-humble-cudnn-cmake-module, ros-humble-rclcpp, ros-humble-tensorrt-cmake-module
+Filename: ./ros-humble-autoware-tensorrt-classifier_0-2025.07.05.16.42_amd64.deb
+Size: 3010
+MD5sum: dc1aeb6e3ca0d96c568040e5d2022d68
+SHA1: 18ba481161dbdc9413e1ec8faa19959e8f194dba
+SHA256: 169d63b232546cb00d291b5df8c1d9a6e54fac24622f200801b8b6ab4ac578c8
+SHA512: 8afa0d5d91c801ee2ceb5bc9556bf89d41fabe2130aea5b5477882fbb4f4eec2cc7258bb6e7a3a6c6dd7fd182199f8ae5b2c001ef23694c612bade2e0f7929f6
+Description: tensorrt classifier wrapper
+
+Package: ros-humble-autoware-tensorrt-common
+Architecture: amd64
+Version: 0-2025.07.05.16.36
+Priority: optional
+Section: misc
+Maintainer: Dan Umeda <dan.umeda@tier4.jp>
+Installed-Size: 9
+Depends: ros-humble-autoware-cuda-dependency-meta, ros-humble-rclcpp
+Filename: ./ros-humble-autoware-tensorrt-common_0-2025.07.05.16.36_amd64.deb
+Size: 2708
+MD5sum: 3176afe1fac45a38204a514b77267cf6
+SHA1: b61f6fec724a20c5086a1526ea1f8e8807937227
+SHA256: 3f12682b0ce036e19e81c99d8438ea221e5f3d99d8aac4f4e19d4a499712d89b
+SHA512: 3bfcfd4c4ecd9818b0dc3dc31b81085ccb29383d56a4b55980d75078a39555e134fed86cb4a30705aa38ee46b27c912f0fc760179e0ffb72440fe5dfa02d2dbc
+Description: tensorrt utility wrapper
+
+Package: ros-humble-autoware-tensorrt-plugins
+Architecture: amd64
+Version: 0-2025.07.05.16.44
+Priority: optional
+Section: misc
+Maintainer: Kenzo Lobos-Tsunekawa <kenzo.lobos@tier4.jp>
+Installed-Size: 8
+Depends: ros-humble-autoware-cuda-dependency-meta, ros-humble-autoware-cuda-utils
+Filename: ./ros-humble-autoware-tensorrt-plugins_0-2025.07.05.16.44_amd64.deb
+Size: 1512
+MD5sum: fcf28e822a5cf89196b5a58f98b5f446
+SHA1: a323bcbae03cfa7bfc13f5dd45d8385e5c778f31
+SHA256: 1275d863de84be3b8032d8205fed27b928187fcf7de2f68076885cacc608f22e
+SHA512: c98191e87334dee44f255b2c9ec136690504bdfdcd1f1f1c82d53092be7113ce343aeed77f0afd7e611cb394f7b97c4e407db42387d86ff3fda2ee0b9aaae5de
+Description: The autoware_tensorrt_plugins package
+
+Package: ros-humble-autoware-tensorrt-yolox
+Architecture: amd64
+Version: 0-2025.07.05.17.03
+Priority: optional
+Section: misc
+Maintainer: Dan Umeda <dan.umeda@tier4.jp>
+Installed-Size: 10
+Depends: libopencv-dev, ros-humble-autoware-cuda-dependency-meta, ros-humble-autoware-cuda-utils, ros-humble-autoware-image-transport-decompressor, ros-humble-autoware-internal-debug-msgs, ros-humble-autoware-object-recognition-utils, ros-humble-autoware-perception-msgs, ros-humble-autoware-tensorrt-common, ros-humble-autoware-utils, ros-humble-cudnn-cmake-module, ros-humble-cv-bridge, ros-humble-image-transport, ros-humble-perception-utils, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-tensorrt-cmake-module, ros-humble-tier4-perception-msgs
+Filename: ./ros-humble-autoware-tensorrt-yolox_0-2025.07.05.17.03_amd64.deb
+Size: 4176
+MD5sum: 781ecf4ecd7771e0d5c9a5c71ed3b84c
+SHA1: f44dbd6c8ede3deb62df92d5e824a65cccaf1c61
+SHA256: 1a72862ae5a8124f4192837efbe93575b5ed4a0036c1ad6d879d14d8e03b785f
+SHA512: 5f1b55d399f68a3273e5b7f5efa7dfb25f4df7f1ddcc2f9d3d7a4a77a529e1dcf82c2acf270a200fa26ba3153f87b29cdc7143bd4130af3ba6638fa4b6d508fe
+Description: tensorrt library implementation for yolox
+
+Package: ros-humble-autoware-traffic-light-classifier-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2025.07.05.17.07
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-autoware-traffic-light-classifier
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Installed-Size: 4073
+Depends: ros-humble-autoware-traffic-light-classifier (= 0-2025.07.05.17.07)
+Filename: ./ros-humble-autoware-traffic-light-classifier-dbgsym_0-2025.07.05.17.07_amd64.ddeb
+Size: 3585128
+MD5sum: acfb7d51b237db8d8f8fc146d253b6b7
+SHA1: c0a483aaf8649cbb237455c7529403b000c7f7cf
+SHA256: 283cba733c6c212db81a6e9bd6102182453cf1807bfd5152a7a8d44e0d3258b2
+SHA512: 139a0dfa7011a38f049c89622aad2aca0f27a58e29ef89db44f3305aeab9df1277a3c377d514d69a9f8900d0ea572a2ec3a5418fc9bdb400dc4f745ce9b7f557
+Description: debug symbols for ros-humble-autoware-traffic-light-classifier
+Build-Ids: 429a611fc63312f94169417562a93754061716ff 86c35b08992d11f405886cff3e941a56d333839a
+
+Package: ros-humble-autoware-traffic-light-classifier
+Architecture: amd64
+Version: 0-2025.07.05.17.07
+Priority: optional
+Section: misc
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Installed-Size: 847
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), libboost-filesystem-dev, ros-humble-autoware-cuda-dependency-meta, ros-humble-autoware-cuda-utils, ros-humble-autoware-tensorrt-classifier, ros-humble-autoware-tensorrt-common, ros-humble-autoware-utils, ros-humble-cv-bridge, ros-humble-image-transport, ros-humble-message-filters, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-tier4-perception-msgs
+Filename: ./ros-humble-autoware-traffic-light-classifier_0-2025.07.05.17.07_amd64.deb
+Size: 188066
+MD5sum: 09ea82e84ab13b4fec3b2d51120bc41c
+SHA1: 6d30d05fa9ad140db928ae8d0f301acd1bb3f24b
+SHA256: 04efc06b6be71f88aa5a043d9adb4dab73cc085c0c77c678c75b8d499ab8c703
+SHA512: 82b5dedcf4a0b315aae9701f123db047f2c9951acb47478daa215b173860b46e004d2b082b326d03d122c0f17d8acb6fad85be12d894ee7e3c881f27280eb6d4
+Description: The autoware_traffic_light_classifier package
+
+Package: ros-humble-autoware-traffic-light-fine-detector
+Architecture: amd64
+Version: 0-2025.07.05.17.43
+Priority: optional
+Section: misc
+Maintainer: Tao Zhong <tao.zhong@tier4.jp>
+Installed-Size: 54
+Depends: ros-humble-autoware-cuda-dependency-meta, ros-humble-autoware-internal-debug-msgs, ros-humble-autoware-tensorrt-yolox, ros-humble-cv-bridge, ros-humble-image-transport, ros-humble-message-filters, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-tier4-perception-msgs
+Filename: ./ros-humble-autoware-traffic-light-fine-detector_0-2025.07.05.17.43_amd64.deb
+Size: 9448
+MD5sum: b0b9008de8003880e321c200a3952cb6
+SHA1: 3cfafba065d18493c129603c401bad5bd74e24ef
+SHA256: 3d58c3ea5a410b5e9c52d18d66d4fde5927f55ceca53ad4082d81cd4feaebb5a
+SHA512: 2bb24bb0bb83043903377890c7ffcc69e8d3db1675375ac4a15c659fd720ab1a033b1a9782aea9489fdf0ed18fff3fde0b8a72eb042904989f62c8836bd9af0d
+Description: The autoware_traffic_light_fine_detector package
+
+Package: ros-humble-reaction-analyzer-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2025.07.05.18.04
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-reaction-analyzer
+Maintainer: Berkay Karaman <berkay@leodrive.ai>
+Installed-Size: 25732
+Depends: ros-humble-reaction-analyzer (= 0-2025.07.05.18.04)
+Filename: ./ros-humble-reaction-analyzer-dbgsym_0-2025.07.05.18.04_amd64.ddeb
+Size: 21624574
+MD5sum: b570fbf14e6ba4237330286dea813bab
+SHA1: 5fbcb020489f2d5e684b83f7d32f7621cf1502ae
+SHA256: c39baaa8b72e4acee3896321c84d5eb3b830089a3a05b4578af85253fc728a9e
+SHA512: b016930ae40fbb6970f57c1721115c97b76b7bd456985aaa87af3709e81cd989c26441b196e5eea03ad31a8cf5fbf4c02a69ee81b1daac7e4fa1f7bfef5344d5
+Description: debug symbols for ros-humble-reaction-analyzer
+Build-Ids: 8400c40c30bb6a24fe8f6a5a9f5f4f3ca56a28fe 8404d95fa1491b46c547a6da8999edced2821c69
+
+Package: ros-humble-reaction-analyzer
+Architecture: amd64
+Version: 0-2025.07.05.18.04
+Priority: optional
+Section: misc
+Maintainer: Berkay Karaman <berkay@leodrive.ai>
+Installed-Size: 4570
+Depends: libc6 (>= 2.35), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libpcl-common1.12 (>= 1.12.1+dfsg), libstdc++6 (>= 11), libeigen3-dev, libpcl-dev, ros-humble-autoware-adapi-v1-msgs, ros-humble-autoware-control-msgs, ros-humble-autoware-internal-msgs, ros-humble-autoware-launch, ros-humble-autoware-motion-utils, ros-humble-autoware-perception-msgs, ros-humble-autoware-planning-msgs, ros-humble-autoware-system-msgs, ros-humble-autoware-utils, ros-humble-autoware-vehicle-msgs, ros-humble-message-filters, ros-humble-pcl-conversions, ros-humble-pcl-ros, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rosbag2-cpp, ros-humble-sensor-msgs, ros-humble-tf2, ros-humble-tf2-eigen, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros, ros-humble-tier4-perception-launch
+Filename: ./ros-humble-reaction-analyzer_0-2025.07.05.18.04_amd64.deb
+Size: 625050
+MD5sum: 7258431397d60c1d4df21bdc8c5d9f13
+SHA1: cea98fb5db2f19f07d36ac8d50e236fe6bb2bdef
+SHA256: 5985f4a1e6a1f4b90d92ea934c2b875a559a75c0af69ea773d260f026555df89
+SHA512: 66c07022a171cf0a640869e9d7e6c7c170d7370e669bdae34ffc5f8f768aaf2ab902279092b6ac32423735de05c1f9590bca998dfda5323b7875eb5e5c4866f7
+Description: Analyzer that measures reaction times of the nodes
+
+Package: ros-humble-tier4-perception-launch
+Architecture: amd64
+Version: 0-2025.07.05.18.01
+Priority: optional
+Section: misc
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Installed-Size: 282
+Depends: ros-humble-autoware-bevfusion, ros-humble-autoware-cluster-merger, ros-humble-autoware-compare-map-segmentation, ros-humble-autoware-crosswalk-traffic-light-estimator, ros-humble-autoware-detected-object-feature-remover, ros-humble-autoware-detected-object-validation, ros-humble-autoware-detection-by-tracker, ros-humble-autoware-elevation-map-loader, ros-humble-autoware-euclidean-cluster, ros-humble-autoware-ground-segmentation, ros-humble-autoware-image-projection-based-fusion, ros-humble-autoware-image-transport-decompressor, ros-humble-autoware-lidar-apollo-instance-segmentation, ros-humble-autoware-lidar-centerpoint, ros-humble-autoware-lidar-transfusion, ros-humble-autoware-map-based-prediction, ros-humble-autoware-multi-object-tracker, ros-humble-autoware-object-merger, ros-humble-autoware-object-range-splitter, ros-humble-autoware-object-velocity-splitter, ros-humble-autoware-occupancy-grid-map-outlier-filter, ros-humble-autoware-perception-online-evaluator, ros-humble-autoware-pointcloud-preprocessor, ros-humble-autoware-probabilistic-occupancy-grid-map, ros-humble-autoware-radar-crossing-objects-noise-filter, ros-humble-autoware-radar-fusion-to-detected-object, ros-humble-autoware-radar-object-clustering, ros-humble-autoware-radar-object-tracker, ros-humble-autoware-raindrop-cluster-filter, ros-humble-autoware-shape-estimation, ros-humble-autoware-simple-object-merger, ros-humble-autoware-tensorrt-yolox, ros-humble-autoware-tracking-object-merger, ros-humble-autoware-traffic-light-arbiter, ros-humble-autoware-traffic-light-classifier, ros-humble-autoware-traffic-light-fine-detector, ros-humble-autoware-traffic-light-map-based-detector, ros-humble-autoware-traffic-light-multi-camera-fusion, ros-humble-autoware-traffic-light-occlusion-predictor, ros-humble-autoware-traffic-light-visualization, ros-humble-pointcloud-to-laserscan, ros-humble-topic-tools
+Filename: ./ros-humble-tier4-perception-launch_0-2025.07.05.18.01_amd64.deb
+Size: 44584
+MD5sum: 5af543f96883adedcab835d3e2f08148
+SHA1: 783032d1f9cc021318faa46f786dc110ad1fa68a
+SHA256: 971ff9854c5475488ad8eea25bd80d112e4d3d0aedbc0e86fb0be4ad6dae9c9a
+SHA512: e5303ad4283e304014c07b8a3942e7dc0370d2c492b2b41e6f0cd55ff9868c4cf4c31e9f958f4825279301b2f16cb69f3ff20120f200d14518bade331c0c9333
+Description: The tier4_perception_launch package
+
+Package: ros-humble-tier4-simulator-launch
+Architecture: amd64
+Version: 0-2025.07.05.18.02
+Priority: optional
+Section: misc
+Maintainer: Keisuke Shima <keisuke.shima@tier4.jp>
+Installed-Size: 66
+Depends: ros-humble-autoware-dummy-perception-publisher, ros-humble-autoware-elevation-map-loader, ros-humble-autoware-fault-injection, ros-humble-autoware-perception-online-evaluator, ros-humble-autoware-pose-initializer, ros-humble-autoware-simple-planning-simulator, ros-humble-autoware-vehicle-door-simulator, ros-humble-autoware-vehicle-velocity-converter, ros-humble-tier4-localization-launch, ros-humble-tier4-perception-launch
+Filename: ./ros-humble-tier4-simulator-launch_0-2025.07.05.18.02_amd64.deb
+Size: 14514
+MD5sum: e012a55e966684f913fa780ebccc1a0f
+SHA1: 262d6fa3c655c09c3875a1045341fdb8333beace
+SHA256: 3fb61a9aaf61d7c511816d0d5fc2c35cc28ea30fdc23101d509ab56db12199a3
+SHA512: b12459c84dcb3051c73d55a6b0afb894f1c24d3856f1fbd0e5d56f11ac9223f9459c7a619074872edf634a06a631f4f5552c5cba5ab07cf0234ff10ca3dbc5c8
+Description: The tier4_simulator_launch package
+
+Package: ros-humble-trt-batched-nms
+Architecture: amd64
+Version: 0-2025.07.05.16.45
+Priority: optional
+Section: misc
+Maintainer: Barış Zeren <baris@leodrive.ai>
+Installed-Size: 8
+Depends: ros-humble-autoware-cuda-utils, ros-humble-autoware-tensorrt-common, ros-humble-cudnn-cmake-module, ros-humble-tensorrt-cmake-module
+Filename: ./ros-humble-trt-batched-nms_0-2025.07.05.16.45_amd64.deb
+Size: 1308
+MD5sum: 60812a863ae3bffacc913f56402dec9c
+SHA1: 45990f28b30d11a8af8f8f6ae1016464c5fe3843
+SHA256: bbe04460dc72fa5731048098909d011728a0657b65e9850da775858c05e382a1
+SHA512: cd77eecd038975235a52c31f8b926990ede0f3c48e764fe4a726db86851fdce5db312c5e442fd6c8f6723e374a4e108d6902028355deeeba15c6916e0c4cbd4d
+Description: ROS 2 package for TensorRT batched NMS plugin
+

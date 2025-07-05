@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-detection-by-tracker
+Binary: ros-humble-autoware-detection-by-tracker
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.17.19
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-detection-by-tracker - The ROS 2 autoware_detection_by_tracker package
+Changes:
+ ros-humble-autoware-detection-by-tracker (0-2025.07.05.17.19) jammy; urgency=high
+Checksums-Sha1:
+ d77b104d7ad2bfec2f227c3c07fb2d584be30202 7362720 ros-humble-autoware-detection-by-tracker-dbgsym_0-2025.07.05.17.19_amd64.ddeb
+ 966d2faf0874584336c93a389ea4a20fbc5a27f3 45912 ros-humble-autoware-detection-by-tracker_0-2025.07.05.17.19_amd64.buildinfo
+ ebb636961195ab77a0a189e200f63928d830af28 283450 ros-humble-autoware-detection-by-tracker_0-2025.07.05.17.19_amd64.deb
+Checksums-Sha256:
+ f0227f9d7575faa14079bb88f6d7292fe5c1e05b3cbd401fd61081f29d8f6946 7362720 ros-humble-autoware-detection-by-tracker-dbgsym_0-2025.07.05.17.19_amd64.ddeb
+ 71bb070138290ac4b4f94688539eb20be6551bcf1fcc03f92501a39f45f1a8aa 45912 ros-humble-autoware-detection-by-tracker_0-2025.07.05.17.19_amd64.buildinfo
+ 99fe95898a4f7d2bb90f3dc5038aee2fdd5438a00a3f3f2f99f4fc2761729cd8 283450 ros-humble-autoware-detection-by-tracker_0-2025.07.05.17.19_amd64.deb
+Files:
+ 4690f19d6a088985f4f437a87978d480 7362720 debug optional ros-humble-autoware-detection-by-tracker-dbgsym_0-2025.07.05.17.19_amd64.ddeb
+ fca71fb86dbd6c01871c6dd40312e000 45912 misc optional ros-humble-autoware-detection-by-tracker_0-2025.07.05.17.19_amd64.buildinfo
+ 8d6af38cc8b98d3f24969b39ad962e1e 283450 misc optional ros-humble-autoware-detection-by-tracker_0-2025.07.05.17.19_amd64.deb

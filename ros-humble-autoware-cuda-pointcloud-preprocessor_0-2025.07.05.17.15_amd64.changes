@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-cuda-pointcloud-preprocessor
+Binary: ros-humble-autoware-cuda-pointcloud-preprocessor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.17.15
+Distribution: jammy
+Urgency: high
+Maintainer: Kenzo Lobos-Tsunekawa <kenzo.lobos@tier4.jp>
+Changed-By: Kenzo Lobos-Tsunekawa <kenzo.lobos@tier4.jp>
+Description:
+ ros-humble-autoware-cuda-pointcloud-preprocessor - autoware_cuda_pointcloud_preprocessor
+Changes:
+ ros-humble-autoware-cuda-pointcloud-preprocessor (0-2025.07.05.17.15) jammy; urgency=high
+Checksums-Sha1:
+ e9b39b1cdeba2dd2dafaee57243e11aaf728b489 49257 ros-humble-autoware-cuda-pointcloud-preprocessor_0-2025.07.05.17.15_amd64.buildinfo
+ d3302e1cfd2680416aa2d483f0c4365356fd79de 2654 ros-humble-autoware-cuda-pointcloud-preprocessor_0-2025.07.05.17.15_amd64.deb
+Checksums-Sha256:
+ 2db2cb9b0c1bced5617f6aac6af5d52d040ee66ffab29e57a9247758f6be0739 49257 ros-humble-autoware-cuda-pointcloud-preprocessor_0-2025.07.05.17.15_amd64.buildinfo
+ dad5492507d772cd41fd8a2fa8c78a9160319d01cd12081e49ea97804c73350b 2654 ros-humble-autoware-cuda-pointcloud-preprocessor_0-2025.07.05.17.15_amd64.deb
+Files:
+ 450c67dff9b1e1f5cb7c649949c1a7f0 49257 misc optional ros-humble-autoware-cuda-pointcloud-preprocessor_0-2025.07.05.17.15_amd64.buildinfo
+ 49ecf160c5f791f9bbc6c01e2a55feb7 2654 misc optional ros-humble-autoware-cuda-pointcloud-preprocessor_0-2025.07.05.17.15_amd64.deb

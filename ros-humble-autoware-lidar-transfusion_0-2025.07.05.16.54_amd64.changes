@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-lidar-transfusion
+Binary: ros-humble-autoware-lidar-transfusion
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.16.54
+Distribution: jammy
+Urgency: high
+Maintainer: Amadeusz Szymko <amadeusz.szymko.2@tier4.jp>
+Changed-By: Amadeusz Szymko <amadeusz.szymko.2@tier4.jp>
+Description:
+ ros-humble-autoware-lidar-transfusion - The lidar_transfusion package
+Changes:
+ ros-humble-autoware-lidar-transfusion (0-2025.07.05.16.54) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat(lidar_transfusion): add diagnostics for processing time (#10398 <https://github.com/autowarefoundation/autoware_universe/issues/10398>)
+     * add processing time diagnostics
+     * style(pre-commit): autofix
+     * remove comment
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Masaki Baba, Ryohsuke Mitsudome
+Checksums-Sha1:
+ b247282bcafe1b9573131d5726cc543bd6119ed5 45646 ros-humble-autoware-lidar-transfusion_0-2025.07.05.16.54_amd64.buildinfo
+ 3c8efdc9a9f85a234a67aea82cfc629574576c5a 17792 ros-humble-autoware-lidar-transfusion_0-2025.07.05.16.54_amd64.deb
+Checksums-Sha256:
+ c190b850e878264e895f73d13c7d93fab901d6cd672dd9d77f02b9820c9f3666 45646 ros-humble-autoware-lidar-transfusion_0-2025.07.05.16.54_amd64.buildinfo
+ e5ed61efc43e6fb82b33ac9edf0364dfcc45c92b86cb0298df9e18322a30d006 17792 ros-humble-autoware-lidar-transfusion_0-2025.07.05.16.54_amd64.deb
+Files:
+ e5716475b2212dc3ea214081184db0c7 45646 misc optional ros-humble-autoware-lidar-transfusion_0-2025.07.05.16.54_amd64.buildinfo
+ f20d0316f0e8455256f21b2afcbb222c 17792 misc optional ros-humble-autoware-lidar-transfusion_0-2025.07.05.16.54_amd64.deb

@@ -1,0 +1,45 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-probabilistic-occupancy-grid-map
+Binary: ros-humble-autoware-probabilistic-occupancy-grid-map
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.17.38
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-probabilistic-occupancy-grid-map - generate probabilistic occupancy grid map
+Changes:
+ ros-humble-autoware-probabilistic-occupancy-grid-map (0-2025.07.05.17.38) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat(probabilistic_occupancy_grid_map): add diagnostics warning when latency is too long (#10280 <https://github.com/autowarefoundation/autoware_universe/issues/10280>)
+     * feat(probabilistic_occupancy_grid_map): add diagnostics warning when latency is too long
+     * feat(probabilistic_occupancy_grid_map): add default max_output_delay_ms_
+     * style(pre-commit): autofix
+     * feat(probabilistic_occupancy_grid_map): fix reading parameters and add schema
+     * style(pre-commit): autofix
+     * feat(probabilistic_occupancy_grid_map):1. add tolerance duration  2. change to process time
+     * feat(probabilistic_occupancy_grid_map): modification since it is clear that the target isprocess time
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * fix(autoware_probabilistic_occupancy_grid_map): fixed transform issues and border conditions (#10344 <https://github.com/autowarefoundation/autoware_universe/issues/10344>)
+     * fix: fixed transform issues and border conditions
+     * fix: fixed compilation on cpu only builds
+     ---------
+   * Contributors: Kenzo Lobos Tsunekawa, Ryohsuke Mitsudome, lei.gu
+Checksums-Sha1:
+ 2384339dc6c177d42095ca584d416246a8b404d0 7825802 ros-humble-autoware-probabilistic-occupancy-grid-map-dbgsym_0-2025.07.05.17.38_amd64.ddeb
+ 94397fae2dd1c279299140d0cad0452c29ddbdd9 50439 ros-humble-autoware-probabilistic-occupancy-grid-map_0-2025.07.05.17.38_amd64.buildinfo
+ 18ac2484a5f1d170f1e968eaa0db07ee994773a5 237650 ros-humble-autoware-probabilistic-occupancy-grid-map_0-2025.07.05.17.38_amd64.deb
+Checksums-Sha256:
+ 8903aabedca6d717d573e874113036dc194a923cc66af42ce67e0653d72fd2f7 7825802 ros-humble-autoware-probabilistic-occupancy-grid-map-dbgsym_0-2025.07.05.17.38_amd64.ddeb
+ 9c2e6c537f52a98b74aff8c1e1c89f63117c37a0b0ae6400d89291cba3434e7f 50439 ros-humble-autoware-probabilistic-occupancy-grid-map_0-2025.07.05.17.38_amd64.buildinfo
+ 3d0535e0f1a0a029b0278c2fec2bfd103c07364431a652e88873f032ba81a878 237650 ros-humble-autoware-probabilistic-occupancy-grid-map_0-2025.07.05.17.38_amd64.deb
+Files:
+ 23855df00e5419385c03a2d1002b6481 7825802 debug optional ros-humble-autoware-probabilistic-occupancy-grid-map-dbgsym_0-2025.07.05.17.38_amd64.ddeb
+ ca01331570e6efe305f548d1544b6377 50439 misc optional ros-humble-autoware-probabilistic-occupancy-grid-map_0-2025.07.05.17.38_amd64.buildinfo
+ b4e55668b84cdd2432c6d92ba6c1109c 237650 misc optional ros-humble-autoware-probabilistic-occupancy-grid-map_0-2025.07.05.17.38_amd64.deb

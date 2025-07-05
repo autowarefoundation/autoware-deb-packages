@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-tensorrt-common
+Binary: ros-humble-autoware-tensorrt-common
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.16.36
+Distribution: jammy
+Urgency: high
+Maintainer: Dan Umeda <dan.umeda@tier4.jp>
+Changed-By: Dan Umeda <dan.umeda@tier4.jp>
+Description:
+ ros-humble-autoware-tensorrt-common - tensorrt utility wrapper
+Changes:
+ ros-humble-autoware-tensorrt-common (0-2025.07.05.16.36) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * feat: should be using NvInferRuntime.h (#10399 <https://github.com/autowarefoundation/autoware_universe/issues/10399>)
+   * feat(autoware_tenssort_common): validate TensorRT engine version for cached engine (#10320 <https://github.com/autowarefoundation/autoware_universe/issues/10320>)
+     * autoware_tenssort_common): validate TensorRT engine version for cached engine
+     * style(autoware_tensorrt_common): typo
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * style(autoware_tensorrt_common): typo
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * style(autoware_tensorrt_common): typo
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * docs(autoware_tensorrt_common): add source
+     ---------
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+   * Contributors: Amadeusz Szymko, Ryohsuke Mitsudome, Yuxuan Liu
+Checksums-Sha1:
+ bef74713590f7617cb4b519f20954ec26f67762d 15929 ros-humble-autoware-tensorrt-common_0-2025.07.05.16.36_amd64.buildinfo
+ b61f6fec724a20c5086a1526ea1f8e8807937227 2708 ros-humble-autoware-tensorrt-common_0-2025.07.05.16.36_amd64.deb
+Checksums-Sha256:
+ 47af75fa04786bdac900836baee1b598692d4e2badf0d50c6e8f3d7bc62ce5f3 15929 ros-humble-autoware-tensorrt-common_0-2025.07.05.16.36_amd64.buildinfo
+ 3f12682b0ce036e19e81c99d8438ea221e5f3d99d8aac4f4e19d4a499712d89b 2708 ros-humble-autoware-tensorrt-common_0-2025.07.05.16.36_amd64.deb
+Files:
+ ff7d62d859e4c50c0e8cadd23f54f820 15929 misc optional ros-humble-autoware-tensorrt-common_0-2025.07.05.16.36_amd64.buildinfo
+ 3176afe1fac45a38204a514b77267cf6 2708 misc optional ros-humble-autoware-tensorrt-common_0-2025.07.05.16.36_amd64.deb

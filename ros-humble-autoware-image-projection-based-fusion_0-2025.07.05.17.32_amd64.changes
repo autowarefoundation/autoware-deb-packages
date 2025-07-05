@@ -1,0 +1,72 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-image-projection-based-fusion
+Binary: ros-humble-autoware-image-projection-based-fusion
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.17.32
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-image-projection-based-fusion - The autoware_image_projection_based_fusion package
+Changes:
+ ros-humble-autoware-image-projection-based-fusion (0-2025.07.05.17.32) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * fix(autoware_image_projection_based_fusion): add missing params common_param_path when not use container (#10499 <https://github.com/autowarefoundation/autoware_universe/issues/10499>)
+     add missing params common_param_path when not use container
+   * feat(pointpainting_fusion): add diagnostics for processing time of pointpainting (#10397 <https://github.com/autowarefoundation/autoware_universe/issues/10397>)
+     * add diagnostics for pointpainting
+     * add common params
+     * add schema for common param
+     * style(pre-commit): autofix
+     * include diagnostic_msgs
+     * fix typo
+     * fix stop watch recording name
+     * fix parameter and message
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * feat(autoware_lidar_centerpoint): added the cuda_blackboard to centerpoint (#9453 <https://github.com/autowarefoundation/autoware_universe/issues/9453>)
+     * feat: introduced the cuda transport layer (cuda blackboard) to centerpoint
+     * chore: fixed compilation issue on pointpainting
+     * fix: fixed compile errors in the ml models
+     * fix: fixed standalone non-composed launcher
+     * chore: ci/cd
+     * chore: clang tidy related fix
+     * chore: removed non applicable override (point painting does not support the blackboard yet)
+     * chore: temporarily ignoring warning until pointpainting also supports the blackboard
+     * chore: ignoring spell
+     * feat: removed the deprecated compatible subs option in the constructor
+     * chore: bump the cuda blackboard version in the build depends
+     * Update perception/autoware_image_projection_based_fusion/src/pointpainting_fusion/pointpainting_trt.cpp
+     Co-authored-by: badai nguyen  <mailto:94814556+badai-nguyen@users.noreply.github.com>
+     * Update perception/autoware_image_projection_based_fusion/src/pointpainting_fusion/pointpainting_trt.cpp
+     Co-authored-by: badai nguyen  <mailto:94814556+badai-nguyen@users.noreply.github.com>
+     ---------
+     Co-authored-by: Amadeusz Szymko <mailto:amadeusz.szymko.2@tier4.jp>
+     Co-authored-by: badai nguyen <mailto:94814556+badai-nguyen@users.noreply.github.com>
+   * chore(localization, perception): remove koji minoda as maintainer from multiple packages (#10359 <https://github.com/autowarefoundation/autoware_universe/issues/10359>)
+     fix: remove Koji Minoda as maintainer from multiple package.xml files
+   * fix(autoware_image_projection_based_fusion): unintended new container behavior (#10346 <https://github.com/autowarefoundation/autoware_universe/issues/10346>)
+     fix: the current launcher was creating a new container with the same name
+   * fix(roi_pointcloud_fusion): merge into pointcloud container (#10334 <https://github.com/autowarefoundation/autoware_universe/issues/10334>)
+   * fix(roi_pointcloud_fusion): add roi scale factor param (#10333 <https://github.com/autowarefoundation/autoware_universe/issues/10333>)
+     * fix(roi_pointcloud_fusion): add roi scale factor param
+     * fix: missing declare
+     ---------
+   * fix(image_projection_based_fusion): add outside of FOV checking (#10329 <https://github.com/autowarefoundation/autoware_universe/issues/10329>)
+   * Contributors: Kenzo Lobos Tsunekawa, Masaki Baba, Masato Saeki, Ryohsuke Mitsudome, Taekjin LEE, badai nguyen
+Checksums-Sha1:
+ 65c321aec589b0589ad01295845987fc656301d1 18504050 ros-humble-autoware-image-projection-based-fusion-dbgsym_0-2025.07.05.17.32_amd64.ddeb
+ 0ab612d70e57fdd5616333b901cef8c796f4995a 46551 ros-humble-autoware-image-projection-based-fusion_0-2025.07.05.17.32_amd64.buildinfo
+ 86499d2596a3da69908b10bc25e44a8ccae0c5e7 475608 ros-humble-autoware-image-projection-based-fusion_0-2025.07.05.17.32_amd64.deb
+Checksums-Sha256:
+ b488ca6256d0ca528fd177f52ddc82fe55d7bdfdd6def15fa141de0876f948bf 18504050 ros-humble-autoware-image-projection-based-fusion-dbgsym_0-2025.07.05.17.32_amd64.ddeb
+ 39eee846e19f692106c3d8ffd5c2dbdcd29d1f34ac051b2062c025114ef9f7c8 46551 ros-humble-autoware-image-projection-based-fusion_0-2025.07.05.17.32_amd64.buildinfo
+ 80daaafa0ba1debdff9838c2a4374e427becca8bd910253352c1e605ed1a202b 475608 ros-humble-autoware-image-projection-based-fusion_0-2025.07.05.17.32_amd64.deb
+Files:
+ de3e22ed113b69744cbd984d10264e75 18504050 debug optional ros-humble-autoware-image-projection-based-fusion-dbgsym_0-2025.07.05.17.32_amd64.ddeb
+ 732bc59f2041fb4d7c5d91f83a04919c 46551 misc optional ros-humble-autoware-image-projection-based-fusion_0-2025.07.05.17.32_amd64.buildinfo
+ 5e913a52c26139164451dde8f5f4412c 475608 misc optional ros-humble-autoware-image-projection-based-fusion_0-2025.07.05.17.32_amd64.deb

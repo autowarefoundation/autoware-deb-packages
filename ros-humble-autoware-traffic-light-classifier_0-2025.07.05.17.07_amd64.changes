@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-traffic-light-classifier
+Binary: ros-humble-autoware-traffic-light-classifier
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.17.07
+Distribution: jammy
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-humble-autoware-traffic-light-classifier - The autoware_traffic_light_classifier package
+Changes:
+ ros-humble-autoware-traffic-light-classifier (0-2025.07.05.17.07) jammy; urgency=high
+Checksums-Sha1:
+ c0a483aaf8649cbb237455c7529403b000c7f7cf 3585128 ros-humble-autoware-traffic-light-classifier-dbgsym_0-2025.07.05.17.07_amd64.ddeb
+ c6da8bcd052220ea36f4fff9f50cf26d0d6f589d 45103 ros-humble-autoware-traffic-light-classifier_0-2025.07.05.17.07_amd64.buildinfo
+ 6d30d05fa9ad140db928ae8d0f301acd1bb3f24b 188066 ros-humble-autoware-traffic-light-classifier_0-2025.07.05.17.07_amd64.deb
+Checksums-Sha256:
+ 283cba733c6c212db81a6e9bd6102182453cf1807bfd5152a7a8d44e0d3258b2 3585128 ros-humble-autoware-traffic-light-classifier-dbgsym_0-2025.07.05.17.07_amd64.ddeb
+ de1de0ebd398c2914ede20ae4e7f34be9f0fb7085864a007dae233e9f920245c 45103 ros-humble-autoware-traffic-light-classifier_0-2025.07.05.17.07_amd64.buildinfo
+ 04efc06b6be71f88aa5a043d9adb4dab73cc085c0c77c678c75b8d499ab8c703 188066 ros-humble-autoware-traffic-light-classifier_0-2025.07.05.17.07_amd64.deb
+Files:
+ acfb7d51b237db8d8f8fc146d253b6b7 3585128 debug optional ros-humble-autoware-traffic-light-classifier-dbgsym_0-2025.07.05.17.07_amd64.ddeb
+ 402e597c36cf871f13807652d9a2a96f 45103 misc optional ros-humble-autoware-traffic-light-classifier_0-2025.07.05.17.07_amd64.buildinfo
+ 09ea82e84ab13b4fec3b2d51120bc41c 188066 misc optional ros-humble-autoware-traffic-light-classifier_0-2025.07.05.17.07_amd64.deb

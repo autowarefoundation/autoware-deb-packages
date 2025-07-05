@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 18 Apr 2025 00:00:00 -0000
+Source: ros-humble-autoware-tensorrt-classifier
+Binary: ros-humble-autoware-tensorrt-classifier
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.07.05.16.42
+Distribution: jammy
+Urgency: high
+Maintainer: Kotaro Uetake <kotaro.uetake@tier4.jp>
+Changed-By: Kotaro Uetake <kotaro.uetake@tier4.jp>
+Description:
+ ros-humble-autoware-tensorrt-classifier - tensorrt classifier wrapper
+Changes:
+ ros-humble-autoware-tensorrt-classifier (0-2025.07.05.16.42) jammy; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into humble
+   * chore(perception): code owner revision (#10358 <https://github.com/autowarefoundation/autoware_universe/issues/10358>)
+     * feat: add Masato Saeki and Taekjin Lee as maintainer to multiple package.xml files
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Ryohsuke Mitsudome, Taekjin LEE
+Checksums-Sha1:
+ 2bc79118f384c71dc4d3f816cd00c93a004123d8 26992 ros-humble-autoware-tensorrt-classifier_0-2025.07.05.16.42_amd64.buildinfo
+ 18ba481161dbdc9413e1ec8faa19959e8f194dba 3010 ros-humble-autoware-tensorrt-classifier_0-2025.07.05.16.42_amd64.deb
+Checksums-Sha256:
+ e92954775eaf63a1db36816be6235ad36496a7c193382cb401df651456876fb8 26992 ros-humble-autoware-tensorrt-classifier_0-2025.07.05.16.42_amd64.buildinfo
+ 169d63b232546cb00d291b5df8c1d9a6e54fac24622f200801b8b6ab4ac578c8 3010 ros-humble-autoware-tensorrt-classifier_0-2025.07.05.16.42_amd64.deb
+Files:
+ 16ff334921dc743644f5ce66ae0712f7 26992 misc optional ros-humble-autoware-tensorrt-classifier_0-2025.07.05.16.42_amd64.buildinfo
+ dc1aeb6e3ca0d96c568040e5d2022d68 3010 misc optional ros-humble-autoware-tensorrt-classifier_0-2025.07.05.16.42_amd64.deb
