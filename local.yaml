@@ -1,0 +1,75 @@
+autoware_tensorrt_common:
+  ubuntu:
+  - ros-humble-autoware-tensorrt-common
+autoware_cuda_utils:
+  ubuntu:
+  - ros-humble-autoware-cuda-utils
+autoware_bytetrack:
+  ubuntu:
+  - ros-humble-autoware-bytetrack
+autoware_tensorrt_classifier:
+  ubuntu:
+  - ros-humble-autoware-tensorrt-classifier
+autoware_tensorrt_plugins:
+  ubuntu:
+  - ros-humble-autoware-tensorrt-plugins
+trt_batched_nms:
+  ubuntu:
+  - ros-humble-trt-batched-nms
+autoware_lidar_apollo_instance_segmentation:
+  ubuntu:
+  - ros-humble-autoware-lidar-apollo-instance-segmentation
+autoware_lidar_centerpoint:
+  ubuntu:
+  - ros-humble-autoware-lidar-centerpoint
+autoware_lidar_transfusion:
+  ubuntu:
+  - ros-humble-autoware-lidar-transfusion
+autoware_shape_estimation:
+  ubuntu:
+  - ros-humble-autoware-shape-estimation
+autoware_tensorrt_yolox:
+  ubuntu:
+  - ros-humble-autoware-tensorrt-yolox
+autoware_traffic_light_classifier:
+  ubuntu:
+  - ros-humble-autoware-traffic-light-classifier
+autoware_bevfusion:
+  ubuntu:
+  - ros-humble-autoware-bevfusion
+autoware_cuda_pointcloud_preprocessor:
+  ubuntu:
+  - ros-humble-autoware-cuda-pointcloud-preprocessor
+autoware_detection_by_tracker:
+  ubuntu:
+  - ros-humble-autoware-detection-by-tracker
+autoware_dummy_perception_publisher:
+  ubuntu:
+  - ros-humble-autoware-dummy-perception-publisher
+autoware_image_projection_based_fusion:
+  ubuntu:
+  - ros-humble-autoware-image-projection-based-fusion
+autoware_probabilistic_occupancy_grid_map:
+  ubuntu:
+  - ros-humble-autoware-probabilistic-occupancy-grid-map
+autoware_traffic_light_fine_detector:
+  ubuntu:
+  - ros-humble-autoware-traffic-light-fine-detector
+autoware_detected_object_validation:
+  ubuntu:
+  - ros-humble-autoware-detected-object-validation
+autoware_raindrop_cluster_filter:
+  ubuntu:
+  - ros-humble-autoware-raindrop-cluster-filter
+tier4_perception_launch:
+  ubuntu:
+  - ros-humble-tier4-perception-launch
+tier4_simulator_launch:
+  ubuntu:
+  - ros-humble-tier4-simulator-launch
+autoware_launch:
+  ubuntu:
+  - ros-humble-autoware-launch
+reaction_analyzer:
+  ubuntu:
+  - ros-humble-reaction-analyzer
