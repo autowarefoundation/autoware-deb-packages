@@ -4,10 +4,10 @@ name: generate-deb-packages-aws
 on:
   push:
     branches:
-      - 'release-base'
+      - 'release/core_1.3.0'
   pull_request:
     branches:
-      - 'release-base'
+      - 'release/core_1.3.0'
 
 concurrency:
   group: generate-deb-packages # only one job can run at a time
