@@ -16,6 +16,9 @@ on:
       artifacts-download-name:
         required: false
         type: string
+      repos-file:
+        required: true
+        type: string
     secrets:
       gh-personal-access-token-mfc:
         required: true
@@ -69,7 +72,7 @@ jobs:
                         ];'
           DEB_DISTRO: jammy
           ROS_DISTRO: humble
-          REPOS_FILE: sources.repos
+          REPOS_FILE: ${{ inputs.repos-file }}
           GITHUB_TOKEN: ${{ env.gh_personal_access_token_mfc }}
           SQUASH_HISTORY: true
           PACKAGES_BRANCH: ${{ inputs.packages-branch }}
@@ -86,7 +89,7 @@ jobs:
                         ];'
           DEB_DISTRO: jammy
           ROS_DISTRO: humble
-          REPOS_FILE: sources.repos
+          REPOS_FILE: ${{ inputs.repos-file }}
           GITHUB_TOKEN: ${{ env.gh_personal_access_token_mfc }}
           SQUASH_HISTORY: true
           PACKAGES_BRANCH: ${{ inputs.packages-branch }}
