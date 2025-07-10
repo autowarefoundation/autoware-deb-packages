@@ -31,7 +31,7 @@ jobs:
     needs: generate-debian-packages
     with:
       colcon-defaults-file: colcon-only-cuda.yml
-      packages-branch: jammy-humble-release/core_1.3.0
+      packages-branch: jammy-humble-release/core_1.3.0-cuda
       artifacts-download-name: no-cuda-debian-packages
       repos-file: sources-core_1.3.0.repos
     secrets:
