@@ -50,7 +50,7 @@ jobs:
           fi
 
       - name: 'Download CUDA'
-        # if: ${{ inputs.artifacts-download-name != '' }}
+        if: ${{ inputs.artifacts-download-name != '' }}
         run: wget -O ${{ runner.temp }}/cuda-keyring_all.deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
 
       - name: 'Download non-CUDA Debian packages generated from previous workflow'
@@ -72,9 +72,19 @@ jobs:
           SBUILD_CONF: 'push @$unshare_bind_mounts, { directory => "${{ runner.temp }}/apt_repo-nocuda", mountpoint => "/apt_repo-nocuda" };
                         $extra_repositories = [
                           "deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ jammy main",
-                          "deb [trusted=yes] file:///apt_repo-nocuda/ ./"
+                          "deb [trusted=yes] file:///apt_repo-nocuda/ ./",
+                          "deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/ /",
                         ];
-                        $extra_packages = ["${{ runner.temp }}/cuda-keyring_all.deb"];'
+                        $extra_repository_keys = ["${{ github.workspace }}/repo/nvidia-cuda-apt-repo-3bf863cc.pub"];
+                        $extra_packages = ["${{ runner.temp }}/cuda-keyring_all.deb"];
+                        $external_commands = {
+                          "pre-build-commands" => [
+                            ["sudo", "dpkg", "-i", "${{ runner.temp }}/cuda-keyring_all.deb"],
+                            ["sudo", "apt-get", "update"],
+                          ],
+                        };
+                        $manual_depends = ["cuda-toolkit-12-9"];
+                        '
           DEB_DISTRO: jammy
           ROS_DISTRO: humble
           REPOS_FILE: ${{ inputs.repos-file }}
@@ -92,17 +102,7 @@ jobs:
           SBUILD_CONF: '
                         $extra_repositories = [
                           "deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ jammy main",
-                          "deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/ /",
                         ];
-                        $extra_repository_keys = ["${{ github.workspace }}/repo/nvidia-cuda-apt-repo-3bf863cc.pub"];
-                        $extra_packages = ["${{ runner.temp }}/cuda-keyring_all.deb"];
-                        $external_commands = {
-                          "pre-build-commands" => [
-                            ["sudo", "dpkg", "-i", "${{ runner.temp }}/cuda-keyring_all.deb"],
-                            ["sudo", "apt-get", "update"],
-                          ],
-                        };
-                        $manual_depends = ["cuda-toolkit-12-9"];
                         '
           DEB_DISTRO: jammy
           ROS_DISTRO: humble
