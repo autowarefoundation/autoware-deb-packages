@@ -94,7 +94,12 @@ jobs:
                           "deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ jammy main",
                         ];
                         $extra_packages = ["${{ runner.temp }}/cuda-keyring_all.deb"];
-                        $core_depends = ["cuda-keyring:native"];
+                        $external_commands = {
+                          "pre-build-commands" => [
+                          [\"apt-get\", \"-y\", \"install\", \"cuda-keyring\"]
+                          [\"apt-get\", \"update\"]
+                          ],
+                        };
                         $manual_depends = ["cuda-toolkit-12-9"];
                         '
           DEB_DISTRO: jammy
