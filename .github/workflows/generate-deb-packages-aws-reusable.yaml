@@ -94,7 +94,7 @@ jobs:
                           "deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ jammy main",
                           "deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/ /",
                         ];
-                        $extra_repository_keys = ["${{ github.workspace }}/nvidia-cuda-apt-repo-3bf863cc.pub"];
+                        $extra_repository_keys = ["${{ github.workspace }}/repo/nvidia-cuda-apt-repo-3bf863cc.pub"];
                         $extra_packages = ["${{ runner.temp }}/cuda-keyring_all.deb"];
                         $external_commands = {
                           "pre-build-commands" => [
