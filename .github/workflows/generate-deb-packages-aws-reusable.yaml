@@ -96,7 +96,7 @@ jobs:
                         $extra_packages = ["${{ runner.temp }}/cuda-keyring_all.deb"];
                         $external_commands = {
                           "pre-build-commands" => [
-                            ["sudo", "apt-get", "-y", "install", "cuda-keyring"],
+                            ["sudo", "dpkg", "-i", "${{ runner.temp }}/cuda-keyring_all.deb"],
                             ["sudo", "apt-get", "update"],
                           ],
                         };
