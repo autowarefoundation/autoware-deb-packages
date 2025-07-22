@@ -92,7 +92,8 @@ jobs:
           SBUILD_CONF: '$extra_repositories = [
                           "deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ jammy main",
                         ];
-                        $manual_depends = ["cuda-keyring"];
+                        $core_depends = ["cuda-keyring"];
+                        $manual_depends = ["cuda-toolkit-12-9"];
                         $extra_packages = ["${{ runner.temp }}/cuda-keyring_all.deb"];'
           DEB_DISTRO: jammy
           ROS_DISTRO: humble
