@@ -4,10 +4,10 @@ name: generate-deb-packages-aws
 on:
   push:
     branches:
-      - 'main'
+      - 'release/core_1.3.0'
   pull_request:
     branches:
-      - 'main'
+      - 'release/core_1.3.0'
 
 concurrency:
   group: generate-deb-packages # only one job can run at a time
@@ -19,9 +19,9 @@ jobs:
     uses: ./.github/workflows/generate-deb-packages-aws-reusable.yaml
     with:
       colcon-defaults-file: colcon-skip-cuda.yml
-      packages-branch: jammy-humble-main
+      packages-branch: jammy-humble-release/core_1.3.0
       artifacts-upload-name: no-cuda-debian-packages
-      repos-file: sources.repos
+      repos-file: sources-core_1.3.0.repos
     secrets:
       gh-personal-access-token-mfc: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN_MFC }}
 
@@ -31,8 +31,8 @@ jobs:
     needs: generate-debian-packages
     with:
       colcon-defaults-file: colcon-only-cuda.yml
-      packages-branch: jammy-humble-main-cuda
+      packages-branch: jammy-humble-release/core_1.3.0-cuda
       artifacts-download-name: no-cuda-debian-packages
-      repos-file: sources.repos
+      repos-file: sources-core_1.3.0.repos
     secrets:
       gh-personal-access-token-mfc: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN_MFC }}

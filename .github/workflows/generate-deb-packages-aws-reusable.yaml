@@ -49,6 +49,10 @@ jobs:
             echo "gh_personal_access_token_mfc=" >> $GITHUB_ENV
           fi
 
+      - name: 'Download CUDA'
+        # if: ${{ inputs.artifacts-download-name != '' }}
+        run: wget -O ${{ runner.temp }}/cuda-keyring_all.deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
+
       - name: 'Download non-CUDA Debian packages generated from previous workflow'
         uses: actions/download-artifact@v4
         if: ${{ inputs.artifacts-download-name != '' }}
@@ -69,7 +73,8 @@ jobs:
                         $extra_repositories = [
                           "deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ jammy main",
                           "deb [trusted=yes] file:///apt_repo-nocuda/ ./"
-                        ];'
+                        ];
+                        $extra_packages = ["${{ runner.temp }}/cuda-keyring_all.deb"];'
           DEB_DISTRO: jammy
           ROS_DISTRO: humble
           REPOS_FILE: ${{ inputs.repos-file }}
@@ -86,7 +91,8 @@ jobs:
           ROSDEP_SOURCE: 'yaml https://s3.amazonaws.com/autonomoustuff-repo/autonomoustuff-public-humble.yaml'
           SBUILD_CONF: '$extra_repositories = [
                           "deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ jammy main",
-                        ];'
+                        ];
+                        $extra_packages = ["${{ runner.temp }}/cuda-keyring_all.deb"];'
           DEB_DISTRO: jammy
           ROS_DISTRO: humble
           REPOS_FILE: ${{ inputs.repos-file }}
