@@ -81,6 +81,7 @@ jobs:
                           "pre-build-commands" => [
                             ["sudo", "dpkg", "-i", "${{ runner.temp }}/cuda-keyring_all.deb"],
                             ["sudo", "apt-get", "update"],
+                            ["sudo", "pip", "install", "spconv-cu120"],
                           ],
                         };
                         $manual_depends = ["cuda-toolkit-12-9"];
