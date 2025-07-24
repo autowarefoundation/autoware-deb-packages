@@ -49,9 +49,12 @@ jobs:
             echo "gh_personal_access_token_mfc=" >> $GITHUB_ENV
           fi
 
-      - name: 'Download CUDA'
+      - name: 'Download CUDA and dependencies'
         if: ${{ inputs.artifacts-download-name != '' }}
-        run: wget -O ${{ runner.temp }}/cuda-keyring_all.deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
+        run: |
+          wget -O ${{ runner.temp }}/cuda-keyring_all.deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
+          wget -O ${{ runner.temp }}/cumm_amd64.deb https://github.com/autowarefoundation/spconv_cpp/releases/download/spconv_v2.3.8%2Bcumm_v0.5.3/cumm_0.5.3_amd64.deb
+          wget -O ${{ runner.temp }}/spconv_amd64.deb https://github.com/autowarefoundation/spconv_cpp/releases/download/spconv_v2.3.8%2Bcumm_v0.5.3/spconv_2.3.8_amd64.deb
 
       - name: 'Download non-CUDA Debian packages generated from previous workflow'
         uses: actions/download-artifact@v4
@@ -76,16 +79,22 @@ jobs:
                           "deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/ /",
                         ];
                         $extra_repository_keys = ["${{ github.workspace }}/repo/nvidia-cuda-apt-repo-3bf863cc.pub"];
-                        $extra_packages = ["${{ runner.temp }}/cuda-keyring_all.deb"];
+                        $extra_packages = [
+                          "${{ runner.temp }}/cuda-keyring_all.deb",
+                          "${{ runner.temp }}/cumm_amd64.deb",
+                          "${{ runner.temp }}/spconv_amd64.deb",
+                        ];
                         $external_commands = {
                           "pre-build-commands" => [
                             ["sudo", "dpkg", "-i", "${{ runner.temp }}/cuda-keyring_all.deb"],
                             ["sudo", "apt-get", "update"],
-                            ["sudo", "pip", "install", "spconv-cu126"],
-                            ["sudo", "pip", "install", "cumm-cu126"],
                           ],
                         };
-                        $manual_depends = ["cuda-toolkit-12-6"];
+                        $manual_depends = [
+                          "cuda-toolkit-12-6",
+                          "cumm",
+                          "spconv",
+                        ];
                         '
           DEB_DISTRO: jammy
           ROS_DISTRO: humble
