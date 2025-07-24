@@ -91,7 +91,7 @@ jobs:
                           ],
                         };
                         $manual_depends = [
-                          "cuda-toolkit-12-6",
+                          "cuda-toolkit-12-4",
                           "cumm",
                           "spconv",
                         ];
