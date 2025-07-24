@@ -81,8 +81,8 @@ jobs:
                         $extra_repository_keys = ["${{ github.workspace }}/repo/nvidia-cuda-apt-repo-3bf863cc.pub"];
                         $extra_packages = [
                           "${{ runner.temp }}/cuda-keyring_all.deb",
-                          "${{ runner.temp }}/cumm_amd64.deb",
-                          "${{ runner.temp }}/spconv_amd64.deb",
+#                          "${{ runner.temp }}/cumm_amd64.deb",
+#                          "${{ runner.temp }}/spconv_amd64.deb",
                         ];
                         $external_commands = {
                           "pre-build-commands" => [
@@ -92,8 +92,8 @@ jobs:
                         };
                         $manual_depends = [
                           "cuda-toolkit-12-4",
-                          "cumm",
-                          "spconv",
+#                          "cumm",
+#                          "spconv",
                         ];
                         '
           DEB_DISTRO: jammy
