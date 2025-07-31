@@ -2,4 +2,4 @@ list:
   packages-skip-by-dep:
     - autoware_cuda_dependency_meta
   packages-up-to:
-    - autoware_cuda_pointcloud_preprocessor
+    - autoware_probabilistic_occupancy_grid_map
