@@ -1,6 +1,7 @@
 list:
   packages-select-by-dep:
     - autoware_cuda_dependency_meta
+  packages-select:
     - cuda_blackboard
   packages-up-to:
     - autoware_probabilistic_occupancy_grid_map
