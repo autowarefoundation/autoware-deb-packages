@@ -38,7 +38,7 @@ jobs:
       - name: "Remove unattended-upgrades"
         run: sudo apt-get remove -y --purge unattended-upgrades
       - name: "Clean up build environment"
-        run: rm -rfv $GITHUB_WORKSPACE/apt_repo $GITHUB_WORKSPACE/src $GITHUB_WORKSPACE/workspace $HOME/.cache/ccache $HOME/.cache/sbuild
+        run: rm -rfv $GITHUB_WORKSPACE/apt_repo $GITHUB_WORKSPACE/src $GITHUB_WORKSPACE/workspace $HOME/.cache/ccache $HOME/.cache/sbuild $GITHUB_WORKSPACE/apt_repo-nocuda.tar
       - name: "Check if packages should be pushed to the repo"
         run: |
           if [[ "${{ startsWith(github.ref, 'refs/heads/') && !startsWith(github.ref, 'refs/pull/')}}" == "true" ]]; then
