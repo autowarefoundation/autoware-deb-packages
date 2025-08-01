@@ -123,14 +123,14 @@ jobs:
 
       - name: "Tar artifacts"
         if: ${{ inputs.artifacts-upload-name != '' }}
-        run: tar -cvf apt_repo-nocuda.tar --transform s/apt_repo/apt_repo-nocuda/ apt_repo/
+        run: tar -cvf ${{ runner.temp }}/apt_repo-nocuda.tar --transform s/apt_repo/apt_repo-nocuda/ apt_repo/
 
       - name: "Share Debian packages with the CUDA-only job"
         if: ${{ inputs.artifacts-upload-name != '' }}
         uses: actions/upload-artifact@v4
         with:
           name: ${{ inputs.artifacts-upload-name }}
-          path: apt_repo-nocuda.tar
+          path: ${{ runner.temp }}/apt_repo-nocuda.tar
           if-no-files-found: error
           retention-days: 1
           compression-level: 0
