@@ -1,5 +1,6 @@
 list:
-  packages-select-by-dep:
+  packages-above:
     - autoware_cuda_dependency_meta
+    - cuda_blackboard
   packages-up-to:
     - autoware_cuda_pointcloud_preprocessor
