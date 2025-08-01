@@ -100,7 +100,6 @@ jobs:
           PACKAGES_BRANCH: ${{ inputs.packages-branch }}
           GIT_LFS: false
           COLCON_DEFAULTS_FILE: repo/${{ inputs.colcon-defaults-file }}
-          SKIP_PACKAGES: cuda_blackboard
 
       - name: "Build Debian non-CUDA packages (pushing packages to repository: ${{ env.push_packages }})"
         uses: esteve/ros-deb-builder-action@tier4/main
@@ -120,6 +119,7 @@ jobs:
           PACKAGES_BRANCH: ${{ inputs.packages-branch }}
           GIT_LFS: false
           COLCON_DEFAULTS_FILE: repo/${{ inputs.colcon-defaults-file }}
+          SKIP_PACKAGES: cuda_blackboard
 
       - name: "Tar artifacts"
         if: ${{ inputs.artifacts-upload-name != '' }}
