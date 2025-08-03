@@ -116,12 +116,9 @@ jobs:
                         ];
                         $extra_packages = [
                           "${{ runner.temp }}/cuda-keyring_1.1-1_all.deb",
-                          "${{ runner.temp }}/cumm_0.5.3_amd64.deb",
-                          "${{ runner.temp }}/spconv_2.3.8_amd64.deb",
                         ];
                         $manual_depends = [
-                          "cumm",
-                          "spconv",
+                          "cuda-keyring",
                         ];
                         '
           DEB_DISTRO: jammy
