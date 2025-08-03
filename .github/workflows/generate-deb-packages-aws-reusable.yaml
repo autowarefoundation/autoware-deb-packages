@@ -116,6 +116,7 @@ jobs:
                         ];
                         $external_commands = {
                           "chroot-setup-commands" => [
+                            ["apt-get", "update"],
                             ["apt-get", "install", "-y", "cuda-keyring"],
                             ["apt-get", "update"],
                           ],
