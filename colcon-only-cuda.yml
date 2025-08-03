@@ -3,18 +3,18 @@ list:
     - autoware_cuda_dependency_meta
     - cuda_blackboard
   packages-up-to:
-    - autoware_bevfusion
-#    - autoware_bytetrack
-#    - autoware_cuda_pointcloud_preprocessor
-#    - autoware_cuda_utils
-#    - autoware_image_projection_based_fusion
-#    - autoware_lidar_apollo_instance_segmentation
-#    - autoware_lidar_centerpoint
-#    - autoware_lidar_transfusion
-#    - autoware_probabilistic_occupancy_grid_map
-#    - autoware_shape_estimation
-#    - autoware_tensorrt_classifier
-#    - autoware_tensorrt_common
-#    - autoware_tensorrt_yolox
-#    - autoware_traffic_light_classifier
-#    - autoware_traffic_light_fine_detector
+    # - autoware_bevfusion
+    - autoware_bytetrack
+    - autoware_cuda_pointcloud_preprocessor
+    - autoware_cuda_utils
+    - autoware_image_projection_based_fusion
+    - autoware_lidar_apollo_instance_segmentation
+    - autoware_lidar_centerpoint
+    - autoware_lidar_transfusion
+    - autoware_probabilistic_occupancy_grid_map
+    - autoware_shape_estimation
+    - autoware_tensorrt_classifier
+    - autoware_tensorrt_common
+    - autoware_tensorrt_yolox
+    - autoware_traffic_light_classifier
+    - autoware_traffic_light_fine_detector
