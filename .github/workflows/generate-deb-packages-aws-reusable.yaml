@@ -54,8 +54,8 @@ jobs:
         run: |
           mkdir -p ${{ runner.temp }}/cuda-deps/
           wget -P ${{ runner.temp }}/cuda-deps/ https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
-          wget -P ${{ runner.temp }}/cuda-deps/ https://github.com/autowarefoundation/spconv_cpp/releases/download/spconv_v2.3.8%2Bcumm_v0.5.3/cumm_0.5.3_amd64.deb
-          wget -P ${{ runner.temp }}/cuda-deps/ https://github.com/autowarefoundation/spconv_cpp/releases/download/spconv_v2.3.8%2Bcumm_v0.5.3/spconv_2.3.8_amd64.deb
+          # wget -P ${{ runner.temp }}/cuda-deps/ https://github.com/autowarefoundation/spconv_cpp/releases/download/spconv_v2.3.8%2Bcumm_v0.5.3/cumm_0.5.3_amd64.deb
+          # wget -P ${{ runner.temp }}/cuda-deps/ https://github.com/autowarefoundation/spconv_cpp/releases/download/spconv_v2.3.8%2Bcumm_v0.5.3/spconv_2.3.8_amd64.deb
 
       - name: 'Download non-CUDA Debian packages generated from previous workflow'
         uses: actions/download-artifact@v4
