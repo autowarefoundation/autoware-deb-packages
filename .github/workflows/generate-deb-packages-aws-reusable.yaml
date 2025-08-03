@@ -115,10 +115,10 @@ jobs:
                           "deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ jammy main",
                         ];
                         $extra_packages = [
-                          "${{ runner.temp }}/cuda-keyring_1.1-1_all.deb",
+                          "${{ runner.temp }}/cumm_0.5.3_amd64.deb",
                         ];
                         $manual_depends = [
-                          "cuda-keyring",
+                          "cumm",
                         ];
                         '
           DEB_DISTRO: jammy
