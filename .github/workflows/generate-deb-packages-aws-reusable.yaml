@@ -87,12 +87,13 @@ jobs:
                         $external_commands = {
                           "pre-build-commands" => [
                             ["sudo", "dpkg", "-i", "${{ runner.temp }}/cuda-keyring_all.deb"],
+                            ["sudo", "dpkg", "-i", "${{ runner.temp }}/cumm_amd64.deb"],
+                            ["sudo", "dpkg", "-i", "${{ runner.temp }}/spconv_amd64.deb"],
                             ["sudo", "apt-get", "update"],
                           ],
                         };
                         $manual_depends = [
                           "cuda-toolkit-12-4",
-                          "cumm",
                         ];
                         '
           DEB_DISTRO: jammy
