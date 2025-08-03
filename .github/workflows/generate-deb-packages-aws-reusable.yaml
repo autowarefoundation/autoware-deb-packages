@@ -119,12 +119,10 @@ jobs:
                           "${{ runner.temp }}/cumm_0.5.3_amd64.deb",
                           "${{ runner.temp }}/spconv_2.3.8_amd64.deb",
                         ];
-                        $external_commands = {
-                          "chroot-setup-commands" => [
-                            ["apt-get", "install", "-y", "${{ runner.temp }}/cuda-keyring_1.1-1_all.deb"],
-                            ["apt-get", "update"],
-                          ],
-                        };
+                        $manual_depends = [
+                          "cumm",
+                          "spconv",
+                        ];
                         '
           DEB_DISTRO: jammy
           ROS_DISTRO: humble
