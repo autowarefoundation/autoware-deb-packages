@@ -117,9 +117,6 @@ jobs:
                         $extra_packages = [
                           "${{ runner.temp }}/",
                         ];
-                        $manual_depends = [
-                          "spconv",
-                        ];
                         '
           DEB_DISTRO: jammy
           ROS_DISTRO: humble
