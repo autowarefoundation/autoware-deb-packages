@@ -115,10 +115,10 @@ jobs:
                           "deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ jammy main",
                         ];
                         $extra_packages = [
-                          "${{ runner.temp }}/cumm_0.5.3_amd64.deb",
+                          "${{ runner.temp }}/spconv_2.3.8_amd64.deb",
                         ];
                         $manual_depends = [
-                          "cumm",
+                          "spconv",
                         ];
                         '
           DEB_DISTRO: jammy
