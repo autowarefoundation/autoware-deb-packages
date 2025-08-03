@@ -86,10 +86,10 @@ jobs:
                         ];
                         $external_commands = {
                           "chroot-setup-commands" => [
-                            ["sudo", "apt-get", "install", "-y", "${{ runner.temp }}/cuda-keyring_1.1-1_all.deb"],
-                            ["sudo", "apt-get", "install", "-y", "${{ runner.temp }}/cumm_0.5.3_amd64.deb"],
-                            ["sudo", "apt-get", "install", "-y", "${{ runner.temp }}/spconv_2.3.8_amd64.deb"],
-                            ["sudo", "apt-get", "update"],
+                            ["apt-get", "install", "-y", "${{ runner.temp }}/cuda-keyring_1.1-1_all.deb"],
+                            ["apt-get", "install", "-y", "${{ runner.temp }}/cumm_0.5.3_amd64.deb"],
+                            ["apt-get", "install", "-y", "${{ runner.temp }}/spconv_2.3.8_amd64.deb"],
+                            ["apt-get", "update"],
                           ],
                         };
                         $manual_depends = [
@@ -121,8 +121,8 @@ jobs:
                         ];
                         $external_commands = {
                           "chroot-setup-commands" => [
-                            ["sudo", "apt-get", "install", "-y", "${{ runner.temp }}/cuda-keyring_1.1-1_all.deb"],
-                            ["sudo", "apt-get", "update"],
+                            ["apt-get", "install", "-y", "${{ runner.temp }}/cuda-keyring_1.1-1_all.deb"],
+                            ["apt-get", "update"],
                           ],
                         };
                         '
