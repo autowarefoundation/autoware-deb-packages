@@ -3,7 +3,6 @@ list:
     - autoware_cuda_dependency_meta
     - cuda_blackboard
   packages-up-to:
-    # - autoware_bevfusion
     - autoware_bytetrack
     - autoware_cuda_pointcloud_preprocessor
     - autoware_cuda_utils

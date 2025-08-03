@@ -2,7 +2,6 @@ list:
   packages-skip-by-dep:
     - autoware_cuda_dependency_meta
   packages-up-to:
-    # - autoware_bevfusion
     - autoware_bytetrack
     - autoware_cuda_pointcloud_preprocessor
     - autoware_cuda_utils
