@@ -52,9 +52,10 @@ jobs:
       - name: 'Download CUDA and dependencies'
         if: ${{ inputs.artifacts-download-name != '' }}
         run: |
-          wget -O ${{ runner.temp }}/cuda-keyring_all.deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
-          wget -O ${{ runner.temp }}/cumm_amd64.deb https://github.com/autowarefoundation/spconv_cpp/releases/download/spconv_v2.3.8%2Bcumm_v0.5.3/cumm_0.5.3_amd64.deb
-          wget -O ${{ runner.temp }}/spconv_amd64.deb https://github.com/autowarefoundation/spconv_cpp/releases/download/spconv_v2.3.8%2Bcumm_v0.5.3/spconv_2.3.8_amd64.deb
+          mkdir -p ${{ runner.temp }}/cuda-deps/
+          wget -P ${{ runner.temp }}/cuda-deps/ https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
+          #wget -P ${{ runner.temp }}/cuda-deps/ https://github.com/autowarefoundation/spconv_cpp/releases/download/spconv_v2.3.8%2Bcumm_v0.5.3/cumm_0.5.3_amd64.deb
+          #wget -P ${{ runner.temp }}/cuda-deps/ https://github.com/autowarefoundation/spconv_cpp/releases/download/spconv_v2.3.8%2Bcumm_v0.5.3/spconv_2.3.8_amd64.deb
 
       - name: 'Download non-CUDA Debian packages generated from previous workflow'
         uses: actions/download-artifact@v4
@@ -80,15 +81,10 @@ jobs:
                         ];
                         $extra_repository_keys = ["${{ github.workspace }}/repo/nvidia-cuda-apt-repo-3bf863cc.pub"];
                         $extra_packages = [
-                          "${{ runner.temp }}/cuda-keyring_all.deb",
+                          "${{ runner.temp }}/cuda-deps/",
                         ];
-                        $external_commands = {
-                          "pre-build-commands" => [
-                            ["sudo", "dpkg", "-i", "${{ runner.temp }}/cuda-keyring_all.deb"],
-                            ["sudo", "apt-get", "update"],
-                          ],
-                        };
                         $manual_depends = [
+                          "cuda-keyring",
                           "cuda-toolkit-12-4",
                         ];
                         '
