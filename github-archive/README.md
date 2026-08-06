@@ -1,10 +1,8 @@
 # autoware-deb-packages — GitHub metadata archive
 
-Snapshot of the GitHub-side metadata for `autowarefoundation/autoware-deb-packages`,
-exported 2026-08-06 before the repository was rewritten to remove Git LFS.
+Snapshot of the GitHub-side metadata for `autowarefoundation/autoware-deb-packages`, exported 2026-08-06 before the repository was rewritten to remove Git LFS.
 
-The git history itself is **not** here — it lives in the repository. This directory
-only preserves the things a delete-and-recreate would destroy.
+The git history itself is **not** here — it lives in the repository. This directory only preserves the things a delete-and-recreate would destroy.
 
 ## Browsable
 
@@ -26,16 +24,11 @@ only preserves the things a delete-and-recreate would destroy.
 | `milestones.json` | 0 milestones (none existed) |
 | `repo_metadata.json` | Description, topics, settings, counts at export time |
 
-JSON files are arrays-of-pages as produced by `gh api --paginate --slurp`.
-`build_index.py` flattens them; re-run it to regenerate the Markdown.
+JSON files are arrays-of-pages as produced by `gh api --paginate --slurp`. `build_index.py` flattens them; re-run it to regenerate the Markdown.
 
 ## What is deliberately not preserved
 
-- **Git LFS objects** — ~9.01 GB across 3,673 pointers. Judged disposable: they were
-  CI-produced `.deb`/`.ddeb` build artifacts of an unused repository.
+- **Git LFS objects** — ~9.01 GB across 3,673 pointers. Judged disposable: they were CI-produced `.deb`/`.ddeb` build artifacts of an unused repository.
 - **Stars and watchers** (2 stars) — cannot be transferred.
-- **Issue/PR numbering on GitHub** — after recreation, `#159`, `#162`, `#166` and the
-  other references appearing in commit messages will no longer resolve. The bodies
-  behind those numbers are in `ISSUES.md` / `PULLS.md`.
-- **Forks** — `jspricke/autoware-deb-packages` and `isamu-takagi/autoware-deb-packages`
-  are outside this repository's control and retain the pre-rewrite history.
+- **Issue/PR numbering on GitHub** — after recreation, `#159`, `#162`, `#166` and the other references appearing in commit messages will no longer resolve. The bodies behind those numbers are in `ISSUES.md` / `PULLS.md`.
+- **Forks** — `jspricke/autoware-deb-packages` and `isamu-takagi/autoware-deb-packages` are outside this repository's control and retain the pre-rewrite history.
